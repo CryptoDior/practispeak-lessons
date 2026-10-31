@@ -5,7 +5,7 @@ export const semioticsAndVisualCommunication: Lesson = {
   title: 'Semiotics and Visual Communication',
   subtitle: 'How to read and critique the meaning behind brand visuals, logos, and design choices',
   level: 'C1-C2',
-  description: 'Every colour, shape, and image in a brand identity is saying something. Great marketers know how to read those messages — and how to design them with intention. Semiotics is the study of signs and meaning. This lesson gives you the vocabulary to analyse any visual identity, explain what it communicates, and write a professional critique that goes beyond "I like it" or "I don\'t like it".',
+  description: 'Every color, shape, and image in a brand identity is saying something. Great marketers know how to read those messages — and how to design them with intention. Semiotics is the study of signs and meaning. This lesson gives you the vocabulary to analyze any visual identity, explain what it communicates, and write a professional critique that goes beyond "I like it" or "I don\'t like it".',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/semiotics-and-visual-communication-hero.png',
 
   vocabulary: [
@@ -47,7 +47,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       word: 'VISUAL IDENTITY',
       partOfSpeech: 'noun',
-      definition: 'All the visual parts of a brand, like logo and colours.',
+      definition: 'All the visual parts of a brand, like logo and colors.',
       example: 'Our visual identity uses blue and white.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/semiotics-and-visual-communication-consistent-blue-white-brand.png',
     },
@@ -83,7 +83,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       phrase: 'THIS COMMUNICATES [QUALITY] TO THE VIEWER BECAUSE...',
       definition: 'A way to explain the effect of a design choice.',
-      example: 'This communicates trust to the viewer because the colours are calm.',
+      example: 'This communicates trust to the viewer because the colors are calm.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/semiotics-and-visual-communication-calm-colours-suggest-trust.png',
     },
     {
@@ -179,7 +179,7 @@ export const semioticsAndVisualCommunication: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Always. Every element — logo, colour, type, imagery — should be saying the same thing. When they pull in different directions, customers feel it, even if they can't explain why.",
+      text: "Always. Every element — logo, color, type, imagery — should be saying the same thing. When they pull in different directions, customers feel it, even if they can't explain why.",
     },
     {
       speaker: 'Marcus',
@@ -210,7 +210,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     { "before": "At the denotative level it is just a circle. At the ", "after": " level, it means unity and completeness.", "answer": "connotative" },
     { "before": "The logo is the ", "after": ". The feeling of trust and quality it creates is the signified.", "answer": "signifier" },
     { "before": "The ", "after": " of white in Western markets is purity. In some Asian markets, it means mourning.", "answer": "connotation" },
-    { "before": "There is a tension in this identity — the bold colours and the formal typeface are sending conflicting messages. The ", "after": " is inconsistent.", "answer": "visual register" },
+    { "before": "There is a tension in this identity — the bold colors and the formal typeface are sending conflicting messages. The ", "after": " is inconsistent.", "answer": "visual register" },
     { "before": "A lion, a crown, a handshake — these are all part of the brand's ", "after": ". Each one carries a specific meaning.", "answer": "iconography" },
     { "before": "The ", "after": " of the word 'dog' is a four-legged animal. The connotation depends entirely on the context.", "answer": "denotation" }
   ],
@@ -219,7 +219,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       "question": "What does Riley say is the basic framework for a visual identity critique?",
       "options": [
-        "Start with the colours, then the logo, then the typography",
+        "Start with the colors, then the logo, then the typography",
         "Start with what it literally shows (denotation), then what it makes you feel (connotation)",
         "Start with the brand strategy, then check if the design matches it"
       ],
@@ -228,7 +228,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       "question": "What tension does Marcus identify in the client's brand identity?",
       "options": [
-        "The logo is too complex and the colours are too simple",
+        "The logo is too complex and the colors are too simple",
         "The lion feels traditional but the typeface feels modern — they send conflicting messages",
         "The visual register is too formal for the target audience"
       ],
@@ -256,7 +256,7 @@ export const semioticsAndVisualCommunication: Lesson = {
 
   warmUp: {
     "questions": [
-      "Think of a brand whose logo or colours you immediately recognise. What feeling does it give you — and why do you think the designers chose those elements?",
+      "Think of a brand whose logo or colors you immediately recognize. What feeling does it give you — and why do you think the designers chose those elements?",
       "Have you ever seen a brand that looked completely wrong for its product? What was the mismatch?",
       "When a company rebrands, it often causes strong reactions — positive and negative. Can you think of an example? What went right or wrong?"
     ]
@@ -275,10 +275,10 @@ export const semioticsAndVisualCommunication: Lesson = {
         "sentence": "At the _____ level, it is just a green leaf. At the connotative level, it represents nature, health, and sustainability.",
         "options": ["denotative", "literal", "surface"],
         "correctIndex": 0,
-        "explanation": "'At the denotative level' is the standard phrase for describing the literal meaning of a visual element before analysing its deeper meaning. 'Literal level' means the same thing but is less precise in semiotic analysis. 'Surface level' is informal. Always pair 'denotative' with 'connotative' in visual identity critique."
+        "explanation": "'At the denotative level' is the standard phrase for describing the literal meaning of a visual element before analyzing its deeper meaning. 'Literal level' means the same thing but is less precise in semiotic analysis. 'Surface level' is informal. Always pair 'denotative' with 'connotative' in visual identity critique."
       },
       {
-        "sentence": "The colours, logo, typography, and photography together form the brand's _____.",
+        "sentence": "The colors, logo, typography, and photography together form the brand's _____.",
         "options": ["visual identity", "brand guidelines", "design system"],
         "correctIndex": 0,
         "explanation": "'Visual identity' is the complete set of visual elements that represent a brand. 'Brand guidelines' are the rules for how to use the visual identity. 'Design system' is a technical term from product design. When referring to all the visual elements of a brand as a whole, use 'visual identity'."
@@ -299,7 +299,7 @@ export const semioticsAndVisualCommunication: Lesson = {
         "sentence": "The crown, the shield, and the laurel wreath are all part of the brand's _____. Each symbol carries a specific meaning.",
         "options": ["iconography", "symbolism", "imagery"],
         "correctIndex": 0,
-        "explanation": "'Iconography' is the specific term for the system of symbols and images a brand uses — it implies an intentional, consistent visual vocabulary. 'Symbolism' refers to the meaning of individual symbols. 'Imagery' is a broader term for visual content. When analysing a brand's deliberate use of symbols as a system, use 'iconography'."
+        "explanation": "'Iconography' is the specific term for the system of symbols and images a brand uses — it implies an intentional, consistent visual vocabulary. 'Symbolism' refers to the meaning of individual symbols. 'Imagery' is a broader term for visual content. When analyzing a brand's deliberate use of symbols as a system, use 'iconography'."
       }
     ]
   },
@@ -323,7 +323,7 @@ export const semioticsAndVisualCommunication: Lesson = {
           "options": [
             "Blue tested well in our audience research.",
             "Blue was a strategic choice. At the connotative level, it signals trust, stability, and professionalism — which are the three brand values we are trying to own. For a financial services company entering a new market, those associations are exactly what we need to build.",
-            "It's the most common colour in corporate branding — it's safe and well-understood."
+            "It's the most common color in corporate branding — it's safe and well-understood."
           ],
           "correctIndex": 1,
           "explanation": "Option B gives a strategic, semiotic answer — it names the connotations and connects them to brand strategy. This is how you defend a visual decision at a senior level. Option A cites data without analysis. Option C reduces a strategic choice to a safe default, which lacks confidence."
@@ -336,7 +336,7 @@ export const semioticsAndVisualCommunication: Lesson = {
             "Thank you — the team worked very hard on it."
           ],
           "correctIndex": 1,
-          "explanation": "Option B accepts the compliment but raises a critical professional concern — cross-cultural semiotics. Connotations of colours and symbols vary significantly across markets. This shows strategic thinking. Option A accepts positive feedback and moves on without thinking critically. Option C is polite but adds nothing."
+          "explanation": "Option B accepts the compliment but raises a critical professional concern — cross-cultural semiotics. Connotations of colors and symbols vary significantly across markets. This shows strategic thinking. Option A accepts positive feedback and moves on without thinking critically. Option C is polite but adds nothing."
         }
       ]
     },
@@ -347,7 +347,7 @@ export const semioticsAndVisualCommunication: Lesson = {
         { "speaker": "Riley", "text": "Good start. And what does the compass connote?" },
         { "speaker": "Marcus", "text": "Direction, navigation, exploration. The signified is a compass — a physical instrument for finding your way." },
         { "speaker": "Riley", "text": "Actually, what you just described is the denotation, not the signified. The signified is the meaning — direction and exploration." },
-        { "speaker": "Marcus", "text": "Understood. And the visual register here is very bold and aggressive — lots of colour, strong contrasts. It feels luxury and premium." },
+        { "speaker": "Marcus", "text": "Understood. And the visual register here is very bold and aggressive — lots of color, strong contrasts. It feels luxury and premium." },
         { "speaker": "Riley", "text": "Careful. Bold and aggressive visual register is not luxury — it's usually more mass-market or disruptive. Luxury register tends to be minimal, restrained, and elegant." }
       ],
       "mistakes": [
@@ -361,7 +361,7 @@ export const semioticsAndVisualCommunication: Lesson = {
           "lineIndex": 4,
           "incorrectText": "It feels luxury and premium",
           "correction": "Bold, aggressive visual register signals mass-market or challenger — not luxury",
-          "explanation": "This is a semiotic error. Bold colours and strong contrasts typically connote energy, disruption, and mass-market appeal. Luxury visual register is the opposite — minimal, restrained, quiet confidence. Riley correctly identifies this in the next line."
+          "explanation": "This is a semiotic error. Bold colors and strong contrasts typically connote energy, disruption, and mass-market appeal. Luxury visual register is the opposite — minimal, restrained, quiet confidence. Riley correctly identifies this in the next line."
         },
         {
           "lineIndex": 0,
@@ -376,7 +376,7 @@ export const semioticsAndVisualCommunication: Lesson = {
       "items": [
         {
           "customerLine": "We want the new brand to feel premium and trustworthy. What visual choices should we make?",
-          "salespersonStart": "For premium, the visual register should be minimal and restrained — think limited colour palette, generous white space, and considered typography. The connotation of...",
+          "salespersonStart": "For premium, the visual register should be minimal and restrained — think limited color palette, generous white space, and considered typography. The connotation of...",
           "suggestedCompletion": "dark navy or deep forest green is stability and quality. Avoid bright primaries — they connote accessibility and volume, not exclusivity. For trust, serif or classic sans-serif typefaces work better than decorative or display fonts. Every element should be saying the same thing: we are serious, reliable, and worth the price."
         },
         {
@@ -386,7 +386,7 @@ export const semioticsAndVisualCommunication: Lesson = {
         },
         {
           "customerLine": "We're launching in Japan next year. Does the visual identity need to change?",
-          "salespersonStart": "Possibly. You need to review the connotations of every key element in the Japanese market. Colours, shapes, and iconography carry different meanings across cultures. For example...",
+          "salespersonStart": "Possibly. You need to review the connotations of every key element in the Japanese market. Colors, shapes, and iconography carry different meanings across cultures. For example...",
           "suggestedCompletion": "white connotes purity in Western markets but mourning in parts of Asia. And the number four is associated with death in Japanese culture — so if your iconography features groups of four, that needs to change. Always run the visual identity through a local cultural lens before entering a new market."
         }
       ]

@@ -287,7 +287,7 @@ export const dataDrivenDecisions: Lesson = {
     {
         "question": "What does 'drilling down into the data' mean in practice?",
         "options": [
-            "Spending more time analysing data before making any marketing decisions.",
+            "Spending more time analyzing data before making any marketing decisions.",
             "Going beyond the top-line metrics to look at the specific breakdown underneath — for example, splitting overall conversion rate by channel, by audience segment, or by content type to find where the performance difference is coming from. The headline number rarely tells you what to change. The breakdown does.",
             "Extracting raw data from the analytics platform for detailed offline analysis.",
             "Presenting data at a more technical level of detail for sophisticated clients."
@@ -298,7 +298,7 @@ export const dataDrivenDecisions: Lesson = {
         "question": "A cohort of prospects who attended the October webinar is converting at 68% compared to 22% for the overall list. What action does this insight suggest?",
         "options": [
             "Increase the frequency of email campaigns to the overall list to improve their conversion rate.",
-            "Prioritise the webinar as a lead generation channel — the prospects it produces are converting at three times the rate of other sources. Consider running a webinar every quarter, and investigate what is different about the audience that attends: are they more senior, more in the target persona, or further along in the buying journey?",
+            "Prioritize the webinar as a lead generation channel — the prospects it produces are converting at three times the rate of other sources. Consider running a webinar every quarter, and investigate what is different about the audience that attends: are they more senior, more in the target persona, or further along in the buying journey?",
             "Reduce budget from other channels and put everything into webinar production.",
             "Contact the webinar cohort first and use them as reference clients for the next campaign."
         ],
@@ -363,7 +363,7 @@ export const dataDrivenDecisions: Lesson = {
                 "customerLine": "Client: 'I want to compare our results to our competitors. Can you get their marketing data?'",
                 "options": [
                     "Say: 'We can research their public metrics — follower counts, post frequency, and ad activity are all visible.'",
-                    "Say: 'We can get a useful picture without needing their private data. I can benchmark you against published industry averages for your sector — that tells you whether you are above or below the market. I can also analyse their public LinkedIn activity: what content performs best for them, how frequently they post, what topics they cover. And I can track any changes in their paid ad spend through LinkedIn's ad transparency tool. What I cannot get is their internal conversion data or campaign results — but the public picture, combined with industry benchmarks, gives you a meaningful comparison. What specific questions are you trying to answer about the competition?'",
+                    "Say: 'We can get a useful picture without needing their private data. I can benchmark you against published industry averages for your sector — that tells you whether you are above or below the market. I can also analyze their public LinkedIn activity: what content performs best for them, how frequently they post, what topics they cover. And I can track any changes in their paid ad spend through LinkedIn's ad transparency tool. What I cannot get is their internal conversion data or campaign results — but the public picture, combined with industry benchmarks, gives you a meaningful comparison. What specific questions are you trying to answer about the competition?'",
                     "Say: 'Competitor data is not something we can access — let us focus on our own performance metrics instead.'"
                 ],
                 "correctIndex": 1,

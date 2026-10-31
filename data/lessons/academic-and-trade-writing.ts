@@ -207,7 +207,7 @@ export const academicAndTradeWriting: Lesson = {
   ],
 
   fillBlankExercise: [
-    { "before": "Write the ", "after": " last — even though it appears first. It should summarise what you actually found.", "answer": "abstract" },
+    { "before": "Write the ", "after": " last — even though it appears first. It should summarize what you actually found.", "answer": "abstract" },
     { "before": "Every major claim in the article needs a ", "after": ". Without one, reviewers will question it.", "answer": "citation" },
     { "before": "Our ", "after": " was that video content would outperform static images. The data proved us right.", "answer": "hypothesis" },
     { "before": "The editor asked us to clarify our ", "after": " — how did we collect the data and who did we survey?", "answer": "methodology" },
@@ -220,7 +220,7 @@ export const academicAndTradeWriting: Lesson = {
       "question": "Why does Riley say to write the abstract last?",
       "options": [
         "Because it is the hardest part and needs the most time",
-        "Because it should summarise what you actually found, not what you planned to find",
+        "Because it should summarize what you actually found, not what you planned to find",
         "Because editors always rewrite the abstract anyway"
       ],
       "correctIndex": 1
@@ -346,7 +346,7 @@ export const academicAndTradeWriting: Lesson = {
         { "speaker": "Marcus", "text": "I've finished the first draft. The data suggests that our hypothesis was correct." },
         { "speaker": "Riley", "text": "Good. Did you write the abstract first so the editor can read it as an overview?" },
         { "speaker": "Marcus", "text": "Yes — I wrote it first. It was easy because I had a clear plan from the start." },
-        { "speaker": "Riley", "text": "Actually, you should write it last. The abstract summarises what you found — not what you planned to find." },
+        { "speaker": "Riley", "text": "Actually, you should write it last. The abstract summarizes what you found — not what you planned to find." },
         { "speaker": "Marcus", "text": "Understood. And I added citations for all the major claims, but I didn't cite the methodology section." },
         { "speaker": "Riley", "text": "The methodology doesn't need citations — it explains your own process. But make sure the findings section is in line with previous studies on the same topic." }
       ],
@@ -355,7 +355,7 @@ export const academicAndTradeWriting: Lesson = {
           "lineIndex": 1,
           "incorrectText": "write the abstract first so the editor can read it as an overview",
           "correction": "The abstract should be written last, not first",
-          "explanation": "This is a content error, not a grammar error. Riley's advice here is wrong — she should be telling Marcus to write the abstract last. The abstract summarises what the article found, so it can only be written accurately after the research and conclusions are complete."
+          "explanation": "This is a content error, not a grammar error. Riley's advice here is wrong — she should be telling Marcus to write the abstract last. The abstract summarizes what the article found, so it can only be written accurately after the research and conclusions are complete."
         },
         {
           "lineIndex": 2,

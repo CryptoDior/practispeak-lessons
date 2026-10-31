@@ -41,7 +41,7 @@ export const robloxGamesILike: Lesson = {
       word: 'SIMULATOR',
       partOfSpeech: 'noun',
       definition: 'A game where you copy something from real life — like farming, flying, or running a pet shop.',
-      example: 'My favourite simulator is Pet Simulator — I have 50 pets and they help me earn coins!',
+      example: 'My favorite simulator is Pet Simulator — I have 50 pets and they help me earn coins!',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-games-i-like-simulator.png',
     },
     {
@@ -99,7 +99,7 @@ export const robloxGamesILike: Lesson = {
     {
       word: 'SIMULATION',
       partOfSpeech: 'noun',
-      definition: 'When you practise something real in a safe way — like a driving test or a school roleplay.',
+      definition: 'When you practice something real in a safe way — like a driving test or a school roleplay.',
       example: 'The school did a fire drill — it is a simulation of a real emergency.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-games-i-like-simulation-irl.png',
     },
@@ -270,7 +270,7 @@ export const robloxGamesILike: Lesson = {
   fillBlankExercise: [
     { before: 'I love', after: 's — I finished a 500-level one yesterday!', answer: 'obby' },
     { before: 'In my', after: 'game I built a pizza restaurant that earns coins every second.', answer: 'tycoon' },
-    { before: 'My favourite', after: 'is Pet Simulator — I have 50 animals in my shop!', answer: 'simulator' },
+    { before: 'My favorite', after: 'is Pet Simulator — I have 50 animals in my shop!', answer: 'simulator' },
     { before: 'I played a', after: 'game where I was a police officer in a whole city story.', answer: 'roleplay' },
     { before: 'I tried a', after: 'game once but the monsters were too scary and I ran away!', answer: 'horror' },
     { before: 'I came first in five', after: 'games today — I am really fast!', answer: 'racing' },

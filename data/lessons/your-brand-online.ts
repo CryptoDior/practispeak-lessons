@@ -93,9 +93,9 @@ export const yourBrandOnline: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/click-through-to-a-page.png',
     },
     {
-      phrase: 'OPTIMISE [SOMETHING] FOR [A KEYWORD]',
+      phrase: 'OPTIMIZE [SOMETHING] FOR [A KEYWORD]',
       definition: 'To change something so it works better for a keyword.',
-      example: 'We need to optimise this page for \'LinkedIn tips\'.',
+      example: 'We need to optimize this page for \'LinkedIn tips\'.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/optimise-something-for-a-keyword.png',
     },
     {
@@ -119,7 +119,7 @@ export const yourBrandOnline: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'This is an [[SEO:Search Engine Optimisation — improving a website to appear higher in search results]] issue. If we want to [[ranking:the position of a website in search results]] rank higher, we need to understand which [[keyword:a word or phrase people type into a search engine]] s our clients are searching for.',
+      text: 'This is an [[SEO:Search Engine Optimization — improving a website to appear higher in search results]] issue. If we want to [[ranking:the position of a website in search results]] rank higher, we need to understand which [[keyword:a word or phrase people type into a search engine]] s our clients are searching for.',
     },
     {
       speaker: 'Dana',
@@ -167,7 +167,7 @@ export const yourBrandOnline: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Yes — the [[landing page:a page designed for a single goal]] must be optimised for the right [[keyword:a word or phrase used in SEO]]. If it is, when someone searches for that term, they might [[click:when a user presses a link]] on our result and go directly to that page.',
+      text: 'Yes — the [[landing page:a page designed for a single goal]] must be optimized for the right [[keyword:a word or phrase used in SEO]]. If it is, when someone searches for that term, they might [[click:when a user presses a link]] on our result and go directly to that page.',
     },
     {
       speaker: 'Dana',
@@ -206,7 +206,7 @@ export const yourBrandOnline: Lesson = {
     },
     {
         "word": "SEO",
-        "definition": "Search Engine Optimisation — improving a website so it appears higher in search results"
+        "definition": "Search Engine Optimization — improving a website so it appears higher in search results"
     },
     {
         "word": "LANDING PAGE",
@@ -264,7 +264,7 @@ export const yourBrandOnline: Lesson = {
         "question": "A client says: 'We want to appear on the first page of Google. How do we do that?' What is your first response?",
         "options": [
             "Say: 'You need to pay for Google Ads — that is the only way to appear on the first page.'",
-            "Say: 'We start with keyword research — we identify the phrases your potential clients type into Google, then we create content and optimise your pages around those terms. This is called SEO, and it takes two to four months but the results are long-lasting.'",
+            "Say: 'We start with keyword research — we identify the phrases your potential clients type into Google, then we create content and optimize your pages around those terms. This is called SEO, and it takes two to four months but the results are long-lasting.'",
             "Say: 'First-page rankings are very difficult — most small companies cannot achieve them.'",
             "Say: 'Post more frequently on social media — that will improve your Google ranking.'"
         ],
@@ -294,7 +294,7 @@ export const yourBrandOnline: Lesson = {
         "question": "A client has a new service page. They want it to appear in Google searches. What do you recommend?",
         "options": [
             "Post about the service on social media so Google finds it faster.",
-            "Optimise the page for the right keyword — include it in the page title, the headings, and the body text. Also build links to the page from other relevant content on your site.",
+            "Optimize the page for the right keyword — include it in the page title, the headings, and the body text. Also build links to the page from other relevant content on your site.",
             "Add more images to the page — Google prefers pages with lots of visual content.",
             "Make the page longer — Google always ranks longer pages higher."
         ],
@@ -359,7 +359,7 @@ export const yourBrandOnline: Lesson = {
                 "ranking"
             ],
             "correctIndex": 1,
-            "explanation": "SEO (Search Engine Optimisation) is the practice of improving a website's content and structure to appear higher in search results. Traffic is the number of visitors. Ranking is the position in search results. SEO is the investment that improves rankings and therefore traffic — it is the strategy, the others are the outcomes."
+            "explanation": "SEO (Search Engine Optimization) is the practice of improving a website's content and structure to appear higher in search results. Traffic is the number of visitors. Ranking is the position in search results. SEO is the investment that improves rankings and therefore traffic — it is the strategy, the others are the outcomes."
         },
         {
             "sentence": "We identified 'LinkedIn management for B2B' as a key _____ — every relevant article now includes that phrase.",
@@ -379,7 +379,7 @@ export const yourBrandOnline: Lesson = {
                 "optimising"
             ],
             "correctIndex": 1,
-            "explanation": "Ranking means appearing at a specific position in search engine results. Clicking is when a user presses a link. Optimising means improving something for search. 'Ranking on the first page' means the article appears in the top ten results — a major achievement that drives significant traffic."
+            "explanation": "Ranking means appearing at a specific position in search engine results. Clicking is when a user presses a link. Optimizing means improving something for search. 'Ranking on the first page' means the article appears in the top ten results — a major achievement that drives significant traffic."
         },
         {
             "sentence": "Every campaign sends visitors to a dedicated _____ — it has one clear message and one call to action.",
@@ -431,7 +431,7 @@ export const yourBrandOnline: Lesson = {
                 "customerLine": "Client: 'We have a new service page but it is not appearing in Google searches. What should we do?'",
                 "options": [
                     "Say: 'New pages take time to appear in Google — wait a few months and check again.'",
-                    "Say: 'We need to optimise the page for the right keyword — include it in the title, the headings, and throughout the content. We should also add internal links from your other pages and make sure the page answers a question your clients are actually searching for. Can you tell me what terms you want to rank for?'",
+                    "Say: 'We need to optimize the page for the right keyword — include it in the title, the headings, and throughout the content. We should also add internal links from your other pages and make sure the page answers a question your clients are actually searching for. Can you tell me what terms you want to rank for?'",
                     "Say: 'The page probably needs more images — Google prefers pages with lots of visuals.'"
                 ],
                 "correctIndex": 1,
@@ -462,7 +462,7 @@ export const yourBrandOnline: Lesson = {
             },
             {
                 "speaker": "Brief",
-                "text": "We will write two articles per week, each optimised for a specific keyword."
+                "text": "We will write two articles per week, each optimized for a specific keyword."
             },
             {
                 "speaker": "Brief",

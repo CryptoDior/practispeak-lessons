@@ -87,9 +87,9 @@ export const crossCulturalSalesCommunication: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cross-cultural-sales-communication-aligned-on-expectations-before-moving-forward.png',
     },
     {
-      phrase: "IN MY EXPERIENCE WORKING WITH ORGANISATIONS IN [CONTEXT], I'VE FOUND THAT...",
+      phrase: "IN MY EXPERIENCE WORKING WITH ORGANIZATIONS IN [CONTEXT], I'VE FOUND THAT...",
       definition: 'A phrase that shares what you have learned from past work in a particular setting.',
-      example: 'In my experience working with organisations in the Gulf, I\'ve found that decisions take time.',
+      example: 'In my experience working with organizations in the Gulf, I\'ve found that decisions take time.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cross-cultural-sales-communication-in-my-experience-working-with-organisations.png',
     },
     {
@@ -113,19 +113,19 @@ export const crossCulturalSalesCommunication: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Marcus, before we get into the detail — I want to make sure I'm approaching this in a way that works for you and your organisation. I know we've moved at a fairly direct pace so far, and I want to check in on whether that's comfortable.",
+      text: "Marcus, before we get into the detail — I want to make sure I'm approaching this in a way that works for you and your organization. I know we've moved at a fairly direct pace so far, and I want to check in on whether that's comfortable.",
     },
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "I appreciate you asking. To be honest — in our organisation, decisions of this scale involve multiple stakeholders and a significant amount of internal consultation before any [[commitment:a formal or informal agreement to proceed — the meaning and weight of a 'commitment' varies significantly across cultural contexts]] can be made. I want to be transparent about that.",
+      text: "I appreciate you asking. To be honest — in our organization, decisions of this scale involve multiple stakeholders and a significant amount of internal consultation before any [[commitment:a formal or informal agreement to proceed — the meaning and weight of a 'commitment' varies significantly across cultural contexts]] can be made. I want to be transparent about that.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "I'm very glad you told me. I don't want to create pressure that doesn't align with how your organisation works. Can I ask — at this stage in the process, who else would typically be involved in a decision of this scale?",
+      text: "I'm very glad you told me. I don't want to create pressure that doesn't align with how your organization works. Can I ask — at this stage in the process, who else would typically be involved in a decision of this scale?",
     },
     {
       speaker: 'Marcus',
@@ -137,7 +137,7 @@ export const crossCulturalSalesCommunication: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Understood — and that's a mark of a well-governed organisation. Rather than framing this as a sales process, what would be most useful for me to prepare to support that internal conversation? I want each stakeholder to have what they need in a format that works for them.",
+      text: "Understood — and that's a mark of a well-governed organization. Rather than framing this as a sales process, what would be most useful for me to prepare to support that internal conversation? I want each stakeholder to have what they need in a format that works for them.",
     },
     {
       speaker: 'Marcus',
@@ -185,7 +185,7 @@ export const crossCulturalSalesCommunication: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "That concern is completely legitimate — and it's one I take seriously. In my experience working with organisations that operate with a more rigorous evaluation process, I've found that the vendors who build lasting partnerships are the ones who are equally [[directness:the degree to which meaning is stated explicitly versus implied through context or hedging]] direct about their limitations as they are about their strengths.",
+      text: "That concern is completely legitimate — and it's one I take seriously. In my experience working with organizations that operate with a more rigorous evaluation process, I've found that the vendors who build lasting partnerships are the ones who are equally [[directness:the degree to which meaning is stated explicitly versus implied through context or hedging]] direct about their limitations as they are about their strengths.",
     },
     {
       speaker: 'Riley',
@@ -265,7 +265,7 @@ export const crossCulturalSalesCommunication: Lesson = {
         "answer": "heard"
     },
     {
-        "before": "In my experience working with organisations in this context, I've ",
+        "before": "In my experience working with organizations in this context, I've ",
         "after": " that the most useful preparation is a detailed written proposal each stakeholder can evaluate independently.",
         "answer": "found"
     },
@@ -351,7 +351,7 @@ export const crossCulturalSalesCommunication: Lesson = {
                 "misinterpreted for"
             ],
             "correctIndex": 1,
-            "explanation": "'Misinterpreted as' is the correct collocation — 'as' introduces the incorrect interpretation being attributed to the behaviour. 'Interpret as', 'regard as', 'describe as', 'misread as' — all of these verbs of classification and interpretation take 'as', not 'like' or 'for'. 'Like' is used for comparison ('she communicates like a native speaker'), not for classification. 'For' is used in other collocations ('mistaken for', 'taken for') but not with 'misinterpreted'."
+            "explanation": "'Misinterpreted as' is the correct collocation — 'as' introduces the incorrect interpretation being attributed to the behavior. 'Interpret as', 'regard as', 'describe as', 'misread as' — all of these verbs of classification and interpretation take 'as', not 'like' or 'for'. 'Like' is used for comparison ('she communicates like a native speaker'), not for classification. 'For' is used in other collocations ('mistaken for', 'taken for') but not with 'misinterpreted'."
         },
         {
             "sentence": "Managing expectations across cultural boundaries proactively is one of the most effective ways _____ misalignment before it becomes a serious problem.",
@@ -384,7 +384,7 @@ export const crossCulturalSalesCommunication: Lesson = {
             "explanation": "In high-context communication cultures, a direct refusal is rarely given because it causes both parties to lose face. Instead, refusal is typically signalled through vagueness, hedging, excessive qualification, sudden interest in 'consulting further', or a noticeably long silence. A skilled cross-cultural communicator reads these signals as an indirect no — not as uncertainty or a neutral response. This requires cultural literacy: the literal words say 'we'll consider it', but the subtext says 'we are not going to proceed'."
         },
         {
-            "sentence": "Riley realised she had misread the register when her client replied with a full formal salutation after Riley had opened _____ 'Hi Yuki'.",
+            "sentence": "Riley realized she had misread the register when her client replied with a full formal salutation after Riley had opened _____ 'Hi Yuki'.",
             "options": [
                 "with",
                 "by",
@@ -407,17 +407,17 @@ export const crossCulturalSalesCommunication: Lesson = {
                     "I understand. Could you give me a rough timeline for when you expect to have an answer?"
                 ],
                 "correctIndex": 1,
-                "explanation": "In a high-context communication environment, 'there are aspects that require further consideration' is very likely signalling a concern rather than a neutral procedural statement. Option B reads this signal correctly and creates a face-saving channel for the concern to be expressed — it names the possibility of unspoken concerns without forcing the client to confirm them directly. Option A is too passive — it accepts the vagueness and loses the opportunity. Option C asks for a timeline without addressing the concern, which doesn't move the conversation forward."
+                "explanation": "In a high-context communication environment, 'there are aspects that require further consideration' is very likely signaling a concern rather than a neutral procedural statement. Option B reads this signal correctly and creates a face-saving channel for the concern to be expressed — it names the possibility of unspoken concerns without forcing the client to confirm them directly. Option A is too passive — it accepts the vagueness and loses the opportunity. Option C asks for a timeline without addressing the concern, which doesn't move the conversation forward."
             },
             {
                 "customerLine": "I appreciate your directness, but in our culture, we typically move more carefully before making decisions of this scale.",
                 "options": [
-                    "Of course — I completely respect that. I may have been moving faster than is comfortable, and I apologise if that created any pressure. Could you help me understand what a comfortable pace looks like for your organisation, so I can align my approach accordingly?",
+                    "Of course — I completely respect that. I may have been moving faster than is comfortable, and I apologize if that created any pressure. Could you help me understand what a comfortable pace looks like for your organization, so I can align my approach accordingly?",
                     "I understand — but I'd gently note that our current pricing is only available until the end of the quarter, so there is some timing sensitivity on our side.",
-                    "That makes complete sense. In my experience, organisations that take more time to evaluate tend to make better decisions — so I think this approach will serve you well."
+                    "That makes complete sense. In my experience, organizations that take more time to evaluate tend to make better decisions — so I think this approach will serve you well."
                 ],
                 "correctIndex": 0,
-                "explanation": "Option A is the best response — it acknowledges the feedback, takes responsibility without being defensive, and then asks an open question that gives the client control over defining the process. This is precisely the right response to a direct piece of cultural feedback. Option B introduces urgency immediately after being told the client doesn't appreciate pressure — which is culturally tone-deaf. Option C is patronising ('organisations that take more time make better decisions') — it validates the client's position in a way that sounds like approval from a superior, not a peer."
+                "explanation": "Option A is the best response — it acknowledges the feedback, takes responsibility without being defensive, and then asks an open question that gives the client control over defining the process. This is precisely the right response to a direct piece of cultural feedback. Option B introduces urgency immediately after being told the client doesn't appreciate pressure — which is culturally tone-deaf. Option C is patronising ('organizations that take more time make better decisions') — it validates the client's position in a way that sounds like approval from a superior, not a peer."
             },
             {
                 "customerLine": "Your proposal is good. We will present it to the regional director at the quarterly review in eight weeks.",
@@ -427,7 +427,7 @@ export const crossCulturalSalesCommunication: Lesson = {
                     "Eight weeks is a long time — is there any possibility of accelerating the timeline if the regional director could review it sooner?"
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B demonstrates genuine commercial intelligence — it uses the eight-week window proactively to reduce risk rather than simply waiting. Preparing a director-specific briefing that pre-empts known concerns ('implementation risk') shows that Riley listened carefully earlier in the conversation and is now acting on it. This is expectation management and relationship-building in one move. Option A is too passive — it creates no forward momentum and leaves everything to chance. Option C applies pressure after explicitly being told the organisation moves carefully — which would damage the relationship."
+                "explanation": "Option B demonstrates genuine commercial intelligence — it uses the eight-week window proactively to reduce risk rather than simply waiting. Preparing a director-specific briefing that pre-empts known concerns ('implementation risk') shows that Riley listened carefully earlier in the conversation and is now acting on it. This is expectation management and relationship-building in one move. Option A is too passive — it creates no forward momentum and leaves everything to chance. Option C applies pressure after explicitly being told the organization moves carefully — which would damage the relationship."
             }
         ]
     },
@@ -470,7 +470,7 @@ export const crossCulturalSalesCommunication: Lesson = {
                 "lineIndex": 4,
                 "incorrectText": "misinterpreted like",
                 "correction": "misinterpreted as",
-                "explanation": "'As' is the correct preposition with 'misinterpreted' — it introduces the identity or category being incorrectly assigned. 'Interpret as', 'regard as', 'describe as', 'misread as', 'misinterpreted as' — all verbs of classification take 'as'. 'Like' introduces a comparison: 'she communicates like a diplomat'. 'Like' cannot replace 'as' when introducing a classification or identity. 'Silence was misinterpreted as weakness' (it was wrongly labelled as weakness) versus 'he spoke like a diplomat' (comparison, not classification)."
+                "explanation": "'As' is the correct preposition with 'misinterpreted' — it introduces the identity or category being incorrectly assigned. 'Interpret as', 'regard as', 'describe as', 'misread as', 'misinterpreted as' — all verbs of classification take 'as'. 'Like' introduces a comparison: 'she communicates like a diplomat'. 'Like' cannot replace 'as' when introducing a classification or identity. 'Silence was misinterpreted as weakness' (it was wrongly labeled as weakness) versus 'he spoke like a diplomat' (comparison, not classification)."
             },
             {
                 "lineIndex": 5,
@@ -486,7 +486,7 @@ export const crossCulturalSalesCommunication: Lesson = {
             {
                 "customerLine": "We found your last meeting quite direct — some members of our team were not entirely comfortable with the pace.",
                 "salespersonStart": "I really appreciate you telling me that directly — it takes confidence to give that kind of feedback and I'm grateful for it.",
-                "suggestedCompletion": "I can see that I moved at a pace that didn't align with how your organisation typically works, and I should have asked earlier rather than assumed. Going forward — could you help me understand what a more comfortable rhythm looks like? I'd rather adapt to how you work than have you spend energy managing the pace of the relationship."
+                "suggestedCompletion": "I can see that I moved at a pace that didn't align with how your organization typically works, and I should have asked earlier rather than assumed. Going forward — could you help me understand what a more comfortable rhythm looks like? I'd rather adapt to how you work than have you spend energy managing the pace of the relationship."
             },
             {
                 "customerLine": "The proposal is under review. There are some aspects that we are still considering carefully.",
@@ -494,7 +494,7 @@ export const crossCulturalSalesCommunication: Lesson = {
                 "suggestedCompletion": "when you say there are aspects still being considered, I want to check: are there specific concerns that I might be able to address directly? I'd rather we discuss them openly now than have them remain unresolved as the review progresses. If there's a more comfortable way for those concerns to be surfaced — in writing, through a separate call, or in whatever format works best — I'm happy to accommodate that."
             },
             {
-                "customerLine": "In our organisation, we don't typically make decisions of this scale without significant internal discussion. It could take several months.",
+                "customerLine": "In our organization, we don't typically make decisions of this scale without significant internal discussion. It could take several months.",
                 "salespersonStart": "I completely respect that process — and I want to support it rather than work against it.",
                 "suggestedCompletion": "Could I ask: what would be most useful for me to prepare for each stage of the internal review? I'd rather invest time now in giving your stakeholders exactly what they need — in the right format and at the right level of detail — than send a single proposal and hope it works for everyone. If it would help, I could prepare separate materials for the procurement team, the divisional heads, and the regional director — each addressing their likely priorities."
             }

@@ -517,7 +517,7 @@ export const advancedPersuasiveLanguage: Lesson = {
             },
             {
                 "name": "Situation 3",
-                "description": "You want the prospect to recognise that their current approach is creating a problem — but you do not want to state it directly, because hearing it from you is less powerful than arriving at it themselves.",
+                "description": "You want the prospect to recognize that their current approach is creating a problem — but you do not want to state it directly, because hearing it from you is less powerful than arriving at it themselves.",
                 "matchKey": "implication"
             }
         ],
@@ -535,7 +535,7 @@ export const advancedPersuasiveLanguage: Lesson = {
             {
                 "key": "implication",
                 "label": "Implication — let them draw the conclusion",
-                "description": "Ask a question that leads the prospect to the realisation themselves: 'How long have you been aware of the follow-up problem?' Then: 'And what has changed in that time?' The implication — that nothing has changed because the system does not support change — is far more powerful when they say it than when you do."
+                "description": "Ask a question that leads the prospect to the realization themselves: 'How long have you been aware of the follow-up problem?' Then: 'And what has changed in that time?' The implication — that nothing has changed because the system does not support change — is far more powerful when they say it than when you do."
             }
         ]
     },

@@ -161,7 +161,7 @@ export const inAMarketingMeeting: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Yes — let us [[move on to]] item two. The new [[brief:a document giving a team the information to do their work]] is for the Q4 campaign. I have a draft — I [[propose:to formally suggest]] we review it together and finalise it today.',
+      text: 'Yes — let us [[move on to]] item two. The new [[brief:a document giving a team the information to do their work]] is for the Q4 campaign. I have a draft — I [[propose:to formally suggest]] we review it together and finalize it today.',
     },
     {
       speaker: 'Dana',
@@ -173,7 +173,7 @@ export const inAMarketingMeeting: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Good. And I will [[follow up on]] the client approval by Thursday. Let us [[wrap up]] — can you summarise the [[action point:specific tasks agreed after the meeting]] s?',
+      text: 'Good. And I will [[follow up on]] the client approval by Thursday. Let us [[wrap up]] — can you summarize the [[action point:specific tasks agreed after the meeting]] s?',
     },
     {
       speaker: 'Dana',
@@ -264,7 +264,7 @@ export const inAMarketingMeeting: Lesson = {
         "question": "A meeting is about to start. You notice there is no agenda. What should you do?",
         "options": [
             "Start the meeting anyway — agendas are not necessary.",
-            "Ask the organiser to share an agenda — even a quick list of topics helps everyone prepare and keeps the meeting focused.",
+            "Ask the organizer to share an agenda — even a quick list of topics helps everyone prepare and keeps the meeting focused.",
             "Leave the meeting and ask for it to be rescheduled.",
             "Wait and see what topics come up — it will be fine."
         ],
@@ -402,7 +402,7 @@ export const inAMarketingMeeting: Lesson = {
             "explanation": "Action point is a specific task someone agrees to complete after a meeting — with a clear owner and deadline. Follow-up is a message or action checking on progress. Update is a status report. An action point is concrete and assigned — it is what a person commits to doing."
         },
         {
-            "sentence": "We need to _____ the launch date before we can finalise the timeline — everything else depends on it.",
+            "sentence": "We need to _____ the launch date before we can finalize the timeline — everything else depends on it.",
             "options": [
                 "propose",
                 "bring up",
@@ -438,14 +438,14 @@ export const inAMarketingMeeting: Lesson = {
                 "explanation": "B is correct. It explains what action points are, what the expectation is, and where to find the information. A implies action points are optional, which is wrong. C deflects the question instead of helping."
             },
             {
-                "customerLine": "Meeting organiser: 'We have ten minutes left and we have not covered the last two agenda items.'",
+                "customerLine": "Meeting organizer: 'We have ten minutes left and we have not covered the last two agenda items.'",
                 "options": [
                     "Say: 'Let us keep going and finish the meeting whenever we finish — there is no rush.'",
                     "Say: 'I suggest we quickly agree on which item is most urgent and cover that now. The other one can be moved to a follow-up meeting or handled by email. Which is more time-sensitive?'",
                     "Say: 'We should cancel the other items — if they were important, we would have covered them by now.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It proposes a practical solution — prioritise one item, defer the other — and asks a focused question to move things forward. A ignores the time constraint. C is too dismissive of the remaining items."
+                "explanation": "B is correct. It proposes a practical solution — prioritize one item, defer the other — and asks a focused question to move things forward. A ignores the time constraint. C is too dismissive of the remaining items."
             }
         ]
     },
@@ -522,7 +522,7 @@ export const inAMarketingMeeting: Lesson = {
             {
                 "customerLine": "Client: 'We had a meeting about your proposal but I was not there. Can you send me a summary?'",
                 "salespersonStart": "Of course — I will send you the minutes from the meeting.",
-                "suggestedCompletion": "The main points we agreed on were: to start with a six-month plan, to focus on LinkedIn sponsored posts and email, and to set the first review meeting for week four. There were also two action points — one for my team and one for yours. I will include all of that in the follow-up email. Is there anything specific you would like me to clarify or that you want to discuss before we finalise?"
+                "suggestedCompletion": "The main points we agreed on were: to start with a six-month plan, to focus on LinkedIn sponsored posts and email, and to set the first review meeting for week four. There were also two action points — one for my team and one for yours. I will include all of that in the follow-up email. Is there anything specific you would like me to clarify or that you want to discuss before we finalize?"
             }
         ]
     }

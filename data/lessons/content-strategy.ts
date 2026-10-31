@@ -3,9 +3,9 @@ import { Lesson } from '@/types/lesson';
 export const contentStrategy: Lesson = {
   slug: 'content-strategy',
   title: 'Content Strategy',
-  subtitle: 'How to plan, organise, and talk about a content strategy that actually serves your audience and your goals',
+  subtitle: 'How to plan, organize, and talk about a content strategy that actually serves your audience and your goals',
   level: 'B1-B2',
-  description: 'Content marketing is one of the most powerful tools in B2B — but only when it is planned. In this lesson you will learn the vocabulary for building and presenting a content strategy: how to choose topics, organise a content calendar, match your tone to your audience, and repurpose content to get more out of every piece you create.',
+  description: 'Content marketing is one of the most powerful tools in B2B — but only when it is planned. In this lesson you will learn the vocabulary for building and presenting a content strategy: how to choose topics, organize a content calendar, match your tone to your audience, and repurpose content to get more out of every piece you create.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/content-strategy-hero.png',
 
   vocabulary: [
@@ -70,7 +70,7 @@ export const contentStrategy: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'ROLL OUT [A CONTENT PLAN]',
-      definition: 'To start using a plan in organised steps.',
+      definition: 'To start using a plan in organized steps.',
       example: 'We will roll out the content plan in three phases.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/content-strategy-roll-out-a-content-plan.png',
     },
@@ -143,7 +143,7 @@ export const contentStrategy: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'How do you keep it all organised? The [[editorial calendar:a planned schedule of what content will be published and when]] looked complex when I first saw it.',
+      text: 'How do you keep it all organized? The [[editorial calendar:a planned schedule of what content will be published and when]] looked complex when I first saw it.',
     },
     {
       speaker: 'Dana',
@@ -374,8 +374,8 @@ export const contentStrategy: Lesson = {
             {
                 "customerLine": "Client: 'We have a great case study from our biggest client. Can we just post it everywhere — website, LinkedIn, email, newsletter?'",
                 "options": [
-                    "Say: 'Yes — sharing it everywhere maximises reach and makes the most of the content.'",
-                    "Say: 'Absolutely — but let us repurpose it properly for each channel rather than posting the same format everywhere. The full case study goes on the website as a downloadable PDF. LinkedIn gets a carousel with the three most compelling numbers and one quote — formatted for mobile and designed to hook people in without them needing to click. The email gets a short paragraph with a link to the full PDF — and the newsletter gets a two-sentence mention with a link. Same story, four different formats, each optimised for where and how people consume content on that channel.'",
+                    "Say: 'Yes — sharing it everywhere maximizes reach and makes the most of the content.'",
+                    "Say: 'Absolutely — but let us repurpose it properly for each channel rather than posting the same format everywhere. The full case study goes on the website as a downloadable PDF. LinkedIn gets a carousel with the three most compelling numbers and one quote — formatted for mobile and designed to hook people in without them needing to click. The email gets a short paragraph with a link to the full PDF — and the newsletter gets a two-sentence mention with a link. Same story, four different formats, each optimized for where and how people consume content on that channel.'",
                     "Say: 'Posting the same content on all channels at the same time can hurt your SEO — it is better to stagger the publication over a few weeks.'"
                 ],
                 "correctIndex": 1,
@@ -446,7 +446,7 @@ export const contentStrategy: Lesson = {
             {
                 "customerLine": "Client: 'I want to be seen as a thought leader in my industry. What does that actually require?'",
                 "salespersonStart": "Thought leadership is one of the most powerful things you can build — but it takes a specific approach.",
-                "suggestedCompletion": "The single most important rule is this: thought leadership is not about your brand or your product. It is about a problem your audience has — and your unique, specific perspective on how to solve it. The moment you mention your product in the first three lines, it becomes an ad. But an article that says 'here is exactly why 70% of operational efficiency programmes fail in the first year — and what the 30% that succeed do differently' — that is thought leadership. It builds trust without asking for anything. And the trust it builds is what eventually makes people want to know more about who wrote it. Start with the insight. The brand follows."
+                "suggestedCompletion": "The single most important rule is this: thought leadership is not about your brand or your product. It is about a problem your audience has — and your unique, specific perspective on how to solve it. The moment you mention your product in the first three lines, it becomes an ad. But an article that says 'here is exactly why 70% of operational efficiency programs fail in the first year — and what the 30% that succeed do differently' — that is thought leadership. It builds trust without asking for anything. And the trust it builds is what eventually makes people want to know more about who wrote it. Start with the insight. The brand follows."
             },
             {
                 "customerLine": "Client: 'How do we measure whether the content strategy is working?'",

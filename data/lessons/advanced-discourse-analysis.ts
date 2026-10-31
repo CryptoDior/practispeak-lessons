@@ -179,13 +179,13 @@ export const advancedDiscourseAnalysis: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "What about the [[ideology:the values and beliefs that shape how an organisation sees the world — often shown through language]]? What does this text believe?",
+      text: "What about the [[ideology:the values and beliefs that shape how an organization sees the world — often shown through language]]? What does this text believe?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Look at what is left unsaid. There is no apology. No acknowledgement of any mistake. The ideology here is: we make strategic decisions, not errors.",
+      text: "Look at what is left unsaid. There is no apology. No acknowledgment of any mistake. The ideology here is: we make strategic decisions, not errors.",
     },
     {
       speaker: 'Marcus',
@@ -228,7 +228,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       "question": "What is the presupposition in 'We have always put our customers first'?",
       "options": [
-        "That the company plans to prioritise customers in the future",
+        "That the company plans to prioritize customers in the future",
         "That this is a new policy the company is introducing",
         "That putting customers first is already an accepted, proven fact about the company"
       ],
@@ -312,7 +312,7 @@ export const advancedDiscourseAnalysis: Lesson = {
           "customerLine": "The press release says they are 'exploring strategic options'. What does that mean?",
           "options": [
             "It means they are planning to expand into new markets.",
-            "It means they are probably looking for a buyer or preparing for a major restructure. 'Exploring strategic options' is a classic phrase used to sound calm while signalling major change. What's left unsaid is much more significant than what is said.",
+            "It means they are probably looking for a buyer or preparing for a major restructure. 'Exploring strategic options' is a classic phrase used to sound calm while signaling major change. What's left unsaid is much more significant than what is said.",
             "It's hard to say — the language is quite general."
           ],
           "correctIndex": 1,
@@ -321,12 +321,12 @@ export const advancedDiscourseAnalysis: Lesson = {
         {
           "customerLine": "How is this ad different from their previous campaigns?",
           "options": [
-            "It uses different colours and a new logo.",
+            "It uses different colors and a new logo.",
             "Notice how the tone has shifted — the previous campaign was aspirational and focused on individual success. This one is communal and values-driven. The discourse has moved from 'you can achieve' to 'we belong together'. That's a significant ideological shift.",
             "It's a newer campaign with a different creative team."
           ],
           "correctIndex": 1,
-          "explanation": "Option B analyses the discourse — it looks at what values and ideology are expressed and how they have changed. This is what discourse analysis means in practice. Option A describes surface features. Option C explains the change without analysing what it means."
+          "explanation": "Option B analyzes the discourse — it looks at what values and ideology are expressed and how they have changed. This is what discourse analysis means in practice. Option A describes surface features. Option C explains the change without analyzing what it means."
         },
         {
           "customerLine": "Why do you think the CEO chose the word 'pivot' instead of 'change'?",

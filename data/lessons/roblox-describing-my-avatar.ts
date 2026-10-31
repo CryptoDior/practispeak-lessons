@@ -5,14 +5,14 @@ export const robloxDescribingMyAvatar: Lesson = {
   title: "Describing My Avatar — Adjective Order & Appearance",
   subtitle: "Learn how to describe what your avatar looks like — and how to describe people in real life!",
   level: 'A2',
-  description: "Can you describe your Roblox avatar in detail? Learn the appearance words — hair, outfit, colour, style — and how to put adjectives in the right order. The same words help you describe people in real life!",
+  description: "Can you describe your Roblox avatar in detail? Learn the appearance words — hair, outfit, color, style — and how to put adjectives in the right order. The same words help you describe people in real life!",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-hero.png?v=2',
 
   vocabulary: [
     {
       word: 'HAIR',
       partOfSpeech: 'noun',
-      definition: "The part on top of your avatar's head — you can choose the length, style, and colour.",
+      definition: "The part on top of your avatar's head — you can choose the length, style, and color.",
       example: "My avatar has long, dark hair with a small blue flower accessory on the side.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-hair.png',
     },
@@ -26,14 +26,14 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       word: 'DARK',
       partOfSpeech: 'adjective',
-      definition: "A colour that is deep and not bright — like dark blue, dark green, or black.",
-      example: "My avatar wears dark armour with a dark red cape — it looks very powerful!",
+      definition: "A color that is deep and not bright — like dark blue, dark green, or black.",
+      example: "My avatar wears dark armor with a dark red cape — it looks very powerful!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-dark.png',
     },
     {
       word: 'BRIGHT',
       partOfSpeech: 'adjective',
-      definition: "A very strong, clear, and vivid colour — like bright yellow, bright pink, or neon green.",
+      definition: "A very strong, clear, and vivid color — like bright yellow, bright pink, or neon green.",
       example: "My avatar has a bright orange hat — you can spot it from the other side of the map!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-bright.png',
     },
@@ -47,7 +47,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       word: 'STYLE',
       partOfSpeech: 'noun',
-      definition: "How your avatar looks — the clothes, colours, and hair all together.",
+      definition: "How your avatar looks — the clothes, colors, and hair all together.",
       example: "My avatar's style is sporty — trainers, a tracksuit, and a baseball cap.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-style.png',
     },
@@ -85,14 +85,14 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       word: 'DARK',
       partOfSpeech: 'adjective',
-      definition: "A strong colour that is not bright — like dark blue, dark brown, or black.",
+      definition: "A strong color that is not bright — like dark blue, dark brown, or black.",
       example: "He has dark eyes and dark hair — he looks just like his father.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-dark-irl.png',
     },
     {
       word: 'BRIGHT',
       partOfSpeech: 'adjective',
-      definition: "A very strong, bright colour — you see it right away!",
+      definition: "A very strong, bright color — you see it right away!",
       example: "She was wearing a bright yellow jacket — you could see her from the other side of the street!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-bright-irl.png',
     },
@@ -107,7 +107,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       word: 'STYLE',
       partOfSpeech: 'noun',
       definition: "The way a person dresses and presents themselves — their personal fashion sense.",
-      example: "Her style is very colourful and creative — she always wears interesting, unusual clothes.",
+      example: "Her style is very colorful and creative — she always wears interesting, unusual clothes.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-style-irl.png',
     },
     {
@@ -139,8 +139,8 @@ export const robloxDescribingMyAvatar: Lesson = {
       phrase: "IT HAS...",
       definition: "Start a description by telling the listener one feature — something your avatar or person has.",
       example: "It has long dark hair, bright blue eyes, and a golden crown accessory.",
-      inGame: "It has a slim body, dark armour, and a bright red cape.",
-      inRealLife: "She has short bright hair, a slim build, and a very colourful style.",
+      inGame: "It has a slim body, dark armor, and a bright red cape.",
+      inRealLife: "She has short bright hair, a slim build, and a very colorful style.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-it-has.png',
     },
     {
@@ -155,7 +155,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       phrase: "IN MY OPINION...",
       definition: "Start a sentence to say what YOU think about something.",
       example: "In my opinion, a unique avatar with a clear style is always more impressive!",
-      inGame: "In my opinion, dark armour with bright accessories looks the coolest.",
+      inGame: "In my opinion, dark armor with bright accessories looks the coolest.",
       inRealLife: "In my opinion, simple and neat is always the best style for an interview.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-in-my-opinion.png',
     },
@@ -164,7 +164,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       definition: "Tell someone that their style or outfit looks right and good for them.",
       example: "It suits you! The blue cape matches your avatar's hair perfectly!",
       inGame: "It suits you! The warrior outfit fits your fighting game character perfectly.",
-      inRealLife: "It suits you! That colour of jacket really works with your skin tone.",
+      inRealLife: "It suits you! That color of jacket really works with your skin tone.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-it-suits-you.png',
     },
     {
@@ -196,7 +196,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "OK! It has short, [[dark:deep colour, not bright]] hair with a silver streak. And a [[bright:strong vivid colour]] red cape over dark metal armour.",
+      text: "OK! It has short, [[dark:deep color, not bright]] hair with a silver streak. And a [[bright:strong vivid color]] red cape over dark metal armor.",
     },
     {
       speaker: 'Mia',
@@ -208,7 +208,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Very tall and [[slim:thin in shape]] — but with big armour so it looks strong. The [[style:the overall look and feel]] is like a dark knight warrior.",
+      text: "Very tall and [[slim:thin in shape]] — but with big armor so it looks strong. The [[style:the overall look and feel]] is like a dark knight warrior.",
     },
     {
       speaker: 'Mia',
@@ -232,21 +232,21 @@ export const robloxDescribingMyAvatar: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Now describe YOUR avatar! What does it look like? I want to find your colourful avatar on the server.",
+      text: "Now describe YOUR avatar! What does it look like? I want to find your colorful avatar on the server.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "OK! My avatar has a [[unique:one of a kind]] style — rainbow [[outfit:all the clothes together]], [[bright:strong vivid colour]] pink [[hair:the part on top of the head]], and tiny star accessories everywhere. In my opinion, it is the most colourful avatar in Roblox!",
+      text: "OK! My avatar has a [[unique:one of a kind]] style — rainbow [[outfit:all the clothes together]], [[bright:strong vivid color]] pink [[hair:the part on top of the head]], and tiny star accessories everywhere. In my opinion, it is the most colorful avatar in Roblox!",
     },
   ],
 
   matchingExercise: [
-    { word: 'HAIR', definition: "The part on top of your avatar's head — length and colour" },
+    { word: 'HAIR', definition: "The part on top of your avatar's head — length and color" },
     { word: 'OUTFIT', definition: 'All the clothes your avatar is wearing together' },
-    { word: 'DARK', definition: 'A deep colour that is not bright — like black or dark blue' },
-    { word: 'BRIGHT', definition: 'A very strong and vivid colour — like neon green or hot pink' },
+    { word: 'DARK', definition: 'A deep color that is not bright — like black or dark blue' },
+    { word: 'BRIGHT', definition: 'A very strong and vivid color — like neon green or hot pink' },
     { word: 'SLIM', definition: 'Thin in shape — not wide or thick' },
     { word: 'STYLE', definition: 'The overall look and feel of your avatar' },
     { word: 'APPEARANCE', definition: 'What your avatar looks like from the outside — everything visible' },
@@ -288,7 +288,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       question: "What does UNIQUE mean?",
       options: [
-        "Very colourful.",
+        "Very colorful.",
         "One of a kind — completely different from everyone else.",
         "Tall and slim.",
         "Having a dark style.",
@@ -298,9 +298,9 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       question: "In the dialogue, what is Mario's avatar's overall style?",
       options: [
-        "Colourful and playful.",
+        "Colorful and playful.",
         "Sporty with a tracksuit.",
-        "Dark knight warrior — dark armour with a bright red cape.",
+        "Dark knight warrior — dark armor with a bright red cape.",
         "Rainbow with star accessories.",
       ],
       correctIndex: 2,

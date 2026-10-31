@@ -88,7 +88,7 @@ export const whatDoesMarketingDo: Lesson = {
     },
     {
       phrase: 'PUT TOGETHER',
-      definition: 'Make or organise something, like a plan or a piece of content.',
+      definition: 'Make or organize something, like a plan or a piece of content.',
       example: 'Riley put together a short video to promote the new product.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/put-together.png',
     },

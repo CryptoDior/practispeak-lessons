@@ -131,7 +131,7 @@ export const closingComplexDeals: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'What does the [[decision timeline:the sequence of events, approvals, and milestones that must occur before a purchase can be finalised]] look like from here — every step, every approval, every [[sign-off gate:a mandatory approval checkpoint that must be cleared before the deal can advance to the next stage]] that has to be cleared before we can get to a signed contract?',
+      text: 'What does the [[decision timeline:the sequence of events, approvals, and milestones that must occur before a purchase can be finalized]] look like from here — every step, every approval, every [[sign-off gate:a mandatory approval checkpoint that must be cleared before the deal can advance to the next stage]] that has to be cleared before we can get to a signed contract?',
     },
     {
       speaker: 'Marcus',
@@ -230,11 +230,11 @@ export const closingComplexDeals: Lesson = {
     },
     {
         "word": "decision timeline",
-        "definition": "the sequence of approvals and milestones that must occur before a complex purchase can be finalised"
+        "definition": "the sequence of approvals and milestones that must occur before a complex purchase can be finalized"
     },
     {
         "word": "champion",
-        "definition": "an internal advocate within the buyer's organisation who actively navigates internal decision-making on the vendor's behalf"
+        "definition": "an internal advocate within the buyer's organization who actively navigates internal decision-making on the vendor's behalf"
     },
     {
         "word": "mutual action plan",
@@ -281,7 +281,7 @@ export const closingComplexDeals: Lesson = {
     },
     {
         "before": "Is there a budget cycle or board approval process we should be planning ",
-        "after": "? Not to create pressure — but to make sure the plan we build is realistic for your organisation.",
+        "after": "? Not to create pressure — but to make sure the plan we build is realistic for your organization.",
         "answer": "around"
     }
 ],
@@ -326,8 +326,8 @@ export const closingComplexDeals: Lesson = {
   warmUp: {
     "questions": [
         "Think about a time you were trying to get agreement on something complex — at work, with a group, or in your personal life. What made it difficult? Was it the process, the people, or the timeline?",
-        "Have you ever been involved in a decision that seemed close to finalised but then stalled for weeks or months? Looking back, what actually caused the delay — and could it have been prevented?",
-        "In your organisation, how are large decisions typically made — by one person, by a team, or by a formal committee process? What are the advantages and risks of each approach?"
+        "Have you ever been involved in a decision that seemed close to finalized but then stalled for weeks or months? Looking back, what actually caused the delay — and could it have been prevented?",
+        "In your organization, how are large decisions typically made — by one person, by a team, or by a formal committee process? What are the advantages and risks of each approach?"
     ]
 },
   completeSentenceExercise: {
@@ -410,7 +410,7 @@ export const closingComplexDeals: Lesson = {
                 "explanation": "Option B is the most effective response — it treats process visibility as the primary tool for managing complexity, and it invites the buyer to map their own internal process rather than guessing from the outside. The goal is to surface every step, every approval, and every potential delay before they become critical. Option A is supportive but completely passive — it cedes all control of the timeline to the buyer and provides no momentum. Option C offers help but doesn't drive any concrete action — 'whatever additional information might help' is too vague to advance the deal."
             },
             {
-                "customerLine": "I think there are still some concerns internally that haven't been fully resolved. I'm not sure how to characterise them.",
+                "customerLine": "I think there are still some concerns internally that haven't been fully resolved. I'm not sure how to characterize them.",
                 "options": [
                     "That's understandable — let me know when you have more clarity on what those concerns are and I'll address them then.",
                     "I want to surface those concerns now rather than wait for them to become blockers. Can I ask directly: which stakeholders still have reservations, what specifically concerns them, and what would they need to see to feel confident? I'd rather address a difficult concern today than lose the deal in six weeks to something we could have resolved.",

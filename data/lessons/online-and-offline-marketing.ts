@@ -33,7 +33,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       word: 'TV',
       partOfSpeech: 'noun',
-      definition: 'Television — a screen that shows videos and programmes.',
+      definition: 'Television — a screen that shows videos and programs.',
       example: 'Big brands often advertise on TV to reach a lot of people at the same time.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tv.png',
     },
@@ -149,7 +149,7 @@ export const onlineAndOfflineMarketing: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'Do you use any offline channels? Like [[print:written or printed material, like leaflets, posters, or magazines]] or [[TV:television — a screen that shows videos and programmes]]?',
+      text: 'Do you use any offline channels? Like [[print:written or printed material, like leaflets, posters, or magazines]] or [[TV:television — a screen that shows videos and programs]]?',
     },
     {
       speaker: 'Riley',
@@ -204,7 +204,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     },
     {
         "word": "TV",
-        "definition": "Television — a screen that shows videos and programmes"
+        "definition": "Television — a screen that shows videos and programs"
     },
     {
         "word": "EMAIL",

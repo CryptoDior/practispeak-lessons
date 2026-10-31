@@ -161,7 +161,7 @@ export const robloxReviewBlock2: Lesson = {
     },
     {
       phrase: "I KNOW THIS ONE!",
-      definition: "What you say when you recognise a question or word — you are confident you know it.",
+      definition: "What you say when you recognize a question or word — you are confident you know it.",
       example: "I know this one! ZONE means an area with its own rules or theme!",
       inGame: "I know this one! SQUAD is your close group of friends you always play with!",
       inRealLife: "I know this one! The capital of Germany is Berlin!",

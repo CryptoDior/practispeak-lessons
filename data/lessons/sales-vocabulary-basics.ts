@@ -350,7 +350,7 @@ export const salesVocabularyBasics: Lesson = {
                 "options": [
                     "It's expensive, but it's worth every penny.",
                     "The price depends on what you need. What's your budget?",
-                    "We have lots of different products — I'll send you our full catalogue."
+                    "We have lots of different products — I'll send you our full catalog."
                 ],
                 "correctIndex": 1,
                 "explanation": "B is correct. Asking about budget before quoting a price shows you want to find the right fit. A sounds dismissive. C avoids the question and sends the customer away."

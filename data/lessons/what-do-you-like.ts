@@ -31,10 +31,10 @@ export const whatDoYouLike: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dislike.png',
     },
     {
-      word: 'FAVOURITE',
+      word: 'FAVORITE',
       partOfSpeech: 'adjective',
       definition: 'The one you like most of all — better than everything else in that group.',
-      example: 'My favourite marketing channel is LinkedIn — I get the best results from it.',
+      example: 'My favorite marketing channel is LinkedIn — I get the best results from it.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-do-you-like-favourite.png',
     },
     {
@@ -155,7 +155,7 @@ export const whatDoYouLike: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'A clear message, a strong subject line, and a call to action at the end. Those are my [[favourite:the one you like most of all]] things to see in a good email.',
+      text: 'A clear message, a strong subject line, and a call to action at the end. Those are my [[favorite:the one you like most of all]] things to see in a good email.',
     },
     {
       speaker: 'Riley',
@@ -197,7 +197,7 @@ export const whatDoYouLike: Lesson = {
         "definition": "To not like something — the opposite of like"
     },
     {
-        "word": "FAVOURITE",
+        "word": "FAVORITE",
         "definition": "The one you like most of all — better than everything else in that group"
     },
     {
@@ -399,7 +399,7 @@ export const whatDoYouLike: Lesson = {
                 "liked"
             ],
             "correctIndex": 1,
-            "explanation": "Popular means liked or used by many people — it describes a general trend. Favourite means the one you personally like most. Liked is a past participle and does not work as an adjective here."
+            "explanation": "Popular means liked or used by many people — it describes a general trend. Favorite means the one you personally like most. Liked is a past participle and does not work as an adjective here."
         },
         {
             "sentence": "What do you _____ of the new ad design? I want your honest feedback.",
@@ -431,21 +431,21 @@ export const whatDoYouLike: Lesson = {
                 "customerLine": "Customer says: I am not sure which design I prefer — the blue one or the green one.",
                 "options": [
                     "Say: The blue one is better. Most people prefer it.",
-                    "Say: What do you think of each one? Does one feel more like your brand? Which colour do your customers prefer?",
+                    "Say: What do you think of each one? Does one feel more like your brand? Which color do your customers prefer?",
                     "Say: In my opinion, green is more popular right now."
                 ],
                 "correctIndex": 1,
                 "explanation": "B is correct. It asks the client questions to help them decide — and connects to what matters most (their brand and their customers). A makes the decision for the client without knowing anything. C gives a personal opinion when the client needs to make their own choice."
             },
             {
-                "customerLine": "Customer says: My favourite part of the campaign was the email series. I really enjoyed it.",
+                "customerLine": "Customer says: My favorite part of the campaign was the email series. I really enjoyed it.",
                 "options": [
                     "Say: Good — email is popular.",
                     "Say: That is great to hear! What did you enjoy most about it — the subject lines, the design, or the content? I want to make the next one even better.",
                     "Say: In my opinion, the social media part was better."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It builds on the positive feedback, asks a specific follow-up, and shows you want to improve. A says nothing useful. C dismisses the client's favourite part with a personal opinion — which is not helpful."
+                "explanation": "B is correct. It builds on the positive feedback, asks a specific follow-up, and shows you want to improve. A says nothing useful. C dismisses the client's favorite part with a personal opinion — which is not helpful."
             }
         ]
     },
@@ -466,7 +466,7 @@ export const whatDoYouLike: Lesson = {
             },
             {
                 "speaker": "Customer",
-                "text": "A strong subject line and a clear message. Those are my favourite things."
+                "text": "A strong subject line and a clear message. Those are my favorite things."
             },
             {
                 "speaker": "Salesperson",

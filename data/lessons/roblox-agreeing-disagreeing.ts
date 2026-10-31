@@ -5,7 +5,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
   title: "Agreeing & Disagreeing",
   subtitle: "Anyone can say 'I disagree.' The question is: can you say it without ending the conversation?",
   level: 'B1-B2',
-  description: "Agreeing and disagreeing are not binary. At B2, you need to navigate the full range: partially agreeing, conceding a point while maintaining your position, and disagreeing diplomatically without causing offence. Whether you are debating which game is best or discussing strategy with your team, how you disagree matters as much as whether you disagree.",
+  description: "Agreeing and disagreeing are not binary. At B2, you need to navigate the full range: partially agreeing, conceding a point while maintaining your position, and disagreeing diplomatically without causing offense. Whether you are debating which game is best or discussing strategy with your team, how you disagree matters as much as whether you disagree.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-agreeing-disagreeing-hero.png?v=2',
 
   grammarFocus: {
@@ -267,7 +267,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
         sentence: "I _____ that your approach worked last season — but this season the situation has changed significantly.",
         options: ["dispute", "acknowledge", "beg to differ"],
         correctIndex: 1,
-        explanation: "ACKNOWLEDGE means to accept or admit that something is true — you are recognising their point before making a contrast. DISPUTE means to challenge the truth of something — the opposite of what you are doing here. I BEG TO DIFFER is a direct disagreement phrase — not for admitting someone is right.",
+        explanation: "ACKNOWLEDGE means to accept or admit that something is true — you are recognizing their point before making a contrast. DISPUTE means to challenge the truth of something — the opposite of what you are doing here. I BEG TO DIFFER is a direct disagreement phrase — not for admitting someone is right.",
       },
       {
         sentence: "I _____ that the eastern route has some advantages — but I still believe the northern approach is correct overall.",
@@ -285,13 +285,13 @@ export const robloxAgreeingDisagreeing: Lesson = {
         sentence: "'_____ — I can see why you would choose that approach given the data you have.'",
         options: ["I beg to differ", "Fair enough", "Bluntly"],
         correctIndex: 1,
-        explanation: "FAIR ENOUGH signals acceptance that a point has merit — not full agreement, but acknowledgement. I BEG TO DIFFER is a polite disagreement — the opposite. BLUNTLY is an adverb — not a standalone phrase.",
+        explanation: "FAIR ENOUGH signals acceptance that a point has merit — not full agreement, but acknowledgment. I BEG TO DIFFER is a polite disagreement — the opposite. BLUNTLY is an adverb — not a standalone phrase.",
       },
       {
         sentence: "She raised her concern _____ — everyone understood the problem, but nobody felt personally blamed.",
         options: ["bluntly", "diplomatically", "conceding"],
         correctIndex: 1,
-        explanation: "DIPLOMATICALLY means in a tactful way that avoids causing offence — exactly what the sentence describes. BLUNTLY is direct and without softening — the opposite of what is described. CONCEDING is a participle form of a different word.",
+        explanation: "DIPLOMATICALLY means in a tactful way that avoids causing offense — exactly what the sentence describes. BLUNTLY is direct and without softening — the opposite of what is described. CONCEDING is a participle form of a different word.",
       },
       {
         sentence: "'_____ — the statistics from the last three tournaments tell a different story entirely.'",
@@ -303,9 +303,9 @@ export const robloxAgreeingDisagreeing: Lesson = {
   },
 
   matchingExercise: [
-    { word: 'DIPLOMATICALLY', definition: 'In a tactful way that avoids causing offence — expressing a position without damaging the relationship' },
+    { word: 'DIPLOMATICALLY', definition: 'In a tactful way that avoids causing offense — expressing a position without damaging the relationship' },
     { word: 'BLUNTLY', definition: 'Directly and honestly — saying exactly what you mean without softening or cushioning' },
-    { word: 'ACKNOWLEDGE', definition: 'To accept or admit that something is true — recognising a point before arguing against its conclusion' },
+    { word: 'ACKNOWLEDGE', definition: 'To accept or admit that something is true — recognizing a point before arguing against its conclusion' },
     { word: 'CONCEDE', definition: "To admit that one part of the other person's argument is correct" },
     { word: 'DISPUTE', definition: 'To say something is not true or not correct — or a disagreement between people' },
     { word: 'VALID POINT', definition: 'An argument that is logically sound and worth considering — even if you disagree with the conclusion' },
@@ -370,7 +370,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
       options: [
         "He concedes that Phantom Gardens is objectively better.",
         "He insists that Phoenix Force is better and Mia eventually agrees.",
-        "He realises they were both right because they were using different definitions of 'better'.",
+        "He realizes they were both right because they were using different definitions of 'better'.",
         "He suggests they play both games and compare the experience directly.",
       ],
       correctIndex: 2,

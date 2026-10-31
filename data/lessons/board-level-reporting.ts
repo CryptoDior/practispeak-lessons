@@ -161,7 +161,7 @@ export const boardLevelReporting: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "What if they push back on the risk? This is a new market and they have a low [[risk appetite:how much risk an organisation is willing to accept]].",
+      text: "What if they push back on the risk? This is a new market and they have a low [[risk appetite:how much risk an organization is willing to accept]].",
     },
     {
       speaker: 'Riley',
@@ -173,7 +173,7 @@ export const boardLevelReporting: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And [[governance:the rules and processes used to make decisions in an organisation]]? Do I need to cover that?",
+      text: "And [[governance:the rules and processes used to make decisions in an organization]]? Do I need to cover that?",
     },
     {
       speaker: 'Riley',
@@ -202,7 +202,7 @@ export const boardLevelReporting: Lesson = {
     { "word": "governance", "definition": "the rules and processes used to make decisions properly and transparently" },
     { "word": "due diligence", "definition": "the process of carefully checking all the facts before a major decision" },
     { "word": "return on investment", "definition": "how much money is made compared to how much was spent" },
-    { "word": "risk appetite", "definition": "how much risk an organisation is willing to accept to achieve its goals" },
+    { "word": "risk appetite", "definition": "how much risk an organization is willing to accept to achieve its goals" },
     { "word": "material", "definition": "important enough to affect a decision" }
   ],
 
@@ -287,7 +287,7 @@ export const boardLevelReporting: Lesson = {
         "sentence": "The board has a low _____ right now — they will not approve anything that doesn't have strong evidence behind it.",
         "options": ["risk appetite", "tolerance", "risk level"],
         "correctIndex": 0,
-        "explanation": "'Risk appetite' is the standard term for how much risk an organisation is willing to accept. 'Tolerance' is sometimes used but 'risk appetite' is more precise. 'Risk level' describes how risky something is, not how much risk the board is willing to take. When talking about the board's willingness to accept risk, use 'risk appetite'."
+        "explanation": "'Risk appetite' is the standard term for how much risk an organization is willing to accept. 'Tolerance' is sometimes used but 'risk appetite' is more precise. 'Risk level' describes how risky something is, not how much risk the board is willing to take. When talking about the board's willingness to accept risk, use 'risk appetite'."
       },
       {
         "sentence": "Before signing the contract, we need to complete full _____: legal checks, financial background, and references.",
@@ -326,7 +326,7 @@ export const boardLevelReporting: Lesson = {
             "The risk is low — we've done this kind of campaign before."
           ],
           "correctIndex": 1,
-          "explanation": "Option B addresses risk professionally — it acknowledges both types of risk, explains mitigation, and then reframes inaction as a risk. This shows mature strategic thinking. Option A is too casual and vague. Option C minimises the risk, which will reduce the board's trust in your analysis."
+          "explanation": "Option B addresses risk professionally — it acknowledges both types of risk, explains mitigation, and then reframes inaction as a risk. This shows mature strategic thinking. Option A is too casual and vague. Option C minimizes the risk, which will reduce the board's trust in your analysis."
         },
         {
           "customerLine": "Has this been through the proper governance process?",

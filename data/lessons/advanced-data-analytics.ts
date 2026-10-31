@@ -101,9 +101,9 @@ export const advancedDataAnalytics: Lesson = {
       definition: 'A phrase used to share what the forecast says will happen.',
       example: 'The model predicts that sales will grow by ten percent next quarter.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-data-analytics-the-model-predicts-that.png',
-      inAction: 'The model predicts that leads scoring above 75 will convert at around 60% — which changes how the sales team should prioritise their time.',
+      inAction: 'The model predicts that leads scoring above 75 will convert at around 60% — which changes how the sales team should prioritize their time.',
       register: "Formal — used in presentations of predictive models and analytical findings. 'Predicts' implies statistical confidence, so only use it when the model has been properly trained and validated.",
-      inContext: 'Riley had trained the model on two years of closed-won data before presenting the findings. The model predicts that our Q4 pipeline will deliver £1.2M in closed revenue — but only if the top 40 leads are prioritised within the first week of the quarter, she told the sales director. Every week of delay reduces the conversion probability by approximately 8%.',
+      inContext: 'Riley had trained the model on two years of closed-won data before presenting the findings. The model predicts that our Q4 pipeline will deliver £1.2M in closed revenue — but only if the top 40 leads are prioritized within the first week of the quarter, she told the sales director. Every week of delay reduces the conversion probability by approximately 8%.',
       visualExamples: [
         { brand: 'Arca', context: 'Predictive analytics startup — client report', imageSlug: '/images/visual-examples/ada-p3-arca.png', caption: 'The model predicts that Q4 revenue will be 18% below plan if we do not close the top three pipeline deals by end of October.', aspectRatio: '16/9' },
         { brand: 'Crest', context: 'DTC coffee brand — demand forecasting', imageSlug: '/images/visual-examples/ada-p3-crest.png', caption: 'The model predicts that demand for the seasonal blend will outstrip supply by 40% — we need to increase the production run or manage expectations in the pre-launch campaign.', aspectRatio: '1.91/1' },
@@ -221,7 +221,7 @@ export const advancedDataAnalytics: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'What does the [[predictive:using past data to forecast future behaviour or outcomes]] model say about Q4?',
+      text: 'What does the [[predictive:using past data to forecast future behavior or outcomes]] model say about Q4?',
     },
     {
       speaker: 'Riley',
@@ -272,7 +272,7 @@ export const advancedDataAnalytics: Lesson = {
     },
     {
         "word": "predictive",
-        "definition": "using historical data to forecast future behaviour or outcomes"
+        "definition": "using historical data to forecast future behavior or outcomes"
     },
     {
         "word": "funnel analysis",
@@ -459,7 +459,7 @@ export const advancedDataAnalytics: Lesson = {
                     "We should revert to the original and start the test again, properly this time."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B is correct — it explains the risk of scaling without attribution clarity, names the analytical principle (isolate the variable), and gives a practical next step (separate tests). This is how a data-led marketer thinks. Option A prioritises momentum over knowledge — which can work in the short term but leaves you unable to diagnose problems when results change. Option C is unnecessarily cautious — you don't need to revert; you need to isolate going forward. The existing result is valuable even if it's not fully attributed yet."
+                "explanation": "Option B is correct — it explains the risk of scaling without attribution clarity, names the analytical principle (isolate the variable), and gives a practical next step (separate tests). This is how a data-led marketer thinks. Option A prioritizes momentum over knowledge — which can work in the short term but leaves you unable to diagnose problems when results change. Option C is unnecessarily cautious — you don't need to revert; you need to isolate going forward. The existing result is valuable even if it's not fully attributed yet."
             },
             {
                 "customerLine": "Our LTV analysis shows Segment D has an average value of £900. Should we stop marketing to them completely?",
@@ -506,7 +506,7 @@ export const advancedDataAnalytics: Lesson = {
                 "lineIndex": 1,
                 "incorrectText": "We run a regression on the data last week",
                 "correction": "We ran a regression on the data last week",
-                "explanation": "'Last week' indicates a completed past action, so the simple past tense 'ran' is needed — not 'run' (base form / present simple). 'Run' is the base form and present simple of the verb (we run reports every week). 'Ran' is the past simple (we ran a regression last week). 'Have run' is the present perfect (we have run several analyses this year). Any time expression that refers to a specific past time (last week, yesterday, in Q3, on Tuesday) requires simple past — not present simple or present perfect."
+                "explanation": "'Last week' indicates a completed past action, so the simple past tense 'ran' is needed — not 'run' (base form / present simple). 'Run' is the base form and present simple of the verb (we run reports every week). 'Ran' is the past simple (we ran a regression last week). 'Have run' is the present perfect (we have run several analyzes this year). Any time expression that refers to a specific past time (last week, yesterday, in Q3, on Tuesday) requires simple past — not present simple or present perfect."
             },
             {
                 "lineIndex": 2,
@@ -532,13 +532,13 @@ export const advancedDataAnalytics: Lesson = {
             },
             {
                 "customerLine": "We have too much data and we don't know what to focus on. Where do we start?",
-                "salespersonStart": "Start with the decision you need to make, not with the data. Every analytics project should begin with the question: 'What would we do differently if we knew the answer?' If the answer is 'nothing would change', the analysis isn't worth doing. The most useful analyses right now are...",
-                "suggestedCompletion": "funnel analysis — to understand where you're losing prospects and why — and LTV by segment, to understand which customers are worth acquiring. Those two analyses will answer the budget question, the targeting question, and the channel question. Everything else is secondary until you have those two things working."
+                "salespersonStart": "Start with the decision you need to make, not with the data. Every analytics project should begin with the question: 'What would we do differently if we knew the answer?' If the answer is 'nothing would change', the analysis isn't worth doing. The most useful analyzes right now are...",
+                "suggestedCompletion": "funnel analysis — to understand where you're losing prospects and why — and LTV by segment, to understand which customers are worth acquiring. Those two analyzes will answer the budget question, the targeting question, and the channel question. Everything else is secondary until you have those two things working."
             },
             {
                 "customerLine": "How do we explain the predictive model to the CEO? She doesn't have a data background.",
                 "salespersonStart": "Don't explain the model — explain what it tells you and what decision it informs. CEOs don't need to understand regression; they need to understand the output. I'd frame it this way:",
-                "suggestedCompletion": "We analysed two years of data to find the pattern that best predicts which customers will be worth the most to us. The model says: if we shift budget toward the customers who look like our best historical clients, and we respond to new leads within four hours, we expect pipeline to grow by roughly 20–40% this quarter. We'll validate that prediction in real time and report back at the 90-day mark. That's the whole story — no equations needed."
+                "suggestedCompletion": "We analyzed two years of data to find the pattern that best predicts which customers will be worth the most to us. The model says: if we shift budget toward the customers who look like our best historical clients, and we respond to new leads within four hours, we expect pipeline to grow by roughly 20–40% this quarter. We'll validate that prediction in real time and report back at the 90-day mark. That's the whole story — no equations needed."
             }
         ]
     }

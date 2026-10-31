@@ -5,7 +5,7 @@ export const aiAndAutomationInMarketing: Lesson = {
   title: 'AI and Automation in Marketing',
   subtitle: 'How to talk about generative AI, automation, and the tools reshaping the marketing function — with clarity, accuracy, and confidence',
   level: 'C1-C2',
-  description: "Artificial intelligence is no longer a future trend in marketing — it is a present-day reality. Marketing teams are using AI to write copy, segment audiences, predict churn, personalise experiences, and automate workflows that once took entire departments to manage. But the marketers who get the most from these tools are not the ones who know the most about the technology — they are the ones who can articulate clearly what the tools do, where they fall short, and how to use them responsibly. This lesson gives you the language to participate confidently in conversations about AI and automation in marketing.",
+  description: "Artificial intelligence is no longer a future trend in marketing — it is a present-day reality. Marketing teams are using AI to write copy, segment audiences, predict churn, personalize experiences, and automate workflows that once took entire departments to manage. But the marketers who get the most from these tools are not the ones who know the most about the technology — they are the ones who can articulate clearly what the tools do, where they fall short, and how to use them responsibly. This lesson gives you the language to participate confidently in conversations about AI and automation in marketing.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ai-and-automation-in-marketing-hero.png',
 
   vocabulary: [
@@ -24,10 +24,10 @@ export const aiAndAutomationInMarketing: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ai-and-automation-in-marketing-language-model-product-description-drafts.png',
     },
     {
-      word: 'PREDICTIVE PERSONALISATION',
+      word: 'PREDICTIVE PERSONALIZATION',
       partOfSpeech: 'noun',
       definition: 'Using AI to guess what each customer wants to see.',
-      example: 'Predictive personalisation shows each user different products.',
+      example: 'Predictive personalization shows each user different products.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ai-and-automation-in-marketing-browsing-informed-user-recommendations.png',
     },
     {
@@ -74,7 +74,7 @@ export const aiAndAutomationInMarketing: Lesson = {
       example: 'The AI is hallucinating; it has invented a customer quote.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ai-and-automation-in-marketing-detect-invented-customer-quote.png',
       inAction: 'The AI is hallucinating — it has cited a customer satisfaction statistic of 94% that does not appear anywhere in our actual research data, so this needs a human rewrite before it goes anywhere near a client.',
-      register: "Neutral — Flux (SaaS platform, content review): copy review note reads the AI is hallucinating — it has described a workflow feature that was deprecated six months ago and no longer exists in the product. | Kova (fintech, compliance content): legal review reads the AI is hallucinating — it has referenced a regulatory requirement that applies to UK firms but not to the EU markets this content is targeting. | Ember (subscription service, email programme): campaign review note reads the AI is hallucinating — it has written that our cancellation policy allows 30-day refunds, when the actual policy is 14 days.",
+      register: "Neutral — Flux (SaaS platform, content review): copy review note reads the AI is hallucinating — it has described a workflow feature that was deprecated six months ago and no longer exists in the product. | Kova (fintech, compliance content): legal review reads the AI is hallucinating — it has referenced a regulatory requirement that applies to UK firms but not to the EU markets this content is targeting. | Ember (subscription service, email program): campaign review note reads the AI is hallucinating — it has written that our cancellation policy allows 30-day refunds, when the actual policy is 14 days.",
       visualExamples: [
         { brand: 'Flux', context: 'SaaS platform — AI content review process', imageSlug: '/images/visual-examples/flux-hallucination-deprecated-feature.png', caption: 'The AI is hallucinating — it has described a workflow feature that was deprecated six months ago and no longer exists in the product.', aspectRatio: '16/9' },
         { brand: 'Kova', context: 'Fintech — compliance content legal review', imageSlug: '/images/visual-examples/kova-hallucination-regulation.png', caption: 'The AI is hallucinating — it has referenced a regulatory requirement that applies to UK firms but not to the EU markets this content is targeting.', aspectRatio: '4/5' },
@@ -87,12 +87,12 @@ export const aiAndAutomationInMarketing: Lesson = {
       example: 'We need a human in the loop for all legal text.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ai-and-automation-in-marketing-human-legal-review-before-release.png',
       inAction: 'We need a human in the loop for all AI-generated pricing pages — the numbers have to be verified by someone who has authority to confirm they are current and accurate.',
-      register: "Neutral — Forge (B2B HR platform, customer comms): AI workflow policy reads we need a human in the loop for any customer-facing communication that references a specific SLA, deadline, or contractual commitment — accuracy here is a legal as much as a brand issue. | Ember (subscription, email programme): content governance framework reads we need a human in the loop for all cancellation and refund-related emails — policy accuracy is non-negotiable and AI errors here have direct financial consequences. | Velo (B2B fleet SaaS, product updates): release comms policy reads we need a human in the loop for product release notes — the technical accuracy of feature descriptions must be confirmed by a product manager before any AI-drafted version is published.",
+      register: "Neutral — Forge (B2B HR platform, customer comms): AI workflow policy reads we need a human in the loop for any customer-facing communication that references a specific SLA, deadline, or contractual commitment — accuracy here is a legal as much as a brand issue. | Ember (subscription, email program): content governance framework reads we need a human in the loop for all cancellation and refund-related emails — policy accuracy is non-negotiable and AI errors here have direct financial consequences. | Velo (B2B fleet SaaS, product updates): release comms policy reads we need a human in the loop for product release notes — the technical accuracy of feature descriptions must be confirmed by a product manager before any AI-drafted version is published.",
       visualExamples: [
         { brand: 'Forge', context: 'B2B HR platform — AI content workflow policy', imageSlug: '/images/visual-examples/forge-human-loop-sla.png', caption: 'We need a human in the loop for any customer-facing communication that references a specific SLA, deadline, or contractual commitment.', aspectRatio: '16/9' },
         { brand: 'Ember', context: 'Subscription service — email content governance', imageSlug: '/images/visual-examples/ember-human-loop-refund-emails.png', caption: 'We need a human in the loop for all cancellation and refund-related emails — policy accuracy is non-negotiable and AI errors here have direct financial consequences.', aspectRatio: '4/5' },
       ],
-      inContext: "Dana was reviewing the AI rollout plan. We need a human in the loop for anything that goes to a client by name, she said. Riley: Agreed — personalised outreach is high-stakes. If the AI gets a client's company name wrong, their role wrong, or references a conversation that did not happen, the trust damage is immediate. Marcus: And it is exactly the kind of error the AI makes confidently. The human in the loop is not just a quality check — it is a relationship protection measure.",
+      inContext: "Dana was reviewing the AI rollout plan. We need a human in the loop for anything that goes to a client by name, she said. Riley: Agreed — personalized outreach is high-stakes. If the AI gets a client's company name wrong, their role wrong, or references a conversation that did not happen, the trust damage is immediate. Marcus: And it is exactly the kind of error the AI makes confidently. The human in the loop is not just a quality check — it is a relationship protection measure.",
     },
     {
       phrase: 'THE PROMPT NEEDS TO BE MORE SPECIFIC ABOUT...',
@@ -113,9 +113,9 @@ export const aiAndAutomationInMarketing: Lesson = {
       example: 'We are using AI to augment, not replace, our writers.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ai-and-automation-in-marketing-ai-assists-human-writers-judgement.png',
       inAction: 'We are using AI to augment, not replace, the copywriting team — the AI handles first drafts at volume so the writers can focus their time on the edits, the brand voice, and the work that genuinely requires human creativity.',
-      register: "Neutral — Forge (B2B HR, AI comms to team): internal announcement reads we are using AI to augment, not replace, the people ops team — the tools will handle scheduling, first-draft documentation, and data summarisation so the team can spend more time on the work that requires human empathy and judgement. | Velo (B2B fleet SaaS, AI rollout): all-hands presentation reads we are using AI to augment, not replace, our customer success function — AI handles the routine check-ins and ticket routing so the team can focus on strategic accounts and complex problem-solving. | Halo (DTC, AI content tools): team briefing reads we are using AI to augment, not replace, our social media function — the AI generates options and first drafts, the team selects, edits, and publishes.",
+      register: "Neutral — Forge (B2B HR, AI comms to team): internal announcement reads we are using AI to augment, not replace, the people ops team — the tools will handle scheduling, first-draft documentation, and data summarization so the team can spend more time on the work that requires human empathy and judgment. | Velo (B2B fleet SaaS, AI rollout): all-hands presentation reads we are using AI to augment, not replace, our customer success function — AI handles the routine check-ins and ticket routing so the team can focus on strategic accounts and complex problem-solving. | Halo (DTC, AI content tools): team briefing reads we are using AI to augment, not replace, our social media function — the AI generates options and first drafts, the team selects, edits, and publishes.",
       visualExamples: [
-        { brand: 'Forge', context: 'B2B HR — internal AI programme communications', imageSlug: '/images/visual-examples/forge-augment-not-replace-people-ops.png', caption: 'We are using AI to augment, not replace, the people ops team — tools handle scheduling and documentation so the team can focus on work that requires human judgement.', aspectRatio: '16/9' },
+        { brand: 'Forge', context: 'B2B HR — internal AI program communications', imageSlug: '/images/visual-examples/forge-augment-not-replace-people-ops.png', caption: 'We are using AI to augment, not replace, the people ops team — tools handle scheduling and documentation so the team can focus on work that requires human judgment.', aspectRatio: '16/9' },
         { brand: 'Halo', context: 'DTC brand — social media AI tool briefing', imageSlug: '/images/visual-examples/halo-augment-not-replace-social.png', caption: 'We are using AI to augment, not replace, the social media function — AI generates options and first drafts, the team selects, edits, and publishes.', aspectRatio: '4/5' },
       ],
       inContext: "Riley was presenting the AI roadmap to the wider team. We are using AI to augment, not replace, the content function, she said. I know that is easy to say and harder to believe, so let me show you what it actually looks like. Marcus: The output target for the content team has not changed. What has changed is that 40% of the time previously spent on first drafts is now spent on editing, refining, and making the AI output sound like us. Dana: Which means the team is spending more time on the high-value work. The AI is doing the heavy lifting on volume. The human is doing the heavy lifting on quality.",
@@ -144,7 +144,7 @@ export const aiAndAutomationInMarketing: Lesson = {
         { brand: 'Forge', context: 'B2B HR platform — campaign copy review', imageSlug: '/images/visual-examples/forge-output-human-edit-b2b-tone.png', caption: 'The output needs a human edit before it goes into the media plan — three headlines use a direct-to-consumer tone that is not appropriate for a B2B audience.', aspectRatio: '16/9' },
         { brand: 'Bloom', context: 'DTC wellness — social content calendar review', imageSlug: '/images/visual-examples/bloom-output-human-edit-health-claim.png', caption: 'The output needs a human edit before it is scheduled — two captions reference ingredient benefits in a way that could be interpreted as a health claim we cannot substantiate.', aspectRatio: '4/5' },
       ],
-      inContext: "Dana pulled up the draft email sequence. The output needs a human edit before this goes into the automation workflow, she said. The logic is right — the trigger conditions, the sequence timing, the segmentation. But the copy in email three is generic. It reads like it was written for no one in particular. Riley: Which is exactly what happened. The AI was not given enough information about who receives email three and what their relationship with the brand is at that point. Marcus: So the brief for the AI edit is: this customer has made two purchases, is in our loyalty programme, and has not bought in 60 days. That context should produce a much more specific piece of copy.",
+      inContext: "Dana pulled up the draft email sequence. The output needs a human edit before this goes into the automation workflow, she said. The logic is right — the trigger conditions, the sequence timing, the segmentation. But the copy in email three is generic. It reads like it was written for no one in particular. Riley: Which is exactly what happened. The AI was not given enough information about who receives email three and what their relationship with the brand is at that point. Marcus: So the brief for the AI edit is: this customer has made two purchases, is in our loyalty program, and has not bought in 60 days. That context should produce a much more specific piece of copy.",
     },
   ],
 
@@ -155,7 +155,7 @@ export const aiAndAutomationInMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "We are six months into our AI programme and I want to take stock. What is working, what is not, and where do we need better [[AI governance:the rules and processes that ensure AI is used responsibly and in line with legal and brand standards]]? Riley, start with what is working.",
+      text: "We are six months into our AI program and I want to take stock. What is working, what is not, and where do we need better [[AI governance:the rules and processes that ensure AI is used responsibly and in line with legal and brand standards]]? Riley, start with what is working.",
     },
     {
       speaker: 'Riley',
@@ -167,7 +167,7 @@ export const aiAndAutomationInMarketing: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "[[Predictive personalisation:using AI to predict what a customer will want to see or buy next]] is delivering the biggest commercial result. The homepage now converts at 2.8 times the rate of the old generic version. [[Dynamic content:content that changes automatically based on who is viewing it]] across the email programme has lifted engagement across all segments.",
+      text: "[[Predictive personalization:using AI to predict what a customer will want to see or buy next]] is delivering the biggest commercial result. The homepage now converts at 2.8 times the rate of the old generic version. [[Dynamic content:content that changes automatically based on who is viewing it]] across the email program has lifted engagement across all segments.",
     },
     {
       speaker: 'Marcus',
@@ -191,7 +191,7 @@ export const aiAndAutomationInMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Agreed. Let us build this properly. Our AI governance framework needs to cover content review, fact-checking, and prompt standards. And when the team asks if AI is replacing them — the answer is clear. We are using AI to augment, not replace, the marketing function. The AI handles volume. The humans handle quality, strategy, and judgement.",
+      text: "Agreed. Let us build this properly. Our AI governance framework needs to cover content review, fact-checking, and prompt standards. And when the team asks if AI is replacing them — the answer is clear. We are using AI to augment, not replace, the marketing function. The AI handles volume. The humans handle quality, strategy, and judgment.",
     },
     {
       speaker: 'Dana',
@@ -203,18 +203,18 @@ export const aiAndAutomationInMarketing: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Agreed. Build the governance now, while the programme is small, and scaling becomes much safer. Wait until we have a crisis to build it, and the damage has already been done.",
+      text: "Agreed. Build the governance now, while the program is small, and scaling becomes much safer. Wait until we have a crisis to build it, and the damage has already been done.",
     },
   ],
 
   matchingExercise: [
     { word: 'generative AI', definition: 'AI that creates new content — text, images, or audio — based on patterns learned from large amounts of existing data' },
     { word: 'large language model', definition: 'an AI system trained on huge amounts of text that can understand and generate human language — abbreviated LLM' },
-    { word: 'predictive personalisation', definition: 'using data and AI to predict what a customer will want next and showing them that, rather than generic content' },
-    { word: 'dynamic content', definition: 'content that changes automatically based on who is viewing it — their behaviour, location, or purchase history' },
+    { word: 'predictive personalization', definition: 'using data and AI to predict what a customer will want next and showing them that, rather than generic content' },
+    { word: 'dynamic content', definition: 'content that changes automatically based on who is viewing it — their behavior, location, or purchase history' },
     { word: 'prompt engineering', definition: 'the skill of writing clear, specific instructions that get an AI tool to produce the output you actually want' },
     { word: 'automation bias', definition: 'the tendency to trust AI outputs without critically checking them — even when they are wrong' },
-    { word: 'AI governance', definition: 'the rules and processes an organisation uses to make sure AI is used responsibly, ethically, and legally' },
+    { word: 'AI governance', definition: 'the rules and processes an organization uses to make sure AI is used responsibly, ethically, and legally' },
     { word: 'workflow automation', definition: 'using technology to complete a series of tasks automatically — without a person having to trigger each step manually' },
   ],
 
@@ -252,7 +252,7 @@ export const aiAndAutomationInMarketing: Lesson = {
 
   warmUp: {
     questions: [
-      'Have you used any AI tools in your work or studies — to write, research, translate, or summarise? What worked well, and what did you have to fix or change in the output?',
+      'Have you used any AI tools in your work or studies — to write, research, translate, or summarize? What worked well, and what did you have to fix or change in the output?',
       'When you read something written by AI, can you usually tell? What gives it away — and does it matter to you whether the content you read was written by a human or a machine?',
       'Some people worry that AI will replace their jobs. Others think AI will make their jobs better. Which view do you lean towards — and what would need to be true for the more optimistic version to be right?',
     ],
@@ -271,7 +271,7 @@ export const aiAndAutomationInMarketing: Lesson = {
         sentence: 'We need a human _____ the loop for any content that makes a specific factual claim.',
         options: ['in', 'into', 'within'],
         correctIndex: 0,
-        explanation: "'In the loop' is the established fixed phrase meaning involved in, informed about, or part of a process. 'A human in the loop' is a technical and professional phrase meaning a person who reviews, approves, or corrects automated outputs. It is not 'into the loop' (which would describe the action of entering, not the state of being included) or 'within the loop' (not a standard phrase). Fixed phrases and idioms must be memorised as set expressions — the preposition is part of the phrase and cannot be substituted. Other examples: 'in the loop' (informed), 'out of the loop' (not informed), 'keep someone in the loop' (continue to inform them).",
+        explanation: "'In the loop' is the established fixed phrase meaning involved in, informed about, or part of a process. 'A human in the loop' is a technical and professional phrase meaning a person who reviews, approves, or corrects automated outputs. It is not 'into the loop' (which would describe the action of entering, not the state of being included) or 'within the loop' (not a standard phrase). Fixed phrases and idioms must be memorized as set expressions — the preposition is part of the phrase and cannot be substituted. Other examples: 'in the loop' (informed), 'out of the loop' (not informed), 'keep someone in the loop' (continue to inform them).",
       },
       {
         sentence: 'Our AI governance framework _____ that all customer-facing content goes through a three-step review before publication.',
@@ -295,7 +295,7 @@ export const aiAndAutomationInMarketing: Lesson = {
         sentence: 'Automation bias _____ when reviewers stop questioning AI outputs because the content looks polished and correct.',
         options: ['kicks in', 'kicks out', 'kicks off'],
         correctIndex: 0,
-        explanation: "'Kicks in' means to start having an effect, to become active — often used for conditions, behaviours, or processes that activate under certain circumstances: 'automation bias kicks in when the output looks right'. 'Kicks out' means to expel or eject: 'the system kicks out duplicate entries'. 'Kicks off' means to begin or to start something: 'the campaign kicks off next Monday'. The idiom 'kick in' specifically describes the activation of a condition, habit, instinct, or system — it is the right phrase for describing when automation bias becomes active. Phrasal verbs with 'kick' have distinct meanings that cannot be interchanged.",
+        explanation: "'Kicks in' means to start having an effect, to become active — often used for conditions, behaviors, or processes that activate under certain circumstances: 'automation bias kicks in when the output looks right'. 'Kicks out' means to expel or eject: 'the system kicks out duplicate entries'. 'Kicks off' means to begin or to start something: 'the campaign kicks off next Monday'. The idiom 'kick in' specifically describes the activation of a condition, habit, instinct, or system — it is the right phrase for describing when automation bias becomes active. Phrasal verbs with 'kick' have distinct meanings that cannot be interchanged.",
       },
     ],
   },
@@ -308,7 +308,7 @@ export const aiAndAutomationInMarketing: Lesson = {
           customerLine: "'Can we just use AI to write all our content from now on? It would save so much time.'",
           options: [
             "Yes — AI can write everything. The quality is good enough and the time savings are significant.",
-            "AI can handle a large portion of the content workload, especially first drafts, high-volume structured formats like email subject lines and ad copy variants, and internal summaries. But 'all content' is too broad. Content that requires genuine brand voice, cultural sensitivity, factual accuracy about specific products or claims, and anything going to a named client or senior stakeholder — those need human involvement at minimum at the editing and approval stage. The goal is not to replace human content work but to use AI for the high-volume, lower-risk work and free human time for the higher-judgement work. If we skip the governance layer entirely, we will publish an error at scale and the time saved will not be worth the damage.",
+            "AI can handle a large portion of the content workload, especially first drafts, high-volume structured formats like email subject lines and ad copy variants, and internal summaries. But 'all content' is too broad. Content that requires genuine brand voice, cultural sensitivity, factual accuracy about specific products or claims, and anything going to a named client or senior stakeholder — those need human involvement at minimum at the editing and approval stage. The goal is not to replace human content work but to use AI for the high-volume, lower-risk work and free human time for the higher-judgment work. If we skip the governance layer entirely, we will publish an error at scale and the time saved will not be worth the damage.",
             "No — AI content always sounds robotic and off-brand. It is not good enough for professional use.",
           ],
           correctIndex: 1,
@@ -328,7 +328,7 @@ export const aiAndAutomationInMarketing: Lesson = {
           customerLine: "'The marketing team is worried that AI is going to take their jobs. What do we tell them?'",
           options: [
             "Tell them their concerns are unfounded — AI cannot replicate human creativity, so creative jobs are completely safe.",
-            "The honest answer is that AI will change most marketing jobs significantly — and that is different from replacing them. The tasks most at risk are high-volume, structured, repeatable ones: first drafts, data summarisation, A/B test variants, scheduling, basic reporting. The tasks least at risk are the ones that require genuine creative judgement, cultural intelligence, strategic thinking, and relationship management. The team that will thrive is the one that learns to work with AI effectively — using it for the volume work and freeing human capacity for the strategic work. Denying that change is coming is not reassuring — it is patronising. The better message is: here is how we are going to adapt together, here is what we will use AI for, and here is the work that will always need a human.",
+            "The honest answer is that AI will change most marketing jobs significantly — and that is different from replacing them. The tasks most at risk are high-volume, structured, repeatable ones: first drafts, data summarization, A/B test variants, scheduling, basic reporting. The tasks least at risk are the ones that require genuine creative judgment, cultural intelligence, strategic thinking, and relationship management. The team that will thrive is the one that learns to work with AI effectively — using it for the volume work and freeing human capacity for the strategic work. Denying that change is coming is not reassuring — it is patronising. The better message is: here is how we are going to adapt together, here is what we will use AI for, and here is the work that will always need a human.",
             "Tell them that AI will definitely replace some roles, so they should start looking for jobs in areas AI cannot reach.",
           ],
           correctIndex: 1,
@@ -337,7 +337,7 @@ export const aiAndAutomationInMarketing: Lesson = {
       ],
     },
     spotTheMistake: {
-      instructions: 'Read the AI programme review meeting extract. Three lines have a grammar mistake. Can you find them?',
+      instructions: 'Read the AI program review meeting extract. Three lines have a grammar mistake. Can you find them?',
       dialogue: [
         { speaker: 'Marcus', text: "The AI governance framework requires that every customer-facing piece of content goes through a three-step review before publication." },
         { speaker: 'Riley', text: "Each of the review steps have a specific owner — brand, fact-check, and legal — and no step can be skipped regardless of the deadline pressure." },
@@ -377,8 +377,8 @@ export const aiAndAutomationInMarketing: Lesson = {
         },
         {
           customerLine: "Write the opening of an AI policy briefing for a marketing team that is nervous about AI replacing their jobs.",
-          salespersonStart: "I want to be direct with you about what this programme means for the team —",
-          suggestedCompletion: "because you deserve an honest answer, not a reassuring one that turns out to be wrong. AI is going to change a significant portion of how this team works. The tasks most affected are the ones that are high-volume, structured, and repeatable — first drafts, subject line variants, scheduling, basic data summaries. Those will increasingly be handled by AI tools. What that means for the team is not fewer jobs — it means different jobs. The time freed up by AI handling volume work is time you will spend on strategy, on client relationships, on creative direction, and on the work that genuinely requires human judgement. I will not promise that nothing will change. I will promise that we are navigating this change together, transparently, and that the goal is a team that is more effective — not a smaller team.",
+          salespersonStart: "I want to be direct with you about what this program means for the team —",
+          suggestedCompletion: "because you deserve an honest answer, not a reassuring one that turns out to be wrong. AI is going to change a significant portion of how this team works. The tasks most affected are the ones that are high-volume, structured, and repeatable — first drafts, subject line variants, scheduling, basic data summaries. Those will increasingly be handled by AI tools. What that means for the team is not fewer jobs — it means different jobs. The time freed up by AI handling volume work is time you will spend on strategy, on client relationships, on creative direction, and on the work that genuinely requires human judgment. I will not promise that nothing will change. I will promise that we are navigating this change together, transparently, and that the goal is a team that is more effective — not a smaller team.",
         },
         {
           customerLine: "Explain to a sceptical senior leader why prompt engineering matters.",

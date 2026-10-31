@@ -31,7 +31,7 @@ export const businessDelegatingTasks: Lesson = {
 
   phrasalVerbs: [
     { phrase: "I'd like you to take the lead on this project.", tag: 'phrase', definition: 'Assign responsibility and show confidence.', example: '"Maria, I\'d like you to take the lead on this project — the Lisbon launch."', imageSlug: img('phrase-take-lead') },
-    { phrase: 'I trust your judgement on this.', tag: 'phrase', definition: 'Express trust and give autonomy.', example: '"You know the market better than I do. I trust your judgement on this."', imageSlug: img('phrase-trust-judgement') },
+    { phrase: 'I trust your judgment on this.', tag: 'phrase', definition: 'Express trust and give autonomy.', example: '"You know the market better than I do. I trust your judgment on this."', imageSlug: img('phrase-trust-judgement') },
     { phrase: "You'll have full authority to make decisions on…", tag: 'phrase', definition: 'Delegate decision-making power clearly.', example: '"You\'ll have full authority to make decisions on suppliers under 10,000 euros."', inAction: 'Be explicit about the LIMITS of authority ("up to 10,000 euros") — vague delegation leads to either paralysis or overreach.', imageSlug: img('phrase-decision-authority') },
     { phrase: 'Please prioritize these tasks based on…', tag: 'phrase', definition: 'Give structure and clear expectations.', example: '"Please prioritize these tasks based on client impact."', imageSlug: img('phrase-prioritize') },
     { phrase: "Let's agree on the timeline and key goals.", tag: 'phrase', definition: 'Ensure shared understanding.', example: '"Before you start, let\'s agree on the timeline and key goals."', imageSlug: img('phrase-timeline-goals') },
@@ -43,13 +43,13 @@ export const businessDelegatingTasks: Lesson = {
   dialogue: [
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Maria, I'd like you to take the lead on the partner conference this year." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Wow, thank you! That's a big responsibility. What exactly would I be in charge of?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Everything — venue, speakers, programme. You'll have full [[authority:power to decide]] to make decisions on spending up to 30,000 euros. Above that, just check with me." },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Everything — venue, speakers, program. You'll have full [[authority:power to decide]] to make decisions on spending up to 30,000 euros. Above that, just check with me." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Clear. How often should I update you?" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I don't want to [[micromanage:control every small detail]]. Let's set a [[checkpoint:moment to review progress]] every two weeks. Otherwise, you have complete [[autonomy:freedom to decide]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "What should I prioritize first?" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Please prioritize the venue — good ones book up fast. Let's agree on the key goals: 200 attendees, under budget, and a 90% satisfaction score." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Got it. I'll take full [[accountability:responsibility for results]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I trust your judgement. I'll [[hand over:give responsibility for]] last year's files tomorrow." },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I trust your judgment. I'll [[hand over:give responsibility for]] last year's files tomorrow." },
   ],
 
   matchingExercise: [

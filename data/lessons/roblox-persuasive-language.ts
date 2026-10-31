@@ -122,7 +122,7 @@ export const robloxPersuasiveLanguage: Lesson = {
       word: 'COMPELLING',
       partOfSpeech: 'adjective',
       definition: "Very convincing — hard to say no to or argue against.",
-      example: "She made a compelling case for the budget increase — by the end, even the sceptics were persuaded.",
+      example: "She made a compelling case for the budget increase — by the end, even the skeptics were persuaded.",
       imageSlug: '/images/roblox-persuasive-language-compelling-irl.png',
     },
     {
@@ -256,13 +256,13 @@ export const robloxPersuasiveLanguage: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Different function. NEVERTHELESS starts a new sentence: 'The tutorial is weak. Nevertheless, it improves.' DESPITE starts a clause within a sentence: '[[Despite:without being affected by]] the weak tutorial, the overall experience is excellent.' NEVERTHELESS is for contrast. DESPITE is for acknowledgement without cancellation.",
+      text: "Different function. NEVERTHELESS starts a new sentence: 'The tutorial is weak. Nevertheless, it improves.' DESPITE starts a clause within a sentence: '[[Despite:without being affected by]] the weak tutorial, the overall experience is excellent.' NEVERTHELESS is for contrast. DESPITE is for acknowledgment without cancellation.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "And the ending — should I save the [[verdict:the final judgement or conclusion]] for last?",
+      text: "And the ending — should I save the [[verdict:the final judgment or conclusion]] for last?",
     },
     {
       speaker: 'Mario',
@@ -297,7 +297,7 @@ export const robloxPersuasiveLanguage: Lesson = {
         sentence: "_____ the occasional server lag, the gameplay experience is consistently excellent.",
         options: ["Nevertheless", "Despite", "Compelling"],
         correctIndex: 1,
-        explanation: "DESPITE is a preposition that introduces a clause — 'despite + noun phrase' acknowledges a problem without cancelling the positive conclusion. NEVERTHELESS starts a new sentence. COMPELLING is an adjective.",
+        explanation: "DESPITE is a preposition that introduces a clause — 'despite + noun phrase' acknowledges a problem without canceling the positive conclusion. NEVERTHELESS starts a new sentence. COMPELLING is an adjective.",
       },
       {
         sentence: "The progression system creates a _____ reason to return every day — there is always something to work toward.",
@@ -309,7 +309,7 @@ export const robloxPersuasiveLanguage: Lesson = {
         sentence: "The _____: this is the best competitive game on the platform, and it is not close.",
         options: ["verdict", "drawback", "recommendation"],
         correctIndex: 0,
-        explanation: "VERDICT is the final judgement or conclusion — the definitive opinion. DRAWBACK is a negative. RECOMMENDATION is the act of recommending — a noun, but 'the recommendation' doesn't work in this sentence structure which requires a definitive judgement word.",
+        explanation: "VERDICT is the final judgment or conclusion — the definitive opinion. DRAWBACK is a negative. RECOMMENDATION is the act of recommending — a noun, but 'the recommendation' doesn't work in this sentence structure which requires a definitive judgment word.",
       },
     ],
   },
@@ -320,8 +320,8 @@ export const robloxPersuasiveLanguage: Lesson = {
     { word: 'DRAWBACK', definition: 'A disadvantage or negative aspect of something that is otherwise good' },
     { word: 'NEVERTHELESS', definition: 'In spite of what was just said — introduces a contrasting point that does not cancel the previous one' },
     { word: 'COMPELLING', definition: 'Powerfully persuasive — so strong that it is difficult to ignore or argue against' },
-    { word: 'VERDICT', definition: 'A final judgement or conclusion — the definitive opinion the reader should take away' },
-    { word: 'RECOMMEND', definition: 'To suggest or advocate for something based on your experience and judgement' },
+    { word: 'VERDICT', definition: 'A final judgment or conclusion — the definitive opinion the reader should take away' },
+    { word: 'RECOMMEND', definition: 'To suggest or advocate for something based on your experience and judgment' },
     { word: 'DESPITE', definition: 'Without being affected by — acknowledges a negative while showing it does not change the conclusion' },
   ],
 

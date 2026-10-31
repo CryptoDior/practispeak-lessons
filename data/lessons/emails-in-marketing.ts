@@ -445,7 +445,7 @@ export const emailsInMarketing: Lesson = {
                     "Say: I will send you our full proposal with pricing. I will need three to four days to prepare it."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. Attaching a brochure and a relevant case study gives the client what they asked for in a useful, personalised way. A sends them away from the conversation — you lose the personal connection. C jumps to a full proposal before you understand their needs."
+                "explanation": "B is correct. Attaching a brochure and a relevant case study gives the client what they asked for in a useful, personalized way. A sends them away from the conversation — you lose the personal connection. C jumps to a full proposal before you understand their needs."
             }
         ]
     },
@@ -514,7 +514,7 @@ export const emailsInMarketing: Lesson = {
             {
                 "customerLine": "Client: We are not sure if we need a marketing agency right now.",
                 "salespersonStart": "I understand — it is a big decision.",
-                "suggestedCompletion": "There is no pressure at all. I would love to have a short call just to learn more about your goals. Sometimes after one conversation, people realise where the gaps are — and sometimes they decide they do not need us yet. Either way, it is a useful 20 minutes. Would that work for you?"
+                "suggestedCompletion": "There is no pressure at all. I would love to have a short call just to learn more about your goals. Sometimes after one conversation, people realize where the gaps are — and sometimes they decide they do not need us yet. Either way, it is a useful 20 minutes. Would that work for you?"
             }
         ]
     }

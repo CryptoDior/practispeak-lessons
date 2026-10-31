@@ -48,7 +48,7 @@ export const robloxReviewB1Block2: Lesson = {
       word: 'ALTHOUGH',
       partOfSpeech: 'conjunction',
       definition: "Introduces a fact that is true but does not change the main idea. (From Lesson 16: Conjunctions & Linking Words)",
-      example: "Although we practised every evening, the opposing team was simply too experienced for us.",
+      example: "Although we practiced every evening, the opposing team was simply too experienced for us.",
       imageSlug: '/images/roblox-review-b1-block-2-although.png',
     },
     {
@@ -342,7 +342,7 @@ export const robloxReviewB1Block2: Lesson = {
       options: [
         "Although we won, so we celebrated until midnight.",
         "Although we lost, but we played at the highest level we ever had.",
-        "Although we practised every evening, the other team was too experienced for us.",
+        "Although we practiced every evening, the other team was too experienced for us.",
         "Although however we were behind, we still kept fighting.",
       ],
       correctIndex: 2,

@@ -5,7 +5,7 @@ export const basicSalesPhoneCall: Lesson = {
   title: 'Basic Sales Phone Call',
   subtitle: 'How to greet a customer, explain why you are calling, and end a call professionally',
   level: 'A1-A2',
-  description: 'A professional phone call has a clear structure: a strong greeting, a simple reason for calling, and a polite goodbye. This lesson teaches you the exact phrases to use at each stage — so your calls always sound confident and organised, from the first word to the last.',
+  description: 'A professional phone call has a clear structure: a strong greeting, a simple reason for calling, and a polite goodbye. This lesson teaches you the exact phrases to use at each stage — so your calls always sound confident and organized, from the first word to the last.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/basic-sales-phone-call-hero.png',
 
   vocabulary: [

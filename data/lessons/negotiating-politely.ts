@@ -359,7 +359,7 @@ export const negotiatingPolitely: Lesson = {
                 "way"
             ],
             "correctIndex": 1,
-            "explanation": "'Find a middle ground' is the fixed phrase for reaching a compromise in English. 'Middle point' and 'middle way' are not standard. 'Middle ground' is a metaphor — both sides move toward the centre. It's one of the most common idioms in negotiation language: 'Is there a middle ground we can find here?'"
+            "explanation": "'Find a middle ground' is the fixed phrase for reaching a compromise in English. 'Middle point' and 'middle way' are not standard. 'Middle ground' is a metaphor — both sides move toward the center. It's one of the most common idioms in negotiation language: 'Is there a middle ground we can find here?'"
         },
         {
             "sentence": "Let me take that back to my manager and _____ back to you by tomorrow.",
@@ -412,7 +412,7 @@ export const negotiatingPolitely: Lesson = {
                 "options": [
                     "Sure — $27 it is. I'm glad we could make it work.",
                     "I think we're genuinely close, and I want to get this done. Let me take the $27 back to my manager — can I come back to you by end of day today? I don't want to commit to a number I haven't confirmed internally.",
-                    "I'm afraid $27 is below the minimum I can authorise. The best I can do is $28 — that's the final offer."
+                    "I'm afraid $27 is below the minimum I can authorize. The best I can do is $28 — that's the final offer."
                 ],
                 "correctIndex": 1,
                 "explanation": "Option B is the most professional response in this situation — it validates the buyer's desire to close while protecting your credibility by not agreeing to a number you haven't confirmed. Option A agrees immediately, which signals that the original $28 offer had room in it — and makes the buyer wonder how low you could actually go. Option C is too blunt and final — 'that's the final offer' can feel confrontational and may restart the negotiation unnecessarily."

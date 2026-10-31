@@ -3,9 +3,9 @@ import { Lesson } from '@/types/lesson';
 export const consumerPsychology: Lesson = {
   slug: 'consumer-psychology',
   title: 'Consumer Psychology',
-  subtitle: 'How to use the language of behaviour and decision-making to analyse campaigns, brief creatives, and explain why customers do what they do',
+  subtitle: 'How to use the language of behavior and decision-making to analyze campaigns, brief creatives, and explain why customers do what they do',
   level: 'B1-B2',
-  description: "People don't make decisions the way we think they do. They are influenced by cognitive biases, social signals, scarcity, and the way choices are framed — often without knowing it. Understanding consumer psychology gives marketers a powerful advantage: you can design campaigns that work with human behaviour instead of against it. This lesson teaches you the vocabulary and phrases to discuss psychological principles at work, analyse real campaigns, and brief creative teams with precision.",
+  description: "People don't make decisions the way we think they do. They are influenced by cognitive biases, social signals, scarcity, and the way choices are framed — often without knowing it. Understanding consumer psychology gives marketers a powerful advantage: you can design campaigns that work with human behavior instead of against it. This lesson teaches you the vocabulary and phrases to discuss psychological principles at work, analyze real campaigns, and brief creative teams with precision.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consumer-psychology-hero.png',
 
   vocabulary: [
@@ -70,7 +70,7 @@ export const consumerPsychology: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'THIS CAMPAIGN LEVERAGES THE PRINCIPLE OF...',
-      definition: 'Says the campaign is built to use a particular idea about behaviour.',
+      definition: 'Says the campaign is built to use a particular idea about behavior.',
       example: 'This campaign leverages the principle of reciprocity to build trust.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consumer-psychology-this-campaign-leverages-the-principle-of.png',
       inAction: 'This campaign leverages the principle of reciprocity — we give away a genuinely useful guide before asking for anything in return.',
@@ -88,9 +88,9 @@ export const consumerPsychology: Lesson = {
       example: 'The customer\'s decision is driven by status, not by price.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consumer-psychology-the-customers-decision-is-driven-by.png',
       inAction: "In this segment, the customer's decision is driven by fear of making a costly mistake — not by excitement about finding the best product.",
-      register: "Neutral — Lumiere (luxury anti-ageing skincare, department store + DTC): brief reads the customer decision is driven by fear, not aspiration — she is buying protection, not hope. Headlines focus on prevention. | Vault (personal finance app, App Store): copy brief reads the customer decision is driven by anxiety — she knows she should save. We reassure, we do not educate. | Archive (secondhand fashion, Instagram + web): the customer decision is driven by identity — buying vintage is a statement, not a bargain. Price is never the message.",
+      register: "Neutral — Lumiere (luxury anti-aging skincare, department store + DTC): brief reads the customer decision is driven by fear, not aspiration — she is buying protection, not hope. Headlines focus on prevention. | Vault (personal finance app, App Store): copy brief reads the customer decision is driven by anxiety — she knows she should save. We reassure, we do not educate. | Archive (secondhand fashion, Instagram + web): the customer decision is driven by identity — buying vintage is a statement, not a bargain. Price is never the message.",
       visualExamples: [
-        { brand: 'Lumiere', context: 'Luxury anti-ageing skincare — department store + DTC site', imageSlug: '/images/visual-examples/lumiere-fear-copy.png', caption: 'The customer decision is driven by fear, not aspiration — she is buying protection. Headlines focus on prevention, not glamour.', aspectRatio: '3/2' },
+        { brand: 'Lumiere', context: 'Luxury anti-aging skincare — department store + DTC site', imageSlug: '/images/visual-examples/lumiere-fear-copy.png', caption: 'The customer decision is driven by fear, not aspiration — she is buying protection. Headlines focus on prevention, not glamour.', aspectRatio: '3/2' },
         { brand: 'Vault', context: 'Personal finance app — App Store + Facebook ads', imageSlug: '/images/visual-examples/vault-anxiety-copy.png', caption: 'The customer decision is driven by anxiety — she already knows she should save. We reassure, we do not educate.', aspectRatio: '9/19.5' },
         { brand: 'Archive', context: 'Secondhand fashion marketplace — Instagram + web', imageSlug: '/images/visual-examples/archive-identity-copy.png', caption: 'The customer decision is driven by identity — buying vintage is a statement, not a bargain. Price is never the message.', aspectRatio: '1/1' },
       ],
@@ -140,7 +140,7 @@ export const consumerPsychology: Lesson = {
     },
     {
       phrase: 'THE PSYCHOLOGICAL INSIGHT BEHIND THIS IS...',
-      definition: 'Introduces the idea about human behaviour that explains a decision.',
+      definition: 'Introduces the idea about human behavior that explains a decision.',
       example: 'The psychological insight behind this is that people copy others.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consumer-psychology-the-psychological-insight-behind-this-is.png',
       inAction: 'The psychological insight behind this is anchoring — when customers see the premium plan first, the standard plan instantly feels like better value.',
@@ -191,7 +191,7 @@ export const consumerPsychology: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: '[[Social proof:the psychological principle that people look to the behaviour of others to guide their own decisions]] is particularly powerful in B2B — people are spending company money, not their own. They need to see that others like them have already taken the risk.',
+      text: '[[Social proof:the psychological principle that people look to the behavior of others to guide their own decisions]] is particularly powerful in B2B — people are spending company money, not their own. They need to see that others like them have already taken the risk.',
     },
     {
       speaker: 'Dana',
@@ -209,7 +209,7 @@ export const consumerPsychology: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'So to summarise: the campaign leverages the principle of loss aversion in the emails, [[reciprocity:the social norm that when someone gives us something, we feel an obligation to give something back]] through the free template offer at the top of the funnel, social proof on the landing page, and anchoring on the pricing page. Each one is doing a specific job.',
+      text: 'So to summarize: the campaign leverages the principle of loss aversion in the emails, [[reciprocity:the social norm that when someone gives us something, we feel an obligation to give something back]] through the free template offer at the top of the funnel, social proof on the landing page, and anchoring on the pricing page. Each one is doing a specific job.',
     },
     {
       speaker: 'Dana',
@@ -266,7 +266,7 @@ export const consumerPsychology: Lesson = {
     },
     {
         "word": "social proof",
-        "definition": "the principle that people look to others' behaviour to guide their own decisions"
+        "definition": "the principle that people look to others' behavior to guide their own decisions"
     },
     {
         "word": "scarcity",
@@ -377,7 +377,7 @@ export const consumerPsychology: Lesson = {
                 "at"
             ],
             "correctIndex": 0,
-            "explanation": "'Wired to' is the correct phrase — it means naturally designed or programmed to do something. 'Wired to respond' is a fixed collocation used in behavioural science and marketing writing. 'Wired for' exists but changes the meaning: 'wired for connection' means built to need connection, not to perform a specific action. 'Wired at' is not a standard phrase. When describing automatic human responses, use 'wired to + base verb'."
+            "explanation": "'Wired to' is the correct phrase — it means naturally designed or programd to do something. 'Wired to respond' is a fixed collocation used in behavioural science and marketing writing. 'Wired for' exists but changes the meaning: 'wired for connection' means built to need connection, not to perform a specific action. 'Wired at' is not a standard phrase. When describing automatic human responses, use 'wired to + base verb'."
         },
         {
             "sentence": "The framing effect means that _____ you present information affects how people respond to it.",
@@ -488,7 +488,7 @@ export const consumerPsychology: Lesson = {
             },
             {
                 "speaker": "Marcus",
-                "text": "Every of these changes was informed by research into consumer decision-making behaviour."
+                "text": "Every of these changes was informed by research into consumer decision-making behavior."
             },
             {
                 "speaker": "Dana",

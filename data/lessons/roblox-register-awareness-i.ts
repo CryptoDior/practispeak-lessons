@@ -5,7 +5,7 @@ export const robloxRegisterAwarenessI: Lesson = {
   title: "Register Awareness I",
   subtitle: "The same match. Three completely different ways to describe it. Which one is right? All of them — it depends.",
   level: 'B1-B2',
-  description: "In Roblox, you talk differently in Discord chat, a guild forum post, and a gaming news article — even when you are describing the exact same event. That shift in language level is called register. At B2, you need to recognise it, control it, and switch between registers with confidence. This lesson starts that process.",
+  description: "In Roblox, you talk differently in Discord chat, a guild forum post, and a gaming news article — even when you are describing the exact same event. That shift in language level is called register. At B2, you need to recognize it, control it, and switch between registers with confidence. This lesson starts that process.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-register-awareness-i-hero.png?v=2',
 
   grammarFocus: {
@@ -177,7 +177,7 @@ export const robloxRegisterAwarenessI: Lesson = {
     {
       phrase: "DRESS UP",
       definition: "Change something to use more formal, impressive language.",
-      example: "You can dress up 'we won because they were bad' into something more analytical for the post-match report: 'we capitalised on several key defensive errors from the opposing team'.",
+      example: "You can dress up 'we won because they were bad' into something more analytical for the post-match report: 'we capitalized on several key defensive errors from the opposing team'.",
       inGame: "Dress up your guild application — 'I like playing with friends' becomes 'I am committed to collaborative and team-focused competitive play'.",
       inRealLife: "She dressed up the project summary for the executive presentation — the same data, but framed in language that spoke their language.",
       imageSlug: '/images/roblox-register-awareness-i-dress-up.png',
@@ -383,7 +383,7 @@ export const robloxRegisterAwarenessI: Lesson = {
       options: [
         "They are completely identical — they can always be swapped in any sentence.",
         "PARAPHRASE is used only in academic writing; REPHRASE is used in speaking.",
-        "PARAPHRASE means restate in different words to clarify or adjust; REPHRASE emphasises redoing the language or structure of something.",
+        "PARAPHRASE means restate in different words to clarify or adjust; REPHRASE emphasizes redoing the language or structure of something.",
         "REPHRASE always makes language more formal; PARAPHRASE always makes it more casual.",
       ],
       correctIndex: 2,

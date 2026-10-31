@@ -48,7 +48,7 @@ export const businessInternationalColleagues: Lesson = {
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Just to make sure we understand each other: Friday 5 p.m. Madrid time, or Cape Town time?' },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Madrid time. Sorry for the [[misunderstanding:not understanding each other correctly]]. I speak fast with my Spanish [[accent:way of pronouncing words]]!" },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "No problem at all. Also, you said the design should be 'clean'. Could you give an example?" },
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Lots of white space, only two colours, and short titles.' },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Lots of white space, only two colors, and short titles.' },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Oh, that's what we planned too. I think we're saying the same thing. Let's [[simplify:make easier]] the brief and keep it simple." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Perfect. Thanks for explaining, [[colleague:people I work with]]s!' },
   ],
@@ -77,6 +77,6 @@ export const businessInternationalColleagues: Lesson = {
     { question: 'Why is it important to confirm time zones?', options: ['It is polite', '"5 p.m." can mean different times in different countries', 'It is the law', 'It makes emails shorter'], correctIndex: 1 },
     { question: 'Which phrase shows you agree, after a confusion?', options: ["I think we're saying the same thing.", "That's wrong.", "I'm afraid I don't agree.", 'Could you repeat that?'], correctIndex: 0 },
     { question: 'In the dialogue, when does Maria need the files?', options: ['Today', 'Friday 5 p.m. Madrid time', 'Next week', 'Monday'], correctIndex: 1 },
-    { question: 'What does "clean design" mean for Maria?', options: ['Lots of colours', 'White space, two colours, short titles', 'Many pictures', 'Long text'], correctIndex: 1 },
+    { question: 'What does "clean design" mean for Maria?', options: ['Lots of colors', 'White space, two colors, short titles', 'Many pictures', 'Long text'], correctIndex: 1 },
   ],
 };

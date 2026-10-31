@@ -114,7 +114,7 @@ export const robloxReviewA2Block2: Lesson = {
       word: 'GOOD AT',
       partOfSpeech: 'phrase',
       definition: "You do this well — you have a lot of skill in this area.",
-      example: "She is really good at maths — she gets top marks in every single test.",
+      example: "She is really good at math — she gets top marks in every single test.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-a2-block-2-irl-good-at.png',
     },
     {

@@ -33,13 +33,13 @@ export const beautyFacePartsMakeup: Lesson = {
     { word: 'NOSE', partOfSpeech: 'noun', definition: 'The part of your face you breathe through.', example: 'My nose gets shiny in summer.', imageSlug: img('summer-shine-on-nose') },
     { word: 'LIPS', partOfSpeech: 'noun', definition: 'The two soft parts around your mouth: top lip and bottom lip.', example: 'Put lip gloss on your bottom lip.', imageSlug: img('gloss-on-bottom-lip') },
     { word: 'CHIN', partOfSpeech: 'noun', definition: 'The bottom part of your face, below your mouth.', example: 'Blend the foundation down to your chin.', imageSlug: img('blend-down-to-chin') },
-    { word: 'SKIN TONE', partOfSpeech: 'noun', definition: 'The natural colour of your skin.', example: 'This foundation matches my skin tone.', imageSlug: img('matching-natural-skin-shade') },
+    { word: 'SKIN TONE', partOfSpeech: 'noun', definition: 'The natural color of your skin.', example: 'This foundation matches my skin tone.', imageSlug: img('matching-natural-skin-shade') },
   ],
 
   phrasalVerbs: [
     { phrase: 'Put … on your…', tag: 'phrase', definition: 'Say where a product goes.', example: '"Put blush on your cheeks." / "Put mascara on your eyelashes."', imageSlug: img('two-product-correct-areas') },
     { phrase: 'Apply… to…', tag: 'phrase', definition: 'A more formal way to say "put on".', example: '"Apply eyeshadow to your eyelids."', imageSlug: img('apply-shadow-to-eyelid') },
-    { phrase: 'Does it match my skin tone?', tag: 'phrase', definition: 'Ask if a colour is right for your skin.', example: '"Can I test this foundation? Does it match my skin tone?"', imageSlug: img('question-about-shade-match') },
+    { phrase: 'Does it match my skin tone?', tag: 'phrase', definition: 'Ask if a color is right for your skin.', example: '"Can I test this foundation? Does it match my skin tone?"', imageSlug: img('question-about-shade-match') },
     { phrase: 'Just a little.', tag: 'phrase', definition: 'Use only a small amount.', example: '"Blush? Just a little, please."', imageSlug: img('very-small-amount-of-blush') },
     { phrase: 'BLEND IN', definition: 'To mix makeup into the skin so you can\'t see the edges.', example: 'Blend in the foundation with a sponge.', inAction: 'Body parts: plural for eyes, eyelashes, eyebrows, cheeks, lips; singular for face, nose, forehead, chin.', imageSlug: img('sponge-blend-invisible-edges') },
   ],
@@ -48,7 +48,7 @@ export const beautyFacePartsMakeup: Lesson = {
 
   dialogue: [
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Rosie, can you help me with my makeup for the party tonight?" },
-    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Of course! First, foundation. Does it match your [[skin tone:natural skin colour]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Of course! First, foundation. Does it match your [[skin tone:natural skin color]]?" },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Yes, I think so." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good. Put it on your [[face:front of your head]] — your [[forehead:part above your eyes]], [[nose:part you breathe through]] and [[chin:bottom of your face]] — and blend it in." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Now the eyes?" },
@@ -63,7 +63,7 @@ export const beautyFacePartsMakeup: Lesson = {
     { word: 'EYELASHES', definition: 'Small hairs on the edge of your eyelids' },
     { word: 'CHEEKS', definition: 'The sides of your face' },
     { word: 'CHIN', definition: 'The bottom part of your face' },
-    { word: 'SKIN TONE', definition: 'The natural colour of your skin' },
+    { word: 'SKIN TONE', definition: 'The natural color of your skin' },
   ],
 
   fillBlankExercise: [
@@ -79,7 +79,7 @@ export const beautyFacePartsMakeup: Lesson = {
     { question: 'Where do you put mascara?', options: ['On your lips', 'On your eyelashes', 'On your chin', 'On your cheeks'], correctIndex: 1 },
     { question: 'What is your "forehead"?', options: ['The part above your eyes', 'The part below your mouth', 'The side of your face', 'Your nose'], correctIndex: 0 },
     { question: 'What does "blend in" mean?', options: ['Remove makeup', 'Mix makeup into the skin', 'Buy makeup', 'Wash your face'], correctIndex: 1 },
-    { question: 'In the dialogue, what colour eyeshadow does Rosie use?', options: ['Blue', 'Gold', 'Pink', 'Black'], correctIndex: 1 },
+    { question: 'In the dialogue, what color eyeshadow does Rosie use?', options: ['Blue', 'Gold', 'Pink', 'Black'], correctIndex: 1 },
     { question: 'Why is Maria doing her makeup?', options: ['For work', 'For a party tonight', 'For a photo', 'For a wedding'], correctIndex: 1 },
   ],
 };

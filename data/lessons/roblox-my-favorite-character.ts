@@ -2,8 +2,8 @@ import { Lesson } from '@/types/lesson';
 
 export const robloxMyFavoriteCharacter: Lesson = {
   slug: 'roblox-my-favorite-character',
-  title: "My Favourite Character — Descriptive Adjectives",
-  subtitle: "The adjectives to describe your favourite Roblox character — and people and things in real life!",
+  title: "My Favorite Character — Descriptive Adjectives",
+  subtitle: "The adjectives to describe your favorite Roblox character — and people and things in real life!",
   level: 'A1',
   description: "Learn adjectives to describe Roblox characters — tall, fast, powerful, friendly — and discover how the same words describe people, animals, and places in your everyday life.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-hero.png?v=2',
@@ -38,17 +38,17 @@ export const robloxMyFavoriteCharacter: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-in-game-strong-avatar.png',
     },
     {
-      word: 'COLOURFUL',
+      word: 'COLORFUL',
       partOfSpeech: 'adjective',
-      definition: "Has many bright colours — a colourful character stands out and looks amazing!",
-      example: "My avatar is very colourful — it has a rainbow jacket, neon shoes, and pink hair!",
+      definition: "Has many bright colors — a colorful character stands out and looks amazing!",
+      example: "My avatar is very colorful — it has a rainbow jacket, neon shoes, and pink hair!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-in-game-colourful-avatar.png',
     },
     {
       word: 'SCARY',
       partOfSpeech: 'adjective',
       definition: "Makes other players feel a little afraid — a scary character looks dangerous or creepy!",
-      example: "My avatar has a scary skeleton face and dark armour — other players always run away!",
+      example: "My avatar has a scary skeleton face and dark armor — other players always run away!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-in-game-scary-avatar.png',
     },
     {
@@ -72,7 +72,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
       word: 'TALL',
       partOfSpeech: 'adjective',
       definition: "Having a big height in real life — reaching high above the ground.",
-      example: "My older brother is really tall — he is almost two metres!",
+      example: "My older brother is really tall — he is almost two meters!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-irl-tall-brother.png',
     },
     {
@@ -97,10 +97,10 @@ export const robloxMyFavoriteCharacter: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-irl-strong-elephant.png',
     },
     {
-      word: 'COLOURFUL',
+      word: 'COLORFUL',
       partOfSpeech: 'adjective',
-      definition: "Having many bright and different colours — you see it right away!",
-      example: "The market was very colourful — red tomatoes, yellow bananas, and green peppers everywhere!",
+      definition: "Having many bright and different colors — you see it right away!",
+      example: "The market was very colorful — red tomatoes, yellow bananas, and green peppers everywhere!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-irl-colourful-market.png',
     },
     {
@@ -114,7 +114,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
       word: 'FRIENDLY',
       partOfSpeech: 'adjective',
       definition: "Kind, warm, and easy to talk to — a friendly person makes others feel welcome.",
-      example: "My new neighbour is really friendly — she said hello and gave us some cake!",
+      example: "My new neighbor is really friendly — she said hello and gave us some cake!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-irl-friendly-neighbour.png',
     },
     {
@@ -131,24 +131,24 @@ export const robloxMyFavoriteCharacter: Lesson = {
       phrase: "WHAT DOES YOUR CHARACTER LOOK LIKE?",
       definition: "Ask someone to tell you what their avatar or character looks like.",
       example: "What does your character look like? I want to find you on the server!",
-      inGame: "What does your character look like? Is it tall or small? What colours?",
+      inGame: "What does your character look like? Is it tall or small? What colors?",
       inRealLife: "What does your friend look like? Describe them so I can spot them!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-phrase-character-look-question.png',
     },
     {
       phrase: "IT LOOKS LIKE...",
       definition: "Start a description of what something or someone looks like.",
-      example: "It looks like a small robot with colourful wings and a yellow hat!",
-      inGame: "It looks like a big scary knight with dark armour and glowing red eyes.",
-      inRealLife: "It looks like a giant rainbow — so many colours after the rain!",
+      example: "It looks like a small robot with colorful wings and a yellow hat!",
+      inGame: "It looks like a big scary knight with dark armor and glowing red eyes.",
+      inRealLife: "It looks like a giant rainbow — so many colors after the rain!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-phrase-looks-like-knight.png',
     },
     {
-      phrase: "MY FAVOURITE IS...",
+      phrase: "MY FAVORITE IS...",
       definition: "Say which one you like the most — more than all the others.",
-      example: "My favourite is the ninja character — it is fast, strong, and looks amazing!",
-      inGame: "My favourite is the wizard character — powerful magic and a colourful robe!",
-      inRealLife: "My favourite is the strawberry flavour — it is sweet and really refreshing!",
+      example: "My favorite is the ninja character — it is fast, strong, and looks amazing!",
+      inGame: "My favorite is the wizard character — powerful magic and a colorful robe!",
+      inRealLife: "My favorite is the strawberry flavor — it is sweet and really refreshing!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-phrase-favourite-wizard.png',
     },
     {
@@ -164,7 +164,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
       definition: "Ask someone to tell you more about what something looks like — be more detailed!",
       example: "Describe it! I want to know every detail about your new character design.",
       inGame: "Describe it! Is the character tall or small? Scary or friendly?",
-      inRealLife: "Describe the painting! What colours did you use and what does it show?",
+      inRealLife: "Describe the painting! What colors did you use and what does it show?",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-phrase-describe-character.png',
     },
     {
@@ -184,13 +184,13 @@ export const robloxMyFavoriteCharacter: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Mario, I just redesigned my avatar! It is so [[colourful:has many bright colours]] — rainbow jacket, neon shoes, and pink hair!",
+      text: "Mario, I just redesigned my avatar! It is so [[colorful:has many bright colors]] — rainbow jacket, neon shoes, and pink hair!",
     },
     {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "So cool! My new character is the opposite — really [[scary:makes other players feel afraid]] with dark armour and a skeleton face!",
+      text: "So cool! My new character is the opposite — really [[scary:makes other players feel afraid]] with dark armor and a skeleton face!",
     },
     {
       speaker: 'Mia',
@@ -232,7 +232,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Ha! My neighbour is the most [[friendly:kind and warm to others]] person I know — she always says hello with a big smile. Just like my roleplay avatar!",
+      text: "Ha! My neighbor is the most [[friendly:kind and warm to others]] person I know — she always says hello with a big smile. Just like my roleplay avatar!",
     },
     {
       speaker: 'Mario',
@@ -247,7 +247,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     { word: 'SMALL', definition: 'Little in size — the opposite of big' },
     { word: 'FAST', definition: 'Able to move quickly — reaches places first' },
     { word: 'STRONG', definition: 'Has a lot of power or health points' },
-    { word: 'COLOURFUL', definition: 'Has many bright and different colours' },
+    { word: 'COLORFUL', definition: 'Has many bright and different colors' },
     { word: 'SCARY', definition: 'Makes other players feel afraid or nervous' },
     { word: 'FRIENDLY', definition: 'Kind and helpful to other players' },
     { word: 'POWERFUL', definition: 'Has great strength or abilities — hard to beat' },
@@ -267,7 +267,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
   multipleChoiceExercise: [
     {
       question: "Which adjective means 'able to move very quickly'?",
-      options: ["Strong.", "Tall.", "Fast.", "Colourful."],
+      options: ["Strong.", "Tall.", "Fast.", "Colorful."],
       correctIndex: 2,
     },
     {
@@ -281,11 +281,11 @@ export const robloxMyFavoriteCharacter: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "What does COLOURFUL mean?",
+      question: "What does COLORFUL mean?",
       options: [
         "Very dark and difficult to see.",
-        "Having only one colour — plain and simple.",
-        "Having many bright and different colours.",
+        "Having only one color — plain and simple.",
+        "Having many bright and different colors.",
         "Looking scary and dangerous.",
       ],
       correctIndex: 2,
@@ -299,8 +299,8 @@ export const robloxMyFavoriteCharacter: Lesson = {
       question: "What is the real-life example of FRIENDLY in the dialogue?",
       options: [
         "A cheetah that runs very fast.",
-        "A big scary knight with dark armour.",
-        "A neighbour who always says hello with a big smile.",
+        "A big scary knight with dark armor.",
+        "A neighbor who always says hello with a big smile.",
         "An elephant that can carry trees.",
       ],
       correctIndex: 2,
@@ -310,7 +310,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
       options: [
         "Fast and friendly.",
         "Tall and small.",
-        "Strong and colourful.",
+        "Strong and colorful.",
         "Scary and powerful.",
       ],
       correctIndex: 1,

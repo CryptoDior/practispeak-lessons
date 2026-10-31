@@ -16,7 +16,7 @@ export const conversationC1ReflectingOnYourself: Lesson = {
 
   objectives: [
     'Describe an experience that led to self-reflection.',
-    'Talk about patterns, realisations and personal growth.',
+    'Talk about patterns, realizations and personal growth.',
     'Use psychological vocabulary accurately and naturally.',
   ],
 
@@ -25,7 +25,7 @@ export const conversationC1ReflectingOnYourself: Lesson = {
     { word: 'TRIGGERING', partOfSpeech: 'adjective', definition: 'Causing a strong emotional reaction.', example: 'The conversation was triggering, but it helped me understand my reactions.', imageSlug: img('conversation-emotional-insight') },
     { word: 'VULNERABILITIES', partOfSpeech: 'noun', definition: 'Weak points or emotional sensitivities.', example: 'The situation exposed some of my vulnerabilities.', imageSlug: img('emotional-vulnerabilities') },
     { word: 'REALIZATION', partOfSpeech: 'noun', definition: 'A moment of sudden understanding.', example: 'I had a realization that I avoid difficult conversations.', imageSlug: img('realizing-avoidance') },
-    { word: 'SELF-AWARENESS', partOfSpeech: 'noun', definition: 'Understanding your own behaviour and emotions.', example: 'I gained a new level of self-awareness.', imageSlug: img('new-self-understanding') },
+    { word: 'SELF-AWARENESS', partOfSpeech: 'noun', definition: 'Understanding your own behavior and emotions.', example: 'I gained a new level of self-awareness.', imageSlug: img('new-self-understanding') },
     { word: 'SUBCONSCIOUS', partOfSpeech: 'adjective', definition: 'Influencing you without your conscious awareness.', example: 'I was acting out of subconscious fear.', imageSlug: img('unnoticed-fear') },
     { word: 'EMOTIONAL CLARITY', partOfSpeech: 'noun', definition: 'Clearly understanding your own feelings.', example: 'After a few days, I gained emotional clarity.', imageSlug: img('clarity-after-days') },
     { word: 'BEHAVIOURAL PATTERNS', partOfSpeech: 'noun', definition: 'Repeated habits or ways of reacting.', example: "I noticed behavioural patterns I'd been ignoring.", imageSlug: img('noticing-repeated-patterns') },
@@ -33,11 +33,11 @@ export const conversationC1ReflectingOnYourself: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'What recent situation made you reflect on yourself?', tag: 'phrase', definition: 'A high-level question about an experience that caused introspection.', example: '"Can I ask you something deep? What recent situation made you reflect on yourself?"', imageSlug: img('recent-reflection-question') },
-    { phrase: 'It made me reconsider how I handle…', tag: 'phrase', definition: 'The situation caused you to re-evaluate your behaviour.', example: '"It made me reconsider how I handle criticism."', imageSlug: img('reconsider-criticism') },
-    { phrase: 'I realised I was reacting out of habit, not intention.', tag: 'phrase', definition: 'Your behaviour was automatic rather than thoughtful.', example: '"I snapped at him and I realised I was reacting out of habit, not intention."', imageSlug: img('habitual-snap-recognition') },
+    { phrase: 'It made me reconsider how I handle…', tag: 'phrase', definition: 'The situation caused you to re-evaluate your behavior.', example: '"It made me reconsider how I handle criticism."', imageSlug: img('reconsider-criticism') },
+    { phrase: 'I realized I was reacting out of habit, not intention.', tag: 'phrase', definition: 'Your behavior was automatic rather than thoughtful.', example: '"I snapped at him and I realized I was reacting out of habit, not intention."', imageSlug: img('habitual-snap-recognition') },
     { phrase: 'It brought some of my weaknesses to the surface.', tag: 'phrase', definition: 'The event revealed areas you need to improve.', example: '"Leading the team? It brought some of my weaknesses to the surface."', imageSlug: img('team-leading-weaknesses') },
     { phrase: "It made me confront something I'd avoided.", tag: 'phrase', definition: 'You faced something uncomfortable but important.', example: '"Moving abroad? It made me confront something I\'d avoided — my fear of being alone."', imageSlug: img('abroad-fear-alone') },
-    { phrase: "I'm still processing what it taught me.", tag: 'phrase', definition: 'You are still learning from the experience.', example: '"It happened a month ago, but I\'m still processing what it taught me."', inAction: 'Using the past perfect ("something I\'d avoided", "patterns I hadn\'t seen") shows that the avoidance came BEFORE the realisation — a hallmark of C1 storytelling.', imageSlug: img('month-later-processing') },
+    { phrase: "I'm still processing what it taught me.", tag: 'phrase', definition: 'You are still learning from the experience.', example: '"It happened a month ago, but I\'m still processing what it taught me."', inAction: 'Using the past perfect ("something I\'d avoided", "patterns I hadn\'t seen") shows that the avoidance came BEFORE the realization — a hallmark of C1 storytelling.', imageSlug: img('month-later-processing') },
   ],
 
   videos: [],
@@ -46,8 +46,8 @@ export const conversationC1ReflectingOnYourself: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Can I ask you something deep? What recent situation made you reflect on yourself?" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Funny you ask. Last month a colleague gave me some blunt feedback in a meeting, and honestly, it was quite [[triggering:causing a strong emotional reaction]]." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "How did you react?" },
-    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Defensively, at first. But later I realised I was reacting out of habit, not intention. It brought some of my [[vulnerabilities:weak points]] to the surface." },
-    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That takes a lot of [[self-awareness:understanding your own behaviour]] to admit." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Defensively, at first. But later I realized I was reacting out of habit, not intention. It brought some of my [[vulnerabilities:weak points]] to the surface." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That takes a lot of [[self-awareness:understanding your own behavior]] to admit." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It was a real [[realization:moment of sudden understanding]]. I noticed [[behavioural patterns:repeated ways of reacting]] I hadn't seen before — I always take criticism as a personal attack." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Probably some [[subconscious:without conscious awareness]] fear of failure, no?" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Exactly. It made me confront something I'd avoided for years. I'm still processing it, but I have more [[emotional clarity:clear understanding of my feelings]] now." },
@@ -59,7 +59,7 @@ export const conversationC1ReflectingOnYourself: Lesson = {
       { speaker: 'Teacher', text: "What recent situation made you reflect on yourself?" },
       { speaker: 'Student', text: "A difficult conversation at work. It was quite {{triggering}}." },
       { speaker: 'Teacher', text: "How did you react?" },
-      { speaker: 'Student', text: "Badly at first. Then I realised I was reacting out of {{habit, not intention}}. What recent situation made you reflect on yourself?" },
+      { speaker: 'Student', text: "Badly at first. Then I realized I was reacting out of {{habit, not intention}}. What recent situation made you reflect on yourself?" },
       { speaker: 'Teacher', text: "For me, it was {{teacher's situation}}. It made me {{confront something I'd avoided}}. What did you learn about yourself?" },
       { speaker: 'Student', text: "I had a {{realization}}: I avoid difficult conversations." },
       { speaker: 'Teacher', text: "Did it show you any weaknesses?" },
@@ -78,7 +78,7 @@ export const conversationC1ReflectingOnYourself: Lesson = {
     { word: 'VULNERABILITIES', definition: 'Weak points or sensitivities' },
     { word: 'REALIZATION', definition: 'A moment of sudden understanding' },
     { word: 'SUBCONSCIOUS', definition: 'Without conscious awareness' },
-    { word: 'SELF-AWARENESS', definition: 'Understanding your own behaviour' },
+    { word: 'SELF-AWARENESS', definition: 'Understanding your own behavior' },
     { word: 'BEHAVIOURAL PATTERNS', definition: 'Repeated ways of reacting' },
   ],
 

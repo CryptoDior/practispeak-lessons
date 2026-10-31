@@ -67,12 +67,12 @@ export const foodWineTastingConversation: Lesson = {
     { word: 'BOUQUET', partOfSpeech: 'noun', definition: 'The full, complex smell of the wine in the glass.', example: 'The bouquet is strong and floral.', imageSlug: img('strong-floral-bouquet') },
     { word: 'NOTES', partOfSpeech: 'noun', definition: 'Small parts of a smell or taste.', example: 'I can taste notes of chocolate.', imageSlug: img('chocolate-tasting-notes') },
     { word: 'PALATE', partOfSpeech: 'noun', definition: 'The taste and feeling of wine in your mouth.', example: 'It feels smooth on the palate.', imageSlug: img('smooth-palate-mouthfeel') },
-    { word: 'FULL-BODIED', partOfSpeech: 'adjective', definition: 'Rich and strong in flavour.', example: 'This is a full-bodied red wine.', imageSlug: img('full-bodied-red') },
+    { word: 'FULL-BODIED', partOfSpeech: 'adjective', definition: 'Rich and strong in flavor.', example: 'This is a full-bodied red wine.', imageSlug: img('full-bodied-red') },
     { word: 'CRISP', partOfSpeech: 'adjective', definition: 'Fresh and clean.', example: 'The white wine is crisp and refreshing.', imageSlug: img('crisp-white-wine') },
-    { word: 'EARTHY', partOfSpeech: 'adjective', definition: 'Smelling or tasting of soil or plants.', example: 'The wine has an earthy flavour.', imageSlug: img('earthy-flavour') },
+    { word: 'EARTHY', partOfSpeech: 'adjective', definition: 'Smelling or tasting of soil or plants.', example: 'The wine has an earthy flavor.', imageSlug: img('earthy-flavour') },
     { word: 'OAKY', partOfSpeech: 'adjective', definition: 'Tasting of the wood from the barrel.', example: 'This wine has an oaky aftertaste.', imageSlug: img('oaky-aftertaste') },
     { word: 'FINISH', partOfSpeech: 'noun', definition: 'The taste that stays after you drink.', example: 'The finish is long and smooth.', imageSlug: img('long-smooth-finish') },
-    { word: 'BALANCE', partOfSpeech: 'noun', definition: 'When no flavour is too strong.', example: 'The wine has a perfect balance.', imageSlug: img('balanced-wine-flavours') },
+    { word: 'BALANCE', partOfSpeech: 'noun', definition: 'When no flavor is too strong.', example: 'The wine has a perfect balance.', imageSlug: img('balanced-wine-flavours') },
   ],
 
   phrasalVerbs: [
@@ -94,7 +94,7 @@ export const foodWineTastingConversation: Lesson = {
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Very good! Now take a small sip. How does it feel?" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It's [[full-bodied:rich and strong]], but smooth on the [[palate:taste in the mouth]]. And a little [[oaky:tasting of wood]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That's from 14 months in French oak. And the [[finish:the taste that stays]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Long and rich. I really like the [[balance:no flavour too strong]] of this wine. Is the next one a white?" },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Long and rich. I really like the [[balance:no flavor too strong]] of this wine. Is the next one a white?" },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Yes — a Sauvignon Blanc. Much lighter and [[crisp:fresh and clean]]. Let's try it!" },
   ],
 
@@ -120,7 +120,7 @@ export const foodWineTastingConversation: Lesson = {
     { question: 'What are the three steps of wine tasting?', options: ['Pour, drink, pay', 'Swirl, smell, sip', 'Open, smell, drink', 'Sip, swallow, swirl'], correctIndex: 1 },
     { question: 'What is the "finish" of a wine?', options: ['The end of the bottle', 'The taste that stays after you drink', 'The label', 'The cork'], correctIndex: 1 },
     { question: 'What does "full-bodied" mean?', options: ['Light and fresh', 'Rich and strong', 'Sweet', 'Sparkling'], correctIndex: 1 },
-    { question: 'Why do people swirl wine?', options: ['To cool it down', 'To add air and release the aroma', 'To check the colour only', 'To make bubbles'], correctIndex: 1 },
+    { question: 'Why do people swirl wine?', options: ['To cool it down', 'To add air and release the aroma', 'To check the color only', 'To make bubbles'], correctIndex: 1 },
     { question: 'In the dialogue, what fruit does Kira smell?', options: ['Cherry', 'Blackberry', 'Lemon', 'Apple'], correctIndex: 1 },
     { question: 'How long was the wine kept in oak?', options: ['6 months', '10 months', '14 months', '2 years'], correctIndex: 2 },
   ],

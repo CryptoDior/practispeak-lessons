@@ -383,7 +383,7 @@ export const talkingAboutProducts: Lesson = {
                     "We can probably match the price if you need us to."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It justifies the price with specific, customer-focused benefits. A criticises competitors, which looks unprofessional. C jumps straight to a discount before explaining any value, which weakens your position."
+                "explanation": "B is correct. It justifies the price with specific, customer-focused benefits. A criticizes competitors, which looks unprofessional. C jumps straight to a discount before explaining any value, which weakens your position."
             }
         ]
     },
@@ -420,7 +420,7 @@ export const talkingAboutProducts: Lesson = {
             {
                 "key": 'custom',
                 "label": 'Brightline Connect',
-                "description": 'Custom integrations with your existing tools, unlimited users, and a dedicated account team. Designed for large organisations that need a fully tailored solution.'
+                "description": 'Custom integrations with your existing tools, unlimited users, and a dedicated account team. Designed for large organizations that need a fully tailored solution.'
             }
         ]
     },

@@ -263,7 +263,7 @@ export const internationalMediaBuying: Lesson = {
         "sentence": "The campaign delivered 400 _____ against our core audience — a strong result for a six-week flight.",
         "options": ["GRPs", "impressions", "ratings"],
         "correctIndex": 0,
-        "explanation": "'GRPs' (Gross Rating Points) is the standard metric for measuring total advertising exposure in a media plan — 1 GRP equals 1% of the target audience reached once. 'Impressions' count every view, including repeat views, and are a digital metric. 'Ratings' are used for individual TV programmes, not total campaign delivery. When describing total campaign weight, use 'GRPs'."
+        "explanation": "'GRPs' (Gross Rating Points) is the standard metric for measuring total advertising exposure in a media plan — 1 GRP equals 1% of the target audience reached once. 'Impressions' count every view, including repeat views, and are a digital metric. 'Ratings' are used for individual TV programs, not total campaign delivery. When describing total campaign weight, use 'GRPs'."
       },
       {
         "sentence": "The _____ for the TV spots is €19 per thousand — slightly above our benchmark, but the audience quality justifies it.",
@@ -361,7 +361,7 @@ export const internationalMediaBuying: Lesson = {
           "lineIndex": 4,
           "incorrectText": "so we should move all budget to digital",
           "correction": "Lower CPT doesn't mean better — TV reaches different audiences and builds brand differently; decisions need to consider GRP delivery and strategic fit",
-          "explanation": "This is a common media buying mistake — optimising purely on CPT. A lower CPT means cheaper reach, but not necessarily better reach. TV and digital serve different strategic purposes. Moving all budget to digital to save on CPT could destroy the brand-building effect the campaign needs."
+          "explanation": "This is a common media buying mistake — optimizing purely on CPT. A lower CPT means cheaper reach, but not necessarily better reach. TV and digital serve different strategic purposes. Moving all budget to digital to save on CPT could destroy the brand-building effect the campaign needs."
         }
       ]
     },
@@ -381,7 +381,7 @@ export const internationalMediaBuying: Lesson = {
         {
           "customerLine": "Our share of voice is 22% but our market share is 28%. Is that a problem?",
           "salespersonStart": "Yes — you're below SOV parity, which means you're underinvesting relative to your market position. The research shows that brands below parity tend to lose market share over 12 to 18 months, even if sales look stable now. To reach parity you need to...",
-          "suggestedCompletion": "increase your share of voice to at least 28%. Based on current category spend, that means approximately £2.4m in additional media investment. I'd recommend modelling the return — if protecting your 28% market share is worth more than the investment cost, the case for parity spend is clear."
+          "suggestedCompletion": "increase your share of voice to at least 28%. Based on current category spend, that means approximately £2.4m in additional media investment. I'd recommend modeling the return — if protecting your 28% market share is worth more than the investment cost, the case for parity spend is clear."
         }
       ]
     }

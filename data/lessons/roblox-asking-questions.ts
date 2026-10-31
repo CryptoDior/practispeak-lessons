@@ -3,9 +3,9 @@ import { Lesson } from '@/types/lesson';
 export const robloxAskingQuestions: Lesson = {
   slug: 'roblox-asking-questions',
   title: "Asking Questions",
-  subtitle: "Learn to ask great questions — interview a friend about their favourite Roblox game!",
+  subtitle: "Learn to ask great questions — interview a friend about their favorite Roblox game!",
   level: 'A2',
-  description: "What is your favourite game? How long have you played? Why do you love it? Learn the key question words in English — then use them to interview a friend about their Roblox world and their real life!",
+  description: "What is your favorite game? How long have you played? Why do you love it? Learn the key question words in English — then use them to interview a friend about their Roblox world and their real life!",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-hero.png?v=2',
 
   vocabulary: [
@@ -13,7 +13,7 @@ export const robloxAskingQuestions: Lesson = {
       word: 'WHAT',
       partOfSpeech: 'pronoun',
       definition: "Use this to ask about a thing — the name or type of something.",
-      example: "What is your favourite game? Tell me the name and why you like it!",
+      example: "What is your favorite game? Tell me the name and why you like it!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what.png',
     },
     {
@@ -55,7 +55,7 @@ export const robloxAskingQuestions: Lesson = {
       word: 'HOW MANY',
       partOfSpeech: 'phrase',
       definition: "Ask about a number — how much of something.",
-      example: "How many games do you have as a favourite? Just one or a long list?",
+      example: "How many games do you have as a favorite? Just one or a long list?",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-how-many.png',
     },
     {
@@ -72,7 +72,7 @@ export const robloxAskingQuestions: Lesson = {
       word: 'WHAT',
       partOfSpeech: 'pronoun',
       definition: "Use this to ask about a thing.",
-      example: "What is your favourite food? Tell me — I want to know what you like most!",
+      example: "What is your favorite food? Tell me — I want to know what you like most!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what-irl.png',
     },
     {
@@ -131,7 +131,7 @@ export const robloxAskingQuestions: Lesson = {
       phrase: "TELL ME MORE ABOUT...",
       definition: "Ask someone to say more — you want to hear more details.",
       example: "Tell me more about that game — it sounds amazing! What do you do in it?",
-      inGame: "Tell me more about your favourite server — how many players are there?",
+      inGame: "Tell me more about your favorite server — how many players are there?",
       inRealLife: "Tell me more about your holiday — where did you go and what did you do?",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-tell-me-more.png',
     },
@@ -184,7 +184,7 @@ export const robloxAskingQuestions: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Mia, can I interview you for my English class? I need to ask questions about someone's favourite game. Is that OK?",
+      text: "Mia, can I interview you for my English class? I need to ask questions about someone's favorite game. Is that OK?",
     },
     {
       speaker: 'Mia',
@@ -196,13 +196,13 @@ export const robloxAskingQuestions: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Great! First question: [[what:use this to ask about a thing]] is your favourite game on Roblox right now?",
+      text: "Great! First question: [[what:use this to ask about a thing]] is your favorite game on Roblox right now?",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "My favourite is Bloxd — it is a building game. I love it so much right now!",
+      text: "My favorite is Bloxd — it is a building game. I love it so much right now!",
     },
     {
       speaker: 'Mario',
@@ -254,13 +254,13 @@ export const robloxAskingQuestions: Lesson = {
   ],
 
   fillBlankExercise: [
-    { before: "", after: "is your favourite game? Tell me the name and why you like it!", answer: 'what' },
+    { before: "", after: "is your favorite game? Tell me the name and why you like it!", answer: 'what' },
     { before: "", after: "game mode do you prefer — solo, duo, or team? Pick one!", answer: 'which' },
     { before: "", after: "do you usually play with — a friend, your brother, or strangers?", answer: 'who' },
     { before: "", after: "do you usually play Roblox — after school or in the evening?", answer: 'when' },
     { before: "", after: "do you love this game so much? What makes it so good?", answer: 'why' },
     { before: "", after: "long have you played Roblox? Months or years?", answer: 'how' },
-    { before: "", after: "many games do you have as a favourite? Just one or a long list?", answer: 'how' },
+    { before: "", after: "many games do you have as a favorite? Just one or a long list?", answer: 'how' },
     { before: "", after: "kind of game is it — building, racing, or a battle game?", answer: 'what' },
   ],
 
@@ -278,7 +278,7 @@ export const robloxAskingQuestions: Lesson = {
     {
       question: "Which question asks about a reason?",
       options: [
-        "What is your favourite game?",
+        "What is your favorite game?",
         "Who do you play with?",
         "Why do you love this game?",
         "When do you usually play?",
@@ -286,7 +286,7 @@ export const robloxAskingQuestions: Lesson = {
       correctIndex: 2,
     },
     {
-      question: "In the dialogue, what game does Mia say is her favourite?",
+      question: "In the dialogue, what game does Mia say is her favorite?",
       options: [
         "A big PvP fighting game.",
         "A racing game with fifty players.",
@@ -318,10 +318,10 @@ export const robloxAskingQuestions: Lesson = {
     {
       question: "Which question is correct?",
       options: [
-        "Why game is your favourite?",
-        "Who is your favourite game?",
-        "What is your favourite game?",
-        "Which is your favourite game name?",
+        "Why game is your favorite?",
+        "Who is your favorite game?",
+        "What is your favorite game?",
+        "Which is your favorite game name?",
       ],
       correctIndex: 2,
     },

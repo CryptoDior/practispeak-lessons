@@ -26,7 +26,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       word: 'DECISION SUPPORT',
       partOfSpeech: 'phrase',
-      definition: 'Materials prepared to help a buyer win approval inside their own organisation.',
+      definition: 'Materials prepared to help a buyer win approval inside their own organization.',
       example: 'Here is the decision support folder, with the figures your leadership team will ask about.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-follow-up-strategy-decision-support.png',
     },
@@ -70,7 +70,7 @@ export const advancedFollowUpStrategy: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'FOLLOWING OUR CONVERSATION ON [DATE], I WANTED TO SEND A BRIEF RECAP',
-      definition: 'A polite opening line for a short email that summarises an earlier conversation.',
+      definition: 'A polite opening line for a short email that summarizes an earlier conversation.',
       example: 'Following our conversation on Monday, I wanted to send a brief recap of the next steps.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-follow-up-strategy-following-our-conversation-on-date-i-wanted-to-send-a-brief-recap.png',
     },
@@ -173,7 +173,7 @@ export const advancedFollowUpStrategy: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Thank you. I also want to offer something I should have done earlier in this process: a direct relationship with Sarah in Operations. I'm realising I've been single-threaded — relying entirely on you as my [[touch point:any intentional contact or interaction with a prospect — the most effective touch points add specific value rather than simply maintaining visibility]] into your organisation. That's not fair to you and it's not smart on my side.",
+      text: "Thank you. I also want to offer something I should have done earlier in this process: a direct relationship with Sarah in Operations. I'm realizing I've been single-threaded — relying entirely on you as my [[touch point:any intentional contact or interaction with a prospect — the most effective touch points add specific value rather than simply maintaining visibility]] into your organization. That's not fair to you and it's not smart on my side.",
     },
     {
       speaker: 'Marcus',
@@ -185,7 +185,7 @@ export const advancedFollowUpStrategy: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "I'll also send a [[recap:a concise, purposeful summary that reinforces the value narrative and confirms understanding — not just a record of what was said but a forward-facing document]] of this call — not just the action items, but a [[value reminder:a deliberate reactivation of the buyer's stated problem and the solution's outcomes at the right moment in the decision cycle]] of why we're both investing time in this. When you first described your challenge, it was about the gap between conversations and conversions. I want to make sure that problem — and what we can do about it — stays at the centre of this process rather than getting lost in procurement admin.",
+      text: "I'll also send a [[recap:a concise, purposeful summary that reinforces the value narrative and confirms understanding — not just a record of what was said but a forward-facing document]] of this call — not just the action items, but a [[value reminder:a deliberate reactivation of the buyer's stated problem and the solution's outcomes at the right moment in the decision cycle]] of why we're both investing time in this. When you first described your challenge, it was about the gap between conversations and conversions. I want to make sure that problem — and what we can do about it — stays at the center of this process rather than getting lost in procurement admin.",
     },
     {
       speaker: 'Marcus',
@@ -232,7 +232,7 @@ export const advancedFollowUpStrategy: Lesson = {
     },
     {
         "word": "multi-threading",
-        "definition": "building relationships with multiple stakeholders within the buyer's organisation rather than relying on a single contact"
+        "definition": "building relationships with multiple stakeholders within the buyer's organization rather than relying on a single contact"
     },
     {
         "word": "pipeline velocity",
@@ -259,7 +259,7 @@ export const advancedFollowUpStrategy: Lesson = {
         "answer": "relevant"
     },
     {
-        "before": "I'm realising I've been single-",
+        "before": "I'm realizing I've been single-",
         "after": " in this deal — relying entirely on one contact rather than building relationships across the decision-making team.",
         "answer": "threaded"
     },
@@ -401,7 +401,7 @@ export const advancedFollowUpStrategy: Lesson = {
                     "I understand — these things take time. Is there any additional information I can send that might help accelerate the internal process?"
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B is the most effective response — it asks a precise diagnostic question to distinguish between two very different situations: a bandwidth problem (which time will solve) and a substantive change in the internal situation (which requires active management). This distinction determines the entire strategy. Option A is passive and cedes all control — 'I'll check back in a few weeks' is exactly the approach that allows deals to die through neglect rather than decision. Option C offers generic information without understanding what the actual blocker is — sending more material to an organisation with a bandwidth problem adds to the problem rather than solving it."
+                "explanation": "Option B is the most effective response — it asks a precise diagnostic question to distinguish between two very different situations: a bandwidth problem (which time will solve) and a substantive change in the internal situation (which requires active management). This distinction determines the entire strategy. Option A is passive and cedes all control — 'I'll check back in a few weeks' is exactly the approach that allows deals to die through neglect rather than decision. Option C offers generic information without understanding what the actual blocker is — sending more material to an organization with a bandwidth problem adds to the problem rather than solving it."
             },
             {
                 "customerLine": "The CFO needs a more detailed ROI case before they'll present this to the board. The proposal wasn't enough.",

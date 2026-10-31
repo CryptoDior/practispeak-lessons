@@ -13,7 +13,7 @@ export const comparingProductsOrServices: Lesson = {
       word: 'CONTRAST',
       partOfSpeech: 'noun',
       definition: 'A clear difference between two things when you compare them directly.',
-      example: 'The contrast between the two platforms is clear when you look at customisation.',
+      example: 'The contrast between the two platforms is clear when you look at customization.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-comparing-products-or-services-contrast.png',
     },
     {
@@ -95,7 +95,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       phrase: 'IN TERMS OF [CATEGORY], [X] IS...',
       definition: 'A phrase that lets you compare things one category at a time.',
-      example: 'In terms of customisation, our platform is significantly ahead of the competition.',
+      example: 'In terms of customization, our platform is significantly ahead of the competition.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-comparing-products-or-services-in-terms-of.png',
     },
     {
@@ -137,7 +137,7 @@ export const comparingProductsOrServices: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Their reporting is solid — I will give them that. However, whereas CompeteX uses fixed templates you cannot modify, our reporting is fully customisable. You can build exactly what your board needs.',
+      text: 'Their reporting is solid — I will give them that. However, whereas CompeteX uses fixed templates you cannot modify, our reporting is fully customizable. You can build exactly what your board needs.',
     },
     {
       speaker: 'Marcus',
@@ -185,13 +185,13 @@ export const comparingProductsOrServices: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'In three independent benchmarks this year, we outperformed CompeteX on customisation, integration speed, and customer satisfaction. I can send you the reports this afternoon.',
+      text: 'In three independent benchmarks this year, we outperformed CompeteX on customization, integration speed, and customer satisfaction. I can send you the reports this afternoon.',
     },
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'The key difference seems to be the customisation and the support. Those are our top [[criteria:the standards used to make a decision]].',
+      text: 'The key difference seems to be the customization and the support. Those are our top [[criteria:the standards used to make a decision]].',
     },
     {
       speaker: 'Riley',
@@ -269,7 +269,7 @@ export const comparingProductsOrServices: Lesson = {
     },
     {
         "before": "In three independent benchmarks, we ",
-        "after": " our main competitor on customisation and customer satisfaction.",
+        "after": " our main competitor on customization and customer satisfaction.",
         "answer": "outperform"
     }
 ],
@@ -278,7 +278,7 @@ export const comparingProductsOrServices: Lesson = {
         "question": "What is one key advantage of Riley's platform over CompeteX?",
         "options": [
             "It is less expensive upfront",
-            "The reporting tools are fully customisable",
+            "The reporting tools are fully customizable",
             "It has a simpler onboarding process"
         ],
         "correctIndex": 1
@@ -322,7 +322,7 @@ export const comparingProductsOrServices: Lesson = {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
         {
-            "sentence": "_____ CompeteX uses fixed templates, our reporting tools are fully customisable.",
+            "sentence": "_____ CompeteX uses fixed templates, our reporting tools are fully customizable.",
             "options": [
                 "Although",
                 "Whereas",
@@ -352,7 +352,7 @@ export const comparingProductsOrServices: Lesson = {
             "explanation": "'Unlike' directly contrasts you with a named competitor — it is the most direct and punchy option. 'Compared to' works but is softer and implies a broader comparison. 'In contrast with' is grammatically correct but less natural in spoken sales conversations."
         },
         {
-            "sentence": "In _____ of customisation, our platform is significantly ahead of the competition.",
+            "sentence": "In _____ of customization, our platform is significantly ahead of the competition.",
             "options": [
                 "terms",
                 "ways",
@@ -362,7 +362,7 @@ export const comparingProductsOrServices: Lesson = {
             "explanation": "'In terms of' is the fixed phrase for structuring a comparison by category — 'in terms of price', 'in terms of features', 'in terms of support'. 'In ways of' and 'in aspects of' are not standard English phrases."
         },
         {
-            "sentence": "The _____ difference is the level of customisation we offer versus their fixed templates.",
+            "sentence": "The _____ difference is the level of customization we offer versus their fixed templates.",
             "options": [
                 "main",
                 "key",
@@ -401,7 +401,7 @@ export const comparingProductsOrServices: Lesson = {
                 "customerLine": "CompeteX told us their platform outperforms yours on processing speed.",
                 "options": [
                     "That is simply not true — I do not know where they got that information.",
-                    "Speed is one metric — and an important one. However, in terms of the metrics that matter most for your team — customisation and reporting — we consistently score higher. I can share the benchmark data with you.",
+                    "Speed is one metric — and an important one. However, in terms of the metrics that matter most for your team — customization and reporting — we consistently score higher. I can share the benchmark data with you.",
                     "I would have to look into that claim before I can respond."
                 ],
                 "correctIndex": 1,
@@ -432,7 +432,7 @@ export const comparingProductsOrServices: Lesson = {
             },
             {
                 "speaker": "Alex",
-                "text": "Their reporting is solid. However, whereas CompeteX uses fixed templates, we give you fully customisable reports. We specialise on mid-size sales teams like yours."
+                "text": "Their reporting is solid. However, whereas CompeteX uses fixed templates, we give you fully customizable reports. We specialize on mid-size sales teams like yours."
             },
             {
                 "speaker": "Kevin",
@@ -444,15 +444,15 @@ export const comparingProductsOrServices: Lesson = {
             },
             {
                 "speaker": "Kevin",
-                "text": "So the key different is really the customisation and the support?"
+                "text": "So the key different is really the customization and the support?"
             }
         ],
         "mistakes": [
             {
                 "lineIndex": 2,
-                "incorrectText": "specialise on",
-                "correction": "specialise in",
-                "explanation": "'Specialise' is always followed by 'in' — not 'on'. We say 'we specialise in sales software', 'they specialise in enterprise clients'. This applies broadly: 'expert in', 'experience in', 'background in'. 'Specialise on' is a direct translation error from many languages — it does not exist in English."
+                "incorrectText": "specialize on",
+                "correction": "specialize in",
+                "explanation": "'Specialize' is always followed by 'in' — not 'on'. We say 'we specialize in sales software', 'they specialize in enterprise clients'. This applies broadly: 'expert in', 'experience in', 'background in'. 'Specialize on' is a direct translation error from many languages — it does not exist in English."
             },
             {
                 "lineIndex": 3,
@@ -479,12 +479,12 @@ export const comparingProductsOrServices: Lesson = {
             {
                 "customerLine": "They told us their reporting tools are the best in the market.",
                 "salespersonStart": "Their reporting is strong — I will not dispute that. However, whereas CompeteX uses fixed templates...",
-                "suggestedCompletion": "our reports are fully customisable to your exact requirements. For a team that presents to senior stakeholders, that flexibility is not a nice-to-have — it is essential."
+                "suggestedCompletion": "our reports are fully customizable to your exact requirements. For a team that presents to senior stakeholders, that flexibility is not a nice-to-have — it is essential."
             },
             {
                 "customerLine": "Can you give me a clear summary of how you are different?",
                 "salespersonStart": "Absolutely. Compared to CompeteX, we are more tailored to mid-size sales teams. The key difference is...",
-                "suggestedCompletion": "the level of customisation and the support model. They give you a product — we give you a partnership. I can send you a side-by-side document today if that would help your decision."
+                "suggestedCompletion": "the level of customization and the support model. They give you a product — we give you a partnership. I can send you a side-by-side document today if that would help your decision."
             }
         ]
     }

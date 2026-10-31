@@ -390,7 +390,7 @@ export const complexObjectionHandling: Lesson = {
 ],
   pitchCorner: {
     "title": "Objection Response Email",
-    "context": "Marcus sends Riley an email after the meeting summarising his three concerns. Riley needs to respond to all three in a single, clear email — validating each one before addressing it",
+    "context": "Marcus sends Riley an email after the meeting summarizing his three concerns. Riley needs to respond to all three in a single, clear email — validating each one before addressing it",
     "passage": [
         {
             "before": "Dear Marcus,\n\nThank you for being direct in our meeting — that kind of honesty makes the conversation much more useful for both of us.\n\nI want to respond to each of your three concerns properly.\n\nOn budget: I completely understand that Q4 presents a real",

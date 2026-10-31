@@ -5,7 +5,7 @@ export const seoAndSem: Lesson = {
   title: 'SEO and SEM',
   subtitle: 'The language of search marketing — how to talk about organic and paid search',
   level: 'B1-B2',
-  description: "Search marketing is one of the most important channels in digital marketing. SEO — Search Engine Optimisation — focuses on getting your website to appear in search results without paying. SEM — Search Engine Marketing — uses paid ads to appear at the top of search results. Both require a specific vocabulary that marketing professionals use every day. This lesson teaches you the core language of search marketing so you can discuss strategy, review results, and work confidently with your team in English.",
+  description: "Search marketing is one of the most important channels in digital marketing. SEO — Search Engine Optimization — focuses on getting your website to appear in search results without paying. SEM — Search Engine Marketing — uses paid ads to appear at the top of search results. Both require a specific vocabulary that marketing professionals use every day. This lesson teaches you the core language of search marketing so you can discuss strategy, review results, and work confidently with your team in English.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/seo-and-sem-hero.png',
 
   vocabulary: [
@@ -322,7 +322,7 @@ export const seoAndSem: Lesson = {
             "We should increase our budget so the ad shows more often — more impressions will lead to more clicks and a higher click-through rate.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct. It identifies the most likely cause (generic headline), explains why it is a problem (not specific enough), and proposes a specific test (a benefit-led alternative). This is a diagnostic and actionable response. Option A is defensive — 1.8% is below the target and the industry average of 3.5%, so normalising it is not helpful. Option C confuses impressions with click-through rate — more impressions with the same low CTR does not fix the problem; it just shows more people a bad ad.",
+          explanation: "Option B is correct. It identifies the most likely cause (generic headline), explains why it is a problem (not specific enough), and proposes a specific test (a benefit-led alternative). This is a diagnostic and actionable response. Option A is defensive — 1.8% is below the target and the industry average of 3.5%, so normalizing it is not helpful. Option C confuses impressions with click-through rate — more impressions with the same low CTR does not fix the problem; it just shows more people a bad ad.",
         },
         {
           customerLine: "Why should we focus on long-tail keywords rather than broad terms?",
@@ -332,7 +332,7 @@ export const seoAndSem: Lesson = {
             "Long-tail keywords are easier to rank for organically, so we will not need to spend money on paid search for those terms.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct on all three points: higher intent (more likely to be ideal customer), lower cost per click, and less competition. These are the three main reasons to prioritise long-tail keywords. Option A is wrong — long-tail keywords have lower search volume than broad terms, not higher. The advantage is quality of visitor, not quantity. Option C is partially true (long-tail terms are easier to rank for organically) but the question is about why to bid on them in paid search, not about organic strategy.",
+          explanation: "Option B is correct on all three points: higher intent (more likely to be ideal customer), lower cost per click, and less competition. These are the three main reasons to prioritize long-tail keywords. Option A is wrong — long-tail keywords have lower search volume than broad terms, not higher. The advantage is quality of visitor, not quantity. Option C is partially true (long-tail terms are easier to rank for organically) but the question is about why to bid on them in paid search, not about organic strategy.",
         },
       ],
     },

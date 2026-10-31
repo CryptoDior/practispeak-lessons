@@ -293,7 +293,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
         "sentence": "During the _____, use both names: 'Globalize — now part of Practispeak'. This bridges the gap for customers.",
         "options": ["transition period", "migration phase", "handover"],
         "correctIndex": 0,
-        "explanation": "'Transition period' is the standard term for the time between the old state and the new state — when both brands exist simultaneously. 'Migration phase' is similar and acceptable. 'Handover' implies passing control from one person or organisation to another, not the gradual shift of a brand identity. Use 'transition period' for brand migration timelines."
+        "explanation": "'Transition period' is the standard term for the time between the old state and the new state — when both brands exist simultaneously. 'Migration phase' is similar and acceptable. 'Handover' implies passing control from one person or organization to another, not the gradual shift of a brand identity. Use 'transition period' for brand migration timelines."
       },
       {
         "sentence": "The rebrand _____ our growth from a regional provider to a global platform.",
@@ -312,11 +312,11 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
           "customerLine": "I heard about the merger on the news. Why wasn't I told first?",
           "options": [
             "These things move fast — it was difficult to control the timing.",
-            "You are completely right and I apologise. You should have heard this from us before it was public. That was a failure in our communication. Here is everything you need to know now, and here is your direct contact for any questions.",
+            "You are completely right and I apologize. You should have heard this from us before it was public. That was a failure in our communication. Here is everything you need to know now, and here is your direct contact for any questions.",
             "The acquisition was confidential until the announcement. We couldn't tell anyone beforehand."
           ],
           "correctIndex": 1,
-          "explanation": "Option B does the right things — it takes full responsibility, apologises without excuses, and immediately provides useful information and a contact point. Option A makes an excuse. Option C explains the legal constraint but is cold and does nothing to rebuild the relationship."
+          "explanation": "Option B does the right things — it takes full responsibility, apologizes without excuses, and immediately provides useful information and a contact point. Option A makes an excuse. Option C explains the legal constraint but is cold and does nothing to rebuild the relationship."
         },
         {
           "customerLine": "What happens to my account and my account manager after the merger?",

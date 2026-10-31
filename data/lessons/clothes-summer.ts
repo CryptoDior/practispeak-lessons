@@ -27,7 +27,7 @@ export const clothesSummer: Lesson = {
   vocabulary: [
     { word: 'TANK TOP', partOfSpeech: 'noun', definition: 'A top with no sleeves.', example: 'I wear a tank top when it\'s very hot.', imageSlug: img('tank-top-in-hot-weather') },
     { word: 'CROP TOP', partOfSpeech: 'noun', definition: 'A short top that shows your stomach.', example: 'She bought a white crop top.', imageSlug: img('white-crop-top-purchase') },
-    { word: 'FLORAL SHIRT', partOfSpeech: 'noun', definition: 'A shirt with a pattern of flowers.', example: 'His floral shirt is very colourful.', imageSlug: img('colourful-floral-shirt') },
+    { word: 'FLORAL SHIRT', partOfSpeech: 'noun', definition: 'A shirt with a pattern of flowers.', example: 'His floral shirt is very colorful.', imageSlug: img('colourful-floral-shirt') },
     { word: 'HAWAIIAN SHIRT', partOfSpeech: 'noun', definition: 'A bright shirt with tropical prints, like palm trees.', example: 'He always wears a Hawaiian shirt on holiday.', imageSlug: img('hawaiian-shirt-on-holiday') },
     { word: 'POLO SHIRT', partOfSpeech: 'noun', definition: 'A short-sleeved shirt with a collar and a few buttons.', example: 'A polo shirt is smart but casual.', imageSlug: img('smart-casual-polo-shirt') },
     { word: 'DENIM SHORTS', partOfSpeech: 'noun', definition: 'Short trousers made of jeans material.', example: 'I love my old denim shorts.', imageSlug: img('loved-old-denim-shorts') },
@@ -42,7 +42,7 @@ export const clothesSummer: Lesson = {
     { phrase: 'THROW ON', definition: 'To put on clothes quickly and without thinking much.', example: 'I just threw on a T-shirt and shorts.', imageSlug: img('quickly-put-on-tee-shorts') },
     { phrase: 'TUCK IN', definition: 'To put the bottom of your shirt inside your trousers or shorts.', example: 'Tuck in your shirt — it looks smarter.', imageSlug: img('tuck-shirt-into-waistband') },
     { phrase: 'WEAR OUT', definition: 'To use clothes so much that they become old and damaged.', example: 'I wore out my sandals this summer.', imageSlug: img('worn-out-summer-sandals') },
-    { phrase: 'PULL OFF', definition: 'To wear something unusual and look good in it.', example: 'Not everyone can pull off a Hawaiian shirt!', inAction: '"Pull off" (a style) is informal. "He can really pull off bright colours" = he looks good in them.', imageSlug: img('hawaiian-shirt-style-confidence') },
+    { phrase: 'PULL OFF', definition: 'To wear something unusual and look good in it.', example: 'Not everyone can pull off a Hawaiian shirt!', inAction: '"Pull off" (a style) is informal. "He can really pull off bright colors" = he looks good in them.', imageSlug: img('hawaiian-shirt-style-confidence') },
   ],
 
   videos: [],
@@ -52,7 +52,7 @@ export const clothesSummer: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Thanks! It's so hot today. I just [[threw on:put on quickly]] this shirt and my [[cargo shorts:shorts with big pockets]]." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Honestly, not everyone can [[pull off:wear and look good in]] that shirt, but you can." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Ha, thanks. I like your outfit too. Is that a [[tank top:top with no sleeves]]?" },
-    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, it's linen, so it's very [[breathable:lets air through]]. And these are my favourite [[denim shorts:shorts made of jeans material]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, it's linen, so it's very [[breathable:lets air through]]. And these are my favorite [[denim shorts:shorts made of jeans material]]." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "They look a bit old!" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I know, I've almost [[worn out:used until old and damaged]] them. But they're [[retro:in the style of the past]] now — very fashionable!" },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "True. Denim is [[timeless:always in fashion]]. Come on, let's get an ice cream." },

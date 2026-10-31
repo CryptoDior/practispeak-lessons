@@ -83,7 +83,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       phrase: 'IS THERE ANYTHING STILL HOLDING YOU BACK?',
       definition: 'A question asking if something is stopping someone from deciding or acting.',
-      example: 'Is there anything still holding you back from leaving the harbour?',
+      example: 'Is there anything still holding you back from leaving the harbor?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/is-there-anything-still-holding-you-back.png',
     },
     {

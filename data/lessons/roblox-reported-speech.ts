@@ -130,7 +130,7 @@ export const robloxReportedSpeech: Lesson = {
       word: 'ADMIT',
       partOfSpeech: 'verb',
       definition: "Report that someone admitted they did something wrong or had been hiding something.",
-      example: "He finally admitted that he had missed the deadline — and apologised to the whole team.",
+      example: "He finally admitted that he had missed the deadline — and apologized to the whole team.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-reported-speech-irl-admit.png',
     },
     {
@@ -249,13 +249,13 @@ export const robloxReportedSpeech: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Did anyone get a lighter sentence? It seems harsh if one of them genuinely did not realise.",
+      text: "Did anyone get a lighter sentence? It seems harsh if one of them genuinely did not realize.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "One player [[admitted:confessed to something wrong]] that he had triggered the exploit once by accident, not intentionally. He [[promised:made a commitment about future behaviour]] the admin it would never happen again — and she let him stay.",
+      text: "One player [[admitted:confessed to something wrong]] that he had triggered the exploit once by accident, not intentionally. He [[promised:made a commitment about future behavior]] the admin it would never happen again — and she let him stay.",
     },
     {
       speaker: 'Mario',
@@ -314,7 +314,7 @@ export const robloxReportedSpeech: Lesson = {
     { word: 'WARN', definition: 'Report that someone cautioned about a danger or consequence' },
     { word: 'CLAIM', definition: 'Report an assertion — often implying some doubt about whether it is true' },
     { word: 'ADMIT', definition: 'Report that someone confessed to something wrong or previously hidden' },
-    { word: 'PROMISE', definition: 'Report a firm commitment someone made about future behaviour' },
+    { word: 'PROMISE', definition: 'Report a firm commitment someone made about future behavior' },
     { word: 'REPLY', definition: 'Report the response someone gave to a question or statement' },
   ],
 

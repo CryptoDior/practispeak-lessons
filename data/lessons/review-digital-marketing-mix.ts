@@ -5,7 +5,7 @@ export const reviewDigitalMarketingMix: Lesson = {
   title: 'Review: Digital Marketing Mix',
   subtitle: 'Consolidate everything you have learned — from SEO and paid social to content, data, and strategy',
   level: 'B1-B2',
-  description: "This lesson brings together the key vocabulary and concepts from across the B1-B2 marketing series. You will review the core terms from digital marketing — including SEO, paid media, social media advertising, customer journey, content marketing, and campaign strategy — and practise using them together in realistic contexts. By the end, you should be able to discuss a complete digital marketing mix confidently in a professional setting.",
+  description: "This lesson brings together the key vocabulary and concepts from across the B1-B2 marketing series. You will review the core terms from digital marketing — including SEO, paid media, social media advertising, customer journey, content marketing, and campaign strategy — and practice using them together in realistic contexts. By the end, you should be able to discuss a complete digital marketing mix confidently in a professional setting.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-digital-marketing-mix-hero.png',
 
   vocabulary: [
@@ -93,9 +93,9 @@ export const reviewDigitalMarketingMix: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-digital-marketing-mix-tracking-against.png',
     },
     {
-      phrase: 'LET\'S OPTIMISE THE...',
+      phrase: 'LET\'S OPTIMIZE THE...',
       definition: 'A way to suggest making part of a campaign work better.',
-      example: 'Let\'s optimise the ads so they reach more people.',
+      example: 'Let\'s optimize the ads so they reach more people.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-digital-marketing-mix-lets-optimise-the.png',
     },
     {
@@ -185,13 +185,13 @@ export const reviewDigitalMarketingMix: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Where do we need to optimise for Q4?",
+      text: "Where do we need to optimize for Q4?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Two things. First, let's optimise the Instagram campaign — the creative has high impressions but low click-through rate. I want to run an A/B test on the visual and the copy. Second, I want to invest more in [[content marketing:creating valuable content to attract and engage an audience]] — our blog is already compounding and three more cornerstone articles in Q4 could double our organic traffic by Q1 next year.",
+      text: "Two things. First, let's optimize the Instagram campaign — the creative has high impressions but low click-through rate. I want to run an A/B test on the visual and the copy. Second, I want to invest more in [[content marketing:creating valuable content to attract and engage an audience]] — our blog is already compounding and three more cornerstone articles in Q4 could double our organic traffic by Q1 next year.",
     },
     {
       speaker: 'Marcus',
@@ -213,7 +213,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     { word: 'organic', definition: 'traffic or content that is not paid for — coming through SEO, sharing, or earned media' },
     { word: 'paid media', definition: 'any channel where you pay for placement — including search ads, display, and social ads' },
     { word: 'content marketing', definition: 'creating valuable content like blog posts and videos to attract and build trust with an audience' },
-    { word: 'targeting', definition: 'deciding who sees your ads based on demographics, interests, behaviour, or custom audiences' },
+    { word: 'targeting', definition: 'deciding who sees your ads based on demographics, interests, behavior, or custom audiences' },
     { word: 'conversion rate', definition: 'the percentage of people who take the desired action out of those who had the opportunity' },
     { word: 'campaign brief', definition: 'a document that aligns the team on objective, audience, channels, budget, and success metrics before a campaign starts' },
   ],
@@ -239,7 +239,7 @@ export const reviewDigitalMarketingMix: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'What is Riley planning to optimise on the Instagram campaign?',
+      question: 'What is Riley planning to optimize on the Instagram campaign?',
       options: ['The targeting audience — switching from demographic to lookalike', 'The bidding strategy — moving from CPM to CPC', 'The creative and copy — running an A/B test to improve the low click-through rate'],
       correctIndex: 2,
     },
@@ -295,7 +295,7 @@ export const reviewDigitalMarketingMix: Lesson = {
         sentence: "Let's _____ the Instagram creative — the impressions are high but the click-through rate is low.",
         options: ['optimise', 'fix', 'change'],
         correctIndex: 0,
-        explanation: "'Optimise' is the standard marketing term for improving performance based on data. 'Optimise the creative' means testing and refining the ad to improve its effectiveness. 'Fix' implies something is broken or wrong — but here the ad is running, it just needs improvement. 'Change' is too vague — it does not imply data-driven improvement. Key collocations: 'optimise the creative', 'optimise the targeting', 'optimise the landing page', 'optimise the bidding strategy'.",
+        explanation: "'Optimize' is the standard marketing term for improving performance based on data. 'Optimize the creative' means testing and refining the ad to improve its effectiveness. 'Fix' implies something is broken or wrong — but here the ad is running, it just needs improvement. 'Change' is too vague — it does not imply data-driven improvement. Key collocations: 'optimize the creative', 'optimize the targeting', 'optimize the landing page', 'optimize the bidding strategy'.",
       },
     ],
   },
@@ -345,7 +345,7 @@ export const reviewDigitalMarketingMix: Lesson = {
         { speaker: 'Riley', text: "Is 3.8% — which is above the industry benchmark of 2.5%." },
         { speaker: 'Marcus', text: "Excellent. What about organic traffic?" },
         { speaker: 'Riley', text: "Organic traffic has grew by 34% this quarter thanks to our SEO and content marketing investment." },
-        { speaker: 'Marcus', text: "Great. Where should we focus our optimisation efforts for Q4?" },
+        { speaker: 'Marcus', text: "Great. Where should we focus our optimization efforts for Q4?" },
         { speaker: 'Riley', text: "The Instagram campaign needs attention — the creative has high impressions but lower click-through rate than we expected. I want to run an A/B test on the visual and the copy." },
         { speaker: 'Marcus', text: "Sounds good. What is the objective of Q4 campaign?" },
         { speaker: 'Riley', text: "To generate 600 qualified leads at a cost per lead of under £30." },
@@ -387,7 +387,7 @@ export const reviewDigitalMarketingMix: Lesson = {
         {
           customerLine: "How do you know which channel in your digital mix is performing best?",
           salespersonStart: "You track each channel against the same set of KPIs —",
-          suggestedCompletion: "cost per lead, conversion rate, total leads or revenue generated, and return on ad spend. Then you compare them. For example, paid search might generate the most leads in volume. Email might have the highest conversion rate but the smallest audience. LinkedIn might generate the highest quality leads but at the highest cost. The channel that performs best depends on what you are optimising for — volume, cost efficiency, or quality. The job of a marketer is to understand what each channel is good at, use each one for the right role, and keep optimising the underperformers based on data.",
+          suggestedCompletion: "cost per lead, conversion rate, total leads or revenue generated, and return on ad spend. Then you compare them. For example, paid search might generate the most leads in volume. Email might have the highest conversion rate but the smallest audience. LinkedIn might generate the highest quality leads but at the highest cost. The channel that performs best depends on what you are optimizing for — volume, cost efficiency, or quality. The job of a marketer is to understand what each channel is good at, use each one for the right role, and keep optimizing the underperformers based on data.",
         },
       ],
     },

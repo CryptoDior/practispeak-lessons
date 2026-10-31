@@ -476,7 +476,7 @@ export const executiveLevelSalesConversations: Lesson = {
             {
                 "customerLine": "A CEO gives you 10 minutes unexpectedly at the end of a board meeting. You were not prepared for this.",
                 "options": [
-                    "Apologise for not being prepared and ask to schedule a proper meeting for next week.",
+                    "Apologize for not being prepared and ask to schedule a proper meeting for next week.",
                     "Say: 'The headline is one question: are you satisfied with your cost per deal right now? If not, I can show you why it is higher than it should be and what moves it — in ten minutes.'",
                     "Use the time to walk through your standard deck as quickly as possible so the CEO sees the full picture."
                 ],

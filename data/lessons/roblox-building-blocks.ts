@@ -79,7 +79,7 @@ export const robloxBuildingBlocks: Lesson = {
       word: 'TOOL',
       partOfSpeech: 'noun',
       definition: "An object that helps you do a job — like a hammer, a pencil, or a calculator.",
-      example: "A ruler is a useful tool in maths class — you need it to draw straight lines.",
+      example: "A ruler is a useful tool in math class — you need it to draw straight lines.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-building-blocks-irl-ruler-tool.png',
     },
     {
@@ -93,7 +93,7 @@ export const robloxBuildingBlocks: Lesson = {
       word: 'PART',
       partOfSpeech: 'noun',
       definition: "One piece of a bigger thing — like a part of a machine or a part of a story.",
-      example: "My favourite part of the film is the ending — it is a big surprise!",
+      example: "My favorite part of the film is the ending — it is a big surprise!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-building-blocks-irl-film-ending-part.png',
     },
     {
@@ -162,7 +162,7 @@ export const robloxBuildingBlocks: Lesson = {
     {
       phrase: "WHAT DOES THIS DO?",
       definition: "Ask the function or purpose of an object, tool, or button.",
-      example: "What does this do? I pressed a button and everything changed colour!",
+      example: "What does this do? I pressed a button and everything changed color!",
       inGame: "What does this script do? I found it in my friend's game.",
       inRealLife: "What does this tool do? I found it in my dad's workshop.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-building-blocks-phrase-script-function-question.png',

@@ -106,7 +106,7 @@ export const robloxReviewB2Block1: Lesson = {
     {
       word: 'CONTRIBUTION',
       partOfSpeech: 'noun',
-      definition: "Something useful you give to a team, project, or organisation.",
+      definition: "Something useful you give to a team, project, or organization.",
       example: "Her contribution to the department went far beyond her official role — she mentored three junior colleagues to promotion.",
       imageSlug: '/images/roblox-review-b2-block-1-contribution-irl.png',
     },
@@ -131,7 +131,7 @@ export const robloxReviewB2Block1: Lesson = {
       phrase: "BOUNCE BACK",
       definition: "To get back to normal quickly after something bad happens. (From Lesson 2: Idioms I)",
       example: "After a difficult first half of the season, the guild bounced back with five consecutive wins.",
-      inGame: "The best teams bounce back quickly — they analyse what went wrong and return stronger.",
+      inGame: "The best teams bounce back quickly — they analyze what went wrong and return stronger.",
       inRealLife: "She bounced back from redundancy within two months — using the time to retrain and change direction.",
       imageSlug: '/images/roblox-review-b2-block-1-bounce-back.png',
     },
@@ -148,7 +148,7 @@ export const robloxReviewB2Block1: Lesson = {
       definition: "To think about something that happened in the past. (From Lesson 4: Second & Third Conditional)",
       example: "Looking back on the season, the guild could clearly identify the three matches that changed everything.",
       inGame: "Look back on your worst matches without emotion — they contain more useful information than your best ones.",
-      inRealLife: "She looked back on her first year in the role and recognised how much her thinking had evolved.",
+      inRealLife: "She looked back on her first year in the role and recognized how much her thinking had evolved.",
       imageSlug: '/images/roblox-review-b2-block-1-look-back-on.png',
     },
     {
@@ -198,7 +198,7 @@ export const robloxReviewB2Block1: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "I agree — and looking back on the whole season, I think that match was where everything came together. My one regret is the third round. If we had held the centre zone for two more minutes, the outcome would have been completely different.",
+      text: "I agree — and looking back on the whole season, I think that match was where everything came together. My one regret is the third round. If we had held the center zone for two more minutes, the outcome would have been completely different.",
     },
     {
       speaker: 'Mia',
@@ -216,13 +216,13 @@ export const robloxReviewB2Block1: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "And the review I wrote for the guild newsletter made a compelling case for why we should enter again next season. I used everything we practised — drawbacks acknowledged, verdict delivered, recommendation backed up with evidence.",
+      text: "And the review I wrote for the guild newsletter made a compelling case for why we should enter again next season. I used everything we practiced — drawbacks acknowledged, verdict delivered, recommendation backed up with evidence.",
     },
     {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "And the old rotation system is being phased out next month — the new approach we built up this season will finally be rolled out across the full squad. I think this block has genuinely levelled up how we think about the game and how we communicate.",
+      text: "And the old rotation system is being phased out next month — the new approach we built up this season will finally be rolled out across the full squad. I think this block has genuinely leveled up how we think about the game and how we communicate.",
     },
     {
       speaker: 'Mia',
@@ -347,7 +347,7 @@ export const robloxReviewB2Block1: Lesson = {
       question: "What is the difference between DIPLOMATICALLY and BLUNTLY?",
       options: [
         "DIPLOMATICALLY is only used in political contexts; BLUNTLY is used in everyday situations.",
-        "DIPLOMATICALLY means tactfully, avoiding offence; BLUNTLY means directly, without softening.",
+        "DIPLOMATICALLY means tactfully, avoiding offense; BLUNTLY means directly, without softening.",
         "BLUNTLY is more polite than DIPLOMATICALLY in most professional contexts.",
         "They mean the same thing — both describe honest communication.",
       ],

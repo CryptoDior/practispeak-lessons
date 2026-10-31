@@ -34,8 +34,8 @@ export const mmaAtTheGym: Lesson = {
     {
       word: 'GRAPPLING DUMMY',
       partOfSpeech: 'noun',
-      definition: 'A soft doll the size of a person. You practise takedowns on it alone.',
-      example: 'He practised his takedowns on the grappling dummy for an hour.',
+      definition: 'A soft doll the size of a person. You practice takedowns on it alone.',
+      example: 'He practiced his takedowns on the grappling dummy for an hour.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-at-the-gym-grappling-dummy.png',
     },
     {
@@ -56,7 +56,7 @@ export const mmaAtTheGym: Lesson = {
       word: 'COACH',
       partOfSpeech: 'noun',
       definition: 'The person who teaches and helps fighters.',
-      example: 'My coach told me to practise moving my feet this week.',
+      example: 'My coach told me to practice moving my feet this week.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-at-the-gym-coach.png',
     },
     {
@@ -85,7 +85,7 @@ export const mmaAtTheGym: Lesson = {
     },
     {
       phrase: 'WORK ON',
-      definition: 'Practise something to get better at it.',
+      definition: 'Practice something to get better at it.',
       example: 'This week I am working on my jab.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-at-the-gym-work-on.png',
       tag: 'phrase',
@@ -143,7 +143,7 @@ export const mmaAtTheGym: Lesson = {
       speaker: 'Carlos',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/carlos-mma-icon.png',
-      text: 'Start with three times a week. Look at the [[schedule:the list of class days and times]] and choose classes that are good for you. Then [[work on:practise to get better]] what the coach tells you.',
+      text: 'Start with three times a week. Look at the [[schedule:the list of class days and times]] and choose classes that are good for you. Then [[work on:practice to get better]] what the coach tells you.',
     },
     {
       speaker: 'Mia',
@@ -155,7 +155,7 @@ export const mmaAtTheGym: Lesson = {
       speaker: 'Carlos',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/carlos-mma-icon.png',
-      text: 'If you [[show up:come and train]] every day and [[work on:practise]] the things you are bad at, yes. The first month is hard, but you [[pick up:learn fast]] the basics very quickly.',
+      text: 'If you [[show up:come and train]] every day and [[work on:practice]] the things you are bad at, yes. The first month is hard, but you [[pick up:learn fast]] the basics very quickly.',
     },
   ],
 
@@ -202,7 +202,7 @@ export const mmaAtTheGym: Lesson = {
       options: [
         'Fix broken things in the gym',
         'Talk to a friend about a problem',
-        'Practise something to get better at it',
+        'Practice something to get better at it',
         'Train harder in the next round',
       ],
       correctIndex: 2,

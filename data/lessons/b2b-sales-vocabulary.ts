@@ -82,7 +82,7 @@ export const b2bSalesVocabulary: Lesson = {
     },
     {
       phrase: 'ONCE BOTH PARTIES HAVE SIGNED THE CONTRACT',
-      definition: 'A phrase describing what happens after the deal is legally finalised by both sides.',
+      definition: 'A phrase describing what happens after the deal is legally finalized by both sides.',
       example: 'Once both parties have signed the contract, our team will begin implementation.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/once-both-parties-have-signed-the-contract.png',
     },
@@ -131,7 +131,7 @@ export const b2bSalesVocabulary: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "I've been through this process with organisations of your size before — it typically runs six to eight weeks from RFP submission to signed [[contract:the binding legal agreement that formalises commercial terms, including scope, pricing, SLA, and termination conditions]]. Does that align with your internal timeline?",
+      text: "I've been through this process with organizations of your size before — it typically runs six to eight weeks from RFP submission to signed [[contract:the binding legal agreement that formalises commercial terms, including scope, pricing, SLA, and termination conditions]]. Does that align with your internal timeline?",
     },
     {
       speaker: 'Marcus',
@@ -234,7 +234,7 @@ export const b2bSalesVocabulary: Lesson = {
     },
     {
         "word": "vendor",
-        "definition": "a company or individual supplying goods or services — typically subject to formal assessment and approval in large organisations"
+        "definition": "a company or individual supplying goods or services — typically subject to formal assessment and approval in large organizations"
     },
     {
         "word": "sign-off authority",
@@ -277,7 +277,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
         "question": "What three things does Marcus say Riley needs to complete before a contract can be issued?",
         "options": [
-            "A pilot programme, a reference check, and a commercial proposal",
+            "A pilot program, a reference check, and a commercial proposal",
             "A vendor questionnaire, an RFP response, and a security and compliance review",
             "A financial audit, a site visit, and an implementation plan"
         ],
@@ -305,7 +305,7 @@ export const b2bSalesVocabulary: Lesson = {
         "question": "What does Riley propose to keep the procurement phase on track?",
         "options": [
             "A daily email update to all stakeholders on both sides",
-            "A formal project management tool shared between the two organisations",
+            "A formal project management tool shared between the two organizations",
             "A weekly alignment call with key stakeholders from both sides"
         ],
         "correctIndex": 2
@@ -314,7 +314,7 @@ export const b2bSalesVocabulary: Lesson = {
   warmUp: {
     "questions": [
         "Have you ever been involved in a formal procurement process — either as a buyer or a seller? What was the most frustrating or surprising part of the process?",
-        "In your organisation, who typically has the authority to approve large purchases — and what information do they need before they say yes? How does that vary by contract value?",
+        "In your organization, who typically has the authority to approve large purchases — and what information do they need before they say yes? How does that vary by contract value?",
         "Think about a time a deal or project was delayed by an internal process — legal review, compliance, a sign-off that took longer than expected. What could have been done earlier to prevent the delay?"
     ]
 },
@@ -339,7 +339,7 @@ export const b2bSalesVocabulary: Lesson = {
                 "subject for"
             ],
             "correctIndex": 1,
-            "explanation": "'Subject to' is the fixed prepositional phrase meaning 'dependent on' or 'requiring'. 'The contract is subject to review' — it will be reviewed before it is finalised. 'Subject to approval', 'subject to change', 'subject to legal review' — always 'to'. 'Subject of' means 'the topic of' ('the subject of the meeting') — a completely different construction. 'Subject for' is not standard in this context. This is a high-frequency phrase in formal business and legal English, and getting the preposition wrong changes the meaning significantly."
+            "explanation": "'Subject to' is the fixed prepositional phrase meaning 'dependent on' or 'requiring'. 'The contract is subject to review' — it will be reviewed before it is finalized. 'Subject to approval', 'subject to change', 'subject to legal review' — always 'to'. 'Subject of' means 'the topic of' ('the subject of the meeting') — a completely different construction. 'Subject for' is not standard in this context. This is a high-frequency phrase in formal business and legal English, and getting the preposition wrong changes the meaning significantly."
         },
         {
             "sentence": "In accordance _____ your RFP requirements, we have structured the proposal in four sections, each addressed in the order in which your criteria appear.",
@@ -362,14 +362,14 @@ export const b2bSalesVocabulary: Lesson = {
             "explanation": "'Identifies' (present simple, third-person singular) is correct because the stakeholder map is a document, and documents take present simple when we describe what they contain: 'the map identifies', 'the proposal outlines', 'the contract specifies', 'the RFP requires'. Present continuous ('is identifying') implies the map is actively doing something in this moment — documents cannot perform ongoing actions. 'Identify' is plural-subject form and cannot follow the singular 'the stakeholder map'. When describing the content of formal documents, use present simple with the appropriate singular or plural form."
         },
         {
-            "sentence": "Neither the commercial terms _____ the implementation scope has been finalised — both remain subject to legal review and CFO approval.",
+            "sentence": "Neither the commercial terms _____ the implementation scope has been finalized — both remain subject to legal review and CFO approval.",
             "options": [
                 "or",
                 "nor",
                 "and"
             ],
             "correctIndex": 1,
-            "explanation": "'Neither... nor' is the fixed negative correlative conjunction — it is always 'neither A nor B', never 'neither A or B'. This is one of the most frequent conjunction errors in formal writing. When using 'neither... nor', the verb agrees with the subject closest to it: 'neither the terms nor the scope has been finalised' — 'scope' is singular, so 'has' is correct. 'Neither A and B' is non-standard. Note that 'neither A nor B' is negative, so it should not be used in combination with an already-negative verb: 'neither term has been finalised', not 'neither term hasn't been finalised'."
+            "explanation": "'Neither... nor' is the fixed negative correlative conjunction — it is always 'neither A nor B', never 'neither A or B'. This is one of the most frequent conjunction errors in formal writing. When using 'neither... nor', the verb agrees with the subject closest to it: 'neither the terms nor the scope has been finalized' — 'scope' is singular, so 'has' is correct. 'Neither A and B' is non-standard. Note that 'neither A nor B' is negative, so it should not be used in combination with an already-negative verb: 'neither term has been finalized', not 'neither term hasn't been finalized'."
         },
         {
             "sentence": "It is imperative that the vendor approval process _____ complete before the contract is issued — procurement will not proceed without it.",
@@ -391,11 +391,11 @@ export const b2bSalesVocabulary: Lesson = {
                 "customerLine": "Our procurement team will need you to complete a vendor questionnaire and respond to our RFP before we can evaluate the proposal.",
                 "options": [
                     "Of course — I'll get those completed and sent back as quickly as possible. When is the deadline for submission?",
-                    "I've done this before with organisations at your scale — and I'd suggest running the RFP response and the vendor questionnaire in parallel, starting today. Can you send me both documents now? I'll also send you our pre-completed security questionnaire from a recent evaluation at a comparable organisation — it may save your team significant time.",
+                    "I've done this before with organizations at your scale — and I'd suggest running the RFP response and the vendor questionnaire in parallel, starting today. Can you send me both documents now? I'll also send you our pre-completed security questionnaire from a recent evaluation at a comparable organization — it may save your team significant time.",
                     "Understood. I'll put the vendor questionnaire and RFP response together over the next couple of weeks and send them across when they're ready."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B is the most effective response — it signals process experience, proposes a specific efficiency measure (parallel submissions), asks for the documents immediately, and proactively offers something that reduces the buyer's workload. This is the behaviour of a vendor who has been through formal procurement before and actively manages the process to close efficiently. Option A is polite but passive — it asks for a deadline without proposing any action. Option C is the weakest: 'a couple of weeks' is unnecessarily slow and signals that the vendor is not managing their side of the timeline."
+                "explanation": "Option B is the most effective response — it signals process experience, proposes a specific efficiency measure (parallel submissions), asks for the documents immediately, and proactively offers something that reduces the buyer's workload. This is the behavior of a vendor who has been through formal procurement before and actively manages the process to close efficiently. Option A is polite but passive — it asks for a deadline without proposing any action. Option C is the weakest: 'a couple of weeks' is unnecessarily slow and signals that the vendor is not managing their side of the timeline."
             },
             {
                 "customerLine": "You mentioned our CFO needs to be involved — what would you prepare for them?",
@@ -408,7 +408,7 @@ export const b2bSalesVocabulary: Lesson = {
                 "explanation": "Option B is the right response — it shows clear understanding of what a CFO needs (ROI, TCO, risk), proposes a specific deliverable (one-page executive summary), and asks a smart clarifying question about format. It treats the CFO as a distinct audience with distinct needs — which is the mark of someone who understands complex stakeholder management. Option A is wrong: sending the full proposal to a CFO demonstrates poor stakeholder awareness. CFOs review the financial and risk picture, not the full commercial and technical detail. Option C abdicates responsibility — it's helpful in tone but passive in substance."
             },
             {
-                "customerLine": "Legal review typically takes a long time in our organisation. I'm worried we'll miss the Q3 board deadline.",
+                "customerLine": "Legal review typically takes a long time in our organization. I'm worried we'll miss the Q3 board deadline.",
                 "options": [
                     "I'm sure we can work something out — deadlines can usually be adjusted if the deal is in the right stage.",
                     "Let's work backwards from the board date right now. If the board meeting is in eight weeks, and legal review takes three weeks, we need the contract in your legal team's hands no later than week five. That means procurement has to clear us and issue the contract no later than week four. If we start the vendor questionnaire and RFP response today, we can hit that timeline — but we have no buffer for delays. Can we agree on a specific submission date for the procurement stage, so we're both working to the same milestone?",
@@ -458,7 +458,7 @@ export const b2bSalesVocabulary: Lesson = {
                 "lineIndex": 2,
                 "incorrectText": "subject of legal review",
                 "correction": "subject to legal review",
-                "explanation": "'Subject to' is the fixed prepositional phrase meaning 'dependent on' or 'requiring'. 'The contract will be subject to legal review' — it will require legal review before it is finalised. 'Subject of' means 'the topic of' ('the subject of the meeting', 'the subject of the proposal') — a completely different meaning. Confusing 'subject to' with 'subject of' changes the meaning significantly: 'subject of review' would mean 'the thing that is being discussed in the review', not 'the thing that must go through a review'. In formal contract and procurement language, 'subject to approval/review/change' is the standard construction."
+                "explanation": "'Subject to' is the fixed prepositional phrase meaning 'dependent on' or 'requiring'. 'The contract will be subject to legal review' — it will require legal review before it is finalized. 'Subject of' means 'the topic of' ('the subject of the meeting', 'the subject of the proposal') — a completely different meaning. Confusing 'subject to' with 'subject of' changes the meaning significantly: 'subject of review' would mean 'the thing that is being discussed in the review', not 'the thing that must go through a review'. In formal contract and procurement language, 'subject to approval/review/change' is the standard construction."
             },
             {
                 "lineIndex": 4,
@@ -474,7 +474,7 @@ export const b2bSalesVocabulary: Lesson = {
             {
                 "customerLine": "We haven't gone to procurement yet — we're still in the internal business evaluation phase.",
                 "salespersonStart": "Good to know — that gives us time to get ahead of the procurement requirements before they become critical.",
-                "suggestedCompletion": "Can I suggest we use this window to complete the vendor questionnaire and prepare the RFP response in parallel, so we're ready to submit the moment the business evaluation is complete? That way the procurement phase doesn't add to the overall timeline — it runs alongside it. I've been through this process with three organisations of your size in the past 18 months, and parallel tracking is consistently what keeps deals on schedule."
+                "suggestedCompletion": "Can I suggest we use this window to complete the vendor questionnaire and prepare the RFP response in parallel, so we're ready to submit the moment the business evaluation is complete? That way the procurement phase doesn't add to the overall timeline — it runs alongside it. I've been through this process with three organizations of your size in the past 18 months, and parallel tracking is consistently what keeps deals on schedule."
             },
             {
                 "customerLine": "The CFO is going to ask: why this vendor and not the cheaper alternative?",

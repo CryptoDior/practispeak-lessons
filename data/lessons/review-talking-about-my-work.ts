@@ -3,9 +3,9 @@ import { Lesson } from '@/types/lesson';
 export const reviewTalkingAboutMyWork: Lesson = {
   slug: 'review-talking-about-my-work',
   title: 'Review: Talking About My Work',
-  subtitle: 'Consolidation lesson — practise all A1 vocabulary by talking about yourself and your work',
+  subtitle: 'Consolidation lesson — practice all A1 vocabulary by talking about yourself and your work',
   level: 'A1-A2',
-  description: 'This consolidation lesson brings together all the key vocabulary from your A1 lessons. You will practise introducing yourself, describing your company, talking about what you sell, and answering common questions in English — everything you need for a confident two-minute self-introduction.',
+  description: 'This consolidation lesson brings together all the key vocabulary from your A1 lessons. You will practice introducing yourself, describing your company, talking about what you sell, and answering common questions in English — everything you need for a confident two-minute self-introduction.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-talking-about-my-work-hero.png',
 
   vocabulary: [
@@ -113,7 +113,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'Okay, Tom — you have a networking event next week. Let us practise your [[introduce:to tell someone your name and basic information]] tion. Start from the beginning.',
+      text: 'Okay, Tom — you have a networking event next week. Let us practice your [[introduce:to tell someone your name and basic information]] tion. Start from the beginning.',
     },
     {
       speaker: 'Riley',
@@ -173,7 +173,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'That is a great two-minute introduction. Clear, specific, and confident. Let us do it one more time, faster — you want it to feel natural, not practised.',
+      text: 'That is a great two-minute introduction. Clear, specific, and confident. Let us do it one more time, faster — you want it to feel natural, not practiced.',
     },
     {
       speaker: 'Riley',

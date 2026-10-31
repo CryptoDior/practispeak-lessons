@@ -54,7 +54,7 @@ export const brandArchitecture: Lesson = {
     {
       word: 'BRAND HIERARCHY',
       partOfSpeech: 'noun',
-      definition: 'How all the brands in a company are organised.',
+      definition: 'How all the brands in a company are organized.',
       example: 'The brand hierarchy shows which brands are most important.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-architecture-brand-hierarchy.png',
     },
@@ -98,7 +98,7 @@ export const brandArchitecture: Lesson = {
     },
     {
       phrase: 'THE RECOMMENDED ARCHITECTURE IS...',
-      definition: 'A way to suggest how brands should be organised.',
+      definition: 'A way to suggest how brands should be organized.',
       example: 'The recommended architecture is one master brand with two sub-brands.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-architecture-the-recommended-architecture-is.png',
       inAction: 'The recommended architecture is a branded house — one master brand with product-level descriptors rather than separate brand identities for each product.',
@@ -116,7 +116,7 @@ export const brandArchitecture: Lesson = {
       example: 'We have too many similar brands. Each brand in the portfolio needs a clear role.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-architecture-each-brand-in-the-portfolio-needs-a-clear-role.png',
       inAction: 'If each brand in the portfolio is trying to be everything to everyone, none of them will stand out — each brand needs a clear role and a specific audience.',
-      register: 'Neutral — used in portfolio brand reviews and brand architecture sessions. Emphasises the need for differentiation and role clarity within a company that manages multiple brands.',
+      register: 'Neutral — used in portfolio brand reviews and brand architecture sessions. Emphasizes the need for differentiation and role clarity within a company that manages multiple brands.',
       inContext: "Dana had mapped all seven brands against the customer journey before the workshop. The problem is clear, she said. Each brand in the portfolio is targeting the same customer with the same message. There's no differentiation, no handoff, and no logic to which brand goes where. We're spending marketing budget competing with ourselves, and customers are confused about which product is right for them.",
       visualExamples: [
         { brand: 'Grove Group', context: 'Consumer goods group — portfolio review', imageSlug: '/images/visual-examples/bra-p4-grove.png', caption: 'Each brand in the portfolio needs a clear role — Grove is mass-market eco, Heather is premium sustainable, and Leaf is value. Right now, Heather and Grove overlap on price and positioning.', aspectRatio: '16/9' },
@@ -161,7 +161,7 @@ export const brandArchitecture: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'We have a board decision to make about the portfolio structure before we finalise the acquisition. Do we keep TechFlow as its own brand, fold it into MarketBridge, or something in between?',
+      text: 'We have a board decision to make about the portfolio structure before we finalize the acquisition. Do we keep TechFlow as its own brand, fold it into MarketBridge, or something in between?',
     },
     {
       speaker: 'Dana',
@@ -227,7 +227,7 @@ export const brandArchitecture: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'So the recommended architecture for the [[brand hierarchy:the organised structure showing how brands in a portfolio relate to each other]] is: MarketBridge as the master brand at the top, MarketBridge Pro as the enterprise sub-brand, and TechFlow as an endorsed brand. Three distinct brands, three distinct roles, one clear parent.',
+      text: 'So the recommended architecture for the [[brand hierarchy:the organized structure showing how brands in a portfolio relate to each other]] is: MarketBridge as the master brand at the top, MarketBridge Pro as the enterprise sub-brand, and TechFlow as an endorsed brand. Three distinct brands, three distinct roles, one clear parent.',
     },
     {
       speaker: 'Marcus',
@@ -282,7 +282,7 @@ export const brandArchitecture: Lesson = {
     },
     {
         "word": "brand hierarchy",
-        "definition": "the organised structure showing how brands in a portfolio relate to each other"
+        "definition": "the organized structure showing how brands in a portfolio relate to each other"
     },
     {
         "word": "cannibalisation",
@@ -427,7 +427,7 @@ export const brandArchitecture: Lesson = {
                 "and also too"
             ],
             "correctIndex": 0,
-            "explanation": "'But also' is the correct correlative conjunction used with 'not only': 'not only X but also Y'. This structure emphasises that both elements are important and included. 'Not only... but also' is a standard formal English construction for adding emphasis. 'But yet' is not used in this correlative structure. 'And also too' is redundant ('and', 'also', and 'too' all serve the same additive function — using all three together is incorrect). The fixed pair is: 'not only... but also...'."
+            "explanation": "'But also' is the correct correlative conjunction used with 'not only': 'not only X but also Y'. This structure emphasizes that both elements are important and included. 'Not only... but also' is a standard formal English construction for adding emphasis. 'But yet' is not used in this correlative structure. 'And also too' is redundant ('and', 'also', and 'too' all serve the same additive function — using all three together is incorrect). The fixed pair is: 'not only... but also...'."
         }
     ]
 },
@@ -500,7 +500,7 @@ export const brandArchitecture: Lesson = {
                 "lineIndex": 1,
                 "incorrectText": "TechFlow have",
                 "correction": "TechFlow has",
-                "explanation": "In British English, company names and organisation names can sometimes take plural verbs ('TechFlow have announced'), but in formal strategic writing, they typically take singular verbs: 'TechFlow has'. This is especially true in US and international business contexts, where company names are always treated as singular. In the context of this recommendation document (formal, international business), 'TechFlow has significant brand equity' is the correct form. The general rule for formal business writing: treat company names as singular."
+                "explanation": "In British English, company names and organization names can sometimes take plural verbs ('TechFlow have announced'), but in formal strategic writing, they typically take singular verbs: 'TechFlow has'. This is especially true in US and international business contexts, where company names are always treated as singular. In the context of this recommendation document (formal, international business), 'TechFlow has significant brand equity' is the correct form. The general rule for formal business writing: treat company names as singular."
             },
             {
                 "lineIndex": 2,

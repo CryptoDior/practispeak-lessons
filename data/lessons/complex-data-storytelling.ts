@@ -31,10 +31,10 @@ export const complexDataStorytelling: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-data-storytelling-coherent-report-story.png',
     },
     {
-      word: 'Visualisation',
+      word: 'Visualization',
       partOfSpeech: 'noun',
       definition: 'A chart or picture that shows data.',
-      example: 'This visualisation shows sales by country.',
+      example: 'This visualization shows sales by country.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-data-storytelling-sales-by-country-chart.png',
     },
     {
@@ -131,7 +131,7 @@ export const complexDataStorytelling: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Good — that is your [[headline metric:the single most important number that summarises the state of a business or campaign]]. Lead with it. Let me give you the headline first: our monthly churn is 5% — more than double the industry average. Everything else supports that.",
+      text: "Good — that is your [[headline metric:the single most important number that summarizes the state of a business or campaign]]. Lead with it. Let me give you the headline first: our monthly churn is 5% — more than double the industry average. Everything else supports that.",
     },
     {
       speaker: 'Marcus',
@@ -173,7 +173,7 @@ export const complexDataStorytelling: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And for my [[visualisation:the way data is displayed as a chart, graph, or diagram]] — I have been using big tables. Is that okay?",
+      text: "And for my [[visualization:the way data is displayed as a chart, graph, or diagram]] — I have been using big tables. Is that okay?",
     },
     {
       speaker: 'Riley',
@@ -201,7 +201,7 @@ export const complexDataStorytelling: Lesson = {
     { word: 'data narrative', definition: 'the story built around data connecting numbers, insights, and implications into a clear conclusion' },
     { word: 'visualisation', definition: 'the way data is displayed as a chart, graph, or diagram to make patterns obvious' },
     { word: 'inference', definition: 'a conclusion drawn from data — going beyond what numbers say to explain what they mean' },
-    { word: 'headline metric', definition: 'the single most important number that summarises the state of a business or campaign' },
+    { word: 'headline metric', definition: 'the single most important number that summarizes the state of a business or campaign' },
     { word: 'correlation vs causation', definition: 'the difference between two things happening at the same time and one thing causing the other' },
     { word: 'benchmarking', definition: 'comparing your results to an external standard like an industry average or competitor' }
   ],
@@ -232,8 +232,8 @@ export const complexDataStorytelling: Lesson = {
       correctIndex: 1
     },
     {
-      question: "What does Riley say is the test of a good visualisation?",
-      options: ["It uses multiple colours to highlight different categories", "Someone can understand the point in under five seconds without you explaining it", "It includes a table and a chart on the same slide"],
+      question: "What does Riley say is the test of a good visualization?",
+      options: ["It uses multiple colors to highlight different categories", "Someone can understand the point in under five seconds without you explaining it", "It includes a table and a chart on the same slide"],
       correctIndex: 1
     }
   ],
@@ -242,7 +242,7 @@ export const complexDataStorytelling: Lesson = {
     questions: [
       "Think of the last time you presented data to a senior audience. Did they engage with the analysis — or did they skip to 'what does this mean for us?'",
       "Have you ever seen someone confuse correlation with causation in a business meeting — concluding that one thing caused another just because they happened at the same time?",
-      "When you look at a chart or graph in a presentation, how long does it take you to understand it? What makes some visualisations immediately clear and others confusing?"
+      "When you look at a chart or graph in a presentation, how long does it take you to understand it? What makes some visualizations immediately clear and others confusing?"
     ]
   },
 
@@ -277,10 +277,10 @@ export const complexDataStorytelling: Lesson = {
         sentence: "The board wants one _____ metric — the number that tells them immediately if the business is healthy.",
         options: ["headline", "summary", "key"],
         correctIndex: 0,
-        explanation: "'Headline metric' is the established term for the single most important number that summarises business performance — used in board reports, investor updates, and executive dashboards. 'Summary metric' and 'key metric' are used informally but are not as specific. 'Headline' signals that it is the first and most prominent — the one everyone should know without needing to read further."
+        explanation: "'Headline metric' is the established term for the single most important number that summarizes business performance — used in board reports, investor updates, and executive dashboards. 'Summary metric' and 'key metric' are used informally but are not as specific. 'Headline' signals that it is the first and most prominent — the one everyone should know without needing to read further."
       },
       {
-        sentence: "A table with 40 rows is not a visualisation — it is a data _____.",
+        sentence: "A table with 40 rows is not a visualization — it is a data _____.",
         options: ["dump", "report", "export"],
         correctIndex: 0,
         explanation: "'Data dump' is the specific critical phrase for presenting raw or unstructured data without analysis, narrative, or design — it overwhelms rather than informs. 'Data report' is a more neutral term and does not carry the critical implication. 'Data export' refers to extracting data from a system — it is not used to describe a bad presentation."

@@ -199,7 +199,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     { "before": "Her ", "after": " is simple: AI will replace strategy, not creativity. That's bold enough to make people lean in.", "answer": "POV" },
     { "before": "The ", "after": " wisdom is that big brands have the advantage. But our data shows challenger brands are growing five times faster by doing the opposite.", "answer": "conventional" },
     { "before": "She published an ", "after": " in Marketing Week — 800 words, one clear argument. It generated more engagement than any campaign she's run this year.", "answer": "op-ed" },
-    { "before": "Build her ", "after": " around one specific topic she can own. Not 'leadership' — too broad. Something like 'why great B2B marketing looks more like B2C than most brands realise'.", "answer": "platform" },
+    { "before": "Build her ", "after": " around one specific topic she can own. Not 'leadership' — too broad. Something like 'why great B2B marketing looks more like B2C than most brands realize'.", "answer": "platform" },
     { "before": "The conference invited him for a ", "after": ". He goes first, sets the tone, and every other speaker is positioned in relation to what he said.", "answer": "keynote" }
   ],
 
@@ -317,7 +317,7 @@ export const thoughtLeadershipAtScale: Lesson = {
           "explanation": "Option B applies the correct principle for editing a keynote — the one-idea rule. Everything in a strong keynote supports one central argument. Starting from the idea and cutting what doesn't serve it is the right editorial approach. Option A is a collaboration question, not an editorial answer. Option C focuses on design rather than structure."
         },
         {
-          "customerLine": "I want to become a recognised thought leader in B2B marketing. Where do I start?",
+          "customerLine": "I want to become a recognized thought leader in B2B marketing. Where do I start?",
           "options": [
             "Get on as many panels and podcasts as possible — exposure is what builds authority.",
             "Pick one specific topic you can genuinely own — not 'B2B marketing' but something inside it that you have a distinctive POV on. Build your platform around that: one or two consistent channels, publishing regularly. It takes 18 to 24 months, but specificity is what builds authority — not breadth.",

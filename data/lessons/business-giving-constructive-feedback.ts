@@ -11,12 +11,12 @@ export const businessGivingConstructiveFeedback: Lesson = {
   subtitle: 'C1-C2 · Leadership Communication · Lesson 2',
   level: 'C1-C2',
   description:
-    'Deliver feedback that helps people grow. Learn to open positively, describe behaviour objectively, focus on solutions and keep the conversation two-way.',
+    'Deliver feedback that helps people grow. Learn to open positively, describe behavior objectively, focus on solutions and keep the conversation two-way.',
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Open feedback conversations in a collaborative way.',
-    'Describe specific behaviour and its impact diplomatically.',
+    'Describe specific behavior and its impact diplomatically.',
     'Invite dialogue and agree on improvements.',
   ],
 
@@ -25,14 +25,14 @@ export const businessGivingConstructiveFeedback: Lesson = {
     { word: 'DIPLOMATIC', partOfSpeech: 'adjective', definition: 'Communicating carefully to avoid upsetting people.', example: 'He was diplomatic but honest.', imageSlug: img('diplomatic') },
     { word: 'PERCEPTION', partOfSpeech: 'noun', definition: 'The way someone sees or understands something.', example: "The client's perception was that we didn't listen.", imageSlug: img('perception') },
     { word: 'DELIVER', partOfSpeech: 'verb', definition: 'To communicate a message.', example: 'How you deliver feedback matters as much as what you say.', imageSlug: img('deliver') },
-    { word: 'CRITICISM', partOfSpeech: 'noun', definition: 'Negative comments about someone\'s work or behaviour.', example: 'Harsh criticism rarely improves performance.', imageSlug: img('criticism') },
-    { word: 'IMPACT', partOfSpeech: 'noun', definition: 'The effect something has.', example: 'Describe the behaviour and its impact.', imageSlug: img('impact') },
+    { word: 'CRITICISM', partOfSpeech: 'noun', definition: 'Negative comments about someone\'s work or behavior.', example: 'Harsh criticism rarely improves performance.', imageSlug: img('criticism') },
+    { word: 'IMPACT', partOfSpeech: 'noun', definition: 'The effect something has.', example: 'Describe the behavior and its impact.', imageSlug: img('impact') },
   ],
 
   phrasalVerbs: [
     { phrase: "I'd like to share some feedback that might help us improve.", tag: 'phrase', definition: 'Open the conversation positively and collaboratively.', example: '"Have you got ten minutes? I\'d like to share some feedback that might help us improve."', imageSlug: img('phrase-share-feedback') },
     { phrase: "You've done a great job on X, and I'd like to talk about Y.", tag: 'phrase', definition: 'Balance recognition and development.', example: '"You\'ve done a great job on X, and I\'d like to talk about Y — the client relationship and the reporting."', imageSlug: img('phrase-recognition-development') },
-    { phrase: 'From my perspective, I noticed that…', tag: 'phrase', definition: 'Soften feedback with a personal viewpoint.', example: '"From my perspective, I noticed that the last two reports were late."', inAction: 'Use the SBI model: Situation ("In Tuesday\'s meeting"), Behaviour ("you interrupted Maria twice"), Impact ("she stopped contributing"). It\'s objective, not personal.', imageSlug: img('phrase-noticed-late-reports') },
+    { phrase: 'From my perspective, I noticed that…', tag: 'phrase', definition: 'Soften feedback with a personal viewpoint.', example: '"From my perspective, I noticed that the last two reports were late."', inAction: 'Use the SBI model: Situation ("In Tuesday\'s meeting"), Behavior ("you interrupted Maria twice"), Impact ("she stopped contributing"). It\'s objective, not personal.', imageSlug: img('phrase-noticed-late-reports') },
     { phrase: 'One area we could strengthen is…', tag: 'phrase', definition: 'Focus on solutions rather than problems.', example: '"One area we could strengthen is preparation before client calls."', imageSlug: img('phrase-strengthen-preparation') },
     { phrase: 'How do you feel about that?', tag: 'phrase', definition: 'Encourage two-way dialogue.', example: '"That\'s my view — how do you feel about that?"', imageSlug: img('phrase-how-do-you-feel') },
     { phrase: 'What support would help you?', tag: 'phrase', definition: 'Show you are there to help, not judge.', example: '"What support would help you meet the deadlines?"', imageSlug: img('phrase-what-support') },
@@ -70,7 +70,7 @@ export const businessGivingConstructiveFeedback: Lesson = {
   ],
 
   multipleChoiceExercise: [
-    { question: 'What does SBI stand for in feedback?', options: ['Speak, Blame, Ignore', 'Situation, Behaviour, Impact', 'Start, Build, Improve', 'Sales, Budget, Income'], correctIndex: 1 },
+    { question: 'What does SBI stand for in feedback?', options: ['Speak, Blame, Ignore', 'Situation, Behavior, Impact', 'Start, Build, Improve', 'Sales, Budget, Income'], correctIndex: 1 },
     { question: 'Which phrase invites two-way dialogue?', options: ['Do it better.', 'How do you feel about that?', 'This is bad.', 'No excuses.'], correctIndex: 1 },
     { question: 'What makes feedback "constructive"?', options: ['It is harsh', 'It focuses on improvement', 'It is very short', 'It is anonymous'], correctIndex: 1 },
     { question: 'In the dialogue, what is the problem?', options: ['Rude to clients', 'Weekly reports sent late', 'Missing meetings', 'Too many errors'], correctIndex: 1 },

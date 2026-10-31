@@ -5,7 +5,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
   title: 'Creating Urgency Without Pressure',
   subtitle: 'The risk of waiting is… — how to make the cost of inaction visible without manufactured deadlines',
   level: 'C1-C2',
-  description: "Artificial urgency destroys trust. 'This offer expires Friday' or 'my manager needs an answer today' are tactics prospects recognise and resent. Genuine urgency is different — it lives in the prospect's situation, not the salesperson's quota, and it names the real cost of waiting rather than inventing one. This lesson teaches the language for creating urgency that is credible, specific, and owned by the prospect — because the most powerful version of urgency is the one they feel themselves.",
+  description: "Artificial urgency destroys trust. 'This offer expires Friday' or 'my manager needs an answer today' are tactics prospects recognize and resent. Genuine urgency is different — it lives in the prospect's situation, not the salesperson's quota, and it names the real cost of waiting rather than inventing one. This lesson teaches the language for creating urgency that is credible, specific, and owned by the prospect — because the most powerful version of urgency is the one they feel themselves.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/creating-urgency-without-pressure-hero.png',
 
   vocabulary: [
@@ -408,7 +408,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
             "text": "Salesperson A — Response to 'no urgency'",
             "verdict": {
                 "isGood": false,
-                "explanation": "Weak. This is exactly the kind of manufactured urgency the lesson warns against. The 'promotional pricing' deadline is a classic artificial pressure tactic — and Marcus, as an experienced B2B buyer, will recognise it immediately. 'Let me check with my manager' signals that the deadline is not real and can be extended on request, which destroys any urgency effect and damages credibility. The response says nothing about Marcus's situation, the cost of waiting, or any real consequence of the decision. It is entirely about the seller's needs, not the buyer's."
+                "explanation": "Weak. This is exactly the kind of manufactured urgency the lesson warns against. The 'promotional pricing' deadline is a classic artificial pressure tactic — and Marcus, as an experienced B2B buyer, will recognize it immediately. 'Let me check with my manager' signals that the deadline is not real and can be extended on request, which destroys any urgency effect and damages credibility. The response says nothing about Marcus's situation, the cost of waiting, or any real consequence of the decision. It is entirely about the seller's needs, not the buyer's."
             }
         },
         {
@@ -472,7 +472,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
                     "Say: 'I should mention that our current pricing is only guaranteed until the end of this quarter — after that, I can't commit to holding these numbers.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. A accepts the deferral without naming any cost. C invents a pricing deadline, which is manufactured urgency and will be recognised as such. B asks the one question that genuine urgency requires: what are you actually waiting for? And names the three specific things — internal support, budget window, competitive position — that may erode while the decision waits."
+                "explanation": "B is correct. A accepts the deferral without naming any cost. C invents a pricing deadline, which is manufactured urgency and will be recognized as such. B asks the one question that genuine urgency requires: what are you actually waiting for? And names the three specific things — internal support, budget window, competitive position — that may erode while the decision waits."
             },
             {
                 "customerLine": "A prospect says: 'We've been evaluating for three months and need more time.'",

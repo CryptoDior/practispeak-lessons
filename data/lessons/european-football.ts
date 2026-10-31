@@ -79,7 +79,7 @@ export const europeanFootball: Lesson = {
     {
       word: 'FIXTURE LIST',
       partOfSpeech: 'phrase',
-      definition: 'The official schedule of all matches for a team or competition — when each game is played and against whom.',
+      definition: 'The official schedule of all matches for a team or competition — when each game is played and against whom. (US: schedule)',
       example: '"The fixture list was released today — they have three Champions League group games in October."',
       imageSlug: '/images/fixture-list.png',
     },

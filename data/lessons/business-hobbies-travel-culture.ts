@@ -22,9 +22,9 @@ export const businessHobbiesTravelCulture: Lesson = {
 
   vocabulary: [
     { word: 'HOBBY', partOfSpeech: 'noun', definition: 'An activity you do for pleasure in your free time.', example: 'My main hobby is photography.', imageSlug: img('hobby') },
-    { word: 'CULTURE', partOfSpeech: 'noun', definition: 'The ideas, customs and behaviour of a group of people.', example: 'I love learning about different cultures.', imageSlug: img('culture') },
+    { word: 'CULTURE', partOfSpeech: 'noun', definition: 'The ideas, customs and behavior of a group of people.', example: 'I love learning about different cultures.', imageSlug: img('culture') },
     { word: 'TRADITION', partOfSpeech: 'noun', definition: 'A custom passed down from older generations.', example: "It's a family tradition to have dinner together on Sundays.", imageSlug: img('tradition') },
-    { word: 'DESTINATION', partOfSpeech: 'noun', definition: 'The place someone is travelling to.', example: 'Paris is my favourite travel destination.', imageSlug: img('destination') },
+    { word: 'DESTINATION', partOfSpeech: 'noun', definition: 'The place someone is traveling to.', example: 'Paris is my favorite travel destination.', imageSlug: img('destination') },
     { word: 'FESTIVAL', partOfSpeech: 'noun', definition: 'A day or period of celebration, often cultural or religious.', example: 'The town has a wine festival every summer.', imageSlug: img('festival') },
   ],
 
@@ -33,7 +33,7 @@ export const businessHobbiesTravelCulture: Lesson = {
     { phrase: 'LOOK AROUND', definition: 'To explore a place and see what it is like.', example: 'We looked around the old city after the meeting.', imageSlug: img('phrase-look-around') },
     { phrase: 'CATCH UP (WITH)', definition: "To talk with someone you haven't seen for a while.", example: 'We caught up over dinner last night.', imageSlug: img('phrase-catch-up-with') },
     { phrase: 'WHEN IN ROME', tag: 'idiom', definition: 'When you are in another place, follow the local customs.', example: 'I always try the local food when I travel. When in Rome!', imageSlug: img('phrase-when-in-rome') },
-    { phrase: "BROADEN ONE'S HORIZONS", tag: 'idiom', definition: 'To increase your knowledge and experience.', example: 'Travelling abroad really broadened my horizons.', imageSlug: img('phrase-broaden-ones-horizons') },
+    { phrase: "BROADEN ONE'S HORIZONS", tag: 'idiom', definition: 'To increase your knowledge and experience.', example: 'Traveling abroad really broadened my horizons.', imageSlug: img('phrase-broaden-ones-horizons') },
     { phrase: 'Do you travel often for work?', tag: 'phrase', definition: 'Open a polite conversation about work and lifestyle.', example: '"Do you travel often for work, or mostly for fun?"', imageSlug: img('phrase-travel-often-for-work') },
     { phrase: 'What do people usually do during that festival?', tag: 'phrase', definition: 'Ask about local customs and traditions.', example: '"What do people usually do during that festival — Diwali?"', inAction: 'Asking about traditions shows respect and interest. Avoid comparing ("Ours is better!").', imageSlug: img('phrase-what-do-people-do-festival') },
     { phrase: 'That must have been an unforgettable experience.', tag: 'phrase', definition: 'Respond warmly when someone shares a travel story.', example: '"You saw the Northern Lights? That must have been an unforgettable experience."', imageSlug: img('phrase-unforgettable-experience') },
@@ -44,7 +44,7 @@ export const businessHobbiesTravelCulture: Lesson = {
   dialogue: [
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Tim, do you travel often for work?' },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Not much for work, but I try to [[get away:go somewhere for a short break]] every few months. Last month I went to India." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Wow! What was your favourite [[destination:the place you travel to]] there?' },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Wow! What was your favorite [[destination:the place you travel to]] there?' },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Jaipur. We [[looked around:explored]] the old city, and I arrived during Diwali, the festival of lights." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That must have been an unforgettable experience. What do people usually do during that [[festival:a period of celebration]]?" },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "They light small lamps, share sweets and visit family. It's a really beautiful [[tradition:a custom from older generations]]." },
@@ -68,7 +68,7 @@ export const businessHobbiesTravelCulture: Lesson = {
     { before: 'We looked', after: 'the old city.', answer: 'around' },
     { before: 'What do people usually do during that', after: '?', answer: 'festival' },
     { before: 'That must have been an', after: 'experience.', answer: 'unforgettable' },
-    { before: 'Travelling really broadened my', after: '.', answer: 'horizons' },
+    { before: 'Traveling really broadened my', after: '.', answer: 'horizons' },
   ],
 
   multipleChoiceExercise: [

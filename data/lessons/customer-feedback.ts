@@ -348,7 +348,7 @@ export const customerFeedback: Lesson = {
             {
                 "customerLine": "A client just sent us a complaint about the onboarding process. What should we do?",
                 "options": [
-                    "Reply today, apologise, and explain the next step to fix the issue. Follow up after 48 hours to make sure they are happy. Take the feedback seriously — other clients probably feel the same.",
+                    "Reply today, apologize, and explain the next step to fix the issue. Follow up after 48 hours to make sure they are happy. Take the feedback seriously — other clients probably feel the same.",
                     "Send a standard apology email and offer a discount.",
                     "Wait and see if they bring it up again — it might be a one-off."
                 ],

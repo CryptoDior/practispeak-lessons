@@ -11,7 +11,7 @@ export const businessCommunicatingVisionStrategy: Lesson = {
   subtitle: 'C1-C2 · Leadership Communication · Lesson 5',
   level: 'C1-C2',
   description:
-    'Learn how leaders explain where the organisation is going and why: articulating a vision, linking strategy to outcomes and creating alignment and ownership.',
+    'Learn how leaders explain where the organization is going and why: articulating a vision, linking strategy to outcomes and creating alignment and ownership.',
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
@@ -21,7 +21,7 @@ export const businessCommunicatingVisionStrategy: Lesson = {
   ],
 
   vocabulary: [
-    { word: 'VISION', partOfSpeech: 'noun', definition: 'A clear idea of what an organisation wants to become.', example: 'Our vision is to be the most trusted brand in Europe.', imageSlug: img('vision') },
+    { word: 'VISION', partOfSpeech: 'noun', definition: 'A clear idea of what an organization wants to become.', example: 'Our vision is to be the most trusted brand in Europe.', imageSlug: img('vision') },
     { word: 'STRATEGY', partOfSpeech: 'noun', definition: 'A detailed plan to achieve long-term goals.', example: 'The new strategy focuses on digital growth.', imageSlug: img('strategy') },
     { word: 'ALIGNMENT', partOfSpeech: 'noun', definition: 'Agreement and coordination around shared goals.', example: 'We need alignment between sales and product.', imageSlug: img('alignment') },
     { word: 'INITIATIVE', partOfSpeech: 'noun', definition: 'A new plan or project to achieve a goal.', example: 'The sustainability initiative launches in March.', imageSlug: img('initiative') },
@@ -35,7 +35,7 @@ export const businessCommunicatingVisionStrategy: Lesson = {
     { phrase: 'The purpose behind this initiative is…', tag: 'phrase', definition: 'Explain the "why".', example: '"The purpose behind this initiative is to reduce our carbon footprint."', inAction: 'Start with WHY (purpose), then HOW (strategy), then WHAT (actions). People commit to reasons, not just tasks.', imageSlug: img('phrase-purpose-initiative') },
     { phrase: 'Each of us plays a vital role in making this happen.', tag: 'phrase', definition: 'Build inclusion and ownership.', example: '"From engineering to customer service, each of us plays a vital role in making this happen."', imageSlug: img('phrase-vital-role') },
     { phrase: "Let's make sure our goals are aligned.", tag: 'phrase', definition: 'Ensure shared understanding.', example: '"Before we plan Q1, let\'s make sure our goals are aligned with the roadmap."', imageSlug: img('phrase-aligned-goals') },
-    { phrase: 'ROLL OUT', definition: 'To introduce something gradually across an organisation.', example: 'We will roll out the new system region by region.', imageSlug: img('phrase-roll-out') },
+    { phrase: 'ROLL OUT', definition: 'To introduce something gradually across an organization.', example: 'We will roll out the new system region by region.', imageSlug: img('phrase-roll-out') },
   ],
 
   videos: [],
@@ -52,7 +52,7 @@ export const businessCommunicatingVisionStrategy: Lesson = {
   ],
 
   matchingExercise: [
-    { word: 'VISION', definition: 'What an organisation wants to become' },
+    { word: 'VISION', definition: 'What an organization wants to become' },
     { word: 'STRATEGY', definition: 'A plan to reach long-term goals' },
     { word: 'ROADMAP', definition: 'A plan with steps and a timeline' },
     { word: 'MILESTONE', definition: 'An important stage or achievement' },

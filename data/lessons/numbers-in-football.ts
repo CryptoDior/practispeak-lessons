@@ -70,13 +70,13 @@ export const numbersInFootball: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'ONE-NIL',
-      definition: 'The score 1–0. "Nil" means zero in football.',
+      definition: 'The score 1–0. "Nil" means zero in football. (US: one-zero)',
       example: 'We were winning one-nil at half time.',
       imageSlug: '/images/one-nil.png',
     },
     {
       phrase: 'IT\'S A DRAW',
-      definition: 'Both teams have the same score at the end.',
+      definition: 'Both teams have the same score at the end. (US: it\'s a tie)',
       example: 'It\'s a draw — both teams scored two goals.',
       imageSlug: '/images/its-a-draw.png',
     },

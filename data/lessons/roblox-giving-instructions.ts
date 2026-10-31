@@ -214,7 +214,7 @@ export const robloxGivingInstructions: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "[[Then:after the step before]], [[press:to push a button]] the action button to throw your shield at the boss. [[After that:when the previous step is done]], run to the pillar in the centre for cover!",
+      text: "[[Then:after the step before]], [[press:to push a button]] the action button to throw your shield at the boss. [[After that:when the previous step is done]], run to the pillar in the center for cover!",
     },
     {
       speaker: 'Mario',

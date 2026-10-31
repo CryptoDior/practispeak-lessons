@@ -72,7 +72,7 @@ export const diningOrderingFoodRestaurant: Lesson = {
     { word: 'MAIN COURSE', partOfSpeech: 'noun', definition: 'The biggest part of the meal.', example: "I'll have the chicken as my main course.", imageSlug: img('choosing-chicken-main-course') },
     { word: 'SIDE', partOfSpeech: 'noun', definition: 'A small dish you eat with your main course.', example: "I'll have a salad as a side.", imageSlug: img('choosing-small-salad-side') },
     { word: 'WAITER / WAITRESS', partOfSpeech: 'noun', definition: 'A man / woman who brings food and drinks in a restaurant.', example: 'The waitress brought our drinks.', imageSlug: img('waitress-delivers-drinks') },
-    { word: 'BOOTH', partOfSpeech: 'noun', definition: 'A cosy table with a long seat along the wall.', example: 'Can we sit in a booth, please?', imageSlug: img('requesting-restaurant-booth') },
+    { word: 'BOOTH', partOfSpeech: 'noun', definition: 'A cozy table with a long seat along the wall.', example: 'Can we sit in a booth, please?', imageSlug: img('requesting-restaurant-booth') },
     { word: 'RESERVATION', partOfSpeech: 'noun', definition: 'When you ask the restaurant to keep a table for you.', example: 'We have a reservation under Smith.', imageSlug: img('smith-booking-at-reception') },
   ],
 
@@ -91,7 +91,7 @@ export const diningOrderingFoodRestaurant: Lesson = {
   dialogue: [
     { speaker: 'Waiter', speakerColor: 'orange', text: 'Hello and welcome! Table for how many?' },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Two, please. We have a [[reservation:a table kept for us]] under Kira.' },
-    { speaker: 'Waiter', speakerColor: 'orange', text: 'Yes, here you are. Would you like a table or a [[booth:a cosy table with a long seat]]?' },
+    { speaker: 'Waiter', speakerColor: 'orange', text: 'Yes, here you are. Would you like a table or a [[booth:a cozy table with a long seat]]?' },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'A booth, please.' },
     { speaker: 'Waiter', speakerColor: 'orange', text: 'Here is the [[menu:list of food and drinks]]. Can I start you off with something to drink?' },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'll have a glass of water for now, please. My friend is coming soon." },
@@ -108,7 +108,7 @@ export const diningOrderingFoodRestaurant: Lesson = {
     { word: 'STARTER', definition: 'Small food before the main meal' },
     { word: 'MAIN COURSE', definition: 'The biggest part of the meal' },
     { word: 'SIDE', definition: 'A small dish with your main course' },
-    { word: 'BOOTH', definition: 'A cosy table with a long seat' },
+    { word: 'BOOTH', definition: 'A cozy table with a long seat' },
     { word: 'RESERVATION', definition: 'A table kept for you' },
   ],
 

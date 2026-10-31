@@ -126,7 +126,7 @@ export const advancedPresentationSkills: Lesson = {
       example: 'Let us separate the two issues — the first is price, the second is quality.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-presentation-skills-separate-price-and-quality.png',
       inAction: 'Let us separate the two issues — the first is the timeline question, which I can address directly, and the second is the resource question, which needs a different conversation with the right people in the room.',
-      register: "Neutral — Flux (SaaS, board presentation): presentation coaching reads 'let us separate the two issues' is the essential technique when a board challenge conflates a missed metric with a strategy failure — they may be related or they may not be, and the audience deserves a clear answer on each. | Kova (fintech, investor Q&A): investor briefing preparation reads use 'let us separate the two issues' when a question conflates the regulatory position with the commercial position — they have different answers and both deserve a clear one. | Forge (B2B HR, crisis Q&A): crisis communications coaching reads 'let us separate the two issues' helps when a media question bundles together the incident and the broader systemic question — you can be clear and honest on the incident without accepting the broader characterisation.",
+      register: "Neutral — Flux (SaaS, board presentation): presentation coaching reads 'let us separate the two issues' is the essential technique when a board challenge conflates a missed metric with a strategy failure — they may be related or they may not be, and the audience deserves a clear answer on each. | Kova (fintech, investor Q&A): investor briefing preparation reads use 'let us separate the two issues' when a question conflates the regulatory position with the commercial position — they have different answers and both deserve a clear one. | Forge (B2B HR, crisis Q&A): crisis communications coaching reads 'let us separate the two issues' helps when a media question bundles together the incident and the broader systemic question — you can be clear and honest on the incident without accepting the broader characterization.",
       visualExamples: [
         { brand: 'Flux', context: 'SaaS platform — board presentation Q&A coaching', imageSlug: '/images/visual-examples/flux-separate-two-issues-metric-strategy.png', caption: '"Let us separate the two issues" — the essential technique when a challenge conflates a missed metric with a strategy failure. Both deserve a clear, separate answer.', aspectRatio: '16/9' },
         { brand: 'Kova', context: 'Fintech — investor Q&A preparation briefing', imageSlug: '/images/visual-examples/kova-separate-two-issues-regulatory-commercial.png', caption: '"Let us separate the two issues" — use when a question conflates the regulatory position with the commercial position. They have different answers and both deserve clarity.', aspectRatio: '4/5' },
@@ -214,7 +214,7 @@ export const advancedPresentationSkills: Lesson = {
     { word: 'concede', definition: 'to acknowledge that a point or challenge is valid — clearly and without hedging — before making any counter-argument' },
     { word: 'hypothetical', definition: 'a question about an imagined scenario that has not happened — often a trap that locks you into answers for undefined situations' },
     { word: 'objection handling', definition: 'the skill of receiving a challenge and responding in a way that acknowledges the concern and moves the conversation forward constructively' },
-    { word: 'leading question', definition: 'a question that embeds an assumption the questioner wants you to accept — the skill is to recognise and challenge the premise before answering' },
+    { word: 'leading question', definition: 'a question that embeds an assumption the questioner wants you to accept — the skill is to recognize and challenge the premise before answering' },
     { word: 'rhetorical pivot', definition: 'a move that acknowledges one thing and uses it to drive toward a stronger, more powerful point in your argument' },
   ],
 
@@ -322,7 +322,7 @@ export const advancedPresentationSkills: Lesson = {
             "We would replace them — our pipeline is strong and we have several prospects at the final stage of negotiation.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct — it correctly declines the hypothetical in its broad form, explains specifically why (the answer depends on undefined variables), and then provides the real, substantive information the questioner actually needs (client concentration data, trend, and pipeline context). Option A dismisses the question too quickly — 'unlikely' without evidence is an assertion, and all clients can be lost. Option C is too simplistically positive — 'we would replace them' without any specifics or acknowledgement of the challenge is not credible.",
+          explanation: "Option B is correct — it correctly declines the hypothetical in its broad form, explains specifically why (the answer depends on undefined variables), and then provides the real, substantive information the questioner actually needs (client concentration data, trend, and pipeline context). Option A dismisses the question too quickly — 'unlikely' without evidence is an assertion, and all clients can be lost. Option C is too simplistically positive — 'we would replace them' without any specifics or acknowledgment of the challenge is not credible.",
         },
         {
           customerLine: "'You say your product is market-leading. Aren't you just saying that because all your competitors say it too?'",
@@ -340,7 +340,7 @@ export const advancedPresentationSkills: Lesson = {
       instructions: 'Read the Q&A preparation session extract. Three lines have a grammar mistake. Can you find them?',
       dialogue: [
         { speaker: 'Marcus', text: "Let me separate the two issues — the first is the growth miss and the second is the margin miss." },
-        { speaker: 'Riley', text: "Each of the techniques we have practised have a specific application — reframing is for incomplete premises, bridging is for difficult numbers." },
+        { speaker: 'Riley', text: "Each of the techniques we have practiced have a specific application — reframing is for incomplete premises, bridging is for difficult numbers." },
         { speaker: 'Dana', text: "A good concession should be clear and direct — 'I take that point entire' signals honesty and prevents the impression of defensiveness." },
         { speaker: 'Marcus', text: "The bridge connects the difficult question to the message you want to land — it does not avoid the question, it contextualises it." },
         { speaker: 'Riley', text: "The person which asks the hypothetical question is often trying to get you to commit to a scenario that has not been fully defined." },
@@ -349,9 +349,9 @@ export const advancedPresentationSkills: Lesson = {
       mistakes: [
         {
           lineIndex: 1,
-          incorrectText: 'Each of the techniques we have practised have a specific application',
-          correction: 'Each of the techniques we have practised has a specific application',
-          explanation: "'Each' is always grammatically singular — 'each has', not 'each have'. The modifying clause 'we have practised' refers to 'techniques' (plural) but the grammatical subject of the main clause is 'each' (singular). Subject-verb agreement must match the head noun of the subject phrase, not any modifying phrase. 'Each of the techniques has a specific application' — singular verb because 'each' is singular.",
+          incorrectText: 'Each of the techniques we have practiced have a specific application',
+          correction: 'Each of the techniques we have practiced has a specific application',
+          explanation: "'Each' is always grammatically singular — 'each has', not 'each have'. The modifying clause 'we have practiced' refers to 'techniques' (plural) but the grammatical subject of the main clause is 'each' (singular). Subject-verb agreement must match the head noun of the subject phrase, not any modifying phrase. 'Each of the techniques has a specific application' — singular verb because 'each' is singular.",
         },
         {
           lineIndex: 2,
@@ -372,11 +372,11 @@ export const advancedPresentationSkills: Lesson = {
       items: [
         {
           customerLine: "Write the opening of a Q&A response to this board challenge: 'Your margins have declined for three consecutive quarters. The strategy is clearly not working.'",
-          salespersonStart: "I take that point — the margin decline is real and I am not going to minimise it. But let me separate two things —",
+          salespersonStart: "I take that point — the margin decline is real and I am not going to minimize it. But let me separate two things —",
           suggestedCompletion: "the margin decline and the strategy. They are related but they are not the same thing. The margin decline is a consequence of a deliberate investment decision we made in Q1 — we chose to invest in customer acquisition in the enterprise segment at a cost to short-term margin. That was a choice, not a failure. The reason I am drawing a distinction between the investment decision and the strategy is this: the enterprise customers we have acquired in the past three quarters have an average lifetime value of 4.2x our mid-market customers and a churn rate of 60% lower. The margin recovers as the mix shifts. And the unit economics of the enterprise segment mean that by Q3, we project a return to prior-year margin with a materially better customer base than we had going in. So the margin number is real and I concede it. The strategy interpretation — I want to challenge that, and I have the data to do so.",
         },
         {
-          customerLine: "A journalist asks: 'There are rumours that your company is in talks with a major competitor. Can you confirm?'",
+          customerLine: "A journalist asks: 'There are rumors that your company is in talks with a major competitor. Can you confirm?'",
           salespersonStart: "What I can say is that we are an active and ambitious company that is always evaluating opportunities to accelerate our strategy. What I am not in a position to comment on is —",
           suggestedCompletion: "specific market speculation — that would not be appropriate or accurate for me to do, and I would not want to give you something that I cannot stand behind. What I can tell you is that our pipeline of organic growth initiatives is stronger than at any point in the past three years, and the commercial momentum in our core segments is very good. If and when there is anything material to communicate, we will communicate it to the market clearly and promptly, as we are required to do. But I am not going to add to speculation that I cannot confirm or deny.",
         },

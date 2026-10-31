@@ -149,13 +149,13 @@ export const advertisingMedia: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'They also asked about [[podcast:an audio programme that people listen to online]] advertising. There is one show their target audience listens to.',
+      text: 'They also asked about [[podcast:an audio program that people listen to online]] advertising. There is one show their target audience listens to.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'That could be excellent. A [[sponsored:paid for by a company]] mention on a [[podcast:an audio programme]] their audience trusts is very powerful — it is almost like a personal recommendation.',
+      text: 'That could be excellent. A [[sponsored:paid for by a company]] mention on a [[podcast:an audio program]] their audience trusts is very powerful — it is almost like a personal recommendation.',
     },
     {
       speaker: 'Dana',
@@ -190,15 +190,15 @@ export const advertisingMedia: Lesson = {
     },
     {
         "word": "BILLBOARD",
-        "definition": "A large outdoor advertisement displayed on a board — usually on a busy road or in a city centre"
+        "definition": "A large outdoor advertisement displayed on a board — usually on a busy road or in a city center"
     },
     {
         "word": "PODCAST",
-        "definition": "An audio programme that people listen to online, often on business or industry topics"
+        "definition": "An audio program that people listen to online, often on business or industry topics"
     },
     {
         "word": "SPONSORED",
-        "definition": "Paid for by a company as advertising — appears in feeds or on sites and is labelled as an ad"
+        "definition": "Paid for by a company as advertising — appears in feeds or on sites and is labeled as an ad"
     },
     {
         "word": "NATIVE",
@@ -359,7 +359,7 @@ export const advertisingMedia: Lesson = {
                 "banner"
             ],
             "correctIndex": 1,
-            "explanation": "Sponsored means paid for by a company as advertising — it appears in feeds and is labelled as an ad. Native means content that blends in with normal posts. Banner is a rectangular image on a website. Sponsored is the correct word for paid LinkedIn posts."
+            "explanation": "Sponsored means paid for by a company as advertising — it appears in feeds and is labeled as an ad. Native means content that blends in with normal posts. Banner is a rectangular image on a website. Sponsored is the correct word for paid LinkedIn posts."
         },
         {
             "sentence": "We use four main _____ s: LinkedIn, email, a podcast, and banner ads on trade publications.",
@@ -379,7 +379,7 @@ export const advertisingMedia: Lesson = {
                 "Sponsored"
             ],
             "correctIndex": 0,
-            "explanation": "Native advertising blends in with normal content — it looks and feels like an article or post rather than an ad. Billboard is outdoor advertising. Sponsored means paid-for content that is labelled as an ad. Native is the word for ads that look like regular content."
+            "explanation": "Native advertising blends in with normal content — it looks and feels like an article or post rather than an ad. Billboard is outdoor advertising. Sponsored means paid-for content that is labeled as an ad. Native is the word for ads that look like regular content."
         },
         {
             "sentence": "The ad had a _____ of 30,000 — meaning 30,000 unique people saw it during the campaign.",
@@ -399,7 +399,7 @@ export const advertisingMedia: Lesson = {
                 "podcast"
             ],
             "correctIndex": 2,
-            "explanation": "Podcast is an audio programme that people listen to online. Banner is a clickable image ad on a website. Billboard is a large outdoor ad. Sponsoring a podcast means paying for a mention by the host — it reaches a specific, engaged audience."
+            "explanation": "Podcast is an audio program that people listen to online. Banner is a clickable image ad on a website. Billboard is a large outdoor ad. Sponsoring a podcast means paying for a mention by the host — it reaches a specific, engaged audience."
         },
         {
             "sentence": "LinkedIn lets you _____ your ads by job title and industry — so you only pay to reach the people who matter.",

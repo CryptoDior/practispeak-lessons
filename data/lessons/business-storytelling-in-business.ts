@@ -35,7 +35,7 @@ export const businessStorytellingInBusiness: Lesson = {
     { phrase: 'That was the turning point.', tag: 'phrase', definition: 'Mark the moment when everything changed.', example: '"Then the CEO called me directly. That was the turning point."', imageSlug: img('phrase-ceo-turning-point') },
     { phrase: 'This story shows that…', tag: 'phrase', definition: 'Connect the story to your message.', example: '"This story shows that small changes can make a big difference."', imageSlug: img('phrase-small-changes') },
     { phrase: 'The lesson here is…', tag: 'phrase', definition: 'State what people should learn.', example: '"The lesson here is that speed matters more than perfection."', inAction: 'A business story needs three parts: situation → turning point → lesson. Without the lesson, it\'s just an anecdote.', imageSlug: img('phrase-lesson-here') },
-    { phrase: 'It was a real moment for me because…', tag: 'phrase', definition: 'Add authentic emotion to the story.', example: '"It was a real moment for me because I realised I\'d stopped listening."', imageSlug: img('phrase-real-moment') },
+    { phrase: 'It was a real moment for me because…', tag: 'phrase', definition: 'Add authentic emotion to the story.', example: '"It was a real moment for me because I realized I\'d stopped listening."', imageSlug: img('phrase-real-moment') },
   ],
 
   videos: [],

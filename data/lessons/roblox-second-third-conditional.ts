@@ -14,7 +14,7 @@ export const robloxSecondThirdConditional: Lesson = {
     positivePattern: '2nd: IF + past simple, WOULD + base verb',
     positiveExample: '"If I had better gear, I would win more."',
     negativePattern: '3rd: IF + past perfect, WOULD HAVE + past participle',
-    negativeExample: '"If I had practised, I would have won."',
+    negativeExample: '"If I had practiced, I would have won."',
     positiveLabel: '2ND CONDITIONAL — imaginary present or future',
     negativeLabel: '3RD CONDITIONAL — imaginary past (regret)',
     arrowStyle: true,
@@ -24,7 +24,7 @@ export const robloxSecondThirdConditional: Lesson = {
       { sentence: '"Suppose we had more time, we would complete the quest."', note: '2nd — suppose = hypothetical present situation' },
     ],
     negativeExamples: [
-      { sentence: '"If I had practised more, I would have won."', note: '3rd — the past is fixed; I did not practise, I did not win' },
+      { sentence: '"If I had practiced more, I would have won."', note: '3rd — the past is fixed; I did not practice, I did not win' },
       { sentence: '"If she had joined earlier, we would have won the tournament."', note: '3rd — regret; she did not join, we did not win' },
       { sentence: '"In hindsight, if I had logged in sooner, I would have got the reward."', note: '3rd — in hindsight signals looking back at a missed past chance' },
     ],
@@ -177,7 +177,7 @@ export const robloxSecondThirdConditional: Lesson = {
       phrase: "RULE OUT",
       definition: "To decide that something is not possible or not worth considering.",
       example: "They ruled out the aggressive approach after reviewing how badly it had gone in the last three matches.",
-      inGame: "Rule out any strategy that relies on perfect communication until your team has practised it thoroughly.",
+      inGame: "Rule out any strategy that relies on perfect communication until your team has practiced it thoroughly.",
       inRealLife: "The medical team ruled out several diagnoses before identifying the actual problem.",
       imageSlug: '/images/roblox-second-third-conditional-rule-out.png',
     },
@@ -238,13 +238,13 @@ export const robloxSecondThirdConditional: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "And what about: 'If we practised more, we would win more consistently.' Is that third conditional too?",
+      text: "And what about: 'If we practiced more, we would win more consistently.' Is that third conditional too?",
     },
     {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "No — that is second conditional. Present simple in the if-clause — 'if we practised'. 'Would' plus base verb — 'would win'. Second conditional talks about imaginary present or future — situations that are not real now, but [[hypothetical:imagined for thinking through possibilities]].",
+      text: "No — that is second conditional. Present simple in the if-clause — 'if we practiced'. 'Would' plus base verb — 'would win'. Second conditional talks about imaginary present or future — situations that are not real now, but [[hypothetical:imagined for thinking through possibilities]].",
     },
     {
       speaker: 'Mia',
@@ -340,7 +340,7 @@ export const robloxSecondThirdConditional: Lesson = {
     {
       question: "Which sentence is an example of the THIRD conditional?",
       options: [
-        "If we practised more, we would win more consistently.",
+        "If we practiced more, we would win more consistently.",
         "If we had held the zone longer, we would have won the match.",
         "If I were a better builder, I would design the server differently.",
         "Unless we change strategy, we will keep losing.",

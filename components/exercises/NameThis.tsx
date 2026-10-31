@@ -4,6 +4,7 @@ import { VocabWord } from '@/types/lesson';
 import { resolveImageUrl } from '@/lib/images';
 import { r2Audio, playFirstWorking } from '@/lib/audio';
 import { audioSlugOf } from '@/components/WordEntryCard';
+import { ukSlugVariant } from '@/lib/spelling';
 
 /**
  * Name This — each vocabulary picture is shown on its own. The student says the word,
@@ -16,7 +17,14 @@ const nice = (w: string) => w.charAt(0) + w.slice(1).toLowerCase();
 /** Same files the Vocabulary card plays (lesson-specific first), so no new audio is needed. */
 function wordSources(lessonSlug: string, word: string): string[] {
   const slug = audioSlugOf(word);
-  return [r2Audio(`${lessonSlug}-${slug}.mp3`), r2Audio(`${slug}.mp3`), `/audio/${slug}.mp3`];
+  const uk = ukSlugVariant(slug); // recorded before the switch to US spelling
+  return [
+    r2Audio(`${lessonSlug}-${slug}.mp3`),
+    ...(uk ? [r2Audio(`${lessonSlug}-${uk}.mp3`)] : []),
+    r2Audio(`${slug}.mp3`),
+    ...(uk ? [r2Audio(`${uk}.mp3`)] : []),
+    `/audio/${slug}.mp3`,
+  ];
 }
 
 function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {

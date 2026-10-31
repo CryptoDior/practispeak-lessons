@@ -10,7 +10,7 @@ export const mmaDescribingAFighter: Lesson = {
 
   warmUp: {
     questions: [
-      'Who is your favourite fighter? Describe him or her in two words.',
+      'Who is your favorite fighter? Describe him or her in two words.',
       'Do you like fighters who attack a lot?',
       'Which fighter is very strong?',
     ],

@@ -156,7 +156,7 @@ export const robloxPassiveVoice: Lesson = {
       definition: "Reintroduce something that was previously removed, ended, or discontinued.",
       example: "The old trading system has been brought back by popular demand — players voted for it in the survey.",
       inGame: "Bring back the map from season two — so many players have been requesting it for months.",
-      inRealLife: "The company brought back its popular loyalty programme after customer satisfaction scores dropped.",
+      inRealLife: "The company brought back its popular loyalty program after customer satisfaction scores dropped.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-passive-voice-phrases-bring-back.png',
     },
     {

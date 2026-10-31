@@ -2,10 +2,10 @@ import { Lesson } from '@/types/lesson';
 
 export const politicalCommunicationInOrganisations: Lesson = {
   slug: 'political-communication-in-organisations',
-  title: 'Political Communication in Organisations',
+  title: 'Political Communication in Organizations',
   subtitle: 'How to navigate internal politics, build coalitions, and get things done without formal authority',
   level: 'C1-C2',
-  description: 'Every large organisation has politics. The people who get things done are not always the ones with the highest title — they are the ones who understand who has real power, who to bring on side early, and how to manage resistance before it becomes a problem. This lesson teaches you the language of organisational influence: how to map stakeholders, build coalitions, and communicate in a way that moves things forward.',
+  description: 'Every large organization has politics. The people who get things done are not always the ones with the highest title — they are the ones who understand who has real power, who to bring on side early, and how to manage resistance before it becomes a problem. This lesson teaches you the language of organisational influence: how to map stakeholders, build coalitions, and communicate in a way that moves things forward.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/political-communication-in-organisations-hero.png',
 
   vocabulary: [
@@ -256,8 +256,8 @@ export const politicalCommunicationInOrganisations: Lesson = {
 
   warmUp: {
     "questions": [
-      "Have you ever had a good idea rejected by an organisation? Looking back, do you think the way you presented it played a role?",
-      "Who are the real power brokers in your organisation — the people whose support you need, regardless of their official title?",
+      "Have you ever had a good idea rejected by an organization? Looking back, do you think the way you presented it played a role?",
+      "Who are the real power brokers in your organization — the people whose support you need, regardless of their official title?",
       "When you face resistance to a plan, what is your first reaction? Do you argue your case harder, or do you try to understand where the resistance comes from?"
     ]
   },
@@ -269,7 +269,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
         "sentence": "Before any big presentation, do a _____ — know who has power, who might block you, and who you need on your side.",
         "options": ["stakeholder map", "coalition plan", "power audit"],
         "correctIndex": 0,
-        "explanation": "A 'stakeholder map' is the standard tool for analysing who is affected by a decision and how much influence they have. A 'coalition plan' is not a fixed term. 'Power audit' is informal and not standard. In strategic communication and project management, you always start with a stakeholder map."
+        "explanation": "A 'stakeholder map' is the standard tool for analyzing who is affected by a decision and how much influence they have. A 'coalition plan' is not a fixed term. 'Power audit' is informal and not standard. In strategic communication and project management, you always start with a stakeholder map."
       },
       {
         "sentence": "Build your _____ before the meeting. By the time you present, the key people in the room should already support you.",
@@ -281,7 +281,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
         "sentence": "Her _____ came from fear — she was worried the new system would make her team's work harder.",
         "options": ["resistance", "opposition", "objection"],
         "correctIndex": 0,
-        "explanation": "'Resistance' is the specific word for ongoing, often unspoken opposition to change in organisations. 'Opposition' is more formal and political. 'Objection' is a specific point raised in a meeting. When someone consistently pushes back on a change — not just once — that is resistance."
+        "explanation": "'Resistance' is the specific word for ongoing, often unspoken opposition to change in organizations. 'Opposition' is more formal and political. 'Objection' is a specific point raised in a meeting. When someone consistently pushes back on a change — not just once — that is resistance."
       },
       {
         "sentence": "Every major project needs a _____ — a senior person who will defend it when you are not in the room.",

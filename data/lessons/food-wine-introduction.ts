@@ -95,7 +95,7 @@ export const foodWineIntroduction: Lesson = {
   phrasalVerbs: [
     { phrase: 'Cheers!', tag: 'phrase', definition: 'A word we say before we drink together.', example: 'We say "Cheers!" and drink.', imageSlug: img('adult-friends-wine-toast') },
     { phrase: 'It smells good.', tag: 'phrase', definition: 'Use this to say you like the smell.', example: '"Mmm, the wine — it smells good."', imageSlug: img('enjoying-wine-aroma') },
-    { phrase: 'I can taste…', tag: 'phrase', definition: 'Use this to say what flavour you notice.', example: '"I can taste apples in this wine."', imageSlug: img('apple-notes-in-wine') },
+    { phrase: 'I can taste…', tag: 'phrase', definition: 'Use this to say what flavor you notice.', example: '"I can taste apples in this wine."', imageSlug: img('apple-notes-in-wine') },
     { phrase: 'It tastes bitter.', tag: 'phrase', definition: 'The taste is strong and sharp, not nice for some people.', example: '"This wine? It tastes bitter."', imageSlug: img('slightly-bitter-wine-reaction') },
     { phrase: 'I prefer red / white.', tag: 'phrase', definition: 'Say which wine you like more.', example: '"I prefer white wine in summer."', imageSlug: img('white-wine-summer-preference') },
     { phrase: 'Would you like a glass of wine?', tag: 'phrase', definition: 'A polite way to offer wine.', example: '"Would you like a glass of wine?" → "Yes, please. Red, please."', inAction: 'We say "a glass of wine" and "a bottle of wine", not "a wine glass of wine".', imageSlug: img('offering-red-wine-accepted') },
@@ -137,7 +137,7 @@ export const foodWineIntroduction: Lesson = {
   multipleChoiceExercise: [
     { question: 'What is wine made from?', options: ['Apples', 'Grapes', 'Rice', 'Milk'], correctIndex: 1 },
     { question: 'What does "dry" mean for wine?', options: ['Not sweet', 'No water', 'Very cold', 'Old'], correctIndex: 0 },
-    { question: 'What colour is rosé?', options: ['Red', 'White', 'Pink', 'Green'], correctIndex: 2 },
+    { question: 'What color is rosé?', options: ['Red', 'White', 'Pink', 'Green'], correctIndex: 2 },
     { question: 'What do we say before we drink together?', options: ['Goodbye!', 'Cheers!', 'Sorry!', 'Hello!'], correctIndex: 1 },
     { question: 'In the dialogue, which wine does Tim choose?', options: ['White', 'Rosé', 'Red', 'Sparkling'], correctIndex: 2 },
     { question: 'What can Tim taste in the wine?', options: ['Apples', 'Lemons', 'Cherries', 'Chocolate'], correctIndex: 2 },

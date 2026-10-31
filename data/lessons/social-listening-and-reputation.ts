@@ -121,7 +121,7 @@ export const socialListeningAndReputation: Lesson = {
       visualExamples: [
         { brand: 'Luma Health', context: 'Telehealth brand — monitoring alert report', imageSlug: '/images/visual-examples/slr-p4-luma.png', caption: 'The alert was triggered by a 400% spike in mentions containing data and privacy — turned out to be a false alarm from a viral meme, but the monitoring caught it in real time.', aspectRatio: '16/9' },
         { brand: 'Morrow', context: 'Luxury skincare — social monitoring alert', imageSlug: '/images/visual-examples/slr-p4-morrow.png', caption: 'The alert was triggered by a coordinated negative campaign from a competitor affiliate network — 60 accounts posting the same talking points in a three-hour window. Pattern recognition caught it.', aspectRatio: '4/3' },
-        { brand: 'Orbit', context: 'Furniture brand — crisis response document', imageSlug: '/images/visual-examples/slr-p4-orbit.png', caption: 'The alert was triggered by a news article tagging our supply chain in a labour practices story — the keyword monitoring picked it up before any of our social media team had seen it.', aspectRatio: '1.91/1' },
+        { brand: 'Orbit', context: 'Furniture brand — crisis response document', imageSlug: '/images/visual-examples/slr-p4-orbit.png', caption: 'The alert was triggered by a news article tagging our supply chain in a labor practices story — the keyword monitoring picked it up before any of our social media team had seen it.', aspectRatio: '1.91/1' },
       ],
     },
     {
@@ -227,13 +227,13 @@ export const socialListeningAndReputation: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Positive earned media is up. The Marketing Week article drove 2,400 referral visits and 18 MQLs — all from a publication we didn't pay. That's the value of a strong editorial reputation. It's why the thought leadership content programme matters as much as the paid campaigns.",
+      text: "Positive earned media is up. The Marketing Week article drove 2,400 referral visits and 18 MQLs — all from a publication we didn't pay. That's the value of a strong editorial reputation. It's why the thought leadership content program matters as much as the paid campaigns.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "The brand health score is trending down, but it's recoverable. Trust is the issue — and trust is rebuilt through consistent, honest communication over time. The reputation management plan helps prevent it from getting worse. The thought leadership programme is what will rebuild it.",
+      text: "The brand health score is trending down, but it's recoverable. Trust is the issue — and trust is rebuilt through consistent, honest communication over time. The reputation management plan helps prevent it from getting worse. The thought leadership program is what will rebuild it.",
     },
     {
       speaker: 'Marcus',
@@ -245,7 +245,7 @@ export const socialListeningAndReputation: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Agreed. We're running a [[crisis communications:the structured approach to managing public communications during a reputational event]] simulation next week — I want every member of the team to practise the response process before the next real incident. The time to prepare is not during the crisis.",
+      text: "Agreed. We're running a [[crisis communications:the structured approach to managing public communications during a reputational event]] simulation next week — I want every member of the team to practice the response process before the next real incident. The time to prepare is not during the crisis.",
     }
   ],
 
@@ -348,7 +348,7 @@ export const socialListeningAndReputation: Lesson = {
         "options": [
             "Increasing paid media investment to improve brand visibility and awareness",
             "Responding to every negative mention within 30 minutes across all channels",
-            "The thought leadership content programme — consistent, honest communication builds trust over time"
+            "The thought leadership content program — consistent, honest communication builds trust over time"
         ],
         "correctIndex": 2
     }
@@ -357,7 +357,7 @@ export const socialListeningAndReputation: Lesson = {
     "questions": [
         "Have you ever seen a brand handle a public complaint or crisis badly on social media? What did they do wrong — and what did it do to your perception of the brand?",
         "Have you ever written a negative review about a company online? Did the company respond? If yes, did the response change how you felt about them?",
-        "If your company suddenly got a lot of attention online — positive or negative — who in your organisation should respond, and how quickly? Is there currently a plan for that?"
+        "If your company suddenly got a lot of attention online — positive or negative — who in your organization should respond, and how quickly? Is there currently a plan for that?"
     ]
 },
   completeSentenceExercise: {
@@ -386,12 +386,12 @@ export const socialListeningAndReputation: Lesson = {
         {
             "sentence": "The reputation management plan needs _____ before the next crisis happens — not during it.",
             "options": [
-                "to be finalised",
+                "to be finalized",
                 "finalising",
                 "finalised"
             ],
             "correctIndex": 0,
-            "explanation": "'To be finalised' is the correct passive infinitive — 'needs to be finalised' means 'requires someone to finalise it'. When a thing (the plan) needs to receive an action (being finalised by someone), use 'need + to be + past participle'. Compare: 'the plan needs to be finalised' (passive — someone must finalise it) vs. 'we need to finalise the plan' (active — we are the ones doing it). 'Needs finalising' is also grammatically correct in British English (the -ing form after 'need' can express passive meaning) but 'needs to be finalised' is clearer and more formal."
+            "explanation": "'To be finalized' is the correct passive infinitive — 'needs to be finalized' means 'requires someone to finalize it'. When a thing (the plan) needs to receive an action (being finalized by someone), use 'need + to be + past participle'. Compare: 'the plan needs to be finalized' (passive — someone must finalize it) vs. 'we need to finalize the plan' (active — we are the ones doing it). 'Needs finalizing' is also grammatically correct in British English (the -ing form after 'need' can express passive meaning) but 'needs to be finalized' is clearer and more formal."
         },
         {
             "sentence": "A slow or dishonest response _____ makes reputational crises significantly worse.",
@@ -437,7 +437,7 @@ export const socialListeningAndReputation: Lesson = {
                     "We should contact the competitor directly and ask them to retract the claim before we respond publicly."
                 ],
                 "correctIndex": 0,
-                "explanation": "Option A is the right answer — it prioritises both speed and accuracy, explains what the response should contain (acknowledge, clarify, provide a path for further questions), and gives a realistic assessment of the time trade-off. This is how professional crisis communications works. Option B prioritises speed over accuracy — a premature denial that turns out to be wrong would be catastrophically damaging. Option C is a reasonable background action but not a substitute for a public response — the story is spreading regardless of what the competitor does privately."
+                "explanation": "Option A is the right answer — it prioritizes both speed and accuracy, explains what the response should contain (acknowledge, clarify, provide a path for further questions), and gives a realistic assessment of the time trade-off. This is how professional crisis communications works. Option B prioritizes speed over accuracy — a premature denial that turns out to be wrong would be catastrophically damaging. Option C is a reasonable background action but not a substitute for a public response — the story is spreading regardless of what the competitor does privately."
             },
             {
                 "customerLine": "Our brand health score has been declining for three months. What's actually causing it, and what do we do?",
@@ -482,7 +482,7 @@ export const socialListeningAndReputation: Lesson = {
             },
             {
                 "speaker": "Dana",
-                "text": "A crisis communications plan that is clear, practised and kept up to date is one of the most valuable assets a communications team can has."
+                "text": "A crisis communications plan that is clear, practiced and kept up to date is one of the most valuable assets a communications team can has."
             },
             {
                 "speaker": "Marcus",
@@ -521,7 +521,7 @@ export const socialListeningAndReputation: Lesson = {
             {
                 "customerLine": "A customer posted a very negative review on G2 and it's affecting our rating. How do we handle it?",
                 "salespersonStart": "Never ignore a negative review — even on a platform you don't control. The response is visible to every future prospect who reads the review. The right approach is...",
-                "suggestedCompletion": "respond publicly and promptly — acknowledge the specific problem they raised, apologise for the experience without being defensive, and offer to resolve it directly: 'We'd like to understand this better and make it right — please reach out to us at [contact]. Our team will prioritise your case.' That response does three things: it shows future readers you take feedback seriously, it gives the unhappy customer a path to resolution, and it demonstrates accountability. What you don't do: argue, make excuses, or ask them to remove the review publicly."
+                "suggestedCompletion": "respond publicly and promptly — acknowledge the specific problem they raised, apologize for the experience without being defensive, and offer to resolve it directly: 'We'd like to understand this better and make it right — please reach out to us at [contact]. Our team will prioritize your case.' That response does three things: it shows future readers you take feedback seriously, it gives the unhappy customer a path to resolution, and it demonstrates accountability. What you don't do: argue, make excuses, or ask them to remove the review publicly."
             },
             {
                 "customerLine": "Our share of voice is 18% versus a competitor at 34%. Is that a problem, and how do we close the gap?",

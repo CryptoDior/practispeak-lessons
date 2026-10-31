@@ -22,7 +22,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
       { sentence: '"He lost because he played carelessly."', note: 'because = reason — why did it happen?' },
       { sentence: '"Although she was new, she won the match."', note: 'although = contrast — surprising result' },
       { sentence: '"The server crashed. As a result, everyone lost progress."', note: 'as a result = consequence — what happened next' },
-      { sentence: '"He wants to win. However, he never practises."', note: 'however = contrast — unexpected opposite' },
+      { sentence: '"He wants to win. However, he never practices."', note: 'however = contrast — unexpected opposite' },
     ],
     negativeExamples: [
       { sentence: '"Because he played badly, therefore he lost." ✗', note: 'pick one — either because OR therefore, not both' },
@@ -43,7 +43,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
       word: 'ALTHOUGH',
       partOfSpeech: 'conjunction',
       definition: "Introduces a fact that is true but does not change the main idea.",
-      example: "Although we practised every evening, the opposing team was simply too experienced for us.",
+      example: "Although we practiced every evening, the opposing team was simply too experienced for us.",
       imageSlug: '/images/roblox-conjunctions-linking-words-although.png',
     },
     {
@@ -64,7 +64,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
       word: 'SO THAT',
       partOfSpeech: 'conjunction',
       definition: "Introduces the purpose of an action — explains why something is done.",
-      example: "We practise our rotations so that everyone knows exactly what to do without being told.",
+      example: "We practice our rotations so that everyone knows exactly what to do without being told.",
       imageSlug: '/images/roblox-conjunctions-linking-words-so-that.png',
     },
     {
@@ -231,13 +231,13 @@ export const robloxConjunctionsLinkingWords: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "We should also practise transitions [[so that:introduces the purpose — explains why something is done]] everyone knows exactly when to push and when to hold without needing to be told.",
+      text: "We should also practice transitions [[so that:introduces the purpose — explains why something is done]] everyone knows exactly when to push and when to hold without needing to be told.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "[[Even though:emphasises a surprising contrast]] we lost, I think we showed we can compete at that level — the first phase was nearly perfect.",
+      text: "[[Even though:emphasizes a surprising contrast]] we lost, I think we showed we can compete at that level — the first phase was nearly perfect.",
     },
     {
       speaker: 'Mario',
@@ -284,13 +284,13 @@ export const robloxConjunctionsLinkingWords: Lesson = {
         sentence: "_____ we were two players down, we refused to give up and came very close to winning.",
         options: ["Even though", "Therefore", "As a result"],
         correctIndex: 0,
-        explanation: "EVEN THOUGH introduces a surprising contrast — it emphasises that the result was unexpected given the circumstances. THEREFORE introduces a result. AS A RESULT introduces a consequence.",
+        explanation: "EVEN THOUGH introduces a surprising contrast — it emphasizes that the result was unexpected given the circumstances. THEREFORE introduces a result. AS A RESULT introduces a consequence.",
       },
       {
-        sentence: "We practise our rotations _____ everyone knows exactly what to do without being told.",
+        sentence: "We practice our rotations _____ everyone knows exactly what to do without being told.",
         options: ["although", "so that", "however"],
         correctIndex: 1,
-        explanation: "SO THAT introduces the purpose of an action — it explains why something is done. ALTHOUGH introduces a contrast. HOWEVER introduces an opposing idea. Explaining the goal of practising = so that.",
+        explanation: "SO THAT introduces the purpose of an action — it explains why something is done. ALTHOUGH introduces a contrast. HOWEVER introduces an opposing idea. Explaining the goal of practicing = so that.",
       },
       {
         sentence: "Our build was not designed for long battles. _____, we need to end every fight as quickly as possible.",
@@ -313,7 +313,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
     { word: 'HOWEVER', definition: 'Introduces a contrasting point — the next idea opposes what was said' },
     { word: 'THEREFORE', definition: 'Introduces a logical result or conclusion' },
     { word: 'SO THAT', definition: 'Introduces the purpose of an action — explains why it is done' },
-    { word: 'EVEN THOUGH', definition: 'A stronger contrast — emphasises a surprising or unexpected result' },
+    { word: 'EVEN THOUGH', definition: 'A stronger contrast — emphasizes a surprising or unexpected result' },
     { word: 'AS A RESULT', definition: 'Introduces the consequence or outcome of something' },
     { word: 'ON THE OTHER HAND', definition: 'Introduces an opposing or different perspective' },
   ],
@@ -334,7 +334,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
       question: "What is the key difference between ALTHOUGH and EVEN THOUGH?",
       options: [
         "They are completely identical and fully interchangeable at all times.",
-        "EVEN THOUGH emphasises that the contrast is more surprising or stronger.",
+        "EVEN THOUGH emphasizes that the contrast is more surprising or stronger.",
         "ALTHOUGH is for past events only; EVEN THOUGH is for present events.",
         "ALTHOUGH always goes at the end of the sentence; EVEN THOUGH goes at the start.",
       ],
@@ -373,8 +373,8 @@ export const robloxConjunctionsLinkingWords: Lesson = {
     {
       question: "Which sentence uses SO THAT correctly?",
       options: [
-        "We lost the match so that we did not practise enough.",
-        "She practised every day so that she could compete at the highest level.",
+        "We lost the match so that we did not practice enough.",
+        "She practiced every day so that she could compete at the highest level.",
         "The game was updated so that the patch was applied.",
         "He logged off so that he was tired.",
       ],

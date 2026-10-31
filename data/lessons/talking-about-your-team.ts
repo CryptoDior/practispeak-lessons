@@ -19,7 +19,7 @@ export const talkingAboutYourTeam: Lesson = {
     {
       word: 'SUPPORTER',
       partOfSpeech: 'noun',
-      definition: 'A fan who follows and cheers for a team.',
+      definition: 'A fan who follows and cheers for a team. (US: fan)',
       example: 'Thousands of supporters travelled to the away match.',
       imageSlug: '/images/talking-about-your-team-supporter.png',
     },

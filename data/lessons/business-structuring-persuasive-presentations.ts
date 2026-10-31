@@ -22,7 +22,7 @@ export const businessStructuringPersuasivePresentations: Lesson = {
 
   vocabulary: [
     { word: 'PERSUASIVE', partOfSpeech: 'adjective', definition: 'Able to make people believe or do something through reasoning or emotion.', example: 'Her persuasive pitch convinced the investors.', imageSlug: img('persuasive') },
-    { word: 'STRUCTURE', partOfSpeech: 'noun / verb', definition: 'The way the parts of something are organised.', example: 'The talk had a simple three-part structure.', imageSlug: img('structure') },
+    { word: 'STRUCTURE', partOfSpeech: 'noun / verb', definition: 'The way the parts of something are organized.', example: 'The talk had a simple three-part structure.', imageSlug: img('structure') },
     { word: 'SIGNPOSTING', partOfSpeech: 'noun', definition: 'Words that guide listeners through a presentation.', example: 'Effective signposting tells the audience what\'s coming next.', imageSlug: img('signposting') },
     { word: 'TRANSITION', partOfSpeech: 'noun', definition: 'A link between two ideas or sections.', example: 'The transition between topics was seamless.', imageSlug: img('transition') },
     { word: 'HOOK', partOfSpeech: 'noun', definition: 'An attention-grabbing opening.', example: 'A surprising statistic makes a great hook.', imageSlug: img('hook') },
@@ -44,7 +44,7 @@ export const businessStructuringPersuasivePresentations: Lesson = {
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Kira, can I run my board presentation past you? I'm worried it's not [[persuasive:able to convince people]] enough." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Sure. How do you open?" },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "\"Good morning. Today I'll talk about our customer data.\"" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's a bit flat. Start with a [[hook:attention-grabbing opening]]. For example: \"We lose one customer every eleven minutes.\" Then outline your [[structure:organisation of parts]]." },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's a bit flat. Start with a [[hook:attention-grabbing opening]]. For example: \"We lose one customer every eleven minutes.\" Then outline your [[structure:organization of parts]]." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "So: \"Let me begin by outlining three points: the problem, the cause and the solution.\"" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Exactly. And use [[signposting:words that guide listeners]] between sections — \"This brings me to my next point.\" Clear [[transition:links between ideas]]s keep the board with you." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "And the ending? I usually just say \"Any questions?\"" },
@@ -56,7 +56,7 @@ export const businessStructuringPersuasivePresentations: Lesson = {
     { word: 'SIGNPOSTING', definition: 'Words that guide listeners' },
     { word: 'TRANSITION', definition: 'A link between ideas' },
     { word: 'CALL TO ACTION', definition: 'Telling the audience what to do next' },
-    { word: 'STRUCTURE', definition: 'How the parts are organised' },
+    { word: 'STRUCTURE', definition: 'How the parts are organized' },
     { word: 'PERSUASIVE', definition: 'Able to convince people' },
   ],
 

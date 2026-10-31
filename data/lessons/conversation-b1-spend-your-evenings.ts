@@ -11,7 +11,7 @@ export const conversationB1SpendYourEvenings: Lesson = {
   subtitle: 'Everyday Conversation · B1-B2 · Lesson 3',
   level: 'B1-B2',
   description:
-    'Learn how to talk about your evening routine: unwinding after work, catching up on shows, cooking, socialising and switching off screens.',
+    'Learn how to talk about your evening routine: unwinding after work, catching up on shows, cooking, socializing and switching off screens.',
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
@@ -32,7 +32,7 @@ export const conversationB1SpendYourEvenings: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'WIND DOWN', definition: 'To slowly relax before sleeping.', example: 'I wind down by reading a book.', imageSlug: img('wind-down-reading') },
-    { phrase: 'CATCH UP ON', definition: 'To watch, read or do something you missed.', example: 'I catch up on my favourite shows at night.', imageSlug: img('catch-up-shows') },
+    { phrase: 'CATCH UP ON', definition: 'To watch, read or do something you missed.', example: 'I catch up on my favorite shows at night.', imageSlug: img('catch-up-shows') },
     { phrase: 'How do you usually spend your evenings?', tag: 'phrase', definition: 'Ask about someone\'s typical evening routine.', example: '"So, how do you usually spend your evenings?"', imageSlug: img('evening-question') },
     { phrase: 'I cook dinner and take it slow.', tag: 'phrase', definition: 'You make food and avoid rushing.', example: '"I cook dinner and take it slow. No rushing at night."', imageSlug: img('cook-slowly') },
     { phrase: 'I go for a walk in the evenings.', tag: 'phrase', definition: 'A walk is part of your routine.', example: '"I go for a walk in the evenings to clear my head."', imageSlug: img('evening-walk') },
@@ -61,7 +61,7 @@ export const conversationB1SpendYourEvenings: Lesson = {
       { speaker: 'Student', text: "I {{usually}} cook dinner and {{take it slow}}." },
       { speaker: 'Teacher', text: "How do you relax after work?" },
       { speaker: 'Student', text: "I {{unwind/wind down}} with a book or a walk. How do you usually spend your evenings?" },
-      { speaker: 'Teacher', text: "I {{usually}} {{go for a walk/cook dinner}}, and I {{catch up on}} my favourite shows. Do you use your phone a lot at night?" },
+      { speaker: 'Teacher', text: "I {{usually}} {{go for a walk/cook dinner}}, and I {{catch up on}} my favorite shows. Do you use your phone a lot at night?" },
       { speaker: 'Student', text: "No, I try to {{avoid screens at night}}. I {{disconnect}} after 9 p.m." },
       { speaker: 'Teacher', text: "Do you see friends in the evening?" },
       { speaker: 'Student', text: "I {{occasionally}} meet friends. I like to {{socialize}} on Fridays." },
@@ -84,7 +84,7 @@ export const conversationB1SpendYourEvenings: Lesson = {
   fillBlankExercise: [
     { before: 'How do you usually', after: 'your evenings?', answer: 'spend' },
     { before: 'I wind', after: 'by reading a book.', answer: 'down' },
-    { before: 'I catch up', after: 'my favourite shows.', answer: 'on' },
+    { before: 'I catch up', after: 'my favorite shows.', answer: 'on' },
     { before: 'I try to avoid', after: 'at night.', answer: 'screens' },
     { before: 'I', after: 'meet friends, maybe once a month.', answer: 'occasionally' },
     { before: 'I cook dinner and take it', after: '.', answer: 'slow' },

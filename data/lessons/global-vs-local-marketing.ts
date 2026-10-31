@@ -5,15 +5,15 @@ export const globalVsLocalMarketing: Lesson = {
   title: 'Global vs Local Marketing',
   subtitle: 'How to adapt campaigns across cultures and markets without losing brand consistency',
   level: 'B1-B2',
-  description: "When a company sells products in multiple countries, marketing cannot be identical everywhere. Language, culture, humour, values, and buying habits all vary. The best global brands understand this — they have a consistent core identity but adapt how they communicate to fit each local market. This lesson teaches you the vocabulary and principles behind global and local marketing strategy.",
+  description: "When a company sells products in multiple countries, marketing cannot be identical everywhere. Language, culture, humor, values, and buying habits all vary. The best global brands understand this — they have a consistent core identity but adapt how they communicate to fit each local market. This lesson teaches you the vocabulary and principles behind global and local marketing strategy.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-vs-local-marketing-hero.png',
 
   vocabulary: [
     {
-      word: 'LOCALISATION',
+      word: 'LOCALIZATION',
       partOfSpeech: 'noun',
       definition: 'Adapting a campaign or product so it suits a specific local market.',
-      example: 'The UK ad worked well, but Brazil needs full localisation.',
+      example: 'The UK ad worked well, but Brazil needs full localization.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-vs-local-marketing-localisation.png',
     },
     {
@@ -62,7 +62,7 @@ export const globalVsLocalMarketing: Lesson = {
       word: 'BRAND CONSISTENCY',
       partOfSpeech: 'noun',
       definition: 'Keeping a brand\'s identity, values and look the same everywhere.',
-      example: 'Brand consistency means the logo and colours never change in any country.',
+      example: 'Brand consistency means the logo and colors never change in any country.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-vs-local-marketing-brand-consistency.png',
     },
   ],
@@ -179,7 +179,7 @@ export const globalVsLocalMarketing: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Brazil is our most significant [[localisation:the process of adapting campaigns for a specific local market]] challenge — and our biggest opportunity. The culture is warm, social, and community-focused. We need local talent in the imagery, Brazilian Portuguese copy with local idiom, and we should lead with social and influencer channels rather than digital display.",
+      text: "Brazil is our most significant [[localization:the process of adapting campaigns for a specific local market]] challenge — and our biggest opportunity. The culture is warm, social, and community-focused. We need local talent in the imagery, Brazilian Portuguese copy with local idiom, and we should lead with social and influencer channels rather than digital display.",
     },
     {
       speaker: 'Marcus',
@@ -197,7 +197,7 @@ export const globalVsLocalMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Good. So our [[global campaign:a campaign that runs across multiple countries with a consistent core message]] has one brief, one set of master assets, and four separate localisation projects — each led by the in-market team within our global brand guidelines.",
+      text: "Good. So our [[global campaign:a campaign that runs across multiple countries with a consistent core message]] has one brief, one set of master assets, and four separate localization projects — each led by the in-market team within our global brand guidelines.",
     },
     {
       speaker: 'Riley',
@@ -223,14 +223,14 @@ export const globalVsLocalMarketing: Lesson = {
     { before: 'A direct translation of the headline will not work — the pun does not', after: 'well into German.', answer: 'translate' },
     { before: 'Before we run this in Japan, we need to check the cultural', after: 'of the tone and imagery.', answer: 'fit' },
     { before: 'The local team will handle the', after: '— they know the market better than we do from headquarters.', answer: 'adaptation' },
-    { before: 'Logo, colour palette, and brand values are non-negotiable — brand', answer: 'consistency', after: 'must be maintained in every market.' },
+    { before: 'Logo, color palette, and brand values are non-negotiable — brand', answer: 'consistency', after: 'must be maintained in every market.' },
     { before: 'Our strategy is', after: '— global brand identity, local execution.', answer: 'glocal' },
   ],
 
   multipleChoiceExercise: [
     {
-      question: 'What is the difference between localisation and translation?',
-      options: ['They are the same thing — both mean converting content to another language', 'Translation is converting words; localisation goes further and adapts culture, imagery, tone, and context for the market', 'Localisation is only about visuals; translation is only about words'],
+      question: 'What is the difference between localization and translation?',
+      options: ['They are the same thing — both mean converting content to another language', 'Translation is converting words; localization goes further and adapts culture, imagery, tone, and context for the market', 'Localization is only about visuals; translation is only about words'],
       correctIndex: 1,
     },
     {
@@ -245,7 +245,7 @@ export const globalVsLocalMarketing: Lesson = {
     },
     {
       question: "In the dialogue, what is Riley's key observation about the campaign's tone for Japan?",
-      options: ["The campaign is too quiet and understated — Japan prefers bold, direct messaging", "The campaign's confident, direct tone reads as boastful in Japan, where modesty and group harmony are cultural values", "The imagery is not colourful enough for the Japanese market"],
+      options: ["The campaign is too quiet and understated — Japan prefers bold, direct messaging", "The campaign's confident, direct tone reads as boastful in Japan, where modesty and group harmony are cultural values", "The imagery is not colorful enough for the Japanese market"],
       correctIndex: 1,
     },
   ],
@@ -295,7 +295,7 @@ export const globalVsLocalMarketing: Lesson = {
         sentence: 'The _____ team will handle the adaptation — they know the local audience best.',
         options: ['local', 'global', 'central'],
         correctIndex: 0,
-        explanation: "'Local team' — the in-market or in-country team who understand the local culture, language, regulations, and audience. In global marketing best practice, localisation is handled by people who are from, or deeply embedded in, the local market — not by the global headquarters. 'Global team' typically creates the master campaign and brand guidelines. 'Central team' is sometimes used as a synonym for 'global team' — but in this context, the sentence is about who handles the adaptation, which is the local team.",
+        explanation: "'Local team' — the in-market or in-country team who understand the local culture, language, regulations, and audience. In global marketing best practice, localization is handled by people who are from, or deeply embedded in, the local market — not by the global headquarters. 'Global team' typically creates the master campaign and brand guidelines. 'Central team' is sometimes used as a synonym for 'global team' — but in this context, the sentence is about who handles the adaptation, which is the local team.",
       },
     ],
   },
@@ -325,21 +325,21 @@ export const globalVsLocalMarketing: Lesson = {
           explanation: "Option B is correct. Copy and tone are in the 'flexible' column of a glocal strategy — they should be adapted for cultural fit. The brand ambition (being the best) remains the same; the way it is expressed changes. The Japanese team, as local experts, are best placed to propose an equivalent that works culturally. Option A incorrectly treats tone and copy as non-negotiable. Option C removes a key brand asset unnecessarily — a cultural adaptation is better than a deletion.",
         },
         {
-          customerLine: "Your team in Brazil says they want to use a completely different colour palette for the campaign because Brazilian audiences prefer brighter colours. Should you approve this?",
+          customerLine: "Your team in Brazil says they want to use a completely different color palette for the campaign because Brazilian audiences prefer brighter colors. Should you approve this?",
           options: [
             "Yes — local teams know their audience best and should have full creative freedom.",
-            "No — the colour palette is part of brand consistency and is non-negotiable. Explore other ways to add energy and warmth to the campaign that work within the brand guidelines.",
+            "No — the color palette is part of brand consistency and is non-negotiable. Explore other ways to add energy and warmth to the campaign that work within the brand guidelines.",
             "Yes, but only for social media posts — keep the brand palette for everything else.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct. The colour palette is a core brand identity element — it is in the 'fixed' column of a glocal strategy. Changing it would undermine brand consistency and could make the Brazilian campaign look like a different brand entirely. The right response is to work within the brand guidelines while finding ways to express energy and warmth through copy, imagery, and tone. Option A gives too much freedom. Option C creates inconsistency within a single market, which is also problematic.",
+          explanation: "Option B is correct. The color palette is a core brand identity element — it is in the 'fixed' column of a glocal strategy. Changing it would undermine brand consistency and could make the Brazilian campaign look like a different brand entirely. The right response is to work within the brand guidelines while finding ways to express energy and warmth through copy, imagery, and tone. Option A gives too much freedom. Option C creates inconsistency within a single market, which is also problematic.",
         },
       ],
     },
     spotTheMistake: {
       instructions: 'Read the global marketing team discussion. Three lines have a mistake. Can you find them?',
       dialogue: [
-        { speaker: 'Marcus', text: "We are expanding into four new markets. What is our localisation strategy?" },
+        { speaker: 'Marcus', text: "We are expanding into four new markets. What is our localization strategy?" },
         { speaker: 'Riley', text: "We are taking a glocal approach — the core brand stays the same, but execution adapts for each local market." },
         { speaker: 'Marcus', text: "Good. The Japanese team says the tone does not fit cultural. What do we do?" },
         { speaker: 'Riley', text: "We ask the local team to adapt the copy — they will propose something that works for the Japanese audience." },
@@ -373,19 +373,19 @@ export const globalVsLocalMarketing: Lesson = {
       instructions: 'The marketer starts a sentence. Work with your partner to finish it naturally.',
       items: [
         {
-          customerLine: "Explain the difference between localisation and translation to a new team member.",
+          customerLine: "Explain the difference between localization and translation to a new team member.",
           salespersonStart: "Translation is just about changing the words from one language to another —",
-          suggestedCompletion: "but localisation is much bigger than that. It means adapting the entire campaign for a specific market — including the imagery, the tone, the cultural references, the choice of channels, and sometimes even the core message. A direct translation can be grammatically perfect but culturally wrong. For example, a joke that works in English might not exist in another language, or imagery that is normal in one country might be inappropriate in another. Localisation is about making the campaign feel like it was made for that market — not just copied and translated.",
+          suggestedCompletion: "but localization is much bigger than that. It means adapting the entire campaign for a specific market — including the imagery, the tone, the cultural references, the choice of channels, and sometimes even the core message. A direct translation can be grammatically perfect but culturally wrong. For example, a joke that works in English might not exist in another language, or imagery that is normal in one country might be inappropriate in another. Localization is about making the campaign feel like it was made for that market — not just copied and translated.",
         },
         {
           customerLine: "The MD asks: 'Why can't we just run the same campaign everywhere? It worked in the UK.'",
           salespersonStart: "The UK campaign was built for a specific cultural context —",
-          suggestedCompletion: "the humour, the tone, and the references all assume a British audience. What feels natural and engaging in the UK can feel foreign, awkward, or even offensive in a different cultural context. Each market has different values, communication styles, and buying triggers. A glocal approach gives us the best of both worlds — we keep the core brand identity and message consistent globally, which gives us efficiency and recognition, while adapting the execution for each local market so it actually connects with local audiences.",
+          suggestedCompletion: "the humor, the tone, and the references all assume a British audience. What feels natural and engaging in the UK can feel foreign, awkward, or even offensive in a different cultural context. Each market has different values, communication styles, and buying triggers. A glocal approach gives us the best of both worlds — we keep the core brand identity and message consistent globally, which gives us efficiency and recognition, while adapting the execution for each local market so it actually connects with local audiences.",
         },
         {
           customerLine: "What are the non-negotiable global brand elements that cannot be changed for any market?",
-          salespersonStart: "The non-negotiable elements are the ones that make us recognisable as a single global brand —",
-          suggestedCompletion: "the logo, the colour palette, the typography, the brand tone of voice at its core, and the fundamental brand promise. These stay the same in every market, in every campaign, in every channel. What can be flexed is how we express that promise — the specific copy, the imagery, the cultural references, the choice of channels, and the tone within the overall brand voice. Think of it as: the what never changes; the how adapts for each market.",
+          salespersonStart: "The non-negotiable elements are the ones that make us recognizable as a single global brand —",
+          suggestedCompletion: "the logo, the color palette, the typography, the brand tone of voice at its core, and the fundamental brand promise. These stay the same in every market, in every campaign, in every channel. What can be flexed is how we express that promise — the specific copy, the imagery, the cultural references, the choice of channels, and the tone within the overall brand voice. Think of it as: the what never changes; the how adapts for each market.",
         },
       ],
     },

@@ -502,7 +502,7 @@ export const socialMediaBasics: Lesson = {
                 "lineIndex": 5,
                 "incorrectText": "it shows you listen",
                 "correction": "it shows you are listening",
-                "explanation": "The correct phrase is 'it shows you are listening' — this uses the present continuous to describe an active, ongoing behaviour. 'You listen' (simple present) sounds too general and less natural in this context."
+                "explanation": "The correct phrase is 'it shows you are listening' — this uses the present continuous to describe an active, ongoing behavior. 'You listen' (simple present) sounds too general and less natural in this context."
             }
         ]
     },

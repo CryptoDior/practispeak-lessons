@@ -5,7 +5,7 @@ export const internalCommunications: Lesson = {
   title: 'Internal Communications',
   subtitle: 'How to align stakeholders, cascade key messages, and write announcements that get buy-in before, during, and after a launch',
   level: 'B1-B2',
-  description: "A great product launch, a major restructure, or a new strategic direction can succeed or fail based on how well it is communicated internally. Employees who understand what is happening and why are more likely to support it. Stakeholders who are briefed early are less likely to create obstacles. A well-written internal announcement builds momentum — a poorly written one creates confusion, rumours, and resistance. This lesson gives you the language to communicate internally with clarity, confidence, and the kind of transparency that builds trust.",
+  description: "A great product launch, a major restructure, or a new strategic direction can succeed or fail based on how well it is communicated internally. Employees who understand what is happening and why are more likely to support it. Stakeholders who are briefed early are less likely to create obstacles. A well-written internal announcement builds momentum — a poorly written one creates confusion, rumors, and resistance. This lesson gives you the language to communicate internally with clarity, confidence, and the kind of transparency that builds trust.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/internal-communications-hero.png',
 
   vocabulary: [
@@ -105,7 +105,7 @@ export const internalCommunications: Lesson = {
         { brand: 'Forge', context: 'B2B HR platform — product launch comms planning', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/internal-communications-forge-cascade-managers.png', caption: 'The announcement will be cascaded to all people managers at 9am Friday, with team conversations to follow before the external press release goes live at noon.', aspectRatio: '16/9' },
         { brand: 'Velo', context: 'B2B fleet SaaS — strategy update comms plan', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/internal-communications-velo-cascade-town-hall.png', caption: 'The announcement will be cascaded to team leads first at the Monday leadership call, with a full company town hall at 3pm the same day.', aspectRatio: '4/5' },
       ],
-      inContext: "Dana had the cascade sequence mapped. The announcement will be cascaded to each level in the organisation before it becomes public, she said. Starting with the board on Friday morning, then senior leadership Friday afternoon, then all people managers Monday morning. Marcus: The external announcement is Monday afternoon. Every employee should know before a journalist does. Riley: The cascade is also the trust test. If employees find out from LinkedIn, they know we did not trust them enough to tell them first. That damage takes a long time to repair.",
+      inContext: "Dana had the cascade sequence mapped. The announcement will be cascaded to each level in the organization before it becomes public, she said. Starting with the board on Friday morning, then senior leadership Friday afternoon, then all people managers Monday morning. Marcus: The external announcement is Monday afternoon. Every employee should know before a journalist does. Riley: The cascade is also the trust test. If employees find out from LinkedIn, they know we did not trust them enough to tell them first. That damage takes a long time to repair.",
     },
     {
       phrase: 'WE ARE HOLDING A TOWN HALL TO...',
@@ -139,7 +139,7 @@ export const internalCommunications: Lesson = {
       example: 'To ensure stakeholder alignment, we should meet each team leader first.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/internal-communications-to-ensure-stakeholder-alignment.png',
       inAction: 'To ensure stakeholder alignment, we should brief the product council before the commercial team — product needs to understand the strategy before sales starts receiving client questions about it.',
-      register: "Neutral — Kova (fintech, board update): governance review reads to ensure stakeholder alignment, we should present the revised strategy to the board in a working session before the formal board meeting — so the formal meeting is a confirmation rather than a debate. | Forge (B2B HR, major feature release): product comms plan reads to ensure stakeholder alignment, we should send the feature release brief to all customer-facing teams 48 hours before go-live — customer success, sales, and support all need to be ready to respond. | Ember (subscription, restructure): comms planning reads to ensure stakeholder alignment, we should create a single source of truth document — a Q&A or FAQ — that all managers use so the story is consistent across the organisation.",
+      register: "Neutral — Kova (fintech, board update): governance review reads to ensure stakeholder alignment, we should present the revised strategy to the board in a working session before the formal board meeting — so the formal meeting is a confirmation rather than a debate. | Forge (B2B HR, major feature release): product comms plan reads to ensure stakeholder alignment, we should send the feature release brief to all customer-facing teams 48 hours before go-live — customer success, sales, and support all need to be ready to respond. | Ember (subscription, restructure): comms planning reads to ensure stakeholder alignment, we should create a single source of truth document — a Q&A or FAQ — that all managers use so the story is consistent across the organization.",
       visualExamples: [
         { brand: 'Kova', context: 'Fintech — board governance and strategy alignment', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/internal-communications-kova-alignment-board-session.png', caption: 'To ensure stakeholder alignment, we should present the revised strategy in a working session before the formal board meeting — so the meeting is a confirmation, not a debate.', aspectRatio: '16/9' },
         { brand: 'Forge', context: 'B2B HR platform — major feature release comms', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/internal-communications-forge-alignment-customer-facing.png', caption: 'To ensure stakeholder alignment, we should send the feature release brief to all customer-facing teams 48 hours before go-live — sales, CS, and support all need to be ready.', aspectRatio: '4/5' },
@@ -161,7 +161,7 @@ export const internalCommunications: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "The plan has four components. First — [[stakeholder alignment:making sure key people understand and will support a decision before it is announced]] with leadership and the board before anything goes to the wider company. Second — a structured [[cascade:the process of passing information down through the organisation level by level]]. Third — a [[town hall:a large all-company meeting where leadership shares news and takes questions]]. Fourth — a written internal [[announcement:formal written communication to employees]] that lands before the external press release.",
+      text: "The plan has four components. First — [[stakeholder alignment:making sure key people understand and will support a decision before it is announced]] with leadership and the board before anything goes to the wider company. Second — a structured [[cascade:the process of passing information down through the organization level by level]]. Third — a [[town hall:a large all-company meeting where leadership shares news and takes questions]]. Fourth — a written internal [[announcement:formal written communication to employees]] that lands before the external press release.",
     },
     {
       speaker: 'Riley',
@@ -173,7 +173,7 @@ export const internalCommunications: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "The announcement will be cascaded to the organisation in three stages. Executive team today. All people managers Monday morning, with a full [[briefing:a structured communication giving an audience the information they need]] pack and talking points. All staff via their managers Monday afternoon — before the external announcement goes live Monday evening.",
+      text: "The announcement will be cascaded to the organization in three stages. Executive team today. All people managers Monday morning, with a full [[briefing:a structured communication giving an audience the information they need]] pack and talking points. All staff via their managers Monday afternoon — before the external announcement goes live Monday evening.",
     },
     {
       speaker: 'Marcus',
@@ -241,7 +241,7 @@ export const internalCommunications: Lesson = {
     { word: 'stakeholder alignment', definition: 'making sure key people understand a decision and are prepared to support it consistently' },
     { word: 'town hall', definition: 'a large all-company meeting where leadership shares news and takes live questions' },
     { word: 'key message', definition: 'the single most important idea an audience should remember after a communication' },
-    { word: 'cascade', definition: 'passing information down through the organisation level by level in a structured sequence' },
+    { word: 'cascade', definition: 'passing information down through the organization level by level in a structured sequence' },
     { word: 'buy-in', definition: 'the active support of people whose cooperation is needed for a plan to succeed' },
     { word: 'briefing', definition: 'a structured communication giving a specific audience the information and tools they need' },
     { word: 'announcement', definition: 'a formal communication sharing important news, decisions, or changes with a group' },
@@ -282,7 +282,7 @@ export const internalCommunications: Lesson = {
 
   warmUp: {
     questions: [
-      'Think about a time when you found out about a major change at work or school from someone other than the person who should have told you — a colleague, a news article, or social media. How did it make you feel about the organisation? And how could they have handled the communication better?',
+      'Think about a time when you found out about a major change at work or school from someone other than the person who should have told you — a colleague, a news article, or social media. How did it make you feel about the organization? And how could they have handled the communication better?',
       "Have you ever had to explain a difficult decision to a team or a group of people? What was the hardest part — knowing what to say, choosing the right words, or managing people's reactions?",
       'When a company makes a big change — a new strategy, a restructure, or a brand refresh — what do you think employees most want to hear from leadership? What kinds of communication make people feel informed and respected, and what kinds make them feel managed or kept in the dark?',
     ],
@@ -310,7 +310,7 @@ export const internalCommunications: Lesson = {
         explanation: "'Well' is the adverb form needed to modify the verb phrase 'understand' — 'understand well enough'. 'Good' is an adjective — it modifies nouns: 'a good plan', 'good reasoning'. You cannot say 'understand good enough' — an adjective cannot modify a verb. 'Fully' means completely or entirely — 'understand fully' is grammatically correct and natural, but 'fully enough' is awkward. 'Well enough' is the established collocation for this meaning: 'know well enough to', 'understand well enough to', 'speak well enough to'. When the meaning is 'to a sufficient degree', 'well enough' is the standard phrase.",
       },
       {
-        sentence: 'The announcement _____ to the executive team before it reaches the wider organisation.',
+        sentence: 'The announcement _____ to the executive team before it reaches the wider organization.',
         options: ['should be cascaded', 'should cascade', 'should have cascaded'],
         correctIndex: 0,
         explanation: "'Should be cascaded' is the correct passive construction. The announcement is the thing that receives the action (being cascaded) — it is not doing the cascading itself. The passive is appropriate when we focus on the thing being communicated, not on who is doing the communicating: 'the announcement should be cascaded' means 'someone should cascade the announcement'. 'Should cascade' would mean the announcement itself is actively cascading — which is illogical. 'Should have cascaded' is the past form of advice or criticism: 'they should have cascaded it earlier' — it refers to a past situation, not a current plan.",
@@ -337,12 +337,12 @@ export const internalCommunications: Lesson = {
         {
           customerLine: "'We are announcing a restructure to the company. Can we just send one email to everyone at once?'",
           options: [
-            "Yes — it is more efficient and ensures everyone receives exactly the same message at the same time, which avoids rumours.",
+            "Yes — it is more efficient and ensures everyone receives exactly the same message at the same time, which avoids rumors.",
             "For a major restructure, sending one email to all staff simultaneously without prior cascade is high risk. The people most affected — the managers who will need to support their teams through this — will read the announcement at the same time as their teams, with no preparation, no talking points, and no answers to the questions their teams will immediately ask. The cascade exists to prevent that scenario. Managers should be briefed first, with time to prepare and ask their own questions. Then a manager-to-team conversation happens in person or by call, with the written announcement as a follow-up reference — not the primary channel. For a restructure especially, human contact before email is almost always the right approach.",
             "A single email is fine as long as you send it after 5pm, so people have time to process it before the next working day.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct — it identifies the specific failure mode of the all-at-once email approach (managers unprepared), explains the purpose of the cascade, and recommends human contact as the primary channel. Option A is the most common mistake in change communications — the logic of 'same message at the same time' prioritises consistency over support, and it leaves managers in an impossible position. Option C is an old advice that HR practitioners have largely moved away from — timing alone does not solve the absence of preparation and support.",
+          explanation: "Option B is correct — it identifies the specific failure mode of the all-at-once email approach (managers unprepared), explains the purpose of the cascade, and recommends human contact as the primary channel. Option A is the most common mistake in change communications — the logic of 'same message at the same time' prioritizes consistency over support, and it leaves managers in an impossible position. Option C is an old advice that HR practitioners have largely moved away from — timing alone does not solve the absence of preparation and support.",
         },
         {
           customerLine: "'Our town hall Q&A always feels awkward — people do not ask real questions. How do we fix it?'",
@@ -403,17 +403,17 @@ export const internalCommunications: Lesson = {
         {
           customerLine: "Write the opening paragraph of an internal announcement about a major product strategy change.",
           salespersonStart: "Today we are sharing a significant update about the direction of our product strategy —",
-          suggestedCompletion: "and we want you to hear it directly from us, before you read anything externally. Over the next 12 months, we are shifting our core product focus from [X] to [Y]. This change is the result of 18 months of customer research, commercial analysis, and honest reflection on where our biggest opportunity lies. It affects every part of this organisation in some way, and we want to be honest with you about what is changing, what is not, and why we believe this is the right direction for the business and for everyone in it.",
+          suggestedCompletion: "and we want you to hear it directly from us, before you read anything externally. Over the next 12 months, we are shifting our core product focus from [X] to [Y]. This change is the result of 18 months of customer research, commercial analysis, and honest reflection on where our biggest opportunity lies. It affects every part of this organization in some way, and we want to be honest with you about what is changing, what is not, and why we believe this is the right direction for the business and for everyone in it.",
         },
         {
           customerLine: "A manager says: 'My team is panicking after the restructure announcement. They are asking me questions I cannot answer. What do I do?'",
           salespersonStart: "The most important thing you can do right now is not have all the answers —",
-          suggestedCompletion: "it is to be present and honest. Tell your team exactly that: 'I do not have all the answers yet, and I am not going to pretend I do. Here is what I know, here is what I am finding out, and here is when I will get back to you.' Teams do not need a manager who has all the answers in a crisis — they need a manager who is honest, who listens, and who is clearly on their side while the organisation figures things out. Silence and false reassurance are far more damaging than honest uncertainty. Escalate every question you cannot answer to HR or your director today, and tell your team you have done so. Make sure no question sits unanswered for longer than 24 hours.",
+          suggestedCompletion: "it is to be present and honest. Tell your team exactly that: 'I do not have all the answers yet, and I am not going to pretend I do. Here is what I know, here is what I am finding out, and here is when I will get back to you.' Teams do not need a manager who has all the answers in a crisis — they need a manager who is honest, who listens, and who is clearly on their side while the organization figures things out. Silence and false reassurance are far more damaging than honest uncertainty. Escalate every question you cannot answer to HR or your director today, and tell your team you have done so. Make sure no question sits unanswered for longer than 24 hours.",
         },
         {
           customerLine: "Why is it a problem when employees find out about a major change from social media or a news article rather than from their manager?",
-          salespersonStart: "It signals, at the most fundamental level, that the organisation did not prioritise them —",
-          suggestedCompletion: "and that signal is very hard to undo. When you find out about something significant that affects your work, your team, or your future from LinkedIn or a journalist, the message you receive is not the news itself — it is that you were not trusted enough, valued enough, or prioritised enough to be told first. That feeling — of being managed rather than informed — erodes trust with remarkable speed and remarkable durability. People remember how they found out about things. The practical consequence is that whatever the organisation says next lands in an environment of reduced trust, which makes change harder to implement, resistance more likely, and buy-in more difficult to achieve. The cascade exists precisely to prevent this — and when it is done well, employees feel informed, respected, and part of something rather than subject to something.",
+          salespersonStart: "It signals, at the most fundamental level, that the organization did not prioritize them —",
+          suggestedCompletion: "and that signal is very hard to undo. When you find out about something significant that affects your work, your team, or your future from LinkedIn or a journalist, the message you receive is not the news itself — it is that you were not trusted enough, valued enough, or prioritized enough to be told first. That feeling — of being managed rather than informed — erodes trust with remarkable speed and remarkable durability. People remember how they found out about things. The practical consequence is that whatever the organization says next lands in an environment of reduced trust, which makes change harder to implement, resistance more likely, and buy-in more difficult to achieve. The cascade exists precisely to prevent this — and when it is done well, employees feel informed, respected, and part of something rather than subject to something.",
         },
       ],
     },

@@ -59,10 +59,10 @@ export const ourTargetMarket: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-target-market-interest.png',
     },
     {
-      word: 'BEHAVIOUR',
+      word: 'BEHAVIOR',
       partOfSpeech: 'noun',
       definition: 'The way a person acts or what they do — for example, how they shop or use the internet.',
-      example: 'We look at customer behaviour to understand when and how they use our product.',
+      example: 'We look at customer behavior to understand when and how they use our product.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/behaviour.png',
     }
   ],
@@ -101,7 +101,7 @@ export const ourTargetMarket: Lesson = {
     {
       phrase: 'BASED ON',
       definition: 'Using something as the reason or starting point for a decision.',
-      example: 'We choose our channels based on the behaviour and interests of our target market.',
+      example: 'We choose our channels based on the behavior and interests of our target market.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/based-on.png',
     }
   ],
@@ -155,7 +155,7 @@ export const ourTargetMarket: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Marketing, technology, and business growth. We look at [[behaviour:the way a person acts — for example, how they shop or use the internet]] too — our best customers are the ones who check their data every day.',
+      text: 'Marketing, technology, and business growth. We look at [[behavior:the way a person acts — for example, how they shop or use the internet]] too — our best customers are the ones who check their data every day.',
     },
     {
       speaker: 'Dana',
@@ -213,7 +213,7 @@ export const ourTargetMarket: Lesson = {
         "definition": "Something a person likes or cares about"
     },
     {
-        "word": "BEHAVIOUR",
+        "word": "BEHAVIOR",
         "definition": "The way a person acts — for example, how they shop or use the internet"
     }
 ],
@@ -369,11 +369,11 @@ export const ourTargetMarket: Lesson = {
                 "customerLine": "How do you know who to target?",
                 "options": [
                     "We look at who buys our product most often.",
-                    "We build a customer profile based on demographics like age and income, but also on behaviour and interests. We then look at which customers get the most value from the product.",
+                    "We build a customer profile based on demographics like age and income, but also on behavior and interests. We then look at which customers get the most value from the product.",
                     "We target everyone and see who responds."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It explains the method clearly — customer profile, demographics, behaviour, interests, and value. A is too simple. C sounds like there is no real targeting at all."
+                "explanation": "B is correct. It explains the method clearly — customer profile, demographics, behavior, interests, and value. A is too simple. C sounds like there is no real targeting at all."
             },
             {
                 "customerLine": "What does your ideal customer look like?",
@@ -383,7 +383,7 @@ export const ourTargetMarket: Lesson = {
                     "We have many types of ideal customer."
                 ],
                 "correctIndex": 0,
-                "explanation": "A is correct. It gives a specific, vivid profile — name, age, role, behaviour, and motivation. This is exactly how a good customer profile is described. B is too vague. C avoids giving a clear picture."
+                "explanation": "A is correct. It gives a specific, vivid profile — name, age, role, behavior, and motivation. This is exactly how a good customer profile is described. B is too vague. C avoids giving a clear picture."
             }
         ]
     },
@@ -410,7 +410,7 @@ export const ourTargetMarket: Lesson = {
             {
                 "key": "perfect",
                 "label": "Fits the profile",
-                "description": "This person matches the demographic, lifestyle, behaviour, and interests of Brightline's ideal customer. They have the budget and the motivation to use the product."
+                "description": "This person matches the demographic, lifestyle, behavior, and interests of Brightline's ideal customer. They have the budget and the motivation to use the product."
             },
             {
                 "key": "notyet",
@@ -438,9 +438,9 @@ export const ourTargetMarket: Lesson = {
                 "suggestedCompletion": "they have the experience to know what they need and the income to pay for a good tool. Younger customers often do not have the budget yet, and older customers may be less interested in new technology."
             },
             {
-                "customerLine": "Do you look at customer behaviour when planning a campaign?",
-                "salespersonStart": "Yes — behaviour is one of the most important things we look at. We want to know when our customers use the product, how often they check their data, and",
-                "suggestedCompletion": "what actions they take before they decide to buy. That behaviour tells us when and where to reach them with our marketing."
+                "customerLine": "Do you look at customer behavior when planning a campaign?",
+                "salespersonStart": "Yes — behavior is one of the most important things we look at. We want to know when our customers use the product, how often they check their data, and",
+                "suggestedCompletion": "what actions they take before they decide to buy. That behavior tells us when and where to reach them with our marketing."
             },
             {
                 "customerLine": "Why is it important to have a customer profile?",

@@ -336,7 +336,7 @@ export const givingAShortSalesPitch: Lesson = {
             "explanation": "'What' is the correct relative pronoun here — 'that is exactly what our platform solves' introduces the thing that was mentioned (the pain point). 'Which' is used for non-defining relative clauses and needs a clear noun to refer back to. 'That' cannot start a noun clause in this position."
         },
         {
-            "sentence": "_____ tends to happen without a centralised platform is that reporting takes three times as long.",
+            "sentence": "_____ tends to happen without a centralized platform is that reporting takes three times as long.",
             "options": [
                 "That",
                 "It",

@@ -5,7 +5,7 @@ export const iAmAPlayer: Lesson = {
   title: 'I Am a Player',
   subtitle: 'Simple present and self-introduction for gamers',
   level: 'A1-A2',
-  description: 'Learn how to introduce yourself in a game lobby — your username, platform, playstyle, and favourite game — using simple present.',
+  description: 'Learn how to introduce yourself in a game lobby — your username, platform, playstyle, and favorite game — using simple present.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-am-a-player-hero.png',
 
   vocabulary: [
@@ -62,14 +62,14 @@ export const iAmAPlayer: Lesson = {
       word: 'COMPETITIVE',
       partOfSpeech: 'adjective',
       definition: 'Playing seriously to win and improve your rank.',
-      example: 'He is a competitive player. He practises for two hours every day.',
+      example: 'He is a competitive player. He practices for two hours every day.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive.png',
     },
     {
-      word: 'FAVOURITE',
+      word: 'FAVORITE',
       partOfSpeech: 'adjective',
       definition: 'The one you like the most.',
-      example: 'My favourite game is this one. I play it every day.',
+      example: 'My favorite game is this one. I play it every day.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-am-a-player-favourite.png',
     },
     {
@@ -183,7 +183,7 @@ export const iAmAPlayer: Lesson = {
       speaker: 'Kai',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kai-icon.png',
-      text: 'The ranger. She is my [[favourite:the one I like the most]] — fast and good from long range. Want to play together?',
+      text: 'The ranger. She is my [[favorite:the one I like the most]] — fast and good from long range. Want to play together?',
     },
     {
       speaker: 'Alex',
@@ -241,7 +241,7 @@ export const iAmAPlayer: Lesson = {
     },
     {
         "before": "I play on",
-        "after": "— it's my favourite platform.",
+        "after": "— it's my favorite platform.",
         "answer": "pc"
     },
     {

@@ -26,7 +26,7 @@ export const robloxMyRobloxHome: Lesson = {
       word: 'HOME PAGE',
       partOfSpeech: 'noun',
       definition: 'The first page you see when you open Roblox. Everything starts here!',
-      example: 'When I open Roblox, the home page shows my favourite games.',
+      example: 'When I open Roblox, the home page shows my favorite games.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-home-page.png',
     },
     {
@@ -274,14 +274,14 @@ export const robloxMyRobloxHome: Lesson = {
     { before: 'I got a', after: '— LeoStars08 sent me a friend request!', answer: 'notification' },
     { before: 'Go to the', after: 'and press Leave Game if you want to stop playing.', answer: 'menu' },
     { before: 'Click the', after: 'to see all the most popular games today.', answer: 'games tab' },
-    { before: 'The', after: 'was the first thing I saw when I opened the app — it showed my favourite games.', answer: 'home page' },
+    { before: 'The', after: 'was the first thing I saw when I opened the app — it showed my favorite games.', answer: 'home page' },
   ],
 
   multipleChoiceExercise: [
     {
       question: 'What is a lobby in Roblox?',
       options: [
-        'A list of your favourite games.',
+        'A list of your favorite games.',
         'A waiting area before the game round starts.',
         'The first page you see when you open Roblox.',
         'A box where you type to search for things.',

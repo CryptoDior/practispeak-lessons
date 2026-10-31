@@ -5,7 +5,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
   title: "Register Awareness II — Code-Switching",
   subtitle: "You just spent four hours on Roblox. Now your mum is asking about your day. Can you explain what you were doing — in language she actually understands?",
   level: 'B1-B2',
-  description: "Code-switching is the ability to change how you speak depending on who you are talking to. You already do it in your own language. At B2, you need to do it in English too — moving smoothly between the casual language you use with friends in-game and the clear, respectful language you use with a teacher or parent. This lesson practises exactly that switch.",
+  description: "Code-switching is the ability to change how you speak depending on who you are talking to. You already do it in your own language. At B2, you need to do it in English too — moving smoothly between the casual language you use with friends in-game and the clear, respectful language you use with a teacher or parent. This lesson practices exactly that switch.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-register-awareness-ii-hero.png?v=2',
 
   grammarFocus: {
@@ -35,7 +35,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       word: 'CODE-SWITCH',
       partOfSpeech: 'verb',
       definition: "To change the way you speak depending on who you are talking to.",
-      example: "She code-switched perfectly — casual and relaxed in the team chat, clear and professional when talking to the tournament organiser.",
+      example: "She code-switched perfectly — casual and relaxed in the team chat, clear and professional when talking to the tournament organizer.",
       imageSlug: '/images/roblox-register-awareness-ii-code-switch.png',
     },
     {
@@ -56,7 +56,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       word: 'APPROPRIATE',
       partOfSpeech: 'adjective',
       definition: "Right for the situation — the correct thing to say or do at that moment.",
-      example: "Using 'lol' and 'brb' is appropriate with friends, but not in a message to a teacher or an event organiser.",
+      example: "Using 'lol' and 'brb' is appropriate with friends, but not in a message to a teacher or an event organizer.",
       imageSlug: '/images/roblox-register-awareness-ii-appropriate.png',
     },
     {
@@ -115,7 +115,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       word: 'APPROPRIATE',
       partOfSpeech: 'adjective',
       definition: "Right for the situation — the correct thing to say or do at that moment.",
-      example: "It is not always appropriate to use humour in a professional email — read the situation before you write.",
+      example: "It is not always appropriate to use humor in a professional email — read the situation before you write.",
       imageSlug: '/images/roblox-register-awareness-ii-appropriate-irl.png',
     },
     {
@@ -161,8 +161,8 @@ export const robloxRegisterAwarenessIi: Lesson = {
       phrase: "SWITCH TO",
       definition: "To change from one style, mode, or way of speaking to another.",
       example: "The moment the teacher walked over, Mario switched to full English sentences — no more abbreviations.",
-      inGame: "Practise switching to formal English when describing your game — it is a skill that will help you in many real situations.",
-      inRealLife: "She switched to a slower, clearer pace of speech when she realised the client was not a native English speaker.",
+      inGame: "Practice switching to formal English when describing your game — it is a skill that will help you in many real situations.",
+      inRealLife: "She switched to a slower, clearer pace of speech when she realized the client was not a native English speaker.",
       imageSlug: '/images/roblox-register-awareness-ii-switch-to.png',
     },
     {
@@ -185,13 +185,13 @@ export const robloxRegisterAwarenessIi: Lesson = {
       phrase: "WATCH OUT FOR",
       definition: "To be careful and pay attention to something that might cause a problem.",
       example: "Watch out for gaming abbreviations in formal writing — 'gg' and 'afk' mean nothing to someone outside gaming culture.",
-      inGame: "Watch out for casual habits when writing to admins or organisers — they notice the tone immediately.",
+      inGame: "Watch out for casual habits when writing to admins or organizers — they notice the tone immediately.",
       inRealLife: "Watch out for jargon when presenting to a mixed audience — not everyone in the room will know the technical terms.",
       imageSlug: '/images/roblox-register-awareness-ii-watch-out-for.png',
     },
     {
       phrase: "ADAPT TO",
-      definition: "To change your language or behaviour to fit the situation or the person you are with.",
+      definition: "To change your language or behavior to fit the situation or the person you are with.",
       example: "Good communicators adapt to every audience — they do not use the same style in every conversation.",
       inGame: "Adapting to different servers means more than changing your playstyle — it also means changing how you communicate.",
       inRealLife: "She adapted to every client's communication style — some wanted brief emails, others wanted detailed explanations.",
@@ -232,7 +232,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "You need to [[rephrase:say the same thing again using different words]] for your [[audience:the person or people you are speaking to]]. 'I practise competitive gaming most evenings, and I also help organise and manage a team of players online.' That says exactly the same thing — in language she understands.",
+      text: "You need to [[rephrase:say the same thing again using different words]] for your [[audience:the person or people you are speaking to]]. 'I practice competitive gaming most evenings, and I also help organize and manage a team of players online.' That says exactly the same thing — in language she understands.",
     },
     {
       speaker: 'Mia',
@@ -244,7 +244,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "It does not need to sound like you in a game chat. It needs to sound like you talking to a teacher. That is [[code-switching:changing the way you speak depending on who you are talking to]] — and it is a skill. You switch automatically in your own language. In English, you need to practise it.",
+      text: "It does not need to sound like you in a game chat. It needs to sound like you talking to a teacher. That is [[code-switching:changing the way you speak depending on who you are talking to]] — and it is a skill. You switch automatically in your own language. In English, you need to practice it.",
     },
     {
       speaker: 'Mia',
@@ -262,7 +262,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "That is actually a really useful test. Okay — I will try explaining my gaming life to you as if you are my mum. Ready? 'I spend most evenings practising team coordination in an online strategy game. I am part of a competitive group that I help manage.'",
+      text: "That is actually a really useful test. Okay — I will try explaining my gaming life to you as if you are my mum. Ready? 'I spend most evenings practicing team coordination in an online strategy game. I am part of a competitive group that I help manage.'",
     },
     {
       speaker: 'Mario',
@@ -276,7 +276,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
     instructions: "Choose the word that best completes each sentence.",
     items: [
       {
-        sentence: "When she sent a message to the tournament organiser, she made sure her language was _____ — full sentences, polite tone, no slang.",
+        sentence: "When she sent a message to the tournament organizer, she made sure her language was _____ — full sentences, polite tone, no slang.",
         options: ["casual", "formal", "abbreviated"],
         correctIndex: 1,
         explanation: "FORMAL means polite, careful language suitable for official or professional situations. The sentence describes exactly that: full sentences, polite tone, no slang.",
@@ -309,7 +309,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
         sentence: "The best communicators _____ any audience — they never use the same style in every conversation.",
         options: ["switch to", "watch out for", "adapt to"],
         correctIndex: 2,
-        explanation: "ADAPT TO means to change your language or behaviour to fit the situation or person. The sentence describes someone who changes style for every audience = adapt to.",
+        explanation: "ADAPT TO means to change your language or behavior to fit the situation or person. The sentence describes someone who changes style for every audience = adapt to.",
       },
     ],
   },
@@ -348,7 +348,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       correctIndex: 2,
     },
     {
-      question: "In the dialogue, Mario suggests Mia says: 'I practise competitive gaming most evenings, and I also help organise and manage a team of players online.' Why is this better for a teacher?",
+      question: "In the dialogue, Mario suggests Mia says: 'I practice competitive gaming most evenings, and I also help organize and manage a team of players online.' Why is this better for a teacher?",
       options: [
         "Because it is longer and more detailed than the original.",
         "Because it uses plain, clear words that anyone can understand — no gaming slang.",
@@ -370,7 +370,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
     {
       question: "Which sentence has the WRONG register for talking to a teacher?",
       options: [
-        "'I spend most evenings practising in an online game with a competitive team.'",
+        "'I spend most evenings practicing in an online game with a competitive team.'",
         "'Miss, we basically got rekt by this toxic guild and had to rage-quit lol.'",
         "'The game I play involves strategic team coordination and real-time decision-making.'",
         "'I find the competitive aspect of online gaming genuinely motivating.'",
@@ -388,7 +388,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       correctIndex: 2,
     },
     {
-      question: "Mario says 'You switch automatically in your own language. In English, you need to practise it.' What does this mean?",
+      question: "Mario says 'You switch automatically in your own language. In English, you need to practice it.' What does this mean?",
       options: [
         "Code-switching is natural in your first language but requires conscious practice in a second language.",
         "English has more registers than other languages, so it is harder to learn.",

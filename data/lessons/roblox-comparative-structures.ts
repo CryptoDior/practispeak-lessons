@@ -22,7 +22,7 @@ export const robloxComparativeStructures: Lesson = {
       { sentence: '"This server is as fast as the old one."', note: 'AS...AS = equal comparison' },
       { sentence: '"The new map is far more complex than the last."', note: 'FAR MORE...THAN = much bigger difference' },
       { sentence: '"She is twice as skilled as the average player."', note: 'TWICE AS...AS = double the amount' },
-      { sentence: '"The more you practise, the more you improve."', note: 'THE MORE...THE MORE = both things increase together' },
+      { sentence: '"The more you practice, the more you improve."', note: 'THE MORE...THE MORE = both things increase together' },
     ],
     negativeExamples: [
       { sentence: '"This server is as fast than the old one." ✗', note: 'AS...AS needs AS at the end, not THAN' },
@@ -78,7 +78,7 @@ export const robloxComparativeStructures: Lesson = {
       word: 'THE MORE...THE MORE',
       partOfSpeech: 'phrase',
       definition: "Shows that when one thing gets bigger, the other gets bigger too.",
-      example: "The more you practise the movement mechanics, the more natural your gameplay becomes.",
+      example: "The more you practice the movement mechanics, the more natural your gameplay becomes.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-comparative-structures-in-game-the-more-the-more.png',
     },
     {
@@ -137,7 +137,7 @@ export const robloxComparativeStructures: Lesson = {
       word: 'THE MORE...THE MORE',
       partOfSpeech: 'phrase',
       definition: "Shows that when one thing gets bigger, the other also gets bigger.",
-      example: "The more data we collect, the more accurately we can predict customer behaviour.",
+      example: "The more data we collect, the more accurately we can predict customer behavior.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-comparative-structures-irl-the-more-the-more.png',
     },
     {
@@ -213,13 +213,13 @@ export const robloxComparativeStructures: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Ha — I warned you! The second phase is [[even:emphasises that something exceeds what was already expected]] more difficult than the first. Most players give up right there.",
+      text: "Ha — I warned you! The second phase is [[even:emphasizes that something exceeds what was already expected]] more difficult than the first. Most players give up right there.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "My sword was not [[as:part of the structure AS...AS for equality]] powerful as the boss's defence — I was dealing almost no damage at all.",
+      text: "My sword was not [[as:part of the structure AS...AS for equality]] powerful as the boss's defense — I was dealing almost no damage at all.",
     },
     {
       speaker: 'Mario',
@@ -249,7 +249,7 @@ export const robloxComparativeStructures: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Yours is good for defence — not as [[as:second AS in the NOT AS...AS structure]] strong as mine in raw damage, but you have much better survivability.",
+      text: "Yours is good for defense — not as [[as:second AS in the NOT AS...AS structure]] strong as mine in raw damage, but you have much better survivability.",
     },
     {
       speaker: 'Mia',
@@ -310,7 +310,7 @@ export const robloxComparativeStructures: Lesson = {
   matchingExercise: [
     { word: 'AS...AS', definition: 'Shows two things are equal in some quality' },
     { word: 'NOT AS...AS', definition: 'Shows one thing falls short of another' },
-    { word: 'FAR MORE...THAN', definition: 'Emphasises a large and significant difference' },
+    { word: 'FAR MORE...THAN', definition: 'Emphasizes a large and significant difference' },
     { word: 'EVEN MORE...THAN', definition: 'Shows something exceeds what was already considered high' },
     { word: 'NOWHERE NEAR AS', definition: 'Shows the gap is very large — one is dramatically less' },
     { word: 'TWICE AS...AS', definition: 'Shows one thing is exactly double another' },
@@ -324,7 +324,7 @@ export const robloxComparativeStructures: Lesson = {
     { before: "The second phase is", answer: 'even', after: "more challenging than the first — most players fail here." },
     { before: "My damage output is nowhere near", answer: 'as', after: "high as the top players on the leaderboard." },
     { before: "The legendary boss has", answer: 'twice', after: "as much health as the standard enemy — bring extra healing." },
-    { before: "The", answer: 'more', after: "you practise the movement mechanics, the more natural your gameplay becomes." },
+    { before: "The", answer: 'more', after: "you practice the movement mechanics, the more natural your gameplay becomes." },
     { before: "Mario prefers aggressive builds,", answer: 'whereas', after: "Mia plays a defensive long-range style." },
     { before: "The standard sword is not", answer: 'as', after: "powerful as the legendary one — you will feel the difference." },
   ],
@@ -345,7 +345,7 @@ export const robloxComparativeStructures: Lesson = {
       options: [
         "They are completely identical and always interchangeable.",
         "FAR MORE shows distance; EVEN MORE shows direction.",
-        "FAR MORE emphasises a large gap; EVEN MORE shows something exceeds an already high level.",
+        "FAR MORE emphasizes a large gap; EVEN MORE shows something exceeds an already high level.",
         "FAR MORE is for adjectives; EVEN MORE is only for adverbs.",
       ],
       correctIndex: 2,

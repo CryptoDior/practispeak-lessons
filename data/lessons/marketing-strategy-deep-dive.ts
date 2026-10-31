@@ -89,7 +89,7 @@ export const marketingStrategyDeepDive: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-strategy-deep-dive-the-data-suggests-we-should.png',
       inAction: 'The data suggests we should reallocate 30% of the paid media budget to content marketing — the ROI is significantly higher.',
       register: "Neutral / Business English — 'suggests' is softer than 'proves' and is the professional choice when data points in a direction without being definitive. Appropriate in meetings, reports, and presentations.",
-      inContext: "Marcus pulled up the analysis and walked the room through the numbers. The data suggests we should prioritise the enterprise segment this quarter, he said. Three separate metrics — pipeline velocity, deal size, and NPS — all point the same way. That's not a coincidence.",
+      inContext: "Marcus pulled up the analysis and walked the room through the numbers. The data suggests we should prioritize the enterprise segment this quarter, he said. Three separate metrics — pipeline velocity, deal size, and NPS — all point the same way. That's not a coincidence.",
       visualExamples: [
         { brand: 'Orbit', context: 'DTC furniture brand — quarterly strategy review', imageSlug: '/images/visual-examples/msd-p2-orbit.png', caption: 'The data suggests we should pause paid social and double down on email — our email list converts at 6x the rate of cold Facebook traffic.', aspectRatio: '16/9' },
         { brand: 'Flux', context: 'Digital agency — client strategy report', imageSlug: '/images/visual-examples/msd-p2-flux.png', caption: 'The data suggests we should reposition as premium — customers who pay more churn less, and our LTV for that segment is 3x higher.', aspectRatio: '1.91/1' },
@@ -191,7 +191,7 @@ export const marketingStrategyDeepDive: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'The data suggests we should prioritise SME. Acquisition cost is 40% lower, sales cycles are three times shorter, and our NPS in that segment is 62 versus 44 in enterprise. Every metric points the same way.',
+      text: 'The data suggests we should prioritize SME. Acquisition cost is 40% lower, sales cycles are three times shorter, and our NPS in that segment is 62 versus 44 in enterprise. Every metric points the same way.',
     },
     {
       speaker: 'Dana',
@@ -297,7 +297,7 @@ export const marketingStrategyDeepDive: Lesson = {
     },
     {
         "before": "The data ",
-        "after": " we should prioritise SME — acquisition cost is 40% lower and sales cycles are three times shorter.",
+        "after": " we should prioritize SME — acquisition cost is 40% lower and sales cycles are three times shorter.",
         "answer": "suggests"
     },
     {
@@ -443,7 +443,7 @@ export const marketingStrategyDeepDive: Lesson = {
                     "Actually, strategic frameworks are essential for any business. Without them it's impossible to make good decisions."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B is the right answer — it explains the value of frameworks without dismissing the client's experience or being condescending. It connects the frameworks to their specific situation (ten years, portfolio complexity) and reframes frameworks as tools that organise existing knowledge, not a criticism of how they've worked before. Option A agrees too quickly and abandons the conversation. Option C is too absolute ('essential', 'impossible') and sounds preachy — it will put the client on the defensive."
+                "explanation": "Option B is the right answer — it explains the value of frameworks without dismissing the client's experience or being condescending. It connects the frameworks to their specific situation (ten years, portfolio complexity) and reframes frameworks as tools that organize existing knowledge, not a criticism of how they've worked before. Option A agrees too quickly and abandons the conversation. Option C is too absolute ('essential', 'impossible') and sounds preachy — it will put the client on the defensive."
             },
             {
                 "customerLine": "The BCG analysis puts our main product in the Dog category. Does that mean we should kill it?",

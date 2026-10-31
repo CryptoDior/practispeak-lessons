@@ -68,10 +68,10 @@ export const robloxNounsFromVerbs: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-nouns-from-verbs-in-game-exploration.png',
     },
     {
-      word: 'CUSTOMISATION',
+      word: 'CUSTOMIZATION',
       partOfSpeech: 'noun',
-      definition: "The process of changing something to match your personal preferences and style. Comes from CUSTOMISE.",
-      example: "The avatar customisation options in this game are incredible — there are over three hundred combinations.",
+      definition: "The process of changing something to match your personal preferences and style. Comes from CUSTOMIZE.",
+      example: "The avatar customization options in this game are incredible — there are over three hundred combinations.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-nouns-from-verbs-in-game-customisation.png',
     },
     {
@@ -115,7 +115,7 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       word: 'COLLECTION',
       partOfSpeech: 'noun',
-      definition: "A group of things gathered and kept together, often organised by category or theme.",
+      definition: "A group of things gathered and kept together, often organized by category or theme.",
       example: "The museum's permanent collection includes over five thousand pieces from the medieval period.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-nouns-from-verbs-irl-collection.png',
     },
@@ -127,10 +127,10 @@ export const robloxNounsFromVerbs: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-nouns-from-verbs-irl-exploration.png',
     },
     {
-      word: 'CUSTOMISATION',
+      word: 'CUSTOMIZATION',
       partOfSpeech: 'noun',
       definition: "Adjusting a product, service, or system to meet individual preferences or requirements.",
-      example: "The platform offers extensive customisation — every dashboard element can be moved and resized.",
+      example: "The platform offers extensive customization — every dashboard element can be moved and resized.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-nouns-from-verbs-irl-customisation.png',
     },
     {
@@ -219,7 +219,7 @@ export const robloxNounsFromVerbs: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "That comes through really well. The [[customisation:changing things to match your preferences — from CUSTOMISE]] options are also incredible — I spent an hour just on my avatar.",
+      text: "That comes through really well. The [[customization:changing things to match your preferences — from CUSTOMIZE]] options are also incredible — I spent an hour just on my avatar.",
     },
     {
       speaker: 'Mario',
@@ -290,7 +290,7 @@ export const robloxNounsFromVerbs: Lesson = {
         sentence: "Her item _____ includes every limited edition skin from the first three seasons — it is worth a fortune.",
         options: ["customisation", "progression", "collection"],
         correctIndex: 2,
-        explanation: "Collection (from COLLECT) is a set of things gathered together over time. Customisation is the process of personalising. Progression is moving forward. A set of items gathered = collection.",
+        explanation: "Collection (from COLLECT) is a set of things gathered together over time. Customization is the process of personalizing. Progression is moving forward. A set of items gathered = collection.",
       },
       {
         sentence: "The _____ system is excellent — every hour you play, you visibly move up through the ranks.",
@@ -313,7 +313,7 @@ export const robloxNounsFromVerbs: Lesson = {
     { word: 'ACHIEVEMENT', definition: 'Something successfully accomplished that required skill — from ACHIEVE' },
     { word: 'COLLECTION', definition: 'A set of items gathered together over time — from COLLECT' },
     { word: 'EXPLORATION', definition: 'The act of discovering new areas or secrets — from EXPLORE' },
-    { word: 'CUSTOMISATION', definition: 'Changing something to match personal preferences — from CUSTOMISE' },
+    { word: 'CUSTOMIZATION', definition: 'Changing something to match personal preferences — from CUSTOMIZE' },
     { word: 'PROGRESSION', definition: 'Moving forward and improving steadily over time — from PROGRESS' },
     { word: 'COMMUNICATION', definition: 'The exchange of information between people — from COMMUNICATE' },
   ],
@@ -346,7 +346,7 @@ export const robloxNounsFromVerbs: Lesson = {
         "He spent money on promotion and advertising.",
         "He built communication with a small community early and updated based on their feedback.",
         "He copied the design of another popular server.",
-        "He added the most customisation options of any server on the platform.",
+        "He added the most customization options of any server on the platform.",
       ],
       correctIndex: 1,
     },

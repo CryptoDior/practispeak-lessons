@@ -15,7 +15,7 @@ export const businessFormalVsInformal: Lesson = {
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
-    'Recognise formal and informal language at work.',
+    'Recognize formal and informal language at work.',
     'Choose the right tone for clients, managers and colleagues.',
     'Switch between formal and informal versions of common phrases.',
   ],

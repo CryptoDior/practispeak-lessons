@@ -17,7 +17,7 @@ export const foodHowDoesWineTaste: Lesson = {
   objectives: [
     'Describe how wine tastes with simple adjectives.',
     'Talk about opening, pouring and serving wine.',
-    'Say which wine is your favourite.',
+    'Say which wine is your favorite.',
   ],
 
   // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
@@ -50,15 +50,15 @@ export const foodHowDoesWineTaste: Lesson = {
   },
 
   vocabulary: [
-    { word: 'FLAVOUR', partOfSpeech: 'noun', definition: 'The taste of food or drink.', example: 'This wine has a strong flavour.', imageSlug: img('intense-wine-flavour') },
+    { word: 'FLAVOR', partOfSpeech: 'noun', definition: 'The taste of food or drink.', example: 'This wine has a strong flavor.', imageSlug: img('intense-wine-flavour') },
     { word: 'SMOOTH', partOfSpeech: 'adjective', definition: 'Easy to drink. It feels soft in your mouth.', example: 'This red wine is very smooth.', imageSlug: img('smooth-red-wine') },
     { word: 'SPICY', partOfSpeech: 'adjective', definition: 'It tastes like pepper.', example: 'I can taste something spicy in this wine.', imageSlug: img('pepper-notes-in-wine') },
     { word: 'SOUR', partOfSpeech: 'adjective', definition: 'A sharp taste, like a lemon.', example: 'This white wine is a little sour.', imageSlug: img('slightly-sour-white-wine') },
     { word: 'STRONG', partOfSpeech: 'adjective', definition: 'It has a lot of taste or a lot of alcohol.', example: 'That red wine is very strong.', imageSlug: img('strong-red-wine-character') },
     { word: 'LIGHT', partOfSpeech: 'adjective', definition: 'Not heavy or strong.', example: 'I like light wine in summer.', imageSlug: img('light-wine-summer') },
-    { word: 'FRESH', partOfSpeech: 'adjective', definition: 'A clean, new taste.', example: 'The wine has a fresh flavour.', imageSlug: img('fresh-wine-taste') },
+    { word: 'FRESH', partOfSpeech: 'adjective', definition: 'A clean, new taste.', example: 'The wine has a fresh flavor.', imageSlug: img('fresh-wine-taste') },
     { word: 'ROOM TEMPERATURE', partOfSpeech: 'noun', definition: 'Normal room heat. Not cold and not hot.', example: 'Red wine is best at room temperature.', imageSlug: img('red-wine-ambient-room') },
-    { word: 'FAVOURITE', partOfSpeech: 'adjective', definition: 'The one you like most.', example: 'This wine is my favourite.', imageSlug: img('personal-favourite-wine-choice') },
+    { word: 'FAVORITE', partOfSpeech: 'adjective', definition: 'The one you like most.', example: 'This wine is my favorite.', imageSlug: img('personal-favourite-wine-choice') },
   ],
 
   phrasalVerbs: [
@@ -75,9 +75,9 @@ export const foodHowDoesWineTaste: Lesson = {
   dialogue: [
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Can you open the bottle, Tim?' },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Sure! Do you want to try this one?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, please. It's my [[favourite:the one I like most]]." },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, please. It's my [[favorite:the one I like most]]." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I'll pour you a glass. It's a [[light:not heavy or strong]] wine with a [[fresh:clean, new taste]] taste." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Mmm… I like it. The [[flavour:taste]] is soft.' },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Mmm… I like it. The [[flavor:taste]] is soft.' },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I think it's a bit [[sour:sharp, like lemon]] for me." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Not too much. It's [[smooth:easy to drink]]." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Yes, it\'s better than that [[strong:a lot of taste or alcohol]] wine last time!' },
@@ -86,12 +86,12 @@ export const foodHowDoesWineTaste: Lesson = {
   ],
 
   matchingExercise: [
-    { word: 'FLAVOUR', definition: 'The taste of food or drink' },
+    { word: 'FLAVOR', definition: 'The taste of food or drink' },
     { word: 'SMOOTH', definition: 'Easy to drink, soft' },
     { word: 'SOUR', definition: 'A sharp taste, like lemon' },
     { word: 'LIGHT', definition: 'Not heavy or strong' },
     { word: 'POUR', definition: 'Put liquid from a bottle into a glass' },
-    { word: 'FAVOURITE', definition: 'The one you like most' },
+    { word: 'FAVORITE', definition: 'The one you like most' },
   ],
 
   fillBlankExercise: [

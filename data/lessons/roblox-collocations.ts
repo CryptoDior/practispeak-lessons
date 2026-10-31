@@ -71,7 +71,7 @@ export const robloxCollocations: Lesson = {
       word: 'GAIN AN ADVANTAGE',
       partOfSpeech: 'phrase',
       definition: "To get into a better position than your opponent. GAIN is the right verb with advantage — not GET or WIN.",
-      example: "Choosing the high-ground position gains you a significant advantage — visibility and defence in one move.",
+      example: "Choosing the high-ground position gains you a significant advantage — visibility and defense in one move.",
       imageSlug: '/images/roblox-collocations-gain-an-advantage.png',
     },
     {
@@ -101,7 +101,7 @@ export const robloxCollocations: Lesson = {
     {
       word: 'JOIN A SERVER',
       partOfSpeech: 'phrase',
-      definition: "JOIN is used for groups, teams, and organisations you become part of.",
+      definition: "JOIN is used for groups, teams, and organizations you become part of.",
       example: "He joined the company as a junior analyst and was managing the entire team within four years.",
       imageSlug: '/images/roblox-collocations-join-a-server-irl.png',
     },
@@ -263,13 +263,13 @@ export const robloxCollocations: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "This is making me realise how many combinations I must be getting wrong without knowing it.",
+      text: "This is making me realize how many combinations I must be getting wrong without knowing it.",
     },
     {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "The best way to learn them is not to memorise lists — it is to read and listen to lots of natural English and notice the patterns. When you see 'earn', notice what follows. When you see 'hit', notice what follows. Gradually, the combinations start to feel automatic.",
+      text: "The best way to learn them is not to memorize lists — it is to read and listen to lots of natural English and notice the patterns. When you see 'earn', notice what follows. When you see 'hit', notice what follows. Gradually, the combinations start to feel automatic.",
     },
   ],
 
@@ -295,7 +295,7 @@ export const robloxCollocations: Lesson = {
         explanation: "MAKE progress is the fixed collocation — you make progress, not do it or get it. MAKE is the standard verb for progress in all contexts.",
       },
       {
-        sentence: "Choosing the high-ground position _____ you a significant advantage in visibility and defence.",
+        sentence: "Choosing the high-ground position _____ you a significant advantage in visibility and defense.",
         options: ["wins", "gives", "gains"],
         correctIndex: 2,
         explanation: "GAIN an advantage is the natural collocation — you gain advantages, not win them or give them. GAIN suggests obtaining something through effort or position, which fits perfectly.",
@@ -330,7 +330,7 @@ export const robloxCollocations: Lesson = {
     { before: "She", answer: 'broke', after: "the server record for fastest solo completion — by more than forty seconds." },
     { before: "The guild", answer: 'hit', after: "a major milestone last night — one hundred competitive wins in a single season." },
     { before: "After two weeks of consistent play, Mario was finally", answer: 'making', after: "real progress on the ranking ladder." },
-    { before: "Choosing the high-ground position", answer: 'gains', after: "you a significant advantage in both visibility and defence." },
+    { before: "Choosing the high-ground position", answer: 'gains', after: "you a significant advantage in both visibility and defense." },
     { before: "Mia spent two years", answer: 'building', after: "a reputation for fair play — and it became her greatest professional asset." },
     { before: "The guild", answer: 'took', after: "the lead in round two and held it comfortably until the final whistle." },
     { before: "After a slow start, the team began to", answer: 'pull ahead', after: "— a five-point gap that kept growing with every round." },
@@ -341,7 +341,7 @@ export const robloxCollocations: Lesson = {
     {
       question: "In the dialogue, what does Mario say is the key to learning collocations?",
       options: [
-        "Memorise long lists of fixed combinations as quickly as possible.",
+        "Memorize long lists of fixed combinations as quickly as possible.",
         "Read the grammar rules for each collocation until they make logical sense.",
         "Read and listen to natural English and notice the patterns over time.",
         "Focus only on the most commonly used verbs and ignore the nouns.",
@@ -363,7 +363,7 @@ export const robloxCollocations: Lesson = {
       options: [
         "To arrange items neatly on a shelf or storage system.",
         "To accumulate a large number of wins, points, or achievements.",
-        "To criticise someone harshly for their performance.",
+        "To criticize someone harshly for their performance.",
         "To prepare equipment before a competitive match.",
       ],
       correctIndex: 1,

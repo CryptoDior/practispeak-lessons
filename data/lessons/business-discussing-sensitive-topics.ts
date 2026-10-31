@@ -16,7 +16,7 @@ export const businessDiscussingSensitiveTopics: Lesson = {
 
   objectives: [
     'Open a sensitive conversation tactfully.',
-    'Disagree and clarify without causing offence.',
+    'Disagree and clarify without causing offense.',
     'Keep the tone constructive and respectful throughout.',
   ],
 
@@ -31,9 +31,9 @@ export const businessDiscussingSensitiveTopics: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'I understand this might be a sensitive topic.', tag: 'phrase', definition: 'Acknowledge potential discomfort and set a respectful tone.', example: '"I understand this might be a sensitive topic, so please stop me if it\'s uncomfortable."', imageSlug: img('phrase-sensitive-topic') },
-    { phrase: "I'd like to address this in a constructive way.", tag: 'phrase', definition: 'Show your intention is to help, not criticise.', example: '"There have been some complaints. I\'d like to address this in a constructive way."', imageSlug: img('phrase-address-constructively') },
+    { phrase: "I'd like to address this in a constructive way.", tag: 'phrase', definition: 'Show your intention is to help, not criticize.', example: '"There have been some complaints. I\'d like to address this in a constructive way."', imageSlug: img('phrase-address-constructively') },
     { phrase: 'From my perspective, I see things slightly differently.', tag: 'phrase', definition: 'A polite way to disagree.', example: '"I understand your view. From my perspective, I see things slightly differently."', inAction: 'Softeners like "slightly", "a little", "perhaps" and "I wonder if…" reduce the force of disagreement — essential in sensitive discussions.', imageSlug: img('phrase-different-perspective') },
-    { phrase: 'May I clarify something before we continue?', tag: 'phrase', definition: 'Prevent misinterpretation.', example: '"May I clarify something before we continue? I wasn\'t criticising your team."', imageSlug: img('phrase-may-i-clarify') },
+    { phrase: 'May I clarify something before we continue?', tag: 'phrase', definition: 'Prevent misinterpretation.', example: '"May I clarify something before we continue? I wasn\'t criticizing your team."', imageSlug: img('phrase-may-i-clarify') },
     { phrase: "That's a fair point; let's explore it further.", tag: 'phrase', definition: 'Validate a view while keeping the discussion open.', example: '"That\'s a fair point; let\'s explore it further."', imageSlug: img('phrase-fair-point') },
     { phrase: 'TREAD CAREFULLY', tag: 'idiom', definition: 'To act or speak with great care in a delicate situation.', example: 'We need to tread carefully when discussing pay.', imageSlug: img('phrase-tread-carefully') },
   ],
@@ -45,7 +45,7 @@ export const businessDiscussingSensitiveTopics: Lesson = {
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "The joke about long lunches? It was just a joke." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I know it wasn't meant badly, and I'd like to address this in a constructive way. But the [[perception:how it was seen]] in Madrid is that we don't respect their work." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "From my perspective, I see things slightly differently. We joke with each other all the time." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's a fair point; let's explore it further. Humour works when trust is high, but they're new to the group. It requires more [[sensitivity:awareness of feelings]]." },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's a fair point; let's explore it further. Humor works when trust is high, but they're new to the group. It requires more [[sensitivity:awareness of feelings]]." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "May I clarify something? I genuinely value their work. Their numbers are better than ours." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Then tell them that. A short, sincere message would show real [[tact:saying difficult things without upsetting]]." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "You're right. I'll call their manager today. Thanks for raising it with [[diplomacy:sensitivity and skill]] rather than in front of everyone." },

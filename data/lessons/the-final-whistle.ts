@@ -33,7 +33,7 @@ export const theFinalWhistle: Lesson = {
     {
       word: 'DRAW',
       partOfSpeech: 'noun',
-      definition: 'When both teams finish with the same score at full-time.',
+      definition: 'When both teams finish with the same score at full-time. (US: tie)',
       example: 'It finished two-two — a draw. Both teams got one point.',
       imageSlug: '/images/the-final-whistle-draw.png',
     },

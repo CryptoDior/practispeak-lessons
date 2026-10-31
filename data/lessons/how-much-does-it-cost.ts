@@ -276,7 +276,7 @@ export const howMuchDoesItCost: Lesson = {
             "Lower the price immediately without asking questions.",
             "Ask what they expected and what their budget is — then see if there is a package or discount that works for them.",
             "Tell them the price is fair and non-negotiable.",
-            "Apologise and offer them a free trial instead."
+            "Apologize and offer them a free trial instead."
         ],
         "correctIndex": 1
     },

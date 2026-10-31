@@ -86,7 +86,7 @@ export const robloxThisGameVsThatGame: Lesson = {
       word: 'HARDER',
       partOfSpeech: 'adjective',
       definition: "More difficult in real life — you have to try harder.",
-      example: "Year 8 maths is harder than Year 7 — but I am getting used to it!",
+      example: "Year 8 math is harder than Year 7 — but I am getting used to it!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-this-game-vs-that-game-irl-harder.png',
     },
     {

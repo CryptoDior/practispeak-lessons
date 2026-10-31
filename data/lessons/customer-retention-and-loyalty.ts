@@ -3,9 +3,9 @@ import { Lesson } from '@/types/lesson';
 export const customerRetentionAndLoyalty: Lesson = {
   slug: 'customer-retention-and-loyalty',
   title: 'Customer Retention and Loyalty',
-  subtitle: 'How to keep customers, reduce churn, and build programmes that turn one-time buyers into long-term advocates',
+  subtitle: 'How to keep customers, reduce churn, and build programs that turn one-time buyers into long-term advocates',
   level: 'B1-B2',
-  description: "Acquiring a new customer costs five to seven times more than retaining an existing one. Yet most marketing investment goes into acquisition rather than retention. The brands that grow most sustainably are the ones that keep their customers coming back — through great products, smart loyalty programmes, and proactive communication that makes customers feel valued before they think about leaving. This lesson teaches you the essential vocabulary of customer retention and loyalty marketing.",
+  description: "Acquiring a new customer costs five to seven times more than retaining an existing one. Yet most marketing investment goes into acquisition rather than retention. The brands that grow most sustainably are the ones that keep their customers coming back — through great products, smart loyalty programs, and proactive communication that makes customers feel valued before they think about leaving. This lesson teaches you the essential vocabulary of customer retention and loyalty marketing.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-retention-and-loyalty-hero.png',
 
   vocabulary: [
@@ -13,7 +13,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       word: 'CHURN',
       partOfSpeech: 'noun / verb',
       definition: 'The rate at which customers stop buying or cancel their subscription.',
-      example: 'She looked at the cancelled accounts on her screens and worried about the high churn.',
+      example: 'She looked at the canceled accounts on her screens and worried about the high churn.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-retention-and-loyalty-churn.png',
     },
     {
@@ -24,10 +24,10 @@ export const customerRetentionAndLoyalty: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/nps.png',
     },
     {
-      word: 'LOYALTY PROGRAMME',
+      word: 'LOYALTY PROGRAM',
       partOfSpeech: 'noun',
       definition: 'A system that gives rewards to customers who keep buying from a company.',
-      example: 'He handed her a black envelope with details of her new loyalty programme membership.',
+      example: 'He handed her a black envelope with details of her new loyalty program membership.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/loyalty-programme.png',
     },
     {
@@ -87,12 +87,12 @@ export const customerRetentionAndLoyalty: Lesson = {
       example: 'The lifetime value of this customer segment is about £20,000 per customer.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-lifetime-value-of-this-segment-is.png',
       inAction: 'The lifetime value of this customer segment is £9,400 — which means the cost of a dedicated account manager at £35k per year is justified if they retain 4 customers who would otherwise have churned.',
-      register: "Neutral — Halo (DTC skincare subscription, commercial team): monthly review reads the lifetime value of the subscription segment is 4x the lifetime value of one-time buyers — which makes a retention-focused loyalty programme the highest-ROI investment available to us. | Crest (B2B compliance SaaS, finance team): annual planning reads the lifetime value of our financial services customers is £22,000 on average — 3x our overall average, which justifies a dedicated vertical team and custom onboarding track. | Bloom (DTC health supplements, growth team): board presentation reads the lifetime value of customers acquired through referral is 28% higher than those acquired through paid search — which is the business case for our new referral programme.",
+      register: "Neutral — Halo (DTC skincare subscription, commercial team): monthly review reads the lifetime value of the subscription segment is 4x the lifetime value of one-time buyers — which makes a retention-focused loyalty program the highest-ROI investment available to us. | Crest (B2B compliance SaaS, finance team): annual planning reads the lifetime value of our financial services customers is £22,000 on average — 3x our overall average, which justifies a dedicated vertical team and custom onboarding track. | Bloom (DTC health supplements, growth team): board presentation reads the lifetime value of customers acquired through referral is 28% higher than those acquired through paid search — which is the business case for our new referral program.",
       visualExamples: [
         { brand: 'Halo', context: 'DTC skincare subscription — commercial review', imageSlug: '/images/visual-examples/halo-ltv-subscription.png', caption: 'The lifetime value of the subscription segment is 4x the one-time buyer segment — making retention investment the highest-ROI option available.', aspectRatio: '16/9' },
-        { brand: 'Bloom', context: 'DTC health supplements — board presentation', imageSlug: '/images/visual-examples/bloom-ltv-referral.png', caption: 'The lifetime value of referral-acquired customers is 28% higher than paid search — the business case for investing in the referral programme.', aspectRatio: '4/5' },
+        { brand: 'Bloom', context: 'DTC health supplements — board presentation', imageSlug: '/images/visual-examples/bloom-ltv-referral.png', caption: 'The lifetime value of referral-acquired customers is 28% higher than paid search — the business case for investing in the referral program.', aspectRatio: '4/5' },
       ],
-      inContext: "Marcus put the LTV numbers on the table. The lifetime value of the enterprise segment is £18,000, he said. Riley looked at the SME number: and SME is £2,400. Dana did the maths out loud: so retaining one enterprise customer is worth retaining seven and a half SME customers. The room was quiet for a moment. Marcus replied: Which means the enterprise retention plan should get seven and a half times the resource. Let us start there.",
+      inContext: "Marcus put the LTV numbers on the table. The lifetime value of the enterprise segment is £18,000, he said. Riley looked at the SME number: and SME is £2,400. Dana did the math out loud: so retaining one enterprise customer is worth retaining seven and a half SME customers. The room was quiet for a moment. Marcus replied: Which means the enterprise retention plan should get seven and a half times the resource. Let us start there.",
     },
     {
       phrase: 'WE SHOULD RUN A RE-ENGAGEMENT CAMPAIGN FOR...',
@@ -112,26 +112,26 @@ export const customerRetentionAndLoyalty: Lesson = {
       definition: 'A phrase used to share what the customer score results tell us.',
       example: 'Our NPS shows that most customers are happy, but some are still unhappy.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-nps-shows-that.png',
-      inAction: 'Our NPS shows that Promoters are concentrated among customers who have completed the advanced onboarding track — which tells us what the programme is missing for everyone else.',
-      register: "Neutral — Velo (B2B fleet SaaS, commercial review): board update reads our NPS shows that customers using the mobile app daily score 22 points higher than desktop-only users — which is the business case for the mobile-first product roadmap. | Kora (DTC subscription, marketing team): monthly review reads our NPS shows that customers who have made three or more purchases score 18 points higher than two-purchase customers — the third purchase is the loyalty threshold. | Bolt (B2B HR platform, customer success): QBR reads our NPS shows that our Detractors almost all share one characteristic — they did not complete the onboarding programme. This is a training problem, not a product problem.",
+      inAction: 'Our NPS shows that Promoters are concentrated among customers who have completed the advanced onboarding track — which tells us what the program is missing for everyone else.',
+      register: "Neutral — Velo (B2B fleet SaaS, commercial review): board update reads our NPS shows that customers using the mobile app daily score 22 points higher than desktop-only users — which is the business case for the mobile-first product roadmap. | Kora (DTC subscription, marketing team): monthly review reads our NPS shows that customers who have made three or more purchases score 18 points higher than two-purchase customers — the third purchase is the loyalty threshold. | Bolt (B2B HR platform, customer success): QBR reads our NPS shows that our Detractors almost all share one characteristic — they did not complete the onboarding program. This is a training problem, not a product problem.",
       visualExamples: [
         { brand: 'Velo', context: 'B2B fleet SaaS — commercial board review', imageSlug: '/images/visual-examples/velo-nps-mobile.png', caption: 'Our NPS shows that daily mobile app users score 22 points higher than desktop-only users — the business case for the mobile-first product roadmap.', aspectRatio: '16/9' },
-        { brand: 'Bolt', context: 'B2B HR platform — customer success QBR', imageSlug: '/images/visual-examples/bolt-nps-detractors.png', caption: 'Our NPS shows that Detractors almost all share one characteristic — they did not complete the onboarding programme.', aspectRatio: '16/9' },
+        { brand: 'Bolt', context: 'B2B HR platform — customer success QBR', imageSlug: '/images/visual-examples/bolt-nps-detractors.png', caption: 'Our NPS shows that Detractors almost all share one characteristic — they did not complete the onboarding program.', aspectRatio: '16/9' },
       ],
-      inContext: "Dana had run the NPS analysis before the retention review. Our NPS shows that the Promoters and Detractors are almost perfectly split by onboarding completion, she said. Customers who completed the full programme score an average of 8.9. Customers who did not score 5.2 on average. Marcus leaned forward: So fixing onboarding is not just a retention initiative — it is an NPS initiative and a revenue initiative all at once. Riley: It is the single highest-leverage thing we can do.",
+      inContext: "Dana had run the NPS analysis before the retention review. Our NPS shows that the Promoters and Detractors are almost perfectly split by onboarding completion, she said. Customers who completed the full program score an average of 8.9. Customers who did not score 5.2 on average. Marcus leaned forward: So fixing onboarding is not just a retention initiative — it is an NPS initiative and a revenue initiative all at once. Riley: It is the single highest-leverage thing we can do.",
     },
     {
-      phrase: 'THE LOYALTY PROGRAMME IS DESIGNED TO...',
-      definition: 'A phrase used to explain the purpose of a loyalty programme.',
-      example: 'The loyalty programme is designed to reward shoppers and encourage them to tell their friends.',
+      phrase: 'THE LOYALTY PROGRAM IS DESIGNED TO...',
+      definition: 'A phrase used to explain the purpose of a loyalty program.',
+      example: 'The loyalty program is designed to reward shoppers and encourage them to tell their friends.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-loyalty-programme-is-designed-to.png',
-      inAction: 'The loyalty programme is designed to reward depth of engagement, not just spend — because our most engaged customers have the highest lifetime value and are our best source of referrals.',
-      register: "Neutral — Halo (DTC skincare, marketing team): programme design brief reads the loyalty programme is designed to increase purchase frequency among the 30% of customers who buy once and never return — the first goal is to get them to a second purchase within 60 days. | Crest (B2B compliance SaaS, commercial team): programme proposal reads the loyalty programme is designed to increase our net revenue retention above 100% — by rewarding customers who expand their usage with priority support and co-development access. | Ember (meal kit subscription, retention team): programme update reads the loyalty programme is designed to reduce voluntary churn by creating exit barriers that feel like benefits — the longer you stay, the more you have built inside the programme.",
+      inAction: 'The loyalty program is designed to reward depth of engagement, not just spend — because our most engaged customers have the highest lifetime value and are our best source of referrals.',
+      register: "Neutral — Halo (DTC skincare, marketing team): program design brief reads the loyalty program is designed to increase purchase frequency among the 30% of customers who buy once and never return — the first goal is to get them to a second purchase within 60 days. | Crest (B2B compliance SaaS, commercial team): program proposal reads the loyalty program is designed to increase our net revenue retention above 100% — by rewarding customers who expand their usage with priority support and co-development access. | Ember (meal kit subscription, retention team): program update reads the loyalty program is designed to reduce voluntary churn by creating exit barriers that feel like benefits — the longer you stay, the more you have built inside the program.",
       visualExamples: [
-        { brand: 'Halo', context: 'DTC skincare — loyalty programme design', imageSlug: '/images/visual-examples/halo-loyalty-frequency.png', caption: 'The loyalty programme is designed to increase purchase frequency — the goal is getting the 30% of one-time buyers to a second purchase within 60 days.', aspectRatio: '4/5' },
-        { brand: 'Ember', context: 'Meal kit subscription — retention programme', imageSlug: '/images/visual-examples/ember-loyalty-exit-barriers.png', caption: 'The loyalty programme is designed to create exit barriers that feel like benefits — the longer you stay, the more you have built inside the programme.', aspectRatio: '16/9' },
+        { brand: 'Halo', context: 'DTC skincare — loyalty program design', imageSlug: '/images/visual-examples/halo-loyalty-frequency.png', caption: 'The loyalty program is designed to increase purchase frequency — the goal is getting the 30% of one-time buyers to a second purchase within 60 days.', aspectRatio: '4/5' },
+        { brand: 'Ember', context: 'Meal kit subscription — retention program', imageSlug: '/images/visual-examples/ember-loyalty-exit-barriers.png', caption: 'The loyalty program is designed to create exit barriers that feel like benefits — the longer you stay, the more you have built inside the program.', aspectRatio: '16/9' },
       ],
-      inContext: "Riley walked the team through the loyalty programme proposal. The loyalty programme is designed to do three specific things, she said — increase purchase frequency in year one, deepen engagement in year two, and convert long-term customers into advocates in year three and beyond. Marcus asked: How do the rewards map to those three goals? Riley: That is the key design question. The rewards in each tier are chosen because they drive the specific behaviour we want — not because they are cheapest or most popular.",
+      inContext: "Riley walked the team through the loyalty program proposal. The loyalty program is designed to do three specific things, she said — increase purchase frequency in year one, deepen engagement in year two, and convert long-term customers into advocates in year three and beyond. Marcus asked: How do the rewards map to those three goals? Riley: That is the key design question. The rewards in each tier are chosen because they drive the specific behavior we want — not because they are cheapest or most popular.",
     },
     {
       phrase: 'WE ARE TARGETING A RETENTION RATE OF...',
@@ -139,12 +139,12 @@ export const customerRetentionAndLoyalty: Lesson = {
       example: 'We are targeting a retention rate of 85% within the next 12 months.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/we-are-targeting-a-retention-rate-of.png',
       inAction: 'We are targeting a retention rate of 85% at 12 months — which would put us in the top quartile for our sector and add approximately £1.8m to annual recurring revenue.',
-      register: "Neutral — Flux (B2B SaaS, commercial planning): annual plan reads we are targeting a retention rate of 90% at 12 months — the industry top quartile — which requires reducing churn from 4.2% to 0.9% monthly through a combination of onboarding, CS intervention, and product improvement. | Kora (DTC subscription, growth team): quarterly brief reads we are targeting a retention rate of 70% at 6 months, up from 52% — the onboarding redesign and the loyalty programme are the two main levers. | Prism (B2B analytics, board presentation): board update reads we are targeting a net revenue retention rate of 110% — meaning we want existing customer revenue to grow by 10% annually through expansion, upsell, and reduced churn.",
+      register: "Neutral — Flux (B2B SaaS, commercial planning): annual plan reads we are targeting a retention rate of 90% at 12 months — the industry top quartile — which requires reducing churn from 4.2% to 0.9% monthly through a combination of onboarding, CS intervention, and product improvement. | Kora (DTC subscription, growth team): quarterly brief reads we are targeting a retention rate of 70% at 6 months, up from 52% — the onboarding redesign and the loyalty program are the two main levers. | Prism (B2B analytics, board presentation): board update reads we are targeting a net revenue retention rate of 110% — meaning we want existing customer revenue to grow by 10% annually through expansion, upsell, and reduced churn.",
       visualExamples: [
         { brand: 'Flux', context: 'B2B SaaS — commercial annual planning', imageSlug: '/images/visual-examples/flux-retention-target.png', caption: 'We are targeting a retention rate of 90% at 12 months — the industry top quartile — requiring churn to drop from 4.2% to 0.9% monthly.', aspectRatio: '16/9' },
         { brand: 'Prism', context: 'B2B analytics — board strategy update', imageSlug: '/images/visual-examples/prism-net-revenue-retention.png', caption: 'We are targeting a net revenue retention rate of 110% — existing customer revenue growing 10% annually through expansion and reduced churn.', aspectRatio: '16/9' },
       ],
-      inContext: "Marcus put the target on the table. We are targeting a retention rate of 78% at 12 months, he said. Dana looked at the current number: that is 17 points from where we are. Marcus: Yes. And at our current ARR, those 17 points represent approximately £2.3 million in protected annual revenue. Riley had done the calculation: which means if we invest £400k in the retention programme and hit the target, the return is nearly 6 to 1. The business case is straightforward.",
+      inContext: "Marcus put the target on the table. We are targeting a retention rate of 78% at 12 months, he said. Dana looked at the current number: that is 17 points from where we are. Marcus: Yes. And at our current ARR, those 17 points represent approximately £2.3 million in protected annual revenue. Riley had done the calculation: which means if we invest £400k in the retention program and hit the target, the return is nearly 6 to 1. The business case is straightforward.",
     },
   ],
 
@@ -161,13 +161,13 @@ export const customerRetentionAndLoyalty: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Three main drivers. First, weak [[onboarding:the process of introducing new customers and helping them reach their first success quickly]] — exit surveys show customers who churn in months two and three overwhelmingly say they never got enough value from the product to justify continuing. Second, no proactive contact in the 6 to 18 month window — which is when satisfaction drops most sharply. Third, no [[re-engagement:the process of reconnecting with customers who have become disengaged]] programme for customers who stop using the product.",
+      text: "Three main drivers. First, weak [[onboarding:the process of introducing new customers and helping them reach their first success quickly]] — exit surveys show customers who churn in months two and three overwhelmingly say they never got enough value from the product to justify continuing. Second, no proactive contact in the 6 to 18 month window — which is when satisfaction drops most sharply. Third, no [[re-engagement:the process of reconnecting with customers who have become disengaged]] program for customers who stop using the product.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "Our [[NPS:Net Promoter Score — a measure of customer loyalty based on likelihood to recommend]] data supports that. Our NPS shows that Promoters and Detractors are almost entirely split by onboarding completion. Customers who completed the full programme score 8.9 on average. Those who did not score 5.1.",
+      text: "Our [[NPS:Net Promoter Score — a measure of customer loyalty based on likelihood to recommend]] data supports that. Our NPS shows that Promoters and Detractors are almost entirely split by onboarding completion. Customers who completed the full program score 8.9 on average. Those who did not score 5.1.",
     },
     {
       speaker: 'Marcus',
@@ -197,25 +197,25 @@ export const customerRetentionAndLoyalty: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "One — redesign onboarding to get customers to their first meaningful result within 14 days. Two — we should run a re-engagement campaign for the 600 customers showing early warning signs of disengagement — low usage, email inactivity. Three — launch a [[loyalty programme:a structured system that rewards customers for repeat purchases or continued engagement]] to recognise and reward our longest-tenured customers.",
+      text: "One — redesign onboarding to get customers to their first meaningful result within 14 days. Two — we should run a re-engagement campaign for the 600 customers showing early warning signs of disengagement — low usage, email inactivity. Three — launch a [[loyalty program:a structured system that rewards customers for repeat purchases or continued engagement]] to recognize and reward our longest-tenured customers.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "On the loyalty programme — the loyalty programme is designed to drive three behaviours: increase purchase frequency, deepen product engagement, and convert our best customers into advocates. The lifetime value of this customer segment — our top 20% — is £9,200 on average, which justifies significant investment in keeping them.",
+      text: "On the loyalty program — the loyalty program is designed to drive three behaviors: increase purchase frequency, deepen product engagement, and convert our best customers into advocates. The lifetime value of this customer segment — our top 20% — is £9,200 on average, which justifies significant investment in keeping them.",
     },
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And the [[win-back:a campaign to bring back former customers who have already cancelled or stopped purchasing]] programme? We have a cohort of customers who left in the last 12 months.",
+      text: "And the [[win-back:a campaign to bring back former customers who have already canceled or stopped purchasing]] program? We have a cohort of customers who left in the last 12 months.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "580 customers churned in the last 12 months. Our win-back campaign will target the 300 who left for reasons we can address — pricing, missing features, or poor onboarding. Not the ones who left because the product is genuinely a poor fit. We personalise the message based on exit reason. No blanket discounts.",
+      text: "580 customers churned in the last 12 months. Our win-back campaign will target the 300 who left for reasons we can address — pricing, missing features, or poor onboarding. Not the ones who left because the product is genuinely a poor fit. We personalize the message based on exit reason. No blanket discounts.",
     },
     {
       speaker: 'Dana',
@@ -233,34 +233,34 @@ export const customerRetentionAndLoyalty: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Agreed. I will have the detailed implementation plan for the onboarding redesign ready by Friday, the re-engagement campaign brief by end of next week, and the loyalty programme proposal for review in two weeks.",
+      text: "Agreed. I will have the detailed implementation plan for the onboarding redesign ready by Friday, the re-engagement campaign brief by end of next week, and the loyalty program proposal for review in two weeks.",
     },
   ],
 
   matchingExercise: [
     { word: 'churn', definition: 'the rate at which customers stop buying or cancel — the inverse of retention rate' },
     { word: 'NPS', definition: 'Net Promoter Score — a measure of loyalty based on likelihood to recommend' },
-    { word: 'loyalty programme', definition: 'a structured system of rewards for repeat purchases or continued engagement' },
+    { word: 'loyalty program', definition: 'a structured system of rewards for repeat purchases or continued engagement' },
     { word: 'lifetime value', definition: 'the total revenue expected from a single customer over the entire relationship' },
     { word: 're-engagement', definition: 'reconnecting with customers who have become inactive before they churn completely' },
     { word: 'retention rate', definition: 'the percentage of customers who continue buying over a given period' },
-    { word: 'win-back', definition: 'a campaign to bring back former customers who have already cancelled or left' },
+    { word: 'win-back', definition: 'a campaign to bring back former customers who have already canceled or left' },
     { word: 'onboarding', definition: 'introducing new customers to the product and helping them reach their first result quickly' },
   ],
 
   fillBlankExercise: [
     { before: 'We need to reduce', after: 'by 1.5 percentage points — from 4.2% to 2.7% — by the end of Q4.', answer: 'churn' },
     { before: 'The', after: 'value of our enterprise segment is £18,000 — 7.5 times the SME average.', answer: 'lifetime' },
-    { before: 'Our NPS shows that customers who complete the onboarding programme score 8.9 — compared to 5.1 for those who', answer: 'do not', after: '.' },
+    { before: 'Our NPS shows that customers who complete the onboarding program score 8.9 — compared to 5.1 for those who', answer: 'do not', after: '.' },
     { before: 'We should run a re-engagement campaign for the 600 customers who have not logged in for 45 days — these are high', after: 'risk.', answer: 'churn' },
     { before: 'We are targeting a', after: 'rate of 78% at 12 months — up from 61% currently.', answer: 'retention' },
-    { before: 'The loyalty programme is designed to reward engagement, not just', answer: 'spend', after: '— because engaged customers have the highest lifetime value.' },
+    { before: 'The loyalty program is designed to reward engagement, not just', answer: 'spend', after: '— because engaged customers have the highest lifetime value.' },
   ],
 
   multipleChoiceExercise: [
     {
       question: 'What does the NPS data show about the split between Promoters and Detractors?',
-      options: ['Promoters are mostly enterprise customers and Detractors are mostly SME customers', 'Promoters and Detractors are split almost entirely by whether they completed the onboarding programme', 'Promoters are customers in their first year and Detractors are customers who have been with the company for more than three years'],
+      options: ['Promoters are mostly enterprise customers and Detractors are mostly SME customers', 'Promoters and Detractors are split almost entirely by whether they completed the onboarding program', 'Promoters are customers in their first year and Detractors are customers who have been with the company for more than three years'],
       correctIndex: 1,
     },
     {
@@ -269,8 +269,8 @@ export const customerRetentionAndLoyalty: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'How does Riley say the win-back campaign should be personalised?',
-      options: ['All churned customers receive the same message with a time-limited discount offer', 'The message is personalised based on the reason the customer left — pricing, missing features, or poor onboarding', 'Only customers who left in the last 6 months receive a win-back message'],
+      question: 'How does Riley say the win-back campaign should be personalized?',
+      options: ['All churned customers receive the same message with a time-limited discount offer', 'The message is personalized based on the reason the customer left — pricing, missing features, or poor onboarding', 'Only customers who left in the last 6 months receive a win-back message'],
       correctIndex: 1,
     },
     {
@@ -283,7 +283,7 @@ export const customerRetentionAndLoyalty: Lesson = {
   warmUp: {
     questions: [
       'Think about a brand you have been loyal to for a long time. What keeps you coming back — the product, the price, the service, or the way they make you feel? Has the brand done anything specific to keep you?',
-      'Have you ever cancelled a subscription or stopped buying from a company? What made you leave — and did the company do anything to try to keep you or win you back?',
+      'Have you ever canceled a subscription or stopped buying from a company? What made you leave — and did the company do anything to try to keep you or win you back?',
       'If you were a customer of your own company or the company you work for, what would make you stay as a loyal customer for many years? And what would make you leave?',
     ],
   },
@@ -310,10 +310,10 @@ export const customerRetentionAndLoyalty: Lesson = {
         explanation: "'Targeted' — past participle used as an adjective to describe what kind of campaign this is. 'A targeted campaign' or 'the campaign is targeted at...' — 'targeted' describes the defining characteristic of the campaign. 'Targeting' (present participle) would work as part of a reduced relative clause: 'the campaign targeting customers who left' — but in the structure 'the campaign is _____ at', you need the adjective/past participle form. 'Targets' would be a verb in a separate clause: 'the campaign targets customers' — but in this sentence, it cannot follow 'is'.",
       },
       {
-        sentence: 'The loyalty programme _____ customers to buy more frequently by rewarding repeat purchases with increasing benefits.',
+        sentence: 'The loyalty program _____ customers to buy more frequently by rewarding repeat purchases with increasing benefits.',
         options: ['encourages', 'is encouraging', 'encouraged'],
         correctIndex: 0,
-        explanation: "Simple present ('encourages') describes how the programme works as a general truth or characteristic. 'The loyalty programme encourages customers...' — this is a present statement of how the programme functions. 'Is encouraging' (present continuous) would suggest a temporary or currently ongoing action — loyalty programmes are not temporary actions, they are ongoing systems described by simple present. 'Encouraged' (past simple) would describe a past, completed event — inappropriate for describing a current programme's designed function.",
+        explanation: "Simple present ('encourages') describes how the program works as a general truth or characteristic. 'The loyalty program encourages customers...' — this is a present statement of how the program functions. 'Is encouraging' (present continuous) would suggest a temporary or currently ongoing action — loyalty programs are not temporary actions, they are ongoing systems described by simple present. 'Encouraged' (past simple) would describe a past, completed event — inappropriate for describing a current program's designed function.",
       },
       {
         sentence: 'Re-engagement campaigns are different _____ win-back campaigns — one targets customers still with you, the other targets customers who have left.',
@@ -345,14 +345,14 @@ export const customerRetentionAndLoyalty: Lesson = {
           explanation: "Option B is correct — it identifies the diagnostic step that must come before any intervention. High churn has many possible causes (onboarding, product gaps, pricing, competition, wrong customer fit) and the intervention should match the cause. Option A jumps to a tactic (win-back) before understanding the problem — win-back is useful but it does not address why customers are leaving in the first place. Option C makes a product-market fit assumption without evidence — this may be true but it is too large a conclusion to draw without data.",
         },
         {
-          customerLine: "'We want to launch a loyalty programme. Should we use a points system?'",
+          customerLine: "'We want to launch a loyalty program. Should we use a points system?'",
           options: [
-            "Points systems are the most popular type of loyalty programme, so yes — customers are familiar with how they work and they are easy to manage.",
-            "Points systems work well for transaction-heavy businesses like retail or coffee shops where frequent small purchases make accumulating points feel rewarding. For B2B or less frequent purchase contexts, a tiered recognition programme based on relationship depth — access, status, co-creation — is often more powerful than points. The question to ask first is: what behaviour do you want the programme to reward, and what does your customer value most? The structure should follow the answer to those two questions, not the other way round.",
-            "Points systems are outdated. Modern loyalty programmes use community and exclusivity to drive loyalty.",
+            "Points systems are the most popular type of loyalty program, so yes — customers are familiar with how they work and they are easy to manage.",
+            "Points systems work well for transaction-heavy businesses like retail or coffee shops where frequent small purchases make accumulating points feel rewarding. For B2B or less frequent purchase contexts, a tiered recognition program based on relationship depth — access, status, co-creation — is often more powerful than points. The question to ask first is: what behavior do you want the program to reward, and what does your customer value most? The structure should follow the answer to those two questions, not the other way round.",
+            "Points systems are outdated. Modern loyalty programs use community and exclusivity to drive loyalty.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct — it starts from the strategic question (what behaviour and what the customer values) rather than prescribing a format. It also correctly identifies when points systems work well (high-frequency, transactional) versus when they do not. This is the kind of expert, context-sensitive answer that builds trust. Option A is lazy — 'most popular' is not a strategic rationale. Option C dismisses points systems as outdated — which is an overstatement — and does not provide a useful framework.",
+          explanation: "Option B is correct — it starts from the strategic question (what behavior and what the customer values) rather than prescribing a format. It also correctly identifies when points systems work well (high-frequency, transactional) versus when they do not. This is the kind of expert, context-sensitive answer that builds trust. Option A is lazy — 'most popular' is not a strategic rationale. Option C dismisses points systems as outdated — which is an overstatement — and does not provide a useful framework.",
         },
         {
           customerLine: "'Our NPS is 34. Is that good?'",
@@ -372,7 +372,7 @@ export const customerRetentionAndLoyalty: Lesson = {
         { speaker: 'Marcus', text: "Our monthly churn rate is 4.2% — significantly above the industry benchmark of 2.5%." },
         { speaker: 'Riley', text: "The main driver are weak onboarding — customers are not reaching a meaningful first result quickly enough." },
         { speaker: 'Dana', text: "Our NPS shows that Promoters and Detractors are split almost entirely by onboarding completion." },
-        { speaker: 'Marcus', text: "If we improve the onboarding programme, we should see both churn and NPS improve simultaneous." },
+        { speaker: 'Marcus', text: "If we improve the onboarding program, we should see both churn and NPS improve simultaneous." },
         { speaker: 'Riley', text: "We are also planning to run a re-engagement campaign for the 600 customers who has not logged in for 45 days." },
         { speaker: 'Dana', text: "And a win-back campaign for the 300 churned customers whose reason for leaving we can address." },
       ],
@@ -411,9 +411,9 @@ export const customerRetentionAndLoyalty: Lesson = {
           suggestedCompletion: "and we wanted to reach out, not to sell you something, but to make sure you are getting the value from your account that you signed up for. In the last 45 days, three features that are particularly relevant to what you were trying to achieve have been updated — we think they will make a real difference, and we would love to show you how in a 15-minute call or a quick walkthrough.",
         },
         {
-          customerLine: "How do you design a loyalty programme that creates genuine emotional loyalty rather than just transactional loyalty?",
+          customerLine: "How do you design a loyalty program that creates genuine emotional loyalty rather than just transactional loyalty?",
           salespersonStart: "The difference between emotional and transactional loyalty is whether the customer would miss you if you were gone —",
-          suggestedCompletion: "or whether they would just move to the next points programme without thinking twice. Transactional loyalty is driven by discounts, points, and incentives. Emotional loyalty is driven by recognition, belonging, and the sense that the brand sees you as an individual rather than a customer number. To design for emotional loyalty, the rewards should feel like recognition: early access to new things before the public, an invitation to co-create, a named case study that makes the customer feel valued and visible. The loyalty programme should make customers feel like insiders, not just buyers. That is the difference between a programme they tell their colleagues about and one they use mechanically.",
+          suggestedCompletion: "or whether they would just move to the next points program without thinking twice. Transactional loyalty is driven by discounts, points, and incentives. Emotional loyalty is driven by recognition, belonging, and the sense that the brand sees you as an individual rather than a customer number. To design for emotional loyalty, the rewards should feel like recognition: early access to new things before the public, an invitation to co-create, a named case study that makes the customer feel valued and visible. The loyalty program should make customers feel like insiders, not just buyers. That is the difference between a program they tell their colleagues about and one they use mechanically.",
         },
       ],
     },

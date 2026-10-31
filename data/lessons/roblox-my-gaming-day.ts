@@ -79,7 +79,7 @@ export const robloxMyGamingDay: Lesson = {
       word: 'SESSION',
       partOfSpeech: 'noun',
       definition: "A period of time doing one thing — like a gaming session or a sports session.",
-      example: "We had a two-hour maths session this afternoon — my brain is completely tired!",
+      example: "We had a two-hour math session this afternoon — my brain is completely tired!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-session-irl.png',
     },
     {
@@ -140,7 +140,7 @@ export const robloxMyGamingDay: Lesson = {
       definition: "Once you finish one thing, you do this — it comes next in your routine.",
       example: "I finish my homework. After that, I log in and play for one hour.",
       inGame: "I collect my daily reward. After that, I join my squad and we play together.",
-      inRealLife: "I finish my homework. After that, I watch one episode of my favourite show.",
+      inRealLife: "I finish my homework. After that, I watch one episode of my favorite show.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-after-that.png',
     },
     {
@@ -214,7 +214,7 @@ export const robloxMyGamingDay: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "That is a great habit. It is the same in real life — a good [[routine:your regular daily pattern]] helps you feel organised and less stressed.",
+      text: "That is a great habit. It is the same in real life — a good [[routine:your regular daily pattern]] helps you feel organized and less stressed.",
     },
     {
       speaker: 'Mario',

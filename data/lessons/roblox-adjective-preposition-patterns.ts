@@ -10,7 +10,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
 
   grammarFocus: {
     focusTitle: 'Focus: Adjective + Preposition — fixed pairs',
-    description: "Some adjectives always go with a specific preposition. These are fixed pairs — you cannot swap the preposition for a different one. For example: GOOD AT (not GOOD IN), INTERESTED IN (not INTERESTED AT). You have to memorise these pairs because there is no rule that tells you which preposition to use.",
+    description: "Some adjectives always go with a specific preposition. These are fixed pairs — you cannot swap the preposition for a different one. For example: GOOD AT (not GOOD IN), INTERESTED IN (not INTERESTED AT). You have to memorize these pairs because there is no rule that tells you which preposition to use.",
     positivePattern: 'ADJECTIVE + fixed preposition + noun / -ing verb',
     positiveExample: '"She is good AT building."',
     negativePattern: 'Do NOT swap the preposition for a different one',
@@ -49,8 +49,8 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       word: 'FAMOUS FOR',
       partOfSpeech: 'phrase',
-      definition: "Known and recognised by others specifically because of something.",
-      example: "That guild is famous for its incredibly organised strategies — every player knows their exact role.",
+      definition: "Known and recognized by others specifically because of something.",
+      example: "That guild is famous for its incredibly organized strategies — every player knows their exact role.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-famous-for.png',
     },
     {
@@ -108,7 +108,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       word: 'FAMOUS FOR',
       partOfSpeech: 'phrase',
-      definition: "Widely known and recognised because of a specific quality, product, or achievement.",
+      definition: "Widely known and recognized because of a specific quality, product, or achievement.",
       example: "That company is famous for its rapid promotion pathways and strong internal culture.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-famous-for-irl.png',
     },
@@ -183,11 +183,11 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
       imageSlug: '/images/roblox-adjective-preposition-patterns-rely-on.png',
     },
     {
-      phrase: "SPECIALISE IN",
+      phrase: "SPECIALIZE IN",
       definition: "Put all your effort into one area to become really good at it.",
-      example: "He specialises in stealth-based builds — if you need a player who can infiltrate undetected, he is your person.",
-      inGame: "Specialise in one playstyle first and master it before learning a second — spreading too thin is a mistake.",
-      inRealLife: "She decided to specialise in employment law after her first year at the firm — it was clearly her strength.",
+      example: "He specializes in stealth-based builds — if you need a player who can infiltrate undetected, he is your person.",
+      inGame: "Specialize in one playstyle first and master it before learning a second — spreading too thin is a mistake.",
+      inRealLife: "She decided to specialize in employment law after her first year at the firm — it was clearly her strength.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-specialise-in.png',
     },
     {
@@ -231,7 +231,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Good point. Are you [[aware of:knowing about something]] that guild from the eastern region? They are [[famous for:known and recognised because of something]] switching strategies mid-match to keep opponents off balance.",
+      text: "Good point. Are you [[aware of:knowing about something]] that guild from the eastern region? They are [[famous for:known and recognized because of something]] switching strategies mid-match to keep opponents off balance.",
     },
     {
       speaker: 'Mario',
@@ -249,7 +249,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Agreed. Kai will be helpful here — he specialises in defensive structures and we need someone who can build a solid fallback plan.",
+      text: "Agreed. Kai will be helpful here — he specializes in defensive structures and we need someone who can build a solid fallback plan.",
     },
     {
       speaker: 'Mia',
@@ -281,7 +281,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
         explanation: "EXCITED ABOUT is the fixed pattern — you feel excited about something. EXCITED FOR is used informally in American English for another person's event, but the standard collocation for things is ABOUT.",
       },
       {
-        sentence: "That guild is famous _____ its perfectly organised strategies — every player knows their role.",
+        sentence: "That guild is famous _____ its perfectly organized strategies — every player knows their role.",
         options: ["for", "of", "about"],
         correctIndex: 0,
         explanation: "FAMOUS FOR is the fixed pattern — you are famous for a quality or achievement. FAMOUS OF and FAMOUS ABOUT are not standard collocations. Always: famous FOR + the thing you are known for.",
@@ -310,7 +310,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
   matchingExercise: [
     { word: 'GOOD AT', definition: 'Skilled or talented in a particular activity' },
     { word: 'INTERESTED IN', definition: 'Having curiosity or enthusiasm about something' },
-    { word: 'FAMOUS FOR', definition: 'Known and recognised because of a specific quality' },
+    { word: 'FAMOUS FOR', definition: 'Known and recognized because of a specific quality' },
     { word: 'BORED OF', definition: 'Tired of something — no longer engaged or interested' },
     { word: 'EXCITED ABOUT', definition: 'Feeling enthusiasm and anticipation about something' },
     { word: 'WORRIED ABOUT', definition: 'Feeling anxious or concerned that something might go wrong' },
@@ -321,7 +321,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
   fillBlankExercise: [
     { before: "Mia is exceptionally good", answer: 'at', after: "long-range combat — her accuracy is in the top five percent." },
     { before: "He is not particularly interested", answer: 'in', after: "ranked mode — he prefers exploration and building servers." },
-    { before: "That guild is famous", answer: 'for', after: "its perfectly organised strategies — every player knows their role." },
+    { before: "That guild is famous", answer: 'for', after: "its perfectly organized strategies — every player knows their role." },
     { before: "I am getting bored", answer: 'of', after: "this map — we have played it every day for three weeks." },
     { before: "The whole team is excited", answer: 'about', after: "the new season — the reward system looks completely different." },
     { before: "I am a little worried", answer: 'about', after: "our strategy for the finals — we have never tested it under real pressure." },
@@ -334,7 +334,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
       question: "Why is it important to learn adjective + preposition patterns as fixed phrases?",
       options: [
         "Because you can always guess the correct preposition from the meaning.",
-        "Because these patterns do not follow a logical rule — they must be memorised.",
+        "Because these patterns do not follow a logical rule — they must be memorized.",
         "Because the preposition changes depending on whether you use a noun or a verb.",
         "Because the preposition is always chosen based on the vowel sound that follows.",
       ],
@@ -371,12 +371,12 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "Which sentence uses SPECIALISE IN correctly?",
+      question: "Which sentence uses SPECIALIZE IN correctly?",
       options: [
-        "She specialises at stealth-based builds and is the best infiltrator in the guild.",
-        "He specialises about defensive strategy — he has studied it for two years.",
-        "They specialise in long-range combat and rarely engage in close-quarter fights.",
-        "I specialise for healing — it is the role I always play in team matches.",
+        "She specializes at stealth-based builds and is the best infiltrator in the guild.",
+        "He specializes about defensive strategy — he has studied it for two years.",
+        "They specialize in long-range combat and rarely engage in close-quarter fights.",
+        "I specialize for healing — it is the role I always play in team matches.",
       ],
       correctIndex: 2,
     },

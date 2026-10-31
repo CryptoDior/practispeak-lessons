@@ -32,7 +32,7 @@ export const conversationC1UnexpectedProblems: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'How do you handle unexpected problems?', tag: 'phrase', definition: 'Ask how someone responds when things don\'t go to plan.', example: '"In interviews they often ask: how do you handle unexpected problems?"', imageSlug: img('interview-problem-question') },
-    { phrase: 'I try not to react impulsively.', tag: 'phrase', definition: 'You avoid responding too quickly without thinking.', example: '"When the client cancelled, I try not to react impulsively."', imageSlug: img('client-cancels-calm-pause') },
+    { phrase: 'I try not to react impulsively.', tag: 'phrase', definition: 'You avoid responding too quickly without thinking.', example: '"When the client canceled, I try not to react impulsively."', imageSlug: img('client-cancels-calm-pause') },
     { phrase: "I focus on what's within my control.", tag: 'phrase', definition: 'You concentrate on the parts you can influence.', example: '"I can\'t stop the strike, so I focus on what\'s within my control."', imageSlug: img('strike-controllable-options') },
     { phrase: 'I try to stay composed under pressure.', tag: 'phrase', definition: 'You remain calm when things become stressful.', example: '"The team looks to me, so I try to stay composed under pressure."', imageSlug: img('calm-team-under-pressure') },
     { phrase: 'I ask for input when I need another perspective.', tag: 'phrase', definition: 'You seek advice when you need clarity.', example: '"I\'m not too proud to ask: I ask for input when I need another perspective."', imageSlug: img('ask-another-perspective') },
@@ -42,7 +42,7 @@ export const conversationC1UnexpectedProblems: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oliver, I heard the venue for the conference cancelled yesterday. How did you handle it?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oliver, I heard the venue for the conference canceled yesterday. How did you handle it?" },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "My first instinct was to panic, to be honest. But I tried not to react [[impulsively:quickly without thinking]]." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That's not easy with 200 guests coming." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "No. I paused and [[assessed:evaluated carefully]] the situation first. Then I focused on what was within my control: the date, the budget, the guest list." },
@@ -95,7 +95,7 @@ export const conversationC1UnexpectedProblems: Lesson = {
     { question: 'What is "composure"?', options: ['Writing music', 'The ability to stay calm under stress', 'A type of plan', 'Anger'], correctIndex: 1 },
     { question: 'Which phrase reframes a problem positively?', options: ['Everything is ruined.', 'I treat setbacks as information, not failure.', "It's not my fault.", 'I give up.'], correctIndex: 1 },
     { question: 'What does "pragmatic" mean?', options: ['Idealistic', 'Practical and realistic', 'Emotional', 'Slow'], correctIndex: 1 },
-    { question: 'In the dialogue, what problem did Oliver face?', options: ['The speaker was ill', 'The conference venue cancelled', 'The budget was cut', 'Guests didn\'t come'], correctIndex: 1 },
+    { question: 'In the dialogue, what problem did Oliver face?', options: ['The speaker was ill', 'The conference venue canceled', 'The budget was cut', 'Guests didn\'t come'], correctIndex: 1 },
     { question: 'What will Oliver always do in future?', options: ['Cancel conferences', 'Book a backup venue', 'Hire more staff', 'Work alone'], correctIndex: 1 },
   ],
 };

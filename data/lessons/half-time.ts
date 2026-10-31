@@ -26,7 +26,7 @@ export const halfTime: Lesson = {
     {
       word: 'NIL',
       partOfSpeech: 'noun',
-      definition: 'Zero — used for goals in a football score.',
+      definition: 'Zero — used for goals in a football score. (US: zero)',
       example: 'The score is two-nil — the home team is winning.',
       imageSlug: '/images/nil.png',
     },

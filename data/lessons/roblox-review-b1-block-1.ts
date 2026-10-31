@@ -3,7 +3,7 @@ import { Lesson } from '@/types/lesson';
 export const robloxReviewB1Block1: Lesson = {
   slug: 'roblox-review-b1-block-1',
   title: "Review: B1 Block 1",
-  subtitle: "You've dodged, levelled up, and mastered conditionals — now bring it all together!",
+  subtitle: "You've dodged, leveled up, and mastered conditionals — now bring it all together!",
   level: 'B1-B2',
   description: "This review lesson brings together everything from Block 1 — modal verbs, present perfect, experience adjectives, prepositions, phrasal verbs, conditionals, adverbs, and question formation. Use the dialogue, exercises, and vocab review to check how much you have mastered and spot any gaps.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-1-hero.png?v=2',
@@ -26,7 +26,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       word: 'MASTERED',
       partOfSpeech: 'verb',
-      definition: "Practised a skill until you can do it perfectly every time. (Past participle: use with 'have/has'.)",
+      definition: "Practiced a skill until you can do it perfectly every time. (Past participle: use with 'have/has'.)",
       example: "I have mastered the ice level — I complete it perfectly every single time now.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-1-in-game-mastered.png',
     },
@@ -48,7 +48,7 @@ export const robloxReviewB1Block1: Lesson = {
       word: 'LEVEL UP',
       partOfSpeech: 'phrasal verb',
       definition: "Advance to the next level — improve your rank, stats, or character as a reward for progress.",
-      example: "She levelled up three times in one session — the XP rewards on that map are incredible.",
+      example: "She leveled up three times in one session — the XP rewards on that map are incredible.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-1-in-game-level-up.png',
     },
     {
@@ -107,7 +107,7 @@ export const robloxReviewB1Block1: Lesson = {
       word: 'LEVEL UP',
       partOfSpeech: 'phrasal verb',
       definition: "(Informal) Improve clearly in skill or quality — reach a new, higher level.",
-      example: "She levelled up her public speaking this year — she now presents to the whole board.",
+      example: "She leveled up her public speaking this year — she now presents to the whole board.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-1-irl-level-up.png',
     },
     {
@@ -169,7 +169,7 @@ export const robloxReviewB1Block1: Lesson = {
     },
     {
       phrase: "PICK UP",
-      definition: "Learn something naturally — often without realising you are learning it.",
+      definition: "Learn something naturally — often without realizing you are learning it.",
       example: "I picked up most of these vocabulary words just by playing and paying attention to context.",
       inGame: "You pick up the mechanics of a new game much faster if you play with people who are better than you.",
       inRealLife: "She picked up a few words of Portuguese on her trip — enough to get by in shops and restaurants.",
@@ -196,7 +196,7 @@ export const robloxReviewB1Block1: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "The servers have been [[constantly:all the time, without stopping]] lagging this week — but even with that, I have [[levelled up:advanced to a higher rank]] twice in PvP.",
+      text: "The servers have been [[constantly:all the time, without stopping]] lagging this week — but even with that, I have [[leveled up:advanced to a higher rank]] twice in PvP.",
     },
     {
       speaker: 'Mia',
@@ -258,7 +258,7 @@ export const robloxReviewB1Block1: Lesson = {
         explanation: "Beaten is the past participle of beat. Present perfect = have/has + past participle. Beat is the simple past form. Beating is the present participle. 'Have never beaten' is the correct present perfect form. (Lesson 3: Present Perfect)",
       },
       {
-        sentence: "The game is so _____ that I played for five hours without realising how much time had passed.",
+        sentence: "The game is so _____ that I played for five hours without realizing how much time had passed.",
         options: ["repetitive", "immersive", "frustrating"],
         correctIndex: 1,
         explanation: "Immersive means pulling you so completely into an experience that you lose track of time. Repetitive means doing the same thing again and again. Frustrating means difficult and annoying. Losing track of time because you are absorbed = immersive. (Lesson 4: Adjectives)",
@@ -286,7 +286,7 @@ export const robloxReviewB1Block1: Lesson = {
 
   matchingExercise: [
     { word: 'MUST NOT', definition: 'Completely forbidden under any circumstances' },
-    { word: 'MASTERED', definition: 'Practised a skill until you can perform it with complete control' },
+    { word: 'MASTERED', definition: 'Practiced a skill until you can perform it with complete control' },
     { word: 'IMMERSIVE', definition: 'Pulls you so completely into the experience you forget the real world' },
     { word: 'BEYOND', definition: 'On the other side of something — further than a boundary or landmark' },
     { word: 'LEVEL UP', definition: 'Advance to the next stage — improve your rank or character' },
@@ -300,7 +300,7 @@ export const robloxReviewB1Block1: Lesson = {
     { before: "I have finally", after: "the ice level — I complete it perfectly without falling once now.", answer: 'mastered' },
     { before: "This game is so", after: "that I played for six hours without once looking up.", answer: 'immersive' },
     { before: "The legendary chest is", after: "the lava zone — you need fireproof boots to reach it.", answer: 'beyond' },
-    { before: "I", after: "three times in one session — the XP rewards on that map are incredible.", answer: 'levelled up' },
+    { before: "I", after: "three times in one session — the XP rewards on that map are incredible.", answer: 'leveled up' },
     { before: "You can stay in the guild", after: "you contribute to at least two raids per month.", answer: 'as long as' },
     { before: "The server is", after: "crashing this week — the developers must be pushing a major update.", answer: 'constantly' },
     { before: "I", after: "complete the tutorial before I can access the main map — it is a hard requirement.", answer: 'have to' },
@@ -310,7 +310,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       question: "Which of the following is the correct present perfect structure?",
       options: [
-        "I have unlock the legendary armour.",
+        "I have unlock the legendary armor.",
         "She has beaten the final boss after twenty attempts.",
         "They have complete the main questline yesterday.",
         "He have mastered the ice level last week.",
@@ -360,7 +360,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       question: "Which of these is a correct second conditional sentence?",
       options: [
-        "If I have more time, I would practise every day.",
+        "If I have more time, I would practice every day.",
         "If she studied tonight, she will pass the test.",
         "If we had better equipment, we could reach the top ten.",
         "If you will log in before noon, you get the bonus.",

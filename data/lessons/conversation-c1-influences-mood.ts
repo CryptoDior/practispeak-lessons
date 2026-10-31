@@ -32,11 +32,11 @@ export const conversationC1InfluencesMood: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'What influences your mood the most?', tag: 'phrase', definition: 'A reflective question about emotional triggers.', example: '"Honestly, what influences your mood the most?"', imageSlug: img('mood-question') },
-    { phrase: 'My environment affects me more than I realise.', tag: 'phrase', definition: 'Your surroundings strongly influence your emotions.', example: '"A messy desk ruins my focus. My environment affects me more than I realise."', imageSlug: img('messy-desk-focus') },
+    { phrase: 'My environment affects me more than I realize.', tag: 'phrase', definition: 'Your surroundings strongly influence your emotions.', example: '"A messy desk ruins my focus. My environment affects me more than I realize."', imageSlug: img('messy-desk-focus') },
     { phrase: 'The people I interact with can completely shift my mood.', tag: 'phrase', definition: 'Social interactions strongly affect how you feel.', example: '"One negative meeting shows it: the people I interact with can completely shift my mood."', imageSlug: img('negative-meeting-shift') },
     { phrase: 'Lack of rest tends to affect my mindset quickly.', tag: 'phrase', definition: 'Poor sleep changes your emotional balance.', example: '"After two bad nights, lack of rest tends to affect my mindset quickly."', imageSlug: img('two-bad-nights') },
     { phrase: "I've noticed that overstimulation drains me.", tag: 'phrase', definition: 'Too much noise or information exhausts you.', example: '"Open-plan offices are hard. I\'ve noticed that overstimulation drains me."', imageSlug: img('open-plan-drained') },
-    { phrase: 'I try to protect my mental space.', tag: 'phrase', definition: 'You consciously avoid emotional exhaustion.', example: '"I mute group chats in the evening. I try to protect my mental space."', inAction: 'Phrases like "tends to", "I\'ve noticed that…" and "more than I realise" show careful self-observation rather than absolute statements.', imageSlug: img('mute-evening-groups') },
+    { phrase: 'I try to protect my mental space.', tag: 'phrase', definition: 'You consciously avoid emotional exhaustion.', example: '"I mute group chats in the evening. I try to protect my mental space."', inAction: 'Phrases like "tends to", "I\'ve noticed that…" and "more than I realize" show careful self-observation rather than absolute statements.', imageSlug: img('mute-evening-groups') },
   ],
 
   videos: [],
@@ -45,7 +45,7 @@ export const conversationC1InfluencesMood: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Rosie, can I ask you something? What influences your mood the most?" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good question. Sleep, definitely. Lack of rest tends to affect my [[mindset:way of thinking]] quickly — I become [[irritable:easily annoyed]]." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Same. For me, it's noise. After the trade fair I felt completely [[overstimulated:overloaded by too much input]]." },
-    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I understand. My environment affects me more than I realise. A calm [[atmosphere:feeling of a place]] at home really helps." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I understand. My environment affects me more than I realize. A calm [[atmosphere:feeling of a place]] at home really helps." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "And people? I'm quite [[sensitive to:strongly affected by]] other people's moods." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Absolutely. The people I interact with can completely shift my mood. After a difficult call, I feel [[emotionally drained:mentally exhausted]] for hours." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Have you identified your main [[triggers:something causing a strong reaction]]?" },

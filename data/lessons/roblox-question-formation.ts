@@ -107,7 +107,7 @@ export const robloxQuestionFormation: Lesson = {
       word: 'WHY',
       partOfSpeech: 'adverb',
       definition: "Asks for a reason — why something happened.",
-      example: "Why was the meeting cancelled? Nobody sent an explanation email to the team.",
+      example: "Why was the meeting canceled? Nobody sent an explanation email to the team.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-question-formation-irl-why.png',
     },
     {
@@ -184,7 +184,7 @@ export const robloxQuestionFormation: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Mario, I am putting together a gaming survey for school. Can I practise the questions on you?",
+      text: "Mario, I am putting together a gaming survey for school. Can I practice the questions on you?",
     },
     {
       speaker: 'Mario',

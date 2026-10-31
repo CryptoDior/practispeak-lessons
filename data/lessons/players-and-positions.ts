@@ -35,7 +35,7 @@ export const playersAndPositions: Lesson = {
     {
       word: 'STRIKER',
       partOfSpeech: 'noun',
-      definition: 'A player whose job is to score goals.',
+      definition: 'A player whose job is to score goals. (US: forward)',
       example: 'Ronaldo is the striker — he scored twice today.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/striker.png',
     },

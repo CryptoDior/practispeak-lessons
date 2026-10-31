@@ -137,7 +137,7 @@ export const schedulingASalesMeeting: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Absolutely — let's put Tuesday at 10am as tentative. Let me check my [[calendar:a system for organising and tracking scheduled events]] as well. Yes, that works perfectly on my side.",
+      text: "Absolutely — let's put Tuesday at 10am as tentative. Let me check my [[calendar:a system for organizing and tracking scheduled events]] as well. Yes, that works perfectly on my side.",
     },
     {
       speaker: 'Marcus',
@@ -191,7 +191,7 @@ export const schedulingASalesMeeting: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Great. Let's [[confirm:to officially agree and finalise a meeting]] it as Tuesday at 10am then. Sarah has just messaged — she's available.",
+      text: "Great. Let's [[confirm:to officially agree and finalize a meeting]] it as Tuesday at 10am then. Sarah has just messaged — she's available.",
     },
     {
       speaker: 'Riley',
@@ -224,7 +224,7 @@ export const schedulingASalesMeeting: Lesson = {
     },
     {
         "word": "confirm",
-        "definition": "to officially agree and finalise a meeting"
+        "definition": "to officially agree and finalize a meeting"
     },
     {
         "word": "duration",
@@ -333,7 +333,7 @@ export const schedulingASalesMeeting: Lesson = {
                 "spaces"
             ],
             "correctIndex": 1,
-            "explanation": "'Slots' is the professional word for specific time periods reserved in a calendar. It sounds more precise and business-like than 'times' or 'spaces'. In scheduling conversations, 'slot' signals that your calendar is organised and that each period has a purpose."
+            "explanation": "'Slots' is the professional word for specific time periods reserved in a calendar. It sounds more precise and business-like than 'times' or 'spaces'. In scheduling conversations, 'slot' signals that your calendar is organized and that each period has a purpose."
         },
         {
             "sentence": "Let's put Tuesday at 10am in as _____ for now — I'll confirm once I've spoken to my colleague.",

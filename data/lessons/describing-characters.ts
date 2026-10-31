@@ -92,10 +92,10 @@ export const describingCharacters: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/magical.png',
     },
     {
-      word: 'ARMOURED',
+      word: 'ARMORED',
       partOfSpeech: 'adjective',
       definition: 'Wearing protective metal or equipment.',
-      example: "The knight is ARMOURED — arrows can't hurt him easily.",
+      example: "The knight is ARMORED — arrows can't hurt him easily.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/armoured.png',
     },
     {
@@ -136,7 +136,7 @@ export const describingCharacters: Lesson = {
     {
       phrase: 'IS YOUR CHARACTER',
       definition: 'Use this to ask someone about their character.',
-      example: 'Is your character magical? Mine is armoured.',
+      example: 'Is your character magical? Mine is armored.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/is-your-character.png',
     },
     {
@@ -196,13 +196,13 @@ export const describingCharacters: Lesson = {
       speaker: 'Maya',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/maya-icon.png',
-      text: 'She is! She has a fire spell. But the boss — is it [[armoured:Wearing protective metal or equipment]]?',
+      text: 'She is! She has a fire spell. But the boss — is it [[armored:Wearing protective metal or equipment]]?',
     },
     {
       speaker: 'Leo',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
-      text: "It is [[armoured:Wearing protective metal or equipment]] on the front. But it isn't armoured on its back!",
+      text: "It is [[armored:Wearing protective metal or equipment]] on the front. But it isn't armored on its back!",
     },
     {
       speaker: 'Maya',
@@ -256,7 +256,7 @@ export const describingCharacters: Lesson = {
         "definition": "Has special powers or uses magic"
     },
     {
-        "word": "ARMOURED",
+        "word": "ARMORED",
         "definition": "Wearing protective equipment"
     },
     {
@@ -313,7 +313,7 @@ export const describingCharacters: Lesson = {
             "Small and fast.",
             "Big and dangerous.",
             "Friendly and magical.",
-            "Armoured and weak."
+            "Armored and weak."
         ],
         "correctIndex": 1
     },
@@ -330,7 +330,7 @@ export const describingCharacters: Lesson = {
     {
         "question": "Why is Maya's character good for fighting this boss?",
         "options": [
-            "She is big and armoured.",
+            "She is big and armored.",
             "She is small, fast, and magical.",
             "She is strong and dangerous.",
             "She is tall and friendly."
@@ -338,7 +338,7 @@ export const describingCharacters: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "Where is the boss NOT armoured?",
+        "question": "Where is the boss NOT armored?",
         "options": [
             "On its head.",
             "On its arms.",
@@ -351,7 +351,7 @@ export const describingCharacters: Lesson = {
         "question": "What is Maya's plan to beat the boss?",
         "options": [
             "Run away and get more HP.",
-            "Use armour to block its attacks.",
+            "Use armor to block its attacks.",
             "Attack from behind using her magic.",
             "Ask Leo to fight it for her."
         ],
@@ -362,7 +362,7 @@ export const describingCharacters: Lesson = {
         "options": [
             "The boss isn't impossible.",
             "The boss isn't fast.",
-            "It isn't armoured on its back.",
+            "It isn't armored on its back.",
             "All three are correct."
         ],
         "correctIndex": 3

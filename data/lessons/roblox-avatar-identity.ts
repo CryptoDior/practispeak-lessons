@@ -67,7 +67,7 @@ export const robloxAvatarIdentity: Lesson = {
     {
       word: 'CUSTOMIZE',
       partOfSpeech: 'verb',
-      definition: 'Change how your avatar looks — pick the hair, clothes, and colours you like!',
+      definition: 'Change how your avatar looks — pick the hair, clothes, and colors you like!',
       example: 'You can customize your avatar in the Avatar Editor before you play.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-avatar-identity-customize.png',
     },
@@ -93,7 +93,7 @@ export const robloxAvatarIdentity: Lesson = {
       word: 'CHARACTER',
       partOfSpeech: 'noun',
       definition: 'A person in a book, film, or TV show — like a hero, a wizard, or a funny friend.',
-      example: 'Harry Potter is my favourite character. He is brave and funny.',
+      example: 'Harry Potter is my favorite character. He is brave and funny.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-avatar-identity-character-irl.png',
     },
     {
@@ -127,7 +127,7 @@ export const robloxAvatarIdentity: Lesson = {
     {
       word: 'CUSTOMIZE',
       partOfSpeech: 'verb',
-      definition: 'Change how something looks so it feels like yours — you pick the colours and style!',
+      definition: 'Change how something looks so it feels like yours — you pick the colors and style!',
       example: 'I customized my school bag with stickers and a keyring.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-avatar-identity-customize-irl.png',
     },
@@ -184,8 +184,8 @@ export const robloxAvatarIdentity: Lesson = {
     {
       phrase: 'MY PROFILE SHOWS',
       definition: 'How you describe what is on your personal page.',
-      example: 'My profile shows all my badges and my favourite games.',
-      inGame: 'My profile shows all my badges and my favourite games.',
+      example: 'My profile shows all my badges and my favorite games.',
+      inGame: 'My profile shows all my badges and my favorite games.',
       inRealLife: 'My profile shows my name, photo, and school.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-avatar-identity-my-profile-shows.png',
     },
@@ -271,11 +271,11 @@ export const robloxAvatarIdentity: Lesson = {
     { before: 'My', after: 'is MiaRockets — search for me on Roblox!', answer: 'username' },
     { before: 'I love your', after: '— that jacket looks amazing on your avatar!', answer: 'outfit' },
     { before: 'You can', after: 'your avatar with new hair, clothes, and accessories.', answer: 'customize' },
-    { before: 'Click on my', after: 'to see all my badges and favourite games.', answer: 'profile' },
+    { before: 'Click on my', after: 'to see all my badges and favorite games.', answer: 'profile' },
     { before: 'My', after: 'is "Mia" so it is easy for friends to find me in the game.', answer: 'display name' },
     { before: 'I added a cool hat', after: 'to my avatar. It looks great!', answer: 'accessory' },
     { before: 'Your', after: 'has blue hair and a red jacket — I love it!', answer: 'avatar' },
-    { before: 'Harry Potter is my favourite book', answer: 'character', after: '— he is brave and funny.' },
+    { before: 'Harry Potter is my favorite book', answer: 'character', after: '— he is brave and funny.' },
   ],
 
   multipleChoiceExercise: [

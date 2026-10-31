@@ -293,7 +293,7 @@ export const marketingDueDiligence: Lesson = {
         "sentence": "The _____ of their competitive position depends on price — but three new entrants are already cheaper.",
         "options": ["differentiation", "strength", "advantage"],
         "correctIndex": 0,
-        "explanation": "'Differentiation' is the specific marketing term for what makes a brand different from competitors — the unique reason to choose it. If a brand's differentiation is price, and competitors are now cheaper, the differentiation has been eroded. 'Strength' and 'advantage' describe the result of differentiation, not the specific strategy. Use 'differentiation' when analysing what makes a brand distinct."
+        "explanation": "'Differentiation' is the specific marketing term for what makes a brand different from competitors — the unique reason to choose it. If a brand's differentiation is price, and competitors are now cheaper, the differentiation has been eroded. 'Strength' and 'advantage' describe the result of differentiation, not the specific strategy. Use 'differentiation' when analyzing what makes a brand distinct."
       },
       {
         "sentence": "Our _____ is to proceed, but to renegotiate the valuation down by 15 to 20%.",
@@ -316,7 +316,7 @@ export const marketingDueDiligence: Lesson = {
             "It depends on the category. In some markets, awareness is the most valuable asset."
           ],
           "correctIndex": 1,
-          "explanation": "Option B gives a sophisticated analysis — it separates awareness from loyalty and uses specific data to explain the gap. This is exactly what due diligence should produce. Option A agrees without analysing the data. Option C hedges without adding insight."
+          "explanation": "Option B gives a sophisticated analysis — it separates awareness from loyalty and uses specific data to explain the gap. This is exactly what due diligence should produce. Option A agrees without analyzing the data. Option C hedges without adding insight."
         },
         {
           "customerLine": "The seller says the brand has significant intangible value. How do we quantify that?",

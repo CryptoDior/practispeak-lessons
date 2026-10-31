@@ -12,7 +12,7 @@ export const peopleAtTheClub: Lesson = {
     {
       word: 'MANAGER',
       partOfSpeech: 'noun',
-      definition: 'The person in charge of the team. They choose the players and the tactics.',
+      definition: 'The person in charge of the team. They choose the players and the tactics. (US: coach)',
       example: 'The manager made three substitutions at half time.',
       imageSlug: '/images/people-at-the-club-manager.png',
     },
@@ -54,7 +54,7 @@ export const peopleAtTheClub: Lesson = {
     {
       word: 'SUPPORTER',
       partOfSpeech: 'noun',
-      definition: 'A fan who goes to matches and cheers for their team.',
+      definition: 'A fan who goes to matches and cheers for their team. (US: fan)',
       example: 'Thousands of supporters travelled to the away match.',
       imageSlug: '/images/people-at-the-club-supporter.png',
     },
@@ -76,7 +76,7 @@ export const peopleAtTheClub: Lesson = {
     },
     {
       phrase: 'IN CHARGE OF THE MATCH',
-      definition: 'Responsible for making decisions during the game.',
+      definition: 'Responsible for making decisions during the game. (US: in charge of the game)',
       example: 'The referee is in charge of the match.',
       imageSlug: '/images/in-charge-of-the-match.png',
     },
@@ -88,7 +88,7 @@ export const peopleAtTheClub: Lesson = {
     },
     {
       phrase: 'ON THE TOUCHLINE',
-      definition: 'Standing on the side of the pitch, watching or coaching.',
+      definition: 'Standing on the side of the pitch, watching or coaching. (US: on the sideline)',
       example: 'The manager paced up and down on the touchline.',
       imageSlug: '/images/people-at-the-club-on-the-touchline.png',
     },

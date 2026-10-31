@@ -31,10 +31,10 @@ export const inventory: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/weapon.png',
     },
     {
-      word: 'ARMOUR',
+      word: 'ARMOR',
       partOfSpeech: 'noun',
       definition: 'Equipment that protects you and reduces the damage you take.',
-      example: 'My armour is broken — I need to repair it before the next boss fight.',
+      example: 'My armor is broken — I need to repair it before the next boss fight.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/armour.png',
     },
     {
@@ -90,7 +90,7 @@ export const inventory: Lesson = {
       word: 'UPGRADE',
       partOfSpeech: 'verb',
       definition: 'To improve an item to make it more powerful or effective.',
-      example: 'I need 50 iron to upgrade my armour to level three — do you have any?',
+      example: 'I need 50 iron to upgrade my armor to level three — do you have any?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/inventory-upgrade.png',
     },
   ],
@@ -111,7 +111,7 @@ export const inventory: Lesson = {
     {
       phrase: 'DO YOU HAVE ANY',
       definition: 'Use this to ask if someone has a particular item at all.',
-      example: 'Do you have any spare armour? Mine is almost broken.',
+      example: 'Do you have any spare armor? Mine is almost broken.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/do-you-have-any.png',
     },
     {
@@ -165,7 +165,7 @@ export const inventory: Lesson = {
       speaker: 'Alex',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
-      text: "I have enough ammo for now. But I need more [[armour:equipment that protects you]]. Mine is broken.",
+      text: "I have enough ammo for now. But I need more [[armor:equipment that protects you]]. Mine is broken.",
     },
     {
       speaker: 'Zara',
@@ -213,7 +213,7 @@ export const inventory: Lesson = {
   fillBlankExercise: [
     { before: 'My',        after: 'is full — I need to drop something.',              answer: 'inventory' },
     { before: 'I need to', after: 'this sword — it will do twice the damage.',         answer: 'upgrade' },
-    { before: '',          after: 'the new armour before you enter the dungeon.',       answer: 'equip' },
+    { before: '',          after: 'the new armor before you enter the dungeon.',       answer: 'equip' },
     { before: "I've run out of", after: '— I need to find bullets fast.',              answer: 'ammo' },
     { before: 'The boss dropped amazing', after: '— a legendary weapon and rare gems.', answer: 'loot' },
     { before: 'I can', after: 'a health potion if I have enough herbs.',               answer: 'craft' },
@@ -224,7 +224,7 @@ export const inventory: Lesson = {
   multipleChoiceExercise: [
     {
       question: 'Why does Alex ask Zara for potions?',
-      options: ['His inventory is full', "He's almost dead and has none left", 'He wants to sell them', 'He needs them to craft armour'],
+      options: ['His inventory is full', "He's almost dead and has none left", 'He wants to sell them', 'He needs them to craft armor'],
       correctIndex: 1,
     },
     {
@@ -238,7 +238,7 @@ export const inventory: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "What does Alex NOT have enough of to fully upgrade his armour?",
+      question: "What does Alex NOT have enough of to fully upgrade his armor?",
       options: ['Potions', 'Slots', 'Iron', 'Ammo'],
       correctIndex: 2,
     },

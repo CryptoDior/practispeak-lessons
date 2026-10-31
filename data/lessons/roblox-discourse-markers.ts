@@ -3,14 +3,14 @@ import { Lesson } from '@/types/lesson';
 export const robloxDiscourseMarkers: Lesson = {
   slug: 'roblox-discourse-markers',
   title: "Discourse Markers",
-  subtitle: "The words that hold an argument together — signalling what comes next so your listener always knows where you are.",
+  subtitle: "The words that hold an argument together — signaling what comes next so your listener always knows where you are.",
   level: 'B1-B2',
   description: "Discourse markers are words and phrases that guide your listener through your message. They signal structure: FIRSTLY and SECONDLY tell the listener a list is coming. HOWEVER signals that a contrasting idea follows. FURTHERMORE adds a new point to strengthen your argument. CONSEQUENTLY shows that one thing caused another. IN CONTRAST compares two opposite ideas. TO SUM UP tells the listener you are finishing. Without discourse markers, even a great argument can sound disorganised. With them, your message becomes clear, logical, and easy to follow.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-discourse-markers-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Discourse markers by function — adding, contrasting, sequencing, concluding',
-    description: "Group discourse markers by what they do. ADDING: furthermore, in addition, moreover, what is more. CONTRASTING: however, nevertheless, on the other hand, in contrast, that said. SEQUENCING: firstly / to begin with, secondly, finally / to conclude. CAUSE AND RESULT: consequently, as a result, therefore, for this reason. SUMMARISING: to sum up, in brief, overall, to conclude. Using the right marker for the right function makes your argument clear and logical.",
+    description: "Group discourse markers by what they do. ADDING: furthermore, in addition, moreover, what is more. CONTRASTING: however, nevertheless, on the other hand, in contrast, that said. SEQUENCING: firstly / to begin with, secondly, finally / to conclude. CAUSE AND RESULT: consequently, as a result, therefore, for this reason. SUMMARIZING: to sum up, in brief, overall, to conclude. Using the right marker for the right function makes your argument clear and logical.",
     positivePattern: 'Discourse marker + comma + [new clause] — or [sentence]. Discourse marker, [continuation]',
     positiveExample: '"The team\'s coordination improved. Furthermore, individual performance was stronger than last season."',
     negativePattern: 'Do NOT use the same marker repeatedly — vary them',
@@ -21,8 +21,8 @@ export const robloxDiscourseMarkers: Lesson = {
     positiveExamples: [
       { sentence: '"Firstly, communication improved significantly. Secondly, the team developed a clearer strategy. Finally, individual confidence grew as a result."', note: 'FIRSTLY / SECONDLY / FINALLY — sequence three equal points clearly' },
       { sentence: '"The plan seemed solid. However, it failed to account for the opponent\'s change of formation."', note: 'HOWEVER — signals a contrast or complication after a positive statement' },
-      { sentence: '"The team practised every day. As a result, their coordination in the final match was noticeably better."', note: 'AS A RESULT — signals a logical consequence of the previous statement' },
-      { sentence: '"Our guild tends to perform well in defence. In contrast, our attacking phase has consistently been the weaker area."', note: 'IN CONTRAST — compares two opposite points clearly and directly' },
+      { sentence: '"The team practiced every day. As a result, their coordination in the final match was noticeably better."', note: 'AS A RESULT — signals a logical consequence of the previous statement' },
+      { sentence: '"Our guild tends to perform well in defense. In contrast, our attacking phase has consistently been the weaker area."', note: 'IN CONTRAST — compares two opposite points clearly and directly' },
     ],
     negativeExamples: [
       { sentence: '"Also, it improved. Also, the results changed. Also, the team agreed." ✗', note: 'Repeating ALSO every time is weak. Use: furthermore, in addition, moreover, what is more — vary it.' },
@@ -153,7 +153,7 @@ export const robloxDiscourseMarkers: Lesson = {
       phrase: "MOVE ON TO",
       definition: "To go from one topic or point to the next — especially in a structured discussion or presentation.",
       example: "Now that we have discussed the defensive strategy, let's move on to the attacking phase for tomorrow's match.",
-      inGame: "When the post-match debrief starts going in circles, the best thing is to summarise and move on to the next point.",
+      inGame: "When the post-match debrief starts going in circles, the best thing is to summarize and move on to the next point.",
       inRealLife: "The chair moved on to the next agenda item after everyone had given their input on the budget question.",
       imageSlug: '/images/roblox-discourse-markers-move-on-to.png',
     },
@@ -201,7 +201,7 @@ export const robloxDiscourseMarkers: Lesson = {
 
   warmUp: {
     questions: [
-      "If you had to explain why your favourite game or team is good in three clear points, how would you connect those points in English?",
+      "If you had to explain why your favorite game or team is good in three clear points, how would you connect those points in English?",
       "Think of a time when someone explained something in a confusing way. What was missing — was it the logic, or the way the ideas were connected?",
       "Are discourse markers used in your language? Do you have words that mean 'furthermore', 'however', or 'consequently'? Are they used the same way?",
     ],
@@ -355,7 +355,7 @@ export const robloxDiscourseMarkers: Lesson = {
         "It adds another point that strengthens the previous statement.",
         "It introduces a contrasting or complicating idea after the previous statement.",
         "It shows that the previous statement caused the next one.",
-        "It signals that you are about to summarise your main points.",
+        "It signals that you are about to summarize your main points.",
       ],
       correctIndex: 1,
     },
@@ -385,7 +385,7 @@ export const robloxDiscourseMarkers: Lesson = {
         "When you want to add a point that makes the argument stronger.",
         "When you want to introduce a contrast between two different topics.",
         "When something positive happened despite a challenging or negative situation.",
-        "When you are summarising the main points at the end of an argument.",
+        "When you are summarizing the main points at the end of an argument.",
       ],
       correctIndex: 2,
     },
@@ -402,7 +402,7 @@ export const robloxDiscourseMarkers: Lesson = {
     {
       question: "What does WRAP UP mean?",
       options: [
-        "To organise and present multiple points in a clear order.",
+        "To organize and present multiple points in a clear order.",
         "To return to a topic that was discussed earlier in the conversation.",
         "To bring a discussion, meeting, or explanation to a close.",
         "To explain the cause of something that happened.",

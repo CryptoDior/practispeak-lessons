@@ -77,7 +77,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
       phrase: 'STAND OUT FROM [THE COMPETITION]',
       definition: 'To be different and easy to notice.',
-      example: 'Bright colours help us stand out from the competition.',
+      example: 'Bright colors help us stand out from the competition.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-stand-out-from-the-competition.png',
     },
     {
@@ -230,7 +230,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     },
     {
         "before": "The agency's brand",
-        "after": "is modern and professional — clean design, clear language, and a consistent colour palette.",
+        "after": "is modern and professional — clean design, clear language, and a consistent color palette.",
         "answer": "identity"
     },
     {
@@ -303,7 +303,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
         "question": "Why is 'tone' important for a brand?",
         "options": [
-            "It determines the colours and design of the brand.",
+            "It determines the colors and design of the brand.",
             "It shapes how the brand communicates — whether it sounds formal or informal, bold or calm — and this influences how people feel about the brand.",
             "It defines what products the brand sells.",
             "It is only important for social media, not for emails or events."
@@ -336,7 +336,7 @@ export const a1FinalProjectMyBrand: Lesson = {
             "Our brand stands for marketing — that is what we do.",
             "Our brand stands for clarity, trust, and results. Every interaction we have with clients should reflect those three things.",
             "Our brand stands for making money and growing the business.",
-            "Our brand stands for our logo and colour scheme."
+            "Our brand stands for our logo and color scheme."
         ],
         "correctIndex": 1
     }
@@ -389,7 +389,7 @@ export const a1FinalProjectMyBrand: Lesson = {
                 "message"
             ],
             "correctIndex": 2,
-            "explanation": "Message is the main idea or feeling that a brand wants to communicate. Value is a principle that guides behaviour. Tone is the communication style. The core message is the one sentence that summarises what you do and why it matters — it should be simple, clear, and memorable."
+            "explanation": "Message is the main idea or feeling that a brand wants to communicate. Value is a principle that guides behavior. Tone is the communication style. The core message is the one sentence that summarizes what you do and why it matters — it should be simple, clear, and memorable."
         },
         {
             "sentence": "We want to come across as professional and approachable — our _____ is confident but not cold.",
@@ -499,7 +499,7 @@ export const a1FinalProjectMyBrand: Lesson = {
         ]
     },
     "finishTheLine": {
-        "instructions": "This is your final speaking exercise. Use the templates below to present your own brand profile. Use language from this lesson and all your A1 lessons. Practise with a partner, then present to the group.",
+        "instructions": "This is your final speaking exercise. Use the templates below to present your own brand profile. Use language from this lesson and all your A1 lessons. Practice with a partner, then present to the group.",
         "items": [
             {
                 "customerLine": "Listener: 'Tell me about your brand in two minutes.'",

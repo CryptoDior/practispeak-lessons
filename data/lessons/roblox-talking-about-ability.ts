@@ -41,7 +41,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       word: 'SKILL',
       partOfSpeech: 'noun',
       definition: "Something you are good at because you did it many times.",
-      example: "Building is my best skill in Roblox — I practised every day for two months.",
+      example: "Building is my best skill in Roblox — I practiced every day for two months.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-about-ability-skill.png',
     },
     {
@@ -55,7 +55,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       word: 'BAD AT',
       partOfSpeech: 'phrase',
       definition: "You do not do this well — you need more practice.",
-      example: "I am bad at PvP right now — other players beat me very fast. I need to practise!",
+      example: "I am bad at PvP right now — other players beat me very fast. I need to practice!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-about-ability-bad-at.png',
     },
     {
@@ -107,7 +107,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       word: 'GOOD AT',
       partOfSpeech: 'phrase',
       definition: "You do this well — you have a lot of skill in this.",
-      example: "She is really good at maths — she gets top marks in every test.",
+      example: "She is really good at math — she gets top marks in every test.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-about-ability-good-at-irl.png',
     },
     {
@@ -160,11 +160,11 @@ export const robloxTalkingAboutAbility: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-about-ability-can-you-teach-me.png',
     },
     {
-      phrase: "KEEP PRACTISING!",
+      phrase: "KEEP PRACTICING!",
       definition: "Tell someone (or yourself) to do it more and more — you will get better!",
-      example: "Keep practising! You lost today but tomorrow you will be much better — do not stop!",
-      inGame: "Keep practising that jump — you almost got it! Ten more tries and you will do it.",
-      inRealLife: "Keep practising the piano — you are getting so much better every single week.",
+      example: "Keep practicing! You lost today but tomorrow you will be much better — do not stop!",
+      inGame: "Keep practicing that jump — you almost got it! Ten more tries and you will do it.",
+      inRealLife: "Keep practicing the piano — you are getting so much better every single week.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-about-ability-keep-practising.png',
     },
     {
@@ -172,7 +172,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       definition: "Say that you found the answer or the right way to do something on your own.",
       example: "I figured it out! I watched videos and tried many times — and now I can do it!",
       inGame: "I figured out how to beat that boss — you have to attack from the left side only.",
-      inRealLife: "I figured out the maths problem on my own — I did not need any help in the end.",
+      inRealLife: "I figured out the math problem on my own — I did not need any help in the end.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-about-ability-i-figured-it-out.png',
     },
   ],
@@ -190,7 +190,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Yes! I am [[good at:you do this well — you have a lot of skill]] building now. I [[couldn't:you were not able to do this in the past]] do it at all six months ago — but I practised every day!",
+      text: "Yes! I am [[good at:you do this well — you have a lot of skill]] building now. I [[couldn't:you were not able to do this in the past]] do it at all six months ago — but I practiced every day!",
     },
     {
       speaker: 'Mia',
@@ -220,7 +220,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "OK! I will keep practising. In real life I am [[good at:do this well]] drawing — [[can:am able to]] I use that to [[get better:do more than before]] at designing maps?",
+      text: "OK! I will keep practicing. In real life I am [[good at:do this well]] drawing — [[can:am able to]] I use that to [[get better:do more than before]] at designing maps?",
     },
     {
       speaker: 'Mario',
@@ -232,7 +232,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Ha! And I am [[bad at:not good at this — need more practice]] maths. But I am [[getting better:doing more and more well — I can do more than before]] — I practise every evening now.",
+      text: "Ha! And I am [[bad at:not good at this — need more practice]] math. But I am [[getting better:doing more and more well — I can do more than before]] — I practice every evening now.",
     },
     {
       speaker: 'Mario',
@@ -258,7 +258,7 @@ export const robloxTalkingAboutAbility: Lesson = {
     { before: "I", after: "code yet — but I am learning! I watch videos every day.", answer: "can't" },
     { before: "When I was new, I", after: "only make a small box. Now I build whole cities!", answer: 'could' },
     { before: "I", after: "win a single PvP game when I first started — now I win most!", answer: "couldn't" },
-    { before: "Building is my best", after: "— I practised every day for two months.", answer: 'skill' },
+    { before: "Building is my best", after: "— I practiced every day for two months.", answer: 'skill' },
     { before: "I am really", after: "racing games — I almost always finish in first place!", answer: 'good at' },
     { before: "I am", after: "PvP right now — other players beat me very fast.", answer: 'bad at' },
     { before: "I am", after: "better at building every week — my maps look so much nicer!", answer: 'getting' },
@@ -280,7 +280,7 @@ export const robloxTalkingAboutAbility: Lesson = {
       options: [
         "He was born knowing how to build — it was always easy.",
         "He watched one video and learned right away.",
-        "He practised every day for six months.",
+        "He practiced every day for six months.",
         "He paid someone to teach him in one day.",
       ],
       correctIndex: 2,

@@ -13,7 +13,7 @@ export const robloxReviewB2Block2: Lesson = {
       word: 'AHEAD OF THE CURVE',
       partOfSpeech: 'phrase',
       definition: "To know about or do something before most other people do — to be advanced compared to others. (From Lesson 11: Idioms II)",
-      example: "Mia was ahead of the curve on the new formation — she had been practising it for weeks before the rest of the guild heard about it.",
+      example: "Mia was ahead of the curve on the new formation — she had been practicing it for weeks before the rest of the guild heard about it.",
       imageSlug: '/images/roblox-review-b2-block-2-ahead-of-the-curve.png',
     },
     {
@@ -180,7 +180,7 @@ export const robloxReviewB2Block2: Lesson = {
   warmUp: {
     questions: [
       "Looking back at B2 Block 2 — which lesson was the most useful for you? Which language feels most natural to use already?",
-      "Is there anything from this block you are not yet confident about? What would help you practise it more?",
+      "Is there anything from this block you are not yet confident about? What would help you practice it more?",
       "Think about a real conversation or discussion you had recently. Were there moments where you could have used language from this block? What would you have said?",
     ],
   },
@@ -228,7 +228,7 @@ export const robloxReviewB2Block2: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "It was [[crucial:very important — something that really matters]]. And I used an IT-CLEFT to make it land: 'It's the left flank that they keep targeting — not the centre.' Everyone heard it.",
+      text: "It was [[crucial:very important — something that really matters]]. And I used an IT-CLEFT to make it land: 'It's the left flank that they keep targeting — not the center.' Everyone heard it.",
     },
     {
       speaker: 'Mario',
@@ -311,7 +311,7 @@ export const robloxReviewB2Block2: Lesson = {
     { before: "The", answer: 'turning point', after: "came when Mia identified the pattern in the opponent's movement — from that point on, the team's decisions were sharper." },
     { before: "Her performance in the semi-final was", answer: 'outstanding', after: "— three perfect rounds, zero errors, and a match-winning decision in the final sixty seconds." },
     { before: "After the argument, the two players sat down and", answer: 'cleared the air', after: "before the next match — which the team won convincingly." },
-    { before: "The team failed to adapt their defence in time.", answer: 'Consequently', after: ", the opponents scored twice from the same position in the space of four minutes." },
+    { before: "The team failed to adapt their defense in time.", answer: 'Consequently', after: ", the opponents scored twice from the same position in the space of four minutes." },
   ],
 
   multipleChoiceExercise: [
@@ -326,7 +326,7 @@ export const robloxReviewB2Block2: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "Which sentence uses a cleft structure correctly to emphasise a person?",
+      question: "Which sentence uses a cleft structure correctly to emphasize a person?",
       options: [
         "What Mia found was the pattern in round three.",
         "It was Mia that noticed the pattern first — not Mario.",
@@ -351,14 +351,14 @@ export const robloxReviewB2Block2: Lesson = {
         "To add a point that strengthens the previous statement.",
         "To show that something happened as a result of what was just said.",
         "To introduce a contrasting or complicating idea after the previous statement.",
-        "To signal that you are about to summarise your main points.",
+        "To signal that you are about to summarize your main points.",
       ],
       correctIndex: 2,
     },
     {
       question: "Which of these sentences shows CORRECT use of a past narrative tense combination?",
       options: [
-        "We were practising when I had seen the signal.",
+        "We were practicing when I had seen the signal.",
         "While I was watching the left side, the other team had already moved right.",
         "By the time we arrived, the match was starting already.",
         "She had been defending when she suddenly saw the pattern.",

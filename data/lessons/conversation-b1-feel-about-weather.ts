@@ -21,7 +21,7 @@ export const conversationB1FeelAboutWeather: Lesson = {
   ],
 
   vocabulary: [
-    { word: 'GLOOMY', partOfSpeech: 'adjective', definition: 'Dark, grey and a bit sad.', example: 'It feels a little gloomy today.', imageSlug: img('gloomy') },
+    { word: 'GLOOMY', partOfSpeech: 'adjective', definition: 'Dark, gray and a bit sad.', example: 'It feels a little gloomy today.', imageSlug: img('gloomy') },
     { word: 'HUMIDITY', partOfSpeech: 'noun', definition: 'Water in the air that makes it feel heavy and sticky.', example: 'The humidity is uncomfortable today.', imageSlug: img('humidity') },
     { word: 'BREEZE', partOfSpeech: 'noun', definition: 'A light, gentle wind.', example: 'I enjoyed the cool breeze yesterday.', imageSlug: img('breeze') },
     { word: 'WORSEN', partOfSpeech: 'verb', definition: 'To become worse.', example: 'The storm worsened overnight.', imageSlug: img('storm-worsen') },
@@ -73,7 +73,7 @@ export const conversationB1FeelAboutWeather: Lesson = {
   },
 
   matchingExercise: [
-    { word: 'GLOOMY', definition: 'Dark, grey and a bit sad' },
+    { word: 'GLOOMY', definition: 'Dark, gray and a bit sad' },
     { word: 'HUMIDITY', definition: 'Water in the air' },
     { word: 'BREEZE', definition: 'A light, gentle wind' },
     { word: 'WARM UP', definition: 'To become warmer' },
@@ -91,7 +91,7 @@ export const conversationB1FeelAboutWeather: Lesson = {
   ],
 
   multipleChoiceExercise: [
-    { question: 'What does "gloomy" mean?', options: ['Bright and sunny', 'Dark, grey and a bit sad', 'Very hot', 'Very windy'], correctIndex: 1 },
+    { question: 'What does "gloomy" mean?', options: ['Bright and sunny', 'Dark, gray and a bit sad', 'Very hot', 'Very windy'], correctIndex: 1 },
     { question: 'Which sentence is correct?', options: ['The rain makes me to feel relaxed.', 'The rain makes me feel relaxed.', 'The rain makes me feeling relaxed.', 'The rain make me relaxed feel.'], correctIndex: 1 },
     { question: 'What does "cool down" mean?', options: ['Become less hot', 'Become more popular', 'Become angry', 'Become windy'], correctIndex: 0 },
     { question: 'Which adverb means "a little"?', options: ['Extremely', 'Slightly', 'Mostly', 'Really'], correctIndex: 1 },

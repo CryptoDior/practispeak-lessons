@@ -48,7 +48,7 @@ export const theFourPs: Lesson = {
       word: 'PROMOTION',
       partOfSpeech: 'noun',
       definition: 'The activities used to tell people about a product and persuade them to buy it.',
-      example: 'Our promotion plan includes social media ads, email campaigns, and a referral programme.',
+      example: 'Our promotion plan includes social media ads, email campaigns, and a referral program.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-4-ps-promotion.png',
     },
     {
@@ -167,7 +167,7 @@ export const theFourPs: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'That is right. [[Promotion:the activities used to tell people about a product and persuade them to buy it]] covers everything we do to get the word out — social media, email campaigns, events, and our referral programme.',
+      text: 'That is right. [[Promotion:the activities used to tell people about a product and persuade them to buy it]] covers everything we do to get the word out — social media, email campaigns, events, and our referral program.',
     },
     {
       speaker: 'Dana',
@@ -251,7 +251,7 @@ export const theFourPs: Lesson = {
     },
     {
         "before": "Our",
-        "after": "plan includes social media ads, email campaigns, and a referral programme.",
+        "after": "plan includes social media ads, email campaigns, and a referral program.",
         "answer": "promotion"
     },
     {
@@ -385,11 +385,11 @@ export const theFourPs: Lesson = {
                 "customerLine": "How do you tell people about the product?",
                 "options": [
                     "We advertise.",
-                    "Our promotion includes LinkedIn ads, a weekly email to our client list, events, and a referral programme where existing clients get a discount for bringing in new ones.",
+                    "Our promotion includes LinkedIn ads, a weekly email to our client list, events, and a referral program where existing clients get a discount for bringing in new ones.",
                     "We use social media and other things."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It names all the promotion channels and even explains how the referral programme works. A and C are too vague."
+                "explanation": "B is correct. It names all the promotion channels and even explains how the referral program works. A and C are too vague."
             }
         ]
     },
@@ -416,7 +416,7 @@ export const theFourPs: Lesson = {
             {
                 "key": "promotion",
                 "label": "Promotion",
-                "description": "The company needs to invest in getting the word out — social media, ads, PR, or a referral programme. A great product is no use if nobody knows it exists."
+                "description": "The company needs to invest in getting the word out — social media, ads, PR, or a referral program. A great product is no use if nobody knows it exists."
             },
             {
                 "key": "pricing",

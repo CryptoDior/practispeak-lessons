@@ -179,7 +179,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "We need to define the scope more tightly before we sign anything. 'Ongoing marketing support' is a blank cheque for both sides. List every deliverable, every timeline, every process — and everything that is explicitly out of scope. That protects us and them.",
+      text: "We need to define the scope more tightly before we sign anything. 'Ongoing marketing support' is a blank check for both sides. List every deliverable, every timeline, every process — and everything that is explicitly out of scope. That protects us and them.",
     },
     {
       speaker: 'Marcus',

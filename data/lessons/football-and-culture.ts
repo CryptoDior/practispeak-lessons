@@ -68,7 +68,7 @@ export const footballAndCulture: Lesson = {
     {
       word: 'TERRACES',
       partOfSpeech: 'noun',
-      definition: 'The standing areas of older football grounds — synonymous with the traditional supporter experience before all-seater stadiums.',
+      definition: 'The standing areas of older football grounds — synonymous with the traditional supporter experience before all-seater stadiums. (US: bleachers)',
       example: '"Before the Taylor Report changed English football, the terraces were where the atmosphere was made — packed, loud, and often dangerous."',
       imageSlug: '/images/terraces.png',
     },

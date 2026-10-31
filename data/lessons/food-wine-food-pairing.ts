@@ -87,9 +87,9 @@ export const foodWineFoodPairing: Lesson = {
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Mushroom risotto. It's very [[creamy:soft and smooth like cream]]." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Then a Chardonnay — the rich [[texture:feel in the mouth]] matches the risotto. Or a light Pinot Noir; the earthy notes go well with mushrooms." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Not a big red like Cabernet?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "The strong [[tannins:dry, bitter feel in red wine]] would hide the delicate flavours. Save that for steak. If you open a red, [[decant:pour into another container for air]] it an hour before." },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "The strong [[tannins:dry, bitter feel in red wine]] would hide the delicate flavors. Save that for steak. If you open a red, [[decant:pour into another container for air]] it an hour before." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Great tip. And dessert is chocolate cake." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "A sweet port. The [[contrast:being different in a good way]] with the bitter chocolate is amazing. That's my favourite [[pairing:food and wine that go well together]]!" },
+    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "A sweet port. The [[contrast:being different in a good way]] with the bitter chocolate is amazing. That's my favorite [[pairing:food and wine that go well together]]!" },
   ],
 
   matchingExercise: [
@@ -112,7 +112,7 @@ export const foodWineFoodPairing: Lesson = {
 
   multipleChoiceExercise: [
     { question: 'What does "complement" mean in food pairing?', options: ['To say something nice', 'To go well with something', 'To be very different', 'To cook'], correctIndex: 1 },
-    { question: 'What are "tannins"?', options: ['Bubbles in wine', 'The dry, bitter feel in red wine', 'The colour of wine', 'Sugar in wine'], correctIndex: 1 },
+    { question: 'What are "tannins"?', options: ['Bubbles in wine', 'The dry, bitter feel in red wine', 'The color of wine', 'Sugar in wine'], correctIndex: 1 },
     { question: 'Why does acidity help with creamy food?', options: ['It makes it sweeter', 'It cuts through the heavy, rich feeling', 'It makes it hotter', 'It adds bubbles'], correctIndex: 1 },
     { question: 'What is a classic simple rule?', options: ['Red with fish, white with steak', 'Red with red meat, white with fish', 'Only sparkling with dessert', 'Never wine with cheese'], correctIndex: 1 },
     { question: 'In the dialogue, what is the main course?', options: ['Steak', 'Prawns', 'Mushroom risotto', 'Chocolate cake'], correctIndex: 2 },

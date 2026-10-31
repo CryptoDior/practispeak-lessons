@@ -83,7 +83,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       phrase: 'WITHIN [TIME], THEY SAW A [PERCENTAGE] IMPROVEMENT IN...',
       definition: 'A phrase that tells how fast a result happened and by how much.',
-      example: 'Within 90 days, they saw a 28% improvement in call centre productivity.',
+      example: 'Within 90 days, they saw a 28% improvement in call center productivity.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/within-time-they-saw-a-percentage-improvement-in.png',
     },
     {
@@ -143,7 +143,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'After [[implement:to put a system or product into practical use within an organisation]]ing our platform, they were able to reduce that reporting time to under two hours a week. Within the first 90 days, they saw a 28% increase in deals closed and a 35% improvement in manager satisfaction scores.',
+      text: 'After [[implement:to put a system or product into practical use within an organization]]ing our platform, they were able to reduce that reporting time to under two hours a week. Within the first 90 days, they saw a 28% increase in deals closed and a 35% improvement in manager satisfaction scores.',
     },
     {
       speaker: 'Marcus',
@@ -214,7 +214,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     },
     {
         "word": "implement",
-        "definition": "to put a plan, system, or product into practical use within an organisation"
+        "definition": "to put a plan, system, or product into practical use within an organization"
     },
     {
         "word": "outcome",
@@ -484,7 +484,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
             {
                 "customerLine": "How can we convince our CFO that this is worth the budget?",
                 "salespersonStart": "I'd like to send you two things this afternoon —",
-                "suggestedCompletion": "a case study from a team of 22 salespeople with similar numbers to yours, and our ROI calculator so you can model the exact return for your team. I can also put together a one-page summary written specifically for a CFO audience, with the financials front and centre."
+                "suggestedCompletion": "a case study from a team of 22 salespeople with similar numbers to yours, and our ROI calculator so you can model the exact return for your team. I can also put together a one-page summary written specifically for a CFO audience, with the financials front and center."
             }
         ]
     }

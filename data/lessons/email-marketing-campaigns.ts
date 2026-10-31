@@ -99,9 +99,9 @@ export const emailMarketingCampaigns: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/email-marketing-campaigns-opt-in--opt-out.png',
     },
     {
-      phrase: 'PERSONALISE [AN EMAIL]',
+      phrase: 'PERSONALIZE [AN EMAIL]',
       definition: 'To change an email so it fits each person who receives it.',
-      example: 'We personalise each email with the customer\'s first name.',
+      example: 'We personalize each email with the customer\'s first name.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/email-marketing-campaigns-personalise-an-email.png',
     }
   ],
@@ -173,7 +173,7 @@ export const emailMarketingCampaigns: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "Emails three, four, and five go out over the next two weeks. Email three handles the most common objection — 'what if it does not work for our size of company?' — and [[personalises:tailors the content to the individual]] using the recipient's industry in the first line. Email four is the call booking invite. Email five is the [[follow-up:a second email to people who did not respond]] — we always send one. Sixty percent of our bookings come from the fourth or fifth email, not the first.",
+      text: "Emails three, four, and five go out over the next two weeks. Email three handles the most common objection — 'what if it does not work for our size of company?' — and [[personalizes:tailors the content to the individual]] using the recipient's industry in the first line. Email four is the call booking invite. Email five is the [[follow-up:a second email to people who did not respond]] — we always send one. Sixty percent of our bookings come from the fourth or fifth email, not the first.",
     }
   ],
 
@@ -329,7 +329,7 @@ export const emailMarketingCampaigns: Lesson = {
         "options": [
             "Send the campaign immediately — the longer you wait, the more people will lose interest.",
             "Warm up the list first — send two or three light-touch, low-ask emails over four to six weeks to re-establish the relationship and identify who is still engaged before sending a conversion-focused campaign. Also clean the list to remove bounces and opt-outs. Sending a heavy campaign to a cold list damages your sender reputation and deliverability.",
-            "Segment the list by job title and send a personalised version to each segment simultaneously.",
+            "Segment the list by job title and send a personalized version to each segment simultaneously.",
             "Check the opt-in date and remove anyone who signed up more than twelve months ago."
         ],
         "correctIndex": 1
@@ -347,7 +347,7 @@ export const emailMarketingCampaigns: Lesson = {
                     "Say: 'Let us try a different sending time next month — Tuesday morning usually gives better results.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It does not panic and it does not dismiss the concern. It diagnoses before acting — checking deliverability first, then benchmarking the number. A makes a significant change without understanding the cause. C optimises for send time when that is likely not the issue."
+                "explanation": "B is correct. It does not panic and it does not dismiss the concern. It diagnoses before acting — checking deliverability first, then benchmarking the number. A makes a significant change without understanding the cause. C optimizes for send time when that is likely not the issue."
             },
             {
                 "customerLine": "Client: 'I want to buy a list of 20,000 contacts and email them all next week.'",
@@ -370,14 +370,14 @@ export const emailMarketingCampaigns: Lesson = {
                 "explanation": "B is correct. It explains the purpose of each email in the sequence and backs up the recommendation with data about where conversions typically come from. A stops too early based on one data point. C delays the sequence unnecessarily — the problem is not email three's subject line, it is that the sequence has not reached the conversion stage yet."
             },
             {
-                "customerLine": "Client: 'Can we personalise the emails with their first name? I have seen that in campaigns and it looks professional.'",
+                "customerLine": "Client: 'Can we personalize the emails with their first name? I have seen that in campaigns and it looks professional.'",
                 "options": [
-                    "Say: 'Yes — first name personalisation always improves open rates significantly.'",
-                    "Say: 'Absolutely — first name is a good start. But the most powerful personalisation in B2B goes beyond the name. If we can reference their company, their industry, or something they have already done — like downloading a case study — the email feels genuinely written for them rather than just mail-merged. For example: 'Hi Claire — I noticed TechFlow downloaded our operational efficiency guide last week. Here is the follow-up most operations directors ask for next.' That level of personalisation consistently doubles click-through rates compared to first name only. Shall we set up the behavioural triggers to make that possible?'",
-                    "Say: 'First name personalisation is standard now and the audience expects it — it no longer has the same impact it used to. Let us focus on the subject line instead.'"
+                    "Say: 'Yes — first name personalization always improves open rates significantly.'",
+                    "Say: 'Absolutely — first name is a good start. But the most powerful personalization in B2B goes beyond the name. If we can reference their company, their industry, or something they have already done — like downloading a case study — the email feels genuinely written for them rather than just mail-merged. For example: 'Hi Claire — I noticed TechFlow downloaded our operational efficiency guide last week. Here is the follow-up most operations directors ask for next.' That level of personalization consistently doubles click-through rates compared to first name only. Shall we set up the behavioural triggers to make that possible?'",
+                    "Say: 'First name personalization is standard now and the audience expects it — it no longer has the same impact it used to. Let us focus on the subject line instead.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It says yes to the idea, then elevates it — explaining what true personalisation looks like in B2B and why it outperforms first-name-only. A agrees with a half-measure without improving it. C dismisses name personalisation without explaining what to do instead in a way that is helpful."
+                "explanation": "B is correct. It says yes to the idea, then elevates it — explaining what true personalization looks like in B2B and why it outperforms first-name-only. A agrees with a half-measure without improving it. C dismisses name personalization without explaining what to do instead in a way that is helpful."
             }
         ]
     },
@@ -434,7 +434,7 @@ export const emailMarketingCampaigns: Lesson = {
             {
                 "customerLine": "Client: 'What should our drip campaign look like for warm prospects — people who have already downloaded a case study?'",
                 "salespersonStart": "Because they are warm, we do not need to start from scratch — we pick up where the case study left off.",
-                "suggestedCompletion": "I would structure it as a five-email sequence over three weeks. Email one — sent immediately after the download — thanks them and shares the specific result from the case study they just read: 'You have just read how we delivered a 30% cost reduction. Here is the question most people ask next.' Email two — four days later — addresses the most common objection: 'What if it does not work for a company our size?' with a short answer and a second case study from a similar company. Email three — eight days later — shares a quick insight that is useful even if they never buy from us: this builds goodwill. Email four — fourteen days later — is the direct invitation to book a call, personalised with their company name if possible. Email five — three weeks later — is the follow-up for anyone who did not respond. Short, direct, no pressure. 60% of our bookings come from emails four and five."
+                "suggestedCompletion": "I would structure it as a five-email sequence over three weeks. Email one — sent immediately after the download — thanks them and shares the specific result from the case study they just read: 'You have just read how we delivered a 30% cost reduction. Here is the question most people ask next.' Email two — four days later — addresses the most common objection: 'What if it does not work for a company our size?' with a short answer and a second case study from a similar company. Email three — eight days later — shares a quick insight that is useful even if they never buy from us: this builds goodwill. Email four — fourteen days later — is the direct invitation to book a call, personalized with their company name if possible. Email five — three weeks later — is the follow-up for anyone who did not respond. Short, direct, no pressure. 60% of our bookings come from emails four and five."
             },
             {
                 "customerLine": "Client: 'Our unsubscribe rate went up to 1.5% this month. Should we be worried?'",

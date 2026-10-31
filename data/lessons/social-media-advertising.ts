@@ -5,7 +5,7 @@ export const socialMediaAdvertising: Lesson = {
   title: 'Social Media Advertising',
   subtitle: 'How to talk about paid social campaigns, targeting, and ad performance',
   level: 'B1-B2',
-  description: "Social media advertising is one of the fastest-growing areas of marketing. Platforms like Meta, LinkedIn, and TikTok allow you to reach specific audiences with paid ads — targeting people by their job title, interests, location, and behaviour. To work confidently in this area, you need to understand the vocabulary that marketing teams use to plan, run, and review paid social campaigns. This lesson teaches you the most important terms and phrases in social media advertising.",
+  description: "Social media advertising is one of the fastest-growing areas of marketing. Platforms like Meta, LinkedIn, and TikTok allow you to reach specific audiences with paid ads — targeting people by their job title, interests, location, and behavior. To work confidently in this area, you need to understand the vocabulary that marketing teams use to plan, run, and review paid social campaigns. This lesson teaches you the most important terms and phrases in social media advertising.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/social-media-advertising-hero.png',
 
   vocabulary: [
@@ -155,7 +155,7 @@ export const socialMediaAdvertising: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Our lookalike audience is based on our top 200 customers by lifetime value. The platform finds people with similar demographics and behaviour. It is our best-performing audience — 94 [[conversion:the action you wanted — a demo request, a sign-up, a purchase]]s so far at £31 per demo, against a target of £50.",
+      text: "Our lookalike audience is based on our top 200 customers by lifetime value. The platform finds people with similar demographics and behavior. It is our best-performing audience — 94 [[conversion:the action you wanted — a demo request, a sign-up, a purchase]]s so far at £31 per demo, against a target of £50.",
     },
     {
       speaker: 'Marcus',
@@ -209,7 +209,7 @@ export const socialMediaAdvertising: Lesson = {
 
   matchingExercise: [
     { word: 'ad set', definition: 'a group of ads sharing the same targeting, budget, and schedule' },
-    { word: 'targeting', definition: 'choosing which people see your ads based on their characteristics or behaviour' },
+    { word: 'targeting', definition: 'choosing which people see your ads based on their characteristics or behavior' },
     { word: 'CPM', definition: 'cost per mille — what you pay for every 1,000 times your ad is shown' },
     { word: 'CPC', definition: 'cost per click — what you pay each time someone clicks your ad' },
     { word: 'lookalike audience', definition: 'new people found by the platform who are similar to your existing customers' },
@@ -265,7 +265,7 @@ export const socialMediaAdvertising: Lesson = {
         sentence: 'Within a campaign, each _____ targets a different audience with its own budget.',
         options: ['creative', 'ad set', 'conversion'],
         correctIndex: 1,
-        explanation: "An 'ad set' is the level within a campaign that defines the audience, budget, and schedule. A campaign is the top level (the overall goal), an ad set is the middle level (who you reach and how much you spend), and an individual ad is the bottom level (the actual creative content). Running separate ad sets for different audiences lets you compare performance and optimise budget. 'Creative' is the content of the ad. 'Conversion' is the outcome you want.",
+        explanation: "An 'ad set' is the level within a campaign that defines the audience, budget, and schedule. A campaign is the top level (the overall goal), an ad set is the middle level (who you reach and how much you spend), and an individual ad is the bottom level (the actual creative content). Running separate ad sets for different audiences lets you compare performance and optimize budget. 'Creative' is the content of the ad. 'Conversion' is the outcome you want.",
       },
       {
         sentence: 'CPM stands for Cost Per _____ — the cost of showing your ad 1,000 times.',
@@ -277,7 +277,7 @@ export const socialMediaAdvertising: Lesson = {
         sentence: 'A lookalike audience finds new people who are _____ to your existing customers.',
         options: ['similar', 'identical', 'opposite'],
         correctIndex: 0,
-        explanation: "'Similar' is the correct word. A lookalike audience is built by the platform (Meta, LinkedIn, etc.) by analysing the characteristics of your existing customers and finding new people who share similar attributes — demographics, interests, and online behaviour. 'Identical' would imply exact copies, which is not possible. The whole value of a lookalike audience is in finding people who share patterns and tendencies with your best customers — not exact matches.",
+        explanation: "'Similar' is the correct word. A lookalike audience is built by the platform (Meta, LinkedIn, etc.) by analyzing the characteristics of your existing customers and finding new people who share similar attributes — demographics, interests, and online behavior. 'Identical' would imply exact copies, which is not possible. The whole value of a lookalike audience is in finding people who share patterns and tendencies with your best customers — not exact matches.",
       },
       {
         sentence: 'When the _____ reaches five or six, ad fatigue sets in and performance drops.',
@@ -295,7 +295,7 @@ export const socialMediaAdvertising: Lesson = {
         sentence: 'We moved more budget to the best-performing ad set because its _____ was lowest.',
         options: ['frequency', 'audience', 'CPC'],
         correctIndex: 2,
-        explanation: "'CPC' — cost per click. Moving budget towards the ad set with the lowest CPC is the correct optimisation strategy in a click-based campaign — it means you are getting more clicks for the same amount of money. 'Frequency' being lowest would not necessarily mean it is performing best. 'Audience' is not a performance metric. In a conversion campaign, you compare ad sets on CPC and cost per conversion, and shift budget to the most efficient ones.",
+        explanation: "'CPC' — cost per click. Moving budget towards the ad set with the lowest CPC is the correct optimization strategy in a click-based campaign — it means you are getting more clicks for the same amount of money. 'Frequency' being lowest would not necessarily mean it is performing best. 'Audience' is not a performance metric. In a conversion campaign, you compare ad sets on CPC and cost per conversion, and shift budget to the most efficient ones.",
       },
     ],
   },
@@ -322,7 +322,7 @@ export const socialMediaAdvertising: Lesson = {
             "We should split it equally between both platforms to get a balanced view of performance.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct. It bases the recommendation on actual performance data (£31 per demo vs £50 target) rather than assumptions or rules. The Meta lookalike is the best-performing ad set, so scaling it is the highest-confidence investment. Option A makes a blanket rule ('LinkedIn is always better for B2B') without referencing the actual data from this campaign — which shows Meta performing better. Option C splits budget equally regardless of performance, which is a missed optimisation opportunity.",
+          explanation: "Option B is correct. It bases the recommendation on actual performance data (£31 per demo vs £50 target) rather than assumptions or rules. The Meta lookalike is the best-performing ad set, so scaling it is the highest-confidence investment. Option A makes a blanket rule ('LinkedIn is always better for B2B') without referencing the actual data from this campaign — which shows Meta performing better. Option C splits budget equally regardless of performance, which is a missed optimization opportunity.",
         },
         {
           customerLine: "The creative in the main ad set looks very similar to what our competitors are running. What should we do?",
@@ -359,7 +359,7 @@ export const socialMediaAdvertising: Lesson = {
           lineIndex: 5,
           incorrectText: '16% more better',
           correction: '16% better',
-          explanation: "'More better' is a double comparative — a common grammar error. Comparatives in English use either '-er' or 'more', never both. 'Better' is already the comparative form of 'good', so it cannot be combined with 'more'. Correct forms: 'better' (comparative), 'much better' (emphasised comparative), '16% better' (quantified comparative). 'More better', 'more faster', 'more stronger' — all incorrect.",
+          explanation: "'More better' is a double comparative — a common grammar error. Comparatives in English use either '-er' or 'more', never both. 'Better' is already the comparative form of 'good', so it cannot be combined with 'more'. Correct forms: 'better' (comparative), 'much better' (emphasized comparative), '16% better' (quantified comparative). 'More better', 'more faster', 'more stronger' — all incorrect.",
         },
         {
           lineIndex: 7,

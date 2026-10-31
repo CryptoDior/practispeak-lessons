@@ -87,9 +87,9 @@ export const presentingAMarketingStrategy: Lesson = {
       example: 'The rationale behind this is that 78% of our buyers use LinkedIn.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-the-rationale-behind-this-is.png',
       inAction: 'The rationale behind this recommendation is simple — our organic traffic has grown 40% in 12 months at zero additional cost, while paid search CPL has increased 25%. The data points one way.',
-      register: "Neutral — Croft (B2B HR platform, board presentation): strategy slide reads the rationale behind this is the shift in buyer behaviour — 60% of our ICP now completes their evaluation online before speaking to a salesperson, which means our digital presence is now a sales tool, not a marketing tool. | Riven (DTC fashion brand, investor update): pitch reads the rationale behind this is margin — wholesale dilutes margin by 42% and reduces direct customer relationships. DTC is the only model that lets us own both. | Mast (B2B maritime software, client proposal): proposal reads the rationale behind this phased approach is risk management — we do not ask you to change everything at once. Phase one delivers value in 90 days while we build toward full implementation.",
+      register: "Neutral — Croft (B2B HR platform, board presentation): strategy slide reads the rationale behind this is the shift in buyer behavior — 60% of our ICP now completes their evaluation online before speaking to a salesperson, which means our digital presence is now a sales tool, not a marketing tool. | Riven (DTC fashion brand, investor update): pitch reads the rationale behind this is margin — wholesale dilutes margin by 42% and reduces direct customer relationships. DTC is the only model that lets us own both. | Mast (B2B maritime software, client proposal): proposal reads the rationale behind this phased approach is risk management — we do not ask you to change everything at once. Phase one delivers value in 90 days while we build toward full implementation.",
       visualExamples: [
-        { brand: 'Croft', context: 'B2B HR platform — board strategy presentation', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-croft-rationale-buyer-behaviour.png', caption: 'The rationale behind this is buyer behaviour — 60% of the ICP completes evaluation online before speaking to sales. The digital presence is a sales tool.', aspectRatio: '16/9' },
+        { brand: 'Croft', context: 'B2B HR platform — board strategy presentation', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-croft-rationale-buyer-behaviour.png', caption: 'The rationale behind this is buyer behavior — 60% of the ICP completes evaluation online before speaking to sales. The digital presence is a sales tool.', aspectRatio: '16/9' },
         { brand: 'Riven', context: 'DTC fashion brand — investor pitch', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-riven-rationale-margin.png', caption: 'The rationale behind this is margin — wholesale dilutes by 42% and removes direct customer relationships. DTC is the only model that lets us own both.', aspectRatio: '16/9' },
       ],
       inContext: "The CFO had raised an eyebrow at the channel allocation. Riley took a breath. The rationale behind this recommendation is data, she said. We have run LinkedIn and Meta campaigns against the same audience over the last three quarters. LinkedIn delivers a cost per lead that is consistently 35% lower for our ICP. We are not choosing LinkedIn because it feels right — we are choosing it because three quarters of data say it is right.",
@@ -131,7 +131,7 @@ export const presentingAMarketingStrategy: Lesson = {
         { brand: 'Flint', context: 'B2B SaaS — board strategy Q&A', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-flint-response-qa.png', caption: 'In response to your question about international expansion — the conservative scenario still delivers profitability within 18 months of market entry.', aspectRatio: '16/9' },
         { brand: 'Riven', context: 'DTC fashion — investor Q&A', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-riven-response-margin.png', caption: 'In response to your question about margin at scale — unit economics at 50,000 orders put gross margin at 68%, demonstrable from current run rate.', aspectRatio: '16/9' },
       ],
-      inContext: "The CFO had asked a sharp question about the budget risk. Riley did not rush her answer. In response to your question, she said — there is a defined maximum spend threshold in the test structure. If the campaign does not hit the minimum performance benchmark at the six-week mark, we stop, analyse the data, and bring three options back to this room. We will not continue spending without evidence. The CFO nodded slightly. Marcus made a note.",
+      inContext: "The CFO had asked a sharp question about the budget risk. Riley did not rush her answer. In response to your question, she said — there is a defined maximum spend threshold in the test structure. If the campaign does not hit the minimum performance benchmark at the six-week mark, we stop, analyze the data, and bring three options back to this room. We will not continue spending without evidence. The CFO nodded slightly. Marcus made a note.",
     },
     {
       phrase: 'THE KEY TAKEAWAY FROM THIS SECTION IS...',
@@ -173,7 +173,7 @@ export const presentingAMarketingStrategy: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Our objective is to generate 600 qualified leads for the enterprise sales team by the end of Q4 at a cost per lead of under £35. Everything in this presentation is built to achieve that specific number. The [[executive summary:the short section at the beginning that gives the key points of the strategy]] on slide one summarises the full argument — situation, strategy, expected outcome.",
+      text: "Our objective is to generate 600 qualified leads for the enterprise sales team by the end of Q4 at a cost per lead of under £35. Everything in this presentation is built to achieve that specific number. The [[executive summary:the short section at the beginning that gives the key points of the strategy]] on slide one summarizes the full argument — situation, strategy, expected outcome.",
     },
     {
       speaker: 'Dana',
@@ -209,7 +209,7 @@ export const presentingAMarketingStrategy: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "The rationale behind this is audience behaviour and cost. 78% of our target buyers research solutions on LinkedIn. Our Q2 LinkedIn pilot delivered a cost per lead 35% lower than paid search. The [[evidence:data or research that supports the recommendation]] is on slide four — three quarters of comparative data.",
+      text: "The rationale behind this is audience behavior and cost. 78% of our target buyers research solutions on LinkedIn. Our Q2 LinkedIn pilot delivered a cost per lead 35% lower than paid search. The [[evidence:data or research that supports the recommendation]] is on slide four — three quarters of comparative data.",
     },
     {
       speaker: 'Marcus',
@@ -260,7 +260,7 @@ export const presentingAMarketingStrategy: Lesson = {
     { before: 'The evidence for this is', after: '— three quarters of data showing LinkedIn CPL is 35% lower than paid search for our ICP.', answer: 'clear' },
     { before: 'In response to your', answer: 'question', after: '— we have defined minimum performance thresholds at the six-week mark.' },
     { before: 'The key', after: 'from this section is that our cost per lead has increased 30% while lead quality has declined.', answer: 'takeaway' },
-    { before: 'The', after: 'behind choosing LinkedIn is audience behaviour — 78% of our buyers research solutions there.', answer: 'rationale' },
+    { before: 'The', after: 'behind choosing LinkedIn is audience behavior — 78% of our buyers research solutions there.', answer: 'rationale' },
   ],
 
   multipleChoiceExercise: [
@@ -310,7 +310,7 @@ export const presentingAMarketingStrategy: Lesson = {
         explanation: "After 'should', always use the base form — 'should understand'. Modal verbs (should, could, would, might, must) are always followed by the base form of the main verb: 'should understand', 'should know', 'should be'. 'Understanding' without an auxiliary would be a gerund or present participle: 'understanding this is important' or 'they were understanding'. 'Understood' is past simple — correct for completed actions but not for a modal construction.",
       },
       {
-        sentence: 'The rationale _____ choosing LinkedIn is audience behaviour — 78% of our target buyers research there.',
+        sentence: 'The rationale _____ choosing LinkedIn is audience behavior — 78% of our target buyers research there.',
         options: ['behind', 'for', 'of'],
         correctIndex: 1,
         explanation: "Both 'behind' and 'for' work with 'rationale', but they have slightly different registers. 'The rationale for choosing LinkedIn' is the standard and most common collocation in professional English — 'rationale for' explains the justification for a decision or action. 'The rationale behind' is also correct and common ('the rationale behind this approach') — 'behind' implies a deeper or underlying reason. 'The rationale of' is grammatically unusual and rarely used in this context. Both 'for' and 'behind' are acceptable; 'for' is slightly more standard.",
@@ -351,14 +351,14 @@ export const presentingAMarketingStrategy: Lesson = {
           explanation: "Option B is the strongest answer — it directly addresses the risk concern by explaining the three specific safeguards built into the plan. It shows that the presenter anticipated this question and has a structured response. It also reframes the ask: a structured test with contingencies, not a blind leap. Option A is too vague and passive — it acknowledges risk without addressing it. Option C is good (and would work as a supporting point) but it does not address the question directly. The board member asked about safeguards, not evidence of past performance.",
         },
         {
-          customerLine: "'Your executive summary is four slides. Can you summarise the whole strategy in one sentence?'",
+          customerLine: "'Your executive summary is four slides. Can you summarize the whole strategy in one sentence?'",
           options: [
-            "The strategy involves a reallocation of paid search budget to LinkedIn, combined with new content assets, a revised email nurture sequence, and a structured ABM programme — all designed to reduce cost per lead and increase lead quality in Q4.",
+            "The strategy involves a reallocation of paid search budget to LinkedIn, combined with new content assets, a revised email nurture sequence, and a structured ABM program — all designed to reduce cost per lead and increase lead quality in Q4.",
             "We are reallocating 25% of the paid search budget to LinkedIn for a 12-week test — because the evidence shows it delivers a 35% lower cost per lead for our audience — with the goal of generating 600 qualified leads by the end of Q4.",
             "The strategy is designed to fix the cost per lead problem we identified in Q3 by changing our channel mix and improving the quality of our content and targeting.",
           ],
           correctIndex: 1,
-          explanation: "Option B is best — it contains the what (reallocate 25% to LinkedIn), the why (35% lower cost per lead from evidence), and the goal (600 leads by end of Q4). This is a genuine one-sentence summary that a board member could repeat to a colleague. Option A lists tactics without summarising the strategic intent — it reads as a list, not a strategy. Option C is a goal statement, not a strategy summary — it describes the problem being solved but not what the strategy actually is.",
+          explanation: "Option B is best — it contains the what (reallocate 25% to LinkedIn), the why (35% lower cost per lead from evidence), and the goal (600 leads by end of Q4). This is a genuine one-sentence summary that a board member could repeat to a colleague. Option A lists tactics without summarizing the strategic intent — it reads as a list, not a strategy. Option C is a goal statement, not a strategy summary — it describes the problem being solved but not what the strategy actually is.",
         },
         {
           customerLine: "I'm not convinced the evidence is strong enough. The Q2 pilot was only 6 weeks. Can you really extrapolate from that?",
@@ -378,7 +378,7 @@ export const presentingAMarketingStrategy: Lesson = {
         { speaker: 'Riley', text: "Good morning. I would like to take you through the Q4 marketing strategy." },
         { speaker: 'Riley', text: "Our objective is generating 600 qualified leads at a cost per lead of under £35 by the end of Q4." },
         { speaker: 'Board member', text: "What is the rationale for choosing LinkedIn?" },
-        { speaker: 'Riley', text: "The rationale for this choice are audience behaviour and cost — LinkedIn CPL is 35% lower for our ICP." },
+        { speaker: 'Riley', text: "The rationale for this choice are audience behavior and cost — LinkedIn CPL is 35% lower for our ICP." },
         { speaker: 'Board member', text: "And the evidence?" },
         { speaker: 'Riley', text: "The evidence is our Q2 pilot — 847 leads generated at a cost that was significant lower than paid search." },
         { speaker: 'Board member', text: "What if the test does not perform?" },
@@ -389,7 +389,7 @@ export const presentingAMarketingStrategy: Lesson = {
           lineIndex: 3,
           incorrectText: 'for this choice are',
           correction: 'for this choice is',
-          explanation: "The subject of this sentence is 'the rationale' — singular. 'The rationale for this choice is audience behaviour and cost.' Even though 'for this choice' comes between the subject and verb, and even though two things are listed after the verb (audience behaviour AND cost), the verb agrees with the subject 'the rationale', not with the two-item list that follows. Compare: 'The reason is two things' (singular subject) vs 'Two things are the reason' (plural subject). The subject determines the verb form.",
+          explanation: "The subject of this sentence is 'the rationale' — singular. 'The rationale for this choice is audience behavior and cost.' Even though 'for this choice' comes between the subject and verb, and even though two things are listed after the verb (audience behavior AND cost), the verb agrees with the subject 'the rationale', not with the two-item list that follows. Compare: 'The reason is two things' (singular subject) vs 'Two things are the reason' (plural subject). The subject determines the verb form.",
         },
         {
           lineIndex: 5,

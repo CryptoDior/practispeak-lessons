@@ -101,7 +101,7 @@ export const robloxHedgingLanguage: Lesson = {
       word: 'TEND TO',
       partOfSpeech: 'phrase',
       definition: "Usually do something — but not always. Used to talk about what happens most of the time.",
-      example: "Clients who receive a personalised onboarding experience tend to stay longer and spend more over time.",
+      example: "Clients who receive a personalized onboarding experience tend to stay longer and spend more over time.",
       imageSlug: '/images/roblox-hedging-language-tend-to-irl.png',
     },
     {
@@ -186,7 +186,7 @@ export const robloxHedgingLanguage: Lesson = {
       definition: "To offer an idea or suggestion for others to consider — not to demand, but to propose.",
       example: "Mario put forward the idea of changing the raid time as a suggestion, not a decision — he wanted the guild to decide.",
       inGame: "Putting a strategy forward as a suggestion rather than a command usually gets more buy-in from the team.",
-      inRealLife: "She put forward a revised timeline as a proposal and asked the team to give their input before it was finalised.",
+      inRealLife: "She put forward a revised timeline as a proposal and asked the team to give their input before it was finalized.",
       imageSlug: '/images/roblox-hedging-language-put-forward.png',
     },
     {
@@ -309,7 +309,7 @@ export const robloxHedgingLanguage: Lesson = {
         sentence: "_____ speaking, the guild's performance has improved this season — there are some exceptions, but the overall trend is clear.",
         options: ["Broadly", "Arguably", "Apparently"],
         correctIndex: 0,
-        explanation: "BROADLY SPEAKING is the correct phrase for a generalisation that admits exceptions. The sentence structure ('there are some exceptions, but...') is a classic broadly-speaking context.",
+        explanation: "BROADLY SPEAKING is the correct phrase for a generalization that admits exceptions. The sentence structure ('there are some exceptions, but...') is a classic broadly-speaking context.",
       },
     ],
   },
@@ -327,9 +327,9 @@ export const robloxHedgingLanguage: Lesson = {
 
   fillBlankExercise: [
     { before: "", answer: 'Arguably', after: ", communication matters more than individual skill — but some top players would strongly disagree." },
-    { before: "Players who train regularly", answer: 'tend to', after: "perform more consistently in high-pressure matches than those who only practise occasionally." },
+    { before: "Players who train regularly", answer: 'tend to', after: "perform more consistently in high-pressure matches than those who only practice occasionally." },
     { before: "The match data", answer: 'suggests', after: "that the team's coordination broke down around the twelve-minute mark of the final round." },
-    { before: "", answer: 'Apparently', after: ", the rival guild has been practising a completely new formation — though nobody has seen it confirmed officially." },
+    { before: "", answer: 'Apparently', after: ", the rival guild has been practicing a completely new formation — though nobody has seen it confirmed officially." },
     { before: "The new training schedule", answer: 'seems to', after: "be working — the team is making fewer errors in the opening rounds than before." },
     { before: "", answer: 'Presumably', after: ", they changed their approach after the last loss — their performance this week was completely different." },
     { before: "", answer: 'Broadly', after: "speaking, the season has been positive — there have been some difficult matches, but the overall trend is upwards." },
@@ -382,7 +382,7 @@ export const robloxHedgingLanguage: Lesson = {
       options: [
         "When you are presenting a view that other people might disagree with.",
         "When you know something is definitely true and want to state it with confidence.",
-        "When you are summarising data that points to a conclusion.",
+        "When you are summarizing data that points to a conclusion.",
         "When discussing general tendencies that apply in most but not all cases.",
       ],
       correctIndex: 1,

@@ -27,7 +27,7 @@ export const shoppingForClothesB1: Lesson = {
     { word: 'REFUND', partOfSpeech: 'noun', definition: 'Money given back when you return something.', example: 'Not every store gives refunds.', imageSlug: img('refund-or-no-refund') },
     { word: 'PRICE TAG', partOfSpeech: 'noun', definition: 'A label that shows how much something costs.', example: "There's no price tag on this shirt.", imageSlug: img('missing-shirt-price-tag') },
     { word: 'QUALITY', partOfSpeech: 'noun', definition: 'How good something is and how long it will last.', example: 'These boots are good quality.', imageSlug: img('durable-quality-boots') },
-    { word: 'STOCK', partOfSpeech: 'noun', definition: 'The items a shop has available to sell.', example: "We don't have that colour in stock.", imageSlug: img('colour-not-in-stock') },
+    { word: 'STOCK', partOfSpeech: 'noun', definition: 'The items a shop has available to sell.', example: "We don't have that color in stock.", imageSlug: img('colour-not-in-stock') },
     { word: 'RECEIPT', partOfSpeech: 'noun', definition: 'The paper that proves you paid.', example: 'Keep your receipt in case you need to return it.', imageSlug: img('keep-shopping-receipt') },
   ],
 
@@ -47,7 +47,7 @@ export const shoppingForClothesB1: Lesson = {
     { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: 'Good afternoon! How can I help you today?' },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Thanks, I'm just [[browseing:looking without buying yet]] for now. I'm shopping around for a winter coat." },
     { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: "Sure. Let me know if you need anything." },
-    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Actually — I couldn't find the [[price tag:label with the price]] on this grey coat. Could you check the price?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Actually — I couldn't find the [[price tag:label with the price]] on this gray coat. Could you check the price?" },
     { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: "It's 220 dollars. It's excellent [[quality:how good and long-lasting]] — pure wool." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's lovely, but do you have anything more [[affordable:not too expensive]] in this style? Under 150 if possible." },
     { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: "This one is 140, similar style, wool blend. I'm afraid we only have a medium in [[stock:available to sell]]." },
@@ -69,7 +69,7 @@ export const shoppingForClothesB1: Lesson = {
     { before: 'Do you have anything more', after: 'in this style?', answer: 'affordable' },
     { before: "What's your exchange", after: '?', answer: 'policy' },
     { before: 'Can I get a', after: "if it doesn't fit?", answer: 'refund' },
-    { before: "We don't have that colour in", after: '.', answer: 'stock' },
+    { before: "We don't have that color in", after: '.', answer: 'stock' },
     { before: 'She always shops', after: 'before buying.', answer: 'around' },
   ],
 

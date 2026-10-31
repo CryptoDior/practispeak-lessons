@@ -379,7 +379,7 @@ export const strategicMarketingOverview: Lesson = {
                 "customerLine": "Client after reviewing the strategic brief: 'This all makes sense, but I am worried about going too narrow. What if we miss out on clients who do not fit the exact target market?'",
                 "options": [
                     "Say: 'You are right — let us broaden the target market to include more segments.'",
-                    "Say: 'That is the most common concern I hear — and it is understandable. But here is what the data shows: when you try to speak to everyone, your message resonates with no one strongly enough to act. When you speak precisely to one audience, two things happen: that audience converts at a much higher rate, and people outside the target market who still need what you offer find you anyway — because your positioning is so clear they recognise the value. Narrow positioning does not cost you clients — vague positioning does.'",
+                    "Say: 'That is the most common concern I hear — and it is understandable. But here is what the data shows: when you try to speak to everyone, your message resonates with no one strongly enough to act. When you speak precisely to one audience, two things happen: that audience converts at a much higher rate, and people outside the target market who still need what you offer find you anyway — because your positioning is so clear they recognize the value. Narrow positioning does not cost you clients — vague positioning does.'",
                     "Say: 'We can create two versions of the brief — one narrow and one broader — and present both to the board.'"
                 ],
                 "correctIndex": 1,
@@ -402,7 +402,7 @@ export const strategicMarketingOverview: Lesson = {
             },
             {
                 "name": "NovaSpark",
-                "description": "NovaSpark has strong positioning, a recognisable brand, and good differentiation. Their challenge is that they are trying to sell to everyone — SMEs, mid-market, and enterprise — and their messaging is inconsistent as a result. They are winning deals but at a low average contract value.",
+                "description": "NovaSpark has strong positioning, a recognizable brand, and good differentiation. Their challenge is that they are trying to sell to everyone — SMEs, mid-market, and enterprise — and their messaging is inconsistent as a result. They are winning deals but at a low average contract value.",
                 "matchKey": "targeting"
             }
         ],
@@ -445,7 +445,7 @@ export const strategicMarketingOverview: Lesson = {
             {
                 "customerLine": "Client: 'We are thinking of partnering with a large generalist agency that works across all sectors. Is that a strategic fit for us?'",
                 "salespersonStart": "That depends on what you need from the partnership — let me ask a few questions before we decide.",
-                "suggestedCompletion": "A large generalist agency has reach and resources, which is valuable. But strategic fit means more than just capability — it means alignment. Do they understand the manufacturing sector? Do they have case studies that speak to your target market? Will your account be managed by a senior team or handed to a junior? The risk with a generalist agency is that your positioning becomes average because they are optimising for many clients, not for your specific differentiation. If the answer to those questions is strong, the fit could work. If not, a more specialist partner might serve your strategy better — even if they are smaller."
+                "suggestedCompletion": "A large generalist agency has reach and resources, which is valuable. But strategic fit means more than just capability — it means alignment. Do they understand the manufacturing sector? Do they have case studies that speak to your target market? Will your account be managed by a senior team or handed to a junior? The risk with a generalist agency is that your positioning becomes average because they are optimizing for many clients, not for your specific differentiation. If the answer to those questions is strong, the fit could work. If not, a more specialist partner might serve your strategy better — even if they are smaller."
             }
         ]
     }

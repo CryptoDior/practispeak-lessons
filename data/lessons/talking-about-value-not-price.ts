@@ -290,7 +290,7 @@ export const talkingAboutValueNotPrice: Lesson = {
             "It compares your product to a competitor's offering",
             "It shifts the reference point from the price of the solution to the price of the problem",
             "It introduces a discount to make the price feel smaller",
-            "It summarises the ROI calculation"
+            "It summarizes the ROI calculation"
         ],
         "correctIndex": 1
     },
@@ -347,7 +347,7 @@ export const talkingAboutValueNotPrice: Lesson = {
                     "Say: 'We do offer annual pricing which brings the monthly cost down significantly.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It does not defend the price — it reframes the reference point. The question is not 'is this cheaper than our current tool?' but 'is the return greater than the cost?' B invites the prospect to do that maths themselves, which is far more persuasive. A competes on features without addressing value. C jumps to discounting before the value case has been made — which trains the prospect to negotiate harder."
+                "explanation": "B is correct. It does not defend the price — it reframes the reference point. The question is not 'is this cheaper than our current tool?' but 'is the return greater than the cost?' B invites the prospect to do that math themselves, which is far more persuasive. A competes on features without addressing value. C jumps to discounting before the value case has been made — which trains the prospect to negotiate harder."
             },
             {
                 "customerLine": "A prospect says: 'I am not sure we can justify this spend right now.'",
@@ -357,7 +357,7 @@ export const talkingAboutValueNotPrice: Lesson = {
                     "Say: 'A lot of our customers felt the same way before they saw the return. It really does pay for itself.'"
                 ],
                 "correctIndex": 0,
-                "explanation": "A is correct. 'Think about what you would save...' gets the prospect to calculate the return themselves — using their own numbers, not yours. That is the most convincing value statement possible. B retreats to a smaller package before the value case has been made — the problem might be perception, not budget. C uses vague social proof ('pays for itself') without making the maths concrete."
+                "explanation": "A is correct. 'Think about what you would save...' gets the prospect to calculate the return themselves — using their own numbers, not yours. That is the most convincing value statement possible. B retreats to a smaller package before the value case has been made — the problem might be perception, not budget. C uses vague social proof ('pays for itself') without making the math concrete."
             },
             {
                 "customerLine": "A prospect is focused entirely on the upfront cost and has not asked about the return.",

@@ -61,7 +61,7 @@ export const salesPresentationBasics: Lesson = {
     {
       word: 'STRUCTURE',
       partOfSpeech: 'noun',
-      definition: 'The way the parts of something are organised and fit together.',
+      definition: 'The way the parts of something are organized and fit together.',
       example: 'She explained the structure of the proposal: the start, the process, and the goal.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-structure.png',
     }
@@ -93,9 +93,9 @@ export const salesPresentationBasics: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-key-point-here-is.png',
     },
     {
-      phrase: 'TO SUMMARISE...',
+      phrase: 'TO SUMMARIZE...',
       definition: 'A phrase used to begin a short list of the main points.',
-      example: 'To summarise, this project has a great location, a strong design, and good returns.',
+      example: 'To summarize, this project has a great location, a strong design, and good returns.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/to-summarise.png',
     },
     {
@@ -131,7 +131,7 @@ export const salesPresentationBasics: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'That sounds well [[structure:the organised framework of a presentation — introduction, body, conclusion]]d. Please go ahead.',
+      text: 'That sounds well [[structure:the organized framework of a presentation — introduction, body, conclusion]]d. Please go ahead.',
     },
     {
       speaker: 'Riley',
@@ -167,7 +167,7 @@ export const salesPresentationBasics: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Of course — it's a native integration, so no third-party connector is required. I'll come back to that in the demo. But to [[emphasise the transition:to signal moving to a new section]]: it works out of the box with no IT project on your side. That's the key [[signpost:a word or phrase that guides the listener through the presentation structure]] for Sarah's team — zero configuration needed.",
+      text: "Of course — it's a native integration, so no third-party connector is required. I'll come back to that in the demo. But to [[emphasize the transition:to signal moving to a new section]]: it works out of the box with no IT project on your side. That's the key [[signpost:a word or phrase that guides the listener through the presentation structure]] for Sarah's team — zero configuration needed.",
     },
     {
       speaker: 'Sarah',
@@ -191,7 +191,7 @@ export const salesPresentationBasics: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'To [[summary:a brief recap of the main points at the end of a presentation]] — I mean, to summarise the results — our customers see three consistent improvements in the first 90 days: a 30% reduction in admin time, a 20% increase in deals closed, and significantly better manager visibility across the pipeline.',
+      text: 'To [[summary:a brief recap of the main points at the end of a presentation]] — I mean, to summarize the results — our customers see three consistent improvements in the first 90 days: a 30% reduction in admin time, a 20% increase in deals closed, and significantly better manager visibility across the pipeline.',
     },
     {
       speaker: 'Riley',
@@ -244,7 +244,7 @@ export const salesPresentationBasics: Lesson = {
     },
     {
         "word": "structure",
-        "definition": "the organised framework of a presentation — introduction, body, conclusion"
+        "definition": "the organized framework of a presentation — introduction, body, conclusion"
     }
 ],
   fillBlankExercise: [
@@ -365,7 +365,7 @@ export const salesPresentationBasics: Lesson = {
                 "point"
             ],
             "correctIndex": 2,
-            "explanation": "'The key point' is the standard phrase for signalling the most important idea in a section. 'The key message' is also used but is more common for the overall takeaway of a whole presentation, not a single section. 'The key issue' implies a problem, not an insight. 'The key point here is' is the most precise and professional option."
+            "explanation": "'The key point' is the standard phrase for signaling the most important idea in a section. 'The key message' is also used but is more common for the overall takeaway of a whole presentation, not a single section. 'The key issue' implies a problem, not an insight. 'The key point here is' is the most precise and professional option."
         },
         {
             "sentence": "To _____ — our customers see three consistent improvements in the first 90 days.",
@@ -375,7 +375,7 @@ export const salesPresentationBasics: Lesson = {
                 "finish"
             ],
             "correctIndex": 1,
-            "explanation": "'To summarise' is the specific presentation phrase for recapping main points at the close of a section or the whole presentation. 'To conclude' is used for final closing statements — often more formal than a summary. 'To finish' is too casual for a professional presentation and does not signal a recap."
+            "explanation": "'To summarize' is the specific presentation phrase for recapping main points at the close of a section or the whole presentation. 'To conclude' is used for final closing statements — often more formal than a summary. 'To finish' is too casual for a professional presentation and does not signal a recap."
         },
         {
             "sentence": "Thank you for _____ us today — I'd like to start with a quick question.",
@@ -407,7 +407,7 @@ export const salesPresentationBasics: Lesson = {
                 "customerLine": "That's a lot of information. Can you tell us what the single most important thing is?",
                 "options": [
                     "The key point is this — your team is losing selling time to admin, and our platform gives it back. In 90 days, our customers close 20% more deals. Everything else is detail.",
-                    "It's all equally important — I'd recommend listening to everything before making a judgement.",
+                    "It's all equally important — I'd recommend listening to everything before making a judgment.",
                     "The most important thing is probably the price — let me talk about that now."
                 ],
                 "correctIndex": 0,
@@ -417,7 +417,7 @@ export const salesPresentationBasics: Lesson = {
                 "customerLine": "That was a great presentation. What happens next?",
                 "options": [
                     "I'll send the slides over and you can review them at your own pace.",
-                    "To summarise what we covered — then I'd suggest moving into a live demo so you can see the platform working with your own data. Would that work for everyone?",
+                    "To summarize what we covered — then I'd suggest moving into a live demo so you can see the platform working with your own data. Would that work for everyone?",
                     "I'd be happy to take any questions first, then we can discuss next steps."
                 ],
                 "correctIndex": 2,
@@ -450,7 +450,7 @@ export const salesPresentationBasics: Lesson = {
             },
             {
                 "speaker": "Riley",
-                "text": "To summarise — our customers see a 30% reduction in admin time and a 20% increasing in deals closed."
+                "text": "To summarize — our customers see a 30% reduction in admin time and a 20% increasing in deals closed."
             }
         ],
         "mistakes": [
@@ -484,12 +484,12 @@ export const salesPresentationBasics: Lesson = {
             },
             {
                 "customerLine": "That's interesting. What's the most important thing you want us to take away?",
-                "salespersonStart": "The key point I want to emphasise is this —",
+                "salespersonStart": "The key point I want to emphasize is this —",
                 "suggestedCompletion": "your team's time is being lost to admin, not to a lack of effort. Our platform gives that time back. In 90 days, our customers close 20% more deals. That's the core message."
             },
             {
                 "customerLine": "You've covered a lot of ground. Can you remind us of the main points?",
-                "salespersonStart": "Of course. To summarise —",
+                "salespersonStart": "Of course. To summarize —",
                 "suggestedCompletion": "we've talked about the challenge your team faces, how our platform addresses it, and the measurable results — a 30% reduction in admin time and a 20% increase in deals closed within the first 90 days."
             }
         ]

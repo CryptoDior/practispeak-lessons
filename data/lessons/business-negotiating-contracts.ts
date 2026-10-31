@@ -36,7 +36,7 @@ export const businessNegotiatingContracts: Lesson = {
     { phrase: "We'd like to propose an amendment to clause…", tag: 'phrase', definition: 'Formally suggest a change.', example: '"We\'d like to propose an amendment to clause 7 regarding penalties."', imageSlug: img('phrase-propose-amendment') },
     { phrase: 'We could accept that, provided that…', tag: 'phrase', definition: 'Make a conditional concession.', example: '"We could accept that, provided that the volume increases — a longer payment term is fine."', inAction: '"Provided that", "on condition that" and "as long as" let you trade concessions — never give something without getting something back.', imageSlug: img('phrase-provided-that') },
     { phrase: "That's a deal-breaker for us.", tag: 'phrase', definition: 'Say a term is completely unacceptable.', example: '"An exclusivity clause? That\'s a deal-breaker for us."', imageSlug: img('phrase-deal-breaker') },
-    { phrase: 'So, to confirm the terms we\'ve agreed…', tag: 'phrase', definition: 'Summarise agreed points before closing.', example: '"So, to confirm the terms we\'ve agreed: 60-day payment, 5% discount."', imageSlug: img('phrase-confirm-terms') },
+    { phrase: 'So, to confirm the terms we\'ve agreed…', tag: 'phrase', definition: 'Summarize agreed points before closing.', example: '"So, to confirm the terms we\'ve agreed: 60-day payment, 5% discount."', imageSlug: img('phrase-confirm-terms') },
   ],
 
   videos: [],
@@ -73,7 +73,7 @@ export const businessNegotiatingContracts: Lesson = {
   multipleChoiceExercise: [
     { question: 'What is a "deal-breaker"?', options: ['A good offer', 'A term that is completely unacceptable', 'A signed contract', 'A discount'], correctIndex: 1 },
     { question: 'Which phrase makes a conditional concession?', options: ['We could accept that, provided that…', 'No way.', 'Let\'s sign.', 'I disagree.'], correctIndex: 0 },
-    { question: 'What does "binding" mean?', options: ['Optional', 'Legally required', 'Temporary', 'Cancelled'], correctIndex: 1 },
+    { question: 'What does "binding" mean?', options: ['Optional', 'Legally required', 'Temporary', 'Canceled'], correctIndex: 1 },
     { question: 'In the dialogue, what payment terms are agreed?', options: ['30 days', '45 days', '60 days', '90 days'], correctIndex: 1 },
     { question: 'What clause is removed?', options: ['The penalty clause', 'The exclusivity clause', 'The payment clause', 'The delivery clause'], correctIndex: 1 },
   ],

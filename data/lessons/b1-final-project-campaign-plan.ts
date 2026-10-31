@@ -5,7 +5,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
   title: 'B1 Final Project: Campaign Plan',
   subtitle: 'Apply everything you have learned to plan, present, and defend a full marketing campaign',
   level: 'B1-B2',
-  description: "This is your capstone lesson — the final project for the B1-B2 marketing series. You will bring together vocabulary and concepts from across the series to build and present a complete marketing campaign plan. This lesson focuses on the language and structure of a campaign presentation: how to articulate your objective, defend your audience choice, justify your channel mix, and explain how you will measure success. You will practise the speaking skills needed to present with confidence in a real professional setting.",
+  description: "This is your capstone lesson — the final project for the B1-B2 marketing series. You will bring together vocabulary and concepts from across the series to build and present a complete marketing campaign plan. This lesson focuses on the language and structure of a campaign presentation: how to articulate your objective, defend your audience choice, justify your channel mix, and explain how you will measure success. You will practice the speaking skills needed to present with confidence in a real professional setting.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b1-final-project-campaign-plan-hero.png',
 
   vocabulary: [
@@ -185,7 +185,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Total budget: £50,000. Allocated as follows — 45% paid search, 30% LinkedIn, 15% content and email, 10% reserved for optimisation. Paid search takes the largest share because it consistently delivers our lowest cost per lead.",
+      text: "Total budget: £50,000. Allocated as follows — 45% paid search, 30% LinkedIn, 15% content and email, 10% reserved for optimization. Paid search takes the largest share because it consistently delivers our lowest cost per lead.",
     },
     {
       speaker: 'Marcus',
@@ -209,14 +209,14 @@ export const b1FinalProjectCampaignPlan: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Week one: agency brief and creative production. Week two: ad account setup, tracking implementation, and final approvals. Week three: go-live. Two-week review in week five. Month-two optimisation push based on initial data. Full campaign report at the end of Q4.",
+      text: "Week one: agency brief and creative production. Week two: ad account setup, tracking implementation, and final approvals. Week three: go-live. Two-week review in week five. Month-two optimization push based on initial data. Full campaign report at the end of Q4.",
     },
   ],
 
   matchingExercise: [
     { word: 'campaign plan', definition: 'a complete documented strategy covering objective, audience, message, channels, budget, and metrics' },
     { word: 'objective', definition: 'the specific, measurable goal of a campaign — answered by: what does success look like?' },
-    { word: 'target audience', definition: 'the specific group defined by demographics, psychographics, and behaviours that the campaign is built for' },
+    { word: 'target audience', definition: 'the specific group defined by demographics, psychographics, and behaviors that the campaign is built for' },
     { word: 'key message', definition: "the single most important thing you want the audience to take away from the campaign" },
     { word: 'budget allocation', definition: 'how the total campaign budget is divided between channels and activities' },
     { word: 'success metric', definition: 'a specific measurable number used to evaluate whether the campaign achieved its objective' },
@@ -229,14 +229,14 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     { before: 'We chose LinkedIn because our', after: 'audience — marketing managers at B2B companies — are highly active on the platform.', answer: 'target' },
     { before: 'Every channel in the', after: 'mix should serve a specific role in the funnel — paid search for conversion, social for awareness.', answer: 'channel' },
     { before: 'We will measure success by three', after: 'metrics: cost per lead, total leads, and landing page conversion rate.', answer: 'success' },
-    { before: 'The budget is', after: 'as follows — 45% paid search, 30% LinkedIn, 15% content, 10% optimisation reserve.', answer: 'allocated' },
+    { before: 'The budget is', after: 'as follows — 45% paid search, 30% LinkedIn, 15% content, 10% optimization reserve.', answer: 'allocated' },
     { before: 'A campaign with a vague', after: 'cannot be evaluated or improved — always make it specific and measurable.', answer: 'objective' },
   ],
 
   multipleChoiceExercise: [
     {
       question: "What does Marcus say makes a campaign plan strong, rather than just detailed?",
-      options: ['It includes a creative concept so the senior team can visualise the campaign', 'Every choice is justified — you can explain why you made each decision based on data or insight', 'It covers every possible channel to show the team considered all options'],
+      options: ['It includes a creative concept so the senior team can visualize the campaign', 'Every choice is justified — you can explain why you made each decision based on data or insight', 'It covers every possible channel to show the team considered all options'],
       correctIndex: 1,
     },
     {
@@ -328,7 +328,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
             "Tell the colleague that Instagram is a consumer platform and not appropriate for any B2B campaign.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct. 'Everyone is on Instagram' is not a marketing strategy — it is an assumption. Channel selection should be driven by audience behaviour and past performance data. For a B2B audience of marketing managers, LinkedIn is the strategically justified choice based on platform usage and past results. Option A adds a channel without strategic justification — this increases budget spread and reduces efficiency. Option C is too absolute — some B2B brands do use Instagram effectively, particularly for employer branding and awareness campaigns. The issue is not that Instagram is wrong in general, but that it is not the right choice for this specific audience and objective.",
+          explanation: "Option B is correct. 'Everyone is on Instagram' is not a marketing strategy — it is an assumption. Channel selection should be driven by audience behavior and past performance data. For a B2B audience of marketing managers, LinkedIn is the strategically justified choice based on platform usage and past results. Option A adds a channel without strategic justification — this increases budget spread and reduces efficiency. Option C is too absolute — some B2B brands do use Instagram effectively, particularly for employer branding and awareness campaigns. The issue is not that Instagram is wrong in general, but that it is not the right choice for this specific audience and objective.",
         },
         {
           customerLine: "At the end of the campaign, the MD asks: 'Was this campaign a success?'",
@@ -373,7 +373,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
           lineIndex: 9,
           incorrectText: 'allocated as follow',
           correction: 'allocated as follows',
-          explanation: "'As follows' is a fixed phrase in English — it is always 'follows' (with an -s), never 'follow'. 'As follows' introduces a list or breakdown. It is grammatically treated as an invariable fixed expression regardless of whether what follows is singular or plural. Examples: 'the results are as follows:', 'the budget is allocated as follows:', 'the schedule is as follows:'. Dropping the -s ('as follow') is a common error — memorise 'as follows' as a fixed phrase.",
+          explanation: "'As follows' is a fixed phrase in English — it is always 'follows' (with an -s), never 'follow'. 'As follows' introduces a list or breakdown. It is grammatically treated as an invariable fixed expression regardless of whether what follows is singular or plural. Examples: 'the results are as follows:', 'the budget is allocated as follows:', 'the schedule is as follows:'. Dropping the -s ('as follow') is a common error — memorize 'as follows' as a fixed phrase.",
         },
       ],
     },
@@ -393,7 +393,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
         {
           customerLine: "At the end of the presentation, the MD asks: 'How confident are you in this plan?'",
           salespersonStart: "I am confident in this plan because every decision is backed by data —",
-          suggestedCompletion: "the audience is defined by our actual customer data, not assumption. The channel mix is based on past campaign performance — we know these channels deliver results for this audience. The objective is stretching but achievable — our Q3 performance gives me confidence in the Q4 target. And we have built in a two-week mid-campaign review with a budget reserve specifically to optimise based on what we learn in the first month. If something is not working, we have the budget and the plan to adjust quickly. I am not confident we will be perfect from day one — but I am confident we will get there by the end of Q4.",
+          suggestedCompletion: "the audience is defined by our actual customer data, not assumption. The channel mix is based on past campaign performance — we know these channels deliver results for this audience. The objective is stretching but achievable — our Q3 performance gives me confidence in the Q4 target. And we have built in a two-week mid-campaign review with a budget reserve specifically to optimize based on what we learn in the first month. If something is not working, we have the budget and the plan to adjust quickly. I am not confident we will be perfect from day one — but I am confident we will get there by the end of Q4.",
         },
       ],
     },

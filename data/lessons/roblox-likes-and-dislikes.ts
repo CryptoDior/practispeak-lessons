@@ -12,7 +12,7 @@ export const robloxLikesAndDislikes: Lesson = {
     {
       word: 'LOVE',
       partOfSpeech: 'verb',
-      definition: "Like something very very much — it is your number one favourite!",
+      definition: "Like something very very much — it is your number one favorite!",
       example: "I love this game! I could play it all day and never stop — it is the best!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-in-game-love.png',
     },
@@ -59,10 +59,10 @@ export const robloxLikesAndDislikes: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-in-game-prefer.png',
     },
     {
-      word: 'FAVOURITE',
+      word: 'FAVORITE',
       partOfSpeech: 'adjective',
       definition: "The one you like the most — number one for you.",
-      example: "My favourite game on Roblox is Bloxd! I play it every single day.",
+      example: "My favorite game on Roblox is Bloxd! I play it every single day.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-in-game-favourite.png',
     },
   ],
@@ -85,7 +85,7 @@ export const robloxLikesAndDislikes: Lesson = {
     {
       word: "DON'T MIND",
       partOfSpeech: 'phrase',
-      definition: "It is OK — not your favourite, but you are happy to do it.",
+      definition: "It is OK — not your favorite, but you are happy to do it.",
       example: "I don't mind doing the washing up — it only takes a few minutes.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-irl-don-t-mind.png',
     },
@@ -118,10 +118,10 @@ export const robloxLikesAndDislikes: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-irl-prefer.png',
     },
     {
-      word: 'FAVOURITE',
+      word: 'FAVORITE',
       partOfSpeech: 'adjective',
       definition: "The one you like the most — number one for you.",
-      example: "My favourite food is pasta with tomato sauce — I eat it every Friday.",
+      example: "My favorite food is pasta with tomato sauce — I eat it every Friday.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-irl-favourite.png',
     },
   ],
@@ -152,11 +152,11 @@ export const robloxLikesAndDislikes: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-phrases-i-would-rather.png',
     },
     {
-      phrase: "WHAT IS YOUR FAVOURITE...?",
+      phrase: "WHAT IS YOUR FAVORITE...?",
       definition: "Ask someone to tell you the thing they like the most.",
-      example: "What is your favourite game on Roblox? I want to try new ones this week!",
-      inGame: "What is your favourite server? Tell me and I will come and join you!",
-      inRealLife: "What is your favourite food? Mine is pasta but I love pizza too.",
+      example: "What is your favorite game on Roblox? I want to try new ones this week!",
+      inGame: "What is your favorite server? Tell me and I will come and join you!",
+      inRealLife: "What is your favorite food? Mine is pasta but I love pizza too.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-phrases-what-is-your-favourite.png',
     },
     {
@@ -184,7 +184,7 @@ export const robloxLikesAndDislikes: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Mia, what is your [[favourite:the one you like the most — number one]] game on Roblox right now?",
+      text: "Mia, what is your [[favorite:the one you like the most — number one]] game on Roblox right now?",
     },
     {
       speaker: 'Mia',
@@ -220,7 +220,7 @@ export const robloxLikesAndDislikes: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Same! OK — in real life. What is your [[favourite:the one you like the most]] food? And what do you [[hate:not like at all]]?",
+      text: "Same! OK — in real life. What is your [[favorite:the one you like the most]] food? And what do you [[hate:not like at all]]?",
     },
     {
       speaker: 'Mia',
@@ -238,19 +238,19 @@ export const robloxLikesAndDislikes: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "[[Love:like very very much]], [[like:think something is good]], [[don't mind:it is OK]], [[don't like:do not enjoy]], [[hate:not like at all]], [[can't stand:really do not like]], [[prefer:like this one more]], [[favourite:your number one]] — now we can say what we feel about anything!",
+      text: "[[Love:like very very much]], [[like:think something is good]], [[don't mind:it is OK]], [[don't like:do not enjoy]], [[hate:not like at all]], [[can't stand:really do not like]], [[prefer:like this one more]], [[favorite:your number one]] — now we can say what we feel about anything!",
     },
   ],
 
   matchingExercise: [
-    { word: 'LOVE', definition: 'Like very very much — your number one favourite!' },
+    { word: 'LOVE', definition: 'Like very very much — your number one favorite!' },
     { word: 'LIKE', definition: 'Think something is good and enjoy it' },
     { word: "DON'T MIND", definition: 'It is OK — not great, not bad. You are happy to do it.' },
     { word: "DON'T LIKE", definition: 'You do not enjoy this — not good for you' },
     { word: 'HATE', definition: 'Not like at all — you do not want to do it' },
     { word: "CAN'T STAND", definition: 'Really do not like it — even stronger than hate' },
     { word: 'PREFER', definition: 'Like one thing more than another — you choose this one' },
-    { word: 'FAVOURITE', definition: 'The one you like the most — number one for you' },
+    { word: 'FAVORITE', definition: 'The one you like the most — number one for you' },
   ],
 
   fillBlankExercise: [
@@ -316,11 +316,11 @@ export const robloxLikesAndDislikes: Lesson = {
       correctIndex: 2,
     },
     {
-      question: "How do you say your number-one favourite game politely?",
+      question: "How do you say your number-one favorite game politely?",
       options: [
         "I can't stand this game — it is not for me.",
         "I don't mind this game.",
-        "My favourite game is... — I love it so much!",
+        "My favorite game is... — I love it so much!",
         "This game grows on me.",
       ],
       correctIndex: 2,

@@ -45,10 +45,10 @@ export const givingSimpleAnswers: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/exactly.png',
     },
     {
-      word: 'APOLOGISE',
+      word: 'APOLOGIZE',
       partOfSpeech: 'verb',
       definition: 'To say you are sorry for something that is disappointing or inconvenient.',
-      example: 'I apologise — that feature is not available on the Starter Plan.',
+      example: 'I apologize — that feature is not available on the Starter Plan.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/apologise.png',
     },
     {
@@ -143,7 +143,7 @@ export const givingSimpleAnswers: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'I [[apologise:to say you are sorry for something that is disappointing or inconvenient]] — [[unfortunately:used to introduce disappointing or negative news in a polite way]] not on the Growth Plan. Phone support is only available on the Enterprise Plan. Let me offer you the live chat as an [[alternative:a different option that is available when what you want is not possible]] — most customers find it just as fast.',
+      text: 'I [[apologize:to say you are sorry for something that is disappointing or inconvenient]] — [[unfortunately:used to introduce disappointing or negative news in a polite way]] not on the Growth Plan. Phone support is only available on the Enterprise Plan. Let me offer you the live chat as an [[alternative:a different option that is available when what you want is not possible]] — most customers find it just as fast.',
     },
     {
       speaker: 'Dana',
@@ -205,7 +205,7 @@ export const givingSimpleAnswers: Lesson = {
         "definition": "Used to agree completely or confirm something is 100% right"
     },
     {
-        "word": "APOLOGISE",
+        "word": "APOLOGIZE",
         "definition": "To say you are sorry for something disappointing or inconvenient"
     },
     {
@@ -370,7 +370,7 @@ export const givingSimpleAnswers: Lesson = {
                 "options": [
                     "I would have to check our cancellation policy before I can say for sure.",
                     "It depends on whether you pay monthly or annually.",
-                    "Yes — monthly plans can be cancelled at any time. Annual plans run until the end of the billing year, so let me explain how that works."
+                    "Yes — monthly plans can be canceled at any time. Annual plans run until the end of the billing year, so let me explain how that works."
                 ],
                 "correctIndex": 2,
                 "explanation": "C is correct. It leads with yes, then gives the honest full picture with the nuance about monthly vs annual. A sounds uncertain when you should know your own policy. B starts with the limitation instead of the yes — the customer hears a negative first."
@@ -444,7 +444,7 @@ export const givingSimpleAnswers: Lesson = {
             },
             {
                 "customerLine": "Do you have a mobile app?",
-                "salespersonStart": "I apologise — we don't have a mobile app yet.",
+                "salespersonStart": "I apologize — we don't have a mobile app yet.",
                 "suggestedCompletion": "But let me offer you an alternative — our website works well on phones and tablets. Most customers use it that way with no issues. We are working on a native app and I can let you know when it is ready."
             }
         ]

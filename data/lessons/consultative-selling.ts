@@ -167,19 +167,19 @@ export const consultativeSelling: Lesson = {
       speaker: 'James',
       speakerColor: 'blue',
       speakerAvatar: '/images/james-icon.png',
-      text: 'We have tried three different CRM configurations, a weekly review process, and a rep coaching programme. The coaching helped a little. The rest made no difference.',
+      text: 'We have tried three different CRM configurations, a weekly review process, and a rep coaching program. The coaching helped a little. The rest made no difference.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'You have mentioned the reporting issue, the data quality issue, and the rep behaviour issue. If you had to rank those by which one is costing you the most right now, which would be first?',
+      text: 'You have mentioned the reporting issue, the data quality issue, and the rep behavior issue. If you had to rank those by which one is costing you the most right now, which would be first?',
     },
     {
       speaker: 'James',
       speakerColor: 'blue',
       speakerAvatar: '/images/james-icon.png',
-      text: 'The rep behaviour. If the reps updated the CRM properly, the data would be right and the report would take care of itself.',
+      text: 'The rep behavior. If the reps updated the CRM properly, the data would be right and the report would take care of itself.',
     },
     {
       speaker: 'Riley',
@@ -220,7 +220,7 @@ export const consultativeSelling: Lesson = {
     },
     {
         "word": "QUALIFY",
-        "definition": "To determine whether a prospect's situation is a genuine fit for what you offer — and to recognise when it is not"
+        "definition": "To determine whether a prospect's situation is a genuine fit for what you offer — and to recognize when it is not"
     },
     {
         "word": "ARTICULATE",
@@ -282,7 +282,7 @@ export const consultativeSelling: Lesson = {
         "question": "Why does Riley say 'Before I suggest anything' at the start of the call?",
         "options": [
             "She does not yet know enough about Brightline to present it confidently",
-            "She is deliberately setting a consultative tone — signalling that she will listen before she pitches, which changes the dynamic of the entire conversation",
+            "She is deliberately setting a consultative tone — signaling that she will listen before she pitches, which changes the dynamic of the entire conversation",
             "It is a standard opening line that most salespeople use",
             "She has been told by her manager to spend more time on discovery"
         ],
@@ -332,7 +332,7 @@ export const consultativeSelling: Lesson = {
         "question": "What does 'qualify' mean in the context of consultative selling — and what makes it a consultative move rather than a sales tactic?",
         "options": [
             "Qualifying means confirming the prospect has budget — it is purely a commercial checkpoint",
-            "Qualifying means determining fit honestly, including recognising when your solution is NOT the right answer — which requires putting the prospect's interests above the sale",
+            "Qualifying means determining fit honestly, including recognizing when your solution is NOT the right answer — which requires putting the prospect's interests above the sale",
             "Qualifying means preparing the right questions before a discovery call",
             "Qualifying is a way of filtering out prospects who are not serious buyers"
         ],
@@ -375,7 +375,7 @@ export const consultativeSelling: Lesson = {
         },
         {
             "before": "You mentioned several challenges during our call. The one you identified as the highest",
-            "after": "was rep behaviour — specifically, the gap between what is supposed to happen in the CRM and what actually happens. You told me that if you fixed that, the reporting problem would largely take care of itself.",
+            "after": "was rep behavior — specifically, the gap between what is supposed to happen in the CRM and what actually happens. You told me that if you fixed that, the reporting problem would largely take care of itself.",
             "answer": "priority"
         },
         {
@@ -456,7 +456,7 @@ export const consultativeSelling: Lesson = {
             "text": "Salesperson B — Response to the stated problem",
             "verdict": {
                 "isGood": true,
-                "explanation": "Strong. Rather than responding to 'pipeline visibility' as the problem, Salesperson B probes the underlying behaviour. The question is specific and useful — it breaks 'not updating properly' into three distinct possibilities, each with different implications. This is diagnostic questioning at its best: you are not just asking the prospect to say more, you are offering them a structured way to think about their own situation. The answer to this question will determine what solution is actually relevant."
+                "explanation": "Strong. Rather than responding to 'pipeline visibility' as the problem, Salesperson B probes the underlying behavior. The question is specific and useful — it breaks 'not updating properly' into three distinct possibilities, each with different implications. This is diagnostic questioning at its best: you are not just asking the prospect to say more, you are offering them a structured way to think about their own situation. The answer to this question will determine what solution is actually relevant."
             }
         },
         {
@@ -470,7 +470,7 @@ export const consultativeSelling: Lesson = {
             "text": "If you had to rank that against the other problems you mentioned — the forecast reliability and the visibility issue — which one is costing you the most right now?",
             "verdict": {
                 "isGood": true,
-                "explanation": "Strong prioritisation move. Salesperson B resists the temptation to respond immediately and instead establishes what matters most. This prevents them from spending the rest of the call solving the wrong problem. It also signals to the prospect that they are being heard comprehensively — not just responded to. The answer to this question will determine where the rest of the call goes."
+                "explanation": "Strong prioritization move. Salesperson B resists the temptation to respond immediately and instead establishes what matters most. This prevents them from spending the rest of the call solving the wrong problem. It also signals to the prospect that they are being heard comprehensively — not just responded to. The answer to this question will determine where the rest of the call goes."
             }
         }
     ]
@@ -482,9 +482,9 @@ export const consultativeSelling: Lesson = {
             {
                 "customerLine": "A prospect says in the first two minutes: 'We need better sales training for our team.'",
                 "options": [
-                    "Say: 'We have a great sales training programme — it covers objection handling, closing techniques, and prospecting. Most teams see results within sixty days. Can I walk you through it?'",
+                    "Say: 'We have a great sales training program — it covers objection handling, closing techniques, and prospecting. Most teams see results within sixty days. Can I walk you through it?'",
                     "Say: 'Before I suggest anything, help me understand what is driving that — what does the current gap look like? Is it that the team lacks skills, or that they have skills but are not applying them consistently?'",
-                    "Say: 'Sales training is something a lot of our clients ask for. What is your budget for this kind of programme?'"
+                    "Say: 'Sales training is something a lot of our clients ask for. What is your budget for this kind of program?'"
                 ],
                 "correctIndex": 1,
                 "explanation": "B is correct. 'We need sales training' is a stated solution, not a diagnosed problem. The underlying issue might be skills, motivation, process, management, or something else entirely — and the right training depends on which one it is. A pitches immediately to a symptom. C jumps to budget before understanding the problem. B is the only response that probes beneath the surface."
@@ -507,10 +507,10 @@ export const consultativeSelling: Lesson = {
                     "Say: 'I think the most important one is the pipeline visibility issue — that is where we see the most impact with clients like you. Can we focus there?'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. Six problems with twenty minutes means you have to prioritise — and the priority should come from the prospect, not from you. A tries to address all six, which means none get addressed properly. C tells the prospect which problem matters most — a common mistake that replaces their judgment with yours, and often gets it wrong. B asks the prospect to rank, which surfaces what they actually care about and gives you the right focus for the rest of the call."
+                "explanation": "B is correct. Six problems with twenty minutes means you have to prioritize — and the priority should come from the prospect, not from you. A tries to address all six, which means none get addressed properly. C tells the prospect which problem matters most — a common mistake that replaces their judgment with yours, and often gets it wrong. B asks the prospect to rank, which surfaces what they actually care about and gives you the right focus for the rest of the call."
             },
             {
-                "customerLine": "After a full discovery call, you realise your product is not the right fit for this prospect's actual problem.",
+                "customerLine": "After a full discovery call, you realize your product is not the right fit for this prospect's actual problem.",
                 "options": [
                     "Pitch anyway — focus on the features that are closest to what they described and hope the rest can be worked around after the sale.",
                     "Say: 'Based on what you have told me, I do not think we are the right fit for where you are right now. What you need first is a data integration tool — once that is in place, we would be a much stronger fit. I can recommend two options that might help.'",
@@ -522,7 +522,7 @@ export const consultativeSelling: Lesson = {
         ]
     },
     "profileMatch": {
-        "instructions": "Read the three prospect situations. Match each one to the consultative question type — probing for the underlying issue, prioritising, or confirming understanding — that would be most useful next. Discuss before clicking.",
+        "instructions": "Read the three prospect situations. Match each one to the consultative question type — probing for the underlying issue, prioritizing, or confirming understanding — that would be most useful next. Discuss before clicking.",
         "profiles": [
             {
                 "name": "Situation 1",
@@ -549,7 +549,7 @@ export const consultativeSelling: Lesson = {
             {
                 "key": "prioritise",
                 "label": "Establish the priority",
-                "description": "'You have covered a lot of ground there. If you had to rank those by which one is causing the most pain right now — whether in deals, revenue, or time — which would you put at the top?' Prioritising before responding prevents you from solving the wrong problem."
+                "description": "'You have covered a lot of ground there. If you had to rank those by which one is causing the most pain right now — whether in deals, revenue, or time — which would you put at the top?' Prioritizing before responding prevents you from solving the wrong problem."
             },
             {
                 "key": "confirm",

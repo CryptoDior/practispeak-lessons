@@ -61,7 +61,7 @@ export const theStadium: Lesson = {
     {
       word: 'PITCH',
       partOfSpeech: 'noun',
-      definition: 'The grass area in the middle of the stadium where the match is played.',
+      definition: 'The grass area in the middle of the stadium where the match is played. (US: field)',
       example: 'The pitch was in perfect condition for the match.',
       imageSlug: '/images/stadium-pitch.png',
     },
@@ -76,7 +76,7 @@ export const theStadium: Lesson = {
     },
     {
       phrase: 'ON THE PITCH',
-      definition: 'On the grass playing area in the stadium.',
+      definition: 'On the grass playing area in the stadium. (US: on the field)',
       example: 'The players warmed up on the pitch before kick-off.',
       imageSlug: '/images/on-the-pitch-stadium.png',
     },

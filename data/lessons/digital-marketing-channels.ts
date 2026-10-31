@@ -5,7 +5,7 @@ export const digitalMarketingChannels: Lesson = {
   title: 'Digital Marketing Channels',
   subtitle: 'How to choose the right mix of channels for your campaign — and explain your choices to a client',
   level: 'B1-B2',
-  description: 'There are more marketing channels available than ever — and the hardest job is choosing the right ones. In this lesson you will learn the vocabulary for describing and comparing digital marketing channels, understand the difference between paid, earned, and owned media, and practise writing and presenting a channel strategy summary to a client.',
+  description: 'There are more marketing channels available than ever — and the hardest job is choosing the right ones. In this lesson you will learn the vocabulary for describing and comparing digital marketing channels, understand the difference between paid, earned, and owned media, and practice writing and presenting a channel strategy summary to a client.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/digital-marketing-channels-hero.png',
 
   vocabulary: [
@@ -311,7 +311,7 @@ export const digitalMarketingChannels: Lesson = {
     {
         "question": "Which of these best describes an omnichannel marketing strategy?",
         "options": [
-            "Using every available digital channel to maximise total reach.",
+            "Using every available digital channel to maximize total reach.",
             "Coordinating multiple channels so that a prospect experiences one consistent, connected journey — regardless of where they encounter the brand. A LinkedIn ad, a follow-up email, and a retargeted display ad all feel like part of the same conversation, not three separate campaigns.",
             "Switching between channels depending on which is performing best each month.",
             "Running the same creative asset across all channels simultaneously for consistency."
@@ -324,7 +324,7 @@ export const digitalMarketingChannels: Lesson = {
             "Say yes — a broad channel mix improves overall brand awareness and covers all audience types.",
             "Explain that this level of activity across seven channels will spread the team and budget too thin to do any of them well. Ask them to identify the two or three channels where their specific target persona actually spends time and where they have the resources to produce quality content consistently. Start there, prove it, then add channels based on data.",
             "Suggest outsourcing each channel to a specialist — that way all seven can be managed simultaneously.",
-            "Agree with the plan but prioritise paid search first, since it delivers the fastest measurable results."
+            "Agree with the plan but prioritize paid search first, since it delivers the fastest measurable results."
         ],
         "correctIndex": 1
     }
@@ -351,7 +351,7 @@ export const digitalMarketingChannels: Lesson = {
                     "Say: 'TikTok is primarily a consumer platform — it is not right for B2B. Do not follow the competitor on this one.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It applies the right test — does this channel reach the target persona in a buying context — rather than following a competitor move without evidence. A copies the competitor without any strategic evaluation. C makes a sweeping generalisation — some B2B brands do very well on TikTok, so the answer needs to be data-led, not assumed."
+                "explanation": "B is correct. It applies the right test — does this channel reach the target persona in a buying context — rather than following a competitor move without evidence. A copies the competitor without any strategic evaluation. C makes a sweeping generalization — some B2B brands do very well on TikTok, so the answer needs to be data-led, not assumed."
             },
             {
                 "customerLine": "Client after month one of the campaign: 'The email open rates are great — 38% — but we are not getting many bookings from it. What is wrong?'",

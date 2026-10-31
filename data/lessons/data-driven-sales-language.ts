@@ -191,7 +191,7 @@ export const dataDrivenSalesLanguage: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "I anticipated that question. The attribution methodology isolates the platform's impact by comparing high-usage teams against low-usage teams within your own organisation — same market, same leadership, same product. The performance difference between cohorts is statistically significant. This is a controlled comparison, not a correlation.",
+      text: "I anticipated that question. The attribution methodology isolates the platform's impact by comparing high-usage teams against low-usage teams within your own organization — same market, same leadership, same product. The performance difference between cohorts is statistically significant. This is a controlled comparison, not a correlation.",
     },
     {
       speaker: 'Marcus',
@@ -305,7 +305,7 @@ export const dataDrivenSalesLanguage: Lesson = {
         "question": "How does Riley defend the attribution methodology against the suggestion that improvements might have happened without the platform?",
         "options": [
             "By citing industry research and third-party validation",
-            "By comparing high-usage and low-usage cohorts within the same organisation",
+            "By comparing high-usage and low-usage cohorts within the same organization",
             "By showing that no other changes were made to the team during the same period"
         ],
         "correctIndex": 1
@@ -369,10 +369,10 @@ export const dataDrivenSalesLanguage: Lesson = {
                 "is"
             ],
             "correctIndex": 1,
-            "explanation": "'Would be' (second conditional) is correct — this is a hypothetical improvement, not a certain or current one. 'If we improve... the impact would be' models a conditional scenario. 'Will be' (first conditional) implies the improvement is highly likely or already decided — which overstates the certainty. 'Is' (present simple) treats the hypothetical as a current fact, which is misleading. In financial modelling language, hypothetical scenarios always use 'would': 'if X happens, the impact would be Y'."
+            "explanation": "'Would be' (second conditional) is correct — this is a hypothetical improvement, not a certain or current one. 'If we improve... the impact would be' models a conditional scenario. 'Will be' (first conditional) implies the improvement is highly likely or already decided — which overstates the certainty. 'Is' (present simple) treats the hypothetical as a current fact, which is misleading. In financial modeling language, hypothetical scenarios always use 'would': 'if X happens, the impact would be Y'."
         },
         {
-            "sentence": "The attribution methodology _____ the platform's impact by comparing high-usage and low-usage cohorts within the same organisation.",
+            "sentence": "The attribution methodology _____ the platform's impact by comparing high-usage and low-usage cohorts within the same organization.",
             "options": [
                 "isolates",
                 "isolated",
@@ -390,12 +390,12 @@ export const dataDrivenSalesLanguage: Lesson = {
             {
                 "customerLine": "These numbers look impressive, but how do I know this performance wasn't driven by market conditions rather than your platform?",
                 "options": [
-                    "That's a fair challenge — and the attribution methodology accounts for it directly. The comparison is between high-usage and low-usage teams within your own organisation — same market, same quarter, same leadership. The only variable is platform usage. The performance gap between cohorts is 14 percentage points on conversion. Market conditions affect both cohorts equally, so they don't explain the gap.",
+                    "That's a fair challenge — and the attribution methodology accounts for it directly. The comparison is between high-usage and low-usage teams within your own organization — same market, same quarter, same leadership. The only variable is platform usage. The performance gap between cohorts is 14 percentage points on conversion. Market conditions affect both cohorts equally, so they don't explain the gap.",
                     "These results have been independently verified by a third-party analyst, so we're confident in the methodology.",
                     "The platform's impact is well established across hundreds of customers — so we're confident that market conditions are not the primary driver."
                 ],
                 "correctIndex": 0,
-                "explanation": "Option A is the only response that directly addresses the specific objection — market conditions — and explains precisely how the methodology controls for it. It gives the mechanism (within-organisation comparison), the control variable (same market, same quarter), and a specific data point (14-percentage-point gap). Option B cites third-party verification without explaining anything — which sounds defensive. Option C deflects with scale ('hundreds of customers') rather than addressing the methodological question."
+                "explanation": "Option A is the only response that directly addresses the specific objection — market conditions — and explains precisely how the methodology controls for it. It gives the mechanism (within-organization comparison), the control variable (same market, same quarter), and a specific data point (14-percentage-point gap). Option B cites third-party verification without explaining anything — which sounds defensive. Option C deflects with scale ('hundreds of customers') rather than addressing the methodological question."
             },
             {
                 "customerLine": "Our board will ask: what do we attribute the churn reduction to — is it the platform, or did our customer success team just get better?",
@@ -473,13 +473,13 @@ export const dataDrivenSalesLanguage: Lesson = {
         "items": [
             {
                 "customerLine": "Our board is going to ask: what's the evidence that the platform actually caused these improvements?",
-                "salespersonStart": "The attribution methodology addresses that directly. We compared high-usage and low-usage cohorts within your own organisation —",
+                "salespersonStart": "The attribution methodology addresses that directly. We compared high-usage and low-usage cohorts within your own organization —",
                 "suggestedCompletion": "same market conditions, same leadership, same product. The only variable was platform usage. The performance difference between the two cohorts — 14 percentage points on conversion and a 3.4x difference in churn rate — is statistically significant. This is a controlled comparison, not a correlation. I'm happy to share the full methodology document so your board can interrogate it directly."
             },
             {
                 "customerLine": "Give me the ROI number — but in a way I can actually defend to a sceptical CFO.",
                 "salespersonStart": "Rather than leading with the headline — 3.5x — I'd suggest walking your CFO through the three components separately:",
-                "suggestedCompletion": "$1.1 million in incremental conversion revenue, $380,000 in churn revenue protected, against a $420,000 platform cost. Then invite them to challenge any assumption. A CFO who stress-tests the model and still arrives at 2.5x is more convinced than one who simply sees a vendor-provided headline and dismisses it. Transparency in the methodology is the strongest defence of the number."
+                "suggestedCompletion": "$1.1 million in incremental conversion revenue, $380,000 in churn revenue protected, against a $420,000 platform cost. Then invite them to challenge any assumption. A CFO who stress-tests the model and still arrives at 2.5x is more convinced than one who simply sees a vendor-provided headline and dismisses it. Transparency in the methodology is the strongest defense of the number."
             },
             {
                 "customerLine": "If we renew, what improvement can we realistically expect in year two?",

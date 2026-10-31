@@ -5,7 +5,7 @@ export const mediaRelationsAndPr: Lesson = {
   title: 'Media Relations and PR',
   subtitle: 'How to work with journalists, manage media enquiries, and communicate with the press with confidence and control',
   level: 'C1-C2',
-  description: "Every organisation that communicates publicly — whether through a product launch, a crisis response, or a thought leadership campaign — needs to understand how the media works. Journalists are not your marketing channel. They have their own agendas, deadlines, and audiences. Knowing how to work with them — how to pitch a story, how to manage an embargo, how to brief a spokesperson, and how to respond when a difficult question lands — is one of the most practical communications skills in business. This lesson gives you the vocabulary to participate confidently in PR and media relations conversations.",
+  description: "Every organization that communicates publicly — whether through a product launch, a crisis response, or a thought leadership campaign — needs to understand how the media works. Journalists are not your marketing channel. They have their own agendas, deadlines, and audiences. Knowing how to work with them — how to pitch a story, how to manage an embargo, how to brief a spokesperson, and how to respond when a difficult question lands — is one of the most practical communications skills in business. This lesson gives you the vocabulary to participate confidently in PR and media relations conversations.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/media-relations-and-pr-hero.png',
 
   vocabulary: [
@@ -144,7 +144,7 @@ export const mediaRelationsAndPr: Lesson = {
         { brand: 'Flux', context: 'SaaS platform — pre-launch spokesperson preparation', imageSlug: '/images/visual-examples/flux-spokesperson-competitive-questions.png', caption: 'The spokesperson is being briefed on competitive landscape questions — three journalists have already asked our agency about the comparison, and the spokesperson needs a confident, non-defensive answer.', aspectRatio: '16/9' },
         { brand: 'Halo', context: 'DTC brand — spokesperson briefing for controversy response', imageSlug: '/images/visual-examples/halo-spokesperson-controversy-briefing.png', caption: 'The founder is being briefed on the social media controversy before her scheduled interview — covering the background, the company response, and the two sentences she should use to address it directly.', aspectRatio: '4/5' },
       ],
-      inContext: "Dana updated the team the morning of the launch: The spokesperson is being briefed on the pricing question right now, she said. We know at least three journalists are going to ask why we raised the price at launch rather than starting lower. Riley: What is the agreed line? Dana: The price reflects the genuine value of the product and the investment made in its development — and we are offering a limited early-adopter discount to reward the customers who supported us from the start. Marcus: Is she comfortable with that? Dana: She practised it in the briefing yesterday. She is comfortable. That is the only answer we are giving on pricing today.",
+      inContext: "Dana updated the team the morning of the launch: The spokesperson is being briefed on the pricing question right now, she said. We know at least three journalists are going to ask why we raised the price at launch rather than starting lower. Riley: What is the agreed line? Dana: The price reflects the genuine value of the product and the investment made in its development — and we are offering a limited early-adopter discount to reward the customers who supported us from the start. Marcus: Is she comfortable with that? Dana: She practiced it in the briefing yesterday. She is comfortable. That is the only answer we are giving on pricing today.",
     },
   ],
 
@@ -179,13 +179,13 @@ export const mediaRelationsAndPr: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And the [[spokesperson:the person who officially represents an organisation and speaks to the media on its behalf]] preparation? Who is speaking and are they ready?",
+      text: "And the [[spokesperson:the person who officially represents an organization and speaks to the media on its behalf]] preparation? Who is speaking and are they ready?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Three spokespeople — the CEO for strategy and brand, the CTO for product and tech, the CMO for campaign. The spokesperson is being briefed on the competitive positioning questions today — that is where I expect the hardest questions to come from. I also need to brief the CEO on what she says off the record if a journalist pushes on the acquisition rumours.",
+      text: "Three spokespeople — the CEO for strategy and brand, the CTO for product and tech, the CMO for campaign. The spokesperson is being briefed on the competitive positioning questions today — that is where I expect the hardest questions to come from. I also need to brief the CEO on what she says off the record if a journalist pushes on the acquisition rumors.",
     },
     {
       speaker: 'Dana',
@@ -223,9 +223,9 @@ export const mediaRelationsAndPr: Lesson = {
     { word: 'press release', definition: 'a written statement sent to journalists to share official news — a launch, appointment, or major announcement' },
     { word: 'embargo', definition: 'an agreement that journalists receive information early but cannot publish until a specific date and time' },
     { word: 'media kit', definition: 'a collection of resources — press release, images, bios, and background — giving journalists everything they need to cover a story' },
-    { word: 'spokesperson', definition: 'the person authorised to represent an organisation and speak to the media on its behalf' },
+    { word: 'spokesperson', definition: 'the person authorized to represent an organization and speak to the media on its behalf' },
     { word: 'off the record', definition: 'information shared with a journalist that they agree not to attribute or publish — must be agreed before sharing, not after' },
-    { word: 'media briefing', definition: 'a meeting or call giving a journalist direct access to an organisation or key person before a story is published' },
+    { word: 'media briefing', definition: 'a meeting or call giving a journalist direct access to an organization or key person before a story is published' },
     { word: 'news hook', definition: 'the element that makes a story timely and relevant enough for a journalist to want to cover it right now' },
     { word: 'earned media', definition: 'coverage you did not pay for — generated because a journalist found your story newsworthy or interesting' },
   ],
@@ -257,7 +257,7 @@ export const mediaRelationsAndPr: Lesson = {
     },
     {
       question: 'What does Marcus say is the consequence of not responding to a journalist who is publishing a difficult story?',
-      options: ['The journalist is legally required to delay publication until the organisation has provided a written statement', 'The story runs entirely from the other side\'s perspective — without any of the organisation\'s context or position', 'The journalist will approach other members of the organisation for a comment and the story will be delayed'],
+      options: ['The journalist is legally required to delay publication until the organization has provided a written statement', 'The story runs entirely from the other side\'s perspective — without any of the organization\'s context or position', 'The journalist will approach other members of the organization for a comment and the story will be delayed'],
       correctIndex: 1,
     },
   ],
@@ -320,7 +320,7 @@ export const mediaRelationsAndPr: Lesson = {
           customerLine: "'A journalist has asked for comment on a negative story about our company. Should we respond or stay silent?'",
           options: [
             "Stay silent — responding only draws more attention to the story and gives the journalist more material to work with.",
-            "Almost always respond — even a brief, factual statement means the story has to include your position. When an organisation stays silent, the journalist writes the story entirely from the other side's perspective, and 'the company did not respond to a request for comment' becomes a line in the article that signals you have something to hide. The response does not need to be long or detailed — it needs to be accurate, calm, and factual. Acknowledge what you can acknowledge, decline to comment on specifics you cannot address, and make clear you take the issue seriously. In a crisis, silence rarely protects — it usually amplifies the problem.",
+            "Almost always respond — even a brief, factual statement means the story has to include your position. When an organization stays silent, the journalist writes the story entirely from the other side's perspective, and 'the company did not respond to a request for comment' becomes a line in the article that signals you have something to hide. The response does not need to be long or detailed — it needs to be accurate, calm, and factual. Acknowledge what you can acknowledge, decline to comment on specifics you cannot address, and make clear you take the issue seriously. In a crisis, silence rarely protects — it usually amplifies the problem.",
             "Yes — but only respond if the journalist is from a major national outlet. For smaller publications, the audience is too small to justify the risk of saying something wrong.",
           ],
           correctIndex: 1,
@@ -375,7 +375,7 @@ export const mediaRelationsAndPr: Lesson = {
           lineIndex: 5,
           incorrectText: 'the new data privacy regulations that come into effect next quarter',
           correction: 'the new data privacy regulations that come into effect next quarter',
-          explanation: "Actually this line is correct as written — 'come into effect' is the right phrase (not 'comes into effect') because the subject is 'regulations' (plural). Let students look for a different error. The actual error to flag in this line is none — direct students to look again at lines 1 and 4 if they identified this line. Teachers may wish to use this as a distractor to test whether students can recognise a correct sentence.",
+          explanation: "Actually this line is correct as written — 'come into effect' is the right phrase (not 'comes into effect') because the subject is 'regulations' (plural). Let students look for a different error. The actual error to flag in this line is none — direct students to look again at lines 1 and 4 if they identified this line. Teachers may wish to use this as a distractor to test whether students can recognize a correct sentence.",
         },
       ],
     },
@@ -395,7 +395,7 @@ export const mediaRelationsAndPr: Lesson = {
         {
           customerLine: "Your CEO is about to go into a journalist interview. What are the three most important things you tell her in the final five minutes before she walks in?",
           salespersonStart: "Three things. First —",
-          suggestedCompletion: "your three key messages are on the card in front of you. Everything you say should connect back to one of those three points. If a question takes you off-track, bridge back: 'That is an interesting point — what I would say is...' Second — there are two questions you do not answer directly. On the acquisition rumours, the line is: 'I am not in a position to comment on market speculation, but what I can tell you is our growth strategy is very clear.' On the pricing controversy, redirect to the value story. Do not get defensive. Third — if you want to go off the record on anything, say the words first: 'Before I say this, can we agree this is strictly off the record?' Wait for confirmation. Never say it after. The interview is yours. You know this story better than anyone in the room.",
+          suggestedCompletion: "your three key messages are on the card in front of you. Everything you say should connect back to one of those three points. If a question takes you off-track, bridge back: 'That is an interesting point — what I would say is...' Second — there are two questions you do not answer directly. On the acquisition rumors, the line is: 'I am not in a position to comment on market speculation, but what I can tell you is our growth strategy is very clear.' On the pricing controversy, redirect to the value story. Do not get defensive. Third — if you want to go off the record on anything, say the words first: 'Before I say this, can we agree this is strictly off the record?' Wait for confirmation. Never say it after. The interview is yours. You know this story better than anyone in the room.",
         },
       ],
     },

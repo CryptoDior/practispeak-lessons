@@ -249,7 +249,7 @@ export const robloxIdiomsIii: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Always. Call him out, but give him a chance to respond — maybe [[give someone the benefit of the doubt:believe someone had good reasons, even when not certain]] first. He might not have realised how his message came across.",
+      text: "Always. Call him out, but give him a chance to respond — maybe [[give someone the benefit of the doubt:believe someone had good reasons, even when not certain]] first. He might not have realized how his message came across.",
     },
     {
       speaker: 'Mia',
@@ -275,7 +275,7 @@ export const robloxIdiomsIii: Lesson = {
         explanation: "FIT IN means to become accepted and comfortable within a group. Making friends, joining discussions, and feeling like you belong are all signs of fitting in — it's the right choice here.",
       },
       {
-        sentence: "The team captain organised a short introductory game before the first official match to _____ with the new members.",
+        sentence: "The team captain organized a short introductory game before the first official match to _____ with the new members.",
         options: ["see eye to eye", "break the ice", "call out"],
         correctIndex: 1,
         explanation: "BREAK THE ICE means to do something that reduces awkwardness and makes people more comfortable — especially at the beginning of a new situation. An introductory game is a classic ice-breaker.",
@@ -320,7 +320,7 @@ export const robloxIdiomsIii: Lesson = {
 
   fillBlankExercise: [
     { before: "The new player took a few weeks but eventually managed to", answer: 'fit in', after: "with the rest of the team — they were all training together by the end of the month." },
-    { before: "Mario organised a quick quiz at the start of the session to", answer: 'break the ice', after: "between the experienced players and the new recruits." },
+    { before: "Mario organized a quick quiz at the start of the session to", answer: 'break the ice', after: "between the experienced players and the new recruits." },
     { before: "She had to", answer: 'call him out', after: "for using language that was completely against the community guidelines — she had no choice." },
     { before: "Even in the toughest matches, the team always knew that Mario", answer: 'had their back', after: "— he was reliable, loyal, and always there when it mattered." },
     { before: "Mia and the team captain don't always", answer: 'see eye to eye', after: "on how to manage new players, but they always find a compromise." },
@@ -364,7 +364,7 @@ export const robloxIdiomsIii: Lesson = {
       question: "What does ROCK THE BOAT mean in a social context?",
       options: [
         "To make a group feel more comfortable and relaxed.",
-        "To challenge an individual's bad behaviour openly.",
+        "To challenge an individual's bad behavior openly.",
         "To do or say something that causes conflict or disrupts a stable situation.",
         "To offer support to someone in a difficult situation.",
       ],

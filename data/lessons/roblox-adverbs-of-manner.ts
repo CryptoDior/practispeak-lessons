@@ -170,7 +170,7 @@ export const robloxAdverbsOfManner: Lesson = {
       phrase: "PUSH FORWARD",
       definition: "To move forward strongly and keep making progress.",
       example: "The team pushed forward aggressively in the final two minutes, gaining enough ground to secure the win.",
-      inGame: "When you have the momentum, push forward — do not give the other team time to reorganise their defence.",
+      inGame: "When you have the momentum, push forward — do not give the other team time to reorganise their defense.",
       inRealLife: "Despite the delays, she pushed the project forward and delivered on the original deadline.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adverbs-of-manner-push-forward.png',
     },
@@ -185,7 +185,7 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       phrase: "STEP BACK",
       definition: "To stop and think about the situation before you act.",
-      example: "After five losses, Mia stepped back and analysed her strategy — what she found changed her whole approach.",
+      example: "After five losses, Mia stepped back and analyzed her strategy — what she found changed her whole approach.",
       inGame: "Step back from the match and look at the bigger picture — why are you consistently losing in the same situation?",
       inRealLife: "Sometimes you need to step back from a project and ask whether you are solving the right problem.",
       imageSlug: '/images/roblox-adverbs-of-manner-step-back.png',
@@ -245,7 +245,7 @@ export const robloxAdverbsOfManner: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "I saw that. The thing is — you were doing everything else [[efficiently:maximising results with minimum wasted effort]] and then one careless moment undid it. The best players are those who play [[consistently:reliably, to the same standard every time]] — not brilliantly sometimes and carelessly other times.",
+      text: "I saw that. The thing is — you were doing everything else [[efficiently:maximizing results with minimum wasted effort]] and then one careless moment undid it. The best players are those who play [[consistently:reliably, to the same standard every time]] — not brilliantly sometimes and carelessly other times.",
     },
     {
       speaker: 'Mia',
@@ -292,7 +292,7 @@ export const robloxAdverbsOfManner: Lesson = {
         sentence: "The guild operates _____ — every player knows their exact role and nothing is ever repeated or wasted.",
         options: ["efficiently", "aggressively", "decisively"],
         correctIndex: 0,
-        explanation: "EFFICIENTLY means achieving maximum results with minimum waste — exactly what a well-organised guild does. AGGRESSIVELY is about force and intensity. DECISIVELY is about confident decision-making — not specifically about avoiding waste.",
+        explanation: "EFFICIENTLY means achieving maximum results with minimum waste — exactly what a well-organized guild does. AGGRESSIVELY is about force and intensity. DECISIVELY is about confident decision-making — not specifically about avoiding waste.",
       },
       {
         sentence: "When the window opened, she acted _____ — she did not pause to think, she moved immediately.",

@@ -3,9 +3,9 @@ import { Lesson } from '@/types/lesson';
 export const accountBasedMarketing: Lesson = {
   slug: 'account-based-marketing',
   title: 'Account-Based Marketing',
-  subtitle: 'How to target high-value accounts with personalised campaigns that speak directly to specific decision-makers',
+  subtitle: 'How to target high-value accounts with personalized campaigns that speak directly to specific decision-makers',
   level: 'B1-B2',
-  description: "Account-based marketing — or ABM — is a B2B strategy where you treat individual companies as markets of one. Instead of casting a wide net and hoping the right companies find you, ABM means identifying your most valuable potential accounts and building campaigns specifically for them. This lesson teaches you the vocabulary and professional language behind ABM: how to talk about key accounts, intent data, personalisation, and the outreach that gets meetings with decision-makers.",
+  description: "Account-based marketing — or ABM — is a B2B strategy where you treat individual companies as markets of one. Instead of casting a wide net and hoping the right companies find you, ABM means identifying your most valuable potential accounts and building campaigns specifically for them. This lesson teaches you the vocabulary and professional language behind ABM: how to talk about key accounts, intent data, personalization, and the outreach that gets meetings with decision-makers.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-hero.png',
 
   vocabulary: [
@@ -31,10 +31,10 @@ export const accountBasedMarketing: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-decision-maker.png',
     },
     {
-      word: 'PERSONALISATION',
+      word: 'PERSONALIZATION',
       partOfSpeech: 'noun',
       definition: 'Making a message fit one person or company.',
-      example: 'Good personalisation mentions the company\'s latest news.',
+      example: 'Good personalization mentions the company\'s latest news.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-personalisation.png',
     },
     {
@@ -69,17 +69,17 @@ export const accountBasedMarketing: Lesson = {
 
   phrasalVerbs: [
     {
-      phrase: 'WE ARE RUNNING AN ABM PROGRAMME TARGETING...',
+      phrase: 'WE ARE RUNNING AN ABM PROGRAM TARGETING...',
       definition: 'A way to say which companies your ABM work is aimed at.',
-      example: 'We are running an ABM programme targeting large banks.',
+      example: 'We are running an ABM program targeting large banks.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-running-an-abm-programme.png',
-      inAction: 'We are running an ABM programme targeting 30 enterprise accounts in the healthcare sector — all of them match our ICP and three are showing high intent right now.',
-      register: "Neutral — Corvo (B2B data platform, own sales team + LinkedIn): board update reads we are running an ABM programme targeting the top 25 accounts in the insurance sector — all show high intent and each has a dedicated account plan with personalised content. | Lynx (B2B security SaaS, SDR team + paid LinkedIn): QBR slide reads we are running an ABM programme targeting 50 mid-market accounts in the legal sector — chosen because three existing clients in this space are willing to act as reference customers. | Meridian (B2B analytics, own outbound + intent data): sales kick-off reads we are running an ABM programme targeting the CFO function at FTSE 250 companies — intent data shows 18 of them researching FP&A tools this month.",
+      inAction: 'We are running an ABM program targeting 30 enterprise accounts in the healthcare sector — all of them match our ICP and three are showing high intent right now.',
+      register: "Neutral — Corvo (B2B data platform, own sales team + LinkedIn): board update reads we are running an ABM program targeting the top 25 accounts in the insurance sector — all show high intent and each has a dedicated account plan with personalized content. | Lynx (B2B security SaaS, SDR team + paid LinkedIn): QBR slide reads we are running an ABM program targeting 50 mid-market accounts in the legal sector — chosen because three existing clients in this space are willing to act as reference customers. | Meridian (B2B analytics, own outbound + intent data): sales kick-off reads we are running an ABM program targeting the CFO function at FTSE 250 companies — intent data shows 18 of them researching FP&A tools this month.",
       visualExamples: [
-        { brand: 'Corvo', context: 'B2B data platform — own sales team + LinkedIn', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-corvo-abm-insurance.png', caption: 'We are running an ABM programme targeting 25 accounts in insurance — all show high intent, each has a dedicated personalised content plan.', aspectRatio: '16/9' },
-        { brand: 'Meridian', context: 'B2B analytics — outbound + intent data', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-meridian-abm-cfo.png', caption: 'We are running an ABM programme targeting the CFO function at FTSE 250 companies — intent data shows 18 actively researching FP&A tools.', aspectRatio: '16/9' },
+        { brand: 'Corvo', context: 'B2B data platform — own sales team + LinkedIn', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-corvo-abm-insurance.png', caption: 'We are running an ABM program targeting 25 accounts in insurance — all show high intent, each has a dedicated personalized content plan.', aspectRatio: '16/9' },
+        { brand: 'Meridian', context: 'B2B analytics — outbound + intent data', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-meridian-abm-cfo.png', caption: 'We are running an ABM program targeting the CFO function at FTSE 250 companies — intent data shows 18 actively researching FP&A tools.', aspectRatio: '16/9' },
       ],
-      inContext: "Marcus opened the quarterly business review with the sales team. We are running an ABM programme targeting the top 40 enterprise accounts in financial services, he said. This is not lead generation — we are not measuring by volume. We are measuring by account penetration, pipeline generated from named accounts, and meetings with decision-makers. Every name on this list is there for a reason.",
+      inContext: "Marcus opened the quarterly business review with the sales team. We are running an ABM program targeting the top 40 enterprise accounts in financial services, he said. This is not lead generation — we are not measuring by volume. We are measuring by account penetration, pipeline generated from named accounts, and meetings with decision-makers. Every name on this list is there for a reason.",
     },
     {
       phrase: 'THE DECISION-MAKER AT THIS ACCOUNT IS...',
@@ -95,17 +95,17 @@ export const accountBasedMarketing: Lesson = {
       inContext: "Dana had prepared the account plan before the pipeline review. The decision-maker at this account is the CFO, she said. We have a very strong relationship with the finance operations team, but every proposal we put forward has to go through the CFO for final approval and she has never been in a meeting with us. Marcus replied: That is the risk in this deal. Champion without decision-maker access means the deal can stall indefinitely. What is the plan to get her in the room?",
     },
     {
-      phrase: 'WE NEED TO PERSONALISE THE OUTREACH FOR...',
+      phrase: 'WE NEED TO PERSONALIZE THE OUTREACH FOR...',
       definition: 'A way to say messages must be made for each company.',
-      example: 'We need to personalise the outreach for each account.',
+      example: 'We need to personalize the outreach for each account.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-we-need-to-personalise-the-outreach.png',
-      inAction: 'We need to personalise the outreach for the retail sector accounts — the challenge they face right now is very different from our tech sector targets, and the message must reflect that.',
-      register: "Neutral — Prism (B2B marketing analytics, outbound team): SDR coaching note reads we need to personalise the outreach for the FMCG accounts — reference the post-COVID shift to digital they are all navigating and position Prism as the measurement layer for that transition. | Fold (B2B financial content, direct sales): account review reads we need to personalise the outreach for this specific account — they just hired a new CMO from a company that was a previous Fold client, which is a strong opening. | Beacon (B2B recruitment SaaS, ABM programme): campaign brief reads we need to personalise the outreach for each of the 30 target accounts — each email must reference a public piece of information specific to that company.",
+      inAction: 'We need to personalize the outreach for the retail sector accounts — the challenge they face right now is very different from our tech sector targets, and the message must reflect that.',
+      register: "Neutral — Prism (B2B marketing analytics, outbound team): SDR coaching note reads we need to personalize the outreach for the FMCG accounts — reference the post-COVID shift to digital they are all navigating and position Prism as the measurement layer for that transition. | Fold (B2B financial content, direct sales): account review reads we need to personalize the outreach for this specific account — they just hired a new CMO from a company that was a previous Fold client, which is a strong opening. | Beacon (B2B recruitment SaaS, ABM program): campaign brief reads we need to personalize the outreach for each of the 30 target accounts — each email must reference a public piece of information specific to that company.",
       visualExamples: [
-        { brand: 'Prism', context: 'B2B marketing analytics — outbound SDR team', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-prism-personalisation-fmcg.png', caption: "We need to personalise the outreach for FMCG accounts — reference the post-COVID digital shift they're all navigating and position Prism as the measurement layer.", aspectRatio: '16/9' },
-        { brand: 'Beacon', context: 'B2B recruitment SaaS — ABM programme', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-beacon-personalisation-accounts.png', caption: 'We need to personalise the outreach for each account — every email must reference a specific, real, publicly available piece of information about that company.', aspectRatio: '16/9' },
+        { brand: 'Prism', context: 'B2B marketing analytics — outbound SDR team', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-prism-personalisation-fmcg.png', caption: "We need to personalize the outreach for FMCG accounts — reference the post-COVID digital shift they're all navigating and position Prism as the measurement layer.", aspectRatio: '16/9' },
+        { brand: 'Beacon', context: 'B2B recruitment SaaS — ABM program', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-beacon-personalisation-accounts.png', caption: 'We need to personalize the outreach for each account — every email must reference a specific, real, publicly available piece of information about that company.', aspectRatio: '16/9' },
       ],
-      inContext: "Riley had reviewed all 30 outreach emails the morning before the team meeting. We need to personalise the outreach for the financial services accounts specifically, she told the team. These are sophisticated buyers — they can identify a template email in the first sentence. Marcus agreed: The email for the Head of Marketing at a bank should reference what banks in their segment are dealing with right now — not a generic pitch about our product. Dana: I will write account-specific opening lines for each of the top ten. The rest of the email can be templated.",
+      inContext: "Riley had reviewed all 30 outreach emails the morning before the team meeting. We need to personalize the outreach for the financial services accounts specifically, she told the team. These are sophisticated buyers — they can identify a template email in the first sentence. Marcus agreed: The email for the Head of Marketing at a bank should reference what banks in their segment are dealing with right now — not a generic pitch about our product. Dana: I will write account-specific opening lines for each of the top ten. The rest of the email can be templated.",
     },
     {
       phrase: 'INTENT DATA SHOWS THAT THIS ACCOUNT IS...',
@@ -113,12 +113,12 @@ export const accountBasedMarketing: Lesson = {
       example: 'Intent data shows that this account is comparing software.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-intent-data-shows-that-this-account-is.png',
       inAction: 'Intent data shows that this account is in active evaluation mode — they have visited our pricing page four times this week and downloaded our competitive comparison guide.',
-      register: "Neutral — Cascade (B2B operations platform, intent-led ABM): account prioritisation brief reads intent data shows that this account is in evaluation mode — Bombora shows a 3x spike in intent topics related to workflow automation in the last 10 days, making them our highest-priority outreach this week. | Rift (B2B cybersecurity, SDR programme): weekly SDR brief reads intent data shows that this account is researching endpoint security — three people from the company have visited our solutions page in the last 5 days. | Helix (B2B life sciences SaaS, ABM): account plan reads intent data shows that this account is comparing platforms — G2 activity and pricing page visits suggest an active RFP is being prepared.",
+      register: "Neutral — Cascade (B2B operations platform, intent-led ABM): account prioritization brief reads intent data shows that this account is in evaluation mode — Bombora shows a 3x spike in intent topics related to workflow automation in the last 10 days, making them our highest-priority outreach this week. | Rift (B2B cybersecurity, SDR program): weekly SDR brief reads intent data shows that this account is researching endpoint security — three people from the company have visited our solutions page in the last 5 days. | Helix (B2B life sciences SaaS, ABM): account plan reads intent data shows that this account is comparing platforms — G2 activity and pricing page visits suggest an active RFP is being prepared.",
       visualExamples: [
-        { brand: 'Cascade', context: 'B2B operations platform — intent-led ABM programme', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-cascade-intent-data-spike.png', caption: 'Intent data shows that this account is in evaluation mode — a 3x Bombora spike on workflow automation topics makes them the highest-priority outreach this week.', aspectRatio: '16/9' },
-        { brand: 'Helix', context: 'B2B life sciences SaaS — ABM programme', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-helix-intent-rfp.png', caption: 'Intent data shows that this account is comparing platforms — G2 activity and pricing page visits suggest an active RFP is being prepared.', aspectRatio: '16/9' },
+        { brand: 'Cascade', context: 'B2B operations platform — intent-led ABM program', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-cascade-intent-data-spike.png', caption: 'Intent data shows that this account is in evaluation mode — a 3x Bombora spike on workflow automation topics makes them the highest-priority outreach this week.', aspectRatio: '16/9' },
+        { brand: 'Helix', context: 'B2B life sciences SaaS — ABM program', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-helix-intent-rfp.png', caption: 'Intent data shows that this account is comparing platforms — G2 activity and pricing page visits suggest an active RFP is being prepared.', aspectRatio: '16/9' },
       ],
-      inContext: "Dana came to the pipeline meeting with the intent data pulled up. Intent data shows that this account is actively in evaluation mode, she said — they have spiked on three intent topics related to our product category in the last two weeks and two people from the company visited our pricing page yesterday. Marcus turned to Riley: That is our highest-priority outreach today. What is the personalised hook?",
+      inContext: "Dana came to the pipeline meeting with the intent data pulled up. Intent data shows that this account is actively in evaluation mode, she said — they have spiked on three intent topics related to our product category in the last two weeks and two people from the company visited our pricing page yesterday. Marcus turned to Riley: That is our highest-priority outreach today. What is the personalized hook?",
     },
     {
       phrase: 'THE STAKEHOLDER MAP FOR THIS ACCOUNT SHOWS...',
@@ -141,10 +141,10 @@ export const accountBasedMarketing: Lesson = {
       inAction: 'This account matches our ideal customer profile because it is a B2B company with 300 employees, UK-based, currently using two tools our platform replaces, and showing high intent.',
       register: "Neutral — Prism (B2B analytics, ABM): account selection brief reads this account matches our ideal customer profile because it is a 500-person B2B company in the financial services sector, uses legacy reporting tools Prism replaces, and their marketing director downloaded our data maturity guide last week. | Beacon (B2B HR SaaS, ABM): tier-one list rationale reads this account matches our ideal customer profile because they recently announced a 200-person headcount expansion and are scaling faster than their current HR platform can support. | Fold (B2B content platform, ABM): account plan reads this account matches our ideal customer profile because they produce over 50 pieces of content per month, have a dedicated content team of four, and currently manage everything in spreadsheets.",
       visualExamples: [
-        { brand: 'Prism', context: 'B2B analytics platform — ABM programme', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-prism-icp-match.png', caption: 'This account matches our ICP because it is a 500-person B2B company, uses legacy tools Prism replaces, and their marketing director downloaded our guide last week.', aspectRatio: '16/9' },
+        { brand: 'Prism', context: 'B2B analytics platform — ABM program', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-prism-icp-match.png', caption: 'This account matches our ICP because it is a 500-person B2B company, uses legacy tools Prism replaces, and their marketing director downloaded our guide last week.', aspectRatio: '16/9' },
         { brand: 'Beacon', context: 'B2B HR SaaS — ABM account list', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-beacon-icp-expansion.png', caption: 'This account matches our ICP because they are scaling faster than their current platform can support — a 200-person expansion announcement triggered the outreach.', aspectRatio: '16/9' },
       ],
-      inContext: "Riley defended the account list in the prioritisation meeting. This account matches our ideal customer profile because it hits all five of our ICP criteria, she said. Four hundred employees, B2B SaaS, UK-based, multiple point solutions we replace, and a marketing team of the right size. Marcus added: And they have an existing relationship with us — the Head of Marketing Operations attended two of our events. Dana: That is not just ICP fit — that is ICP fit plus warm signal. That is a tier-one account.",
+      inContext: "Riley defended the account list in the prioritization meeting. This account matches our ideal customer profile because it hits all five of our ICP criteria, she said. Four hundred employees, B2B SaaS, UK-based, multiple point solutions we replace, and a marketing team of the right size. Marcus added: And they have an existing relationship with us — the Head of Marketing Operations attended two of our events. Dana: That is not just ICP fit — that is ICP fit plus warm signal. That is a tier-one account.",
     },
   ],
 
@@ -155,7 +155,7 @@ export const accountBasedMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Good morning, everyone. Today we are aligning sales and marketing on the Q4 [[ABM:Account-Based Marketing — a B2B strategy where marketing and sales target specific companies with personalised campaigns]] programme. Riley, take us through the target list.",
+      text: "Good morning, everyone. Today we are aligning sales and marketing on the Q4 [[ABM:Account-Based Marketing — a B2B strategy where marketing and sales target specific companies with personalized campaigns]] program. Riley, take us through the target list.",
     },
     {
       speaker: 'Riley',
@@ -179,7 +179,7 @@ export const accountBasedMarketing: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Five touches per account — LinkedIn connection, personalised email, video message, phone call, and a final email. The key is [[personalisation:tailoring the message specifically for a person or company based on their situation]]— every first email references something specific to that company. Not a template.",
+      text: "Five touches per account — LinkedIn connection, personalized email, video message, phone call, and a final email. The key is [[personalization:tailoring the message specifically for a person or company based on their situation]]— every first email references something specific to that company. Not a template.",
     },
     {
       speaker: 'Dana',
@@ -244,7 +244,7 @@ export const accountBasedMarketing: Lesson = {
   ],
 
   matchingExercise: [
-    { word: 'ABM', definition: 'a B2B strategy of targeting specific companies with personalised campaigns rather than broad-reach marketing' },
+    { word: 'ABM', definition: 'a B2B strategy of targeting specific companies with personalized campaigns rather than broad-reach marketing' },
     { word: 'key account', definition: 'a high-value company chosen for its revenue potential or strategic importance' },
     { word: 'decision-maker', definition: 'the person in a company with authority to approve the purchase' },
     { word: 'personalisation', definition: 'tailoring messages or content specifically for a person or company based on their unique situation' },
@@ -255,10 +255,10 @@ export const accountBasedMarketing: Lesson = {
   ],
 
   fillBlankExercise: [
-    { before: 'We are running an ABM programme', after: '40 enterprise accounts in the financial services sector — all match our ICP.', answer: 'targeting' },
+    { before: 'We are running an ABM program', after: '40 enterprise accounts in the financial services sector — all match our ICP.', answer: 'targeting' },
     { before: 'Intent data shows that this account is in active', after: 'mode — they have visited our pricing page four times this week.', answer: 'evaluation' },
     { before: 'The decision-maker at this account is the CFO — we have champion access but have not reached the', answer: 'decision-maker', after: 'yet.' },
-    { before: 'We need to personalise the', after: 'for each account — every email should reference something specific to that company.', answer: 'outreach' },
+    { before: 'We need to personalize the', after: 'for each account — every email should reference something specific to that company.', answer: 'outreach' },
     { before: 'This account matches our ideal customer', after: 'because it is a 400-person B2B SaaS company in the UK with the right team size and tech stack.', answer: 'profile' },
     { before: 'The stakeholder map shows six people in the decision — we have relationships with three of them, but not with the', answer: 'decision-maker', after: '.' },
   ],
@@ -271,16 +271,16 @@ export const accountBasedMarketing: Lesson = {
     },
     {
       question: 'Why does Dana say the eight high-intent accounts need outreach this week?',
-      options: ['Because they are the largest accounts on the list by revenue potential', 'Because intent data shows they are in active evaluation mode — reaching out at the moment of highest interest maximises response rates', 'Because the Q4 budget deadline means outreach after this week will be too late'],
+      options: ['Because they are the largest accounts on the list by revenue potential', 'Because intent data shows they are in active evaluation mode — reaching out at the moment of highest interest maximizes response rates', 'Because the Q4 budget deadline means outreach after this week will be too late'],
       correctIndex: 1,
     },
     {
       question: 'What is the plan to engage the CFO at the key account?',
-      options: ['Send them the same personalised email as the CMO but with a different subject line', 'Build a financial impact model showing the cost of the current tech stack and the consolidation saving — send it through the champion with a request for a CFO briefing', 'Wait until the CMO is engaged and ask them to introduce the CFO'],
+      options: ['Send them the same personalized email as the CMO but with a different subject line', 'Build a financial impact model showing the cost of the current tech stack and the consolidation saving — send it through the champion with a request for a CFO briefing', 'Wait until the CMO is engaged and ask them to introduce the CFO'],
       correctIndex: 1,
     },
     {
-      question: 'What criteria does Riley use to select accounts for the ABM programme?',
+      question: 'What criteria does Riley use to select accounts for the ABM program?',
       options: ['Company size only — all accounts with over 200 employees are included', 'Five ICP criteria: B2B SaaS, 200-1,000 employees, UK or European HQ, using at least two tools the platform replaces, and the right marketing team size', 'Intent data only — only companies that are actively researching right now'],
       correctIndex: 1,
     },
@@ -319,7 +319,7 @@ export const accountBasedMarketing: Lesson = {
         sentence: 'A good ABM email should reference something _____ to the specific company, not a generic pain point.',
         options: ['specific', 'especially', 'particularly'],
         correctIndex: 0,
-        explanation: "'Specific' is the adjective needed here — it modifies the noun 'something'. 'Something specific to the company' means something that is unique or particular to that organisation. 'Especially' and 'particularly' are adverbs — they modify adjectives or verbs, not nouns ('especially useful', 'particularly relevant'). They cannot directly modify 'something' in this position. Key pattern: 'something [adjective]' — 'something real', 'something relevant', 'something specific'. The adjective follows the indefinite pronoun.",
+        explanation: "'Specific' is the adjective needed here — it modifies the noun 'something'. 'Something specific to the company' means something that is unique or particular to that organization. 'Especially' and 'particularly' are adverbs — they modify adjectives or verbs, not nouns ('especially useful', 'particularly relevant'). They cannot directly modify 'something' in this position. Key pattern: 'something [adjective]' — 'something real', 'something relevant', 'something specific'. The adjective follows the indefinite pronoun.",
       },
       {
         sentence: "If we don't engage the CMO this quarter, a competitor _____ the deal before we get a chance.",
@@ -351,11 +351,11 @@ export const accountBasedMarketing: Lesson = {
           explanation: "Option A is correct — it gives a balanced, evidence-based answer. It does not dismiss lead generation (which has a legitimate role) but explains clearly when and why ABM delivers better ROI. It frames ABM as a strategic choice, not a fashion. Option B is overconfident and dismissive — lead generation is still effective for many businesses and ABM is not universally superior. Option C is factually inaccurate — ABM can be done at small scale with a focused target list and basic tools. Budget is not the defining factor.",
         },
         {
-          customerLine: "We sent personalised emails to 20 accounts and only two replied. Is ABM not working?",
+          customerLine: "We sent personalized emails to 20 accounts and only two replied. Is ABM not working?",
           options: [
             "Two replies from 20 accounts is a 10% response rate — that is actually above average for cold outreach in B2B, where 2-5% is typical. The question is the quality of those replies, not just the number. ABM is measured by pipeline and revenue from named accounts, not just reply rate. Were the two replies from the right people? Did they move to the next stage?",
             "ABM is not working if only 10% respond. We need to increase the volume — contact 200 accounts instead of 20.",
-            "The emails were probably not personalised enough. We need to start over with better research.",
+            "The emails were probably not personalized enough. We need to start over with better research.",
           ],
           correctIndex: 0,
           explanation: "Option A is correct — it reframes the metric (10% is actually good), asks the right diagnostic question (quality of replies, not quantity), and redirects attention to the actual ABM success metric: pipeline from named accounts. This is the kind of expert response that builds client confidence. Option B misunderstands ABM — increasing volume defeats the purpose of ABM, which is focused depth, not broad reach. Option C may or may not be correct, but jumping to 'start over' without any analysis is poor professional advice. Diagnose first.",
@@ -375,7 +375,7 @@ export const accountBasedMarketing: Lesson = {
     spotTheMistake: {
       instructions: 'Read the ABM strategy meeting discussion. Three lines have a grammar mistake. Can you find them?',
       dialogue: [
-        { speaker: 'Marcus', text: "We are running an ABM programme targeting 40 enterprise accounts in the financial services sector." },
+        { speaker: 'Marcus', text: "We are running an ABM program targeting 40 enterprise accounts in the financial services sector." },
         { speaker: 'Riley', text: "Each account was select based on five ICP criteria — size, sector, location, tech stack, and existing relationships." },
         { speaker: 'Dana', text: "Intent data shows that eight of the accounts is in active evaluation mode right now." },
         { speaker: 'Marcus', text: "Those eight are our highest priority for this week's outreach." },
@@ -412,14 +412,14 @@ export const accountBasedMarketing: Lesson = {
           suggestedCompletion: "ABM is the reverse. Instead of attracting everyone and filtering out the right ones, you start by identifying the exact companies you want as customers and build campaigns specifically for them. In lead generation, marketing hands a list of leads to sales and sales qualifies them. In ABM, marketing and sales work from the same list from the beginning — same accounts, same messaging, same timing. The conversion rates are much higher because you are talking to the right companies with the right message at the right moment, instead of hoping the right company happens to find your campaign.",
         },
         {
-          customerLine: "Write the opening two sentences of a personalised ABM email to a Head of Marketing at a B2B company that just expanded into three new European markets.",
+          customerLine: "Write the opening two sentences of a personalized ABM email to a Head of Marketing at a B2B company that just expanded into three new European markets.",
           salespersonStart: "Congratulations on the European expansion —",
-          suggestedCompletion: "entering three new markets simultaneously is a significant marketing challenge, especially when it comes to localising campaigns and measuring what is working across different audiences. I would love to show you how [Company Name] has helped marketing teams in similar expansion phases build a single measurement layer across multiple markets — so they can see what is actually driving growth in each one without running three separate analytics set-ups.",
+          suggestedCompletion: "entering three new markets simultaneously is a significant marketing challenge, especially when it comes to localizing campaigns and measuring what is working across different audiences. I would love to show you how [Company Name] has helped marketing teams in similar expansion phases build a single measurement layer across multiple markets — so they can see what is actually driving growth in each one without running three separate analytics set-ups.",
         },
         {
-          customerLine: "How do you use intent data to prioritise which accounts to contact first?",
+          customerLine: "How do you use intent data to prioritize which accounts to contact first?",
           salespersonStart: "Intent data is a signal, not a guarantee —",
-          suggestedCompletion: "but it tells you which of your target accounts is actively researching your product category right now. We use Bombora or G2 intent signals layered on top of our ICP account list. If an account on our list spikes on intent topics related to what we sell — meaning people at that company have been reading about it, searching for it, or comparing solutions — we treat that as a sign that they are in evaluation mode. That triggers an immediate, highly personalised outreach from the SDR and a LinkedIn connection from the AE. We are not changing the message for intent accounts, but we are dramatically accelerating the timing. Warm outreach to a company that is actively researching converts at three to four times the rate of the same outreach to a company that is not.",
+          suggestedCompletion: "but it tells you which of your target accounts is actively researching your product category right now. We use Bombora or G2 intent signals layered on top of our ICP account list. If an account on our list spikes on intent topics related to what we sell — meaning people at that company have been reading about it, searching for it, or comparing solutions — we treat that as a sign that they are in evaluation mode. That triggers an immediate, highly personalized outreach from the SDR and a LinkedIn connection from the AE. We are not changing the message for intent accounts, but we are dramatically accelerating the timing. Warm outreach to a company that is actively researching converts at three to four times the rate of the same outreach to a company that is not.",
         },
       ],
     },

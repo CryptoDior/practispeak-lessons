@@ -106,7 +106,7 @@ export const foodWineMakingOrdering: Lesson = {
     { before: 'This is a 2020', after: '.', answer: 'vintage' },
     { before: 'Can you', after: 'a white wine?', answer: 'recommend' },
     { before: 'Champagne is a', after: 'wine.', answer: 'sparkling' },
-    { before: 'Chardonnay is my favourite grape', after: '.', answer: 'variety' },
+    { before: 'Chardonnay is my favorite grape', after: '.', answer: 'variety' },
   ],
 
   multipleChoiceExercise: [

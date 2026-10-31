@@ -45,7 +45,7 @@ export const cardsAndFouls: Lesson = {
     {
       word: 'BOOKING',
       partOfSpeech: 'noun',
-      definition: 'When a referee records a player\'s name and shows a yellow card — an official caution.',
+      definition: 'When a referee records a player\'s name and shows a yellow card — an official caution. (US: caution)',
       example: 'He got a booking for a late tackle — one more and he\'ll miss the next match.',
       imageSlug: '/images/cards-and-fouls-booking.png',
     },

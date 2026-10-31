@@ -75,7 +75,7 @@ export const footballsGlobalVocabulary: Lesson = {
     {
       word: 'SAMBA FOOTBALL',
       partOfSpeech: 'noun',
-      definition: 'A phrase describing the Brazilian style — flair, creativity, entertainment, and rhythm inspired by samba music and dance.',
+      definition: 'A phrase describing the Brazilian style — flair, creativity, entertainment, and rhythm inspired by samba music and dance. (US: samba soccer)',
       example: '"The crowd had come to see samba football — dribbles, flicks, and improvisation — and the team delivered."',
       imageSlug: '/images/samba-football.png',
     },

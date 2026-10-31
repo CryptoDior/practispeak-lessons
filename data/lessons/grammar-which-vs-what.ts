@@ -28,7 +28,7 @@ export const grammarWhichVsWhat: Lesson = {
     negativeLabel: 'WHICH — few / known options',
     arrowStyle: true,
     positiveExamples: [
-      { sentence: 'What is your favourite colour?', note: 'There are many colours.' },
+      { sentence: 'What is your favorite color?', note: 'There are many colors.' },
       { sentence: 'What do you want to eat for dinner?', note: 'Any food is possible.' },
       { sentence: 'What kind of music do you listen to?', note: 'Many types of music.' },
     ],
@@ -79,7 +79,7 @@ export const grammarWhichVsWhat: Lesson = {
   ],
 
   fillBlankExercise: [
-    { before: '', after: 'is your favourite food?', answer: 'What' },
+    { before: '', after: 'is your favorite food?', answer: 'What' },
     { before: '', after: 'do you want: tea or coffee?', answer: 'Which' },
     { before: '', after: 'kind of music do you like?', answer: 'What' },
     { before: '', after: 'book is yours, the red one or the blue one?', answer: 'Which' },

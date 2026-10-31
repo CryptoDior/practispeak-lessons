@@ -5,7 +5,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
   title: 'Cultural Intelligence in Global Marketing',
   subtitle: 'How to adapt marketing strategy and communication for different cultural contexts',
   level: 'C1-C2',
-  description: 'A campaign that works brilliantly in one country can fail completely in another — not because the product is wrong, but because the cultural context is different. The world\'s most successful global brands know that localisation is not just translation — it\'s rethinking how to communicate, what to say, and what to avoid. This lesson covers the vocabulary of cultural intelligence in global marketing, from academic frameworks to practical brand decisions.',
+  description: 'A campaign that works brilliantly in one country can fail completely in another — not because the product is wrong, but because the cultural context is different. The world\'s most successful global brands know that localization is not just translation — it\'s rethinking how to communicate, what to say, and what to avoid. This lesson covers the vocabulary of cultural intelligence in global marketing, from academic frameworks to practical brand decisions.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cultural-intelligence-in-global-marketing-hero.png',
 
   vocabulary: [
@@ -52,10 +52,10 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cultural-intelligence-in-global-marketing-us-explicit-communication-example.png',
     },
     {
-      word: 'LOCALISATION',
+      word: 'LOCALIZATION',
       partOfSpeech: 'noun',
       definition: 'Changing a product or message for a local market.',
-      example: 'Localisation means local prices, photos and language.',
+      example: 'Localization means local prices, photos and language.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cultural-intelligence-in-global-marketing-local-price-photo-language.png',
     },
     {
@@ -93,9 +93,9 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cultural-intelligence-in-global-marketing-japanese-meeting-local-guidance.png',
     },
     {
-      phrase: 'LOCALISE, DON\'T JUST TRANSLATE',
+      phrase: 'LOCALIZE, DON\'T JUST TRANSLATE',
       definition: 'A rule to adapt content, not only change the language.',
-      example: 'Localise, don\'t just translate: change the photos too.',
+      example: 'Localize, don\'t just translate: change the photos too.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cultural-intelligence-in-global-marketing-adapt-photos-too.png',
     },
     {
@@ -137,7 +137,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Full [[localisation:the process of adapting a campaign for a specific local market]] for Japan and China. For Singapore and Australia, the adaptation can be lighter — those markets are more [[low-context culture:a culture where communication is explicit and direct]] and closer to the original tone.",
+      text: "Full [[localization:the process of adapting a campaign for a specific local market]] for Japan and China. For Singapore and Australia, the adaptation can be lighter — those markets are more [[low-context culture:a culture where communication is explicit and direct]] and closer to the original tone.",
     },
     {
       speaker: 'Marcus',
@@ -185,7 +185,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "It always is. Localise, don't just translate — it's one sentence but it describes months of careful work. The brands that do it well build deep market knowledge over years. The ones that don't? A PR crisis in a market they barely understood.",
+      text: "It always is. Localize, don't just translate — it's one sentence but it describes months of careful work. The brands that do it well build deep market knowledge over years. The ones that don't? A PR crisis in a market they barely understood.",
     }
   ],
 
@@ -203,7 +203,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
   fillBlankExercise: [
     { "before": "The campaign is very individualistic. But Japan scores high on collectivism in the ", "after": " dimensions. We need to reframe the message around community.", "answer": "Hofstede" },
     { "before": "Germany is a ", "after": " culture — the audience expects direct, explicit communication. Don't build your campaign on implication or suggestion.", "answer": "low-context" },
-    { "before": "The ad needs full ", "after": " for the Middle East launch — language, visuals, the colour palette, even the models we use.", "answer": "localisation" },
+    { "before": "The ad needs full ", "after": " for the Middle East launch — language, visuals, the color palette, even the models we use.", "answer": "localisation" },
     { "before": "That campaign element plays differently in Brazil. There's a ", "after": " in Portuguese that makes the phrase feel negative rather than inspiring.", "answer": "nuance" },
     { "before": "Before approving the creative for Southeast Asia, we need to run it through a local lens — there are ", "after": " norms we haven't considered.", "answer": "implicit" },
     { "before": "The creative team borrowed sacred imagery without permission — this risks cultural appropriation. We need better ", "after": " built into our global approval process.", "answer": "cultural sensitivity" }
@@ -220,11 +220,11 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
       "correctIndex": 1
     },
     {
-      "question": "What does Riley mean when she says 'localise, don't just translate'?",
+      "question": "What does Riley mean when she says 'localize, don't just translate'?",
       "options": [
         "Always hire a professional translator rather than using a translation tool",
         "Effective market adaptation requires rethinking values, visuals, and cultural fit — not just converting words",
-        "Localisation should happen before translation to avoid losing the original meaning"
+        "Localization should happen before translation to avoid losing the original meaning"
       ],
       "correctIndex": 1
     },
@@ -251,7 +251,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
   warmUp: {
     "questions": [
       "Have you ever experienced a misunderstanding because of cultural differences in communication style? What happened and how was it resolved?",
-      "Can you think of a global brand that does localisation well — where the product or campaign feels genuinely local? What does it do differently?",
+      "Can you think of a global brand that does localization well — where the product or campaign feels genuinely local? What does it do differently?",
       "In your country or culture, what is something that businesses from other countries often get wrong when they enter the market?"
     ]
   },
@@ -269,7 +269,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
         "sentence": "The campaign worked in the US but it needs full _____ for India — visuals, copy, values, and even the product format.",
         "options": ["localisation", "translation", "adaptation"],
         "correctIndex": 0,
-        "explanation": "'Localisation' is the comprehensive term for the full process of making a product or campaign fit a specific local market — beyond language, including visuals, cultural values, pricing, and product design. 'Translation' is one component of localisation — only the language. 'Adaptation' is close but less specific than 'localisation' in marketing contexts. The standard industry term is 'localisation'."
+        "explanation": "'Localization' is the comprehensive term for the full process of making a product or campaign fit a specific local market — beyond language, including visuals, cultural values, pricing, and product design. 'Translation' is one component of localization — only the language. 'Adaptation' is close but less specific than 'localization' in marketing contexts. The standard industry term is 'localization'."
       },
       {
         "sentence": "Japan and China are _____ cultures — meaning is often implied rather than stated directly.",
@@ -281,7 +281,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
         "sentence": "Before approving the campaign for Southeast Asia, we need to run it through a local lens to check the _____.",
         "options": ["cultural sensitivity", "local compliance", "language accuracy"],
         "correctIndex": 0,
-        "explanation": "'Cultural sensitivity' refers to the awareness of and respect for cultural differences — specifically the ability to avoid content that could offend, misrepresent, or alienate an audience in a specific cultural context. 'Local compliance' refers to legal and regulatory requirements. 'Language accuracy' is the quality of translation. When reviewing content for potential cultural offence, the concern is 'cultural sensitivity'."
+        "explanation": "'Cultural sensitivity' refers to the awareness of and respect for cultural differences — specifically the ability to avoid content that could offend, misrepresent, or alienate an audience in a specific cultural context. 'Local compliance' refers to legal and regulatory requirements. 'Language accuracy' is the quality of translation. When reviewing content for potential cultural offense, the concern is 'cultural sensitivity'."
       },
       {
         "sentence": "The word 'aggressive' has a positive connotation in some markets but a negative one in others. This is an important _____ to catch before the copy goes live.",
@@ -293,7 +293,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
         "sentence": "An _____ in many East Asian business cultures is that you don't say 'no' directly — you use indirect language like 'that may be difficult'.",
         "options": ["implicit norm", "unspoken rule", "cultural rule"],
         "correctIndex": 0,
-        "explanation": "'Implicit norm' is the precise cross-cultural term for an unwritten rule or expectation that people in a culture follow automatically — without it being stated explicitly. 'Unspoken rule' means the same thing but is informal. 'Cultural rule' is too general and implies it might be formal or stated. When describing a pattern of behaviour that members of a culture follow without being told, use 'implicit norm'."
+        "explanation": "'Implicit norm' is the precise cross-cultural term for an unwritten rule or expectation that people in a culture follow automatically — without it being stated explicitly. 'Unspoken rule' means the same thing but is informal. 'Cultural rule' is too general and implies it might be formal or stated. When describing a pattern of behavior that members of a culture follow without being told, use 'implicit norm'."
       }
     ]
   },
@@ -306,7 +306,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
           "customerLine": "We just need to translate the campaign into five languages. The concept is universal.",
           "options": [
             "Sounds efficient — translation is much faster than a full adaptation.",
-            "I'd challenge the assumption that the concept is universal. Visual humour, emotional tone, and messaging frameworks often play very differently across cultures. I'd recommend we run the translated versions past local teams before approving — it costs very little compared to the cost of pulling a campaign that lands badly.",
+            "I'd challenge the assumption that the concept is universal. Visual humor, emotional tone, and messaging frameworks often play very differently across cultures. I'd recommend we run the translated versions past local teams before approving — it costs very little compared to the cost of pulling a campaign that lands badly.",
             "Let's translate it and see how it performs — we can always adapt if there are issues."
           ],
           "correctIndex": 1,
@@ -339,8 +339,8 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
       "dialogue": [
         { "speaker": "Marcus", "text": "I've reviewed the campaign for South Korea. It's a high-context culture, so I've made all the messaging very direct and explicit." },
         { "speaker": "Riley", "text": "That's backwards — in high-context cultures, communication is typically more indirect and implicit, not more direct." },
-        { "speaker": "Marcus", "text": "Got it. I've also localised the Japanese version — I translated the copy word for word and kept all the same visuals." },
-        { "speaker": "Riley", "text": "That's translation, not localisation. Localisation means rethinking the visuals, the values, and the cultural fit of the campaign — not just the language." },
+        { "speaker": "Marcus", "text": "Got it. I've also localized the Japanese version — I translated the copy word for word and kept all the same visuals." },
+        { "speaker": "Riley", "text": "That's translation, not localization. Localization means rethinking the visuals, the values, and the cultural fit of the campaign — not just the language." },
         { "speaker": "Marcus", "text": "And for Germany, I've used very subtle, implied messaging — I thought that's what a sophisticated audience would prefer." },
         { "speaker": "Riley", "text": "Germany is a low-context culture — direct and explicit communication is expected and trusted. Subtle, implied messaging often reads as vague or untrustworthy to a German audience." }
       ],
@@ -354,8 +354,8 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
         {
           "lineIndex": 2,
           "incorrectText": "I translated the copy word for word and kept all the same visuals",
-          "correction": "Translation is not localisation — visuals, values, and cultural fit all need to be reconsidered",
-          "explanation": "Localisation goes far beyond language translation. It requires reviewing every element of a campaign — imagery, colour, cultural references, values embedded in the messaging, and tone — against the specific cultural context. Translating words accurately while keeping culturally inappropriate visuals produces a campaign that is linguistically correct but culturally wrong."
+          "correction": "Translation is not localization — visuals, values, and cultural fit all need to be reconsidered",
+          "explanation": "Localization goes far beyond language translation. It requires reviewing every element of a campaign — imagery, color, cultural references, values embedded in the messaging, and tone — against the specific cultural context. Translating words accurately while keeping culturally inappropriate visuals produces a campaign that is linguistically correct but culturally wrong."
         },
         {
           "lineIndex": 4,
@@ -371,16 +371,16 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
         {
           "customerLine": "We're entering the Chinese market next year. What should we change about our campaign?",
           "salespersonStart": "China is a high-context, collectivist culture — so the campaign needs significant cultural adaptation. The messaging that focuses on individual achievement and direct calls to action will need to be rethought. The visuals should reflect group success rather than individual achievement, and the tone should be...",
-          "suggestedCompletion": "more restrained and relationship-focused — showing that your brand understands and respects community values. Also, localise the imagery — use local faces, local settings, and local cultural references rather than adapting Western visual language. And run everything past your Chinese agency and local team before it goes live. What works in Europe can be invisible or even offensive in China."
+          "suggestedCompletion": "more restrained and relationship-focused — showing that your brand understands and respects community values. Also, localize the imagery — use local faces, local settings, and local cultural references rather than adapting Western visual language. And run everything past your Chinese agency and local team before it goes live. What works in Europe can be invisible or even offensive in China."
         },
         {
           "customerLine": "Why does the campaign feel wrong in Brazil, even though the translation is correct?",
           "salespersonStart": "Correct translation is only the first step. The message may be linguistically accurate but culturally off in ways that a translator wouldn't catch. For example, the emotional register of the campaign might be too reserved for a Brazilian audience, or there might be cultural nuances in specific words or images that...",
-          "suggestedCompletion": "carry different connotations in Brazilian Portuguese than in the original English. Brazil is also a high-context, relationship-oriented culture — the campaign may feel transactional rather than personal. The fix is localisation, not re-translation. You need a Brazilian creative team or cultural consultant to review not just the words but the values, the tone, and the emotional journey of the campaign."
+          "suggestedCompletion": "carry different connotations in Brazilian Portuguese than in the original English. Brazil is also a high-context, relationship-oriented culture — the campaign may feel transactional rather than personal. The fix is localization, not re-translation. You need a Brazilian creative team or cultural consultant to review not just the words but the values, the tone, and the emotional journey of the campaign."
         },
         {
           "customerLine": "How do we make sure our global brand stays consistent while adapting locally?",
-          "salespersonStart": "The global brand provides the core — the values, the visual identity, the brand voice at a high level. What gets localised is the execution. Think of it as a consistent soul with locally appropriate expression. The implicit norms and cultural expectations of each market shape how the brand shows up — but...",
+          "salespersonStart": "The global brand provides the core — the values, the visual identity, the brand voice at a high level. What gets localized is the execution. Think of it as a consistent soul with locally appropriate expression. The implicit norms and cultural expectations of each market shape how the brand shows up — but...",
           "suggestedCompletion": "the brand's fundamental promise and personality stay the same. McDonald's is the clearest example — the golden arches, the core brand experience, and the family-friendly positioning are global. But the menu, the advertising tone, and the cultural references are fully local. The test is whether a customer in Tokyo and a customer in São Paulo would describe the brand in the same terms — even if the campaigns they saw were completely different."
         }
       ]

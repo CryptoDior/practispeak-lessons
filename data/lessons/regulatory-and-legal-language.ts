@@ -185,7 +185,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And [[GDPR:EU law controlling how organisations collect and use personal data]] — we're collecting form data from the landing page. Do we need to do anything?",
+      text: "And [[GDPR:EU law controlling how organizations collect and use personal data]] — we're collecting form data from the landing page. Do we need to do anything?",
     },
     {
       speaker: 'Riley',
@@ -198,7 +198,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
   matchingExercise: [
     { "word": "ASA", "definition": "UK body that sets and enforces advertising standards and investigates complaints" },
     { "word": "FCA", "definition": "UK body that regulates financial services and must approve financial promotions" },
-    { "word": "GDPR", "definition": "EU law controlling how organisations collect, store, and use personal data" },
+    { "word": "GDPR", "definition": "EU law controlling how organizations collect, store, and use personal data" },
     { "word": "disclaimer", "definition": "a statement added to marketing content to limit claims or clarify conditions" },
     { "word": "misleading claim", "definition": "any statement that creates a false impression, even if technically true" },
     { "word": "substantiation", "definition": "evidence that proves a factual claim in an ad is true" },
@@ -326,7 +326,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
             "I'll check with the legal team but I'm sure it'll be fine."
           ],
           "correctIndex": 1,
-          "explanation": "Option B is firm and correct — no customer-facing content skips compliance review, and landing pages collecting personal data have additional GDPR requirements. Option A creates false risk categorisation. Option C is non-committal when the right answer is clear. When someone asks to skip a required process, the answer is no — with an offer to expedite, not to bypass."
+          "explanation": "Option B is firm and correct — no customer-facing content skips compliance review, and landing pages collecting personal data have additional GDPR requirements. Option A creates false risk categorization. Option C is non-committal when the right answer is clear. When someone asks to skip a required process, the answer is no — with an offer to expedite, not to bypass."
         },
         {
           "customerLine": "The testimonial says our product 'cured my back pain'. Is that OK to use?",
@@ -367,7 +367,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
           "lineIndex": 4,
           "incorrectText": "the client is confident in it so it should be fine",
           "correction": "Client confidence is not substantiation — you need actual evidence before making a guaranteed performance claim",
-          "explanation": "Regulatory compliance is not determined by how confident a client feels about a claim. 'Guaranteed' is one of the most scrutinised words in advertising — it requires robust, verifiable evidence. The ASA has upheld complaints on exactly this kind of claim when brands couldn't produce adequate substantiation."
+          "explanation": "Regulatory compliance is not determined by how confident a client feels about a claim. 'Guaranteed' is one of the most scrutinized words in advertising — it requires robust, verifiable evidence. The ASA has upheld complaints on exactly this kind of claim when brands couldn't produce adequate substantiation."
         }
       ]
     },
@@ -382,11 +382,11 @@ export const regulatoryAndLegalLanguage: Lesson = {
         {
           "customerLine": "We want to collect customer birth dates on the registration form. Is that OK?",
           "salespersonStart": "Under GDPR, we can only collect personal data that we actually need for a specified purpose. Collecting birth dates needs a clear justification — why do we need it, how will it be stored, and will we tell the customer clearly what it's for? If we can't answer those three questions with certainty...",
-          "suggestedCompletion": "we shouldn't collect it. GDPR operates on the principle of data minimisation — only collect what you need. If age verification is the purpose, there are GDPR-compliant ways to do that without storing a full birth date. Let's ask the data team to review the form before we build it."
+          "suggestedCompletion": "we shouldn't collect it. GDPR operates on the principle of data minimization — only collect what you need. If age verification is the purpose, there are GDPR-compliant ways to do that without storing a full birth date. Let's ask the data team to review the form before we build it."
         },
         {
           "customerLine": "The creative team says the new FCA financial promotion is ready. Can it go live Monday?",
-          "salespersonStart": "Not yet — we need legal sign-off before it goes live. FCA-regulated financial promotions must be reviewed and approved by a person who is FCA-authorised before they can run. Did legal receive the draft? If they got it today...",
+          "salespersonStart": "Not yet — we need legal sign-off before it goes live. FCA-regulated financial promotions must be reviewed and approved by a person who is FCA-authorized before they can run. Did legal receive the draft? If they got it today...",
           "suggestedCompletion": "the earliest realistic sign-off is Wednesday, assuming no changes are requested. If they need revisions, add another two working days. Monday is not achievable. I'll contact the legal team now to confirm receipt and get a timeline. Let the client know we're targeting Wednesday."
         }
       ]

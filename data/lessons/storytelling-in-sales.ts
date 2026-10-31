@@ -155,7 +155,7 @@ export const storytellingInSales: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'So Sofia was at the same point. The [[tension:the urgency or risk that makes the problem feel real]] was building — Q2 pipeline was strong, but delivery capacity was not. The turning point was when her ops lead ran the first automated onboarding sequence and realised what she had been doing manually in two weeks, the system completed in four hours.',
+      text: 'So Sofia was at the same point. The [[tension:the urgency or risk that makes the problem feel real]] was building — Q2 pipeline was strong, but delivery capacity was not. The turning point was when her ops lead ran the first automated onboarding sequence and realized what she had been doing manually in two weeks, the system completed in four hours.',
     },
     {
       speaker: 'Marcus',
@@ -191,7 +191,7 @@ export const storytellingInSales: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'That [[resonance:the moment when a prospect recognises their own situation in the story]] — when you hear the same words your own team has been saying — is usually the signal. Not that the product is right. That the problem is real and resolved. The question is just whether the resolution is the right shape for your team.',
+      text: 'That [[resonance:the moment when a prospect recognizes their own situation in the story]] — when you hear the same words your own team has been saying — is usually the signal. Not that the product is right. That the problem is real and resolved. The question is just whether the resolution is the right shape for your team.',
     }
   ],
 
@@ -222,7 +222,7 @@ export const storytellingInSales: Lesson = {
     },
     {
         "word": "VIVID",
-        "definition": "Using specific names, numbers, and moments to produce clear mental images — the opposite of generalisations"
+        "definition": "Using specific names, numbers, and moments to produce clear mental images — the opposite of generalizations"
     },
     {
         "word": "RESONANCE",
@@ -242,12 +242,12 @@ export const storytellingInSales: Lesson = {
     },
     {
         "before": "The",
-        "after": "were specific: the company was about to lose its third enterprise client in a row. That detail made the problem impossible to ignore — because Marcus recognised the same pressure in his own business.",
+        "after": "were specific: the company was about to lose its third enterprise client in a row. That detail made the problem impossible to ignore — because Marcus recognized the same pressure in his own business.",
         "answer": "stakes"
     },
     {
         "before": "The",
-        "after": "was when the ops lead ran the first automated sequence and realised that what she had been doing manually in two weeks, the system completed in four hours. Riley described it as a human moment — not a software implementation.",
+        "after": "was when the ops lead ran the first automated sequence and realized that what she had been doing manually in two weeks, the system completed in four hours. Riley described it as a human moment — not a software implementation.",
         "answer": "turning point"
     },
     {
@@ -293,10 +293,10 @@ export const storytellingInSales: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "Why does Riley describe the turning point as 'the moment the ops lead realised what she had done manually in two weeks, the system completed in four hours' rather than saying 'they implemented our software'?",
+        "question": "Why does Riley describe the turning point as 'the moment the ops lead realized what she had done manually in two weeks, the system completed in four hours' rather than saying 'they implemented our software'?",
         "options": [
             "Because the technical implementation details are not relevant to Marcus",
-            "Because describing the turning point as a human moment — a realisation, a shift in what someone could do — is more emotionally engaging and memorable than describing a software event",
+            "Because describing the turning point as a human moment — a realization, a shift in what someone could do — is more emotionally engaging and memorable than describing a software event",
             "Because 'implemented our software' implies a longer timeline than actually occurred",
             "Because the ops lead, not the VP of Sales, was the primary decision-maker"
         ],
@@ -306,7 +306,7 @@ export const storytellingInSales: Lesson = {
         "question": "Marcus says 'the ops lead part is the one that gets me — ours has been saying the same thing for a year.' What has happened at this point in the story?",
         "options": [
             "Marcus has decided to buy the product",
-            "Marcus has recognised his own situation in the protagonist's story — this is the moment of resonance that the story was designed to create",
+            "Marcus has recognized his own situation in the protagonist's story — this is the moment of resonance that the story was designed to create",
             "Marcus is objecting to the timeline Riley described",
             "Marcus is asking for more evidence before he can evaluate the story"
         ],
@@ -317,8 +317,8 @@ export const storytellingInSales: Lesson = {
         "options": [
             "She is asking whether Marcus's team is large enough to use the product effectively",
             "She is closing the story by transitioning from the customer's experience to Marcus's specific situation — moving from 'this happened' to 'what does this mean for you'",
-            "She is suggesting that the product may need to be customised before it will work for Marcus",
-            "She is signalling that the story is over and the meeting should move to next steps"
+            "She is suggesting that the product may need to be customized before it will work for Marcus",
+            "She is signaling that the story is over and the meeting should move to next steps"
         ],
         "correctIndex": 1
     },
@@ -369,7 +369,7 @@ export const storytellingInSales: Lesson = {
         },
         {
             "before": "The",
-            "after": "was in week two of the pilot, when Sofia's ops lead ran the first automated onboarding sequence and realised that what she had been doing manually over fourteen days, the system completed in four hours. That was not a product discovery — it was the moment the internal conversation changed.",
+            "after": "was in week two of the pilot, when Sofia's ops lead ran the first automated onboarding sequence and realized that what she had been doing manually over fourteen days, the system completed in four hours. That was not a product discovery — it was the moment the internal conversation changed.",
             "answer": "turning point"
         },
         {
@@ -379,7 +379,7 @@ export const storytellingInSales: Lesson = {
         },
         {
             "before": "I chose this story because the",
-            "after": "— the person at the centre of it — is close enough to your situation that I think you will recognise the moments that matter. Same team size, same pressure, same concern about whether a new system would actually fit rather than add complexity.",
+            "after": "— the person at the center of it — is close enough to your situation that I think you will recognize the moments that matter. Same team size, same pressure, same concern about whether a new system would actually fit rather than add complexity.",
             "answer": "protagonist"
         },
         {
@@ -428,7 +428,7 @@ export const storytellingInSales: Lesson = {
         {
             "speaker": "Salesperson B",
             "speakerColor": "orange",
-            "text": "What made Sofia's situation worse was that the board had just approved three new hires — which meant the broken process was about to handle significantly more volume before anyone had fixed it. The turning point was not the implementation. It was the moment her ops lead realised she had been spending fourteen days doing something the system did in four hours. That was the week the internal conversation changed."
+            "text": "What made Sofia's situation worse was that the board had just approved three new hires — which meant the broken process was about to handle significantly more volume before anyone had fixed it. The turning point was not the implementation. It was the moment her ops lead realized she had been spending fourteen days doing something the system did in four hours. That was the week the internal conversation changed."
         },
         {
             "speaker": "Marcus",
@@ -446,7 +446,7 @@ export const storytellingInSales: Lesson = {
             "text": "Salesperson A — Follow-up move",
             "verdict": {
                 "isGood": false,
-                "explanation": "Weak. Marcus has just had a moment of resonance — he recognised his own situation in the story detail. Salesperson A responds by pivoting immediately to the onboarding process. This breaks the connection Marcus was making between the story and his own experience. The right move at this moment is to stay in the story — to complete the resolution and then ask Marcus what he recognised in it. Moving to a product walkthrough too early wastes the most valuable moment in the conversation."
+                "explanation": "Weak. Marcus has just had a moment of resonance — he recognized his own situation in the story detail. Salesperson A responds by pivoting immediately to the onboarding process. This breaks the connection Marcus was making between the story and his own experience. The right move at this moment is to stay in the story — to complete the resolution and then ask Marcus what he recognized in it. Moving to a product walkthrough too early wastes the most valuable moment in the conversation."
             }
         },
         {
@@ -495,7 +495,7 @@ export const storytellingInSales: Lesson = {
                 "explanation": "B is correct. 'I can see the similarity' is a signal of resonance — the prospect has made a connection between the story and their own situation. The connecting question 'where does your situation feel closest to hers?' turns that connection into a conversation and surfaces the specific detail the prospect identified with. A moves too fast to next steps before understanding what resonated. C offers more stories, which dilutes the impact of the first one and delays the conversation."
             },
             {
-                "customerLine": "A CFO joins the meeting unexpectedly and asks: 'Can you summarise what you do and why we should care?'",
+                "customerLine": "A CFO joins the meeting unexpectedly and asks: 'Can you summarize what you do and why we should care?'",
                 "options": [
                     "Start from the beginning of your full sales story — problem, tension, turning point, resolution.",
                     "Adapt the story for a CFO audience: 'Let me give you the version that matters for your role. A VP of Sales in a similar business cut onboarding time from fourteen days to three — which meant two new reps were productive in their first month instead of their third, and the investment was recovered in six weeks. Happy to go deeper on any of those numbers.'",
@@ -529,7 +529,7 @@ export const storytellingInSales: Lesson = {
             {
                 "key": "connecting-question",
                 "label": "Ask the connecting question",
-                "description": "End the story with 'where does your situation feel closest to theirs?' — this forces the prospect to do the mapping themselves and surfaces the specific detail they recognised. Without this question, the story is an anecdote. With it, it becomes a mirror."
+                "description": "End the story with 'where does your situation feel closest to theirs?' — this forces the prospect to do the mapping themselves and surfaces the specific detail they recognized. Without this question, the story is an anecdote. With it, it becomes a mirror."
             },
             {
                 "key": "add-stakes",

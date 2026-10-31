@@ -161,7 +161,7 @@ export const handlingBasicObjections: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Let me address that directly — we have a one-page business case template I can customise for you, built around the numbers you gave me. Two to three deals a month at your deal size — that becomes very easy to justify. What is the second concern?',
+      text: 'Let me address that directly — we have a one-page business case template I can customize for you, built around the numbers you gave me. Two to three deals a month at your deal size — that becomes very easy to justify. What is the second concern?',
     },
     {
       speaker: 'Marcus',
@@ -280,7 +280,7 @@ export const handlingBasicObjections: Lesson = {
         "question": "What does Riley mean when she says 'what I hear you saying is'?",
         "options": [
             "She is repeating Marcus's words back to him to confirm she understood the objection correctly",
-            "She is summarising the whole conversation so far",
+            "She is summarizing the whole conversation so far",
             "She is challenging whether Marcus's concern is valid",
             "She is preparing to move to the next slide in her demo"
         ],
@@ -311,7 +311,7 @@ export const handlingBasicObjections: Lesson = {
         "options": [
             "A free trial period",
             "A reference call with another customer",
-            "A customised one-page business case built around the deal loss numbers Marcus shared",
+            "A customized one-page business case built around the deal loss numbers Marcus shared",
             "A discounted enterprise rate"
         ],
         "correctIndex": 2
@@ -359,7 +359,7 @@ export const handlingBasicObjections: Lesson = {
                     "Say: 'We do offer a discount for annual contracts — would that help?'"
                 ],
                 "correctIndex": 0,
-                "explanation": "A is correct. It acknowledges the concern, then probes before responding — because 'too expensive' can mean very different things. B jumps to a defence of the price without understanding what the real concern is. C offers a discount immediately, which signals that the price was inflated to begin with and sets a bad precedent for the negotiation."
+                "explanation": "A is correct. It acknowledges the concern, then probes before responding — because 'too expensive' can mean very different things. B jumps to a defense of the price without understanding what the real concern is. C offers a discount immediately, which signals that the price was inflated to begin with and sets a bad precedent for the negotiation."
             },
             {
                 "customerLine": "Prospect says: 'We are actually already using a competitor's tool.'",

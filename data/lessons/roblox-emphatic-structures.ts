@@ -14,7 +14,7 @@ export const robloxEmphaticStructures: Lesson = {
     positivePattern: 'It is/was + [FOCUS] + that/who + [REST] | What + [clause] + is/was + [FOCUS]',
     positiveExample: '"It\'s the lag that ruins the match." / "What I really love is the team strategy."',
     negativePattern: 'Do NOT use cleft sentences for every sentence — they lose impact if overused',
-    negativeExample: '"It\'s the button that I pressed." ✗ (too weak — no reason to emphasise pressing a button)',
+    negativeExample: '"It\'s the button that I pressed." ✗ (too weak — no reason to emphasize pressing a button)',
     positiveLabel: 'CORRECT — the cleft highlights the key information clearly',
     negativeLabel: 'WEAK — only use emphasis when one part of the sentence is genuinely more important',
     arrowStyle: true,
@@ -32,10 +32,10 @@ export const robloxEmphaticStructures: Lesson = {
 
   vocabulary: [
     {
-      word: 'EMPHASISE',
+      word: 'EMPHASIZE',
       partOfSpeech: 'verb',
       definition: "To make one thing stand out as more important than the rest.",
-      example: "The team captain emphasised that coordination mattered more than speed in the final phase of the raid.",
+      example: "The team captain emphasized that coordination mattered more than speed in the final phase of the raid.",
       imageSlug: '/images/roblox-emphatic-structures-emphasise.png',
     },
     {
@@ -56,7 +56,7 @@ export const robloxEmphaticStructures: Lesson = {
       word: 'SPECIFIC',
       partOfSpeech: 'adjective',
       definition: "Clear and exact — about one particular thing, not general.",
-      example: "He was specific about which part of the strategy had failed — it was not the whole plan, just the defence.",
+      example: "He was specific about which part of the strategy had failed — it was not the whole plan, just the defense.",
       imageSlug: '/images/roblox-emphatic-structures-specific.png',
     },
     {
@@ -91,10 +91,10 @@ export const robloxEmphaticStructures: Lesson = {
 
   irlVocabulary: [
     {
-      word: 'EMPHASISE',
+      word: 'EMPHASIZE',
       partOfSpeech: 'verb',
       definition: "To make one thing stand out as more important than the rest.",
-      example: "The report emphasised that the main cause of the delay was the supply chain, not the production team.",
+      example: "The report emphasized that the main cause of the delay was the supply chain, not the production team.",
       imageSlug: '/images/roblox-emphatic-structures-emphasise-irl.png',
     },
     {
@@ -143,7 +143,7 @@ export const robloxEmphaticStructures: Lesson = {
       word: 'DISTINCTION',
       partOfSpeech: 'noun',
       definition: "A difference between two things — the point where one ends and the other begins.",
-      example: "There is an important distinction between giving feedback on the work and criticising the person who did it.",
+      example: "There is an important distinction between giving feedback on the work and criticizing the person who did it.",
       imageSlug: '/images/roblox-emphatic-structures-distinction-irl.png',
     },
   ],
@@ -161,14 +161,14 @@ export const robloxEmphaticStructures: Lesson = {
       phrase: "ZOOM IN ON",
       definition: "To look at one specific part of a situation very carefully.",
       example: "Let's zoom in on the last five minutes of the replay — that's where things went wrong.",
-      inGame: "When reviewing a match, zoom in on one specific moment rather than trying to analyse everything at once.",
+      inGame: "When reviewing a match, zoom in on one specific moment rather than trying to analyze everything at once.",
       inRealLife: "The auditors zoomed in on the Q3 figures, which were the only period where the numbers did not add up.",
       imageSlug: '/images/roblox-emphatic-structures-zoom-in-on.png',
     },
     {
       phrase: "BOIL DOWN TO",
       definition: "To reduce a complicated situation to its most important or basic point.",
-      example: "The whole debate boils down to one question: do we prioritise speed or accuracy in the final phase?",
+      example: "The whole debate boils down to one question: do we prioritize speed or accuracy in the final phase?",
       inGame: "After a long argument in the team chat, it usually boils down to one real disagreement — find it.",
       inRealLife: "All the stakeholder concerns boil down to one issue — whether the project will be delivered on time.",
       imageSlug: '/images/roblox-emphatic-structures-boil-down-to.png',
@@ -201,7 +201,7 @@ export const robloxEmphaticStructures: Lesson = {
 
   warmUp: {
     questions: [
-      "What is something about your favourite game that you feel people do not appreciate enough? How would you explain it to someone who has never played?",
+      "What is something about your favorite game that you feel people do not appreciate enough? How would you explain it to someone who has never played?",
       "Think of a time when you needed to make a strong point in an argument or discussion. How did you make sure the most important idea was clear?",
       "In English, what is the difference between 'I love the strategy' and 'What I love is the strategy'? Which one feels stronger to you?",
     ],
@@ -244,7 +244,7 @@ export const robloxEmphaticStructures: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Can I try? 'The communication — not the skill — made the difference.' How do I [[emphasise:make one thing stand out as more important]] that?",
+      text: "Can I try? 'The communication — not the skill — made the difference.' How do I [[emphasize:make one thing stand out as more important]] that?",
     },
     {
       speaker: 'Mario',
@@ -302,11 +302,11 @@ export const robloxEmphaticStructures: Lesson = {
         explanation: "Both are correct cleft versions of the same sentence. IT-CLEFT: 'It's the team effort that I really appreciate.' WH-CLEFT: 'What I really appreciate is the team effort.' Both are natural and grammatically correct.",
       },
       {
-        sentence: "Kai found the weakness in their defence, not Mario.",
+        sentence: "Kai found the weakness in their defense, not Mario.",
         options: [
-          "What Kai found was the weakness in their defence, not Mario.",
-          "It was Kai who found the weakness in their defence, not Mario.",
-          "It was the weakness that Kai found in their defence.",
+          "What Kai found was the weakness in their defense, not Mario.",
+          "It was Kai who found the weakness in their defense, not Mario.",
+          "It was the weakness that Kai found in their defense.",
         ],
         correctIndex: 1,
         explanation: "When the focus is a person, use WHO (not THAT) in an IT-CLEFT: 'It was Kai WHO found it.' Option A changes the emphasis incorrectly (focuses on what was found, not who found it).",
@@ -319,7 +319,7 @@ export const robloxEmphaticStructures: Lesson = {
           "Both A and B are correct cleft versions.",
         ],
         correctIndex: 2,
-        explanation: "Both versions correctly emphasise COMMUNICATION. IT-CLEFT: 'It's communication that we need to improve.' WH-CLEFT: 'What we need to improve is our communication.' Both are natural.",
+        explanation: "Both versions correctly emphasize COMMUNICATION. IT-CLEFT: 'It's communication that we need to improve.' WH-CLEFT: 'What we need to improve is our communication.' Both are natural.",
       },
       {
         sentence: "The turning point was that single missed call.",
@@ -339,13 +339,13 @@ export const robloxEmphaticStructures: Lesson = {
           "What ruined the raid were the late arrivals, not the strategy.",
         ],
         correctIndex: 1,
-        explanation: "IT-CLEFT: 'It's + [focus] + that + [rest].' Focus: THE LATE ARRIVALS. This is the most natural form when emphasising a noun as the cause of something, especially with a contrast (not the strategy).",
+        explanation: "IT-CLEFT: 'It's + [focus] + that + [rest].' Focus: THE LATE ARRIVALS. This is the most natural form when emphasizing a noun as the cause of something, especially with a contrast (not the strategy).",
       },
     ],
   },
 
   matchingExercise: [
-    { word: 'EMPHASISE', definition: 'To make one idea stand out as more important than the rest' },
+    { word: 'EMPHASIZE', definition: 'To make one idea stand out as more important than the rest' },
     { word: 'CONTRAST', definition: 'To show a clear difference between two things' },
     { word: 'HIGHLIGHT', definition: 'To point to one specific thing so people notice it' },
     { word: 'SPECIFIC', definition: 'Clear and exact — about one particular thing, not general' },
@@ -420,7 +420,7 @@ export const robloxEmphaticStructures: Lesson = {
     {
       question: "When should you NOT use a cleft sentence?",
       options: [
-        "When you want to emphasise one key cause or person in an argument.",
+        "When you want to emphasize one key cause or person in an argument.",
         "When one part of your sentence is more important or surprising than the rest.",
         "When all the information in your sentence carries equal weight and none stands out.",
         "When you want to highlight a contrast between two ideas.",

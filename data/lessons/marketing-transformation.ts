@@ -300,7 +300,7 @@ export const marketingTransformation: Lesson = {
             "Give the team more time to adjust — change takes longer than planned and we should be patient."
           ],
           correctIndex: 1,
-          explanation: "Option B applies correct change management thinking — resistance is a signal, not an obstacle. Involving the team in shaping the model builds ownership and reduces resistance. Option A mandates compliance, which drives surface behaviour without real adoption. Option C is too passive — more time without changed communication or involvement does not resolve the underlying cause of resistance."
+          explanation: "Option B applies correct change management thinking — resistance is a signal, not an obstacle. Involving the team in shaping the model builds ownership and reduces resistance. Option A mandates compliance, which drives surface behavior without real adoption. Option C is too passive — more time without changed communication or involvement does not resolve the underlying cause of resistance."
         },
         {
           customerLine: "The CEO wants us to double headcount immediately to accelerate the transformation.",
@@ -328,7 +328,7 @@ export const marketingTransformation: Lesson = {
       instructions: "Read the conversation. Three lines have a mistake. Can you find them?",
       dialogue: [
         { speaker: "Marcus", text: "I'm going to announce the transformation to the team next week and then ask for their support." },
-        { speaker: "Riley", text: "That is too late — get stakeholder buy-in early. Involve them before the plan is finalised, not after you announce it." },
+        { speaker: "Riley", text: "That is too late — get stakeholder buy-in early. Involve them before the plan is finalized, not after you announce it." },
         { speaker: "Marcus", text: "Understood. And I've planned the transformation in one big phase — we will change everything at the same time." },
         { speaker: "Riley", text: "That is too risky. A transformation roadmap should have multiple phases — changing everything at once creates too much disruption and too little control." },
         { speaker: "Marcus", text: "Right. And before we hire 20 new people, should we close the skills gap first?" },
@@ -339,7 +339,7 @@ export const marketingTransformation: Lesson = {
           lineIndex: 0,
           incorrectText: "announce the transformation to the team next week and then ask for their support",
           correction: "involve the team in shaping the transformation before you announce it",
-          explanation: "Announcing a change and then asking for support is a common change management mistake — by the time you announce, people feel the decision has been made without them, which creates resistance. Get stakeholder and team buy-in early — before the plan is finalised. People support what they help to build."
+          explanation: "Announcing a change and then asking for support is a common change management mistake — by the time you announce, people feel the decision has been made without them, which creates resistance. Get stakeholder and team buy-in early — before the plan is finalized. People support what they help to build."
         },
         {
           lineIndex: 2,
@@ -360,7 +360,7 @@ export const marketingTransformation: Lesson = {
       items: [
         {
           customerLine: "The team is nervous about moving to agile. How do we get them on board?",
-          salespersonStart: "We need to bring people with us — not announce the change to them. Here is what I recommend: get the team in the room before the sprint model is finalised. Let them shape how it works. Ask them: what does the current process make hard? Then show them how...",
+          salespersonStart: "We need to bring people with us — not announce the change to them. Here is what I recommend: get the team in the room before the sprint model is finalized. Let them shape how it works. Ask them: what does the current process make hard? Then show them how...",
           suggestedCompletion: "agile solves that specific problem. When the solution addresses their actual frustration, resistance drops. Start with a two-week pilot sprint — small, safe, voluntary. Let the results speak. Then scale what works."
         },
         {

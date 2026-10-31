@@ -396,7 +396,7 @@ export const talkingAboutPrices: Lesson = {
             },
             {
                 "name": "Alex",
-                "description": "Alex is the CTO at a large company with 300 employees. Budget is flexible, and he needs a fully customised solution with dedicated support and a fixed annual rate.",
+                "description": "Alex is the CTO at a large company with 300 employees. Budget is flexible, and he needs a fully customized solution with dedicated support and a fixed annual rate.",
                 "matchKey": "enterprise"
             }
         ],

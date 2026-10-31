@@ -185,13 +185,13 @@ export const pitchingToInvestorsOrPartners: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'Why us specifically? There are other investors at this stage who could write the cheque.',
+      text: 'Why us specifically? There are other investors at this stage who could write the check.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Because capital is not our primary constraint. Your portfolio companies represent approximately 40% of our target customer profile. A strategic relationship with your network gives us a distribution advantage that no amount of paid acquisition can replicate. We're not just looking for a cheque — we're looking for leverage.",
+      text: "Because capital is not our primary constraint. Your portfolio companies represent approximately 40% of our target customer profile. A strategic relationship with your network gives us a distribution advantage that no amount of paid acquisition can replicate. We're not just looking for a check — we're looking for leverage.",
     },
     {
       speaker: 'Marcus',
@@ -349,7 +349,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
                 "what"
             ],
             "correctIndex": 1,
-            "explanation": "When referring to a person or organisation acting in a human or agentive capacity, use 'who' — not 'which' or 'what'. 'A partner who brings' is correct. 'A partner which brings' treats the partner as a thing — which is incorrect when describing a person or firm acting as a decision-making entity. 'What' is used in noun clauses ('what matters is...'), not as a relative pronoun. At C1-C2 level, precise relative pronoun selection distinguishes a sophisticated speaker from an intermediate one."
+            "explanation": "When referring to a person or organization acting in a human or agentive capacity, use 'who' — not 'which' or 'what'. 'A partner who brings' is correct. 'A partner which brings' treats the partner as a thing — which is incorrect when describing a person or firm acting as a decision-making entity. 'What' is used in noun clauses ('what matters is...'), not as a relative pronoun. At C1-C2 level, precise relative pronoun selection distinguishes a sophisticated speaker from an intermediate one."
         },
         {
             "sentence": "The funding round will _____ us to double the enterprise sales team within twelve months.",
@@ -464,7 +464,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
                 "lineIndex": 5,
                 "incorrectText": "a partner which",
                 "correction": "a partner who",
-                "explanation": "When referring to a person or organisation acting in an agentive, human capacity, use 'who' — not 'which'. 'Which' is for things and non-human entities. 'A partner who brings' is correct; 'a partner which brings' treats the partner as an object rather than an actor. In business English, companies and investors are typically referred to with 'who' when they are the agent of a clause: 'a firm who understands our market', 'an investor who brings network value'. 'That' is also acceptable, but 'who' is the most precise and preferred choice at C1-C2 level."
+                "explanation": "When referring to a person or organization acting in an agentive, human capacity, use 'who' — not 'which'. 'Which' is for things and non-human entities. 'A partner who brings' is correct; 'a partner which brings' treats the partner as an object rather than an actor. In business English, companies and investors are typically referred to with 'who' when they are the agent of a clause: 'a firm who understands our market', 'an investor who brings network value'. 'That' is also acceptable, but 'who' is the most precise and preferred choice at C1-C2 level."
             }
         ]
     },

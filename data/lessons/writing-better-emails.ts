@@ -456,7 +456,7 @@ export const writingBetterEmails: Lesson = {
             },
             {
                 "customerLine": "What should I include in a marketing email to an existing client?",
-                "salespersonStart": "Keep it relevant to them — personalise it if you can. Mention something specific about what they are working on. Then share the news or update you want to tell them. Always end with a clear",
+                "salespersonStart": "Keep it relevant to them — personalize it if you can. Mention something specific about what they are working on. Then share the news or update you want to tell them. Always end with a clear",
                 "suggestedCompletion": "call to action — it could be a link to a blog post, an invitation to an event, or a simple question to start a conversation. And keep it short — three to five lines, maximum."
             }
         ]

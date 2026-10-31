@@ -122,7 +122,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       context: 'Follow-up email after discovery',
       register: 'Neutral / Professional',
-      example: "'I wanted to summarise the key pain points we discussed: (1) no real-time visibility into rep activity, (2) inconsistent follow-up across the team, (3) a workaround that is not scaling. Let me know if I have missed anything or framed anything incorrectly.'",
+      example: "'I wanted to summarize the key pain points we discussed: (1) no real-time visibility into rep activity, (2) inconsistent follow-up across the team, (3) a workaround that is not scaling. Let me know if I have missed anything or framed anything incorrectly.'",
     },
     {
       context: 'Informal conversation at a conference',
@@ -389,7 +389,7 @@ export const identifyingCustomerPainPoints: Lesson = {
             {
                 "customerLine": "A prospect says: 'Our team just doesn't seem motivated lately.'",
                 "options": [
-                    "Say: 'Motivation can be a real challenge — have you considered a team-building programme?'",
+                    "Say: 'Motivation can be a real challenge — have you considered a team-building program?'",
                     "Say: 'When you say not motivated — what does that look like day to day? I want to make sure I understand whether this is a morale issue or whether something structural is making their work harder than it needs to be.'",
                     "Say: 'That sounds like a management issue. Is your team lead giving them enough support?'"
                 ],

@@ -125,7 +125,7 @@ export const presentingProposals: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Good. Section one is [[scope:the defined boundaries of what the engagement includes — and explicitly excludes — to protect both parties from later disputes]]. The [[scope:]] of this engagement includes platform configuration, native CRM integration, and a full onboarding programme for up to 50 users. And I want to be equally clear about what it does not include — because the [[exclusions:items or services explicitly not included in the scope, stated clearly to prevent misunderstanding about what the agreed price covers]] are where surprises happen. Excluded: custom API development beyond the standard connector library, multilingual content support, and data migration from your legacy platform.',
+      text: 'Good. Section one is [[scope:the defined boundaries of what the engagement includes — and explicitly excludes — to protect both parties from later disputes]]. The [[scope:]] of this engagement includes platform configuration, native CRM integration, and a full onboarding program for up to 50 users. And I want to be equally clear about what it does not include — because the [[exclusions:items or services explicitly not included in the scope, stated clearly to prevent misunderstanding about what the agreed price covers]] are where surprises happen. Excluded: custom API development beyond the standard connector library, multilingual content support, and data migration from your legacy platform.',
     },
     {
       speaker: 'Marcus',
@@ -161,13 +161,13 @@ export const presentingProposals: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Good question — and that brings me to section three: [[dependencies:factors or inputs from the buyer or a third party that must be in place before a milestone can be achieved — identifying them protects the vendor from delays caused by factors outside their control]]. The week three milestone depends on three things from you: API access credentials from your CRM administrator within five business days of contract signature, a nominated IT programme lead by week two, and confirmed access to your sandbox environment. If any of these are delayed, the milestone adjusts accordingly.',
+      text: 'Good question — and that brings me to section three: [[dependencies:factors or inputs from the buyer or a third party that must be in place before a milestone can be achieved — identifying them protects the vendor from delays caused by factors outside their control]]. The week three milestone depends on three things from you: API access credentials from your CRM administrator within five business days of contract signature, a nominated IT program lead by week two, and confirmed access to your sandbox environment. If any of these are delayed, the milestone adjusts accordingly.',
     },
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "The CRM credentials shouldn't be a problem. The IT programme lead is something I need to confirm internally.",
+      text: "The CRM credentials shouldn't be a problem. The IT program lead is something I need to confirm internally.",
     },
     {
       speaker: 'Riley',
@@ -179,13 +179,13 @@ export const presentingProposals: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "We're on Salesforce — standard, no heavy customisation. And the user group is 42. So both assumptions hold.",
+      text: "We're on Salesforce — standard, no heavy customization. And the user group is 42. So both assumptions hold.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Excellent — that confirms the scope and timeline as presented. Now for the [[commercial terms:the financial and legal conditions of the engagement — pricing, payment schedule, liability, termination rights, and SLA provisions]]. The total investment is £420,000, structured as four milestone-linked instalments. Let me explain how we arrived at that figure: £240,000 for the platform licence, and £180,000 for implementation and onboarding — representing approximately 1,200 hours of dedicated resource at your scale.',
+      text: 'Excellent — that confirms the scope and timeline as presented. Now for the [[commercial terms:the financial and legal conditions of the engagement — pricing, payment schedule, liability, termination rights, and SLA provisions]]. The total investment is £420,000, structured as four milestone-linked instalments. Let me explain how we arrived at that figure: £240,000 for the platform license, and £180,000 for implementation and onboarding — representing approximately 1,200 hours of dedicated resource at your scale.',
     },
     {
       speaker: 'Marcus',
@@ -293,7 +293,7 @@ export const presentingProposals: Lesson = {
         "question": "What three dependencies does Riley name for the week-three integration milestone?",
         "options": [
             "A signed contract, a nominated project lead, and confirmed payment",
-            "API credentials within 5 business days, an IT programme lead by week 2, and sandbox access",
+            "API credentials within 5 business days, an IT program lead by week 2, and sandbox access",
             "CRM configuration data, a security clearance, and a nominated onboarding team"
         ],
         "correctIndex": 1
@@ -401,13 +401,13 @@ export const presentingProposals: Lesson = {
                     "It's actually listed in the exclusions section on page 18 — I can point you to that. We can certainly discuss adding it, but it would be a separate engagement."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B is the most effective response — it acknowledges the buyer's concern without apology, explains why the exclusion was made (a reasonable, professional rationale), and immediately proposes a solution that keeps the deal moving. It also frames the resolution in the buyer's favour: addressing it now rather than after signature. Option A apologises unnecessarily and offers to absorb the cost without understanding the scope — which undermines the pricing credibility of the entire proposal. Option C points the buyer to a page in the document (which can feel defensive) and separates the engagement rather than finding a way to incorporate it."
+                "explanation": "Option B is the most effective response — it acknowledges the buyer's concern without apology, explains why the exclusion was made (a reasonable, professional rationale), and immediately proposes a solution that keeps the deal moving. It also frames the resolution in the buyer's favour: addressing it now rather than after signature. Option A apologizes unnecessarily and offers to absorb the cost without understanding the scope — which undermines the pricing credibility of the entire proposal. Option C points the buyer to a page in the document (which can feel defensive) and separates the engagement rather than finding a way to incorporate it."
             },
             {
                 "customerLine": "The 16-week timeline feels aggressive. We've had implementations take twice as long with other vendors.",
                 "options": [
                     "I understand the concern — we can certainly extend the timeline if that would make you more comfortable. What timeframe would work better for your team?",
-                    "That's a legitimate concern — and I want to address it directly. The 16-week timeline is based on five assumptions that I listed in section three. When those dependencies are met on schedule, 16 weeks is achievable — we've delivered it for six comparable clients in the past 18 months. Where implementations have run longer — including with some of our own earlier clients — the most common cause was delayed CRM access credentials and the absence of a dedicated IT programme lead. Both of those are dependencies I've already named, and I'd recommend treating them as week-one priorities.",
+                    "That's a legitimate concern — and I want to address it directly. The 16-week timeline is based on five assumptions that I listed in section three. When those dependencies are met on schedule, 16 weeks is achievable — we've delivered it for six comparable clients in the past 18 months. Where implementations have run longer — including with some of our own earlier clients — the most common cause was delayed CRM access credentials and the absence of a dedicated IT program lead. Both of those are dependencies I've already named, and I'd recommend treating them as week-one priorities.",
                     "Our track record on this timeline is very strong — I wouldn't be concerned. We have a dedicated project manager who manages this risk on our side."
                 ],
                 "correctIndex": 1,
@@ -480,7 +480,7 @@ export const presentingProposals: Lesson = {
             {
                 "customerLine": "I'm not sure I fully understand what's included in the scope and what isn't.",
                 "salespersonStart": "Let me be as clear as possible — because scope clarity is the most important thing to establish before we discuss commercial terms.",
-                "suggestedCompletion": "What's included: platform configuration, native CRM integration, and a full 16-week onboarding programme for up to 50 users. What's not included — and I want to be explicit about this because these are the most common sources of post-contract confusion: custom API development beyond the standard connector library, data migration from your legacy platform, and multilingual content. Both the inclusions and the exclusions are listed in full in the annex on page 22. If anything in the excluded list is a requirement, I'd rather scope it now and include it under contract than discover it as a gap in week eight."
+                "suggestedCompletion": "What's included: platform configuration, native CRM integration, and a full 16-week onboarding program for up to 50 users. What's not included — and I want to be explicit about this because these are the most common sources of post-contract confusion: custom API development beyond the standard connector library, data migration from your legacy platform, and multilingual content. Both the inclusions and the exclusions are listed in full in the annex on page 22. If anything in the excluded list is a requirement, I'd rather scope it now and include it under contract than discover it as a gap in week eight."
             },
             {
                 "customerLine": "What happens if something changes after we've signed — if our requirements evolve during implementation?",

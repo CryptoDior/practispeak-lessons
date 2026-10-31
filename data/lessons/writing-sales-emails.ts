@@ -31,10 +31,10 @@ export const writingSalesEmails: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-call-to-action.png',
     },
     {
-      word: 'PERSONALISE',
+      word: 'PERSONALIZE',
       partOfSpeech: 'verb',
       definition: 'To change a message so it fits one particular person or company.',
-      example: 'I will personalise this email with the customer\'s car and service history.',
+      example: 'I will personalize this email with the customer\'s car and service history.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-personalise.png',
     },
     {
@@ -137,7 +137,7 @@ export const writingSalesEmails: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "I see — it's more [[personalise:to tailor a message to a specific person or situation]]d. What about the [[greeting:the opening line of an email that sets the tone and formality]]? I wrote 'Dear Mr Chen'.",
+      text: "I see — it's more [[personalize:to tailor a message to a specific person or situation]]d. What about the [[greeting:the opening line of an email that sets the tone and formality]]? I wrote 'Dear Mr Chen'.",
     },
     {
       speaker: 'Riley',
@@ -391,11 +391,11 @@ export const writingSalesEmails: Lesson = {
                 "customerLine": "I opened your email because the subject line caught my attention. What made you write it that way?",
                 "options": [
                     "I always try to keep my subject lines as short as possible.",
-                    "I referenced your exact pain point from our last conversation — 'Quick question about your Q3 reporting'. A personalised subject line that speaks to the reader's specific situation gets opened. A generic one gets deleted.",
+                    "I referenced your exact pain point from our last conversation — 'Quick question about your Q3 reporting'. A personalized subject line that speaks to the reader's specific situation gets opened. A generic one gets deleted.",
                     "I wasn't completely sure about it — I'm glad it worked for you."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B explains the strategy clearly and confidently — and gives the customer a valuable insight they can use. Option A gives a partial answer but misses the key point: it's not just about length, it's about relevance and personalisation. Option C sounds uncertain and undermines your credibility as someone who knows what they are doing."
+                "explanation": "Option B explains the strategy clearly and confidently — and gives the customer a valuable insight they can use. Option A gives a partial answer but misses the key point: it's not just about length, it's about relevance and personalization. Option C sounds uncertain and undermines your credibility as someone who knows what they are doing."
             },
             {
                 "customerLine": "Is 'I hope this email finds you well' a good way to open a sales email?",
@@ -405,7 +405,7 @@ export const writingSalesEmails: Lesson = {
                     "It depends entirely on the recipient and the context of the email."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B gives an honest, useful answer with a clear alternative — this is the kind of specific, expert insight that builds credibility. Option A is overly diplomatic and teaches nothing. Option C is evasive — the truth is that 'I hope this email finds you well' is widely recognised as a low-impact opener regardless of context, and saying 'it depends' without explaining is not useful."
+                "explanation": "Option B gives an honest, useful answer with a clear alternative — this is the kind of specific, expert insight that builds credibility. Option A is overly diplomatic and teaches nothing. Option C is evasive — the truth is that 'I hope this email finds you well' is widely recognized as a low-impact opener regardless of context, and saying 'it depends' without explaining is not useful."
             },
             {
                 "customerLine": "What should my call to action be if I want the prospect to book a meeting with me?",
@@ -479,7 +479,7 @@ export const writingSalesEmails: Lesson = {
             {
                 "customerLine": "I always end my emails with 'Let me know if you have any questions'. Is there a better way?",
                 "salespersonStart": "That's a very passive call to action — it puts all the effort on the reader. A stronger version is specific and gives them a clear decision to make. Try something like...",
-                "suggestedCompletion": "'Would you be open to a 20-minute call this week? I'm free Thursday at 2pm or Friday at 10am.' It's easy to say yes or suggest an alternative — and it shows you are organised and serious."
+                "suggestedCompletion": "'Would you be open to a 20-minute call this week? I'm free Thursday at 2pm or Friday at 10am.' It's easy to say yes or suggest an alternative — and it shows you are organized and serious."
             },
             {
                 "customerLine": "Should I always start with 'I hope this email finds you well'?",

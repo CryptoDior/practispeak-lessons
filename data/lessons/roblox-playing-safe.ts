@@ -145,7 +145,7 @@ export const robloxPlayingSafe: Lesson = {
     },
     {
       phrase: "THAT IS NOT OK!",
-      definition: "A phrase to say that someone's behaviour is wrong and not acceptable.",
+      definition: "A phrase to say that someone's behavior is wrong and not acceptable.",
       example: "That is not OK! Calling people bad names in the chat breaks the rules.",
       inGame: "That is not OK! You cannot take other players' items without trading.",
       inRealLife: "That is not OK! You cannot push people in the playground.",

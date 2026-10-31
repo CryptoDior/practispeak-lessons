@@ -5,7 +5,7 @@ export const handlingDifficultCustomers: Lesson = {
   title: 'Handling Difficult Customers',
   subtitle: 'Diplomacy, tone control, and de-escalation — staying professional when the conversation gets hard',
   level: 'C1-C2',
-  description: 'Difficult customer conversations are not won by being right — they are won by staying professional when the other person is not. The language of de-escalation is precise: it acknowledges without over-apologising, sets boundaries without confrontation, and moves from grievance to resolution without dismissing how the customer feels. This lesson teaches the four-part framework — empathise, acknowledge, redirect, resolve — and the specific phrases that make each step work.',
+  description: 'Difficult customer conversations are not won by being right — they are won by staying professional when the other person is not. The language of de-escalation is precise: it acknowledges without over-apologizing, sets boundaries without confrontation, and moves from grievance to resolution without dismissing how the customer feels. This lesson teaches the four-part framework — empathise, acknowledge, redirect, resolve — and the specific phrases that make each step work.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-difficult-customers-hero.png',
 
   vocabulary: [
@@ -33,7 +33,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       word: 'ACKNOWLEDGE',
       partOfSpeech: 'verb',
-      definition: 'To openly recognise that something happened and that it mattered.',
+      definition: 'To openly recognize that something happened and that it mattered.',
       example: 'I acknowledge that the delivery delay caused you real inconvenience.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-handling-difficult-customers-acknowledge.png',
     },
@@ -48,7 +48,7 @@ export const handlingDifficultCustomers: Lesson = {
       word: 'DIPLOMATIC',
       partOfSpeech: 'adjective',
       definition: 'Careful and tactful when dealing with sensitive or difficult subjects.',
-      example: 'He gave a diplomatic answer when the client criticised the price.',
+      example: 'He gave a diplomatic answer when the client criticized the price.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-handling-difficult-customers-diplomatic.png',
     },
     {
@@ -61,7 +61,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       word: 'BOUNDARY',
       partOfSpeech: 'noun',
-      definition: 'A limit on what behaviour you will accept from another person.',
+      definition: 'A limit on what behavior you will accept from another person.',
       example: 'I had to set a boundary when the customer began shouting.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-handling-difficult-customers-boundary.png',
     }
@@ -125,7 +125,7 @@ export const handlingDifficultCustomers: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'We had a client presentation at 10am. My team could not access any of their data. They had to present from memory and apologise to the client. Do you understand what that does to our credibility? I am beyond frustrated.',
+      text: 'We had a client presentation at 10am. My team could not access any of their data. They had to present from memory and apologize to the client. Do you understand what that does to our credibility? I am beyond frustrated.',
     },
     {
       speaker: 'Riley',
@@ -276,7 +276,7 @@ export const handlingDifficultCustomers: Lesson = {
         "question": "Why does Riley say 'let me make sure I understand what happened' before responding to Marcus's complaint?",
         "options": [
             "Because she does not yet have the information she needs to respond and needs to buy time",
-            "Because slowing the conversation and signalling full engagement is itself a de-escalation technique — it shows the customer they are being heard, not managed",
+            "Because slowing the conversation and signaling full engagement is itself a de-escalation technique — it shows the customer they are being heard, not managed",
             "Because her company requires her to gather the facts before making any commitments",
             "Because she suspects Marcus's account of events may be inaccurate and wants to probe it carefully"
         ],
@@ -286,7 +286,7 @@ export const handlingDifficultCustomers: Lesson = {
         "question": "Marcus says 'I understand your frustration — I've heard that phrase from three different vendors this year.' What does this reveal about the phrase — and how does Riley avoid the same trap?",
         "options": [
             "It reveals that the phrase is too informal for a C-suite conversation — Riley switches to more formal language",
-            "It reveals that scripted empathy is immediately recognised and dismissed — Riley uses specific empathy tied to Marcus's situation rather than a formula",
+            "It reveals that scripted empathy is immediately recognized and dismissed — Riley uses specific empathy tied to Marcus's situation rather than a formula",
             "It reveals that Marcus has had many vendor failures and is unusually difficult to satisfy",
             "It reveals that Marcus is testing Riley to see if she will repeat the same pattern"
         ],
@@ -306,9 +306,9 @@ export const handlingDifficultCustomers: Lesson = {
         "question": "When Riley sets a boundary after Marcus's language becomes personal, she says 'I can resolve this for you most effectively if we keep the conversation focused on what happened and what we do next.' Why is this more effective than telling him to stop?",
         "options": [
             "Because it is more polite and therefore less likely to make Marcus angrier",
-            "Because it frames the boundary as a condition for helping him rather than a criticism of his behaviour — which invites cooperation instead of resistance",
-            "Because addressing his behaviour directly would be outside the scope of her professional role",
-            "Because she is not sure whether his behaviour crosses a professional line and does not want to overreact"
+            "Because it frames the boundary as a condition for helping him rather than a criticism of his behavior — which invites cooperation instead of resistance",
+            "Because addressing his behavior directly would be outside the scope of her professional role",
+            "Because she is not sure whether his behavior crosses a professional line and does not want to overreact"
         ],
         "correctIndex": 1
     },
@@ -323,12 +323,12 @@ export const handlingDifficultCustomers: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "According to the lesson, why must acknowledgement come before explanation in a difficult customer conversation?",
+        "question": "According to the lesson, why must acknowledgment come before explanation in a difficult customer conversation?",
         "options": [
             "Because it is legally safer to acknowledge the customer's experience before providing an explanation that might be used against the company",
-            "Because everything said before the acknowledgement sounds like a defence — the customer cannot hear an explanation until they feel their experience has been confirmed as real and valid",
+            "Because everything said before the acknowledgment sounds like a defense — the customer cannot hear an explanation until they feel their experience has been confirmed as real and valid",
             "Because the customer needs emotional closure before they can process factual information",
-            "Because starting with an explanation signals that the company is prioritising its own narrative over the customer's experience"
+            "Because starting with an explanation signals that the company is prioritizing its own narrative over the customer's experience"
         ],
         "correctIndex": 1
     },
@@ -336,7 +336,7 @@ export const handlingDifficultCustomers: Lesson = {
         "question": "At the end of the dialogue, Marcus says 'I appreciate that you haven't been defensive.' What has Riley done throughout the conversation that produced this response?",
         "options": [
             "She agreed with everything Marcus said and made no attempt to explain the company's position",
-            "She maintained composure, acknowledged the failure without minimising it, was transparent about the cause including the customer's contribution, and focused on resolution rather than justification — all without raising her voice or becoming defensive",
+            "She maintained composure, acknowledged the failure without minimizing it, was transparent about the cause including the customer's contribution, and focused on resolution rather than justification — all without raising her voice or becoming defensive",
             "She offered him a larger credit than he asked for, which resolved his frustration before it could build further",
             "She escalated immediately to her account director rather than trying to handle the situation herself"
         ],
@@ -378,7 +378,7 @@ export const handlingDifficultCustomers: Lesson = {
             "answer": "what"
         },
         {
-            "before": "For your CEO conversation, I am preparing a written summary of the incident — what happened, why it happened, and what we have changed. It is specifically formatted to be shared with leadership. It will be with you by tomorrow morning. I recognise that Thursday reflected on you, and I want to give you something concrete to present that shows the situation was taken seriously and",
+            "before": "For your CEO conversation, I am preparing a written summary of the incident — what happened, why it happened, and what we have changed. It is specifically formatted to be shared with leadership. It will be with you by tomorrow morning. I recognize that Thursday reflected on you, and I want to give you something concrete to present that shows the situation was taken seriously and",
             "after": "d professionally.",
             "answer": "handle"
         },
@@ -390,17 +390,17 @@ export const handlingDifficultCustomers: Lesson = {
     ]
 },
   dealClinic: {
-    "context": "Marcus has just said in a call: 'This is the second time this has happened. I am seriously considering cancelling our contract. I want answers and I want them now.' Watch how two customer success managers respond.",
+    "context": "Marcus has just said in a call: 'This is the second time this has happened. I am seriously considering canceling our contract. I want answers and I want them now.' Watch how two customer success managers respond.",
     "transcript": [
         {
             "speaker": "Marcus",
             "speakerColor": "purple",
-            "text": "This is the second time in four months that your system has caused a disruption during a client-facing moment. I am done being patient. I am considering cancelling, and if you cannot give me real answers today, I will be speaking to your CEO directly."
+            "text": "This is the second time in four months that your system has caused a disruption during a client-facing moment. I am done being patient. I am considering canceling, and if you cannot give me real answers today, I will be speaking to your CEO directly."
         },
         {
             "speaker": "Salesperson A",
             "speakerColor": "red",
-            "text": "Marcus, I completely understand how you feel, and I sincerely apologise for the disruption this has caused. I want to assure you that we take this very seriously and that our technical team is already working on the root cause. I am going to personally make sure this gets the highest priority internally. I would really hate to lose you as a customer — you have been so important to us, and I am confident we can make this right."
+            "text": "Marcus, I completely understand how you feel, and I sincerely apologize for the disruption this has caused. I want to assure you that we take this very seriously and that our technical team is already working on the root cause. I am going to personally make sure this gets the highest priority internally. I would really hate to lose you as a customer — you have been so important to us, and I am confident we can make this right."
         },
         {
             "speaker": "Verdict",
@@ -408,7 +408,7 @@ export const handlingDifficultCustomers: Lesson = {
             "text": "Customer Success Manager A — Response to cancellation threat",
             "verdict": {
                 "isGood": false,
-                "explanation": "Weak on several levels. 'I completely understand how you feel' is a scripted opener Marcus will dismiss. 'I sincerely apologise' without any specific acknowledgement of what went wrong sounds hollow — especially on a second incident. 'I am going to personally make sure this gets the highest priority' is a vague promise with no commitment attached. And 'I would really hate to lose you as a customer — you have been so important to us' is emotional leverage that puts the salesperson's interests in the conversation — which a frustrated customer reads as the company caring about revenue more than about the failure. None of this addresses what happened, why it happened, or what specifically will be done."
+                "explanation": "Weak on several levels. 'I completely understand how you feel' is a scripted opener Marcus will dismiss. 'I sincerely apologize' without any specific acknowledgment of what went wrong sounds hollow — especially on a second incident. 'I am going to personally make sure this gets the highest priority' is a vague promise with no commitment attached. And 'I would really hate to lose you as a customer — you have been so important to us' is emotional leverage that puts the salesperson's interests in the conversation — which a frustrated customer reads as the company caring about revenue more than about the failure. None of this addresses what happened, why it happened, or what specifically will be done."
             }
         },
         {
@@ -447,7 +447,7 @@ export const handlingDifficultCustomers: Lesson = {
         {
             "speaker": "Salesperson B",
             "speakerColor": "orange",
-            "text": "A client demo disrupted for ninety minutes with no human response — on a second occurrence. That is not the experience you should be having, and I am not going to minimise it. Here is what I can tell you right now: I am pulling the incident report as we speak, and I want to give you a real explanation — not a holding statement — within two hours. On the credit question: I can issue a credit for the downtime period immediately. On the broader question of what you should expect from us going forward, I want to have that conversation with our account director on the line. Can we do a call at 4pm today?"
+            "text": "A client demo disrupted for ninety minutes with no human response — on a second occurrence. That is not the experience you should be having, and I am not going to minimize it. Here is what I can tell you right now: I am pulling the incident report as we speak, and I want to give you a real explanation — not a holding statement — within two hours. On the credit question: I can issue a credit for the downtime period immediately. On the broader question of what you should expect from us going forward, I want to have that conversation with our account director on the line. Can we do a call at 4pm today?"
         },
         {
             "speaker": "Marcus",
@@ -472,12 +472,12 @@ export const handlingDifficultCustomers: Lesson = {
             {
                 "customerLine": "A customer says: 'Your support team is completely useless. I have been waiting four days for a response and nothing.'",
                 "options": [
-                    "Say: 'I completely understand your frustration and I sincerely apologise for the delay. Our support team has been very busy recently but I will personally make sure your ticket is prioritised.'",
+                    "Say: 'I completely understand your frustration and I sincerely apologize for the delay. Our support team has been very busy recently but I will personally make sure your ticket is prioritized.'",
                     "Say: 'Four days with no response — that is not acceptable and I am not going to try to explain it before I have fixed it. Let me pull up your ticket right now. While I do that, can you tell me what you need resolved most urgently, so we start there?'",
                     "Say: 'I am sorry you feel that way. Our support team works very hard and I am sure there is an explanation for the delay. Let me find out what happened and get back to you.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. A leads with a formula ('I completely understand') and a vague promise ('personally make sure') that experienced customers dismiss immediately. C is defensive — 'our support team works very hard' and 'I am sure there is an explanation' both prioritise the company's position over the customer's experience. B acknowledges the specific failure (four days, no response), commits to immediate action (pulling the ticket now), and redirects to what the customer needs most urgently — all without a formula or a vague assurance."
+                "explanation": "B is correct. A leads with a formula ('I completely understand') and a vague promise ('personally make sure') that experienced customers dismiss immediately. C is defensive — 'our support team works very hard' and 'I am sure there is an explanation' both prioritize the company's position over the customer's experience. B acknowledges the specific failure (four days, no response), commits to immediate action (pulling the ticket now), and redirects to what the customer needs most urgently — all without a formula or a vague assurance."
             },
             {
                 "customerLine": "A customer sends an angry email saying: 'I want to speak to someone senior. The people I have been dealing with clearly cannot resolve this.'",
@@ -497,17 +497,17 @@ export const handlingDifficultCustomers: Lesson = {
                     "Ignore the comment and continue addressing the practical issues — raising it will only escalate the situation."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. A sets a boundary but frames it as a threat ('I will need to end this call'), which often provokes resistance rather than compliance. C ignores the behaviour entirely — which can signal that it is acceptable and may allow it to escalate further. B sets the same boundary as A but frames it as a condition for helping: 'I can do that most effectively if we keep the conversation focused.' It also signals that the salesperson is committed to staying ('I am not going anywhere'), which reassures the customer that the boundary is not an exit."
+                "explanation": "B is correct. A sets a boundary but frames it as a threat ('I will need to end this call'), which often provokes resistance rather than compliance. C ignores the behavior entirely — which can signal that it is acceptable and may allow it to escalate further. B sets the same boundary as A but frames it as a condition for helping: 'I can do that most effectively if we keep the conversation focused.' It also signals that the salesperson is committed to staying ('I am not going anywhere'), which reassures the customer that the boundary is not an exit."
             },
             {
                 "customerLine": "A customer says: 'I was told by your sales team this would be implemented in two weeks. It has been six weeks and we are still not live.'",
                 "options": [
                     "Say: 'I want to be transparent with you about what happened. The two-week timeline was based on assumptions about your configuration that turned out to be more complex than expected. I am not raising this to deflect — I want to understand where the gap is between what was promised and where we are, and what we need to do to close it. Can we go through the current status together?'",
                     "Say: 'I completely understand your frustration. I am going to speak to the sales team about the timeline that was communicated and get back to you with a new realistic date by the end of the week.'",
-                    "Say: 'Six weeks is longer than expected and I apologise for that. Implementations can be complex and sometimes things take longer than initially projected — but I can assure you we are working hard to get you live as soon as possible.'"
+                    "Say: 'Six weeks is longer than expected and I apologize for that. Implementations can be complex and sometimes things take longer than initially projected — but I can assure you we are working hard to get you live as soon as possible.'"
                 ],
                 "correctIndex": 0,
-                "explanation": "A is correct. It is transparent — it names what contributed to the delay (configuration complexity) without blaming the customer, and it acknowledges that the original timeline created an expectation that has not been met. Crucially, it redirects to joint problem-solving: 'what we need to do to close it.' B blames the sales team, which shifts accountability internally in front of the customer — unprofessional and unhelpful. C vaguely apologises and reassures without a specific commitment or a clear next step."
+                "explanation": "A is correct. It is transparent — it names what contributed to the delay (configuration complexity) without blaming the customer, and it acknowledges that the original timeline created an expectation that has not been met. Crucially, it redirects to joint problem-solving: 'what we need to do to close it.' B blames the sales team, which shifts accountability internally in front of the customer — unprofessional and unhelpful. C vaguely apologizes and reassures without a specific commitment or a clear next step."
             }
         ]
     },
@@ -544,7 +544,7 @@ export const handlingDifficultCustomers: Lesson = {
             {
                 "key": "boundary-setting",
                 "label": "Calm boundary-setting",
-                "description": "'I want to resolve this for you — and I can do that most effectively if we keep the conversation focused on what happened and what we do next. I am not going anywhere. Can we do that?' Frame the boundary as a condition for helping, not a criticism of their behaviour."
+                "description": "'I want to resolve this for you — and I can do that most effectively if we keep the conversation focused on what happened and what we do next. I am not going anywhere. Can we do that?' Frame the boundary as a condition for helping, not a criticism of their behavior."
             }
         ]
     },

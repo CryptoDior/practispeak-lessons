@@ -5,7 +5,7 @@ export const salesLeadershipCommunication: Lesson = {
   title: 'Sales Leadership Communication',
   subtitle: 'The internal language of sales leadership — coaching conversations, pipeline reviews, target-setting, and the strategic communication that drives team performance',
   level: 'C1-C2',
-  description: "Sales leadership requires a distinct set of communication skills that are entirely different from those used in customer-facing conversations. Where a salesperson persuades, a sales leader coaches. Where a salesperson closes, a sales leader develops capability. The most effective sales managers spend the majority of their time in conversations that build their team's judgement rather than providing answers — asking questions that help a rep discover the right course of action rather than prescribing it. This lesson teaches the internal language of B2B sales leadership: how to run a pipeline review that surfaces real risk rather than polished projections, how to coach without telling, how to set and communicate targets in a way that creates clarity rather than anxiety, and how to communicate strategic direction in a way that enables every member of the team to execute with autonomy.",
+  description: "Sales leadership requires a distinct set of communication skills that are entirely different from those used in customer-facing conversations. Where a salesperson persuades, a sales leader coaches. Where a salesperson closes, a sales leader develops capability. The most effective sales managers spend the majority of their time in conversations that build their team's judgment rather than providing answers — asking questions that help a rep discover the right course of action rather than prescribing it. This lesson teaches the internal language of B2B sales leadership: how to run a pipeline review that surfaces real risk rather than polished projections, how to coach without telling, how to set and communicate targets in a way that creates clarity rather than anxiety, and how to communicate strategic direction in a way that enables every member of the team to execute with autonomy.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-leadership-communication-hero.png',
 
   vocabulary: [
@@ -137,7 +137,7 @@ export const salesLeadershipCommunication: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "'Be in touch' is not a next step — it's the absence of one. I'm not saying that to criticise the call; I'm saying it because that's where the [[deal risk:any factor making a specific deal less likely to close on time — including missing stakeholders, no agreed next step, or a silent prospect]] is sitting. A deal that's left to drift is rarely a deal that comes back on its own. What's your read on why Marcus has gone quiet?",
+      text: "'Be in touch' is not a next step — it's the absence of one. I'm not saying that to criticize the call; I'm saying it because that's where the [[deal risk:any factor making a specific deal less likely to close on time — including missing stakeholders, no agreed next step, or a silent prospect]] is sitting. A deal that's left to drift is rarely a deal that comes back on its own. What's your read on why Marcus has gone quiet?",
     },
     {
       speaker: 'Jordan',
@@ -185,7 +185,7 @@ export const salesLeadershipCommunication: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Both of those are the right diagnosis — and I want to make sure they go into your [[coaching:the ongoing development of a rep's judgement through questioning and reflection rather than instruction]] log so we can revisit them. Now — let's talk [[forecast:a prediction of revenue expected to close in a given period, categorised by confidence level: commit, best case, upside]]. Your [[pipeline coverage:the ratio of total pipeline value to quota — healthy is typically 3x to 4x]] is 3.8x on paper, but if I strip the three deals that have been stuck for more than 60 days, effective coverage drops to 2.1x. What are you committing to the forecast this quarter?",
+      text: "Both of those are the right diagnosis — and I want to make sure they go into your [[coaching:the ongoing development of a rep's judgment through questioning and reflection rather than instruction]] log so we can revisit them. Now — let's talk [[forecast:a prediction of revenue expected to close in a given period, categorized by confidence level: commit, best case, upside]]. Your [[pipeline coverage:the ratio of total pipeline value to quota — healthy is typically 3x to 4x]] is 3.8x on paper, but if I strip the three deals that have been stuck for more than 60 days, effective coverage drops to 2.1x. What are you committing to the forecast this quarter?",
     },
     {
       speaker: 'Jordan',
@@ -224,7 +224,7 @@ export const salesLeadershipCommunication: Lesson = {
     },
     {
         "word": "coaching",
-        "definition": "developing a rep's judgement through questioning and reflection rather than instruction — building capability that transfers to future situations"
+        "definition": "developing a rep's judgment through questioning and reflection rather than instruction — building capability that transfers to future situations"
     },
     {
         "word": "pipeline coverage",
@@ -232,7 +232,7 @@ export const salesLeadershipCommunication: Lesson = {
     },
     {
         "word": "forecast",
-        "definition": "a prediction of revenue expected to close in a period, categorised by confidence: commit, best case, and upside"
+        "definition": "a prediction of revenue expected to close in a period, categorized by confidence: commit, best case, and upside"
     },
     {
         "word": "deal risk",
@@ -275,7 +275,7 @@ export const salesLeadershipCommunication: Lesson = {
     },
     {
         "before": "A good ",
-        "after": " conversation builds judgement that transfers to the next deal — not just a set of instructions for the current one.",
+        "after": " conversation builds judgment that transfers to the next deal — not just a set of instructions for the current one.",
         "answer": "coaching"
     }
 ],
@@ -365,7 +365,7 @@ export const salesLeadershipCommunication: Lesson = {
                 "advising"
             ],
             "correctIndex": 1,
-            "explanation": "'Advice' is the noun — 'Riley's advice to the team'. 'Advise' is the verb — 'Riley advised the team'. These two forms are frequently confused, particularly in written English, where the spelling difference ('c' vs 's') is the only distinction. The noun: 'advice' (uncountable — 'a piece of advice', not 'an advice'). The verb: 'advise' — 'she advised them to focus on questions'. 'Advising' is the present participle of the verb, which cannot be used as the subject complement here ('Riley's advising' would need a different sentence structure). The rule: advice (noun, uncountable, ends in -ce) / advise (verb, ends in -se) — the same pattern as practice/practise, licence/license in British English."
+            "explanation": "'Advice' is the noun — 'Riley's advice to the team'. 'Advise' is the verb — 'Riley advised the team'. These two forms are frequently confused, particularly in written English, where the spelling difference ('c' vs 's') is the only distinction. The noun: 'advice' (uncountable — 'a piece of advice', not 'an advice'). The verb: 'advise' — 'she advised them to focus on questions'. 'Advising' is the present participle of the verb, which cannot be used as the subject complement here ('Riley's advising' would need a different sentence structure). The rule: advice (noun, uncountable, ends in -ce) / advise (verb, ends in -se) — the same pattern as practice/practice, license/license in British English."
         },
         {
             "sentence": "The effective coverage — _____ deals stuck for more than 60 days are removed — drops to 2.1x, which is below the threshold for forecasting confidence at this stage of the quarter.",
@@ -397,11 +397,11 @@ export const salesLeadershipCommunication: Lesson = {
                 "customerLine": "The deal is going well — I think it'll close this quarter. Marcus is engaged and the numbers work.",
                 "options": [
                     "Great — I'll put it in the forecast at full value for Q3. Let me know if anything changes.",
-                    "I want to test that. When was the last time you spoke to Marcus, what was agreed as the next step at the end of that conversation, and who else in his organisation have you spoken to in the past two weeks? I'm not questioning your read — I want to make sure the evidence supports the optimism.",
+                    "I want to test that. When was the last time you spoke to Marcus, what was agreed as the next step at the end of that conversation, and who else in his organization have you spoken to in the past two weeks? I'm not questioning your read — I want to make sure the evidence supports the optimism.",
                     "I've seen a lot of deals like this stall at the last minute. Have you identified all the internal stakeholders who need to approve? That's usually where things go wrong."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B is the right response — it tests the optimism with specific, observable facts rather than accepting the narrative at face value. A good pipeline review manager distinguishes between a rep's confidence (which can be influenced by effort, relationship, and wishful thinking) and the deal's actual observable status (last contact, last next step, stakeholder breadth). Option A accepts the rep's assessment without scrutiny — which is exactly the behaviour that produces inaccurate forecasts. Option C is critical and challenging, but it leads with a concern ('I've seen a lot of deals like this stall') rather than with data-driven questions — which can feel like skepticism rather than coaching."
+                "explanation": "Option B is the right response — it tests the optimism with specific, observable facts rather than accepting the narrative at face value. A good pipeline review manager distinguishes between a rep's confidence (which can be influenced by effort, relationship, and wishful thinking) and the deal's actual observable status (last contact, last next step, stakeholder breadth). Option A accepts the rep's assessment without scrutiny — which is exactly the behavior that produces inaccurate forecasts. Option C is critical and challenging, but it leads with a concern ('I've seen a lot of deals like this stall') rather than with data-driven questions — which can feel like skepticism rather than coaching."
             },
             {
                 "customerLine": "I'm not sure what to do with this deal. It feels like it's drifting and I don't know why.",
@@ -464,7 +464,7 @@ export const salesLeadershipCommunication: Lesson = {
                 "lineIndex": 2,
                 "incorrectText": "discuss about",
                 "correction": "discuss",
-                "explanation": "'Discuss' is a transitive verb that already means 'talk about' — adding 'about' is redundant and non-standard. 'I'd like to discuss your reengagement plan' is the correct form. 'Discuss about your plan' treats 'discuss' as if it were an intransitive verb like 'talk' ('talk about X'), but 'discuss' takes a direct object directly without a preposition: 'discuss the plan', 'discuss the deal', 'discuss the risk'. This error is extremely common in formal writing — particularly among speakers whose first language uses a preposition in this construction. Other transitive verbs that do not take 'about': 'address', 'consider', 'examine', 'review', 'analyse'."
+                "explanation": "'Discuss' is a transitive verb that already means 'talk about' — adding 'about' is redundant and non-standard. 'I'd like to discuss your reengagement plan' is the correct form. 'Discuss about your plan' treats 'discuss' as if it were an intransitive verb like 'talk' ('talk about X'), but 'discuss' takes a direct object directly without a preposition: 'discuss the plan', 'discuss the deal', 'discuss the risk'. This error is extremely common in formal writing — particularly among speakers whose first language uses a preposition in this construction. Other transitive verbs that do not take 'about': 'address', 'consider', 'examine', 'review', 'analyze'."
             },
             {
                 "lineIndex": 4,

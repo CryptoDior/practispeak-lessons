@@ -10,7 +10,7 @@ export const mmaFighterCapstone: Lesson = {
 
   warmUp: {
     questions: [
-      'What is your favourite new word from this course?',
+      'What is your favorite new word from this course?',
       'How do you explain MMA to a friend?',
       'What do you want to do next with your English?',
     ],

@@ -134,7 +134,7 @@ export const robloxLetsPlay: Lesson = {
       word: 'TRY AGAIN',
       partOfSpeech: 'phrase',
       definition: 'Start something again after it does not work the first time. Never give up!',
-      example: 'I failed my maths test so I studied harder and tried again. I passed!',
+      example: 'I failed my math test so I studied harder and tried again. I passed!',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-play-irl-try-again.png',
     },
   ],

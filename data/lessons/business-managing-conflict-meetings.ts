@@ -16,7 +16,7 @@ export const businessManagingConflictMeetings: Lesson = {
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
-    'Recognise and de-escalate tension in a meeting.',
+    'Recognize and de-escalate tension in a meeting.',
     'Step in diplomatically when a debate becomes personal.',
     'Refocus the group on facts and solutions.',
   ],
@@ -24,7 +24,7 @@ export const businessManagingConflictMeetings: Lesson = {
   vocabulary: [
     { word: 'CONFLICT', partOfSpeech: 'noun', definition: 'A serious disagreement between people or groups.', example: 'She handled the conflict calmly.', imageSlug: img('conflict') },
     { word: 'DE-ESCALATE', partOfSpeech: 'verb', definition: 'To make a situation less intense.', example: 'He de-escalated the tension by changing his tone.', imageSlug: img('de-escalate') },
-    { word: 'TENSION', partOfSpeech: 'noun', definition: 'A feeling of stress or hostility between people.', example: 'A little humour can release tension.', imageSlug: img('tension') },
+    { word: 'TENSION', partOfSpeech: 'noun', definition: 'A feeling of stress or hostility between people.', example: 'A little humor can release tension.', imageSlug: img('tension') },
     { word: 'DIPLOMACY', partOfSpeech: 'noun', definition: 'The skill of dealing with people sensitively and effectively.', example: 'She handled the disagreement with diplomacy.', imageSlug: img('diplomacy') },
     { word: 'RESOLVE', partOfSpeech: 'verb', definition: 'To find a solution to a problem or disagreement.', example: 'We must resolve conflicts early.', imageSlug: img('resolve') },
     { word: 'HEATED', partOfSpeech: 'adjective', definition: 'Full of anger and strong feeling.', example: 'The discussion became quite heated.', imageSlug: img('heated') },

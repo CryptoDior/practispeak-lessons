@@ -137,7 +137,7 @@ export const makingPersuasiveRecommendations: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'I would [[assert:to state something with confidence and directness]] that you should get the visibility layer working first. Once your team can see deal status in real time, the follow-up behaviour often improves on its own — because the problem becomes visible. You could add the automation layer in month two, once you have seen where the gaps actually are.',
+      text: 'I would [[assert:to state something with confidence and directness]] that you should get the visibility layer working first. Once your team can see deal status in real time, the follow-up behavior often improves on its own — because the problem becomes visible. You could add the automation layer in month two, once you have seen where the gaps actually are.',
     },
     {
       speaker: 'Marcus',
@@ -243,7 +243,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     },
     {
         "before": "You do not need to",
-        "after": "someone who already recognises the problem — just make the path to solving it feel clear and low-risk.",
+        "after": "someone who already recognizes the problem — just make the path to solving it feel clear and low-risk.",
         "answer": "convince"
     }
 ],
@@ -272,7 +272,7 @@ export const makingPersuasiveRecommendations: Lesson = {
         "question": "Why does Riley say Marcus should get visibility working before adding automation?",
         "options": [
             "The automation feature is not included in the first plan",
-            "Once deal status is visible, follow-up behaviour often improves on its own — and then the gaps are clearer",
+            "Once deal status is visible, follow-up behavior often improves on its own — and then the gaps are clearer",
             "Automation is too complex for a team of twelve reps",
             "She wants to keep the first deal smaller to make it easier to close"
         ],
@@ -311,7 +311,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
         "question": "Marcus says 'I was expecting you to push the biggest package.' What does Riley's response achieve?",
         "options": [
-            "It builds trust by showing she is prioritising his outcome over the size of the deal",
+            "It builds trust by showing she is prioritizing his outcome over the size of the deal",
             "It explains why the full platform is too expensive for his budget",
             "It creates urgency by suggesting he needs to act quickly",
             "It opens a negotiation about the price of the full platform"
@@ -323,7 +323,7 @@ export const makingPersuasiveRecommendations: Lesson = {
         "options": [
             "It uses formal, professional language appropriate to the industry",
             "It is adapted specifically to the person's situation and references what they told you — not a generic pitch",
-            "It includes a customised pricing structure",
+            "It includes a customized pricing structure",
             "It is delivered in person rather than by email"
         ],
         "correctIndex": 1
@@ -428,7 +428,7 @@ export const makingPersuasiveRecommendations: Lesson = {
             {
                 "customerLine": "Prospect: 'We have been debating whether to build something ourselves or buy a solution.'",
                 "salespersonStart": "If I were in your position,",
-                "suggestedCompletion": "I would not build — not at this stage. You have told me the problem is urgent and your team does not have bandwidth to take on a build project right now. You could have this working in two weeks. A build would take six months and half your team's focus. The maths on that is pretty clear."
+                "suggestedCompletion": "I would not build — not at this stage. You have told me the problem is urgent and your team does not have bandwidth to take on a build project right now. You could have this working in two weeks. A build would take six months and half your team's focus. The math on that is pretty clear."
             },
             {
                 "customerLine": "Prospect seems to be leaning toward a cheaper, limited option that will not fully solve their problem.",

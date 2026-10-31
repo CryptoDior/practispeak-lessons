@@ -125,7 +125,7 @@ export const marketingLeadershipCommunication: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "I want them to understand that we need to shift from product marketing to brand building. But I'm not sure how to say it without sounding like I'm criticising what we've done before.",
+      text: "I want them to understand that we need to shift from product marketing to brand building. But I'm not sure how to say it without sounding like I'm criticizing what we've done before.",
     },
     {
       speaker: 'Riley',
@@ -240,7 +240,7 @@ export const marketingLeadershipCommunication: Lesson = {
     },
     {
       question: "How does Riley say Marcus should close his presentation?",
-      options: ["Ask 'any questions?' and open the floor", "State a clear recommendation, then stop and let the silence sit", "Summarise every slide and thank the room for listening"],
+      options: ["Ask 'any questions?' and open the floor", "State a clear recommendation, then stop and let the silence sit", "Summarize every slide and thank the room for listening"],
       correctIndex: 1
     },
     {

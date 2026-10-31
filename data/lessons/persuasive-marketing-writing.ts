@@ -102,7 +102,7 @@ export const persuasiveMarketingWriting: Lesson = {
       example: 'People leave fast, so the CTA needs to be above the fold.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/persuasive-marketing-writing-the-cta-needs-to-be-above-the-fold.png',
       inAction: "If visitors have to scroll to find the CTA, most of them won't — the CTA needs to be above the fold on every landing page version.",
-      register: "Neutral / Technical — standard in conversion rate optimisation (CRO) discussions. 'Above the fold' is a well-established web design and copywriting term that any digital marketer should know.",
+      register: "Neutral / Technical — standard in conversion rate optimization (CRO) discussions. 'Above the fold' is a well-established web design and copywriting term that any digital marketer should know.",
       inContext: "Riley was reviewing the new landing page design when she flagged the problem. The CTA needs to be above the fold, she said. Right now the button is below a 400-word product description. Most visitors decide whether to stay or leave in the first three seconds — by the time they'd reach that button, they're already gone.",
       visualExamples: [
         { brand: 'Apex Academy', context: 'Online course — landing page', imageSlug: '/images/visual-examples/pmw-p3-apex.png', caption: 'The CTA needs to be above the fold — Join 3,400 marketers — enrol today sits at the top of the page with zero scrolling required. On mobile, that is the difference between a click and a bounce.', aspectRatio: '16/9' },
@@ -148,7 +148,7 @@ export const persuasiveMarketingWriting: Lesson = {
       inContext: "Riley was running a copywriting workshop when she gave the advice that changed how the team wrote. Write to one person, not to everyone, she said. Before you write a single word, picture the specific person reading it — their job title, their biggest headache, what they're afraid of. Then write as if you're talking only to them. The more specific you are, the more people will feel understood.",
       visualExamples: [
         { brand: 'Scope', context: 'B2B analytics platform — email sequence', imageSlug: '/images/visual-examples/pmw-p6-scope.png', caption: 'Write to one person, not to everyone — You are probably sitting on data you are not using. Let me show you why. reads like a message to a colleague, not a broadcast. Open rate is 41%.', aspectRatio: '3/1' },
-        { brand: 'Serum No4', context: 'Prestige skincare — Instagram retargeting ad', imageSlug: '/images/visual-examples/pmw-p6-serum.png', caption: 'Write to one person, not to everyone — You have been looking at this for a while. Here is what real customers say. Personalised retargeting copy outperforms generic CTAs by 60%.', aspectRatio: '1/1' },
+        { brand: 'Serum No4', context: 'Prestige skincare — Instagram retargeting ad', imageSlug: '/images/visual-examples/pmw-p6-serum.png', caption: 'Write to one person, not to everyone — You have been looking at this for a while. Here is what real customers say. Personalized retargeting copy outperforms generic CTAs by 60%.', aspectRatio: '1/1' },
         { brand: 'Meridian Studio', context: 'Brand photography service — email outreach', imageSlug: '/images/visual-examples/pmw-p6-meridian.png', caption: 'Write to one person, not to everyone — I looked at your website. Your brand deserves better photos than what you have. That directness gets a reply. Our professional photography service does not.', aspectRatio: '3/1' },
       ],
     }
@@ -239,7 +239,7 @@ export const persuasiveMarketingWriting: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'The action is requesting a personalised audit of their content process. The reward is a specific, actionable report they get in 48 hours.',
+      text: 'The action is requesting a personalized audit of their content process. The reward is a specific, actionable report they get in 48 hours.',
     },
     {
       speaker: 'Riley',
@@ -438,7 +438,7 @@ export const persuasiveMarketingWriting: Lesson = {
             {
                 "customerLine": "We've been told our landing page copy needs to be 'more persuasive'. Where do we start?",
                 "options": [
-                    "Start with the CTA — if the button text is weak, the whole page suffers. Change 'Submit' to something that names the specific value the visitor gets. 'Get your free audit' or 'See your personalised demo'. Then work backwards from there.",
+                    "Start with the CTA — if the button text is weak, the whole page suffers. Change 'Submit' to something that names the specific value the visitor gets. 'Get your free audit' or 'See your personalized demo'. Then work backwards from there.",
                     "Start by adding more testimonials. Social proof is the most persuasive element on any landing page.",
                     "Start by making the page shorter. Less text is always more persuasive."
                 ],
@@ -453,7 +453,7 @@ export const persuasiveMarketingWriting: Lesson = {
                     "It depends on the brand. Some B2B brands use a creative voice successfully. You'd need to test both versions."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B is the best answer — it draws a clear, principled distinction between creative writing and conversion copy without dismissing creativity entirely. It explains what a B2B landing page is trying to do and why those goals require a specific approach. Option A is partially true (B2B buyers are humans) but doesn't address the real tension: creative writing often prioritises voice and style over clarity and directness, which is the wrong trade-off for a conversion page. Option C is too non-committal — while testing is good practice, a professional should be able to give a directional recommendation based on what the copy is trying to achieve."
+                "explanation": "Option B is the best answer — it draws a clear, principled distinction between creative writing and conversion copy without dismissing creativity entirely. It explains what a B2B landing page is trying to do and why those goals require a specific approach. Option A is partially true (B2B buyers are humans) but doesn't address the real tension: creative writing often prioritizes voice and style over clarity and directness, which is the wrong trade-off for a conversion page. Option C is too non-committal — while testing is good practice, a professional should be able to give a directional recommendation based on what the copy is trying to achieve."
             },
             {
                 "customerLine": "Is it really necessary to address objections on the landing page? That seems like a sales team job.",
@@ -463,7 +463,7 @@ export const persuasiveMarketingWriting: Lesson = {
                     "Yes — and here's why. Most visitors to a landing page will never speak to a salesperson. If they have a hesitation and the page doesn't answer it, they leave. Objection handling copy does the work of a sales conversation at scale, 24 hours a day, for every visitor. The three or four most common objections from your sales team — 'how long does implementation take?', 'what's the contract length?' — should be answered directly on the page, right above the CTA."
                 ],
                 "correctIndex": 2,
-                "explanation": "Option C is the right answer — it explains the scale advantage of addressing objections on the page versus relying on sales conversations, names the specific location where objection handling works best (above the CTA), and gives concrete examples of the kinds of objections to address. Option A treats the landing page as an awareness or interest-generation tool, not a conversion tool — which misunderstands the purpose of a conversion landing page. Option B is a non-answer that deflects with a generalisation unrelated to the question asked."
+                "explanation": "Option C is the right answer — it explains the scale advantage of addressing objections on the page versus relying on sales conversations, names the specific location where objection handling works best (above the CTA), and gives concrete examples of the kinds of objections to address. Option A treats the landing page as an awareness or interest-generation tool, not a conversion tool — which misunderstands the purpose of a conversion landing page. Option B is a non-answer that deflects with a generalization unrelated to the question asked."
             }
         ]
     },
@@ -492,7 +492,7 @@ export const persuasiveMarketingWriting: Lesson = {
             },
             {
                 "speaker": "Riley",
-                "text": "Before we finalise, let's check that the CTA is visible above the fold on both desktop and mobile."
+                "text": "Before we finalize, let's check that the CTA is visible above the fold on both desktop and mobile."
             }
         ],
         "mistakes": [

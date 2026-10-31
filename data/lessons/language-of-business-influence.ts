@@ -284,7 +284,7 @@ export const languageOfBusinessInfluence: Lesson = {
         "explanation": "'Subtext' is exactly right — it means the meaning hidden under the surface of what is said. 'Summary' is a short version of the main content. 'Headline' is the most important point stated directly. Only 'subtext' describes a message that is hidden, not stated."
       },
       {
-        "sentence": "The press release was full of _____. It called 500 job losses a 'team optimisation'.",
+        "sentence": "The press release was full of _____. It called 500 job losses a 'team optimization'.",
         "options": ["spin", "framing", "subtext"],
         "correctIndex": 0,
         "explanation": "'Spin' is the right word when bad news is presented in a deliberately positive or misleading way. 'Framing' is more neutral — it means how you present something, not necessarily dishonestly. 'Subtext' refers to a hidden meaning, not a public statement. When a company turns bad news into good-sounding language, that is spin."
@@ -367,7 +367,7 @@ export const languageOfBusinessInfluence: Lesson = {
           "lineIndex": 3,
           "incorrectText": "reframed them as",
           "correction": "framed them as",
-          "explanation": "Actually this is correct — 'reframed' is acceptable here. The real error is 'on its clearest form'. 'Reframe' means to present something in a new way, which fits exactly — she took a negative event and gave it a new name. Both 'framed' and 'reframed' work; 'reframed' emphasises the shift from one version to another."
+          "explanation": "Actually this is correct — 'reframed' is acceptable here. The real error is 'on its clearest form'. 'Reframe' means to present something in a new way, which fits exactly — she took a negative event and gave it a new name. Both 'framed' and 'reframed' work; 'reframed' emphasizes the shift from one version to another."
         }
       ]
     },

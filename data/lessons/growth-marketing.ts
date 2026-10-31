@@ -218,7 +218,7 @@ export const growthMarketing: Lesson = {
   multipleChoiceExercise: [
     {
       question: "What does Riley say is the first thing to do before talking about new acquisition channels?",
-      options: ["Increase the paid media budget", "Find out where the funnel is leaking using AARRR metrics", "Launch a referral programme"],
+      options: ["Increase the paid media budget", "Find out where the funnel is leaking using AARRR metrics", "Launch a referral program"],
       correctIndex: 1
     },
     {

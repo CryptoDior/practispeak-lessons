@@ -132,7 +132,7 @@ export const robloxTheBestGameEver: Lesson = {
       definition: "Talk about the best thing you have ever done — nothing else is better!",
       example: "That is the best game I have ever played — I think about it every day!",
       inGame: "That tournament was the best time I have ever had in a game!",
-      inRealLife: "That was the best meal I have ever eaten — incredible flavours!",
+      inRealLife: "That was the best meal I have ever eaten — incredible flavors!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-the-best-game-ever-phrases-the-best-i-have-ever.png',
     },
     {
@@ -161,7 +161,7 @@ export const robloxTheBestGameEver: Lesson = {
     },
     {
       phrase: "TOP THREE",
-      definition: "The three best things — a way of ranking your favourite experiences.",
+      definition: "The three best things — a way of ranking your favorite experiences.",
       example: "My top three Roblox games are the pirate world, the racing game, and this obby!",
       inGame: "What is in your top three? Best game, best character, best moment?",
       inRealLife: "My top three subjects at school are English, science, and art.",

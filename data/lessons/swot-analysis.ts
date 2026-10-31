@@ -75,9 +75,9 @@ export const swotAnalysis: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/swot-analysis-build-on-a-strength.png',
     },
     {
-      phrase: 'CAPITALISE ON [AN OPPORTUNITY]',
+      phrase: 'CAPITALIZE ON [AN OPPORTUNITY]',
       definition: 'To use a chance quickly and get a benefit from it.',
-      example: 'We need to capitalise on this opportunity before our rivals do.',
+      example: 'We need to capitalize on this opportunity before our rivals do.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/swot-analysis-capitalise-on-an-opportunity.png',
     },
     {
@@ -113,7 +113,7 @@ export const swotAnalysis: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Thank you for making the time. I want to walk you through the SWOT analysis before we finalise the Q4 strategy — because the findings change the direction significantly.',
+      text: 'Thank you for making the time. I want to walk you through the SWOT analysis before we finalize the Q4 strategy — because the findings change the direction significantly.',
     },
     {
       speaker: 'Marcus',
@@ -149,7 +149,7 @@ export const swotAnalysis: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'A significant one. Your main competitor raised prices by 30% last month. We have already spoken to three of their clients who are actively looking for alternatives. That is a narrow window — we need to [[capitalise on:act quickly on a market opportunity]] it this quarter before they respond.',
+      text: 'A significant one. Your main competitor raised prices by 30% last month. We have already spoken to three of their clients who are actively looking for alternatives. That is a narrow window — we need to [[capitalize on:act quickly on a market opportunity]] it this quarter before they respond.',
     },
     {
       speaker: 'Marcus',
@@ -173,7 +173,7 @@ export const swotAnalysis: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "The retention rate and the ROI numbers are your shield. Every piece of content [[builds on:uses an existing advantage as the foundation]] those two facts. To [[mitigate:reduce the impact of a risk or weakness]] the brand awareness weakness, we run a focused three-month LinkedIn campaign. And to [[capitalise on:act quickly on an opportunity]] the competitor's price increase, we launch a direct comparison campaign — 'What does 30% more cost actually get you?' — in October.",
+      text: "The retention rate and the ROI numbers are your shield. Every piece of content [[builds on:uses an existing advantage as the foundation]] those two facts. To [[mitigate:reduce the impact of a risk or weakness]] the brand awareness weakness, we run a focused three-month LinkedIn campaign. And to [[capitalize on:act quickly on an opportunity]] the competitor's price increase, we launch a direct comparison campaign — 'What does 30% more cost actually get you?' — in October.",
     },
     {
       speaker: 'Marcus',
@@ -290,14 +290,14 @@ export const swotAnalysis: Lesson = {
         "question": "What is the most effective way to use SWOT findings in a client presentation?",
         "options": [
             "Read through all four quadrants in order, giving equal time to each section.",
-            "Identify the two or three most strategically important findings, explain what they mean for the plan, and show how they connect — for example, which strength can be used to capitalise on which opportunity.",
+            "Identify the two or three most strategically important findings, explain what they mean for the plan, and show how they connect — for example, which strength can be used to capitalize on which opportunity.",
             "Present the strengths and opportunities first, then the weaknesses and threats — end on a positive note.",
             "Let the client fill in the SWOT themselves before the meeting so they feel ownership of the findings."
         ],
         "correctIndex": 1
     },
     {
-        "question": "What does it mean to 'capitalise on an opportunity' in a marketing strategy?",
+        "question": "What does it mean to 'capitalize on an opportunity' in a marketing strategy?",
         "options": [
             "To invest financially in an area with high growth potential.",
             "To act quickly and decisively on a market condition that works in your favour — before the window closes or a competitor moves first.",
@@ -329,7 +329,7 @@ export const swotAnalysis: Lesson = {
     {
         "question": "What is the difference between a strength and an opportunity in a SWOT?",
         "options": [
-            "Strengths are more important than opportunities — they should always be prioritised.",
+            "Strengths are more important than opportunities — they should always be prioritized.",
             "A strength is internal — something your brand controls, like a result, a capability, or an asset. An opportunity is external — something happening in the market, like a competitor's mistake or a growing trend. Confusing them leads to a strategy that misses what it can actually control.",
             "Strengths relate to the product. Opportunities relate to the brand and marketing.",
             "Strengths are permanent. Opportunities are temporary and time-limited."
@@ -420,13 +420,13 @@ export const swotAnalysis: Lesson = {
             },
             {
                 "key": "capitalise",
-                "label": "Capitalise on the opportunity with a targeted campaign",
+                "label": "Capitalize on the opportunity with a targeted campaign",
                 "description": "Launch a direct campaign this month aimed at the competitor's client base — using LinkedIn targeting by company and a message that addresses the price increase without naming the competitor directly: 'What does paying 30% more actually get you?' Include a case study and a clear, risk-free offer to make switching easy."
             },
             {
                 "key": "address",
                 "label": "Address the weakness before the next enterprise pitch",
-                "description": "Prioritise three client interview calls this month to produce two new case studies from different sectors. In the meantime, use client quotes, data from existing results, and a referral from a current client as interim social proof for the next pitch. Do not wait until the case studies are published — the sales team needs something now."
+                "description": "Prioritize three client interview calls this month to produce two new case studies from different sectors. In the meantime, use client quotes, data from existing results, and a referral from a current client as interim social proof for the next pitch. Do not wait until the case studies are published — the sales team needs something now."
             }
         ]
     },
@@ -440,7 +440,7 @@ export const swotAnalysis: Lesson = {
             },
             {
                 "customerLine": "Client: 'Our competitor just announced a big price increase. How do we respond?'",
-                "salespersonStart": "This is an opportunity — and we have about three months to capitalise on it before they respond.",
+                "salespersonStart": "This is an opportunity — and we have about three months to capitalize on it before they respond.",
                 "suggestedCompletion": "Here is what I recommend. This week, we identify all the prospects in our CRM who were previously interested but did not convert — they are the most likely to be reconsidering now. We also build a LinkedIn campaign targeting companies in the competitor's client profile with a simple message: 'Paying more for the same results? Let us show you what changes.' We do not name them directly — we do not need to. The market knows what happened. Our job is to be visible, credible, and easy to switch to before they recover. That means a case study, a risk-free pilot offer, and a direct conversation. Can we get that live within two weeks?"
             },
             {
@@ -451,7 +451,7 @@ export const swotAnalysis: Lesson = {
             {
                 "customerLine": "Team member: 'How do we make sure the SWOT actually changes what we do, rather than just being a document we file away?'",
                 "salespersonStart": "Assign an action and an owner to every major finding before you leave the room.",
-                "suggestedCompletion": "A SWOT only works if it produces decisions, not observations. Here is the structure I use: for each strength, ask 'how are we actively leveraging this in the next 30 days?' For each opportunity, ask 'who is responsible for capitalising on this, and what is the deadline?' For each weakness, ask 'what is the one thing we can do this quarter to address it?' And for each threat, ask 'what is our guard against this — and when does it kick in?' If you cannot answer those questions for each quadrant, the SWOT is not finished. The analysis is the easy part. The decisions are the work."
+                "suggestedCompletion": "A SWOT only works if it produces decisions, not observations. Here is the structure I use: for each strength, ask 'how are we actively leveraging this in the next 30 days?' For each opportunity, ask 'who is responsible for capitalizing on this, and what is the deadline?' For each weakness, ask 'what is the one thing we can do this quarter to address it?' And for each threat, ask 'what is our guard against this — and when does it kick in?' If you cannot answer those questions for each quadrant, the SWOT is not finished. The analysis is the easy part. The decisions are the work."
             }
         ]
     }

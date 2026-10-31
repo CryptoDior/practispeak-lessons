@@ -11,12 +11,12 @@ export const foodDescribingTaste: Lesson = {
   subtitle: 'Food & Drink · B1-B2',
   level: 'B1-B2',
   description:
-    'Go beyond "delicious". Learn precise words to describe flavour — savoury, zesty, rich, mild, subtle, pungent — and talk about food like a real foodie.',
+    'Go beyond "delicious". Learn precise words to describe flavor — savory, zesty, rich, mild, subtle, pungent — and talk about food like a real foodie.',
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe the basic tastes: sweet, sour, bitter, salty, spicy.',
-    'Use more advanced flavour words: savoury, zesty, rich, mild, subtle.',
+    'Use more advanced flavor words: savory, zesty, rich, mild, subtle.',
     'Give opinions about food with natural phrases.',
   ],
 
@@ -29,7 +29,7 @@ export const foodDescribingTaste: Lesson = {
         heading: 'Starters and light dishes',
         items: [
           { name: 'Lemon tart', note: 'zesty and tart', price: '$6' },
-          { name: 'Mushroom soup', note: 'savoury and rich', price: '$7' },
+          { name: 'Mushroom soup', note: 'savory and rich', price: '$7' },
           { name: 'Blue cheese salad', note: 'pungent cheese and bitter leaves', price: '$9' },
         ],
       },
@@ -43,19 +43,19 @@ export const foodDescribingTaste: Lesson = {
     ],
     questions: [
       { question: 'Which dish is zesty?', options: ['Lemon tart', 'Mushroom soup', 'Pepper steak'], correctIndex: 0 },
-      { question: 'You do not like strong flavours. Which dish is best?', options: ['Pepper steak', 'Mild chicken curry', 'Blue cheese salad'], correctIndex: 1 },
+      { question: 'You do not like strong flavors. Which dish is best?', options: ['Pepper steak', 'Mild chicken curry', 'Blue cheese salad'], correctIndex: 1 },
       { question: 'Which dish is peppery?', options: ['Pepper steak', 'Lemon tart', 'Mushroom soup'], correctIndex: 0 },
-      { question: 'Which dish is rich and savoury?', options: ['Mushroom soup', 'Lemon tart', 'Mild chicken curry'], correctIndex: 0 },
+      { question: 'Which dish is rich and savory?', options: ['Mushroom soup', 'Lemon tart', 'Mild chicken curry'], correctIndex: 0 },
       { question: 'Which dish has a pungent smell?', options: ['Blue cheese salad', 'Lemon tart', 'Mild chicken curry'], correctIndex: 0 },
     ],
   },
 
   vocabulary: [
-    { word: 'SAVOURY', partOfSpeech: 'adjective', definition: 'Tasty and salty or full of flavour, not sweet — like meat, stews or cheese.', example: 'I prefer savoury pancakes to sweet ones.', imageSlug: img('savoury-pancake-preference') },
+    { word: 'SAVORY', partOfSpeech: 'adjective', definition: 'Tasty and salty or full of flavor, not sweet — like meat, stews or cheese.', example: 'I prefer savory pancakes to sweet ones.', imageSlug: img('savoury-pancake-preference') },
     { word: 'ZESTY', partOfSpeech: 'adjective', definition: 'Lively and fresh, often with citrus or spice.', example: 'I love the zesty kick of lime in this dish.', imageSlug: img('lime-zest-flavour') },
-    { word: 'RICH', partOfSpeech: 'adjective', definition: 'Full and heavy, often with a lot of fat or flavour.', example: 'This Alfredo pasta is so rich and creamy.', imageSlug: img('rich-creamy-alfredo') },
+    { word: 'RICH', partOfSpeech: 'adjective', definition: 'Full and heavy, often with a lot of fat or flavor.', example: 'This Alfredo pasta is so rich and creamy.', imageSlug: img('rich-creamy-alfredo') },
     { word: 'MILD', partOfSpeech: 'adjective', definition: 'Gentle, not strong or spicy.', example: 'The salsa is mild, so kids can enjoy it.', imageSlug: img('mild-salsa-family') },
-    { word: 'ROBUST', partOfSpeech: 'adjective', definition: 'Strong and full-bodied.', example: 'The red wine gives the sauce a robust flavour.', imageSlug: img('red-wine-robust-sauce') },
+    { word: 'ROBUST', partOfSpeech: 'adjective', definition: 'Strong and full-bodied.', example: 'The red wine gives the sauce a robust flavor.', imageSlug: img('red-wine-robust-sauce') },
     { word: 'SUBTLE', partOfSpeech: 'adjective', definition: 'Delicate and light; not strong.', example: 'The tea has a subtle hint of mint.', imageSlug: img('delicate-mint-in-tea') },
     { word: 'TART', partOfSpeech: 'adjective', definition: 'Sharp and slightly sour, like some berries.', example: 'The lemonade is tart and refreshing.', imageSlug: img('tart-refreshing-lemonade') },
     { word: 'PUNGENT', partOfSpeech: 'adjective', definition: 'With a very strong, sharp smell or taste.', example: 'Blue cheese has a pungent aroma.', imageSlug: img('pungent-blue-cheese') },
@@ -64,11 +64,11 @@ export const foodDescribingTaste: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'It has a … flavour / taste.', tag: 'phrase', definition: 'Describe the main flavour.', example: '"It has a really rich, smoky flavour."', imageSlug: img('rich-smoky-food-flavour') },
+    { phrase: 'It has a … flavor / taste.', tag: 'phrase', definition: 'Describe the main flavor.', example: '"It has a really rich, smoky flavor."', imageSlug: img('rich-smoky-food-flavour') },
     { phrase: 'It tastes a bit too…', tag: 'phrase', definition: 'Give a polite negative opinion.', example: '"It tastes a bit too salty for me."', imageSlug: img('too-salty-food-opinion') },
-    { phrase: 'There\'s a hint of…', tag: 'phrase', definition: 'Mention a small, subtle flavour.', example: '"There\'s a hint of garlic in the sauce."', imageSlug: img('subtle-garlic-in-sauce') },
+    { phrase: 'There\'s a hint of…', tag: 'phrase', definition: 'Mention a small, subtle flavor.', example: '"There\'s a hint of garlic in the sauce."', imageSlug: img('subtle-garlic-in-sauce') },
     { phrase: 'It goes really well with…', tag: 'phrase', definition: 'Say two foods are good together.', example: '"The zesty dressing goes really well with the fish."', imageSlug: img('zesty-dressing-with-fish') },
-    { phrase: 'It balances the…', tag: 'phrase', definition: 'One flavour makes another less strong.', example: '"The bitter chocolate balances the sweetness."', inAction: 'Chefs love the word "balance". A sweet + sour or rich + fresh combination usually tastes better than one strong flavour.', imageSlug: img('bitter-chocolate-balances-sweet-dessert') },
+    { phrase: 'It balances the…', tag: 'phrase', definition: 'One flavor makes another less strong.', example: '"The bitter chocolate balances the sweetness."', inAction: 'Chefs love the word "balance". A sweet + sour or rich + fresh combination usually tastes better than one strong flavor.', imageSlug: img('bitter-chocolate-balances-sweet-dessert') },
     { phrase: "It's an acquired taste.", tag: 'idiom', definition: 'Something you only start to like after trying it several times.', example: '"Blue cheese? It\'s an acquired taste."', imageSlug: img('blue-cheese-growing-liking') },
   ],
 
@@ -76,7 +76,7 @@ export const foodDescribingTaste: Lesson = {
 
   dialogue: [
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "So, Tim, what do you think of the curry?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It's delicious! It's quite spicy, but the coconut makes it [[rich:full and heavy in flavour]] and creamy." },
+    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It's delicious! It's quite spicy, but the coconut makes it [[rich:full and heavy in flavor]] and creamy." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I agree. There's a hint of lime too — it's very [[zesty:fresh and lively]]." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "And the bread? I think it's a bit too [[peppery:tasting of black pepper]] for me." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Really? I like it. It goes really well with the [[mild:gentle, not strong]] yoghurt sauce." },
@@ -86,7 +86,7 @@ export const foodDescribingTaste: Lesson = {
   ],
 
   matchingExercise: [
-    { word: 'SAVOURY', definition: 'Salty or full of flavour, not sweet' },
+    { word: 'SAVORY', definition: 'Salty or full of flavor, not sweet' },
     { word: 'ZESTY', definition: 'Fresh and lively, often citrus' },
     { word: 'MILD', definition: 'Gentle, not strong' },
     { word: 'SUBTLE', definition: 'Delicate and light' },
@@ -104,7 +104,7 @@ export const foodDescribingTaste: Lesson = {
   ],
 
   multipleChoiceExercise: [
-    { question: 'What is the opposite of "sweet" in cooking?', options: ['Savoury', 'Tart', 'Mild', 'Subtle'], correctIndex: 0 },
+    { question: 'What is the opposite of "sweet" in cooking?', options: ['Savory', 'Tart', 'Mild', 'Subtle'], correctIndex: 0 },
     { question: 'What does "mild" mean?', options: ['Very spicy', 'Gentle, not strong', 'Very salty', 'Old'], correctIndex: 1 },
     { question: 'Which word describes a strong smell like blue cheese?', options: ['Subtle', 'Mild', 'Pungent', 'Zesty'], correctIndex: 2 },
     { question: '"It\'s an acquired taste" means…', options: ['Everyone loves it', 'You learn to like it over time', 'It is very expensive', 'It is new'], correctIndex: 1 },

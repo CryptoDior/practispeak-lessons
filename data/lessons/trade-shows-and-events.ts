@@ -113,7 +113,7 @@ export const tradeShowsAndEvents: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Dana, the trade show is next week. Let us make sure you are ready. Have you practised your [[pitch:a short persuasive presentation about your company]]?',
+      text: 'Dana, the trade show is next week. Let us make sure you are ready. Have you practiced your [[pitch:a short persuasive presentation about your company]]?',
     },
     {
       speaker: 'Dana',
@@ -173,7 +173,7 @@ export const tradeShowsAndEvents: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Within 24 hours if possible — 48 at the most. A personalised email, not a template. Reference something specific from your conversation — it shows you were listening. That is what separates good [[follow-up:contact after a first meeting]] from the ones that get ignored.',
+      text: 'Within 24 hours if possible — 48 at the most. A personalized email, not a template. Reference something specific from your conversation — it shows you were listening. That is what separates good [[follow-up:contact after a first meeting]] from the ones that get ignored.',
     },
     {
       speaker: 'Dana',
@@ -226,11 +226,11 @@ export const tradeShowsAndEvents: Lesson = {
   fillBlankExercise: [
     {
         "before": "Our",
-        "after": "was positioned near the entrance to maximise the number of delegates who walked past.",
+        "after": "was positioned near the entrance to maximize the number of delegates who walked past.",
         "answer": "booth"
     },
     {
-        "before": "Riley practised her two-minute",
+        "before": "Riley practiced her two-minute",
         "after": "so many times that she could deliver it confidently to any type of visitor.",
         "answer": "pitch"
     },
@@ -292,7 +292,7 @@ export const tradeShowsAndEvents: Lesson = {
             "Wait one or two weeks so you do not seem too eager.",
             "Within 24 to 48 hours — a quick, personal email referencing something specific from your conversation.",
             "Only follow up if they contact you first.",
-            "Send a follow-up email to everyone at once — efficiency is more important than personalisation."
+            "Send a follow-up email to everyone at once — efficiency is more important than personalization."
         ],
         "correctIndex": 1
     },
@@ -302,7 +302,7 @@ export const tradeShowsAndEvents: Lesson = {
             "A detailed brochure with all your services, pricing, and terms and conditions.",
             "A one-page document with a clear headline, your top result or case study, and your contact details — easy to read in 30 seconds.",
             "A business card with your name and phone number.",
-            "A catalogue of all the products you offer."
+            "A catalog of all the products you offer."
         ],
         "correctIndex": 1
     },
@@ -358,14 +358,14 @@ export const tradeShowsAndEvents: Lesson = {
     "instructions": "Choose the correct word to complete each sentence. Then read the sentence aloud.",
     "items": [
         {
-            "sentence": "Riley practised her two-minute _____ so many times she could deliver it confidently to any visitor.",
+            "sentence": "Riley practiced her two-minute _____ so many times she could deliver it confidently to any visitor.",
             "options": [
                 "handout",
                 "pitch",
                 "networking"
             ],
             "correctIndex": 1,
-            "explanation": "Pitch is a short persuasive presentation designed to capture interest quickly. Handout is a printed document. Networking is the activity of meeting professional contacts. A well-practised pitch is your most important tool at a trade show — it must be short, clear, and confident."
+            "explanation": "Pitch is a short persuasive presentation designed to capture interest quickly. Handout is a printed document. Networking is the activity of meeting professional contacts. A well-practiced pitch is your most important tool at a trade show — it must be short, clear, and confident."
         },
         {
             "sentence": "Over 400 _____ s attended the conference — we spoke to around 60 of them at our booth over two days.",
@@ -451,7 +451,7 @@ export const tradeShowsAndEvents: Lesson = {
                     "Say: 'I will send it to your colleague instead — can you give me their email?'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It acknowledges the problem, commits to a specific and personalised approach, and gives an alternative channel. A is too passive. C goes around the prospect instead of solving the problem."
+                "explanation": "B is correct. It acknowledges the problem, commits to a specific and personalized approach, and gives an alternative channel. A is too passive. C goes around the prospect instead of solving the problem."
             }
         ]
     },
@@ -519,7 +519,7 @@ export const tradeShowsAndEvents: Lesson = {
             {
                 "customerLine": "Manager after the event: 'We spoke to about 80 people but only five of them were real prospects. Was the event worth it?'",
                 "salespersonStart": "Five strong prospects from one event is actually a good result.",
-                "suggestedCompletion": "In B2B, the average conversion rate from event prospect to client is around ten to twenty percent. If five of those leads become clients, that could represent significant revenue — especially at our contract values. The key now is the follow-up. If we contact each prospect within 48 hours with a personalised message, we dramatically increase our chances. Have you sent the follow-up emails yet? Let us do them together today while the conversations are still fresh."
+                "suggestedCompletion": "In B2B, the average conversion rate from event prospect to client is around ten to twenty percent. If five of those leads become clients, that could represent significant revenue — especially at our contract values. The key now is the follow-up. If we contact each prospect within 48 hours with a personalized message, we dramatically increase our chances. Have you sent the follow-up emails yet? Let us do them together today while the conversations are still fresh."
             },
             {
                 "customerLine": "Prospect at the event: 'We already work with a marketing agency. We are happy with them.'",

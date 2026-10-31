@@ -50,7 +50,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
       word: 'ADDICTIVE',
       partOfSpeech: 'adjective',
       definition: "So enjoyable that you find it very hard to stop — you always want to keep going.",
-      example: "This tower defence game is dangerously addictive — I had to set a timer to make myself stop.",
+      example: "This tower defense game is dangerously addictive — I had to set a timer to make myself stop.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjectives-of-experience-in-game-addictive.png',
     },
     {

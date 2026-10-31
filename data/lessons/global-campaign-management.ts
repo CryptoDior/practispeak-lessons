@@ -38,10 +38,10 @@ export const globalCampaignManagement: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-campaign-management-advert-review-before-publication.png',
     },
     {
-      word: 'Localisation',
+      word: 'Localization',
       partOfSpeech: 'noun',
       definition: 'Changing a product or message for a local market.',
-      example: 'Localisation means local prices, language and photos.',
+      example: 'Localization means local prices, language and photos.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-campaign-management-local-language-price-photography.png',
     },
     {
@@ -55,13 +55,13 @@ export const globalCampaignManagement: Lesson = {
       word: 'Global brief',
       partOfSpeech: 'noun',
       definition: 'A document with the main plan for all countries.',
-      example: 'The global brief sets the colours and the main message.',
+      example: 'The global brief sets the colors and the main message.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-campaign-management-master-colours-core-message.png',
     },
     {
       word: 'Heatmap',
       partOfSpeech: 'noun',
-      definition: 'A coloured chart that shows where results are strong or weak.',
+      definition: 'A colored chart that shows where results are strong or weak.',
       example: 'The heatmap shows that Spain is our weakest market.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-campaign-management-spain-weakest-colour-matrix.png',
     }
@@ -83,7 +83,7 @@ export const globalCampaignManagement: Lesson = {
     {
       phrase: "What is the global brief saying on this?",
       definition: 'A question to check the main plan.',
-      example: 'We disagree on colours. What is the global brief saying on this?',
+      example: 'We disagree on colors. What is the global brief saying on this?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-campaign-management-consult-master-brief-colour-disagreement.png',
     },
     {
@@ -185,13 +185,13 @@ export const globalCampaignManagement: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And [[localisation:adapting a campaign for a local market including language, imagery, currency, and cultural references]] — how far does that go? Are we talking language only or everything?",
+      text: "And [[localization:adapting a campaign for a local market including language, imagery, currency, and cultural references]] — how far does that go? Are we talking language only or everything?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Everything that needs to change for it to feel native. Language, pricing currency, seasonal timing, imagery. The English campaign with Arabic subtitles is not localisation — it is a shortcut that customers see through immediately.",
+      text: "Everything that needs to change for it to feel native. Language, pricing currency, seasonal timing, imagery. The English campaign with Arabic subtitles is not localization — it is a shortcut that customers see through immediately.",
     }
   ],
 
@@ -228,7 +228,7 @@ export const globalCampaignManagement: Lesson = {
     },
     {
       question: "What does Riley say is non-negotiable in the global brief?",
-      options: ["The tagline and the hero image", "Brand identity elements like the logo, colour palette, and tone of voice", "The offer structure and pricing strategy"],
+      options: ["The tagline and the hero image", "Brand identity elements like the logo, color palette, and tone of voice", "The offer structure and pricing strategy"],
       correctIndex: 1
     },
     {
@@ -251,7 +251,7 @@ export const globalCampaignManagement: Lesson = {
     items: [
       {
         sentence: "The tagline does not work in Japanese — we need to transcreate it, not just _____.",
-        options: ["adapt it", "translate it", "localise it"],
+        options: ["adapt it", "translate it", "localize it"],
         correctIndex: 1,
         explanation: "'Translate it' is the correct contrast here — the phrase 'transcreate, not just translate' is the standard way to express this principle. 'Adapt' is close but is used more for regional adaptation (changing format, imagery, offer) than for the linguistic and creative process of transcreation. The specific contrast with 'translate' makes the meaning clearest."
       },
@@ -262,7 +262,7 @@ export const globalCampaignManagement: Lesson = {
         explanation: "'Compliance' is the standard professional term for the process of ensuring marketing content follows the laws and regulations of a specific market. 'Legal approval' and 'regulation review' describe aspects of compliance but are not the single established term. 'Has this been through compliance?' is the fixed question used in global campaign management."
       },
       {
-        sentence: "The logo, colour palette, and tone of voice are non-negotiable — that is our brand _____.",
+        sentence: "The logo, color palette, and tone of voice are non-negotiable — that is our brand _____.",
         options: ["identity", "consistency", "guidelines"],
         correctIndex: 1,
         explanation: "'Brand consistency' is the specific term for the principle of presenting the same core identity across all markets. 'Brand identity' refers to the elements themselves (logo, palette, tone). 'Brand guidelines' is the document that defines those elements. 'Consistency' is the right word here because the sentence is about maintaining the same elements — not defining them."
@@ -271,13 +271,13 @@ export const globalCampaignManagement: Lesson = {
         sentence: "Real _____ means changing the language, imagery, currency, and cultural timing — not just adding subtitles.",
         options: ["translation", "localisation", "adaptation"],
         correctIndex: 1,
-        explanation: "'Localisation' is the comprehensive term for adapting everything — language, imagery, pricing, cultural timing — for a specific market. 'Translation' only covers language. 'Adaptation' is used for regional campaign adjustments but is less specific and less comprehensive than localisation. When the sentence lists all these elements together, 'localisation' is the right word."
+        explanation: "'Localization' is the comprehensive term for adapting everything — language, imagery, pricing, cultural timing — for a specific market. 'Translation' only covers language. 'Adaptation' is used for regional campaign adjustments but is less specific and less comprehensive than localization. When the sentence lists all these elements together, 'localization' is the right word."
       },
       {
         sentence: "The heatmap shows us at a glance where performance is _____ and where we need to investigate.",
         options: ["strong", "green", "high"],
         correctIndex: 1,
-        explanation: "'Green' is the correct answer because a heatmap uses colour to signal performance — green means strong, red means weak. Saying 'green' in this context is idiomatic and specific to heatmap language. 'Strong' and 'high' are accurate descriptions but miss the heatmap metaphor that the sentence is using."
+        explanation: "'Green' is the correct answer because a heatmap uses color to signal performance — green means strong, red means weak. Saying 'green' in this context is idiomatic and specific to heatmap language. 'Strong' and 'high' are accurate descriptions but miss the heatmap metaphor that the sentence is using."
       },
       {
         sentence: "The global brief is the foundation — regional teams adapt _____ it, not away from it.",
@@ -305,7 +305,7 @@ export const globalCampaignManagement: Lesson = {
         {
           customerLine: "The regional team in Japan wants to completely change the creative concept. Can they?",
           options: [
-            "What is the global brief saying on this? The concept may be adaptable — but if it touches brand identity elements like logo, colour, or tone of voice, those are fixed. Let's look at what specifically they want to change.",
+            "What is the global brief saying on this? The concept may be adaptable — but if it touches brand identity elements like logo, color, or tone of voice, those are fixed. Let's look at what specifically they want to change.",
             "Yes — local teams know their market best and we should trust their instinct.",
             "No — if we allow one market to change the concept, every other market will want to do the same."
           ],
@@ -326,8 +326,8 @@ export const globalCampaignManagement: Lesson = {
     spotTheMistake: {
       instructions: "Read the conversation. Three lines have a mistake. Can you find them?",
       dialogue: [
-        { speaker: "Marcus", text: "We're going to localise the campaign for the UAE — we'll add Arabic subtitles to the English video and translate the landing page." },
-        { speaker: "Riley", text: "That is not real localisation — it should include cultural timing like Ramadan, local imagery, and pricing in dirhams, not just language." },
+        { speaker: "Marcus", text: "We're going to localize the campaign for the UAE — we'll add Arabic subtitles to the English video and translate the landing page." },
+        { speaker: "Riley", text: "That is not real localization — it should include cultural timing like Ramadan, local imagery, and pricing in dirhams, not just language." },
         { speaker: "Marcus", text: "Understood. And for the legal claims, I'll get global compliance sign-off and that should cover us in all markets." },
         { speaker: "Riley", text: "No — compliance is market-by-market. Global sign-off does not cover each territory. You need local legal review for each market." },
         { speaker: "Marcus", text: "Got it. And for the tagline — we'll adapt it from English, not translate it, to make sure it has the same meaning across markets." },
@@ -337,8 +337,8 @@ export const globalCampaignManagement: Lesson = {
         {
           lineIndex: 0,
           incorrectText: "add Arabic subtitles to the English video and translate the landing page",
-          correction: "fully localise — cultural timing, local imagery, dirhams pricing, and native language creative",
-          explanation: "Localisation is comprehensive — it covers language, imagery, cultural references, pricing in local currency, and timing around cultural events like Ramadan. Adding subtitles and translating text is translation, not localisation. Real localisation makes the campaign feel native to the market, not just readable."
+          correction: "fully localize — cultural timing, local imagery, dirhams pricing, and native language creative",
+          explanation: "Localization is comprehensive — it covers language, imagery, cultural references, pricing in local currency, and timing around cultural events like Ramadan. Adding subtitles and translating text is translation, not localization. Real localization makes the campaign feel native to the market, not just readable."
         },
         {
           lineIndex: 2,
@@ -350,7 +350,7 @@ export const globalCampaignManagement: Lesson = {
           lineIndex: 4,
           incorrectText: "make sure it has the same meaning",
           correction: "make sure it has the same emotional impact",
-          explanation: "Transcreation is not about preserving meaning — it is about recreating emotional impact. A literal translation can preserve meaning while completely losing the feeling, humour, or cultural resonance that makes a tagline work. Transcreation finds the equivalent emotional effect in the new language and culture, even if the words are entirely different."
+          explanation: "Transcreation is not about preserving meaning — it is about recreating emotional impact. A literal translation can preserve meaning while completely losing the feeling, humor, or cultural resonance that makes a tagline work. Transcreation finds the equivalent emotional effect in the new language and culture, even if the words are entirely different."
         }
       ]
     },
@@ -359,13 +359,13 @@ export const globalCampaignManagement: Lesson = {
       items: [
         {
           customerLine: "Can we use the same creative across all markets to save time and budget?",
-          salespersonStart: "We can use the same global brief and brand elements — logo, colour, core message. But we need to build in regional flexibility from the start so that local teams can adapt...",
+          salespersonStart: "We can use the same global brief and brand elements — logo, color, core message. But we need to build in regional flexibility from the start so that local teams can adapt...",
           suggestedCompletion: "the hero image, the tagline, and the offer structure for their market. If we design for flexibility now, the regional adaptation takes days, not months. And we protect brand consistency without forcing something culturally flat on twelve different audiences."
         },
         {
           customerLine: "The Japan team says the campaign feels too aggressive for their market.",
           salespersonStart: "That is valuable cultural intelligence — and we should take it seriously. What does the local team say specifically needs to change? The question is whether we are talking about...",
-          suggestedCompletion: "the tone of the copy, the imagery, or the overall concept. Some of those we can adapt. Brand identity elements — logo, colour, core message — those are fixed. But if the execution feels wrong culturally, we transcreate. Same brief, different creative."
+          suggestedCompletion: "the tone of the copy, the imagery, or the overall concept. Some of those we can adapt. Brand identity elements — logo, color, core message — those are fixed. But if the execution feels wrong culturally, we transcreate. Same brief, different creative."
         },
         {
           customerLine: "Performance is red across three markets in the heatmap. What do we do?",

@@ -161,7 +161,7 @@ export const writingMarketingReports: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "That is a useful insight. What does your [[conclusion:the section where you summarise what the findings mean]] say about that?",
+      text: "That is a useful insight. What does your [[conclusion:the section where you summarize what the findings mean]] say about that?",
     },
     {
       speaker: 'Riley',
@@ -214,7 +214,7 @@ export const writingMarketingReports: Lesson = {
     { word: 'metric', definition: 'a number you use to measure performance' },
     { word: 'benchmark', definition: 'the standard you compare your results against' },
     { word: 'trend', definition: 'a pattern in data showing how something changes over time' },
-    { word: 'conclusion', definition: 'the section where you summarise what your findings mean' },
+    { word: 'conclusion', definition: 'the section where you summarize what your findings mean' },
     { word: 'performance', definition: 'how well something did compared to the target or benchmark' },
   ],
 
@@ -353,7 +353,7 @@ export const writingMarketingReports: Lesson = {
           lineIndex: 1,
           incorrectText: 'This report is covering',
           correction: 'This report covers',
-          explanation: "Report openings use the simple present tense: 'This report covers', 'This report examines', 'This report analyses'. The present continuous ('is covering') suggests the report is currently in the process of covering something — which does not make sense for a written document. In formal writing, the simple present describes what the document does or contains: 'This chapter explains', 'This section outlines', 'This report covers'.",
+          explanation: "Report openings use the simple present tense: 'This report covers', 'This report examines', 'This report analyzes'. The present continuous ('is covering') suggests the report is currently in the process of covering something — which does not make sense for a written document. In formal writing, the simple present describes what the document does or contains: 'This chapter explains', 'This section outlines', 'This report covers'.",
         },
         {
           lineIndex: 3,

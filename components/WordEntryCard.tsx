@@ -4,6 +4,7 @@ import ImageLightbox from '@/components/ImageLightbox';
 import { r2Audio, exclusiveAudio } from '@/lib/audio';
 import { resolveImageUrl, svgVariant } from '@/lib/images';
 import SaveWordButton from '@/components/dictionary/SaveWordButton';
+import { ukSlugVariant } from '@/lib/spelling';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -179,10 +180,20 @@ export default function WordEntryCard({
   source,
 }: WordEntryProps) {
   // Try R2 first (lesson-specific, then shared names), then the old local /audio files.
-  const r2Bases = [...(lessonSlug ? [`${lessonSlug}-${audioSlugOf(title)}`] : []), ...audioSlugs];
+  // Words that now use US spelling may have been recorded under the UK spelling, so try both.
+  const wordSlug = audioSlugOf(title);
+  const ukWordSlug = ukSlugVariant(wordSlug);
+  const slugsWithUk = audioSlugs.flatMap((s) => {
+    const uk = ukSlugVariant(s);
+    return uk ? [s, uk] : [s];
+  });
+  const r2Bases = [
+    ...(lessonSlug ? [`${lessonSlug}-${wordSlug}`, ...(ukWordSlug ? [`${lessonSlug}-${ukWordSlug}`] : [])] : []),
+    ...slugsWithUk,
+  ];
   const srcsFor = (suffix: string) => [
     ...r2Bases.map((s) => r2Audio(`${s}${suffix}.mp3`)),
-    ...audioSlugs.map((s) => `/audio/${s}${suffix}.mp3`),
+    ...slugsWithUk.map((s) => `/audio/${s}${suffix}.mp3`),
   ];
   const wordSrcs = srcsFor('');
   const exampleSrcs = srcsFor('-example');

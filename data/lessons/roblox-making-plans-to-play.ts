@@ -245,7 +245,7 @@ export const robloxMakingPlansToPlay: Lesson = {
   matchingExercise: [
     { word: 'GOING TO', definition: 'A plan you have already decided' },
     { word: 'WILL', definition: 'A quick decision or promise about the future' },
-    { word: 'PLAN', definition: 'An organised idea about what you will do' },
+    { word: 'PLAN', definition: 'An organized idea about what you will do' },
     { word: 'MAYBE', definition: 'Maybe yes, maybe no — you are not sure' },
     { word: 'PROBABLY', definition: 'More likely than not — more than 50% sure' },
     { word: 'DEFINITELY', definition: '100% certain — no doubt at all' },

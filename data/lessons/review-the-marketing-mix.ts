@@ -5,7 +5,7 @@ export const reviewTheMarketingMix: Lesson = {
   title: 'Review: The Marketing Mix',
   subtitle: 'Consolidation — bring together your A2 vocabulary to discuss a complete marketing strategy',
   level: 'A2',
-  description: 'This consolidation lesson brings together all the key vocabulary from your A2 lessons. You will practise talking about product, price, promotion, and place — the marketing mix — using real language from campaigns, meetings, advertising, content, digital, and measurement. This is your chance to show how much you have learned.',
+  description: 'This consolidation lesson brings together all the key vocabulary from your A2 lessons. You will practice talking about product, price, promotion, and place — the marketing mix — using real language from campaigns, meetings, advertising, content, digital, and measurement. This is your chance to show how much you have learned.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-hero.png',
 
   vocabulary: [
@@ -286,7 +286,7 @@ export const reviewTheMarketingMix: Lesson = {
             "They are close to buying and just need a final push.",
             "They are a new contact — they know your brand exists but have not yet engaged seriously or expressed a buying intention.",
             "They have already been a client and are considering renewing.",
-            "They are a high-value prospect who should be prioritised."
+            "They are a high-value prospect who should be prioritized."
         ],
         "correctIndex": 1
     },
@@ -445,7 +445,7 @@ export const reviewTheMarketingMix: Lesson = {
                     "Say: 'Email marketing is dying — everyone switches to LinkedIn and social media now.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It diagnoses the problem (subject line, timing, list quality), proposes a test-and-learn approach, and defends email marketing with evidence (high ROI). A abandons a valuable channel prematurely. C is a sweeping generalisation that is not backed by data."
+                "explanation": "B is correct. It diagnoses the problem (subject line, timing, list quality), proposes a test-and-learn approach, and defends email marketing with evidence (high ROI). A abandons a valuable channel prematurely. C is a sweeping generalization that is not backed by data."
             }
         ]
     },
@@ -499,7 +499,7 @@ export const reviewTheMarketingMix: Lesson = {
         ]
     },
     "finishTheLine": {
-        "instructions": "Use the templates below to present a complete marketing strategy in your own words. Use vocabulary from this lesson and all your A2 lessons. Practise with a partner.",
+        "instructions": "Use the templates below to present a complete marketing strategy in your own words. Use vocabulary from this lesson and all your A2 lessons. Practice with a partner.",
         "items": [
             {
                 "customerLine": "Client: 'Walk me through what a complete marketing strategy looks like for a company like ours.'",

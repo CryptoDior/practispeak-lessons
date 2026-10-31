@@ -86,7 +86,7 @@ export const robloxPlacesToExplore: Lesson = {
       word: 'MAP',
       partOfSpeech: 'noun',
       definition: "A picture that shows where real places are — like a city map or a country map.",
-      example: "I used the map on my phone to find the way to the new shopping centre.",
+      example: "I used the map on my phone to find the way to the new shopping center.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-irl-phone-map.png',
     },
     {
@@ -138,7 +138,7 @@ export const robloxPlacesToExplore: Lesson = {
     {
       phrase: "WHERE ARE WE?",
       definition: "A question you ask when you are not sure of your location.",
-      example: "Where are we? I do not recognise this part of the map at all.",
+      example: "Where are we? I do not recognize this part of the map at all.",
       inGame: "Where are we? I followed the portal and now I have no idea!",
       inRealLife: "Where are we? I think we walked the wrong way from the station.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-phrase-where-are-we.png',

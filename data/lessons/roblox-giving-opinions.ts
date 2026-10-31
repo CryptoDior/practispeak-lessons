@@ -190,7 +190,7 @@ export const robloxGivingOpinions: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "[[In my opinion:this is YOUR view — others may not agree]], the new map is amazing! I love all the new areas and the colours are so nice. What about you?",
+      text: "[[In my opinion:this is YOUR view — others may not agree]], the new map is amazing! I love all the new areas and the colors are so nice. What about you?",
     },
     {
       speaker: 'Mario',
@@ -280,7 +280,7 @@ export const robloxGivingOpinions: Lesson = {
       options: [
         "The new map — he thinks it is too big.",
         "The new sword — he thinks it is too weak.",
-        "The new colours — he thinks they are too bright.",
+        "The new colors — he thinks they are too bright.",
         "The update — he thinks it should not have happened.",
       ],
       correctIndex: 0,

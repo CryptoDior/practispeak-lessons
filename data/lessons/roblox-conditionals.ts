@@ -35,7 +35,7 @@ export const robloxConditionals: Lesson = {
       word: 'IF',
       partOfSpeech: 'conjunction',
       definition: "Introduces a condition — a situation that must be true for something else to happen.",
-      example: "If you reach level thirty, you unlock the legendary armour — it is automatically added to your inventory.",
+      example: "If you reach level thirty, you unlock the legendary armor — it is automatically added to your inventory.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-conditionals-in-game-if.png',
     },
     {
@@ -143,7 +143,7 @@ export const robloxConditionals: Lesson = {
       word: 'AS LONG AS',
       partOfSpeech: 'phrase',
       definition: "Only if something continues to be true — it must stay that way.",
-      example: "You can use the company car as long as you have a clean driving licence.",
+      example: "You can use the company car as long as you have a clean driving license.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-conditionals-irl-as-long-as.png',
     },
   ],
@@ -218,7 +218,7 @@ export const robloxConditionals: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "We [[could:it would be possible to]] win this [[if:on the condition that]] we build a better defence strategy. Our attack is strong but we keep losing on the last round.",
+      text: "We [[could:it would be possible to]] win this [[if:on the condition that]] we build a better defense strategy. Our attack is strong but we keep losing on the last round.",
     },
     {
       speaker: 'Mia',
@@ -254,7 +254,7 @@ export const robloxConditionals: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Agreed. And [[if:introducing a real condition]] the defence strategy fails, we always [[could:it would be possible to]] switch to the aggressive push — it worked in the last two qualifiers.",
+      text: "Agreed. And [[if:introducing a real condition]] the defense strategy fails, we always [[could:it would be possible to]] switch to the aggressive push — it worked in the last two qualifiers.",
     },
     {
       speaker: 'Mia',
@@ -268,7 +268,7 @@ export const robloxConditionals: Lesson = {
     instructions: "Choose the correct word or phrase to complete each conditional sentence. Then read it aloud.",
     items: [
       {
-        sentence: "_____ you reach level thirty, you will unlock the legendary armour automatically.",
+        sentence: "_____ you reach level thirty, you will unlock the legendary armor automatically.",
         options: ["Unless", "If", "As long as"],
         correctIndex: 1,
         explanation: "If introduces a condition — a situation that must be true for something else to happen. Unless means 'except if' — the opposite. As long as means 'provided the condition remains true'. A simple condition for an outcome = if.",
@@ -318,7 +318,7 @@ export const robloxConditionals: Lesson = {
   ],
 
   fillBlankExercise: [
-    { before: "", after: "you reach level thirty, you unlock the legendary armour automatically.", answer: 'If' },
+    { before: "", after: "you reach level thirty, you unlock the legendary armor automatically.", answer: 'If' },
     { before: "If you collect all five keys,", after: "the vault door opens automatically.", answer: 'then' },
     { before: "If I had enough Robux, I", after: "buy the full VIP package without hesitating.", answer: 'would' },
     { before: "If we teamed up with another guild, we", after: "take down the server boss in under ten minutes.", answer: 'could' },
@@ -342,7 +342,7 @@ export const robloxConditionals: Lesson = {
     {
       question: "Which sentence is a correct second conditional?",
       options: [
-        "If I have more time, I will practise every day.",
+        "If I have more time, I will practice every day.",
         "If she studies tonight, she will pass the test tomorrow.",
         "If I had more Robux, I would buy the entire VIP package.",
         "If you log in before noon, you can get the bonus.",
@@ -385,7 +385,7 @@ export const robloxConditionals: Lesson = {
         "You can stay in the guild, provided that you leave before Friday.",
         "She would buy the item, provided that she could afford it.",
         "You can access the server, provided that your account is verified.",
-        "If I provided that I had more time, I would practise daily.",
+        "If I provided that I had more time, I would practice daily.",
       ],
       correctIndex: 2,
     },

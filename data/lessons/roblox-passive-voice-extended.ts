@@ -163,7 +163,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
       definition: "To publish or release something for people to read or hear.",
       example: "The developers put out a statement clarifying the situation after community speculation grew out of control.",
       inGame: "When the exploit was discovered, the team immediately put out a notice warning players not to use it.",
-      inRealLife: "The company put out a press release to address the rumours before they could cause lasting damage.",
+      inRealLife: "The company put out a press release to address the rumors before they could cause lasting damage.",
       imageSlug: '/images/roblox-passive-voice-extended-put-out.png',
     },
     {
@@ -263,7 +263,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "This is making me realise how much of professional English is about controlling certainty. You can say something without committing to it being completely true.",
+      text: "This is making me realize how much of professional English is about controlling certainty. You can say something without committing to it being completely true.",
     },
     {
       speaker: 'Mario',
@@ -292,7 +292,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
         sentence: "The Phoenix Force strategy is _____ to be the most effective defensive formation at the top level.",
         options: ["reported", "considered", "alleged"],
         correctIndex: 1,
-        explanation: "CONSIDERED means widely regarded after collective judgement — the natural fit for a widely-accepted professional opinion. REPORTED implies a specific source. ALLEGED implies wrongdoing — not appropriate for a strategy assessment.",
+        explanation: "CONSIDERED means widely regarded after collective judgment — the natural fit for a widely-accepted professional opinion. REPORTED implies a specific source. ALLEGED implies wrongdoing — not appropriate for a strategy assessment.",
       },
       {
         sentence: "The patch is _____ to arrive this weekend, though the exact time has not been announced.",

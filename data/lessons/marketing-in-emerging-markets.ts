@@ -5,7 +5,7 @@ export const marketingInEmergingMarkets: Lesson = {
   title: 'Marketing in Emerging Markets',
   subtitle: 'How to enter and grow in high-potential markets with unique infrastructure, mobile-first consumers, and fast-changing needs',
   level: 'B1-B2',
-  description: "Emerging markets represent some of the fastest-growing consumer and business opportunities in the world. But entering them requires a fundamentally different marketing mindset. Consumers in these markets may be mobile-first by necessity, bypass desktop technology entirely, and make decisions in micro-moments that traditional marketing frameworks were not designed to capture. This lesson gives you the vocabulary to analyse, discuss, and develop marketing strategies for these high-potential, high-complexity markets.",
+  description: "Emerging markets represent some of the fastest-growing consumer and business opportunities in the world. But entering them requires a fundamentally different marketing mindset. Consumers in these markets may be mobile-first by necessity, bypass desktop technology entirely, and make decisions in micro-moments that traditional marketing frameworks were not designed to capture. This lesson gives you the vocabulary to analyze, discuss, and develop marketing strategies for these high-potential, high-complexity markets.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-hero.png',
 
   vocabulary: [
@@ -45,10 +45,10 @@ export const marketingInEmergingMarkets: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-micro-moment.png',
     },
     {
-      word: 'LOCALISATION',
+      word: 'LOCALIZATION',
       partOfSpeech: 'noun',
       definition: 'Changing a product or message to suit a local market.',
-      example: 'Good localisation means using local prices, language and faces.',
+      example: 'Good localization means using local prices, language and faces.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-localisation.png',
     },
     {
@@ -118,20 +118,20 @@ export const marketingInEmergingMarkets: Lesson = {
         { brand: 'Beacon', context: 'Healthcare — India board strategy presentation', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-beacon-growth-market-trust.png', caption: 'To succeed in this growth market, we need to build relationships with community health workers — trusted intermediaries that no media spend can substitute.', aspectRatio: '16/9' },
         { brand: 'Kova', context: 'Fintech — market entry product brief', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-kova-growth-market-ecosystem.png', caption: 'To succeed in this growth market, we need to integrate with the existing mobile money ecosystem — consumers will not switch payment systems for a single app.', aspectRatio: '4/5' },
       ],
-      inContext: "Riley summarised the strategic requirements. To succeed in this growth market, we need to stop thinking like a mature market operator and start thinking like a market builder, she said. That means a different approach to distribution, a different pricing model, a different content strategy, and a much longer investment horizon. Marcus: The brands that won in China, India, and Brazil in the 2000s were the ones that entered early, committed deeply, and built for the local consumer. The ones that exported their domestic model without adapting failed. Dana: We know the mistakes. Let us not make them.",
+      inContext: "Riley summarized the strategic requirements. To succeed in this growth market, we need to stop thinking like a mature market operator and start thinking like a market builder, she said. That means a different approach to distribution, a different pricing model, a different content strategy, and a much longer investment horizon. Marcus: The brands that won in China, India, and Brazil in the 2000s were the ones that entered early, committed deeply, and built for the local consumer. The ones that exported their domestic model without adapting failed. Dana: We know the mistakes. Let us not make them.",
     },
     {
-      phrase: 'LOCALISATION IN THIS CONTEXT MEANS MORE THAN TRANSLATION',
+      phrase: 'LOCALIZATION IN THIS CONTEXT MEANS MORE THAN TRANSLATION',
       definition: 'A way to say adapting a market needs more than new words.',
-      example: 'Localisation in this context means more than translation; we need local stories too.',
+      example: 'Localization in this context means more than translation; we need local stories too.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-localisation-means-more-than-translation.png',
-      inAction: 'Localisation in this context means more than translation — the product naming, pricing structure, distribution channel, and even the colour palette all need to be reviewed for local fit.',
-      register: "Neutral — Ember (meal kit, Asia expansion): market entry brief reads localisation in this context means more than translation — the food values, ingredient preferences, and cooking habits are fundamentally different, and the product itself needs to be redesigned, not just renamed. | Flux (SaaS platform, Middle East entry): product localisation brief reads localisation in this context means more than translation — the user interface needs right-to-left layout, the payment options need to include local methods, and the customer support hours need to align with local business hours. | Forge (HR platform, Africa launch): sales brief reads localisation in this context means more than translation — the compliance frameworks, labour law references, and organisational hierarchy assumptions in the product all need to be reviewed for local relevance.",
+      inAction: 'Localization in this context means more than translation — the product naming, pricing structure, distribution channel, and even the color palette all need to be reviewed for local fit.',
+      register: "Neutral — Ember (meal kit, Asia expansion): market entry brief reads localization in this context means more than translation — the food values, ingredient preferences, and cooking habits are fundamentally different, and the product itself needs to be redesigned, not just renamed. | Flux (SaaS platform, Middle East entry): product localization brief reads localization in this context means more than translation — the user interface needs right-to-left layout, the payment options need to include local methods, and the customer support hours need to align with local business hours. | Forge (HR platform, Africa launch): sales brief reads localization in this context means more than translation — the compliance frameworks, labor law references, and organisational hierarchy assumptions in the product all need to be reviewed for local relevance.",
       visualExamples: [
-        { brand: 'Ember', context: 'Meal kit — Asia market expansion brief', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-ember-localisation-food.png', caption: 'Localisation in this context means more than translation — food values and cooking habits are fundamentally different, and the product itself needs to be redesigned, not just renamed.', aspectRatio: '16/9' },
-        { brand: 'Flux', context: 'SaaS platform — Middle East product localisation', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-flux-localisation-rtl.png', caption: 'Localisation in this context means more than translation — right-to-left UI layout, local payment methods, and regional support hours are all required for true localisation.', aspectRatio: '4/5' },
+        { brand: 'Ember', context: 'Meal kit — Asia market expansion brief', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-ember-localisation-food.png', caption: 'Localization in this context means more than translation — food values and cooking habits are fundamentally different, and the product itself needs to be redesigned, not just renamed.', aspectRatio: '16/9' },
+        { brand: 'Flux', context: 'SaaS platform — Middle East product localization', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-flux-localisation-rtl.png', caption: 'Localization in this context means more than translation — right-to-left UI layout, local payment methods, and regional support hours are all required for true localization.', aspectRatio: '4/5' },
       ],
-      inContext: "Dana had the localisation audit on screen. Localisation in this context means more than translation, she said. We have translated the website. We have not localised the product, the pricing model, the imagery, or the customer journey. Riley looked at the homepage: the hero image shows a European cityscape. The payment options are all card-based. The language is English with a local language option buried in the footer. Marcus: This is a localised wrapper on an unchanged product. That is not the same thing. Go back to the brief.",
+      inContext: "Dana had the localization audit on screen. Localization in this context means more than translation, she said. We have translated the website. We have not localized the product, the pricing model, the imagery, or the customer journey. Riley looked at the homepage: the hero image shows a European cityscape. The payment options are all card-based. The language is English with a local language option buried in the footer. Marcus: This is a localized wrapper on an unchanged product. That is not the same thing. Go back to the brief.",
     },
     {
       phrase: 'THE MICRO-MOMENT THAT DRIVES PURCHASE IN THIS MARKET IS...',
@@ -185,7 +185,7 @@ export const marketingInEmergingMarkets: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "Now the challenges. The [[infrastructure:the basic physical and digital systems a market needs to function]] situation varies significantly. Urban centres have strong 4G. Rural areas are still predominantly 2G and 3G. Last-mile logistics is complex and expensive outside major cities.",
+      text: "Now the challenges. The [[infrastructure:the basic physical and digital systems a market needs to function]] situation varies significantly. Urban centers have strong 4G. Rural areas are still predominantly 2G and 3G. Last-mile logistics is complex and expensive outside major cities.",
     },
     {
       speaker: 'Marcus',
@@ -209,25 +209,25 @@ export const marketingInEmergingMarkets: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Good. What about [[localisation:adapting a product, service, or campaign for a specific local market]]?",
+      text: "Good. What about [[localization:adapting a product, service, or campaign for a specific local market]]?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Localisation in this context means more than translation. Our creative needs to reflect local faces, local settings, local languages — and the messaging needs to shift from individual benefit to family benefit. The values that drive purchase decisions here are different from Europe.",
+      text: "Localization in this context means more than translation. Our creative needs to reflect local faces, local settings, local languages — and the messaging needs to shift from individual benefit to family benefit. The values that drive purchase decisions here are different from Europe.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "I would also recommend a community ambassador programme — local trusted figures who introduce the product through their networks. In markets where digital trust is still being built, peer endorsement through a trusted local voice is often more powerful than paid media.",
+      text: "I would also recommend a community ambassador program — local trusted figures who introduce the product through their networks. In markets where digital trust is still being built, peer endorsement through a trusted local voice is often more powerful than paid media.",
     },
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "To succeed in this growth market, we need to commit to the localisation fully, solve the affordability challenge before launch, and build our digital presence mobile-first from day one. That is the strategy summary. Let us build the full presentation around those three pillars.",
+      text: "To succeed in this growth market, we need to commit to the localization fully, solve the affordability challenge before launch, and build our digital presence mobile-first from day one. That is the strategy summary. Let us build the full presentation around those three pillars.",
     },
   ],
 
@@ -247,7 +247,7 @@ export const marketingInEmergingMarkets: Lesson = {
     { before: 'The market is', after: ', which means every creative asset must be designed for a 5-inch screen with a slow connection.', answer: 'mobile-first' },
     { before: 'Consumers in this market have', after: 'desktop technology entirely — their first internet experience was on a mobile phone.', answer: 'leapfrogged' },
     { before: "The affordability challenge in this market is that our standard price represents 20% of the average consumer's monthly", answer: 'income', after: '.' },
-    { before: '', after: 'in this context means more than translation — it means adapting the product, the pricing, and the cultural messaging.', answer: 'Localisation' },
+    { before: '', after: 'in this context means more than translation — it means adapting the product, the pricing, and the cultural messaging.', answer: 'Localization' },
     { before: 'The', after: 'that drives purchase in this market is a peer recommendation in a WhatsApp group — the decision happens within minutes.', answer: 'micro-moment' },
   ],
 
@@ -268,8 +268,8 @@ export const marketingInEmergingMarkets: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'What does Riley mean when she says localisation is more than translation?',
-      options: ['Localisation also includes adding local payment options and translating the terms and conditions document', 'Creative, messaging, values, and the understanding of what drives purchase must all be adapted to the local cultural and economic context', 'Localisation means hiring a local agency to manage the campaign rather than using the European team'],
+      question: 'What does Riley mean when she says localization is more than translation?',
+      options: ['Localization also includes adding local payment options and translating the terms and conditions document', 'Creative, messaging, values, and the understanding of what drives purchase must all be adapted to the local cultural and economic context', 'Localization means hiring a local agency to manage the campaign rather than using the European team'],
       correctIndex: 1,
     },
   ],
@@ -299,9 +299,9 @@ export const marketingInEmergingMarkets: Lesson = {
       },
       {
         sentence: 'Having _____ the market carefully, the team concluded that mobile-first was the only viable digital strategy.',
-        options: ['analysed', 'analysing', 'been analysed'],
+        options: ['analysed', 'analysing', 'been analyzed'],
         correctIndex: 0,
-        explanation: "'Having analysed' is the perfect participle construction — it describes a completed action before the main clause: the analysis was done first, and then the conclusion was reached. This is the standard structure for a participial phrase in the subject position: 'Having [done X], [the subject] [did Y].' The subject of both the participle and the main clause must be the same — here, 'the team' both analysed and concluded. 'Analysing' (present participle) would mean the two actions are simultaneous or overlapping — but concluding happens after analysing, not at the same time. 'Been analysed' is passive — it would need a different subject: 'having been analysed by the team, the market...'",
+        explanation: "'Having analyzed' is the perfect participle construction — it describes a completed action before the main clause: the analysis was done first, and then the conclusion was reached. This is the standard structure for a participial phrase in the subject position: 'Having [done X], [the subject] [did Y].' The subject of both the participle and the main clause must be the same — here, 'the team' both analyzed and concluded. 'Analyzing' (present participle) would mean the two actions are simultaneous or overlapping — but concluding happens after analyzing, not at the same time. 'Been analyzed' is passive — it would need a different subject: 'having been analyzed by the team, the market...'",
       },
       {
         sentence: 'The micro-moment _____ purchase in this market lasts only a few minutes — any friction in the checkout flow and the consumer moves on.',
@@ -332,7 +332,7 @@ export const marketingInEmergingMarkets: Lesson = {
           customerLine: "'We want to launch in Nigeria. We will just translate our UK website and run the same ads. It worked in France.'",
           options: [
             "That is a reasonable starting point — translation is the most important step and the creative can be adapted later once you understand what works.",
-            "France and Nigeria are fundamentally different markets, and what worked in France is unlikely to transfer without significant adaptation. Nigeria has 94% mobile internet access versus 25% in France, an average income approximately 8x lower than the UK, a dominant payment infrastructure based on mobile money rather than cards, and different languages, cultural values, and consumer trust dynamics. Localisation in this context means more than translation — it means rebuilding the consumer journey, the pricing model, the payment options, and the creative from the local consumer's perspective. I would recommend starting with a market research piece before committing to any creative.",
+            "France and Nigeria are fundamentally different markets, and what worked in France is unlikely to transfer without significant adaptation. Nigeria has 94% mobile internet access versus 25% in France, an average income approximately 8x lower than the UK, a dominant payment infrastructure based on mobile money rather than cards, and different languages, cultural values, and consumer trust dynamics. Localization in this context means more than translation — it means rebuilding the consumer journey, the pricing model, the payment options, and the creative from the local consumer's perspective. I would recommend starting with a market research piece before committing to any creative.",
             "The translation approach works in most markets — the most important thing is to get the language right and the rest will follow.",
           ],
           correctIndex: 1,
@@ -367,8 +367,8 @@ export const marketingInEmergingMarkets: Lesson = {
         { speaker: 'Riley', text: "Exactly. And consumers in this market have leapfrogged desktop technology entirely — 92% of internet access is via mobile." },
         { speaker: 'Dana', text: "The affordability challenge is the most difficult issue to solve. Our current price represents almost a quarter of a monthly income for our target consumer." },
         { speaker: 'Marcus', text: "We should considering a micro-payment model via mobile money — it converts a large upfront cost into small daily payments." },
-        { speaker: 'Riley', text: "And localisation in this context mean more than translation — the messaging, the imagery, and the values all need to be adapted." },
-        { speaker: 'Dana', text: "I recommend launching in urban centres first, where the infrastructure is strongest, and expanding as connectivity improves." },
+        { speaker: 'Riley', text: "And localization in this context mean more than translation — the messaging, the imagery, and the values all need to be adapted." },
+        { speaker: 'Dana', text: "I recommend launching in urban centers first, where the infrastructure is strongest, and expanding as connectivity improves." },
       ],
       mistakes: [
         {
@@ -385,9 +385,9 @@ export const marketingInEmergingMarkets: Lesson = {
         },
         {
           lineIndex: 4,
-          incorrectText: 'localisation in this context mean',
-          correction: 'localisation in this context means',
-          explanation: "'Localisation' is singular — the verb must be third person singular: 'means', not 'mean'. 'In this context' is a prepositional phrase that modifies the subject but does not change it. The subject is 'localisation' — singular — therefore the verb in simple present takes the third person singular form with an -s: 'localisation means'. Compare: 'localisation means' (singular) vs 'these strategies mean' (plural). Always check the head noun of the subject, not the modifier.",
+          incorrectText: 'localization in this context mean',
+          correction: 'localization in this context means',
+          explanation: "'Localization' is singular — the verb must be third person singular: 'means', not 'mean'. 'In this context' is a prepositional phrase that modifies the subject but does not change it. The subject is 'localization' — singular — therefore the verb in simple present takes the third person singular form with an -s: 'localization means'. Compare: 'localization means' (singular) vs 'these strategies mean' (plural). Always check the head noun of the subject, not the modifier.",
         },
       ],
     },
@@ -407,7 +407,7 @@ export const marketingInEmergingMarkets: Lesson = {
         {
           customerLine: "How do you explain the business case for entering a growth market before it is profitable?",
           salespersonStart: "The business case is not about what the market looks like today —",
-          suggestedCompletion: "it is about what it will look like in five to eight years, and what position we want to be in when it gets there. At current growth rates, the addressable market will be four times larger by 2032. The consumers who will be buying at that scale are building brand awareness and brand habits right now — and they are building them with whoever is present and credible in this market today. If we are not in the room now, we will be trying to displace established brands at a far higher cost and with far lower probability of success later. Entering early, investing in localisation, and accepting a longer payback horizon is not a risk — it is the lowest-risk path to a strong position in a market we will want to be in.",
+          suggestedCompletion: "it is about what it will look like in five to eight years, and what position we want to be in when it gets there. At current growth rates, the addressable market will be four times larger by 2032. The consumers who will be buying at that scale are building brand awareness and brand habits right now — and they are building them with whoever is present and credible in this market today. If we are not in the room now, we will be trying to displace established brands at a far higher cost and with far lower probability of success later. Entering early, investing in localization, and accepting a longer payback horizon is not a risk — it is the lowest-risk path to a strong position in a market we will want to be in.",
         },
       ],
     },

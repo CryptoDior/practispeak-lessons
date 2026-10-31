@@ -21,13 +21,13 @@ export const robloxStorytellingPastTenses: Lesson = {
     positiveExamples: [
       { sentence: '"They were farming resources when suddenly the raid began."', note: 'were farming = background; began = sudden event' },
       { sentence: '"Just as she was escaping, the server crashed."', note: 'was escaping = in progress; crashed = interrupting event' },
-      { sentence: '"Meanwhile, the other team was building a defence."', note: 'meanwhile shows two things happening at the same time' },
+      { sentence: '"Meanwhile, the other team was building a defense."', note: 'meanwhile shows two things happening at the same time' },
       { sentence: '"By the time he respawned, the match was already over."', note: 'by the time = one action finished before another' },
     ],
     negativeExamples: [
       { sentence: '"They farmed resources when suddenly the raid began." ✗', note: 'use were farming — the background action was already in progress' },
       { sentence: '"Just as she escaped, the server crashed." ✗', note: 'use was escaping — the action was still happening when interrupted' },
-      { sentence: '"Meanwhile, the other team built a defence." ✗', note: 'use was building — it was an ongoing background action' },
+      { sentence: '"Meanwhile, the other team built a defense." ✗', note: 'use was building — it was an ongoing background action' },
     ],
   },
 
@@ -363,7 +363,7 @@ export const robloxStorytellingPastTenses: Lesson = {
     {
       question: "Which sentence uses JUST AS correctly?",
       options: [
-        "Just as we practised, we won the final round with ease.",
+        "Just as we practiced, we won the final round with ease.",
         "Just as she activated the shield, the enemy fired their strongest ability.",
         "Just as in the end, the team celebrated their victory.",
         "Just as we lost, the match had already been decided by then.",

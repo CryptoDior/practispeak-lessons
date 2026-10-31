@@ -33,7 +33,7 @@ export const travelPassportControl: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'What is the purpose of your visit?', tag: 'phrase', definition: 'The officer asks why you are travelling.', example: '"What is the purpose of your visit?" → "Tourism."', imageSlug: img('purpose-visit-tourism') },
+    { phrase: 'What is the purpose of your visit?', tag: 'phrase', definition: 'The officer asks why you are traveling.', example: '"What is the purpose of your visit?" → "Tourism."', imageSlug: img('purpose-visit-tourism') },
     { phrase: "I'm here on holiday / on business / to visit family.", tag: 'phrase', definition: 'State the purpose of your trip.', example: '"I\'m here on business. I have a conference in Chicago."', imageSlug: img('business-conference-chicago') },
     { phrase: 'How long do you intend to stay?', tag: 'phrase', definition: 'The officer asks the duration of your stay.', example: '"How long do you intend to stay?" → "Ten days."', imageSlug: img('stay-ten-days') },
     { phrase: "I'll be staying at…", tag: 'phrase', definition: 'Give your accommodation details.', example: '"I\'ll be staying at the Grand Hotel downtown."', imageSlug: img('staying-grand-hotel') },
@@ -76,7 +76,7 @@ export const travelPassportControl: Lesson = {
   ],
 
   multipleChoiceExercise: [
-    { question: '"What is the purpose of your visit?" asks…', options: ['How long you stay', 'Why you are travelling', 'Where you live', 'Your nationality'], correctIndex: 1 },
+    { question: '"What is the purpose of your visit?" asks…', options: ['How long you stay', 'Why you are traveling', 'Where you live', 'Your nationality'], correctIndex: 1 },
     { question: 'Which answer is best?', options: ["I'm here on business.", 'Why do you ask?', 'Maybe.', 'None of your business.'], correctIndex: 0 },
     { question: 'What does "proceed" mean here?', options: ['Wait', 'Go forward', 'Go back', 'Pay'], correctIndex: 1 },
     { question: 'In the dialogue, how long will Rosie stay?', options: ['One week', 'Ten days', 'Two weeks', 'One month'], correctIndex: 2 },

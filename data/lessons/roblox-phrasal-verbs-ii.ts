@@ -129,7 +129,7 @@ export const robloxPhrasalVerbsII: Lesson = {
     {
       word: 'SET UP',
       partOfSpeech: 'phrasal verb',
-      definition: "Arrange, organise, or prepare something so it is ready for use or for others.",
+      definition: "Arrange, organize, or prepare something so it is ready for use or for others.",
       example: "He set up the meeting room and tested the projector before the clients arrived.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-ii-irl-set-up.png',
     },
@@ -153,7 +153,7 @@ export const robloxPhrasalVerbsII: Lesson = {
     {
       phrase: "SWAP OUT",
       definition: "Replace one thing with another — often a quick exchange of a single item or element.",
-      example: "Swap out the standard armour for the legendary version before you enter the boss room.",
+      example: "Swap out the standard armor for the legendary version before you enter the boss room.",
       inGame: "Swap out your weakest team member before the finals — this is not the time for loyalty over performance.",
       inRealLife: "She swapped out the old supplier for a faster, cheaper one — delivery times dropped by forty percent.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-ii-phrases-swap-out.png',
@@ -225,7 +225,7 @@ export const robloxPhrasalVerbsII: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "That is ambitious. We will need to [[gear up:prepare equipment and mindset for a challenge]] properly — I need to [[swap out:replace one thing with another]] my armour and upgrade two of my skills first.",
+      text: "That is ambitious. We will need to [[gear up:prepare equipment and mindset for a challenge]] properly — I need to [[swap out:replace one thing with another]] my armor and upgrade two of my skills first.",
     },
     {
       speaker: 'Mia',
@@ -243,7 +243,7 @@ export const robloxPhrasalVerbsII: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Agreed. Let us practise three evenings this week. If we [[run out of:use up all of a resource]] time on strategy, we can always focus on individual mechanics instead.",
+      text: "Agreed. Let us practice three evenings this week. If we [[run out of:use up all of a resource]] time on strategy, we can always focus on individual mechanics instead.",
     },
     {
       speaker: 'Mario',
@@ -354,7 +354,7 @@ export const robloxPhrasalVerbsII: Lesson = {
       question: "In the dialogue, why does Mario want to gear up before challenging the top guild?",
       options: [
         "He wants to give up on the challenge.",
-        "He needs to swap out his armour and upgrade two skills first.",
+        "He needs to swap out his armor and upgrade two skills first.",
         "He wants to log off and come back with a different strategy.",
         "He thinks they should hang out instead of competing.",
       ],

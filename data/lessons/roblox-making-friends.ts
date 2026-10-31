@@ -20,7 +20,7 @@ export const robloxMakingFriends: Lesson = {
       word: 'FOLLOW',
       partOfSpeech: 'verb',
       definition: 'Add someone so you can see when they are online and what games they play.',
-      example: 'I followed my favourite Roblox creator so I never miss a new game!',
+      example: 'I followed my favorite Roblox creator so I never miss a new game!',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-making-friends-follow.png',
     },
     {

@@ -137,7 +137,7 @@ export const thankingTheCustomer: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'That is wonderful to hear. We really [[appreciate:to recognise the value of what someone has done]] your business, Marcus.',
+      text: 'That is wonderful to hear. We really [[appreciate:to recognize the value of what someone has done]] your business, Marcus.',
     },
     {
       speaker: 'Marcus',
@@ -198,7 +198,7 @@ export const thankingTheCustomer: Lesson = {
   matchingExercise: [
     {
         "word": "appreciate",
-        "definition": "to recognise the value of what someone has done — stronger than 'thank you'"
+        "definition": "to recognize the value of what someone has done — stronger than 'thank you'"
     },
     {
         "word": "grateful",

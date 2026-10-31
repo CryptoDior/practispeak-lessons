@@ -49,7 +49,7 @@ export const businessPresentingDataVisuals: Lesson = {
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "What's important to note is that margins improved even when sales were flat. Let me [[highlight:draw attention to]] this [[figure:number]]: profit margin rose to 22%." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Rose to 22%, or by 22%?" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "To 22% — from 17%. So up by five percentage points." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Clear. That really [[illustrate:explains with a chart]]s the value of the cost-cutting programme." },
+    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Clear. That really [[illustrate:explains with a chart]]s the value of the cost-cutting program." },
   ],
 
   matchingExercise: [

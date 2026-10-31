@@ -149,7 +149,7 @@ export const presentingToStakeholders: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Strong numbers. But as a [[board:the senior group who make the most important decisions in an organisation]] member, my first question is: what went wrong? Nothing is perfect.",
+      text: "Strong numbers. But as a [[board:the senior group who make the most important decisions in an organization]] member, my first question is: what went wrong? Nothing is perfect.",
     },
     {
       speaker: 'Riley',
@@ -209,8 +209,8 @@ export const presentingToStakeholders: Lesson = {
 
   matchingExercise: [
     { word: 'stakeholder', definition: 'a person who has an interest in the outcome of a project or decision' },
-    { word: 'board', definition: 'the senior group who make the most important decisions in an organisation' },
-    { word: 'investor', definition: 'a person or organisation that puts money into a business expecting a return' },
+    { word: 'board', definition: 'the senior group who make the most important decisions in an organization' },
+    { word: 'investor', definition: 'a person or organization that puts money into a business expecting a return' },
     { word: 'objective', definition: 'the specific goal you were trying to achieve' },
     { word: 'ROI', definition: 'return on investment — what you got back compared to what you spent' },
     { word: 'slide', definition: 'a single page of a presentation, each with one clear point' },
@@ -265,7 +265,7 @@ export const presentingToStakeholders: Lesson = {
         sentence: "Today I'm going to walk you _____ the results of our Q3 campaign.",
         options: ['through', 'over', 'across'],
         correctIndex: 0,
-        explanation: "'Walk you through' is the fixed phrasal verb for guiding an audience step by step through a presentation or document. It is one of the most common phrases in business English presentations. 'Walk over' and 'walk across' are not used in this way. Other similar phrases: 'take you through', 'run you through'. These all mean to guide someone through something in an organised, step-by-step way.",
+        explanation: "'Walk you through' is the fixed phrasal verb for guiding an audience step by step through a presentation or document. It is one of the most common phrases in business English presentations. 'Walk over' and 'walk across' are not used in this way. Other similar phrases: 'take you through', 'run you through'. These all mean to guide someone through something in an organized, step-by-step way.",
       },
       {
         sentence: 'The _____ of this campaign was to generate 500 leads at under £20 per lead.',
@@ -309,10 +309,10 @@ export const presentingToStakeholders: Lesson = {
           options: [
             "Sure — the campaign covered eight weeks, used a budget of £15,000, targeted existing contacts and lookalike audiences, and ran across email and paid social channels.",
             "The bottom line is: we beat our lead target by 30%, achieved a 3.5 to 1 ROI, and identified a conversion improvement we can implement in Q4 with no additional budget.",
-            "There is a lot to cover — results, insights, and recommendations — but I'll try to summarise it as quickly as I can.",
+            "There is a lot to cover — results, insights, and recommendations — but I'll try to summarize it as quickly as I can.",
           ],
           correctIndex: 1,
-          explanation: "Option B is correct. When a stakeholder asks for the key message, give them exactly that — one clear, specific sentence that covers result, return, and next step. Option A gives background information about the campaign, not the key message — a busy stakeholder does not need to know the channels and audience segments in the first sentence. Option C is a weak response — saying 'I'll try to summarise quickly' signals that you have not prepared a summary, which undermines confidence.",
+          explanation: "Option B is correct. When a stakeholder asks for the key message, give them exactly that — one clear, specific sentence that covers result, return, and next step. Option A gives background information about the campaign, not the key message — a busy stakeholder does not need to know the channels and audience segments in the first sentence. Option C is a weak response — saying 'I'll try to summarize quickly' signals that you have not prepared a summary, which undermines confidence.",
         },
         {
           customerLine: "What went wrong? I want to hear the honest version, not just the good news.",

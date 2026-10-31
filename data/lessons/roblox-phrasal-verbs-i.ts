@@ -50,7 +50,7 @@ export const robloxPhrasalVerbsI: Lesson = {
       word: 'LEVEL UP',
       partOfSpeech: 'phrasal verb',
       definition: "Advance to the next level — improve your rank, stats, or character as a reward for progress.",
-      example: "I levelled up three times in one session — the XP rewards on this map are incredible.",
+      example: "I leveled up three times in one session — the XP rewards on this map are incredible.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-i-in-game-level-up.png',
     },
     {
@@ -109,7 +109,7 @@ export const robloxPhrasalVerbsI: Lesson = {
       word: 'LEVEL UP',
       partOfSpeech: 'phrasal verb',
       definition: "(Informal) Improve significantly in skill, status, or quality — reach a new, higher stage.",
-      example: "She levelled up her public speaking this year — now she presents confidently to the whole company.",
+      example: "She leveled up her public speaking this year — now she presents confidently to the whole company.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-i-irl-level-up.png',
     },
     {
@@ -122,7 +122,7 @@ export const robloxPhrasalVerbsI: Lesson = {
     {
       word: 'SIGN UP',
       partOfSpeech: 'phrasal verb',
-      definition: "Register for or officially join a course, event, service, or organisation.",
+      definition: "Register for or officially join a course, event, service, or organization.",
       example: "She signed up for a Spanish evening class and has not missed a single session.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-i-irl-sign-up.png',
     },
@@ -195,7 +195,7 @@ export const robloxPhrasalVerbsI: Lesson = {
       definition: "Actively choose to participate in something — the opposite of opt out.",
       example: "Opt in to the notification system — it tells you when rare events are about to start.",
       inGame: "Opt in to the experimental server — it has features that will be in the main game next month.",
-      inRealLife: "He opted in to the company's mentoring programme and says it was the best decision he made that year.",
+      inRealLife: "He opted in to the company's mentoring program and says it was the best decision he made that year.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-i-phrases-opt-in.png',
     },
   ],
@@ -243,7 +243,7 @@ export const robloxPhrasalVerbsI: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "I need to [[level up:advance and improve my rank]] my armour rating before then — I am still two grades below the recommended level for the tournament.",
+      text: "I need to [[level up:advance and improve my rank]] my armor rating before then — I am still two grades below the recommended level for the tournament.",
     },
     {
       speaker: 'Mario',
@@ -288,9 +288,9 @@ export const robloxPhrasalVerbsI: Lesson = {
       },
       {
         sentence: "Two players _____ in the first round — connection problems really hurt the tournament.",
-        options: ["joined in", "levelled up", "dropped out"],
+        options: ["joined in", "leveled up", "dropped out"],
         correctIndex: 2,
-        explanation: "Dropped out means stopped participating before the event was finished. Joined in means started taking part in something. Levelled up means advanced to a higher rank. Leaving a tournament before it ends = dropping out.",
+        explanation: "Dropped out means stopped participating before the event was finished. Joined in means started taking part in something. Leveled up means advanced to a higher rank. Leaving a tournament before it ends = dropping out.",
       },
       {
         sentence: "The match had started already, but they let me _____ at the next round.",
@@ -300,9 +300,9 @@ export const robloxPhrasalVerbsI: Lesson = {
       },
       {
         sentence: "She _____ her presentation skills this year — she now speaks confidently to the whole company.",
-        options: ["dropped out", "levelled up", "logged out"],
+        options: ["dropped out", "leveled up", "logged out"],
         correctIndex: 1,
-        explanation: "Levelled up (informal) means improved meaningfully and reached a higher stage of skill or quality. Dropped out means left something before finishing. Logged out means ended a digital session. Improving significantly in a real-life skill = levelling up.",
+        explanation: "Leveled up (informal) means improved meaningfully and reached a higher stage of skill or quality. Dropped out means left something before finishing. Logged out means ended a digital session. Improving significantly in a real-life skill = levelling up.",
       },
     ],
   },
@@ -321,7 +321,7 @@ export const robloxPhrasalVerbsI: Lesson = {
   fillBlankExercise: [
     { before: "I", after: "every evening at seven — my whole group is online at that time.", answer: 'log in' },
     { before: "Always", after: "of shared devices — never leave your account open for others.", answer: 'log out' },
-    { before: "I", after: "three times in one session — the XP rewards on this map are incredible.", answer: 'levelled up' },
+    { before: "I", after: "three times in one session — the XP rewards on this map are incredible.", answer: 'leveled up' },
     { before: "We need to", after: "for the dungeon raid — solo players do not stand a chance in there.", answer: 'team up' },
     { before: "You should", after: "for the weekend tournament before Friday — spots fill up within hours.", answer: 'sign up' },
     { before: "I", after: "at the last second and the speed boost let me reach the checkpoint in time.", answer: 'powered up' },
@@ -384,7 +384,7 @@ export const robloxPhrasalVerbsI: Lesson = {
       question: "In the dialogue, what does Mario say Mia should do in the two days before the tournament?",
       options: [
         "Sign up for extra practice sessions with the whole team.",
-        "Focus on XP maps to level up her armour rating at least once.",
+        "Focus on XP maps to level up her armor rating at least once.",
         "Log out and log back in to reset her equipment bonuses.",
         "Team up with Kai to test their chemistry in a solo match first.",
       ],

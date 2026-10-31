@@ -42,7 +42,7 @@ export const conversationC1SmallHabits: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Rosie, you seem so organised these days. What small habits changed your life?" },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Rosie, you seem so organized these days. What small habits changed your life?" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "A small habit that made a huge difference was writing down three priorities every evening. It takes two minutes." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That's it? Just three things?" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It didn't feel significant at first, but it compounded over time. I [[underestimated:thought it less important than it was]] how much it would affect my mindset." },

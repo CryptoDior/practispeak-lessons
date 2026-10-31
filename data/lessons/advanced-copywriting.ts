@@ -47,7 +47,7 @@ export const advancedCopywriting: Lesson = {
     {
       word: 'Voice',
       partOfSpeech: 'noun',
-      definition: 'The personality that makes a brand\'s writing easy to recognise.',
+      definition: 'The personality that makes a brand\'s writing easy to recognize.',
       example: 'Our brand voice is friendly, short and a little funny.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-copywriting-friendly-short-witty-brand-writing.png',
     },
@@ -185,7 +185,7 @@ export const advancedCopywriting: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And what about [[voice:the distinctive personality and tone that makes a brand's writing recognisable]]? We want to sound confident but not arrogant.",
+      text: "And what about [[voice:the distinctive personality and tone that makes a brand's writing recognizable]]? We want to sound confident but not arrogant.",
     },
     {
       speaker: 'Riley',
@@ -201,7 +201,7 @@ export const advancedCopywriting: Lesson = {
     { word: 'pathos', definition: 'an appeal to emotion — connecting with how the reader feels rather than just presenting facts' },
     { word: 'logos', definition: 'an appeal to logic and reason — persuading through facts, data, and rational argument' },
     { word: 'copy hierarchy', definition: 'the order in which copy elements are read — headline, subheadline, body, call to action' },
-    { word: 'voice', definition: "the distinctive personality and tone that makes a brand's writing recognisable" },
+    { word: 'voice', definition: "the distinctive personality and tone that makes a brand's writing recognizable" },
     { word: 'conversion copy', definition: 'copy written specifically to drive a particular action — a click, a sign-up, or a purchase' },
     { word: 'headline', definition: 'the most important line of copy that decides whether the rest gets read' }
   ],
@@ -233,7 +233,7 @@ export const advancedCopywriting: Lesson = {
     },
     {
       question: "What does Riley mean by 'make the CTA earn its click'?",
-      options: ["The button should be a bright colour that stands out visually", "The CTA text should be specific and tell the reader what clicking actually achieves — not just 'submit' or 'get started'", "There should be multiple CTAs across the page so readers can click whenever they are ready"],
+      options: ["The button should be a bright color that stands out visually", "The CTA text should be specific and tell the reader what clicking actually achieves — not just 'submit' or 'get started'", "There should be multiple CTAs across the page so readers can click whenever they are ready"],
       correctIndex: 1
     }
   ],
@@ -265,7 +265,7 @@ export const advancedCopywriting: Lesson = {
         sentence: "Before writing anything, ask: what is the _____ thing this copy needs to do?",
         options: ["single", "main", "one"],
         correctIndex: 2,
-        explanation: "'What is the one thing this copy needs to do?' is the fixed phrase used as the clarifying question before writing. 'One' is the specific word in this idiom — it emphasises that great conversion copy has a single job. 'Single thing' and 'main thing' are possible but are not the established phrase."
+        explanation: "'What is the one thing this copy needs to do?' is the fixed phrase used as the clarifying question before writing. 'One' is the specific word in this idiom — it emphasizes that great conversion copy has a single job. 'Single thing' and 'main thing' are possible but are not the established phrase."
       },
       {
         sentence: "'We came, we saw, we conquered' is an example of the rule of _____ — a common rhetorical device.",
@@ -277,7 +277,7 @@ export const advancedCopywriting: Lesson = {
         sentence: "If your copy could have been written by any brand, it has no _____.",
         options: ["personality", "voice", "tone"],
         correctIndex: 1,
-        explanation: "'Voice' is the technical copywriting term for the distinctive personality and style that makes a brand's writing recognisable. 'Personality' is close but is the underlying quality, not the writing-specific term. 'Tone' is related but describes the emotional register of a specific piece of writing — voice is the consistent brand-level quality across all copy."
+        explanation: "'Voice' is the technical copywriting term for the distinctive personality and style that makes a brand's writing recognizable. 'Personality' is close but is the underlying quality, not the writing-specific term. 'Tone' is related but describes the emotional register of a specific piece of writing — voice is the consistent brand-level quality across all copy."
       },
       {
         sentence: "Right before the call to action, answer the last _____ — remove the final hesitation before the reader acts.",
@@ -307,7 +307,7 @@ export const advancedCopywriting: Lesson = {
           options: [
             "Yes — voice is non-negotiable and should be completely consistent across every market and format.",
             "The core voice should be consistent, but the expression can adapt. The tone might shift slightly — more formal in some cultures, more casual in others — while the fundamental personality stays the same. Does this copy still sound like us?",
-            "No — each market has its own culture and the voice should be localised completely."
+            "No — each market has its own culture and the voice should be localized completely."
           ],
           correctIndex: 1,
           explanation: "Option B correctly distinguishes between voice (the constant brand personality) and tone (the contextual expression of that personality). Voice stays consistent — tone adapts. Option A is too rigid — applying identical copy across cultural contexts ignores real differences in how formality and directness are received. Option C goes too far — changing the voice in each market destroys brand consistency."
@@ -371,7 +371,7 @@ export const advancedCopywriting: Lesson = {
         {
           customerLine: "We want to have a distinctive brand voice but we are not sure how to define it.",
           salespersonStart: "Start by choosing three words that describe how you want to sound — not what you sell, but how you say it. Then write a piece of copy and ask: does this sound like us? If it could be any brand in your category...",
-          suggestedCompletion: "it has no voice. Read it aloud. If it feels flat or formal, push further. The best brand voices are specific enough to be recognisable and consistent enough that every piece of copy — from a tweet to a homepage headline — sounds like it came from the same person."
+          suggestedCompletion: "it has no voice. Read it aloud. If it feels flat or formal, push further. The best brand voices are specific enough to be recognizable and consistent enough that every piece of copy — from a tweet to a homepage headline — sounds like it came from the same person."
         }
       ]
     }

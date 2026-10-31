@@ -347,7 +347,7 @@ export const explainingPackagesAndPlans: Lesson = {
                     "Say: 'Premium is our most popular plan — it includes everything and most enterprise teams prefer it.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. When a prospect asks directly, give them a direct answer — and ground it in their situation. Social proof plus a personalised reason is the most persuasive combination. A avoids the question, which is frustrating when someone has explicitly asked for a recommendation. C claims Premium is most popular in order to upsell — but recommending more than someone needs damages trust when they discover it later."
+                "explanation": "B is correct. When a prospect asks directly, give them a direct answer — and ground it in their situation. Social proof plus a personalized reason is the most persuasive combination. A avoids the question, which is frustrating when someone has explicitly asked for a recommendation. C claims Premium is most popular in order to upsell — but recommending more than someone needs damages trust when they discover it later."
             },
             {
                 "customerLine": "A prospect says: 'I like the Standard plan but I am worried that if our team grows we will be forced onto Premium.'",
@@ -396,7 +396,7 @@ export const explainingPackagesAndPlans: Lesson = {
             },
             {
                 "name": "Team C",
-                "description": "A large sales organisation with thirty reps across three different teams. Their Head of Revenue needs custom reports for each team, wants advanced analytics to track performance trends, and needs a dedicated point of contact for ongoing support and configuration.",
+                "description": "A large sales organization with thirty reps across three different teams. Their Head of Revenue needs custom reports for each team, wants advanced analytics to track performance trends, and needs a dedicated point of contact for ongoing support and configuration.",
                 "matchKey": "premium"
             }
         ],
@@ -414,7 +414,7 @@ export const explainingPackagesAndPlans: Lesson = {
             {
                 "key": "premium",
                 "label": "Premium — everything in Standard plus advanced analytics",
-                "description": "The Premium bundle includes everything in Standard plus custom reporting, flexible dashboards, and a dedicated account manager. It is designed for larger or more complex organisations that need granular performance data across multiple teams."
+                "description": "The Premium bundle includes everything in Standard plus custom reporting, flexible dashboards, and a dedicated account manager. It is designed for larger or more complex organizations that need granular performance data across multiple teams."
             }
         ]
     },

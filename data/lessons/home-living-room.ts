@@ -50,7 +50,7 @@ export const homeLivingRoom: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Thanks! My brother painted it. Would you like a drink? You can put it on the [[coffee table:low table in front of the sofa]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Yes, please. Water is fine. Wow, your [[bookshelf:furniture for books]] is full!" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I love reading. I read in that [[armchair:soft chair for one person]], next to the [[lamp:light for a table or floor]]." },
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That's very cosy. Is the [[rug:small carpet]] new?" },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That's very cozy. Is the [[rug:small carpet]] new?" },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, from Morocco! Oh, the sun is in your eyes. Let me close the [[curtains:cloth over the window]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Thanks. It's a perfect room to relax in." },
   ],

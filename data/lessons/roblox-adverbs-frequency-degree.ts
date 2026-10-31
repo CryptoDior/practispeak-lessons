@@ -116,7 +116,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
       word: 'RARELY',
       partOfSpeech: 'adverb',
       definition: "Hardly ever — it happens, but only on very few occasions.",
-      example: "He rarely misses a gym session — in three years, he has cancelled fewer than five times.",
+      example: "He rarely misses a gym session — in three years, he has canceled fewer than five times.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adverbs-frequency-degree-irl-rarely.png',
     },
     {
@@ -130,7 +130,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
       word: 'INCREDIBLY',
       partOfSpeech: 'adverb',
       definition: "To a remarkable or surprising degree — much more than you expected.",
-      example: "The new intern is incredibly organised — she restructured the filing system in her first week.",
+      example: "The new intern is incredibly organized — she restructured the filing system in her first week.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adverbs-frequency-degree-irl-incredibly.png',
     },
     {

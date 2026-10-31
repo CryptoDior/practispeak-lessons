@@ -72,7 +72,7 @@ export const grassrootsFootball: Lesson = {
     {
       word: 'PARK FOOTBALL',
       partOfSpeech: 'phrase',
-      definition: 'Informal, recreational football played in public parks — the most basic form of football, with no referee or organised competition.',
+      definition: 'Informal, recreational football played in public parks — the most basic form of football, with no referee or organised competition. (US: pickup soccer)',
       example: '"Growing up, they used to play park football every day after school — jumpers for goalposts."',
       imageSlug: '/images/park-football.png',
     },

@@ -5,7 +5,7 @@ export const robloxIdiomsI: Lesson = {
   title: "Idioms I",
   subtitle: "Gaming gave the world its language. Level up. Endgame. Game-changer. You already know these — now use them everywhere.",
   level: 'B1-B2',
-  description: "Some of the most useful idioms in modern English came directly from gaming. Words like 'level up', 'endgame', and 'game-changer' have moved out of games and into job interviews, business meetings, and everyday conversation. At B2, you need to recognise when these idioms are being used seriously — and use them yourself with confidence.",
+  description: "Some of the most useful idioms in modern English came directly from gaming. Words like 'level up', 'endgame', and 'game-changer' have moved out of games and into job interviews, business meetings, and everyday conversation. At B2, you need to recognize when these idioms are being used seriously — and use them yourself with confidence.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-idioms-i-hero.png?v=2',
 
   grammarFocus: {
@@ -19,7 +19,7 @@ export const robloxIdiomsI: Lesson = {
     negativeLabel: 'LITERAL MEANING (wrong!)',
     arrowStyle: true,
     positiveExamples: [
-      { sentence: '"She levelled up her communication skills."', note: 'improved her skills significantly' },
+      { sentence: '"She leveled up her communication skills."', note: 'improved her skills significantly' },
       { sentence: '"That update was a total game-changer."', note: 'it changed everything completely' },
       { sentence: '"He is grinding every evening to pass his exams."', note: 'working hard and consistently' },
       { sentence: '"The team respawned with a new strategy after losing."', note: 'came back and tried again after a setback' },
@@ -95,7 +95,7 @@ export const robloxIdiomsI: Lesson = {
       word: 'LEVEL UP',
       partOfSpeech: 'phrasal verb',
       definition: "To improve your skills or position in a clear and noticeable way.",
-      example: "She levelled up her career by taking an evening course in data analysis — it led directly to a promotion.",
+      example: "She leveled up her career by taking an evening course in data analysis — it led directly to a promotion.",
       imageSlug: '/images/roblox-idioms-i-level-up-irl.png',
     },
     {
@@ -169,9 +169,9 @@ export const robloxIdiomsI: Lesson = {
     {
       phrase: "LEVEL OFF",
       definition: "To stop growing and stay at the same level for a while.",
-      example: "After rapid improvement in her first month, Mia's ranking levelled off — a sign she had reached her current ceiling.",
+      example: "After rapid improvement in her first month, Mia's ranking leveled off — a sign she had reached her current ceiling.",
       inGame: "Your win rate might level off after you reach a new tier — that is normal, and it means you need a new challenge.",
-      inRealLife: "Sales growth levelled off after the initial launch period — the team needed a new campaign to drive the next phase.",
+      inRealLife: "Sales growth leveled off after the initial launch period — the team needed a new campaign to drive the next phase.",
       imageSlug: '/images/roblox-idioms-i-level-off.png',
     },
     {
@@ -284,9 +284,9 @@ export const robloxIdiomsI: Lesson = {
       },
       {
         sentence: "After the failed product launch, the team _____ with a completely new strategy and a different target market.",
-        options: ["respawned", "levelled off", "ground"],
+        options: ["respawned", "leveled off", "ground"],
         correctIndex: 0,
-        explanation: "RESPAWNED means to recover and return after failure — exactly what the team did. LEVELLED OFF means to plateau or stop growing. GROUND (grinding) means doing repetitive work — not the right focus here.",
+        explanation: "RESPAWNED means to recover and return after failure — exactly what the team did. LEVELED OFF means to plateau or stop growing. GROUND (grinding) means doing repetitive work — not the right focus here.",
       },
       {
         sentence: "Getting to the top tier is not exciting — it is just _____, playing the same matches every day until the ranking moves.",
@@ -308,9 +308,9 @@ export const robloxIdiomsI: Lesson = {
       },
       {
         sentence: "After a difficult year, the company _____ — it recovered quickly and returned to growth within two quarters.",
-        options: ["bounced back", "levelled off", "started over"],
+        options: ["bounced back", "leveled off", "started over"],
         correctIndex: 0,
-        explanation: "BOUNCED BACK means to recover quickly and effectively after difficulty — exactly what the company did. LEVELLED OFF means growth stopped. STARTED OVER means abandoning the previous approach completely — not implied here.",
+        explanation: "BOUNCED BACK means to recover quickly and effectively after difficulty — exactly what the company did. LEVELED OFF means growth stopped. STARTED OVER means abandoning the previous approach completely — not implied here.",
       },
     ],
   },
@@ -351,10 +351,10 @@ export const robloxIdiomsI: Lesson = {
     {
       question: "Which sentence uses LEVEL UP correctly?",
       options: [
-        "She levelled up to the shop to buy supplies before the match.",
-        "He levelled up his presentation skills by joining a public speaking group.",
-        "The server levelled up during the maintenance window last night.",
-        "They levelled up the match by adding an extra round at the end.",
+        "She leveled up to the shop to buy supplies before the match.",
+        "He leveled up his presentation skills by joining a public speaking group.",
+        "The server leveled up during the maintenance window last night.",
+        "They leveled up the match by adding an extra round at the end.",
       ],
       correctIndex: 1,
     },

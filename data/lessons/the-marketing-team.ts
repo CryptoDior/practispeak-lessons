@@ -185,7 +185,7 @@ export const theMarketingTeam: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'It sounds like a well-organised team. Who is the [[head:the person in charge of a department or team]] of the whole department?',
+      text: 'It sounds like a well-organized team. Who is the [[head:the person in charge of a department or team]] of the whole department?',
     },
     {
       speaker: 'Riley',

@@ -5,7 +5,7 @@ export const writingForTheCSuite: Lesson = {
   title: 'Writing for the C-Suite',
   subtitle: 'How to write communications that senior leaders actually read — and act on',
   level: 'C1-C2',
-  description: 'C-suite executives have almost no time and very little patience for writing that isn\'t immediately clear. They read fast, decide fast, and delete fast. To communicate at the top of an organisation, your writing needs to be short, direct, and structured around a decision — not a story. This lesson teaches the vocabulary and techniques behind executive-level business writing.',
+  description: 'C-suite executives have almost no time and very little patience for writing that isn\'t immediately clear. They read fast, decide fast, and delete fast. To communicate at the top of an organization, your writing needs to be short, direct, and structured around a decision — not a story. This lesson teaches the vocabulary and techniques behind executive-level business writing.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-for-the-c-suite-hero.png',
 
   vocabulary: [
@@ -239,7 +239,7 @@ export const writingForTheCSuite: Lesson = {
       "options": [
         "A formal legal document that records a decision that has been made",
         "A document written to help someone choose between options — with a recommendation and trade-offs",
-        "A report summarising the outcomes of a strategic planning session"
+        "A report summarizing the outcomes of a strategic planning session"
       ],
       "correctIndex": 1
     },
@@ -319,10 +319,10 @@ export const writingForTheCSuite: Lesson = {
           "explanation": "Option B leads with the recommendation and the decision — exactly the structure a C-suite audience needs. It's confident, direct, and immediately useful. Option A starts with background, which is the wrong order for executive communication. Option C signals the talk will be long before it starts, which undermines confidence."
         },
         {
-          "customerLine": "This report is twelve pages. Can you summarise it for me in two minutes?",
+          "customerLine": "This report is twelve pages. Can you summarize it for me in two minutes?",
           "options": [
             "That's difficult — there's a lot of nuance in the data that I wouldn't want you to miss.",
-            "Of course. The headline finding is that customer retention has dropped 18% in six months. The implication for the business is a projected £2.4m revenue shortfall. We recommend a retention programme starting next quarter. I can send the full report if you want the detail.",
+            "Of course. The headline finding is that customer retention has dropped 18% in six months. The implication for the business is a projected £2.4m revenue shortfall. We recommend a retention program starting next quarter. I can send the full report if you want the detail.",
             "I'll do my best — the report covers several different areas so it might take longer than two minutes to do it justice."
           ],
           "correctIndex": 1,

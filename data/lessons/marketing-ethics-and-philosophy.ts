@@ -155,7 +155,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Is the customer making a free and informed choice? The checkbox is pre-ticked and the label is in grey text at the bottom of the form. Technically the [[consent:explicit agreement to be contacted or have data used]] is there. But is it real consent if the design is built to make people miss it?",
+      text: "Is the customer making a free and informed choice? The checkbox is pre-ticked and the label is in gray text at the bottom of the form. Technically the [[consent:explicit agreement to be contacted or have data used]] is there. But is it real consent if the design is built to make people miss it?",
     },
     {
       speaker: 'Marcus',
@@ -173,7 +173,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And the retargeting — we're targeting users who looked at depression medication. Is that [[exploitation:taking advantage of someone's vulnerability to influence their behaviour]]?",
+      text: "And the retargeting — we're targeting users who looked at depression medication. Is that [[exploitation:taking advantage of someone's vulnerability to influence their behavior]]?",
     },
     {
       speaker: 'Riley',
@@ -190,7 +190,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     { "word": "autonomy", "definition": "the customer's right to make their own free and informed decisions" },
     { "word": "consent", "definition": "explicit, freely given agreement from a customer to be contacted or have their data used" },
     { "word": "dark pattern", "definition": "a design or interface intentionally created to trick users into doing something they didn't intend" },
-    { "word": "exploitation", "definition": "taking advantage of a customer's vulnerability or lack of knowledge to influence their behaviour" },
+    { "word": "exploitation", "definition": "taking advantage of a customer's vulnerability or lack of knowledge to influence their behavior" },
     { "word": "transparency", "definition": "being open and honest with customers about the product, pricing, and how their data is used" }
   ],
 
@@ -218,7 +218,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
       "options": [
         "Because pre-ticked boxes are illegal in all markets",
         "Because consent that the design is engineered to make customers miss is not truly free and informed",
-        "Because the checkbox should be in a different colour to be legally valid"
+        "Because the checkbox should be in a different color to be legally valid"
       ],
       "correctIndex": 1
     },
@@ -263,7 +263,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
         "sentence": "The design makes it nearly impossible to cancel a subscription. That's a _____ — it violates the user's right to choose freely.",
         "options": ["dark pattern", "UX error", "legal risk"],
         "correctIndex": 0,
-        "explanation": "'Dark pattern' is the specific term for a design or interface element intentionally engineered to manipulate user behaviour — making it difficult to cancel, hiding important information, or obscuring choices. 'UX error' implies an unintentional design mistake, which is different from a deliberate dark pattern. 'Legal risk' describes a consequence, not the design practice itself. When a design is intentionally built to prevent users from making choices freely, it's a 'dark pattern'."
+        "explanation": "'Dark pattern' is the specific term for a design or interface element intentionally engineered to manipulate user behavior — making it difficult to cancel, hiding important information, or obscuring choices. 'UX error' implies an unintentional design mistake, which is different from a deliberate dark pattern. 'Legal risk' describes a consequence, not the design practice itself. When a design is intentionally built to prevent users from making choices freely, it's a 'dark pattern'."
       },
       {
         "sentence": "Sending emails to people who didn't explicitly agree to receive them violates their _____. They didn't freely choose to hear from us.",
@@ -275,7 +275,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
         "sentence": "Forget what is legal. Ask what a company of good character would do. That's the _____ ethics test.",
         "options": ["virtue", "moral", "character"],
         "correctIndex": 0,
-        "explanation": "'Virtue ethics' is the specific philosophical tradition that evaluates actions based on the character of the actor — asking what a person or organisation of good values would do, rather than what produces the best outcome or follows a specific rule. 'Moral' is an adjective, not a specific ethical framework. 'Character' describes the concept but is not the name of the framework. When asking 'what kind of company do we want to be?', the framework is 'virtue ethics'."
+        "explanation": "'Virtue ethics' is the specific philosophical tradition that evaluates actions based on the character of the actor — asking what a person or organization of good values would do, rather than what produces the best outcome or follows a specific rule. 'Moral' is an adjective, not a specific ethical framework. 'Character' describes the concept but is not the name of the framework. When asking 'what kind of company do we want to be?', the framework is 'virtue ethics'."
       },
       {
         "sentence": "The brand is entirely _____: it shows the full price before checkout, explains data usage clearly, and never hides terms in small print.",
@@ -300,7 +300,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
           "customerLine": "We're targeting users based on their health data to promote our wellness app. Is that acceptable?",
           "options": [
             "If users consented to data use in the terms and conditions, it's probably fine.",
-            "That raises serious ethical concerns. Health data is sensitive — people shared it for a health purpose, not to receive advertising. Even if the consent was technically obtained, we need to ask whether users would feel their autonomy was respected if they understood how their data was being used. I'd recommend a clear, specific consent mechanism that explains the exact use — and a review of whether we want to be the kind of company that monetises health data this way.",
+            "That raises serious ethical concerns. Health data is sensitive — people shared it for a health purpose, not to receive advertising. Even if the consent was technically obtained, we need to ask whether users would feel their autonomy was respected if they understood how their data was being used. I'd recommend a clear, specific consent mechanism that explains the exact use — and a review of whether we want to be the kind of company that monetizes health data this way.",
             "It depends on the regulations in each market — get legal to check."
           ],
           "correctIndex": 1,
@@ -309,7 +309,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
         {
           "customerLine": "The ad performs better when we create urgency — 'Offer ends tonight!' We've been doing it for years.",
           "options": [
-            "If the offer genuinely ends tonight, urgency is legitimate persuasion. If it doesn't, it's manipulation. The test is whether it's true. 'We've been doing it for years' is not a defence — it just means we've been doing it for years.",
+            "If the offer genuinely ends tonight, urgency is legitimate persuasion. If it doesn't, it's manipulation. The test is whether it's true. 'We've been doing it for years' is not a defense — it just means we've been doing it for years.",
             "Urgency is a standard marketing tactic — every brand uses it.",
             "As long as it's disclosed in the terms somewhere, it's legally defensible."
           ],
@@ -324,7 +324,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
             "If they're doing it and staying competitive, we probably need to consider it."
           ],
           "correctIndex": 1,
-          "explanation": "Option B applies the virtue ethics test explicitly, rejects the competitive norm argument, and adds a practical forward-looking point about regulatory risk. This is a complete ethical and strategic answer. Option A delays rather than answers. Option C uses competitive behaviour as justification, which is circular reasoning — if competitors are behaving badly, that doesn't make it right."
+          "explanation": "Option B applies the virtue ethics test explicitly, rejects the competitive norm argument, and adds a practical forward-looking point about regulatory risk. This is a complete ethical and strategic answer. Option A delays rather than answers. Option C uses competitive behavior as justification, which is circular reasoning — if competitors are behaving badly, that doesn't make it right."
         }
       ]
     },
@@ -368,9 +368,9 @@ export const marketingEthicsAndPhilosophy: Lesson = {
           "suggestedCompletion": "the kind of company we want to be? Customers who can't leave easily and feel trapped will churn with hostility — they'll write bad reviews and warn others. The short-term conversion gain becomes a long-term brand and retention problem. The better investment is making the product good enough that people choose to stay. That's the sustainable model."
         },
         {
-          "customerLine": "The team is debating whether personalised advertising is ethical. What do you think?",
-          "salespersonStart": "It depends on how it's done. There's a meaningful difference between personalisation that shows relevant products based on stated preferences — which respects autonomy and is genuinely useful — and personalisation that exploits behavioural data users didn't knowingly provide, targets emotional vulnerabilities, or manipulates decisions. The ethical test is...",
-          "suggestedCompletion": "whether the customer would feel respected or used if they fully understood how the personalisation worked. If the answer is 'used', we have a problem. Personalisation based on explicit preferences and transparent data use can be a genuine service. Personalisation that relies on covert data collection and psychological targeting crosses into manipulation. The distinction matters and we should be on the right side of it."
+          "customerLine": "The team is debating whether personalized advertising is ethical. What do you think?",
+          "salespersonStart": "It depends on how it's done. There's a meaningful difference between personalization that shows relevant products based on stated preferences — which respects autonomy and is genuinely useful — and personalization that exploits behavioural data users didn't knowingly provide, targets emotional vulnerabilities, or manipulates decisions. The ethical test is...",
+          "suggestedCompletion": "whether the customer would feel respected or used if they fully understood how the personalization worked. If the answer is 'used', we have a problem. Personalization based on explicit preferences and transparent data use can be a genuine service. Personalization that relies on covert data collection and psychological targeting crosses into manipulation. The distinction matters and we should be on the right side of it."
         },
         {
           "customerLine": "Isn't all marketing manipulation — you're always trying to influence what people buy?",

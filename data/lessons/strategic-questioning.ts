@@ -209,7 +209,7 @@ export const strategicQuestioning: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'Honestly? I think the top performers personalise their proposals far more. The rest follow a standard template and hope for the best.',
+      text: 'Honestly? I think the top performers personalize their proposals far more. The rest follow a standard template and hope for the best.',
     },
     {
       speaker: 'Riley',
@@ -308,7 +308,7 @@ export const strategicQuestioning: Lesson = {
         "question": "What hypothesis does Riley offer about the top-performing reps?",
         "options": [
             "They have more industry experience than the rest of the team",
-            "They personalise their proposals more — and the gap is learnable",
+            "They personalize their proposals more — and the gap is learnable",
             "They work with easier accounts and larger budgets"
         ],
         "correctIndex": 1

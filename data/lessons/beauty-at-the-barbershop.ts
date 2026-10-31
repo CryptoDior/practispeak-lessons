@@ -75,7 +75,7 @@ export const beautyAtTheBarbershop: Lesson = {
   ],
 
   multipleChoiceExercise: [
-    { question: 'What is a "fade"?', options: ['A hair colour', 'A haircut shorter from top to bottom', 'A beard style', 'A shampoo'], correctIndex: 1 },
+    { question: 'What is a "fade"?', options: ['A hair color', 'A haircut shorter from top to bottom', 'A beard style', 'A shampoo'], correctIndex: 1 },
     { question: 'What does a "number one" usually mean?', options: ['Very short', 'Very long', 'No cut', 'Only the beard'], correctIndex: 0 },
     { question: 'What tool has a sharp blade?', options: ['Clippers', 'Razor', 'Shampoo', 'Comb'], correctIndex: 1 },
     { question: 'In the dialogue, why does Oliver want to look sharp?', options: ['A job interview', 'A wedding', 'A party', 'A photo'], correctIndex: 1 },

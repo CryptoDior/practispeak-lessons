@@ -101,7 +101,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       phrase: 'WHO ELSE NEEDS TO SEE THIS',
       definition: 'A question asking which other people should be involved in the decision.',
-      example: 'Who else needs to see this before we finalise the contract?',
+      example: 'Who else needs to see this before we finalize the contract?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-selling-to-different-decision-makers-who-else-needs-to-see.png',
     }
   ],
@@ -167,13 +167,13 @@ export const sellingToDifferentDecisionMakers: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'That is exactly where I can help you. You are the [[champion:someone inside the organisation who advocates for a solution internally]] here — and my job is to make sure you have everything you need to have each of those conversations without me in the room. I can prepare a one-page summary for the CFO in her language, a brief for your CEO that uses the competitive framing, and a rollout proposal for your team leads that addresses the adoption concern directly.',
+      text: 'That is exactly where I can help you. You are the [[champion:someone inside the organization who advocates for a solution internally]] here — and my job is to make sure you have everything you need to have each of those conversations without me in the room. I can prepare a one-page summary for the CFO in her language, a brief for your CEO that uses the competitive framing, and a rollout proposal for your team leads that addresses the adoption concern directly.',
     },
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'That would actually be very useful. Who else do you typically need to speak to in organisations like ours?',
+      text: 'That would actually be very useful. Who else do you typically need to speak to in organizations like ours?',
     },
     {
       speaker: 'Riley',
@@ -206,7 +206,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     },
     {
         "word": "CHAMPION",
-        "definition": "Someone inside the prospect's organisation who advocates for your solution in conversations you are not in — the most underused asset in complex selling"
+        "definition": "Someone inside the prospect's organization who advocates for your solution in conversations you are not in — the most underused asset in complex selling"
     },
     {
         "word": "ROI",
@@ -285,7 +285,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
         "question": "Riley suggests starting the rollout with two or three senior users rather than the whole team. What principle is behind this approach?",
         "options": [
-            "It reduces the implementation cost by limiting the initial licence count",
+            "It reduces the implementation cost by limiting the initial license count",
             "Senior users have formal authority to approve tools on behalf of the team",
             "Influence within a team often travels from senior users downward — if respected voices adopt and endorse the tool, the rest of the team follows; if you start with everyone and hit resistance, the first friction point becomes the defining story",
             "Starting with a smaller group makes the adoption metrics look stronger in the first reporting period"
@@ -297,7 +297,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
         "options": [
             "Because Marcus has limited time and cannot be expected to prepare all the materials himself",
             "Because Marcus is her champion — he will be having conversations about the product in rooms she is not in, and equipping him with the right language and format for each audience is what makes those conversations effective",
-            "Because each document needs to be customised with financial projections specific to each stakeholder's budget",
+            "Because each document needs to be customized with financial projections specific to each stakeholder's budget",
             "Because the company requires all stakeholder communications to go through a single internal advocate to avoid conflicting messages"
         ],
         "correctIndex": 1
@@ -325,7 +325,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
         "question": "What does what does success look like for you accomplish that a standard opening pitch does not?",
         "options": [
-            "It allows the salesperson to delay the pitch until they have gathered enough information to make it more personalised",
+            "It allows the salesperson to delay the pitch until they have gathered enough information to make it more personalized",
             "It surfaces the specific definition of success this stakeholder holds — before the salesperson assumes it from their job title — allowing the conversation to address what actually matters to them rather than what usually matters to someone in that role",
             "It signals that the salesperson is interested in the prospect's goals rather than their own quota, which builds rapport",
             "It is a standard opening technique that works equally well with all audiences and should be used in every sales conversation"
@@ -337,7 +337,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
         "options": [
             "Because people with influence often have access to the formal decision-maker that the salesperson does not",
             "Because a person with significant influence — such as a senior user or a Head of IT — can effectively block or undermine a decision that has already been formally approved, making their buy-in as important as the decision-maker's",
-            "Because formal authority in large organisations is often delegated, making it difficult to identify who actually holds it",
+            "Because formal authority in large organizations is often delegated, making it difficult to identify who actually holds it",
             "Because mapping influence is faster than mapping the formal hierarchy and gives a quicker path to a decision"
         ],
         "correctIndex": 1
@@ -373,18 +373,18 @@ export const sellingToDifferentDecisionMakers: Lesson = {
             "answer": "proposition"
         },
         {
-            "before": "---\n\nFOR YOUR HEAD OF IT\n\nI am attaching the security and integration documentation separately. The key concern in organisations of your size is usually data residency and single sign-on. Both are covered in the standard configuration. I would like to set up a thirty-minute technical call this week — not to pitch, but to understand your specific priorities and constraints so that I can confirm compatibility before your review begins. If there are specific compliance requirements — ISO 27001, SOC 2, GDPR — they are all addressed in the DPA. Your technical team carries significant",
+            "before": "---\n\nFOR YOUR HEAD OF IT\n\nI am attaching the security and integration documentation separately. The key concern in organizations of your size is usually data residency and single sign-on. Both are covered in the standard configuration. I would like to set up a thirty-minute technical call this week — not to pitch, but to understand your specific priorities and constraints so that I can confirm compatibility before your review begins. If there are specific compliance requirements — ISO 27001, SOC 2, GDPR — they are all addressed in the DPA. Your technical team carries significant",
             "after": "in this decision, and I want to make sure their concerns are addressed directly rather than filtered through the commercial conversation.",
             "answer": "influence"
         },
         {
-            "before": "---\n\nFOR PROCUREMENT AND IT\n\nI am attaching the full contract terms, the data processing agreement, and the technical security documentation. I have flagged the three sections that most commonly require review in organisations of your size. My goal is to make the procurement process straightforward — I want your legal and IT teams to have everything they need now so that their review runs in parallel with the commercial conversation rather than after it. If there are specific",
-            "after": "s in your organisation — compliance, legal, information security — who need to be involved, please introduce me now rather than at the end. I would rather surface those conversations early.",
+            "before": "---\n\nFOR PROCUREMENT AND IT\n\nI am attaching the full contract terms, the data processing agreement, and the technical security documentation. I have flagged the three sections that most commonly require review in organizations of your size. My goal is to make the procurement process straightforward — I want your legal and IT teams to have everything they need now so that their review runs in parallel with the commercial conversation rather than after it. If there are specific",
+            "after": "s in your organization — compliance, legal, information security — who need to be involved, please introduce me now rather than at the end. I would rather surface those conversations early.",
             "answer": "stakeholder"
         },
         {
             "before": "---\n\nA NOTE FOR YOU, MARCUS\n\nYou are the person holding this conversation together internally — and I want to make sure you have everything you need for each of these conversations without me in the room. You are effectively my",
-            "after": "inside the organisation, and my job is to make that as easy as possible for you. If any of the sections above need adjusting in tone or emphasis for your specific audiences, let me know and I will revise before you share.\n\nRiley",
+            "after": "inside the organization, and my job is to make that as easy as possible for you. If any of the sections above need adjusting in tone or emphasis for your specific audiences, let me know and I will revise before you share.\n\nRiley",
             "answer": "champion"
         }
     ]
@@ -467,7 +467,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
                     "Say: From a business perspective, the strategic case is that two companies in your sector started this in Q3 and are now in the compounding phase of the efficiency gain. The window for early-mover advantage is narrowing."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. A CFO needs a specific, stress-testable financial model — not an average statistic or a category claim. A gives averages and an NPS score that a CFO will dismiss as marketing. C gives a competitive positioning argument that belongs in the CEO conversation, not the CFO's. B gives the specific numbers this organisation can evaluate, offers to send a model the CFO can interrogate, and speaks the language of financial decision-making: cost, contract value, and recovery timeline."
+                "explanation": "B is correct. A CFO needs a specific, stress-testable financial model — not an average statistic or a category claim. A gives averages and an NPS score that a CFO will dismiss as marketing. C gives a competitive positioning argument that belongs in the CEO conversation, not the CFO's. B gives the specific numbers this organization can evaluate, offers to send a model the CFO can interrogate, and speaks the language of financial decision-making: cost, contract value, and recovery timeline."
             },
             {
                 "customerLine": "An end user says: Will this make my job harder or easier?",
@@ -493,7 +493,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
                 "customerLine": "Your champion messages you: The CFO asked me about the contract terms today and I was not sure how to answer. She wanted to know about what happens if there is downtime.",
                 "options": [
                     "Send your champion a message: The SLA includes financial penalties for any downtime above 0.1%. Let me know if you need anything else.",
-                    "Send your champion a message: Here is exactly what to say to the CFO on the downtime question: the contract includes a service level agreement with financial penalties for downtime above 0.1% — this means the financial risk of underperformance sits with us, not with your organisation. I am also attaching a one-page SLA summary in plain language she can review directly. Do you want me to join a call with her this week so she can ask questions directly? That might be easier than relaying back and forth.",
+                    "Send your champion a message: Here is exactly what to say to the CFO on the downtime question: the contract includes a service level agreement with financial penalties for downtime above 0.1% — this means the financial risk of underperformance sits with us, not with your organization. I am also attaching a one-page SLA summary in plain language she can review directly. Do you want me to join a call with her this week so she can ask questions directly? That might be easier than relaying back and forth.",
                     "Send the CFO a direct email: I understand you had some questions about the contract terms — I wanted to reach out directly to answer them rather than passing information through Marcus."
                 ],
                 "correctIndex": 1,
@@ -516,7 +516,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
             },
             {
                 "name": "Elena — Head of Procurement",
-                "description": "Elena's job is to protect the organisation from vendor risk. She needs to know that the contract is clean, the data handling is compliant, and there is financial recourse if the vendor underperforms. She does not attend product conversations.",
+                "description": "Elena's job is to protect the organization from vendor risk. She needs to know that the contract is clean, the data handling is compliant, and there is financial recourse if the vendor underperforms. She does not attend product conversations.",
                 "matchKey": "procurement-message"
             }
         ],
@@ -534,7 +534,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
             {
                 "key": "procurement-message",
                 "label": "The contract is clean and the risk is bounded",
-                "description": "Here is the full contract, the data processing agreement, and the security documentation — flagged for the three sections that most commonly require review. The SLA includes financial penalties for downtime above 0.1%. The DPA has been approved by legal teams at similar organisations without custom negotiation. I want your review to start today, not at the end of the commercial conversation."
+                "description": "Here is the full contract, the data processing agreement, and the security documentation — flagged for the three sections that most commonly require review. The SLA includes financial penalties for downtime above 0.1%. The DPA has been approved by legal teams at similar organizations without custom negotiation. I want your review to start today, not at the end of the commercial conversation."
             }
         ]
     },

@@ -3,7 +3,7 @@ import { Lesson } from '@/types/lesson';
 export const performanceMarketingMastery: Lesson = {
   slug: 'performance-marketing-mastery',
   title: 'Performance Marketing Mastery',
-  subtitle: 'How to measure, optimise, and report on full-funnel performance marketing',
+  subtitle: 'How to measure, optimize, and report on full-funnel performance marketing',
   level: 'C1-C2',
   description: "Performance marketing is where strategy meets accountability. At the C1 level, it is not enough to know how to run a campaign — you need to know how to attribute results correctly, understand what is truly driving growth versus what looks good on a dashboard, and build a measurement framework that survives scrutiny from the CFO. This lesson covers the advanced vocabulary of performance marketing: attribution, incrementality, blended CAC, ROAS, and the frameworks that separate insight from noise.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/performance-marketing-mastery-hero.png',
@@ -52,10 +52,10 @@ export const performanceMarketingMastery: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/performance-marketing-mastery-acquisition-cost-recovered-month-six.png',
     },
     {
-      word: 'Media mix modelling',
+      word: 'Media mix modeling',
       partOfSpeech: 'noun',
       definition: 'Using past data to see how each channel affects sales.',
-      example: 'Media mix modelling showed that TV still works for us.',
+      example: 'Media mix modeling showed that TV still works for us.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/performance-marketing-mastery-historical-model-tv-contribution.png',
     },
     {
@@ -167,7 +167,7 @@ export const performanceMarketingMastery: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "[[Media mix modelling:a statistical method that uses historical data to measure how different channels contribute to overall business outcomes]] — it uses aggregate data to show the impact of channels you cannot track at the individual level. Markets where we run TV consistently outperform by 15%. That is the evidence.",
+      text: "[[Media mix modeling:a statistical method that uses historical data to measure how different channels contribute to overall business outcomes]] — it uses aggregate data to show the impact of channels you cannot track at the individual level. Markets where we run TV consistently outperform by 15%. That is the evidence.",
     },
     {
       speaker: 'Marcus',
@@ -190,7 +190,7 @@ export const performanceMarketingMastery: Lesson = {
     { word: 'blended CAC', definition: 'the average cost to acquire one new customer across all channels combined' },
     { word: 'ROAS', definition: 'Return On Ad Spend — revenue generated for every pound spent on advertising' },
     { word: 'payback period', definition: 'the time it takes for a customer to generate enough revenue to cover their acquisition cost' },
-    { word: 'media mix modelling', definition: 'a statistical method that uses historical data to measure how different channels contribute to overall outcomes' },
+    { word: 'media mix modeling', definition: 'a statistical method that uses historical data to measure how different channels contribute to overall outcomes' },
     { word: 'full-funnel measurement', definition: 'tracking performance across every stage of the customer journey from awareness to retention' }
   ],
 
@@ -221,7 +221,7 @@ export const performanceMarketingMastery: Lesson = {
     },
     {
       question: "How does Riley suggest measuring the contribution of TV in markets where individual tracking is impossible?",
-      options: ["Track self-reported attribution in post-purchase surveys", "Use media mix modelling — aggregate data showing that TV markets consistently outperform by 15%", "Reduce TV spend and redirect to trackable digital channels"],
+      options: ["Track self-reported attribution in post-purchase surveys", "Use media mix modeling — aggregate data showing that TV markets consistently outperform by 15%", "Reduce TV spend and redirect to trackable digital channels"],
       correctIndex: 1
     }
   ],
@@ -262,10 +262,10 @@ export const performanceMarketingMastery: Lesson = {
         explanation: "'Profitable' is the correct word because ROAS only measures revenue return on ad spend — it does not account for cost of goods, fulfilment, customer service, or returns. A high ROAS on a low-margin product can result in unprofitability. 'Growing' and 'efficient' are not the right contrast — the specific gap in ROAS is profitability."
       },
       {
-        sentence: "Media mix modelling uses _____ data to measure the contribution of channels like TV that cannot be tracked at the individual level.",
+        sentence: "Media mix modeling uses _____ data to measure the contribution of channels like TV that cannot be tracked at the individual level.",
         options: ["aggregate", "historical", "statistical"],
         correctIndex: 0,
-        explanation: "'Aggregate data' is the specific term here — media mix modelling works by looking at market-level or regional-level data in aggregate (not individual user data) to find the correlation between media investment and business outcomes. While 'historical' is also true (it uses historical data), 'aggregate' is the more precise and technically relevant descriptor for why the method works for channels like TV."
+        explanation: "'Aggregate data' is the specific term here — media mix modeling works by looking at market-level or regional-level data in aggregate (not individual user data) to find the correlation between media investment and business outcomes. While 'historical' is also true (it uses historical data), 'aggregate' is the more precise and technically relevant descriptor for why the method works for channels like TV."
       },
       {
         sentence: "Let's look at this through a full-_____ lens — from awareness all the way through to retention.",

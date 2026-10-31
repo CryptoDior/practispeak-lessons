@@ -153,7 +153,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       phrase: "BREAK THROUGH",
       definition: "Force your way through or past something that is blocking you.",
-      example: "We broke through the enemy's defence line and reached the flag in under thirty seconds.",
+      example: "We broke through the enemy's defense line and reached the flag in under thirty seconds.",
       inGame: "Break through the first barrier quickly — the longer you wait, the more players surround it.",
       inRealLife: "The scientist finally broke through after years of failed experiments — the result changed everything.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-prepositions-place-movement-phrases-break-through.png',

@@ -16,7 +16,7 @@ export const diningRestaurantInquiries: Lesson = {
   objectives: [
     'Ask about specials and house specialities.',
     'Explain dietary needs and allergies clearly.',
-    'Ask to customise a dish and make polite requests.',
+    'Ask to customize a dish and make polite requests.',
   ],
 
   // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
@@ -63,7 +63,7 @@ export const diningRestaurantInquiries: Lesson = {
     { word: 'VEGETARIAN', partOfSpeech: 'noun', definition: 'Someone who doesn\'t eat meat or fish, but usually eats eggs and dairy.', example: 'Is the soup vegetarian?', imageSlug: img('soup-vegetarian-question') },
     { word: 'ALLERGIC', partOfSpeech: 'adjective', definition: 'When your body reacts badly to certain things, like nuts.', example: "I'm allergic to peanuts.", imageSlug: img('disclosing-peanut-allergy') },
     { word: 'CONDIMENTS', partOfSpeech: 'noun', definition: 'Things like ketchup or mustard that you add to food.', example: 'The condiments are on the table.', imageSlug: img('table-condiment-set') },
-    { word: 'SAUCE', partOfSpeech: 'noun', definition: 'A liquid served with food to add flavour.', example: 'Could I have the sauce on the side?', imageSlug: img('sauce-separate-bowl-request') },
+    { word: 'SAUCE', partOfSpeech: 'noun', definition: 'A liquid served with food to add flavor.', example: 'Could I have the sauce on the side?', imageSlug: img('sauce-separate-bowl-request') },
     { word: 'DISH', partOfSpeech: 'noun', definition: 'Food prepared in a particular way and served on a plate.', example: "What's the most popular dish here?", imageSlug: img('popular-dish-inquiry') },
     { word: 'RESTROOM', partOfSpeech: 'noun', definition: 'A room with a toilet in a public place. (UK: toilets)', example: 'Excuse me, where is the restroom?', imageSlug: img('asking-restroom-location') },
   ],
@@ -73,7 +73,7 @@ export const diningRestaurantInquiries: Lesson = {
     { phrase: 'Could you tell me more about this dish?', tag: 'phrase', definition: 'Ask for details about a menu item.', example: '"Could you tell me more about this dish — the seafood risotto?"', imageSlug: img('asking-seafood-risotto-details') },
     { phrase: 'Are there any vegetarian / vegan options?', tag: 'phrase', definition: 'Ask about meat-free or animal-free food.', example: '"My friend is vegan. Are there any vegan options?"', imageSlug: img('asking-vegan-options-for-friend') },
     { phrase: "I'm allergic to… Does this dish contain any?", tag: 'phrase', definition: 'Explain an allergy and check the ingredients.', example: '"I\'m allergic to nuts. Does this dish contain any?"', inAction: 'Always say "allergic TO": "I\'m allergic to shellfish." With allergies, it\'s good to be very clear and direct — politeness can come after.', imageSlug: img('nuts-ingredient-question-pending') },
-    { phrase: 'Can I customise this dish?', tag: 'phrase', definition: 'Ask to change something in a dish.', example: '"Can I customise this dish? No onions, extra cheese on this burger."', imageSlug: img('burger-no-onions-extra-cheese-request') },
+    { phrase: 'Can I customize this dish?', tag: 'phrase', definition: 'Ask to change something in a dish.', example: '"Can I customize this dish? No onions, extra cheese on this burger."', imageSlug: img('burger-no-onions-extra-cheese-request') },
     { phrase: 'Could I have the sauce on the side?', tag: 'phrase', definition: 'Ask for the sauce in a separate small bowl.', example: '"Could I have the sauce on the side, please — the dressing?"', imageSlug: img('salad-dressing-separate-request') },
     { phrase: 'What are your house specialities?', tag: 'phrase', definition: 'Ask what the restaurant is famous for.', example: '"It\'s our first time here. What are your house specialities?"', imageSlug: img('first-visit-house-specialities') },
   ],
@@ -85,7 +85,7 @@ export const diningRestaurantInquiries: Lesson = {
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Thank you. First, what are the daily [[specials:dishes offered only today]]?" },
     { speaker: 'Waiter', speakerColor: 'orange', text: "Today we have a lamb tagine and a mushroom and spinach lasagne." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Could you tell me more about the lasagne? My friend is [[vegetarian:doesn't eat meat or fish]]." },
-    { speaker: 'Waiter', speakerColor: 'orange', text: "It's completely vegetarian, with ricotta and a tomato [[sauce:liquid for flavour]]. We can also make it [[gluten-free:without wheat protein]]." },
+    { speaker: 'Waiter', speakerColor: 'orange', text: "It's completely vegetarian, with ricotta and a tomato [[sauce:liquid for flavor]]. We can also make it [[gluten-free:without wheat protein]]." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Perfect. And I'm [[allergic:my body reacts badly]] to nuts. Does the tagine contain any?" },
     { speaker: 'Waiter', speakerColor: 'orange', text: "It has almonds on top, but the chef can leave them out." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Great, I'll have the tagine without almonds, please — and could I have the yoghurt on the side?" },

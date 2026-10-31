@@ -19,7 +19,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       word: 'RAPID RESPONSE',
       partOfSpeech: 'noun',
-      definition: 'A fast, organised reaction to a problem.',
+      definition: 'A fast, organized reaction to a problem.',
       example: 'Our rapid response team replied within an hour.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crisis-pr-at-the-highest-level-organised-reply-within-hour.png',
     },
@@ -62,7 +62,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
       word: 'ACCOUNTABILITY',
       partOfSpeech: 'noun',
       definition: 'Taking responsibility for what happened.',
-      example: 'The CEO showed accountability by apologising in person.',
+      example: 'The CEO showed accountability by apologizing in person.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crisis-pr-at-the-highest-level-ceo-personal-apology.png',
     }
   ],
@@ -131,7 +131,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "We're almost out of our [[rapid response:a fast, organised reaction to a situation before media fills the silence]] window. We need a [[holding statement:a short public statement made while facts are still being investigated]] out in the next 30 minutes. Do not wait for the full facts.",
+      text: "We're almost out of our [[rapid response:a fast, organized reaction to a situation before media fills the silence]] window. We need a [[holding statement:a short public statement made while facts are still being investigated]] out in the next 30 minutes. Do not wait for the full facts.",
     },
     {
       speaker: 'Marcus',
@@ -197,7 +197,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
 
   matchingExercise: [
     { "word": "crisis playbook", "definition": "a pre-written plan for what to do and say when a crisis hits" },
-    { "word": "rapid response", "definition": "a fast, organised reaction before the media fills the silence" },
+    { "word": "rapid response", "definition": "a fast, organized reaction before the media fills the silence" },
     { "word": "media storm", "definition": "an intense period when many outlets cover the same negative story" },
     { "word": "class action", "definition": "a lawsuit where many customers with the same complaint sue together" },
     { "word": "narrative", "definition": "the story people tell about what happened — which version sticks" },
@@ -275,7 +275,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
         "sentence": "In crisis PR, you have a two-hour window for _____ — after that, the media writes their own version.",
         "options": ["rapid response", "immediate response", "fast communication"],
         "correctIndex": 0,
-        "explanation": "'Rapid response' is the professional PR term for the organised, fast reaction to a developing story. It is a specific concept in crisis communications — it includes the holding statement, media briefings, and social media management within a short window. 'Immediate response' and 'fast communication' are informal descriptions, not professional terms."
+        "explanation": "'Rapid response' is the professional PR term for the organized, fast reaction to a developing story. It is a specific concept in crisis communications — it includes the holding statement, media briefings, and social media management within a short window. 'Immediate response' and 'fast communication' are informal descriptions, not professional terms."
       },
       {
         "sentence": "Don't say 'mistakes were made'. That sounds evasive. Use _____ language: 'We take full responsibility.'",
@@ -299,7 +299,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
         "sentence": "The story is spreading fast. Our _____ is to make sure our honest version reaches the public before anyone else's version sticks.",
         "options": ["priority", "goal", "objective"],
         "correctIndex": 0,
-        "explanation": "'Our priority right now is...' is the standard crisis PR phrase for signalling what the company is focusing on. In a press conference or crisis statement, 'priority' is the most natural and widely understood word. 'Goal' and 'objective' suggest longer-term planning and are less appropriate for a live crisis situation."
+        "explanation": "'Our priority right now is...' is the standard crisis PR phrase for signaling what the company is focusing on. In a press conference or crisis statement, 'priority' is the most natural and widely understood word. 'Goal' and 'objective' suggest longer-term planning and are less appropriate for a live crisis situation."
       }
     ]
   },

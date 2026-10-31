@@ -40,14 +40,14 @@ export const theFootballPitch: Lesson = {
     {
       word: 'TOUCHLINE',
       partOfSpeech: 'noun',
-      definition: 'The line on the side of the pitch.',
+      definition: 'The line on the side of the pitch. (US: sideline)',
       example: 'The ball went over the touchline.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/touchline.png',
     },
     {
       word: 'PITCH',
       partOfSpeech: 'noun',
-      definition: 'The field where football is played.',
+      definition: 'The field where football is played. (US: field)',
       example: 'The players walked onto the pitch.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-football-pitch-pitch.png',
     },
@@ -70,7 +70,7 @@ export const theFootballPitch: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'ON THE PITCH',
-      definition: 'On the playing field during a match.',
+      definition: 'On the playing field during a match. (US: on the field)',
       example: 'There are twenty-two players on the pitch.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-football-pitch-on-the-pitch.png',
     },
@@ -100,7 +100,7 @@ export const theFootballPitch: Lesson = {
     },
     {
       phrase: 'OFF THE PITCH',
-      definition: 'Outside the playing area.',
+      definition: 'Outside the playing area. (US: off the field)',
       example: 'The manager shouts instructions from off the pitch.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/off-the-pitch.png',
     },

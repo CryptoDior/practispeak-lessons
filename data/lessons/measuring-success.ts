@@ -113,7 +113,7 @@ export const measuringSuccess: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Marcus, thank you for joining the monthly [[report:a document summarising what happened in a campaign]] review. Let me start with our three main [[KPI:Key Performance Indicator — a metric used to evaluate goal achievement]] s.',
+      text: 'Marcus, thank you for joining the monthly [[report:a document summarizing what happened in a campaign]] review. Let me start with our three main [[KPI:Key Performance Indicator — a metric used to evaluate goal achievement]] s.',
     },
     {
       speaker: 'Marcus',
@@ -185,7 +185,7 @@ export const measuringSuccess: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Absolutely — LinkedIn drove 70% of leads, email 25%, organic search 5%. I will include a full channel breakdown in the written [[report:a document summarising campaign performance]]. I will send it this afternoon.',
+      text: 'Absolutely — LinkedIn drove 70% of leads, email 25%, organic search 5%. I will include a full channel breakdown in the written [[report:a document summarizing campaign performance]]. I will send it this afternoon.',
     }
   ],
 
@@ -216,7 +216,7 @@ export const measuringSuccess: Lesson = {
     },
     {
         "word": "REPORT",
-        "definition": "A document summarising what happened in a campaign — including results, insights, and next steps"
+        "definition": "A document summarizing what happened in a campaign — including results, insights, and next steps"
     },
     {
         "word": "INSIGHT",
@@ -415,7 +415,7 @@ export const measuringSuccess: Lesson = {
                 "report"
             ],
             "correctIndex": 0,
-            "explanation": "Metric is a measurable number used to track performance. Insight is a conclusion drawn from data. Report is the document summarising results. All KPIs are metrics, but not all metrics are KPIs — a KPI is specifically chosen because it measures progress towards a key business goal."
+            "explanation": "Metric is a measurable number used to track performance. Insight is a conclusion drawn from data. Report is the document summarizing results. All KPIs are metrics, but not all metrics are KPIs — a KPI is specifically chosen because it measures progress towards a key business goal."
         }
     ]
 },
@@ -464,7 +464,7 @@ export const measuringSuccess: Lesson = {
             },
             {
                 "speaker": "Report",
-                "text": "This report summarises the results of our Q3 LinkedIn and email campaign."
+                "text": "This report summarizes the results of our Q3 LinkedIn and email campaign."
             },
             {
                 "speaker": "Report",
@@ -480,7 +480,7 @@ export const measuringSuccess: Lesson = {
             },
             {
                 "speaker": "Report",
-                "text": "We recommend shifting more budget to video content in Q4 to maximise performance."
+                "text": "We recommend shifting more budget to video content in Q4 to maximize performance."
             }
         ],
         "mistakes": [
@@ -520,7 +520,7 @@ export const measuringSuccess: Lesson = {
             {
                 "customerLine": "Client: 'The report shows good numbers but I do not feel like our brand is becoming more well-known. What is missing?'",
                 "salespersonStart": "That is a really important distinction — metrics and brand perception are different things.",
-                "suggestedCompletion": "Metrics like clicks and leads measure direct response — they tell you what happened. Brand awareness is slower to build and harder to measure in the short term. The insight here is that we may be optimising for conversions when we should also be investing in content that builds recognition — thought leadership, opinion posts, and stories that make people feel they know your brand before they ever need your services. I would suggest we add one brand-awareness KPI to our next quarter — for example, unprompted brand mentions or the number of people who respond 'yes' to 'have you heard of us?' at trade shows."
+                "suggestedCompletion": "Metrics like clicks and leads measure direct response — they tell you what happened. Brand awareness is slower to build and harder to measure in the short term. The insight here is that we may be optimizing for conversions when we should also be investing in content that builds recognition — thought leadership, opinion posts, and stories that make people feel they know your brand before they ever need your services. I would suggest we add one brand-awareness KPI to our next quarter — for example, unprompted brand mentions or the number of people who respond 'yes' to 'have you heard of us?' at trade shows."
             }
         ]
     }

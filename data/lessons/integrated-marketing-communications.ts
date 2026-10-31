@@ -20,7 +20,7 @@ export const integratedMarketingCommunications: Lesson = {
       word: 'CONSISTENCY',
       partOfSpeech: 'noun',
       definition: 'Keeping the same message, tone and look everywhere customers see the brand.',
-      example: 'Consistency across all five posts makes our brand easy to recognise.',
+      example: 'Consistency across all five posts makes our brand easy to recognize.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/integrated-marketing-communications-consistency.png',
     },
     {

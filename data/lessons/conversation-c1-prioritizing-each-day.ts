@@ -15,7 +15,7 @@ export const conversationC1PrioritizingEachDay: Lesson = {
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
-    'Explain how you prioritise tasks with precise language.',
+    'Explain how you prioritize tasks with precise language.',
     'Distinguish between urgent and important work.',
     'Use vocabulary such as bandwidth, allocate, hierarchy and proactive.',
   ],
@@ -68,7 +68,7 @@ export const conversationC1PrioritizingEachDay: Lesson = {
       { speaker: 'Student', text: "No, that makes me {{reactive}}. I prefer to be {{proactive}}." },
       { speaker: 'Teacher', text: "What tasks do you try to avoid?" },
       { speaker: 'Student', text: "{{Busywork}} — tasks that look productive but don't move me forward." },
-      { speaker: 'Teacher', text: "How do you organise your list?" },
+      { speaker: 'Teacher', text: "How do you organize your list?" },
       { speaker: 'Student', text: "I create a {{hierarchy}} of tasks: three must-dos, then everything else." },
     ],
   },

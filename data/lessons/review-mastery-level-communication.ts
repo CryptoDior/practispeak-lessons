@@ -5,7 +5,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
   title: 'Review: Mastery-Level Communication',
   subtitle: 'Consolidating your C2 vocabulary across all mastery topics',
   level: 'C1-C2',
-  description: 'This review lesson brings together the key vocabulary from all 18 C2 Mastery lessons — from semiotics and board-level reporting to ethics, thought leadership, and cultural intelligence. Use it to check what you know, find the gaps, and practise using advanced vocabulary in context. By the end of this lesson, you should be able to move fluidly between topics and use C2-level language naturally in real professional conversations.',
+  description: 'This review lesson brings together the key vocabulary from all 18 C2 Mastery lessons — from semiotics and board-level reporting to ethics, thought leadership, and cultural intelligence. Use it to check what you know, find the gaps, and practice using advanced vocabulary in context. By the end of this lesson, you should be able to move fluidly between topics and use C2-level language naturally in real professional conversations.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-mastery-level-communication-hero.png',
 
   vocabulary: [
@@ -81,9 +81,9 @@ export const reviewMasteryLevelCommunication: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-mastery-level-communication-redirect-to-customer-needs-question.png',
     },
     {
-      phrase: 'LOCALISE, DON\'T JUST TRANSLATE',
+      phrase: 'LOCALIZE, DON\'T JUST TRANSLATE',
       definition: 'A rule to adapt content, not just change the language.',
-      example: 'Localise, don\'t just translate: change the examples too.',
+      example: 'Localize, don\'t just translate: change the examples too.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-mastery-level-communication-adapt-language-and-local-examples.png',
     },
     {
@@ -113,7 +113,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Riley, I've been looking back at all 18 C2 lessons. There's a lot of vocabulary. How do I know which words I've really internalised and which ones I just recognise?",
+      text: "Riley, I've been looking back at all 18 C2 lessons. There's a lot of vocabulary. How do I know which words I've really internalised and which ones I just recognize?",
     },
     {
       speaker: 'Riley',
@@ -137,7 +137,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "The dark blue colour and the geometric logo. The signified is trust, precision, and technology-forward thinking. That's what we want customers to read from it.",
+      text: "The dark blue color and the geometric logo. The signified is trust, precision, and technology-forward thinking. That's what we want customers to read from it.",
     },
     {
       speaker: 'Riley',
@@ -173,7 +173,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Localise, don't just translate. [[Transcreation:recreating a message in another language so it has the same emotional effect]] is not translation — it's recreating the emotional impact in a different language and cultural context.",
+      text: "Localize, don't just translate. [[Transcreation:recreating a message in another language so it has the same emotional effect]] is not translation — it's recreating the emotional impact in a different language and cultural context.",
     },
     {
       speaker: 'Riley',
@@ -207,7 +207,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
   ],
 
   fillBlankExercise: [
-    { "before": "The ad's logo and colour scheme are the ", "after": ". The feeling of trust they create in the viewer is the signified.", "answer": "signifier" },
+    { "before": "The ad's logo and color scheme are the ", "after": ". The feeling of trust they create in the viewer is the signified.", "answer": "signifier" },
     { "before": "Our ", "after": " is 22% but our market share is 30%. We're underinvesting — brand metrics will reflect that in 12 months.", "answer": "share of voice" },
     { "before": "The checkout has a hidden unsubscribe flow — that's ", "after": " of customer autonomy. We need to redesign it.", "answer": "violation" },
     { "before": "The strapline can't be translated word for word. It needs ", "after": " — recreating the emotional impact in French.", "answer": "transcreation" },
@@ -248,7 +248,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
       "options": [
         "Being able to define the word correctly when asked",
         "Being able to use the word naturally in a real conversation without thinking about it",
-        "Being able to recognise the word in a text and understand what it means"
+        "Being able to recognize the word in a text and understand what it means"
       ],
       "correctIndex": 1
     }
@@ -275,7 +275,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
         "sentence": "The campaign line is too creative for word-for-word translation — it needs _____ to work in Japanese.",
         "options": ["transcreation", "translation", "localisation"],
         "correctIndex": 0,
-        "explanation": "'Transcreation' is specifically the process of recreating creative copy in another language so it achieves the same emotional effect — even if the words are completely different. 'Translation' is word-for-word or meaning-for-meaning conversion, which won't preserve the creative impact. 'Localisation' is broader and includes non-language adaptation. For creative copy that depends on wordplay, cultural references, or emotional tone, the process is 'transcreation'."
+        "explanation": "'Transcreation' is specifically the process of recreating creative copy in another language so it achieves the same emotional effect — even if the words are completely different. 'Translation' is word-for-word or meaning-for-meaning conversion, which won't preserve the creative impact. 'Localization' is broader and includes non-language adaptation. For creative copy that depends on wordplay, cultural references, or emotional tone, the process is 'transcreation'."
       },
       {
         "sentence": "The design makes it very hard to cancel — it violates customer _____ by overriding their ability to choose freely.",
@@ -311,7 +311,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
         {
           "customerLine": "I've been using a lot of the C2 vocabulary in meetings but I'm not sure if it sounds natural.",
           "options": [
-            "Just keep practising — it will become natural over time.",
+            "Just keep practicing — it will become natural over time.",
             "The test is whether you're using the vocabulary to think with, or just to impress. If you're choosing a word because it's the most precise way to express what you mean, that's natural mastery. If you're choosing it to sound advanced, the audience will feel the difference. What vocabulary are you most unsure about?",
             "Record yourself speaking and listen back — that will tell you if it sounds natural."
           ],
@@ -381,7 +381,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
         },
         {
           "customerLine": "The brand is entering six new markets next year. What's the one thing we must not get wrong?",
-          "salespersonStart": "Don't treat translation as localisation. Those are two completely different things. Translation converts language. Localisation rethinks the entire communication — values, visuals, cultural references, tone. For each of the six markets, you need a localisation brief before anything goes to a translator. The brief should cover...",
+          "salespersonStart": "Don't treat translation as localization. Those are two completely different things. Translation converts language. Localization rethinks the entire communication — values, visuals, cultural references, tone. For each of the six markets, you need a localization brief before anything goes to a translator. The brief should cover...",
           "suggestedCompletion": "the target audience, the emotional response you're trying to create, the brand tone of voice as it should sound in that language, and a list of what cannot change and what must change. You should also run a back-translation on any creative copy before approving it. Getting this wrong in a major market is not just expensive — it can damage the brand in a way that takes years to recover from."
         },
         {

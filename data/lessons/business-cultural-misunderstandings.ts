@@ -16,7 +16,7 @@ export const businessCulturalMisunderstandings: Lesson = {
 
   objectives: [
     'Talk about customs and cultural differences without judging.',
-    'Apologize if something you did caused offence.',
+    'Apologize if something you did caused offense.',
     'Show curiosity and find a solution that works for everyone.',
   ],
 
@@ -24,7 +24,7 @@ export const businessCulturalMisunderstandings: Lesson = {
     { word: 'GESTURE', partOfSpeech: 'noun', definition: 'A movement of your hand or body that shows an idea or feeling.', example: 'A thumbs-up is a positive gesture in many countries.', imageSlug: img('gesture') },
     { word: 'CUSTOM', partOfSpeech: 'noun', definition: 'A traditional way of doing something in a culture.', example: 'Shaking hands is a common custom in many countries.', imageSlug: img('custom') },
     { word: 'OFFEND', partOfSpeech: 'verb', definition: 'To make someone upset or uncomfortable.', example: "It's better to ask politely than risk offending someone.", imageSlug: img('offend') },
-    { word: 'POLITENESS', partOfSpeech: 'noun', definition: 'Behaviour that shows respect and good manners.', example: 'He spoke with great politeness during the meeting.', imageSlug: img('politeness') },
+    { word: 'POLITENESS', partOfSpeech: 'noun', definition: 'Behavior that shows respect and good manners.', example: 'He spoke with great politeness during the meeting.', imageSlug: img('politeness') },
     { word: 'SENSITIVE', partOfSpeech: 'adjective', definition: "Showing understanding and care for other people's feelings.", example: 'Be sensitive when you talk about cultural differences.', imageSlug: img('sensitive') },
     { word: 'APOLOGIZE', partOfSpeech: 'verb', definition: 'To say that you are sorry for something.', example: 'Always apologize if your actions upset someone.', imageSlug: img('apologize') },
   ],
@@ -57,7 +57,7 @@ export const businessCulturalMisunderstandings: Lesson = {
     { word: 'CUSTOM', definition: 'A traditional way of doing something' },
     { word: 'OFFEND', definition: 'To make someone upset' },
     { word: 'SENSITIVE', definition: "Caring about other people's feelings" },
-    { word: 'POLITENESS', definition: 'Behaviour that shows respect' },
+    { word: 'POLITENESS', definition: 'Behavior that shows respect' },
     { word: 'APOLOGIZE', definition: 'To say sorry' },
   ],
 

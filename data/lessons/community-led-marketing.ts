@@ -27,7 +27,7 @@ export const communityLedMarketing: Lesson = {
       word: 'Co-creation',
       partOfSpeech: 'noun',
       definition: 'Making products or content together with customers.',
-      example: 'The new flavour came from co-creation with our fans.',
+      example: 'The new flavor came from co-creation with our fans.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/community-led-marketing-fans-help-create-new-flavour.png',
     },
     {
@@ -216,12 +216,12 @@ export const communityLedMarketing: Lesson = {
     },
     {
       question: "What does Riley recommend as the first step to improving community health?",
-      options: ["Launch a paid ambassador programme with significant financial incentives", "Find and invest in the top 1% of contributors — co-creation, early access, ambassador status — to pull in the next 5%", "Run a social media campaign to drive new member sign-ups"],
+      options: ["Launch a paid ambassador program with significant financial incentives", "Find and invest in the top 1% of contributors — co-creation, early access, ambassador status — to pull in the next 5%", "Run a social media campaign to drive new member sign-ups"],
       correctIndex: 1
     },
     {
       question: "How does Riley describe the advocacy loop?",
-      options: ["A referral programme that pays cash rewards for every new customer introduced", "A cycle where satisfied customers share their experience, attract new customers who become satisfied and share in turn — reducing dependence on paid acquisition", "A social media strategy that amplifies positive customer reviews"],
+      options: ["A referral program that pays cash rewards for every new customer introduced", "A cycle where satisfied customers share their experience, attract new customers who become satisfied and share in turn — reducing dependence on paid acquisition", "A social media strategy that amplifies positive customer reviews"],
       correctIndex: 1
     }
   ],
@@ -259,7 +259,7 @@ export const communityLedMarketing: Lesson = {
         sentence: "We are posting product announcements every week — we are _____ the community, not growing it.",
         options: ["using", "harvesting", "exploiting"],
         correctIndex: 1,
-        explanation: "'Harvesting the community' is the specific phrase used in community-led marketing for the behaviour of extracting value from a community (promotions, announcements) without giving enough back. 'Using' is too vague. 'Exploiting' is possible but too strong and negative for a professional context. 'Harvesting' is the established term — it implies taking without planting."
+        explanation: "'Harvesting the community' is the specific phrase used in community-led marketing for the behavior of extracting value from a community (promotions, announcements) without giving enough back. 'Using' is too vague. 'Exploiting' is possible but too strong and negative for a professional context. 'Harvesting' is the established term — it implies taking without planting."
       },
       {
         sentence: "Before asking the community to share our campaign, we must _____ before we ask — contribute significant value first.",
@@ -288,7 +288,7 @@ export const communityLedMarketing: Lesson = {
             "It depends on how the members were acquired — organic community members are worth more than those from paid campaigns."
           ],
           correctIndex: 1,
-          explanation: "Option B correctly challenges the vanity metric (size) with the meaningful one (engagement rate). A community of 80,000 with 2% engagement is far less valuable than one of 10,000 with 30% engagement. Option A accepts the size metric and proposes to 'activate' it with content — which is harvesting behaviour, not community building. Option C makes a valid distinction but does not address the engagement question."
+          explanation: "Option B correctly challenges the vanity metric (size) with the meaningful one (engagement rate). A community of 80,000 with 2% engagement is far less valuable than one of 10,000 with 30% engagement. Option A accepts the size metric and proposes to 'activate' it with content — which is harvesting behavior, not community building. Option C makes a valid distinction but does not address the engagement question."
         },
         {
           customerLine: "We want to use the community to promote our new product launch.",
@@ -303,7 +303,7 @@ export const communityLedMarketing: Lesson = {
         {
           customerLine: "How do we turn our community into a growth engine that reduces our paid acquisition cost?",
           options: [
-            "Run a referral programme that pays existing members cash for every new customer they bring in.",
+            "Run a referral program that pays existing members cash for every new customer they bring in.",
             "Build the advocacy loop. Make it easy for satisfied customers to share — make sharing a natural part of the experience, not an afterthought. Find your top contributors and invest in them as ambassadors. Measure referral as a primary acquisition channel alongside paid. As the community flywheel builds momentum, the cost of each new member drops because existing members are doing the acquisition work.",
             "Focus on growing the community size first — once you have 500,000 members, the network effects will drive growth naturally."
           ],
@@ -333,7 +333,7 @@ export const communityLedMarketing: Lesson = {
           lineIndex: 2,
           incorrectText: "ask members to create content every time we have a new product to promote",
           correction: "build a UGC strategy around giving members reasons to share — recognition, pride, access — not just asking them to promote products",
-          explanation: "A UGC strategy built around promotional asks is harvesting behaviour. Authentic UGC is generated when members are proud to be associated with the brand and feel valued by the community. The 'give before you ask' principle applies here — members who feel invested in the community share naturally; members who are only asked to promote will disengage."
+          explanation: "A UGC strategy built around promotional asks is harvesting behavior. Authentic UGC is generated when members are proud to be associated with the brand and feel valued by the community. The 'give before you ask' principle applies here — members who feel invested in the community share naturally; members who are only asked to promote will disengage."
         },
         {
           lineIndex: 4,

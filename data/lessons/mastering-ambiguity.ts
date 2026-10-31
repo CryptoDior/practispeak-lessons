@@ -209,7 +209,7 @@ export const masteringAmbiguity: Lesson = {
   fillBlankExercise: [
     { "before": "These are ", "after": " figures — don't present them as final until we have the last set of data.", "answer": "provisional" },
     { "before": "The timeline is ", "after": " on board approval. Without that, we can't move forward.", "answer": "contingent" },
-    { "before": "We are working on the ", "after": " that the market will stabilise in Q2. If that changes, the whole plan needs to be revised.", "answer": "assumption" },
+    { "before": "We are working on the ", "after": " that the market will stabilize in Q2. If that changes, the whole plan needs to be revised.", "answer": "assumption" },
     { "before": "Add one important ", "after": " to the forecast: these numbers assume no new regulations are introduced.", "answer": "caveat" },
     { "before": "The market ", "after": " is uncertain right now. We're planning for stability, not growth.", "answer": "outlook" },
     { "before": "We did proper ", "after": " — a best case, a base case, and a worst case — so we're ready for anything.", "answer": "scenario planning" }
@@ -377,7 +377,7 @@ export const masteringAmbiguity: Lesson = {
         {
           "customerLine": "Can you give us a firm forecast for the next 12 months?",
           "salespersonStart": "Based on what we know at this stage, I can give you three scenarios. In a best-case scenario...",
-          "suggestedCompletion": "we reach the revenue target by Q3, assuming market conditions stabilise. In a base case, we hit it by Q4. In a worst case, we revise the target and focus on protecting margin. The right approach now is to plan for all three."
+          "suggestedCompletion": "we reach the revenue target by Q3, assuming market conditions stabilize. In a base case, we hit it by Q4. In a worst case, we revise the target and focus on protecting margin. The right approach now is to plan for all three."
         },
         {
           "customerLine": "Is this plan going to work?",

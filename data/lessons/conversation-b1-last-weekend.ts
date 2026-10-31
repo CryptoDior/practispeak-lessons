@@ -11,7 +11,7 @@ export const conversationB1LastWeekend: Lesson = {
   subtitle: 'Everyday Conversation · B1-B2 · Lesson 6',
   level: 'B1-B2',
   description:
-    'Talk about your weekend in more detail: what you did, where you went and how it was. Practise regular and irregular past tense verbs.',
+    'Talk about your weekend in more detail: what you did, where you went and how it was. Practice regular and irregular past tense verbs.',
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
@@ -40,7 +40,7 @@ export const conversationB1LastWeekend: Lesson = {
   },
 
   vocabulary: [
-    { word: 'WENT (GO)', partOfSpeech: 'verb', definition: 'Past of "go": travelled or moved to a place.', example: 'I went to a museum last weekend.', imageSlug: img('museum') },
+    { word: 'WENT (GO)', partOfSpeech: 'verb', definition: 'Past of "go": traveled or moved to a place.', example: 'I went to a museum last weekend.', imageSlug: img('museum') },
     { word: 'STAYED (STAY)', partOfSpeech: 'verb', definition: 'Past of "stay": remained in one place.', example: 'I stayed home most of the weekend.', imageSlug: img('stayed-home') },
     { word: 'VISITED (VISIT)', partOfSpeech: 'verb', definition: 'Past of "visit": went to see someone or somewhere.', example: 'I visited my cousin on Sunday.', imageSlug: img('visited-cousin') },
     { word: 'MET (MEET)', partOfSpeech: 'verb', definition: 'Past of "meet": saw someone socially or for a plan.', example: 'I met some friends for lunch.', imageSlug: img('friends-lunch') },
@@ -51,7 +51,7 @@ export const conversationB1LastWeekend: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'CATCH UP ON SLEEP', tag: 'collocation', definition: 'To sleep more than usual to feel rested.', example: 'I caught up on sleep on Saturday.', imageSlug: img('sleep-saturday') },
-    { phrase: 'GO OUT (WITH)', definition: 'To leave home to socialise.', example: 'I went out with friends on Friday night.', imageSlug: img('friday-night-out') },
+    { phrase: 'GO OUT (WITH)', definition: 'To leave home to socialize.', example: 'I went out with friends on Friday night.', imageSlug: img('friday-night-out') },
     { phrase: 'What did you do last weekend?', tag: 'phrase', definition: 'Ask about someone\'s recent weekend.', example: '"Morning! What did you do last weekend?"', imageSlug: img('weekend-question') },
     { phrase: "I didn't do much.", tag: 'phrase', definition: 'You had a quiet, simple weekend.', example: '"I didn\'t do much, to be honest. I just rested."', imageSlug: img('quiet-rested') },
     { phrase: 'I visited a new place.', tag: 'phrase', definition: "You went somewhere you hadn't been before.", example: '"I visited a new place — a little village in the mountains."', imageSlug: img('mountain-village') },

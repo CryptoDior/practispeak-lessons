@@ -36,7 +36,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
       word: 'UNLOCK',
       partOfSpeech: 'verb',
       definition: "Gain access to a new item, area, or feature by meeting a requirement — earning it opens the gate.",
-      example: "I have unlocked the legendary armour set — it took six weeks of daily play to get it.",
+      example: "I have unlocked the legendary armor set — it took six weeks of daily play to get it.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-present-perfect-achievements-in-game-unlock.png',
     },
     {
@@ -84,7 +84,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       word: 'MASTER',
       partOfSpeech: 'verb',
-      definition: "Practise a skill until you can perform it consistently and with complete control.",
+      definition: "Practice a skill until you can perform it consistently and with complete control.",
       example: "I have finally mastered the ice level — I can now complete it without falling a single time.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-present-perfect-achievements-in-game-master.png',
     },
@@ -161,7 +161,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       phrase: "SHOW OFF",
       definition: "Display your achievements or skills publicly in order to impress others.",
-      example: "He showed off his legendary armour set to everyone on the server — it is hard to blame him.",
+      example: "He showed off his legendary armor set to everyone on the server — it is hard to blame him.",
       inGame: "After finally beating the final boss, she showed off her victory screen in the guild chat.",
       inRealLife: "He worked hard for that qualification and he has every right to show it off.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-present-perfect-achievements-phrases-show-off.png',
@@ -193,9 +193,9 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       phrase: "LEVEL UP",
       definition: "(Beyond games) Improve meaningfully — reach a new stage of skill, confidence, or status.",
-      example: "Since I started using a strategy guide, my whole approach to the game has levelled up.",
-      inGame: "I have levelled up my negotiation skills in the trading zone — I never get a bad deal anymore.",
-      inRealLife: "She levelled up her public speaking this year — she now presents to the whole company.",
+      example: "Since I started using a strategy guide, my whole approach to the game has leveled up.",
+      inGame: "I have leveled up my negotiation skills in the trading zone — I never get a bad deal anymore.",
+      inRealLife: "She leveled up her public speaking this year — she now presents to the whole company.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-present-perfect-achievements-phrases-level-up.png',
     },
   ],
@@ -315,7 +315,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     { word: 'BEAT', definition: 'Defeat an opponent, boss, or high score you were competing against' },
     { word: 'COLLECT', definition: 'Gather items one by one, building up a full set over time' },
     { word: 'DISCOVER', definition: 'Find something new for the first time — a secret area, item, or mechanic' },
-    { word: 'MASTER', definition: 'Practise a skill until you can perform it with complete control' },
+    { word: 'MASTER', definition: 'Practice a skill until you can perform it with complete control' },
   ],
 
   fillBlankExercise: [
@@ -325,7 +325,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     { before: "He has", after: "the ice physics — he completes the level perfectly every single time now.", answer: 'mastered' },
     { before: "I have", after: "every badge in the game except the speedrun one — that is the only one left.", answer: 'earned' },
     { before: "Have you", after: "the main questline yet? I am only about halfway through.", answer: 'completed' },
-    { before: "She has", after: "the legendary armour set — it takes six weeks of daily play to get it.", answer: 'unlocked' },
+    { before: "She has", after: "the legendary armor set — it takes six weeks of daily play to get it.", answer: 'unlocked' },
     { before: "I have", after: "everything I set out to do this season — it feels genuinely incredible.", answer: 'achieved' },
   ],
 
@@ -344,7 +344,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
       question: "Which sentence uses the present perfect correctly?",
       options: [
         "I have discover a new secret area yesterday.",
-        "She has unlocked the legendary armour last Tuesday.",
+        "She has unlocked the legendary armor last Tuesday.",
         "He has never completed that dungeon.",
         "They have been mastered the controls since last year.",
       ],
@@ -364,7 +364,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
       question: "What does RACK UP mean in the context of achievements?",
       options: [
         "Lose a large number of points in a short time.",
-        "Organise your badges into a specific order.",
+        "Organize your badges into a specific order.",
         "Accumulate a large number of points, wins, or achievements over time.",
         "Trade your collected items for a higher-value reward.",
       ],

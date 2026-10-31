@@ -40,7 +40,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       word: 'Brand architecture',
       partOfSpeech: 'noun',
-      definition: 'How a company organises all its brands.',
+      definition: 'How a company organizes all its brands.',
       example: 'Our brand architecture has one main brand and three smaller ones.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-brand-strategy-one-parent-three-subbrands.png',
     },
@@ -143,7 +143,7 @@ export const advancedBrandStrategy: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Trust your instinct. We are at risk of diluting the brand if we extend without a clear [[brand architecture:the system that organises how a company manages multiple brands or product lines]]. Has anyone asked what the brand stands for first?",
+      text: "Trust your instinct. We are at risk of diluting the brand if we extend without a clear [[brand architecture:the system that organizes how a company manages multiple brands or product lines]]. Has anyone asked what the brand stands for first?",
     },
     {
       speaker: 'Marcus',
@@ -200,7 +200,7 @@ export const advancedBrandStrategy: Lesson = {
     { word: 'brand valuation', definition: 'the process of calculating how much a brand is worth in financial terms' },
     { word: 'intangible asset', definition: 'something a business owns that has value but no physical form' },
     { word: 'brand dilution', definition: 'when a brand loses strength because it has been stretched too far or used inconsistently' },
-    { word: 'brand architecture', definition: 'the system that organises how a company manages multiple brands or product lines' },
+    { word: 'brand architecture', definition: 'the system that organizes how a company manages multiple brands or product lines' },
     { word: 'positioning', definition: 'the place a brand occupies in the mind of the customer relative to competitors' },
     { word: 'brand audit', definition: 'a review of how a brand is performing including customer perception and competitor comparison' },
     { word: 'differentiation', definition: 'what makes a brand meaningfully different from its competitors in a way customers care about' }
@@ -253,7 +253,7 @@ export const advancedBrandStrategy: Lesson = {
         sentence: "The brand is the company's most valuable _____ asset — it has no physical form but drives significant revenue.",
         options: ["invisible", "intangible", "internal"],
         correctIndex: 1,
-        explanation: "'Intangible' is the correct business and accounting term for something that has value but no physical form — like a brand, patent, or trademark. 'Invisible' is a general adjective but is not used as a technical term in finance or strategy. 'Internal' refers to something inside the organisation, not to the nature of the asset."
+        explanation: "'Intangible' is the correct business and accounting term for something that has value but no physical form — like a brand, patent, or trademark. 'Invisible' is a general adjective but is not used as a technical term in finance or strategy. 'Internal' refers to something inside the organization, not to the nature of the asset."
       },
       {
         sentence: "The debate about the tagline is actually a _____ decision, not a campaign decision.",
@@ -296,7 +296,7 @@ export const advancedBrandStrategy: Lesson = {
           customerLine: "Brand is hard to measure. How do I justify the investment to the board?",
           options: [
             "Brand is a long-term play — you have to trust the process and look at awareness scores over time.",
-            "The brand equity case is this: we can show that customers who recognise and trust our brand have a 30% higher lifetime value and a 12% lower acquisition cost. These are not soft metrics — they connect directly to the P&L.",
+            "The brand equity case is this: we can show that customers who recognize and trust our brand have a 30% higher lifetime value and a 12% lower acquisition cost. These are not soft metrics — they connect directly to the P&L.",
             "Brand is difficult to quantify exactly, but it is generally accepted that strong brands outperform weak ones in the long run."
           ],
           correctIndex: 1,
@@ -360,7 +360,7 @@ export const advancedBrandStrategy: Lesson = {
       items: [
         {
           customerLine: "The CFO says brand is too soft to justify the budget. What do you say?",
-          salespersonStart: "The brand equity case is concrete. Customers who recognise and trust our brand have a measurably higher lifetime value — and what that means for us strategically is...",
+          salespersonStart: "The brand equity case is concrete. Customers who recognize and trust our brand have a measurably higher lifetime value — and what that means for us strategically is...",
           suggestedCompletion: "that every pound we invest in brand reduces our long-term cost of acquisition. This is not a soft spend — it is a compounding asset. Here is the data from the last three years."
         },
         {

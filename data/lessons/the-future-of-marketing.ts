@@ -33,7 +33,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       word: 'AI-NATIVE',
       partOfSpeech: 'adjective',
-      definition: 'Built with AI at the centre from the start.',
+      definition: 'Built with AI at the center from the start.',
       example: 'Our new tool is AI-native, not just AI added on.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-future-of-marketing-ai-built-into-tool-core.png',
     },
@@ -137,7 +137,7 @@ export const theFutureOfMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "What about [[AI-native:built from the start with artificial intelligence at the centre]] tools? Should I address that?",
+      text: "What about [[AI-native:built from the start with artificial intelligence at the center]] tools? Should I address that?",
     },
     {
       speaker: 'Riley',
@@ -149,7 +149,7 @@ export const theFutureOfMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "Purchase behaviour, email engagement, time on site. But we're not using it well.",
+      text: "Purchase behavior, email engagement, time on site. But we're not using it well.",
     },
     {
       speaker: 'Riley',
@@ -185,7 +185,7 @@ export const theFutureOfMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "And the [[decentralised:not controlled by one central organisation]] web — where does that fit?",
+      text: "And the [[decentralised:not controlled by one central organization]] web — where does that fit?",
     },
     {
       speaker: 'Riley',
@@ -198,11 +198,11 @@ export const theFutureOfMarketing: Lesson = {
   matchingExercise: [
     { "word": "Web3", "definition": "a version of the internet where users own their data and digital assets" },
     { "word": "spatial computing", "definition": "technology that blends the physical and digital worlds — AR, VR, mixed reality" },
-    { "word": "decentralised", "definition": "not controlled by one central organisation — users own their data and relationships" },
-    { "word": "AI-native", "definition": "built from the start with artificial intelligence at the centre" },
+    { "word": "decentralised", "definition": "not controlled by one central organization — users own their data and relationships" },
+    { "word": "AI-native", "definition": "built from the start with artificial intelligence at the center" },
     { "word": "post-cookie", "definition": "the era of digital marketing after third-party tracking cookies are phased out" },
     { "word": "first-party data", "definition": "information collected directly from your own customers — you own it" },
-    { "word": "signal", "definition": "a piece of data that tells you something useful about a customer's behaviour or intent" },
+    { "word": "signal", "definition": "a piece of data that tells you something useful about a customer's behavior or intent" },
     { "word": "disruption", "definition": "a major change that forces an industry to adapt" }
   ],
 
@@ -290,10 +290,10 @@ export const theFutureOfMarketing: Lesson = {
         "explanation": "'Decentralised' is the specific term from Web3 and blockchain discourse — it means control is spread across many parties rather than held by one central entity. 'Distributed' describes a technical architecture. 'Open' means accessible, but not specifically related to data ownership. When discussing the shift away from platform control, use 'decentralised'."
       },
       {
-        "sentence": "Every interaction with a customer produces a _____ — a piece of data that tells you something about their intent or behaviour.",
+        "sentence": "Every interaction with a customer produces a _____ — a piece of data that tells you something about their intent or behavior.",
         "options": ["signal", "data point", "indicator"],
         "correctIndex": 0,
-        "explanation": "In the context of modern marketing and data strategy, 'signal' is the specific term for a data point that indicates customer behaviour, intent, or preference. It is particularly used in discussions of first-party data, AI, and post-cookie strategy. 'Data point' is broader. 'Indicator' is used in analytics but not with the same connotation in marketing."
+        "explanation": "In the context of modern marketing and data strategy, 'signal' is the specific term for a data point that indicates customer behavior, intent, or preference. It is particularly used in discussions of first-party data, AI, and post-cookie strategy. 'Data point' is broader. 'Indicator' is used in analytics but not with the same connotation in marketing."
       },
       {
         "sentence": "We're still _____ the early stages of Web3 — it's worth watching, but not worth betting the business on yet.",

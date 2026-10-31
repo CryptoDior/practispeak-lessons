@@ -20,7 +20,7 @@ export const myCompany: Lesson = {
       word: 'OFFICE',
       partOfSpeech: 'noun',
       definition: 'A place where people work.',
-      example: 'Our office is in Manchester city centre.',
+      example: 'Our office is in Manchester city center.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/office.png',
     },
     {
@@ -231,7 +231,7 @@ export const myCompany: Lesson = {
     },
     {
         "before": "Our",
-        "after": "is in Manchester city centre.",
+        "after": "is in Manchester city center.",
         "answer": "office"
     },
     {

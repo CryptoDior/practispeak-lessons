@@ -35,7 +35,7 @@ export const conversationC1AccomplishThisWeek: Lesson = {
     { phrase: "I'm trying to set realistic objectives instead of overwhelming myself.", tag: 'phrase', definition: 'You want achievable goals.', example: '"Last week I planned too much. Now I\'m trying to set realistic objectives instead of overwhelming myself."', imageSlug: img('realistic-objectives') },
     { phrase: "I'm focusing on progress, not perfection.", tag: 'phrase', definition: 'You value consistent improvement over flawless results.', example: '"The draft won\'t be perfect, but I\'m focusing on progress, not perfection."', imageSlug: img('draft-progress') },
     { phrase: 'I want to build momentum by completing small but important tasks.', tag: 'phrase', definition: 'Small wins create motivation.', example: '"I want to build momentum by completing small but important tasks — I\'ll start with three quick wins."', imageSlug: img('three-quick-wins') },
-    { phrase: "I'm aiming to finish tasks I've been postponing.", tag: 'phrase', definition: 'You want to reduce procrastination.', example: '"I\'m aiming to finish tasks I\'ve been postponing — the tax forms, for weeks."', inAction: 'The present perfect continuous ("I\'ve been postponing") emphasises that the delay has continued over time — and still matters now.', imageSlug: img('postponed-tax-forms') },
+    { phrase: "I'm aiming to finish tasks I've been postponing.", tag: 'phrase', definition: 'You want to reduce procrastination.', example: '"I\'m aiming to finish tasks I\'ve been postponing — the tax forms, for weeks."', inAction: 'The present perfect continuous ("I\'ve been postponing") emphasizes that the delay has continued over time — and still matters now.', imageSlug: img('postponed-tax-forms') },
     { phrase: "I'm limiting distractions so I can be more mentally present.", tag: 'phrase', definition: 'You want a clearer, more focused mind.', example: '"I deleted social media from my phone. I\'m limiting distractions so I can be more mentally present."', imageSlug: img('limiting-distractions') },
   ],
 
@@ -91,7 +91,7 @@ export const conversationC1AccomplishThisWeek: Lesson = {
   multipleChoiceExercise: [
     { question: 'What does "momentum" mean here?', options: ['A short moment', 'Forward progress that builds over time', 'A type of exercise', 'A deadline'], correctIndex: 1 },
     { question: '"Progress, not perfection" means…', options: ['Only perfect work counts', 'Steady improvement matters more than flawless results', 'Never finish anything', 'Work faster'], correctIndex: 1 },
-    { question: 'Which tense emphasises a delay that has continued until now?', options: ['I postponed it.', "I've been postponing it.", 'I postpone it.', "I'll postpone it."], correctIndex: 1 },
+    { question: 'Which tense emphasizes a delay that has continued until now?', options: ['I postponed it.', "I've been postponing it.", 'I postpone it.', "I'll postpone it."], correctIndex: 1 },
     { question: 'What is "procrastination"?', options: ['Planning carefully', 'Delaying tasks unnecessarily', 'Working overtime', 'Taking a holiday'], correctIndex: 1 },
     { question: 'In the dialogue, how many things did Rosie finish last week?', options: ['Twelve', 'Four', 'Three', 'None'], correctIndex: 1 },
     { question: 'What distraction is Rosie avoiding until Friday?', options: ['TV', 'Social media', 'Coffee', 'Meetings'], correctIndex: 1 },

@@ -31,7 +31,7 @@ export const readingMatchReports: Lesson = {
     {
       word: 'MATCH REPORT',
       partOfSpeech: 'noun',
-      definition: 'A written account of a football match — published in a newspaper or online after the game.',
+      definition: 'A written account of a football match — published in a newspaper or online after the game. (US: game recap)',
       example: 'The match report described it as the best performance of the season — five goals and complete control.',
       imageSlug: '/images/match-report.png',
     },
@@ -52,7 +52,7 @@ export const readingMatchReports: Lesson = {
     {
       word: 'BOOKING',
       partOfSpeech: 'noun',
-      definition: 'When a player receives a yellow card from the referee.',
+      definition: 'When a player receives a yellow card from the referee. (US: caution)',
       example: 'There were three bookings in the match — two for the home team and one for the away captain.',
       imageSlug: '/images/reading-match-reports-booking.png',
     },

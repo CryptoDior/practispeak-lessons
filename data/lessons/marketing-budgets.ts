@@ -88,7 +88,7 @@ export const marketingBudgets: Lesson = {
       example: 'Ask me anything: I can justify every line item.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-budgets-i-can-justify-every-line-item.png',
       inAction: "This isn't a wish list — I can justify every line item in this budget against a measurable outcome or a named strategic priority.",
-      register: 'Neutral — used in budget defence meetings and stakeholder conversations. Signals confidence and preparation. A strong phrase to open with when you know your proposal will face scrutiny.',
+      register: 'Neutral — used in budget defense meetings and stakeholder conversations. Signals confidence and preparation. A strong phrase to open with when you know your proposal will face scrutiny.',
       inContext: "The CFO had a reputation for cutting budgets at review. Marcus was prepared. I can justify every line item in this proposal, he said before the CFO had asked a single question. I've mapped each spend item to a specific KPI, and I have last quarter's data to show what happened when we didn't invest in these areas. The CFO sat back and listened.",
       visualExamples: [
         { brand: 'Relay', context: 'B2B comms SaaS — CFO budget meeting', imageSlug: '/images/visual-examples/mbu-p2-relay.png', caption: 'I can justify every line item — the £45k agency retainer maps directly to three product launches this year. Remove it and those launches ship without a brand strategy.', aspectRatio: '16/9' },
@@ -116,7 +116,7 @@ export const marketingBudgets: Lesson = {
       example: 'If we cut this, here\'s what we lose: half our leads.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-budgets-if-we-cut-this-heres-what-we-lose.png',
       inAction: "If we cut the content budget, here's what we lose: organic pipeline, inbound leads, and the SEO rankings we have spent 18 months building.",
-      register: 'Neutral — used in budget defence conversations. Direct and analytical. Reframes a proposed cut as a business risk rather than a financial saving, which shifts the frame of the discussion.',
+      register: 'Neutral — used in budget defense conversations. Direct and analytical. Reframes a proposed cut as a business risk rather than a financial saving, which shifts the frame of the discussion.',
       inContext: "Marcus had prepared for the worst-case scenario before the review. When the CFO suggested cutting the content budget by 50%, Marcus was ready. If we cut this, here's what we lose, he said calmly. He walked through three specific outcomes: the drop in organic pipeline, the increase in paid media costs needed to compensate, and the 12-month lag before organic traffic recovers. The CFO put down her pen.",
       visualExamples: [
         { brand: 'Kite', context: 'Travel app — budget cuts review meeting', imageSlug: '/images/visual-examples/mbu-p4-kite.png', caption: 'If we cut this, here is what we lose — removing the content budget saves £28k but eliminates the channel driving 40% of our organic sign-ups. The CAC from paid will more than make up the difference.', aspectRatio: '16/9' },
@@ -227,7 +227,7 @@ export const marketingBudgets: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "What about the [[headroom:the amount of budget remaining available — the difference between allocated and committed spend]]? There's £18,000 left over from the cancelled trade event.",
+      text: "What about the [[headroom:the amount of budget remaining available — the difference between allocated and committed spend]]? There's £18,000 left over from the canceled trade event.",
     },
     {
       speaker: 'Riley',
@@ -334,7 +334,7 @@ export const marketingBudgets: Lesson = {
     {
         "question": "What caused the Q3 variance in the paid media budget?",
         "options": [
-            "The events were cancelled and the budget was not reallocated",
+            "The events were canceled and the budget was not reallocated",
             "A platform algorithm change in October that reduced paid media performance",
             "The finance team reduced the paid budget mid-quarter"
         ],
@@ -352,8 +352,8 @@ export const marketingBudgets: Lesson = {
     {
         "question": "If a total budget reduction is required, what does Riley propose?",
         "options": [
-            "Reduce events budget by £15,000 and cut the content amplification programme",
-            "Return the £18,000 headroom from the cancelled event to finance",
+            "Reduce events budget by £15,000 and cut the content amplification program",
+            "Return the £18,000 headroom from the canceled event to finance",
             "Reduce brand awareness spend by £15,000 and redirect it to demand generation"
         ],
         "correctIndex": 2
@@ -436,7 +436,7 @@ export const marketingBudgets: Lesson = {
         "instructions": "Read what the finance director or senior leader says. Choose the best professional response.",
         "items": [
             {
-                "customerLine": "Marketing feels like a cost centre, not a revenue driver. Why should we protect your budget when sales is where the revenue actually comes from?",
+                "customerLine": "Marketing feels like a cost center, not a revenue driver. Why should we protect your budget when sales is where the revenue actually comes from?",
                 "options": [
                     "Marketing and sales are different functions with different goals. It's not a fair comparison.",
                     "I understand the perception, and I want to address it directly with data. Our demand generation activities last quarter generated £680,000 in pipeline — pipeline that the sales team then closed. Without the inbound leads from marketing, the sales team would have to source all their own pipeline cold. The CPA through inbound is £340 versus £1,800 for outbound. Marketing is already contributing to revenue — the question is whether we measure it correctly.",
@@ -449,7 +449,7 @@ export const marketingBudgets: Lesson = {
                 "customerLine": "We need to cut 20% from the marketing budget for the rest of the quarter. Where would you cut?",
                 "options": [
                     "I'd need to go away and model it before I can answer that responsibly. Can I come back to you with an analysis tomorrow?",
-                    "Before I answer that, can I show you the cost-of-inaction for each major line? I want to make sure we're cutting in a way that minimises the revenue impact — not just the spend. If you're open to it, I have a model here that shows the pipeline impact of cutting each major line by 20%. The options with the lowest impact on pipeline are brand awareness and events. Demand generation and content are our highest-return channels — cutting those costs more in revenue than it saves in spend.",
+                    "Before I answer that, can I show you the cost-of-inaction for each major line? I want to make sure we're cutting in a way that minimizes the revenue impact — not just the spend. If you're open to it, I have a model here that shows the pipeline impact of cutting each major line by 20%. The options with the lowest impact on pipeline are brand awareness and events. Demand generation and content are our highest-return channels — cutting those costs more in revenue than it saves in spend.",
                     "20% is too much — it would be impossible to hit our pipeline targets with that level of cut."
                 ],
                 "correctIndex": 1,
@@ -525,7 +525,7 @@ export const marketingBudgets: Lesson = {
           suggestedCompletion: 'we lose more in revenue than we save in spend. The safest cut is brand awareness, not demand generation.',
         },
         {
-          customerLine: 'What return are we actually getting from the content programme?',
+          customerLine: 'What return are we actually getting from the content program?',
           salespersonStart: 'Content is generating 45 organic MQLs per quarter at a cost-per-acquisition of £190 — which means',
           suggestedCompletion: 'it is our most efficient channel by CPA, nearly half the cost of paid media for the same result.',
         },
@@ -536,7 +536,7 @@ export const marketingBudgets: Lesson = {
         },
         {
           customerLine: 'Why should we increase the events budget when Q3 performance was below target?',
-          salespersonStart: "That's a fair challenge. The Q3 shortfall was driven by one underperforming event, not the programme overall — and I can justify every line item",
+          salespersonStart: "That's a fair challenge. The Q3 shortfall was driven by one underperforming event, not the program overall — and I can justify every line item",
           suggestedCompletion: "with data showing which events returned pipeline and which ones we've already removed from the Q4 plan.",
         },
       ],

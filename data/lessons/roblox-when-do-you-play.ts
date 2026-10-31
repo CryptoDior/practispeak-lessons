@@ -13,7 +13,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       word: 'ALWAYS',
       partOfSpeech: 'adverb',
       definition: "Every single time — no exceptions! If you ALWAYS play on Fridays, you never miss a Friday.",
-      example: "I always play Roblox on Friday evening — it is my favourite time of the week!",
+      example: "I always play Roblox on Friday evening — it is my favorite time of the week!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-in-game-always.png',
     },
     {

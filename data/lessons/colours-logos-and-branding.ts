@@ -2,10 +2,10 @@ import { Lesson } from '@/types/lesson';
 
 export const coloursLogosAndBranding: Lesson = {
   slug: 'colours-logos-and-branding',
-  title: 'Colours, Logos and Branding',
+  title: 'Colors, Logos and Branding',
   subtitle: 'How to talk about the look of a brand',
   level: 'A1-A2',
-  description: 'Learn simple words to talk about how a brand looks — its colours, logo, and style — and why it matters for marketing.',
+  description: 'Learn simple words to talk about how a brand looks — its colors, logo, and style — and why it matters for marketing.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-hero.png',
 
   vocabulary: [
@@ -17,17 +17,17 @@ export const coloursLogosAndBranding: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/logo.png',
     },
     {
-      word: 'COLOUR',
+      word: 'COLOR',
       partOfSpeech: 'noun',
       definition: 'What you see when light hits something. For example: red, blue, or green.',
-      example: 'We use blue and white as our main colours.',
+      example: 'We use blue and white as our main colors.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colour.png',
     },
     {
       word: 'DESIGN',
       partOfSpeech: 'noun',
-      definition: 'The way something looks — its colours, shapes, and style.',
-      example: 'The design of our website uses clean lines and bright colours.',
+      definition: 'The way something looks — its colors, shapes, and style.',
+      example: 'The design of our website uses clean lines and bright colors.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-design.png',
     },
     {
@@ -70,8 +70,8 @@ export const coloursLogosAndBranding: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'STAND FOR',
-      definition: 'Say what a symbol, colour, or logo means for a brand.',
-      example: 'Our blue colour stands for trust and calm.',
+      definition: 'Say what a symbol, color, or logo means for a brand.',
+      example: 'Our blue color stands for trust and calm.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-stand-for.png',
     },
     {
@@ -83,7 +83,7 @@ export const coloursLogosAndBranding: Lesson = {
     {
       phrase: 'FIT WITH',
       definition: 'Look or feel right together.',
-      example: 'We use colours and fonts that fit with the style of the brand.',
+      example: 'We use colors and fonts that fit with the style of the brand.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/fit-with.png',
     },
     {
@@ -125,13 +125,13 @@ export const coloursLogosAndBranding: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Thank you — we wanted something that stands out. The [[design:the way something looks — its colours, shapes, and style]] is clean and modern. Simple always works best.',
+      text: 'Thank you — we wanted something that stands out. The [[design:the way something looks — its colors, shapes, and style]] is clean and modern. Simple always works best.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'Why did you choose blue as your main [[colour:what you see when light hits something]]?',
+      text: 'Why did you choose blue as your main [[color:what you see when light hits something]]?',
     },
     {
       speaker: 'Riley',
@@ -189,12 +189,12 @@ export const coloursLogosAndBranding: Lesson = {
         "definition": "A small picture or symbol that stands for a company or brand"
     },
     {
-        "word": "COLOUR",
+        "word": "COLOR",
         "definition": "What you see when light hits something — for example: red, blue, or green"
     },
     {
         "word": "DESIGN",
-        "definition": "The way something looks — its colours, shapes, and style"
+        "definition": "The way something looks — its colors, shapes, and style"
     },
     {
         "word": "BRAND",
@@ -230,7 +230,7 @@ export const coloursLogosAndBranding: Lesson = {
     },
     {
         "before": "The",
-        "after": "of our website uses clean lines and bright colours.",
+        "after": "of our website uses clean lines and bright colors.",
         "answer": "design"
     },
     {
@@ -271,17 +271,17 @@ export const coloursLogosAndBranding: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "What are Brightline's main colours?",
+        "question": "What are Brightline's main colors?",
         "options": [
             "Red and black",
             "Green and white",
             "Blue and white",
-            "Orange and grey"
+            "Orange and gray"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What does the colour blue stand for in Brightline's brand?",
+        "question": "What does the color blue stand for in Brightline's brand?",
         "options": [
             "Energy and excitement",
             "Trust and calm",
@@ -296,7 +296,7 @@ export const coloursLogosAndBranding: Lesson = {
             "By using a different font for each channel",
             "By using the same font on everything",
             "By changing the logo each year",
-            "By using many different colours"
+            "By using many different colors"
         ],
         "correctIndex": 1
     },
@@ -356,24 +356,24 @@ export const coloursLogosAndBranding: Lesson = {
                 "explanation": "B is correct. It gives a real reason — easy to remember, stands out — and says where it needs to work. A gives no reason. C sounds like money was the only reason, which is not a good message for a brand."
             },
             {
-                "customerLine": "Why did you choose those colours?",
+                "customerLine": "Why did you choose those colors?",
                 "options": [
                     "We liked the way they look together.",
                     "Blue stands for trust and calm — those are the feelings we want people to have when they see our brand. White keeps it clean and easy to read.",
-                    "Colours are mostly personal choice in branding."
+                    "Colors are mostly personal choice in branding."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It says what each colour means and connects it to the brand. A sounds like it was just a personal choice. C gives no real reason and makes colour choices sound unimportant."
+                "explanation": "B is correct. It says what each color means and connects it to the brand. A sounds like it was just a personal choice. C gives no real reason and makes color choices sound unimportant."
             },
             {
                 "customerLine": "How do you keep your brand looking the same everywhere?",
                 "options": [
                     "We try to use the same things as much as possible.",
-                    "We use the same logo, colours, font, and style on everything — the website, emails, leaflets, and social media. It keeps the brand identity clear and easy to know.",
+                    "We use the same logo, colors, font, and style on everything — the website, emails, leaflets, and social media. It keeps the brand identity clear and easy to know.",
                     "We have guidelines but people do not always follow them."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It names what is kept the same — logo, colours, font, style — and says where it appears. A is too vague. C sounds like the brand is not consistent, which is not a good message."
+                "explanation": "B is correct. It names what is kept the same — logo, colors, font, style — and says where it appears. A is too vague. C sounds like the brand is not consistent, which is not a good message."
             },
             {
                 "customerLine": "Does branding really matter for a small company?",
@@ -392,7 +392,7 @@ export const coloursLogosAndBranding: Lesson = {
         "profiles": [
             {
                 "name": "A new company with no brand yet",
-                "description": "A new small business just started. They have a name but no logo, no colours, and no style. They do not know where to start.",
+                "description": "A new small business just started. They have a name but no logo, no colors, and no style. They do not know where to start.",
                 "matchKey": "logo"
             },
             {
@@ -402,7 +402,7 @@ export const coloursLogosAndBranding: Lesson = {
             },
             {
                 "name": "A company with a strong visual brand but a bad image",
-                "description": "A company has a great logo and colours, but the photos they use on their website and social media are old and formal. It does not fit with their style.",
+                "description": "A company has a great logo and colors, but the photos they use on their website and social media are old and formal. It does not fit with their style.",
                 "matchKey": "images"
             }
         ],
@@ -410,12 +410,12 @@ export const coloursLogosAndBranding: Lesson = {
             {
                 "key": "logo",
                 "label": "Start with the logo",
-                "description": "Design a simple logo first — one that is easy to remember and stands out. The logo will become the base for all other brand choices, like colours and fonts."
+                "description": "Design a simple logo first — one that is easy to remember and stands out. The logo will become the base for all other brand choices, like colors and fonts."
             },
             {
                 "key": "consistency",
                 "label": "Make it consistent",
-                "description": "Use the same logo, colours, and font on everything — website, emails, and social media. A consistent brand identity helps people know it is the same company everywhere."
+                "description": "Use the same logo, colors, and font on everything — website, emails, and social media. A consistent brand identity helps people know it is the same company everywhere."
             },
             {
                 "key": "images",
@@ -430,12 +430,12 @@ export const coloursLogosAndBranding: Lesson = {
             {
                 "customerLine": "Why does branding matter in marketing?",
                 "salespersonStart": "Branding matters because it helps people remember you. A strong brand",
-                "suggestedCompletion": "identity — your logo, colours, and style — makes your company easy to know. When people see your design, they should know straight away who you are."
+                "suggestedCompletion": "identity — your logo, colors, and style — makes your company easy to know. When people see your design, they should know straight away who you are."
             },
             {
-                "customerLine": "How do you choose colours for a brand?",
-                "salespersonStart": "Think about what feeling you want people to have when they see your brand. Each colour",
-                "suggestedCompletion": "stands for something different. Blue stands for trust. Green stands for nature or health. Red stands for energy. Choose colours that fit with what your brand is about."
+                "customerLine": "How do you choose colors for a brand?",
+                "salespersonStart": "Think about what feeling you want people to have when they see your brand. Each color",
+                "suggestedCompletion": "stands for something different. Blue stands for trust. Green stands for nature or health. Red stands for energy. Choose colors that fit with what your brand is about."
             },
             {
                 "customerLine": "What makes a good logo?",
@@ -445,7 +445,7 @@ export const coloursLogosAndBranding: Lesson = {
             {
                 "customerLine": "How long does it take to build a strong brand identity?",
                 "salespersonStart": "It takes time — usually at least one or two years. You have to try different things and",
-                "suggestedCompletion": "see what people like. The key is to keep the design consistent — use the same logo, font, and colours everywhere so people start to know and trust the brand."
+                "suggestedCompletion": "see what people like. The key is to keep the design consistent — use the same logo, font, and colors everywhere so people start to know and trust the brand."
             }
         ]
     }

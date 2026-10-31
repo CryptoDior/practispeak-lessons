@@ -73,7 +73,7 @@ export const theSquad: Lesson = {
     {
       word: 'SQUAD NUMBER',
       partOfSpeech: 'noun',
-      definition: 'The number on a player\'s shirt — in most leagues, players keep the same squad number all season.',
+      definition: 'The number on a player\'s shirt — in most leagues, players keep the same squad number all season. (US: roster number)',
       example: 'She wears squad number 10 — traditionally the number for the most creative attacking player.',
       imageSlug: '/images/squad-number.png',
     },
@@ -101,7 +101,7 @@ export const theSquad: Lesson = {
     },
     {
       phrase: 'MAKE THE SQUAD',
-      definition: 'To be selected in the group of players for a match or tournament.',
+      definition: 'To be selected in the group of players for a match or tournament. (US: make the roster)',
       example: 'She trained well all week and made the squad for the cup game — her first time on the bench.',
       imageSlug: '/images/make-the-squad.png',
     },
@@ -113,7 +113,7 @@ export const theSquad: Lesson = {
     },
     {
       phrase: 'ROTATE THE SQUAD',
-      definition: 'To regularly change the players who start — resting some and giving others chances.',
+      definition: 'To regularly change the players who start — resting some and giving others chances. (US: rotate the roster)',
       example: 'The manager rotates the squad carefully because they play three times a week.',
       imageSlug: '/images/rotate-the-squad.png',
     },

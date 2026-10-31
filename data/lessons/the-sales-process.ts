@@ -404,7 +404,7 @@ export const theSalesProcess: Lesson = {
                     "Say: 'We have a promotion ending this Friday — it might be worth deciding before then.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. 'I need to think about it' almost always means there is an unanswered objection or a missing piece of information. B opens a respectful conversation to find out what it is. A lets the prospect go cold with no plan — most deals lost this way are lost here. C uses false urgency, which damages trust the moment the prospect realises the promotion isn't real."
+                "explanation": "B is correct. 'I need to think about it' almost always means there is an unanswered objection or a missing piece of information. B opens a respectful conversation to find out what it is. A lets the prospect go cold with no plan — most deals lost this way are lost here. C uses false urgency, which damages trust the moment the prospect realizes the promotion isn't real."
             },
             {
                 "customerLine": "A strong prospect has been in your pipeline for two months. They responded well to the pitch but still haven't committed. What's your next move?",
@@ -417,7 +417,7 @@ export const theSalesProcess: Lesson = {
                 "explanation": "B is correct. Long nurture cycles are normal in B2B sales — buying decisions involve multiple stakeholders, budget cycles, and internal approvals. A personal follow-up that references previous conversations demonstrates that you have been listening and that you understand their situation. Artificial deadlines (A) can work once but often damage trust. Abandoning a warm prospect (C) is one of the most common and costly mistakes in sales."
             },
             {
-                "customerLine": "A prospect says: 'We love the product — we just need a few more weeks to finalise the budget.'",
+                "customerLine": "A prospect says: 'We love the product — we just need a few more weeks to finalize the budget.'",
                 "options": [
                     "Say: 'No problem — just let me know when you're ready.'",
                     "Say: 'Of course. To keep things moving, can I send the contract over now so it's ready to sign the moment the budget is confirmed? That way there's no delay at your end.'",

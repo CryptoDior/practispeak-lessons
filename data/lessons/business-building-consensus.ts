@@ -37,7 +37,7 @@ export const businessBuildingConsensus: Lesson = {
     { phrase: 'SETTLE ON', definition: 'To choose after considering options.', example: 'We settled on the hybrid model.', imageSlug: img('phrase-settle-on') },
     { phrase: 'It sounds like we all agree that…', tag: 'phrase', definition: 'Highlight common ground.', example: '"It sounds like we all agree that customer experience comes first."', imageSlug: img('phrase-all-agree') },
     { phrase: "Building on what Maria said…", tag: 'phrase', definition: 'Connect your idea to someone else\'s.', example: '"Building on what Maria said, we could pilot it in one region."', inAction: 'Building on others\' ideas ("building on…", "to add to that…") creates shared ownership — people support decisions they helped shape.', imageSlug: img('phrase-building-on-maria') },
-    { phrase: 'Is there anything that would stop you from supporting this?', tag: 'phrase', definition: 'Check for hidden objections before deciding.', example: '"Before we finalise — is there anything that would stop you from supporting this?"', imageSlug: img('phrase-check-support') },
+    { phrase: 'Is there anything that would stop you from supporting this?', tag: 'phrase', definition: 'Check for hidden objections before deciding.', example: '"Before we finalize — is there anything that would stop you from supporting this?"', imageSlug: img('phrase-check-support') },
   ],
 
   videos: [],

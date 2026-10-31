@@ -98,7 +98,7 @@ export const gameGenres: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'WHAT KIND OF GAMES DO YOU LIKE',
-      definition: 'Ask someone about their favourite game type — a great conversation starter.',
+      definition: 'Ask someone about their favorite game type — a great conversation starter.',
       example: 'What kind of games do you like? I love action and racing games!',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-kind-of-games-do-you-like.png',
     },
@@ -115,9 +115,9 @@ export const gameGenres: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/more-exciting-than.png',
     },
     {
-      phrase: 'MY FAVOURITE GENRE IS',
+      phrase: 'MY FAVORITE GENRE IS',
       definition: 'Use this to tell someone which type of game you love the most.',
-      example: 'My favourite genre is RPG — I love the long stories and big worlds.',
+      example: 'My favorite genre is RPG — I love the long stories and big worlds.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/my-favourite-genre-is.png',
     },
     {
@@ -165,7 +165,7 @@ export const gameGenres: Lesson = {
       speaker: 'Alex',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
-      text: 'Ha! Horror games are scarier than strategy for sure. My favourite [[genre:a category of game]] is actually RPG.',
+      text: 'Ha! Horror games are scarier than strategy for sure. My favorite [[genre:a category of game]] is actually RPG.',
     },
     {
       speaker: 'Sam',
@@ -235,7 +235,7 @@ export const gameGenres: Lesson = {
 ],
   fillBlankExercise: [
     {
-        "before": "My favourite",
+        "before": "My favorite",
         "after": "is RPG — I love building my character.",
         "answer": "genre"
     },
@@ -307,7 +307,7 @@ export const gameGenres: Lesson = {
         "correctIndex": 2
     },
     {
-        "question": "What is Alex's favourite genre?",
+        "question": "What is Alex's favorite genre?",
         "options": [
             "Action",
             "Horror",

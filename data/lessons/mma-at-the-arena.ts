@@ -78,7 +78,7 @@ export const mmaAtTheArena: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'WALK OUT TO',
-      definition: 'Walk into the arena with your favourite song playing.',
+      definition: 'Walk into the arena with your favorite song playing.',
       example: 'She always walks out to hip-hop. The fans love it.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-at-the-arena-walk-out-to.png',
       tag: 'phrase',
@@ -170,7 +170,7 @@ export const mmaAtTheArena: Lesson = {
 
   fillBlankExercise: [
     { before: 'The', after: 'sold out in twenty minutes. Everyone wanted to see this fight.', answer: 'arena' },
-    { before: 'She', after: 'out to her favourite song and the crowd cheered.', answer: 'walked' },
+    { before: 'She', after: 'out to her favorite song and the crowd cheered.', answer: 'walked' },
     { before: 'The', after: 'start at 6pm. The main card is at 10pm.', answer: 'prelims' },
     { before: 'I could not get a', after: '. The event sold out in an hour.', answer: 'ticket' },
     { before: 'The', after: 'goes live in ten minutes. Sit down!', answer: 'broadcast' },

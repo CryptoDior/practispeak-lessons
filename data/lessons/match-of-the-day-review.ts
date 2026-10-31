@@ -38,7 +38,7 @@ export const matchOfTheDayReview: Lesson = {
     {
       word: 'VERDICT',
       partOfSpeech: 'noun',
-      definition: 'A final judgement or opinion — a clear, decisive conclusion.',
+      definition: 'A final judgment or opinion — a clear, decisive conclusion.',
       example: 'The pundit gave his verdict: "Ronaldo was outstanding. Man of the match, without question."',
       imageSlug: '/images/match-of-the-day-review-verdict.png',
     },
@@ -81,7 +81,7 @@ export const matchOfTheDayReview: Lesson = {
       word: 'SUMMARY',
       partOfSpeech: 'noun',
       definition: 'A brief account of the main points — covering the key events without full detail.',
-      example: 'The TV programme gave a two-minute summary of every match played over the weekend.',
+      example: 'The TV program gave a two-minute summary of every match played over the weekend.',
       imageSlug: '/images/match-of-the-day-review-summary.png',
     },
   ],
@@ -113,8 +113,8 @@ export const matchOfTheDayReview: Lesson = {
     },
     {
       phrase: 'ROUND UP',
-      definition: 'To collect and present — to summarise multiple things together.',
-      example: 'The programme rounds up all the weekend\'s results and provides analysis of the key matches.',
+      definition: 'To collect and present — to summarize multiple things together.',
+      example: 'The program rounds up all the weekend\'s results and provides analysis of the key matches.',
       imageSlug: '/images/round-up.png',
     },
     {
@@ -137,7 +137,7 @@ export const matchOfTheDayReview: Lesson = {
       {
         cue: 'That was the match of the season.',
         meaning: 'This match was the best, most exciting, or most significant of the entire season so far.',
-        usage: 'A superlative judgement — the absolute best. "That was the match of the season" is a clear, decisive verdict. It is used by commentators, pundits, and fans after exceptional matches. "Match of the season" implies: no other match this year was better for goals, drama, quality, or significance.',
+        usage: 'A superlative judgment — the absolute best. "That was the match of the season" is a clear, decisive verdict. It is used by commentators, pundits, and fans after exceptional matches. "Match of the season" implies: no other match this year was better for goals, drama, quality, or significance.',
         imageSlug: 'otp-match-of-season',
       },
       {
@@ -161,7 +161,7 @@ export const matchOfTheDayReview: Lesson = {
       {
         cue: 'When all is said and done...',
         meaning: 'After everything has been discussed and considered — introducing the final conclusion.',
-        usage: 'A classic closing phrase for post-match analysis. "When all is said and done, the better team won. Simple." It signals: we have discussed everything — this is my final judgement. Very common in British football culture. The equivalent of "at the end of the day" — which is also very common in football punditry.',
+        usage: 'A classic closing phrase for post-match analysis. "When all is said and done, the better team won. Simple." It signals: we have discussed everything — this is my final judgment. Very common in British football culture. The equivalent of "at the end of the day" — which is also very common in football punditry.',
         imageSlug: 'otp-when-all-is-said-and-done',
       },
     ],
@@ -174,7 +174,7 @@ export const matchOfTheDayReview: Lesson = {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
-      text: 'Well — what a night. What a [[memorable:worth remembering — particularly special]] match. Before we go, let\'s do a quick [[review:a look back and assessment]]. Ronaldo — your [[verdict:a final judgement or opinion]]?',
+      text: 'Well — what a night. What a [[memorable:worth remembering — particularly special]] match. Before we go, let\'s do a quick [[review:a look back and assessment]]. Ronaldo — your [[verdict:a final judgment or opinion]]?',
     },
     {
       speaker: 'Ronaldo',
@@ -221,7 +221,7 @@ export const matchOfTheDayReview: Lesson = {
   ],
 
   matchingExercise: [
-    { word: 'VERDICT', definition: 'A final judgement or decisive conclusion' },
+    { word: 'VERDICT', definition: 'A final judgment or decisive conclusion' },
     { word: 'OUTSTANDING', definition: 'Exceptionally good — noticeably better than the rest' },
     { word: 'RESILIENT', definition: 'Able to recover from difficulty — showing strength under pressure' },
     { word: 'DECISIVE', definition: 'Having a final, clear effect on the outcome' },
@@ -381,7 +381,7 @@ export const matchOfTheDayReview: Lesson = {
             '"Fair enough. We were completely lucky. City didn\'t deserve anything."',
           ],
           correctIndex: 1,
-          explanation: 'B is correct. It uses: "I see your point" (polite acknowledgement of the rival\'s view), "certainly decisive" (honest concession), "in my opinion" (opinion phrase), "the dominant team" (A2 vocabulary), "on the balance of play" (sports idiom). A is aggressive. C gives away too much — agreeing "completely lucky" when you won 3-1 with clear stats is wrong.',
+          explanation: 'B is correct. It uses: "I see your point" (polite acknowledgment of the rival\'s view), "certainly decisive" (honest concession), "in my opinion" (opinion phrase), "the dominant team" (A2 vocabulary), "on the balance of play" (sports idiom). A is aggressive. C gives away too much — agreeing "completely lucky" when you won 3-1 with clear stats is wrong.',
         },
         {
           customerLine: 'Describe the atmosphere at the stadium during the match — use language from Units 3 and 4.',
@@ -447,7 +447,7 @@ export const matchOfTheDayReview: Lesson = {
         {
           customerLine: 'A new English learner asks: "How do I talk about football in English?"',
           salespersonStart: 'Sofia: On reflection, I think the best way is to learn the language of every part of the football experience.',
-          suggestedCompletion: 'Start on the pitch — the vocabulary of passes, shots, and set pieces. Then learn the chants and shouts from the stands — how fans communicate their support and frustration. Watch matches on TV and listen to the commentators and pundits — how they describe goals, analyse tactics, and give opinions. Read match reports — the formal, journalistic English of the game. And then — most importantly — talk to other fans. Agree and disagree, share opinions, use phrases like "in my opinion" and "I see your point, but." When all is said and done, football English is not just a language — it is a culture. And the best way to learn a culture is to live inside it.',
+          suggestedCompletion: 'Start on the pitch — the vocabulary of passes, shots, and set pieces. Then learn the chants and shouts from the stands — how fans communicate their support and frustration. Watch matches on TV and listen to the commentators and pundits — how they describe goals, analyze tactics, and give opinions. Read match reports — the formal, journalistic English of the game. And then — most importantly — talk to other fans. Agree and disagree, share opinions, use phrases like "in my opinion" and "I see your point, but." When all is said and done, football English is not just a language — it is a culture. And the best way to learn a culture is to live inside it.',
         },
         {
           customerLine: 'Coach Diallo: "What is the most important lesson from the A2 course?"',

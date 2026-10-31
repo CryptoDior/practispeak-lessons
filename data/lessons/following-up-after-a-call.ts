@@ -5,7 +5,7 @@ export const followingUpAfterACall: Lesson = {
   title: 'Following Up After a Call',
   subtitle: 'How to reconnect professionally, recap key points, and keep the deal moving forward',
   level: 'B1-B2',
-  description: 'Most deals are not won on the first call — they are won in the follow-up. A well-timed, well-structured follow-up shows the customer that you are organised, reliable, and genuinely interested in their decision. This lesson teaches you the language and structure you need to follow up with confidence — whether by phone or email — and how to use the follow-up to unblock objections and move the sale forward.',
+  description: 'Most deals are not won on the first call — they are won in the follow-up. A well-timed, well-structured follow-up shows the customer that you are organized, reliable, and genuinely interested in their decision. This lesson teaches you the language and structure you need to follow up with confidence — whether by phone or email — and how to use the follow-up to unblock objections and move the sale forward.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/following-up-after-a-call-hero.png',
 
   vocabulary: [
@@ -173,7 +173,7 @@ export const followingUpAfterACall: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'I also wanted to quickly [[recap:to summarise the main points of a previous conversation]] the commercial terms — $35 per user, 10% off for three months, and a two-week implementation. Does everything still look correct?',
+      text: 'I also wanted to quickly [[recap:to summarize the main points of a previous conversation]] the commercial terms — $35 per user, 10% off for three months, and a two-week implementation. Does everything still look correct?',
     },
     {
       speaker: 'Marcus',
@@ -218,7 +218,7 @@ export const followingUpAfterACall: Lesson = {
     },
     {
         "word": "recap",
-        "definition": "to summarise the main points of a previous conversation"
+        "definition": "to summarize the main points of a previous conversation"
     },
     {
         "word": "outstanding",

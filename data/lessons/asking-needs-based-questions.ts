@@ -262,7 +262,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     },
     {
         "before": "The best discovery questions",
-        "after": "problems the prospect did not even realise they wanted to talk about.",
+        "after": "problems the prospect did not even realize they wanted to talk about.",
         "answer": "uncover"
     },
     {
@@ -277,7 +277,7 @@ export const askingNeedsBasedQuestions: Lesson = {
         "options": [
             "She sends Marcus an agenda for the call",
             "She asks if she can ask questions first to understand his world",
-            "She summarises what Brightline does",
+            "She summarizes what Brightline does",
             "She tells Marcus what pain points she has heard from other customers"
         ],
         "correctIndex": 1
@@ -308,7 +308,7 @@ export const askingNeedsBasedQuestions: Lesson = {
             "A daily standup meeting to review open deals",
             "An automated email sequence for all new leads",
             "A shared spreadsheet reps are supposed to update daily",
-            "A colour-coded system inside the CRM"
+            "A color-coded system inside the CRM"
         ],
         "correctIndex": 2
     },

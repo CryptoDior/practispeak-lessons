@@ -122,7 +122,7 @@ export const salesCallStructure: Lesson = {
     {
       context: 'Enterprise / procurement call',
       register: 'Formal / Professional',
-      example: "'Good morning Mr Chen. My name is Riley and I'm calling from Brightline. I understand your organisation is evaluating pipeline management solutions — I wanted to introduce ourselves and see whether a conversation might be of value.'",
+      example: "'Good morning Mr Chen. My name is Riley and I'm calling from Brightline. I understand your organization is evaluating pipeline management solutions — I wanted to introduce ourselves and see whether a conversation might be of value.'",
     },
     {
       context: 'Post-call follow-up email',
@@ -208,7 +208,7 @@ export const salesCallStructure: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Okay — let me [[recap:to summarise the key points before moving forward]] what I've heard: 15 reps, spreadsheet-based, two hours of manual reporting, and data quality issues because the team has lost confidence in the system. Is that right?",
+      text: "Okay — let me [[recap:to summarize the key points before moving forward]] what I've heard: 15 reps, spreadsheet-based, two hours of manual reporting, and data quality issues because the team has lost confidence in the system. Is that right?",
     },
     {
       speaker: 'Marcus',
@@ -279,7 +279,7 @@ export const salesCallStructure: Lesson = {
     },
     {
         "word": "RECAP",
-        "definition": "To summarise key points before moving to the next step"
+        "definition": "To summarize key points before moving to the next step"
     }
 ],
   fillBlankExercise: [
@@ -328,7 +328,7 @@ export const salesCallStructure: Lesson = {
     {
         "question": "What does Riley do immediately after Marcus says he only has 20 minutes?",
         "options": [
-            "She apologises and offers to reschedule",
+            "She apologizes and offers to reschedule",
             "She says 20 minutes is fine and shares a quick agenda for the call",
             "She speeds through her product pitch",
             "She asks him to extend the time"
@@ -457,7 +457,7 @@ export const salesCallStructure: Lesson = {
         "profiles": [
             {
                 "name": "Situation A",
-                "description": "Riley has just dialled Marcus for the first time. He has answered. Riley knows nothing about his situation yet. She has 20 minutes and Marcus is cautious. She needs to establish trust and make him feel the call is worth his time before anything else.",
+                "description": "Riley has just dialed Marcus for the first time. He has answered. Riley knows nothing about his situation yet. She has 20 minutes and Marcus is cautious. She needs to establish trust and make him feel the call is worth his time before anything else.",
                 "matchKey": "opening"
             },
             {

@@ -143,7 +143,7 @@ export const mmaTalkingAboutAFight: Lesson = {
       speaker: 'Carlos',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/carlos-mma-icon.png',
-      text: 'Not really. She was the [[favourite:the fighter people think will win]]. But her [[performance:how well she fought]] was special. She always [[finishes strong:fights harder at the end]]. That last round was great.',
+      text: 'Not really. She was the [[favorite:the fighter people think will win]]. But her [[performance:how well she fought]] was special. She always [[finishes strong:fights harder at the end]]. That last round was great.',
     },
     {
       speaker: 'Mia',

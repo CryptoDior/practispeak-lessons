@@ -27,7 +27,7 @@ export const transportPartsOfACar: Lesson = {
     { word: 'SIDE MIRROR', partOfSpeech: 'noun', definition: 'The small mirror on the side of a car to see behind you.', example: 'Someone hit my side mirror.', imageSlug: img('damaged-side-mirror') + '?v=2' },
     { word: 'BONNET / HOOD', partOfSpeech: 'noun', definition: 'The front part that covers the engine. (UK: bonnet, US: hood)', example: 'She opened the bonnet to check the engine.', imageSlug: img('woman-opens-car-bonnet') + '?v=2' },
     { word: 'WIPERS', partOfSpeech: 'noun', definition: 'The moving parts that clean rain from the front window.', example: 'Turn on the wipers — it\'s raining.', imageSlug: img('windshield-wipers-clearing-rain') + '?v=2' },
-    { word: 'NUMBER PLATE', partOfSpeech: 'noun', definition: 'The sign with the car\'s letters and numbers. (US: licence plate)', example: 'The police checked the number plate.', imageSlug: img('police-check-number-plate') + '?v=2' },
+    { word: 'NUMBER PLATE', partOfSpeech: 'noun', definition: 'The sign with the car\'s letters and numbers. (US: license plate)', example: 'The police checked the number plate.', imageSlug: img('police-check-number-plate') + '?v=2' },
     { word: 'BUMPER', partOfSpeech: 'noun', definition: 'The part at the front and back that protects the car.', example: 'I need to fix the dent in my front bumper.', imageSlug: img('dent-in-front-bumper') + '?v=2' },
     { word: 'GRILL', partOfSpeech: 'noun', definition: 'The front part with small holes that let air in.', example: 'The grill got dirty from the mud.', imageSlug: img('muddy-front-grille') + '?v=2' },
     { word: 'TAIL LIGHT', partOfSpeech: 'noun', definition: 'The red light at the back of the car.', example: 'One of my tail lights is broken.', imageSlug: img('one-broken-tail-light') + '?v=2' },
@@ -76,7 +76,7 @@ export const transportPartsOfACar: Lesson = {
 
   multipleChoiceExercise: [
     { question: 'What is the US word for "bonnet"?', options: ['Trunk', 'Hood', 'Roof', 'Grill'], correctIndex: 1 },
-    { question: 'What colour is a tail light?', options: ['White', 'Red', 'Blue', 'Green'], correctIndex: 1 },
+    { question: 'What color is a tail light?', options: ['White', 'Red', 'Blue', 'Green'], correctIndex: 1 },
     { question: 'What do you press to change gears?', options: ['The clutch', 'The wipers', 'The bumper', 'The grill'], correctIndex: 0 },
     { question: "In the dialogue, where was Oliver's car hit?", options: ['At the front', 'At the back', 'On the roof', 'On the side only'], correctIndex: 1 },
     { question: 'When will the car be ready?', options: ['Today', 'Tomorrow', 'Friday', 'Next week'], correctIndex: 2 },

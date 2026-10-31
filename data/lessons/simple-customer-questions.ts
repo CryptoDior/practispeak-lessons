@@ -89,7 +89,7 @@ export const simpleCustomerQuestions: Lesson = {
     {
       phrase: 'DO YOU OFFER',
       definition: 'Ask if a company provides a particular product, service, or discount.',
-      example: 'Do you offer a discount for non-profit organisations?',
+      example: 'Do you offer a discount for non-profit organizations?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-simple-customer-questions-phrase-do-you-offer.png',
     },
     {

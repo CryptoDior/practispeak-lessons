@@ -405,7 +405,7 @@ export const simpleSalesRolePlay: Lesson = {
                     "It depends on what you need — let me send you some information."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B gives the price directly and personalises it immediately for the customer — this shows you were listening and you know their situation. Option A avoids the question with a vague word. Option C is evasive — a customer who asks for a price deserves a direct answer, not a delay."
+                "explanation": "Option B gives the price directly and personalizes it immediately for the customer — this shows you were listening and you know their situation. Option A avoids the question with a vague word. Option C is evasive — a customer who asks for a price deserves a direct answer, not a delay."
             },
             {
                 "customerLine": "Okay, I think I am ready to go ahead.",
@@ -415,7 +415,7 @@ export const simpleSalesRolePlay: Lesson = {
                     "Great — I will send you the contract right now."
                 ],
                 "correctIndex": 1,
-                "explanation": "Option B does the professional thing: summarise before closing to make sure everyone agrees on the details, then confirm. Option A introduces unnecessary doubt when the customer is already ready to say yes. Option C moves too fast without confirming the details — always summarise first."
+                "explanation": "Option B does the professional thing: summarize before closing to make sure everyone agrees on the details, then confirm. Option A introduces unnecessary doubt when the customer is already ready to say yes. Option C moves too fast without confirming the details — always summarize first."
             }
         ]
     },

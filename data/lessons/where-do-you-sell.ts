@@ -304,7 +304,7 @@ export const whereDoYouSell: Lesson = {
         "question": "What does 'building a presence' in a new market mean?",
         "options": [
             "Opening a physical office in that market",
-            "Becoming more known and active in that market over time — so potential clients recognise and trust your brand",
+            "Becoming more known and active in that market over time — so potential clients recognize and trust your brand",
             "Translating all your marketing materials into the local language",
             "Hiring a local sales representative"
         ],

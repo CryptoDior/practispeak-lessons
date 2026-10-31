@@ -113,7 +113,7 @@ export const conversationB1HowHasYourWeekBeen: Lesson = {
     { question: 'What does "hectic" mean?', options: ['Very relaxing', 'Very busy', 'Very boring', 'Very short'], correctIndex: 1 },
     { question: 'Which sentence is correct?', options: ["I've been catching up on work.", "I've catching up on work.", 'I been catching up work.', 'I have catch up on work.'], correctIndex: 0 },
     { question: 'What does "Nothing too exciting" mean?', options: ['Something amazing happened', 'Nothing special happened', 'You are angry', 'You are sick'], correctIndex: 1 },
-    { question: 'In the dialogue, what went wrong on Tuesday?', options: ['The client cancelled', 'The projector broke', 'Oliver was late', 'The internet was down'], correctIndex: 1 },
+    { question: 'In the dialogue, what went wrong on Tuesday?', options: ['The client canceled', 'The projector broke', 'Oliver was late', 'The internet was down'], correctIndex: 1 },
     { question: "How was Rosie's week?", options: ['Hectic', 'Chaotic', 'Quiet', 'Stressful'], correctIndex: 2 },
   ],
 };

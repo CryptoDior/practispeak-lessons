@@ -12,9 +12,9 @@ export const robloxNarrativeTenses: Lesson = {
     focusTitle: 'Focus: Combining simple past, past continuous, and past perfect',
     description: "In a story, each tense has a specific job. SIMPLE PAST tells the main events in order ('They attacked. We defended.'). PAST CONTINUOUS sets the background — what was already happening ('I was defending the base when they attacked.'). PAST PERFECT goes further back — before the story even started ('We had already lost one player before the match began.'). Together, these three tenses give a story its full time structure.",
     positivePattern: 'Past Perfect (HAD + past participle) → background before story | Past Continuous (WAS/WERE + -ing) → ongoing action | Simple Past → main event',
-    positiveExample: '"We had practised for weeks. I was watching the enemy team when the signal came."',
+    positiveExample: '"We had practiced for weeks. I was watching the enemy team when the signal came."',
     negativePattern: 'Do NOT use simple past for everything — the reader cannot see what happened before or during',
-    negativeExample: '"We practised. I watched. The signal came." ✗ (flat — no sense of background or timing)',
+    negativeExample: '"We practiced. I watched. The signal came." ✗ (flat — no sense of background or timing)',
     positiveLabel: 'CORRECT — three tenses work together to create time depth in the story',
     negativeLabel: 'FLAT — only simple past cannot show which actions were ongoing or came first',
     arrowStyle: true,
@@ -25,7 +25,7 @@ export const robloxNarrativeTenses: Lesson = {
       { sentence: '"She joined the team in March. We had been trying to recruit her for months."', note: 'Simple past (main event) + past perfect continuous (the long effort before the event)' },
     ],
     negativeExamples: [
-      { sentence: '"We practised. I watched. The signal came." ✗ (only simple past — no depth or timing)', note: 'Without past continuous and past perfect, all actions feel equal and flat — no sense of what was background or what came first' },
+      { sentence: '"We practiced. I watched. The signal came." ✗ (only simple past — no depth or timing)', note: 'Without past continuous and past perfect, all actions feel equal and flat — no sense of what was background or what came first' },
       { sentence: '"I was defending when I had seen the signal." ✗ (wrong tense choice — PAST PERFECT not needed here)', note: 'PAST PERFECT is for things that happened BEFORE the story moment. If I saw the signal IN that moment, use simple past: I was defending when I saw the signal.' },
     ],
   },
@@ -49,7 +49,7 @@ export const robloxNarrativeTenses: Lesson = {
       word: 'INTERRUPT',
       partOfSpeech: 'verb',
       definition: "To stop something that was already happening — to break in the middle of an ongoing action.",
-      example: "We were building our defence when a sudden attack interrupted everything we had planned.",
+      example: "We were building our defense when a sudden attack interrupted everything we had planned.",
       imageSlug: '/images/roblox-narrative-tenses-interrupt.png',
     },
     {
@@ -101,7 +101,7 @@ export const robloxNarrativeTenses: Lesson = {
       word: 'BACKGROUND',
       partOfSpeech: 'noun',
       definition: "The situation that was already there — what was happening before the main event.",
-      example: "To understand why the project was cancelled, you need to know the background — the budget had already been cut twice.",
+      example: "To understand why the project was canceled, you need to know the background — the budget had already been cut twice.",
       imageSlug: '/images/roblox-narrative-tenses-background-irl.png',
     },
     {
@@ -136,7 +136,7 @@ export const robloxNarrativeTenses: Lesson = {
       word: 'UNFOLD',
       partOfSpeech: 'verb',
       definition: "When a situation develops slowly over time — when events happen one after another.",
-      example: "As the investigation unfolded, it became clear that the error had occurred much earlier than anyone had realised.",
+      example: "As the investigation unfolded, it became clear that the error had occurred much earlier than anyone had realized.",
       imageSlug: '/images/roblox-narrative-tenses-unfold-irl.png',
     },
     {
@@ -160,7 +160,7 @@ export const robloxNarrativeTenses: Lesson = {
     {
       phrase: "LEAD UP TO",
       definition: "The period of time or the events that came just before something important.",
-      example: "In the days leading up to the tournament, the team had practised every evening without a break.",
+      example: "In the days leading up to the tournament, the team had practiced every evening without a break.",
       inGame: "What happened in the rounds leading up to the final round often explains why one team wins.",
       inRealLife: "The events leading up to the merger had been kept completely confidential — only three people knew.",
       imageSlug: '/images/roblox-narrative-tenses-lead-up-to.png',
@@ -193,7 +193,7 @@ export const robloxNarrativeTenses: Lesson = {
       phrase: "SET IN",
       definition: "When something unpleasant begins to happen and continues for a while.",
       example: "After three consecutive losses, frustration began to set in and the team stopped communicating clearly.",
-      inGame: "Fatigue sets in fast in long tournaments — regular breaks are more important than people realise.",
+      inGame: "Fatigue sets in fast in long tournaments — regular breaks are more important than people realize.",
       inRealLife: "Doubt started to set in when the third prototype also failed to meet the required specifications.",
       imageSlug: '/images/roblox-narrative-tenses-set-in.png',
     },
@@ -268,7 +268,7 @@ export const robloxNarrativeTenses: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "WHEN + simple past [[interrupt:stop something that was already happening]]s the past continuous: 'We were building our defence WHEN the attack came.' The attack is the simple past — it breaks the ongoing action. This is the [[turning point:the moment when a situation begins to change]] of most stories.",
+      text: "WHEN + simple past [[interrupt:stop something that was already happening]]s the past continuous: 'We were building our defense WHEN the attack came.' The attack is the simple past — it breaks the ongoing action. This is the [[turning point:the moment when a situation begins to change]] of most stories.",
     },
   ],
 
@@ -277,9 +277,9 @@ export const robloxNarrativeTenses: Lesson = {
     items: [
       {
         sentence: "We _____ for three weeks before the tournament finally began.",
-        options: ["were practising", "had been practising", "practised"],
+        options: ["were practicing", "had been practicing", "practised"],
         correctIndex: 1,
-        explanation: "PAST PERFECT CONTINUOUS (HAD BEEN + -ing) shows an ongoing action that was already in progress before the main story moment (the tournament beginning). It emphasises both the duration and the fact it completed before the tournament started.",
+        explanation: "PAST PERFECT CONTINUOUS (HAD BEEN + -ing) shows an ongoing action that was already in progress before the main story moment (the tournament beginning). It emphasizes both the duration and the fact it completed before the tournament started.",
       },
       {
         sentence: "I _____ the replay when Mario called with news about the next match.",
@@ -390,8 +390,8 @@ export const robloxNarrativeTenses: Lesson = {
     {
       question: "Choose the sentence with the correct combination of narrative tenses.",
       options: [
-        "We practised when they arrived and we had been ready.",
-        "While we were planning our defence, the other team had already moved to a new position.",
+        "We practiced when they arrived and we had been ready.",
+        "While we were planning our defense, the other team had already moved to a new position.",
         "I was watching when I had seen the signal — it had been too late.",
         "By the time we noticed, they had been capturing the point for ten minutes.",
       ],

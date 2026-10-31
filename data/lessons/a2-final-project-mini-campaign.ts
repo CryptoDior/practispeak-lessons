@@ -179,7 +179,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'If you [[sign off on:formally approve]] the plan today, we can go live on the 1st of October — exactly on [[timeline:the schedule from first activity to final review]]. I will [[pull together:gather and organise all elements into a coherent whole]] the final campaign doc and share it with you by end of day. All we need now is your approval.',
+      text: 'If you [[sign off on:formally approve]] the plan today, we can go live on the 1st of October — exactly on [[timeline:the schedule from first activity to final review]]. I will [[pull together:gather and organize all elements into a coherent whole]] the final campaign doc and share it with you by end of day. All we need now is your approval.',
     }
   ],
 
@@ -389,7 +389,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
                 "build towards"
             ],
             "correctIndex": 0,
-            "explanation": "Hand over means to give a finished deliverable to the person or team who will receive it. Pull together means to organise elements into a plan. Build towards means to work progressively towards a goal. 'Hand over the report' is the standard phrase — you are transferring ownership of a completed deliverable. 'Pull together' is used in the planning phase, not delivery."
+            "explanation": "Hand over means to give a finished deliverable to the person or team who will receive it. Pull together means to organize elements into a plan. Build towards means to work progressively towards a goal. 'Hand over the report' is the standard phrase — you are transferring ownership of a completed deliverable. 'Pull together' is used in the planning phase, not delivery."
         },
         {
             "sentence": "Our landing page had a 12% _____ rate — twelve out of every hundred visitors booked a discovery call.",
@@ -409,7 +409,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
                 "wrap up"
             ],
             "correctIndex": 1,
-            "explanation": "Pull together means to gather and organise all elements into a coherent whole. Sign off on means to approve something. Wrap up means to finish and close a campaign. 'Pull together a document' is a natural, conversational phrase for organising and finalising a plan. Use it when describing the next step — it sounds proactive and organised without being overly formal."
+            "explanation": "Pull together means to gather and organize all elements into a coherent whole. Sign off on means to approve something. Wrap up means to finish and close a campaign. 'Pull together a document' is a natural, conversational phrase for organizing and finalizing a plan. Use it when describing the next step — it sounds proactive and organized without being overly formal."
         }
     ]
 },
@@ -421,7 +421,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
                 "customerLine": "Client: 'I have approved the plan. What happens next and when will we start seeing results?'",
                 "options": [
                     "Say: 'Great — we will start immediately. You should see leads coming in within a week or two.'",
-                    "Say: 'Thank you. Here is exactly what happens next. This week: we finalise the creative assets and brief the design team on the case study. Next week: we go live on LinkedIn and launch the first email. Week three: the second email goes out and we review early data. Realistically, you will see your first qualified leads in weeks three to five — B2B LinkedIn takes a few cycles to optimise. By week eight, when the webinar runs, the pipeline should be filling well. I will send you a progress update every Monday morning so you always know where we are.'",
+                    "Say: 'Thank you. Here is exactly what happens next. This week: we finalize the creative assets and brief the design team on the case study. Next week: we go live on LinkedIn and launch the first email. Week three: the second email goes out and we review early data. Realistically, you will see your first qualified leads in weeks three to five — B2B LinkedIn takes a few cycles to optimize. By week eight, when the webinar runs, the pipeline should be filling well. I will send you a progress update every Monday morning so you always know where we are.'",
                     "Say: 'Now that the plan is approved, just sit back and let us handle everything. We will update you when there is news.'"
                 ],
                 "correctIndex": 1,
@@ -450,7 +450,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
         ]
     },
     "spotTheMistake": {
-        "instructions": "Read this campaign presentation script. There are 3 grammar mistakes. Find them and correct them. Then practise reading the corrected version aloud with a partner.",
+        "instructions": "Read this campaign presentation script. There are 3 grammar mistakes. Find them and correct them. Then practice reading the corrected version aloud with a partner.",
         "dialogue": [
             {
                 "speaker": "Presenter",
@@ -499,7 +499,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
         ]
     },
     "finishTheLine": {
-        "instructions": "Use the sentence starters below to give your own mini campaign presentation. Use vocabulary from all your A2 lessons. Practise twice — first with notes, then without.",
+        "instructions": "Use the sentence starters below to give your own mini campaign presentation. Use vocabulary from all your A2 lessons. Practice twice — first with notes, then without.",
         "items": [
             {
                 "customerLine": "Client: 'You have two minutes. Tell me about this campaign.'",

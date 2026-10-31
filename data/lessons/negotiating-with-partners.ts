@@ -145,7 +145,7 @@ export const negotiatingWithPartners: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-with-partners-were-at-our-limit-on-that-one.png',
       inAction: "We've moved significantly on the pricing already — we're at our limit on that one, but we can still talk about the service scope.",
       register: 'Neutral / Informal — used to signal a firm boundary without sounding aggressive or closing the conversation. Direct and final in tone, but leaves room for the discussion to continue on other points.',
-      inContext: "Marcus had given ground on three separate clauses before reaching the line he couldn't cross. We're at our limit on that one, he said calmly. He didn't apologise or explain at length — he said it once and moved on. But let's look at what else might address your concern. Is the pricing the real issue, or is it about what you get for that price?",
+      inContext: "Marcus had given ground on three separate clauses before reaching the line he couldn't cross. We're at our limit on that one, he said calmly. He didn't apologize or explain at length — he said it once and moved on. But let's look at what else might address your concern. Is the pricing the real issue, or is it about what you get for that price?",
       visualExamples: [
         { brand: 'Bloom Wild', context: 'Flower brand — packaging supplier deal', imageSlug: '/images/visual-examples/nwp-p6-bloom-wild.png', caption: 'We are at our limit on that one — we cannot go below £0.80 per unit without compromising the materials. If it is a budget issue, let us look at order volume instead.', aspectRatio: '16/9' },
         { brand: 'Morrow', context: 'Luxury skincare — co-branding negotiation', imageSlug: '/images/visual-examples/nwp-p6-morrow.png', caption: 'We are at our limit on that one — the brand equity guidelines do not allow co-branding below a certain tier. That is not negotiable. But the distribution agreement has room to move.', aspectRatio: '4/3' },
@@ -531,7 +531,7 @@ export const negotiatingWithPartners: Lesson = {
             },
             {
                 "customerLine": "We feel like we've given a lot in this negotiation and haven't got much in return.",
-                "salespersonStart": "I hear that, and I want to make sure we both feel this deal is fair — because a partnership where one side feels they gave too much rarely delivers the results either side hopes for. Let me summarise what we've each agreed to so far...",
+                "salespersonStart": "I hear that, and I want to make sure we both feel this deal is fair — because a partnership where one side feels they gave too much rarely delivers the results either side hopes for. Let me summarize what we've each agreed to so far...",
                 "suggestedCompletion": "You've moved on price from 20% to 9%, and on payment terms from net-30 to net-45. We've committed to a 24-month contract, included sub-category exclusivity in retail banking, and agreed to include the reporting add-on at no extra cost. Both sides have made real concessions. If you still feel the balance is wrong, tell me which specific term feels most out of proportion and let's see if there's a creative way to address it."
             }
         ]

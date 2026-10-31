@@ -296,7 +296,7 @@ export const robloxLightSlangExpressions: Lesson = {
         sentence: "_____ everyone — that was one of the most intense and well-played matches of the whole season.",
         options: ["NPC", "GG", "BRB"],
         correctIndex: 1,
-        explanation: "GG means Good Game — said at the end of a match to acknowledge it was well played. NPC is a non-player character. BRB means Be Right Back — said when leaving briefly. Post-match acknowledgement = GG.",
+        explanation: "GG means Good Game — said at the end of a match to acknowledge it was well played. NPC is a non-player character. BRB means Be Right Back — said when leaving briefly. Post-match acknowledgment = GG.",
       },
       {
         sentence: "Be careful with the grind — a lot of players completely _____ before they reach the legendary tier.",

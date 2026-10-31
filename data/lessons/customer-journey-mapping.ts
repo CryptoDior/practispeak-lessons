@@ -3,7 +3,7 @@ import { Lesson } from '@/types/lesson';
 export const customerJourneyMapping: Lesson = {
   slug: 'customer-journey-mapping',
   title: 'Customer Journey Mapping',
-  subtitle: 'How to describe and analyse the steps a customer takes from first contact to purchase',
+  subtitle: 'How to describe and analyze the steps a customer takes from first contact to purchase',
   level: 'B1-B2',
   description: "A customer journey map shows every step a customer takes from the moment they first hear about your product to the moment they buy — and beyond. Understanding this journey helps marketers find the gaps, fix the problems, and improve the experience at every stage. In this lesson, you will learn the vocabulary and phrases marketing teams use to discuss, map, and improve the customer journey in English.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-journey-mapping-hero.png',
@@ -289,7 +289,7 @@ export const customerJourneyMapping: Lesson = {
         sentence: 'A _____ is a fictional profile of a typical customer, including their goals and challenges.',
         options: ['stakeholder', 'persona', 'benchmark'],
         correctIndex: 1,
-        explanation: "A 'persona' is a fictional but realistic customer profile used in marketing to represent a specific type of customer. It typically includes a name, job title, goals, challenges, and decision-making behaviour. Personas help teams create content and campaigns that speak directly to a specific audience. A 'stakeholder' is someone with an interest in the business outcome. A 'benchmark' is a performance standard.",
+        explanation: "A 'persona' is a fictional but realistic customer profile used in marketing to represent a specific type of customer. It typically includes a name, job title, goals, challenges, and decision-making behavior. Personas help teams create content and campaigns that speak directly to a specific audience. A 'stakeholder' is someone with an interest in the business outcome. A 'benchmark' is a performance standard.",
       },
       {
         sentence: "_____ is keeping customers after they have bought — making sure they don't leave for a competitor.",
@@ -332,7 +332,7 @@ export const customerJourneyMapping: Lesson = {
             "Consideration stage first — without better content there, fewer people will reach the trial in the first place.",
           ],
           correctIndex: 1,
-          explanation: "Option B is the strongest answer because it prioritises based on impact and speed — both important criteria for stakeholders. It also gives a specific reason: revenue impact from existing traffic. Option A says both are equally important without justification — this is not useful when a manager asks which to do first. Option C makes a valid argument but is weaker in this context because the company already has 12,000 awareness-stage visitors per month — improving consideration would help, but the faster revenue win is fixing the trial drop-off.",
+          explanation: "Option B is the strongest answer because it prioritizes based on impact and speed — both important criteria for stakeholders. It also gives a specific reason: revenue impact from existing traffic. Option A says both are equally important without justification — this is not useful when a manager asks which to do first. Option C makes a valid argument but is weaker in this context because the company already has 12,000 awareness-stage visitors per month — improving consideration would help, but the faster revenue win is fixing the trial drop-off.",
         },
       ],
     },

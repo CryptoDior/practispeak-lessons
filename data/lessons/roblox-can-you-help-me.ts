@@ -100,7 +100,7 @@ export const robloxCanYouHelpMe: Lesson = {
       word: 'EXPLAIN',
       partOfSpeech: 'verb',
       definition: "Say what something is clearly so the other person can understand.",
-      example: "The teacher explained the maths problem step by step — now I get it!",
+      example: "The teacher explained the math problem step by step — now I get it!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-can-you-help-me-irl-explain-maths.png',
     },
     {
@@ -132,7 +132,7 @@ export const robloxCanYouHelpMe: Lesson = {
       definition: "A polite way to ask someone for assistance when you are stuck.",
       example: "Can you help me? I have no idea how to get past this part of the game!",
       inGame: "Can you help me find the portal? I have been searching for ten minutes!",
-      inRealLife: "Can you help me with this maths question? I am completely stuck.",
+      inRealLife: "Can you help me with this math question? I am completely stuck.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-can-you-help-me-phrase-help-find-portal.png',
     },
     {

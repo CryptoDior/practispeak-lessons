@@ -52,7 +52,7 @@ export const stadiumsAndGrounds: Lesson = {
     {
       word: 'PITCH',
       partOfSpeech: 'noun',
-      definition: 'The playing surface — the grass field where the match is played.',
+      definition: 'The playing surface — the grass field where the match is played. (US: field)',
       example: 'The pitch was in excellent condition — the groundskeeper had prepared it perfectly.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/stadiums-and-grounds-pitch.png',
     },
@@ -101,7 +101,7 @@ export const stadiumsAndGrounds: Lesson = {
     },
     {
       phrase: 'ON THE TOUCHLINE',
-      definition: 'Standing on the line at the side of the pitch — where managers usually stand.',
+      definition: 'Standing on the line at the side of the pitch — where managers usually stand. (US: on the sideline)',
       example: 'The manager was on the touchline for the entire second half — too nervous to sit down.',
       imageSlug: '/images/stadiums-and-grounds-on-the-touchline.png',
     },
@@ -119,7 +119,7 @@ export const stadiumsAndGrounds: Lesson = {
     },
     {
       phrase: 'ON THE PITCH',
-      definition: 'On the playing surface — either during the match or before/after it.',
+      definition: 'On the playing surface — either during the match or before/after it. (US: on the field)',
       example: 'The players came on the pitch for the warm-up an hour before kick-off.',
       imageSlug: '/images/stadiums-and-grounds-on-the-pitch.png',
     },

@@ -5,7 +5,7 @@ export const runningEffectiveMeetings: Lesson = {
   title: 'Running Effective Meetings',
   subtitle: 'How to chair, contribute to, and follow up on marketing meetings in professional English',
   level: 'B1-B2',
-  description: 'Marketing teams live in meetings — campaign reviews, client briefings, kick-offs, and strategy sessions. In this lesson you will learn the vocabulary for facilitating and contributing to meetings professionally: how to set an agenda, manage the discussion, summarise decisions, and follow up with clear action items that actually get done.',
+  description: 'Marketing teams live in meetings — campaign reviews, client briefings, kick-offs, and strategy sessions. In this lesson you will learn the vocabulary for facilitating and contributing to meetings professionally: how to set an agenda, manage the discussion, summarize decisions, and follow up with clear action items that actually get done.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-hero.png',
 
   vocabulary: [
@@ -31,10 +31,10 @@ export const runningEffectiveMeetings: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-minutes.png',
     },
     {
-      word: 'SUMMARISE',
+      word: 'SUMMARIZE',
       partOfSpeech: 'verb',
       definition: 'To give a short overview of the main points.',
-      example: 'Let me summarise the main results of this month\'s campaign.',
+      example: 'Let me summarize the main results of this month\'s campaign.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-summarise.png',
     },
     {
@@ -167,7 +167,7 @@ export const runningEffectiveMeetings: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Excellent. Let me [[summarise:give a brief, clear overview of what was decided]] before we wrap up. Three decisions: Q4 channel allocation approved, LinkedIn budget at €10,000, influencer partnership with James Harlow confirmed. [[Action items:specific tasks with owners and deadlines]]: Dana — revised content calendar by Wednesday. Me — influencer brief by Friday. Marcus — board confirmation of budget by Tuesday. I will send the [[minutes:written record of the meeting]] and [[follow-up:communication after the meeting to confirm what was agreed]] email by end of today.',
+      text: 'Excellent. Let me [[summarize:give a brief, clear overview of what was decided]] before we wrap up. Three decisions: Q4 channel allocation approved, LinkedIn budget at €10,000, influencer partnership with James Harlow confirmed. [[Action items:specific tasks with owners and deadlines]]: Dana — revised content calendar by Wednesday. Me — influencer brief by Friday. Marcus — board confirmation of budget by Tuesday. I will send the [[minutes:written record of the meeting]] and [[follow-up:communication after the meeting to confirm what was agreed]] email by end of today.',
     },
     {
       speaker: 'Dana',
@@ -197,7 +197,7 @@ export const runningEffectiveMeetings: Lesson = {
         "definition": "A written record of what was discussed and decided in a meeting"
     },
     {
-        "word": "SUMMARISE",
+        "word": "SUMMARIZE",
         "definition": "To give a brief, clear overview of what has been discussed or decided"
     },
     {
@@ -264,7 +264,7 @@ export const runningEffectiveMeetings: Lesson = {
         "question": "A meeting has been running for 60 minutes and the group is still discussing the first of three agenda items. What should the chair do?",
         "options": [
             "Let the discussion continue — all the points being raised are relevant and important.",
-            "Intervene: summarise what has been agreed on item one, note any unresolved points for follow-up, and move the group to item two. Explain that the most time-sensitive item — the decision point — needs 20 minutes and you must get there. Good chairs intervene before the meeting overruns, not after.",
+            "Intervene: summarize what has been agreed on item one, note any unresolved points for follow-up, and move the group to item two. Explain that the most time-sensitive item — the decision point — needs 20 minutes and you must get there. Good chairs intervene before the meeting overruns, not after.",
             "Ask the group to vote on whether to extend the meeting time or continue to the next item.",
             "Skip item two and go directly to the decision point — item one was clearly the most complex discussion and the team needed the time."
         ],
@@ -324,7 +324,7 @@ export const runningEffectiveMeetings: Lesson = {
         "question": "A client says at the end of a long meeting: 'I am not sure what we decided today.' What went wrong and what should the chair have done?",
         "options": [
             "The meeting was too long and covered too many topics — next time it should be shorter and more focused.",
-            "The chair did not summarise decisions clearly throughout the meeting and at the end. Whenever a decision was made, it should have been stated explicitly: 'So we have agreed X — is everyone clear on that?' And the last five minutes of any meeting should be a structured close: 'Here are the three decisions we made today and the four action items. Let me confirm each one before we end.' If the client is unsure what was decided, it means the meeting's outputs were not made explicit.",
+            "The chair did not summarize decisions clearly throughout the meeting and at the end. Whenever a decision was made, it should have been stated explicitly: 'So we have agreed X — is everyone clear on that?' And the last five minutes of any meeting should be a structured close: 'Here are the three decisions we made today and the four action items. Let me confirm each one before we end.' If the client is unsure what was decided, it means the meeting's outputs were not made explicit.",
             "The client did not pay enough attention during the meeting and missed the key conclusions.",
             "The meeting agenda was not specific enough — agenda items should be framed as questions to be answered rather than topics to be discussed."
         ],
@@ -359,7 +359,7 @@ export const runningEffectiveMeetings: Lesson = {
                 "customerLine": "At the end of a meeting, the most senior client says: 'Right — I think we all know what we need to do. See you next month.'",
                 "options": [
                     "Say: 'Yes — great meeting. I will be in touch if I have any questions.'",
-                    "Say: 'Before we close — can I take 90 seconds to confirm what we agreed and who is doing what? I want to make sure we all leave with the same understanding. [Summarises three decisions and four action items with owners and deadlines.] Does anyone need to change any of those? Great — I will send the follow-up email with all of this by end of today.'",
+                    "Say: 'Before we close — can I take 90 seconds to confirm what we agreed and who is doing what? I want to make sure we all leave with the same understanding. [Summarizes three decisions and four action items with owners and deadlines.] Does anyone need to change any of those? Great — I will send the follow-up email with all of this by end of today.'",
                     "Say: 'I will write up my notes from the meeting and send them over this week for everyone to review.'"
                 ],
                 "correctIndex": 1,
@@ -378,7 +378,7 @@ export const runningEffectiveMeetings: Lesson = {
             {
                 "customerLine": "A client says after a monthly marketing review: 'Last month you said we would do X but it has not happened. Why not?'",
                 "options": [
-                    "Say: 'I apologise — things got busy. We will prioritise it this month.'",
+                    "Say: 'I apologize — things got busy. We will prioritize it this month.'",
                     "Say: 'That is fair — and I want to be transparent about what happened. Let me check the action items from last month's minutes. [Checks.] The action was assigned to me with a deadline of the 15th. The brief that was needed to complete it did not arrive until the 21st — which is why it moved to this month. I should have flagged that delay to you as soon as it happened rather than waiting for today's review. I will send you the completed version by this Friday and in future I will notify you immediately if an action item is at risk of missing its deadline. Does that work?'",
                     "Say: 'I do not have a record of that being agreed — can you check your notes from that meeting?'"
                 ],
@@ -410,7 +410,7 @@ export const runningEffectiveMeetings: Lesson = {
             {
                 "key": "timeboxing",
                 "label": "Timebox each agenda item",
-                "description": "Assign a specific time limit to each agenda item and share it in the agenda sent before the meeting. The performance update gets 20 minutes — not 60. When the timer expires, the chair summarises and moves on. Decision items should always have more time allocated than update items. If the performance update needs more time, it should be sent as a written report for people to read before the meeting — not presented live."
+                "description": "Assign a specific time limit to each agenda item and share it in the agenda sent before the meeting. The performance update gets 20 minutes — not 60. When the timer expires, the chair summarizes and moves on. Decision items should always have more time allocated than update items. If the performance update needs more time, it should be sent as a written report for people to read before the meeting — not presented live."
             },
             {
                 "key": "followup",

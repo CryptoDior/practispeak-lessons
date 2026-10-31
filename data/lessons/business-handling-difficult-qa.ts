@@ -44,7 +44,7 @@ export const businessHandlingDifficultQa: Lesson = {
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Why should we trust this forecast? Last year's numbers were completely wrong." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I understand your concern, and I want to [[acknowledge:show I've heard]] it directly — last year we were too optimistic." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's a fair question. Let me clarify what's changed: we now use three scenarios instead of one." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "And what about the rumoured job cuts in the Lisbon office?" },
+    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "And what about the rumored job cuts in the Lisbon office?" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "At this point, I don't have all the details. What I can say is that no decisions have been made. I'll get back to you on that by Friday." },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "One more: why did marketing get a bigger budget than sales?" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's an important question, but it's a little outside today's topic. Let's [[park:postpone]] it and discuss it after the session." },

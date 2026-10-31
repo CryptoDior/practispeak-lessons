@@ -329,7 +329,7 @@ export const advancedSalesPresentations: Lesson = {
         "options": [
             "End the presentation with the ROI model — the strongest evidence should always be the final thing the audience sees",
             "Create an emphasis moment before the next steps: a single sentence that stands alone, delivered after a pause, which frames the decision as a question of timing rather than a question of whether — so the question is not whether becomes the actual close",
-            "Summarise the three sections briefly to remind the audience of the argument before moving to next steps",
+            "Summarize the three sections briefly to remind the audience of the argument before moving to next steps",
             "Ask the audience for questions before presenting next steps, so that their concerns are addressed before the decision frame is established"
         ],
         "correctIndex": 1
@@ -376,7 +376,7 @@ export const advancedSalesPresentations: Lesson = {
         },
         {
             "before": "So everything I am going to show you in the next twenty minutes follows from that.\n\nI am going to",
-            "after": "the rest of this presentation in three parts: first, the cost of the current situation — in terms you can take to the board; second, the size of the gain that is available and how quickly it can be realised; and third, exactly what a decision today would require from the team. By the end of this, the only open question should be timing.",
+            "after": "the rest of this presentation in three parts: first, the cost of the current situation — in terms you can take to the board; second, the size of the gain that is available and how quickly it can be realized; and third, exactly what a decision today would require from the team. By the end of this, the only open question should be timing.",
             "answer": "signpost"
         },
         {
@@ -516,10 +516,10 @@ export const advancedSalesPresentations: Lesson = {
                 "options": [
                     "Say: We are asking for approval to begin the onboarding process. The next step is a thirty-day implementation period, followed by a review at sixty days. The contract is for twelve months with an option to extend. I can send the full terms this afternoon.",
                     "Say: Before I get to next steps — the single most important thing I want you to take away from this is the decision window. Two companies in your sector started this in Q3. They are now in the compounding phase. So the question is not whether this investment makes sense — the question is whether you want to start reclaiming those seven hundred and forty hours in Q1 or in Q3. That is the decision in front of you today. The mechanics of how we do that are on the next slide.",
-                    "Say: I want to summarise what we have covered before I answer that. We started with the cost — seven hundred and forty hours. We looked at the ROI. We walked through implementation. The case, I think, is strong. We are asking for a decision to proceed so that we can get the onboarding scheduled before the end of the quarter."
+                    "Say: I want to summarize what we have covered before I answer that. We started with the cost — seven hundred and forty hours. We looked at the ROI. We walked through implementation. The case, I think, is strong. We are asking for a decision to proceed so that we can get the onboarding scheduled before the end of the quarter."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. A jumps directly to contract mechanics, which answers the literal question but misses the persuasive opportunity. C summarises before the decision, which the audience does not need — they were in the presentation. B uses the single most important thing I want you to take away from this to create the emphasis moment, reconnects to the thread with the 740-hour callback, and closes with so the question is not whether — reframing the decision as a question of timing rather than approval. The next steps come after, not instead of, the close."
+                "explanation": "B is correct. A jumps directly to contract mechanics, which answers the literal question but misses the persuasive opportunity. C summarizes before the decision, which the audience does not need — they were in the presentation. B uses the single most important thing I want you to take away from this to create the emphasis moment, reconnects to the thread with the 740-hour callback, and closes with so the question is not whether — reframing the decision as a question of timing rather than approval. The next steps come after, not instead of, the close."
             }
         ]
     },

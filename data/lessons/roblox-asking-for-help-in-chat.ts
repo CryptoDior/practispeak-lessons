@@ -61,7 +61,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     {
       word: 'SORRY TO BOTHER YOU',
       partOfSpeech: 'phrase',
-      definition: "A polite way to start a request — you know the person is busy and you apologise for interrupting.",
+      definition: "A polite way to start a request — you know the person is busy and you apologize for interrupting.",
       example: "Sorry to bother you, but could you please explain the rules of this game mode?",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-for-help-in-chat-in-game-sorry-to-bother-you.png',
     },
@@ -190,7 +190,7 @@ export const robloxAskingForHelpInChat: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "[[Of course:an enthusiastic yes]]! No need to apologise — I love helping. What is the problem? Where exactly are you getting stuck?",
+      text: "[[Of course:an enthusiastic yes]]! No need to apologize — I love helping. What is the problem? Where exactly are you getting stuck?",
     },
     {
       speaker: 'Mario',

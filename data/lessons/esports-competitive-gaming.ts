@@ -63,7 +63,7 @@ export const esportsCompetitiveGaming: Lesson = {
       word: 'PATCH',
       partOfSpeech: 'noun',
       definition: 'An update that changes or fixes a game.',
-      example: 'The new patch made my favourite character weaker.',
+      example: 'The new patch made my favorite character weaker.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/patch.png',
     },
   ],
@@ -120,7 +120,7 @@ export const esportsCompetitiveGaming: Lesson = {
       speaker: 'Jax',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/jax-icon.png',
-      text: 'Yes! Our favourite team is [[seeded:ranked before a competition because of past results]] second.',
+      text: 'Yes! Our favorite team is [[seeded:ranked before a competition because of past results]] second.',
     },
     {
       speaker: 'Maya',
@@ -185,7 +185,7 @@ export const esportsCompetitiveGaming: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'What position is their favourite team seeded?',
+      question: 'What position is their favorite team seeded?',
       options: ['First', 'Second', 'Third', 'Last'],
       correctIndex: 1,
     },

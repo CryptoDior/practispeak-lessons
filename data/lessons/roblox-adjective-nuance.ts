@@ -143,7 +143,7 @@ export const robloxAdjectiveNuance: Lesson = {
       word: 'OVERJOYED',
       partOfSpeech: 'adjective',
       definition: "Extremely happy — so happy that the feeling is very strong and complete.",
-      example: "She was absolutely overjoyed when she found out she had been selected for the leadership programme.",
+      example: "She was absolutely overjoyed when she found out she had been selected for the leadership program.",
       imageSlug: '/images/roblox-adjective-nuance-overjoyed-irl.png',
     },
   ],
@@ -345,7 +345,7 @@ export const robloxAdjectiveNuance: Lesson = {
     { before: "The whole team was", answer: 'overjoyed', after: "when they found out they had qualified — some of them were actually crying." },
     { before: "Six matches in one day was absolutely", answer: 'exhausting', after: "— nobody had the energy to speak by the end." },
     { before: "The comeback win in the final minute was", answer: 'thrilling', after: "— the entire audience was on their feet." },
-    { before: "The organisation of the event was", answer: 'dreadful', after: "— matches started late, the servers crashed, and nobody was given information." },
+    { before: "The organization of the event was", answer: 'dreadful', after: "— matches started late, the servers crashed, and nobody was given information." },
   ],
 
   multipleChoiceExercise: [

@@ -273,7 +273,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
         "answer": "tangible"
     },
     {
-        "before": "You do not need to criticise competitors to",
+        "before": "You do not need to criticize competitors to",
         "after": "— just show what changes for the customer when they choose you.",
         "answer": "differentiate"
     },
@@ -324,7 +324,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
         "options": [
             "She is about to introduce a new feature",
             "She is about to give a concrete, real-world example of what the benefit looks like",
-            "She is summarising what she has already said",
+            "She is summarizing what she has already said",
             "She is about to ask Marcus a question"
         ],
         "correctIndex": 1
@@ -379,7 +379,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
                 "options": [
                     "Say: 'It pulls data from your CRM, your email, and your calendar, aggregates it into a single dashboard, and updates every 15 minutes.'",
                     "Say: 'The main benefit is that you get a single, accurate view of your pipeline without having to chase anyone for updates — so in practice, your Monday morning review takes five minutes instead of forty-five.'",
-                    "Say: 'It is a very powerful reporting suite with over 30 customisable widgets and real-time data sync.'"
+                    "Say: 'It is a very powerful reporting suite with over 30 customizable widgets and real-time data sync.'"
                 ],
                 "correctIndex": 1,
                 "explanation": "B is correct. It leads with the benefit and makes it tangible with a specific time comparison. A describes the feature accurately but forces the prospect to figure out why it matters. C adds complexity without adding clarity — more features listed is not more compelling."

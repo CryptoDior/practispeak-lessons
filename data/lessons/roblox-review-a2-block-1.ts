@@ -78,7 +78,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       word: 'JOINED',
       partOfSpeech: 'verb',
-      definition: "Became a member of something at a past time — entered a group or organisation.",
+      definition: "Became a member of something at a past time — entered a group or organization.",
       example: "I joined the school football team last month and I love it — we train twice a week!",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-a2-block-1-irl-joined.png',
     },

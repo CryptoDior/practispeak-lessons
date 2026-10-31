@@ -5,15 +5,15 @@ export const ecommerceMarketing: Lesson = {
   title: 'E-commerce Marketing',
   subtitle: 'How to drive online sales, reduce drop-off, and write copy that converts',
   level: 'B1-B2',
-  description: "E-commerce has changed how brands reach and sell to customers. Whether you work for a pure-play online retailer or a brand with a digital shop, knowing how to optimise the customer journey — from the first click to the checkout — is one of the most valuable skills in modern marketing. This lesson teaches you the core vocabulary of e-commerce marketing: how to talk about conversion, abandoned baskets, upselling, and the copy that makes customers click.",
+  description: "E-commerce has changed how brands reach and sell to customers. Whether you work for a pure-play online retailer or a brand with a digital shop, knowing how to optimize the customer journey — from the first click to the checkout — is one of the most valuable skills in modern marketing. This lesson teaches you the core vocabulary of e-commerce marketing: how to talk about conversion, abandoned baskets, upselling, and the copy that makes customers click.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-hero.png',
 
   vocabulary: [
     {
-      word: 'CONVERSION RATE OPTIMISATION',
+      word: 'CONVERSION RATE OPTIMIZATION',
       partOfSpeech: 'noun',
       definition: 'Changing a website so more visitors buy or sign up.',
-      example: 'Conversion rate optimisation raised our sales by 15%.',
+      example: 'Conversion rate optimization raised our sales by 15%.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-conversion-rate-optimisation.png',
     },
     {
@@ -126,9 +126,9 @@ export const ecommerceMarketing: Lesson = {
       example: 'This will increase the average order value by £5.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-this-will-increase-the-average-order-value-by.png',
       inAction: 'This will increase the average order value by £12 per transaction — which across 3,000 monthly orders is £36,000 in additional monthly revenue.',
-      register: "Neutral — Grove (plant subscription, own e-commerce + email): growth brief reads this will increase average order value by 22% — adding a pot and soil bundle to the plant product page captures spend that currently happens in a garden centre 3 weeks later. | Slate (premium notebook brand, Shopify + Amazon): trading review reads this will increase average order value by £8 — a free shipping threshold at £40 will push the 28% of customers spending £25 to add one more item. | Pivot (home fitness equipment, own site + influencers): merchandising note reads this will increase average order value by 30% — the resistance band and mat bundle shown at checkout converts at 34% for customers buying the free weights.",
+      register: "Neutral — Grove (plant subscription, own e-commerce + email): growth brief reads this will increase average order value by 22% — adding a pot and soil bundle to the plant product page captures spend that currently happens in a garden center 3 weeks later. | Slate (premium notebook brand, Shopify + Amazon): trading review reads this will increase average order value by £8 — a free shipping threshold at £40 will push the 28% of customers spending £25 to add one more item. | Pivot (home fitness equipment, own site + influencers): merchandising note reads this will increase average order value by 30% — the resistance band and mat bundle shown at checkout converts at 34% for customers buying the free weights.",
       visualExamples: [
-        { brand: 'Grove', context: 'Plant subscription — own e-commerce + email', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-grove-aov-bundle.png', caption: 'This will increase average order value by 22% — a pot and soil bundle captures garden centre spend inside the purchase journey.', aspectRatio: '4/5' },
+        { brand: 'Grove', context: 'Plant subscription — own e-commerce + email', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-grove-aov-bundle.png', caption: 'This will increase average order value by 22% — a pot and soil bundle captures garden center spend inside the purchase journey.', aspectRatio: '4/5' },
         { brand: 'Slate', context: 'Premium notebook brand — Shopify + Amazon', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-slate-free-shipping-threshold.png', caption: 'This will increase average order value by £8 — a free shipping threshold at £40 pushes 28% of customers to add one more item.', aspectRatio: '1/1' },
       ],
       inContext: "Riley walked the team through the model. This will increase the average order value by around £14 per transaction, she said. Dana wanted to verify: What is that based on? Riley: Current customers who buy the main product spend an average of £14 on accessories within the first month. If we surface those accessories at the product page and basket, we move that spend into the first transaction. The discount is 8%. The additional revenue per order is £14.",
@@ -139,7 +139,7 @@ export const ecommerceMarketing: Lesson = {
       example: 'The product page needs to answer questions about size.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-the-product-page-needs-to-answer.png',
       inAction: "The product page needs to answer 'why now' before the customer reaches the CTA — urgency is the last thing many pages address, but it is often the deciding factor.",
-      register: "Neutral — Haven (DTC sleep brand, Shopify + Meta ads): creative brief reads the product page needs to answer one question before anything else — will this help me sleep? Every word and image must serve that question. | Arbor (sustainable furniture, own site): copy brief reads the product page needs to answer the trust question — where is this made, by whom, and how long will it last? Customers researching sustainable furniture need proof, not promises. | Dose (health supplement brand, Amazon + own DTC): listing optimisation brief reads the product page needs to answer the comparison question — why this and not the one next to it for half the price? Lead with the ingredient difference.",
+      register: "Neutral — Haven (DTC sleep brand, Shopify + Meta ads): creative brief reads the product page needs to answer one question before anything else — will this help me sleep? Every word and image must serve that question. | Arbor (sustainable furniture, own site): copy brief reads the product page needs to answer the trust question — where is this made, by whom, and how long will it last? Customers researching sustainable furniture need proof, not promises. | Dose (health supplement brand, Amazon + own DTC): listing optimization brief reads the product page needs to answer the comparison question — why this and not the one next to it for half the price? Lead with the ingredient difference.",
       visualExamples: [
         { brand: 'Haven', context: 'DTC sleep brand — Shopify + Meta ads', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-haven-product-page-hero.png', caption: "The product page needs to answer one question first — will this help me sleep? Every element is written to answer that before anything else.", aspectRatio: '4/5' },
         { brand: 'Arbor', context: 'Sustainable furniture — own e-commerce site', imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/e-commerce-marketing-arbor-product-trust.png', caption: 'The product page needs to answer the trust question — where is it made, by whom, and how long will it last?', aspectRatio: '16/9' },
@@ -173,7 +173,7 @@ export const ecommerceMarketing: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Starting with the product page — [[conversion rate optimisation:the process of improving a website so more visitors take the desired action]] on that page is our biggest opportunity. The copy is too short and the images do not show the product in use. Average time on page is 22 seconds.",
+      text: "Starting with the product page — [[conversion rate optimization:the process of improving a website so more visitors take the desired action]] on that page is our biggest opportunity. The copy is too short and the images do not show the product in use. Average time on page is 22 seconds.",
     },
     {
       speaker: 'Marcus',
@@ -233,7 +233,7 @@ export const ecommerceMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: "That is the case for conversion rate optimisation in one number. Let us prioritise the checkout fixes first — they are quickest to implement and the drop-off there is the most urgent. Then product page copy and imagery. Then the cross-sell and upsell mechanics.",
+      text: "That is the case for conversion rate optimization in one number. Let us prioritize the checkout fixes first — they are quickest to implement and the drop-off there is the most urgent. Then product page copy and imagery. Then the cross-sell and upsell mechanics.",
     },
     {
       speaker: 'Dana',
@@ -244,7 +244,7 @@ export const ecommerceMarketing: Lesson = {
   ],
 
   matchingExercise: [
-    { word: 'conversion rate optimisation', definition: 'improving a website so more visitors take the desired action — without increasing traffic' },
+    { word: 'conversion rate optimization', definition: 'improving a website so more visitors take the desired action — without increasing traffic' },
     { word: 'cart abandonment', definition: 'when a customer adds products to their cart but leaves before completing the purchase' },
     { word: 'upsell', definition: 'encouraging a customer to buy a more expensive version of what they are already considering' },
     { word: 'cross-sell', definition: 'suggesting related or complementary products to someone who is already buying' },
@@ -280,7 +280,7 @@ export const ecommerceMarketing: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'What does Marcus say should be prioritised first?',
+      question: 'What does Marcus say should be prioritized first?',
       options: ['The product page copy and imagery, because it is where the most customers arrive', 'The cross-sell and upsell mechanics, because they directly increase revenue per order', 'The checkout fixes, because they are quickest to implement and the drop-off there is most urgent'],
       correctIndex: 2,
     },
@@ -419,7 +419,7 @@ export const ecommerceMarketing: Lesson = {
         {
           customerLine: "What is the most important thing to fix first when you have a high cart abandonment rate?",
           salespersonStart: "Before fixing anything, you need to know why customers are abandoning —",
-          suggestedCompletion: "the causes are different for different businesses. The most common reasons are: unexpected shipping costs appearing late in the journey, being forced to create an account before buying, a checkout that is too long or complex, limited payment options, and slow page load speed on mobile. Run a simple exit survey or analyse the heatmap data to identify where exactly in the checkout people are leaving and what they do before they go. Then fix the highest-impact cause first. A cart abandonment email sequence should run in parallel — it will recover 10-15% of abandoners while you work on the structural fixes.",
+          suggestedCompletion: "the causes are different for different businesses. The most common reasons are: unexpected shipping costs appearing late in the journey, being forced to create an account before buying, a checkout that is too long or complex, limited payment options, and slow page load speed on mobile. Run a simple exit survey or analyze the heatmap data to identify where exactly in the checkout people are leaving and what they do before they go. Then fix the highest-impact cause first. A cart abandonment email sequence should run in parallel — it will recover 10-15% of abandoners while you work on the structural fixes.",
         },
       ],
     },

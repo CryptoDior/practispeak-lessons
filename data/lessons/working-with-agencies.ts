@@ -380,7 +380,7 @@ export const workingWithAgencies: Lesson = {
         {
           customerLine: "What is the difference between a revision and a new brief?",
           salespersonStart: "A revision is a change made to work that has already been submitted —",
-          suggestedCompletion: "it is within the scope of the original brief and the agreed revision rounds. For example, changing a headline, adjusting a colour, or re-editing a video based on feedback — all of these are revisions. A new brief is when the objective, the audience, the message, or the entire direction of the work changes significantly. If the brief changes, the scope changes — and the fee usually changes with it. The key question is: are we refining what was asked for, or are we asking for something different? If it is different, that is a new brief and a new agreement.",
+          suggestedCompletion: "it is within the scope of the original brief and the agreed revision rounds. For example, changing a headline, adjusting a color, or re-editing a video based on feedback — all of these are revisions. A new brief is when the objective, the audience, the message, or the entire direction of the work changes significantly. If the brief changes, the scope changes — and the fee usually changes with it. The key question is: are we refining what was asked for, or are we asking for something different? If it is different, that is a new brief and a new agreement.",
         },
         {
           customerLine: "The agency says the extra work is out of scope. How do you handle this professionally?",

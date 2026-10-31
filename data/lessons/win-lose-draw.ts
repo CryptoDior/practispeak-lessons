@@ -26,7 +26,7 @@ export const winLoseDraw: Lesson = {
     {
       word: 'DRAW',
       partOfSpeech: 'noun / verb',
-      definition: 'To finish with the same score as the other team. / A result where both teams score equally.',
+      definition: 'To finish with the same score as the other team. / A result where both teams score equally. (US: tie)',
       example: 'The match ended in a draw — one-all.',
       imageSlug: '/images/win-lose-draw-draw.png',
     },
@@ -82,7 +82,7 @@ export const winLoseDraw: Lesson = {
     },
     {
       phrase: 'IT ENDED IN A DRAW',
-      definition: 'Used to say both teams scored the same number of goals.',
+      definition: 'Used to say both teams scored the same number of goals. (US: it ended in a tie)',
       example: 'It ended in a draw — two-all.',
       imageSlug: '/images/it-ended-in-a-draw.png',
     },

@@ -69,17 +69,17 @@ export const programmaticAdvertising: Lesson = {
 
   phrasalVerbs: [
     {
-      phrase: 'THE DSP OPTIMISES THE BUYING AUTOMATICALLY',
+      phrase: 'THE DSP OPTIMIZES THE BUYING AUTOMATICALLY',
       definition: 'A way to say the platform improves ad buying by itself.',
-      example: 'The DSP optimises the buying automatically, so we save time.',
+      example: 'The DSP optimizes the buying automatically, so we save time.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/programmatic-advertising-the-dsp-optimises-the-buying-automatically.png',
-      inAction: 'Once the targeting parameters are set, the DSP optimises the buying automatically — it adjusts bids in real time based on which placements are converting.',
+      inAction: 'Once the targeting parameters are set, the DSP optimizes the buying automatically — it adjusts bids in real time based on which placements are converting.',
       register: 'Technical / Professional — used in programmatic advertising discussions and media planning meetings. Appropriate for conversations with digital specialists, media teams, and technically informed clients.',
-      inContext: "Dana was explaining the programmatic setup to a client who was new to the channel. You don't need to manage individual placements the way you would in a manual buy, she said. The DSP optimises the buying automatically — it learns which audience segments, times of day, and site placements are delivering the lowest cost per acquisition and shifts spend toward them in real time.",
+      inContext: "Dana was explaining the programmatic setup to a client who was new to the channel. You don't need to manage individual placements the way you would in a manual buy, she said. The DSP optimizes the buying automatically — it learns which audience segments, times of day, and site placements are delivering the lowest cost per acquisition and shifts spend toward them in real time.",
       visualExamples: [
-        { brand: 'Noor', context: 'B2B SaaS — programmatic campaign review', imageSlug: '/images/visual-examples/pro-p1-noor.png', caption: 'The DSP optimises the buying automatically — we set the KPI as cost-per-qualified-visit and let the algorithm find the highest-performing publisher mix within our brand safety parameters.', aspectRatio: '16/9' },
-        { brand: 'Shield', context: 'Cybersecurity brand — demand gen campaign report', imageSlug: '/images/visual-examples/pro-p1-shield.png', caption: 'The DSP optimises the buying automatically — once we uploaded the ICP lookalike audience and set the frequency cap, the platform shifted budget to the inventory with the highest intent signal.', aspectRatio: '4/3' },
-        { brand: 'Relay', context: 'B2B comms platform — programmatic brief', imageSlug: '/images/visual-examples/pro-p1-relay.png', caption: 'The DSP optimises the buying automatically — our manual PPC spend was 40% less efficient than the programmatic equivalent because we could not react to bid landscape changes in real time.', aspectRatio: '1.91/1' },
+        { brand: 'Noor', context: 'B2B SaaS — programmatic campaign review', imageSlug: '/images/visual-examples/pro-p1-noor.png', caption: 'The DSP optimizes the buying automatically — we set the KPI as cost-per-qualified-visit and let the algorithm find the highest-performing publisher mix within our brand safety parameters.', aspectRatio: '16/9' },
+        { brand: 'Shield', context: 'Cybersecurity brand — demand gen campaign report', imageSlug: '/images/visual-examples/pro-p1-shield.png', caption: 'The DSP optimizes the buying automatically — once we uploaded the ICP lookalike audience and set the frequency cap, the platform shifted budget to the inventory with the highest intent signal.', aspectRatio: '4/3' },
+        { brand: 'Relay', context: 'B2B comms platform — programmatic brief', imageSlug: '/images/visual-examples/pro-p1-relay.png', caption: 'The DSP optimizes the buying automatically — our manual PPC spend was 40% less efficient than the programmatic equivalent because we could not react to bid landscape changes in real time.', aspectRatio: '1.91/1' },
       ],
     },
     {
@@ -130,7 +130,7 @@ export const programmaticAdvertising: Lesson = {
       example: 'We need to set a frequency cap to avoid ad fatigue.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/programmatic-advertising-we-need-to-set-a-frequency-cap-to-avoid-ad-fatigue.png',
       inAction: 'If the same person sees our ad 20 times in a week, we need to set a frequency cap to avoid ad fatigue — overexposure damages brand perception.',
-      register: "Technical / Professional — used in programmatic campaign planning and optimisation meetings. 'Frequency cap' and 'ad fatigue' are standard terms in digital media buying and campaign management.",
+      register: "Technical / Professional — used in programmatic campaign planning and optimization meetings. 'Frequency cap' and 'ad fatigue' are standard terms in digital media buying and campaign management.",
       inContext: "Marcus noticed the campaign performance dropping in week three. The click-through rate is falling and our sentiment monitoring shows negative comments increasing, he reported. We need to set a frequency cap to avoid ad fatigue. The audience is seeing this too many times — what feels like strong reach to us feels like irritation to them, and they're starting to associate the brand with annoyance rather than relevance.",
       visualExamples: [
         { brand: 'Maison Brulee', context: 'Artisan candle brand — campaign brief', imageSlug: '/images/visual-examples/pro-p5-maison.png', caption: 'We need to set a frequency cap to avoid ad fatigue — this is a small niche audience and we are already seeing CPMs rise as we exhaust it. Three impressions per user per week is our ceiling.', aspectRatio: '16/9' },
@@ -145,7 +145,7 @@ export const programmaticAdvertising: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/programmatic-advertising-the-brand-safety-settings-exclude.png',
       inAction: 'The brand safety settings exclude news content covering conflict and political controversy — we do not want our ads appearing next to sensitive or divisive material.',
       register: "Technical / Professional — used in programmatic setup discussions and brand safety briefings. 'Brand safety settings' is a standard term in digital media buying that any programmatic practitioner should know.",
-      inContext: 'Dana was briefing the new media partner on the account requirements. We have strict brand safety rules, she said. The brand safety settings exclude all content categorised as violence, political news, and adult material — and we have a custom exclusion list built from past campaigns where placements caused concerns. Our clients are in a regulated industry and their audiences are conservative. We cannot afford to appear in the wrong context.',
+      inContext: 'Dana was briefing the new media partner on the account requirements. We have strict brand safety rules, she said. The brand safety settings exclude all content categorized as violence, political news, and adult material — and we have a custom exclusion list built from past campaigns where placements caused concerns. Our clients are in a regulated industry and their audiences are conservative. We cannot afford to appear in the wrong context.',
       visualExamples: [
         { brand: 'Nova', context: 'Cybersecurity SaaS — brand safety review', imageSlug: '/images/visual-examples/pro-p6-nova.png', caption: 'The brand safety settings exclude all news content by default — for a security brand, appearing next to a data breach headline looks like an endorsement. Exclusion lists are non-negotiable.', aspectRatio: '16/9' },
         { brand: 'Lumiere', context: 'Luxury skincare — programmatic brand brief', imageSlug: '/images/visual-examples/pro-p6-lumiere.png', caption: 'The brand safety settings exclude user-generated content platforms and low-quality review sites — luxury cannot appear next to poor production quality without brand dilution.', aspectRatio: '4/3' },
@@ -191,13 +191,13 @@ export const programmaticAdvertising: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Through [[targeting parameter:a specific criterion used to define which users should see an ad — demographics, behaviour, context, or audience segment]]s. For this campaign I'm proposing three stacked layers: first, anyone who has visited the pricing page in the last 30 days. Second, job title matching Head of Marketing, VP of Marketing, or CMO. Third, company size between 100 and 1,000 employees. That combination gives us a very precise audience.",
+      text: "Through [[targeting parameter:a specific criterion used to define which users should see an ad — demographics, behavior, context, or audience segment]]s. For this campaign I'm proposing three stacked layers: first, anyone who has visited the pricing page in the last 30 days. Second, job title matching Head of Marketing, VP of Marketing, or CMO. Third, company size between 100 and 1,000 employees. That combination gives us a very precise audience.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "The behavioural layer — knowing someone visited the pricing page — is built on [[cookie:a small file stored in a browser that tracks user behaviour across websites]] data. That cookie was placed when they visited your site. It's what enables retargeting.",
+      text: "The behavioural layer — knowing someone visited the pricing page — is built on [[cookie:a small file stored in a browser that tracks user behavior across websites]] data. That cookie was placed when they visited your site. It's what enables retargeting.",
     },
     {
       speaker: 'Marcus',
@@ -245,13 +245,13 @@ export const programmaticAdvertising: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
-      text: 'Good. The DSP optimises the buying automatically once all of that is set up?',
+      text: 'Good. The DSP optimizes the buying automatically once all of that is set up?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Exactly. We set the targeting parameters, the bid ceiling, the viewability floor, the frequency cap, and the brand safety settings. After that, the DSP handles the bidding decisions in real time. We review performance weekly and make strategic adjustments — but the day-to-day optimisation is automated.',
+      text: 'Exactly. We set the targeting parameters, the bid ceiling, the viewability floor, the frequency cap, and the brand safety settings. After that, the DSP handles the bidding decisions in real time. We review performance weekly and make strategic adjustments — but the day-to-day optimization is automated.',
     }
   ],
 
@@ -270,11 +270,11 @@ export const programmaticAdvertising: Lesson = {
     },
     {
         "word": "cookie",
-        "definition": "a small file stored in a user's browser that tracks behaviour across websites, enabling retargeting"
+        "definition": "a small file stored in a user's browser that tracks behavior across websites, enabling retargeting"
     },
     {
         "word": "targeting parameter",
-        "definition": "a specific criterion — demographics, behaviour, context — used to define which users see an ad"
+        "definition": "a specific criterion — demographics, behavior, context — used to define which users see an ad"
     },
     {
         "word": "viewability",
@@ -377,7 +377,7 @@ export const programmaticAdvertising: Lesson = {
                 "took place"
             ],
             "correctIndex": 0,
-            "explanation": "'Takes place' (present simple) is correct for describing how RTB works as a general, repeated process. Present simple is used for facts, habitual actions, and processes that happen regularly. 'Is taking place' (present continuous) describes something happening right now — not appropriate for explaining a general process. 'Took place' (past simple) refers to a specific past event. When explaining how a system or process generally works ('RTB works like this...'), use present simple: 'takes place', 'processes', 'delivers', 'optimises'."
+            "explanation": "'Takes place' (present simple) is correct for describing how RTB works as a general, repeated process. Present simple is used for facts, habitual actions, and processes that happen regularly. 'Is taking place' (present continuous) describes something happening right now — not appropriate for explaining a general process. 'Took place' (past simple) refers to a specific past event. When explaining how a system or process generally works ('RTB works like this...'), use present simple: 'takes place', 'processes', 'delivers', 'optimizes'."
         },
         {
             "sentence": "The DSP evaluates each bid request and _____ whether the impression matches the campaign's targeting parameters.",
@@ -492,7 +492,7 @@ export const programmaticAdvertising: Lesson = {
             },
             {
                 "speaker": "Marcus",
-                "text": "Once all parameters are configured, the DSP will optimise the buying automatically throughout the campaign period."
+                "text": "Once all parameters are configured, the DSP will optimize the buying automatically throughout the campaign period."
             }
         ],
         "mistakes": [
@@ -532,7 +532,7 @@ export const programmaticAdvertising: Lesson = {
             {
                 "customerLine": "What should we do now to prepare for the third-party cookie deprecation?",
                 "salespersonStart": "The most important thing is to start building first-party data assets — because when third-party cookies are gone, the data you own is the only data you'll have. Practically, that means three things...",
-                "suggestedCompletion": "First, maximise email capture across all touchpoints now — every download, webinar, and contact form should be feeding a consented first-party audience. Second, implement server-side tagging to capture first-party behavioural data on your own domain. Third, test contextual targeting this quarter — it targets based on page content rather than user history, so it doesn't rely on cookies at all. If you start building these assets now, the transition when Chrome finally deprecates will be a minor adjustment, not a crisis."
+                "suggestedCompletion": "First, maximize email capture across all touchpoints now — every download, webinar, and contact form should be feeding a consented first-party audience. Second, implement server-side tagging to capture first-party behavioural data on your own domain. Third, test contextual targeting this quarter — it targets based on page content rather than user history, so it doesn't rely on cookies at all. If you start building these assets now, the transition when Chrome finally deprecates will be a minor adjustment, not a crisis."
             }
         ]
     }

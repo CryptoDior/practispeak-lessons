@@ -101,7 +101,7 @@ export const atATradeFair: Lesson = {
     {
       phrase: 'STAND OUT FROM THE CROWD',
       definition: 'To be different and easy to notice.',
-      example: 'Bright colours help us stand out from the crowd.',
+      example: 'Bright colors help us stand out from the crowd.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/stand-out-from-the-crowd.png',
     }
   ],
@@ -143,7 +143,7 @@ export const atATradeFair: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'We help B2B companies build their brand and generate more leads through digital marketing. We specialise in LinkedIn and email campaigns.',
+      text: 'We help B2B companies build their brand and generate more leads through digital marketing. We specialize in LinkedIn and email campaigns.',
     },
     {
       speaker: 'Riley',
@@ -293,7 +293,7 @@ export const atATradeFair: Lesson = {
     {
         "question": "You meet someone interesting at a trade fair but you do not have time to talk. What do you do?",
         "options": [
-            "Apologise and walk away.",
+            "Apologize and walk away.",
             "Quickly swap contact details and say you will follow up by email after the fair.",
             "Ask them to wait at your stand for 30 minutes until you are free.",
             "Give them a leaflet and hope they contact you."
@@ -470,7 +470,7 @@ export const atATradeFair: Lesson = {
             },
             {
                 "speaker": "Dana",
-                "text": "Interesting. We specialise in LinkedIn and content marketing for B2B companies. Can I give you a leaflet?"
+                "text": "Interesting. We specialize in LinkedIn and content marketing for B2B companies. Can I give you a leaflet?"
             },
             {
                 "speaker": "Visitor",
@@ -516,7 +516,7 @@ export const atATradeFair: Lesson = {
             {
                 "customerLine": "Visitor: 'I have never heard of your company. What makes you different from other marketing agencies?'",
                 "salespersonStart": "That is a great question. What makes us different is",
-                "suggestedCompletion": "our focus on B2B companies. We do not try to work with everyone — we specialise in LinkedIn and email marketing for companies like yours, and we can usually show results within three months. Would you like to see a case study from a company in your industry?"
+                "suggestedCompletion": "our focus on B2B companies. We do not try to work with everyone — we specialize in LinkedIn and email marketing for companies like yours, and we can usually show results within three months. Would you like to see a case study from a company in your industry?"
             },
             {
                 "customerLine": "Visitor: 'We tried working with a marketing agency before and it did not go well. We wasted a lot of money.'",
@@ -526,7 +526,7 @@ export const atATradeFair: Lesson = {
             {
                 "customerLine": "Visitor: 'Your stand looks great. How long have you been in business?'",
                 "salespersonStart": "Thank you — we have been in business for five years.",
-                "suggestedCompletion": "We started with just two people and now we have a team of twelve. We work mainly with B2B companies in the tech and professional services sectors. Are you based here in the city or are you travelling for the fair?"
+                "suggestedCompletion": "We started with just two people and now we have a team of twelve. We work mainly with B2B companies in the tech and professional services sectors. Are you based here in the city or are you traveling for the fair?"
             }
         ]
     }

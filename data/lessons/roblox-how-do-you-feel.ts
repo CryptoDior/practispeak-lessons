@@ -79,7 +79,7 @@ export const robloxHowDoYouFeel: Lesson = {
       word: 'EASY',
       partOfSpeech: 'adjective',
       definition: 'Something that does not need much effort — most people can do it without help.',
-      example: 'The maths homework was really easy — I finished it in five minutes!',
+      example: 'The math homework was really easy — I finished it in five minutes!',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-how-do-you-feel-easy-irl.png',
     },
     {
@@ -139,8 +139,8 @@ export const robloxHowDoYouFeel: Lesson = {
       phrase: 'THIS GAME IS TOO HARD',
       definition: 'How you say something is too difficult for you right now.',
       example: 'This game is too hard — I keep starting from the beginning every time!',
-      inGame: 'This game is too hard for me right now — maybe I need to practise more.',
-      inRealLife: 'This maths problem is too hard — can you help me understand it?',
+      inGame: 'This game is too hard for me right now — maybe I need to practice more.',
+      inRealLife: 'This math problem is too hard — can you help me understand it?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-how-do-you-feel-this-game-is-too-hard.png',
     },
     {
@@ -232,13 +232,13 @@ export const robloxHowDoYouFeel: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: 'Exactly! Like maths homework — it seems [[hard:difficult]] and [[boring:not exciting]] but once you understand it, it feels [[amazing:brilliant]] to get the right answer!',
+      text: 'Exactly! Like math homework — it seems [[hard:difficult]] and [[boring:not exciting]] but once you understand it, it feels [[amazing:brilliant]] to get the right answer!',
     },
     {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Ha! OK Mia — you are right. I will try the racing game AND do my maths homework. Both can be [[fun:enjoyable]] if I give them a chance!",
+      text: "Ha! OK Mia — you are right. I will try the racing game AND do my math homework. Both can be [[fun:enjoyable]] if I give them a chance!",
     },
   ],
 
@@ -305,7 +305,7 @@ export const robloxHowDoYouFeel: Lesson = {
       options: [
         'A racing game',
         'A horror film',
-        'Maths homework',
+        'Math homework',
         'A tycoon game',
       ],
       correctIndex: 2,

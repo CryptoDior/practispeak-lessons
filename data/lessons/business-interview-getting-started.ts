@@ -15,7 +15,7 @@ export const businessInterviewGettingStarted: Lesson = {
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
-    'Recognise the main types of interview questions.',
+    'Recognize the main types of interview questions.',
     'Answer "Tell me about yourself" with a clear structure.',
     'Use key vocabulary to describe your skills and experience.',
   ],

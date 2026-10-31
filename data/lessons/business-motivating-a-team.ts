@@ -11,18 +11,18 @@ export const businessMotivatingATeam: Lesson = {
   subtitle: 'C1-C2 · Leadership Communication · Lesson 1',
   level: 'C1-C2',
   description:
-    'Learn the language leaders use to boost engagement: empowering people, recognising contributions, building ownership and creating shared accountability.',
+    'Learn the language leaders use to boost engagement: empowering people, recognizing contributions, building ownership and creating shared accountability.',
   heroImage: `${img('hero')}?v=3`,
 
   objectives: [
-    'Recognise individual contributions in a meaningful way.',
+    'Recognize individual contributions in a meaningful way.',
     'Empower team members and encourage ownership.',
     'Build shared accountability and collaboration.',
   ],
 
   vocabulary: [
     { word: 'EMPOWER', partOfSpeech: 'verb', definition: 'To give someone the authority and confidence to act.', example: 'Good managers empower their teams to make decisions.', imageSlug: img('empower') },
-    { word: 'ENGAGEMENT', partOfSpeech: 'noun', definition: 'The level of interest, commitment and energy people feel at work.', example: 'Employee engagement rose after the new programme.', imageSlug: img('engagement') },
+    { word: 'ENGAGEMENT', partOfSpeech: 'noun', definition: 'The level of interest, commitment and energy people feel at work.', example: 'Employee engagement rose after the new program.', imageSlug: img('engagement') },
     { word: 'RECOGNITION', partOfSpeech: 'noun', definition: 'Acknowledging someone\'s effort or achievement.', example: 'Public recognition boosts morale.', imageSlug: img('recognition') },
     { word: 'ACCOUNTABILITY', partOfSpeech: 'noun', definition: 'Responsibility for your actions and results.', example: 'Clear goals create accountability.', imageSlug: img('accountability') },
     { word: 'INCENTIVE', partOfSpeech: 'noun', definition: 'Something that motivates people to act.', example: 'Bonuses are not the only incentive.', imageSlug: img('incentive') },
@@ -31,7 +31,7 @@ export const businessMotivatingATeam: Lesson = {
 
   phrasalVerbs: [
     { phrase: "Let's take ownership of this project.", tag: 'phrase', definition: 'Encourage responsibility and accountability.', example: '"This is our project now. Let\'s take ownership of this project."', imageSlug: img('phrase-take-ownership') },
-    { phrase: 'Your effort on this really made a difference.', tag: 'phrase', definition: 'Recognise a specific contribution.', example: '"Tim, your effort on this really made a difference — the client report is perfect."', inAction: 'Specific recognition ("your analysis on page 4 convinced the client") motivates far more than generic praise ("good job").', imageSlug: img('phrase-effort-difference') },
+    { phrase: 'Your effort on this really made a difference.', tag: 'phrase', definition: 'Recognize a specific contribution.', example: '"Tim, your effort on this really made a difference — the client report is perfect."', inAction: 'Specific recognition ("your analysis on page 4 convinced the client") motivates far more than generic praise ("good job").', imageSlug: img('phrase-effort-difference') },
     { phrase: 'How can we make this process even better together?', tag: 'phrase', definition: 'Invite collaboration and innovation.', example: '"Sales are up, but how can we make this process even better together?"', imageSlug: img('phrase-better-together') },
     { phrase: 'I trust you to handle this — let me know what you need.', tag: 'phrase', definition: 'Empower and offer support.', example: '"I trust you to handle this — let me know what you need. It\'s your launch."', imageSlug: img('phrase-trust-launch') },
     { phrase: 'We all have a role to play in achieving our goals.', tag: 'phrase', definition: 'Promote shared responsibility.', example: '"From reception to the board, we all have a role to play in achieving our goals."', imageSlug: img('phrase-role-to-play') },

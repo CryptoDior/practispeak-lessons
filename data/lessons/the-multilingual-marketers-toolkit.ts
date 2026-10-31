@@ -24,10 +24,10 @@ export const theMultilingualMarketersToolkit: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-multilingual-marketers-toolkit-back-translation-detects-error.png',
     },
     {
-      word: 'LOCALISATION BRIEF',
+      word: 'LOCALIZATION BRIEF',
       partOfSpeech: 'noun',
       definition: 'A document that explains how to adapt content for a market.',
-      example: 'Send the localisation brief to the Spanish team.',
+      example: 'Send the localization brief to the Spanish team.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-multilingual-marketers-toolkit-brief-to-spanish-team.png',
     },
     {
@@ -81,9 +81,9 @@ export const theMultilingualMarketersToolkit: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-multilingual-marketers-toolkit-safety-message-back-check.png',
     },
     {
-      phrase: 'BRIEF THE TEAM WITH A LOCALISATION BRIEF',
+      phrase: 'BRIEF THE TEAM WITH A LOCALIZATION BRIEF',
       definition: 'An instruction to give the team clear adaptation notes.',
-      example: 'Brief the team with a localisation brief before they start.',
+      example: 'Brief the team with a localization brief before they start.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-multilingual-marketers-toolkit-team-brief-before-work.png',
     },
     {
@@ -131,7 +131,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "Everything goes in a [[localisation brief:a document explaining intent, tone, and cultural context for adapting content to a new market]]. The brand [[tone of voice:the brand's character and style expressed in language]], the emotional response we're trying to create, which phrases are locked and can't be changed, and which cultural references to avoid. Don't send them a Word document and hope for the best.",
+      text: "Everything goes in a [[localization brief:a document explaining intent, tone, and cultural context for adapting content to a new market]]. The brand [[tone of voice:the brand's character and style expressed in language]], the emotional response we're trying to create, which phrases are locked and can't be changed, and which cultural references to avoid. Don't send them a Word document and hope for the best.",
     },
     {
       speaker: 'Marcus',
@@ -186,7 +186,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
   matchingExercise: [
     { "word": "transcreation", "definition": "recreating a message in another language to achieve the same emotional effect, rather than translating it literally" },
     { "word": "back-translation", "definition": "translating a completed translation back to the original language to check whether meaning was preserved" },
-    { "word": "localisation brief", "definition": "a document giving the translation team all the context, tone guidance, and cultural instructions they need" },
+    { "word": "localization brief", "definition": "a document giving the translation team all the context, tone guidance, and cultural instructions they need" },
     { "word": "language audit", "definition": "a review of all brand language across markets to check for consistency, accuracy, and tone quality" },
     { "word": "brand glossary", "definition": "a controlled list of approved translations for key brand terms and product names" },
     { "word": "tone of voice (multilingual)", "definition": "the brand's character and style expressed consistently across different languages" },
@@ -197,7 +197,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
   fillBlankExercise: [
     { "before": "The campaign headline can't be translated word for word — it's too idiomatic. This needs ", "after": ", not translation.", "answer": "transcreation" },
     { "before": "I can't read German, so I asked for a ", "after": " — translating the German copy back into English so I can check the meaning is still correct.", "answer": "back-translation" },
-    { "before": "Before sending the copy to the agency, write a ", "after": " — they need to know who the audience is, what tone to use, and which phrases are locked.", "answer": "localisation brief" },
+    { "before": "Before sending the copy to the agency, write a ", "after": " — they need to know who the audience is, what tone to use, and which phrases are locked.", "answer": "localization brief" },
     { "before": "The ", "after": " showed that two markets were using a discontinued product name. We've updated all the templates now.", "answer": "language audit" },
     { "before": "All product names must be taken from the ", "after": ". Don't invent new translations — use the approved ones.", "answer": "brand glossary" },
     { "before": "The English copy uses a cricket analogy. For the US market, find the ", "after": " — maybe a baseball reference — that creates the same meaning.", "answer": "cultural equivalence" }
@@ -214,7 +214,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
       "correctIndex": 1
     },
     {
-      "question": "What does Riley say a localisation brief should include?",
+      "question": "What does Riley say a localization brief should include?",
       "options": [
         "A word-for-word translation of the source copy in the target language",
         "Audience profile, brand tone of voice, locked phrases, and cultural references to avoid",
@@ -227,7 +227,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
       "options": [
         "Because new translations take too long to create and must go through a legal approval process",
         "Because the brand glossary ensures consistency — all markets and all agencies use the same approved terms",
-        "Because translation agencies are not authorised to translate product names without a separate contract"
+        "Because translation agencies are not authorized to translate product names without a separate contract"
       ],
       "correctIndex": 1
     },
@@ -257,7 +257,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
         "sentence": "The campaign headline is full of wordplay. A direct translation will destroy it — this is a job for _____, not a standard translator.",
         "options": ["transcreation", "creative translation", "localisation"],
         "correctIndex": 0,
-        "explanation": "'Transcreation' is the specific professional term for recreating copy in another language to preserve emotional impact and creative effect — rather than translating it word for word. 'Creative translation' is an informal term used loosely in the industry. 'Localisation' is a broader term that includes language but also covers visuals, cultural fit, and product changes. When the brief is specifically to preserve emotional and creative impact across languages, the term is 'transcreation'."
+        "explanation": "'Transcreation' is the specific professional term for recreating copy in another language to preserve emotional impact and creative effect — rather than translating it word for word. 'Creative translation' is an informal term used loosely in the industry. 'Localization' is a broader term that includes language but also covers visuals, cultural fit, and product changes. When the brief is specifically to preserve emotional and creative impact across languages, the term is 'transcreation'."
       },
       {
         "sentence": "I can't read the Mandarin copy myself, but I'll check it by requesting a _____ — translating it back to English so I can see if the meaning is intact.",
@@ -267,12 +267,12 @@ export const theMultilingualMarketersToolkit: Lesson = {
       },
       {
         "sentence": "Before the agency starts the translation, send them a _____ — they need the tone guidance, the locked phrases, and the cultural context.",
-        "options": ["localisation brief", "translation brief", "creative brief"],
+        "options": ["localization brief", "translation brief", "creative brief"],
         "correctIndex": 0,
-        "explanation": "'Localisation brief' is the specific document type for guiding translators and local creative teams on cultural context, tone of voice, what can't be changed, and market-specific requirements. A 'translation brief' is sometimes used but is less standard and may not include cultural guidance. A 'creative brief' is for original creative development, not for adapting existing content. The document that sets up a localisation or transcreation project is a 'localisation brief'."
+        "explanation": "'Localization brief' is the specific document type for guiding translators and local creative teams on cultural context, tone of voice, what can't be changed, and market-specific requirements. A 'translation brief' is sometimes used but is less standard and may not include cultural guidance. A 'creative brief' is for original creative development, not for adapting existing content. The document that sets up a localization or transcreation project is a 'localization brief'."
       },
       {
-        "sentence": "Our _____ showed that four markets are using different translations for the same product name. We need to standardise immediately.",
+        "sentence": "Our _____ showed that four markets are using different translations for the same product name. We need to standardize immediately.",
         "options": ["language audit", "market review", "translation review"],
         "correctIndex": 0,
         "explanation": "'Language audit' is the specific term for a systematic review of all brand language across markets — checking for consistency, accuracy, and adherence to brand standards. A 'market review' is broader and covers more than just language. A 'translation review' is informal and implies a one-off check rather than a systematic audit. The professional term for a structured review of brand language across markets is 'language audit'."
@@ -300,11 +300,11 @@ export const theMultilingualMarketersToolkit: Lesson = {
           "customerLine": "We need the campaign in 12 languages by next month. I'll send it to our standard translation agency.",
           "options": [
             "That works — a good translation agency can handle any language combination quickly.",
-            "Before you do, let's identify which elements need transcreation versus standard translation. The legal disclaimers and product descriptions can go to standard translation. But the campaign line, the strapline, and the tone of voice sections need a transcreation specialist — and they'll need a localisation brief, not just the source files.",
+            "Before you do, let's identify which elements need transcreation versus standard translation. The legal disclaimers and product descriptions can go to standard translation. But the campaign line, the strapline, and the tone of voice sections need a transcreation specialist — and they'll need a localization brief, not just the source files.",
             "Make sure to ask them for a discount if you're ordering 12 languages at once."
           ],
           "correctIndex": 1,
-          "explanation": "Option B makes the critical distinction between what can be translated and what needs transcreation — and adds the requirement for a localisation brief. Creative, emotional copy and a standard translation agency without proper briefing is a common and expensive mistake. Option A assumes all translation agencies handle creative work equally well. Option C focuses on cost rather than quality."
+          "explanation": "Option B makes the critical distinction between what can be translated and what needs transcreation — and adds the requirement for a localization brief. Creative, emotional copy and a standard translation agency without proper briefing is a common and expensive mistake. Option A assumes all translation agencies handle creative work equally well. Option C focuses on cost rather than quality."
         },
         {
           "customerLine": "The Japanese version of the copy came back. It looks good but I'm not sure.",
@@ -324,7 +324,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
             "Translate the brand values centrally and send the translation to all markets to use."
           ],
           "correctIndex": 1,
-          "explanation": "Option B gives the correct long-term solution — a brand glossary combined with a multilingual style guide creates the infrastructure for consistent multilingual communication at scale. Option A is democratic but slow, and may not produce the best result. Option C is centralised but without a glossary and style guide, consistency won't be maintained as new materials are created."
+          "explanation": "Option B gives the correct long-term solution — a brand glossary combined with a multilingual style guide creates the infrastructure for consistent multilingual communication at scale. Option A is democratic but slow, and may not produce the best result. Option C is centralized but without a glossary and style guide, consistency won't be maintained as new materials are created."
         }
       ]
     },
@@ -332,11 +332,11 @@ export const theMultilingualMarketersToolkit: Lesson = {
       "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
       "dialogue": [
         { "speaker": "Marcus", "text": "The campaign strapline is a play on words — I've sent it to the standard translation agency for all 10 languages." },
-        { "speaker": "Riley", "text": "A play on words needs transcreation, not standard translation. Send it to a creative agency that specialises in transcreation and give them a full localisation brief." },
+        { "speaker": "Riley", "text": "A play on words needs transcreation, not standard translation. Send it to a creative agency that specializes in transcreation and give them a full localization brief." },
         { "speaker": "Marcus", "text": "I've also set up the back-translation — I've translated the Spanish copy into French to check it's accurate." },
         { "speaker": "Riley", "text": "Back-translation means translating back into the original source language — in this case, English. Not from Spanish into French. That's just a second translation." },
         { "speaker": "Marcus", "text": "And for the brand glossary — I've allowed each local team to create their own approved translations for the product names." },
-        { "speaker": "Riley", "text": "The whole point of a brand glossary is that translations are centralised and controlled — not created independently by each market. That approach creates the inconsistency you were trying to solve." }
+        { "speaker": "Riley", "text": "The whole point of a brand glossary is that translations are centralized and controlled — not created independently by each market. That approach creates the inconsistency you were trying to solve." }
       ],
       "mistakes": [
         {
@@ -354,8 +354,8 @@ export const theMultilingualMarketersToolkit: Lesson = {
         {
           "lineIndex": 4,
           "incorrectText": "I've allowed each local team to create their own approved translations for the product names",
-          "correction": "The brand glossary must be centralised — translations for product names are not created by individual markets",
-          "explanation": "A brand glossary only achieves its purpose — consistency — if it is centrally controlled. Allowing each market to create its own translations defeats the purpose entirely and recreates the inconsistency problem the glossary was meant to solve. Centralised control with clear distribution is the whole point."
+          "correction": "The brand glossary must be centralized — translations for product names are not created by individual markets",
+          "explanation": "A brand glossary only achieves its purpose — consistency — if it is centrally controlled. Allowing each market to create its own translations defeats the purpose entirely and recreates the inconsistency problem the glossary was meant to solve. Centralized control with clear distribution is the whole point."
         }
       ]
     },
@@ -365,7 +365,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
         {
           "customerLine": "The client has approved the English campaign. How quickly can we get it into 15 languages?",
           "salespersonStart": "That depends on what kind of adaptation each language needs. Standard informational text — disclaimers, product descriptions, instructions — can go to a translation agency immediately. But the creative copy, the straplines, and the cultural references will need transcreation, which takes more time and a different kind of brief. Before we agree a timeline, let me identify which elements...",
-          "suggestedCompletion": "need transcreation versus standard translation. I'd also recommend building a localisation brief for each major market before we start — it prevents costly revisions later. My estimate is that standard translation can turn around in five working days. Transcreation for the creative copy will take two to three weeks per language, including back-translation checks and approval rounds."
+          "suggestedCompletion": "need transcreation versus standard translation. I'd also recommend building a localization brief for each major market before we start — it prevents costly revisions later. My estimate is that standard translation can turn around in five working days. Transcreation for the creative copy will take two to three weeks per language, including back-translation checks and approval rounds."
         },
         {
           "customerLine": "We're finding that different markets have very different interpretations of what our brand tone sounds like.",
@@ -375,7 +375,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
         {
           "customerLine": "How do I know if the translations we're getting are actually any good?",
           "salespersonStart": "There are three checks I recommend. First, run a back-translation on the creative copy — translate it back into English and see if the meaning and emotional tone match the original. Second, have a native speaker on the local team review the copy not just for accuracy but for how natural it sounds — correct grammar is not the same as brand-appropriate language. Third...",
-          "suggestedCompletion": "conduct a periodic language audit across all markets — review every piece of live copy against the brand glossary, the multilingual style guide, and the localisation briefs. Most problems with translation quality aren't visible in a single piece of copy — they accumulate over time. An audit catches drift before it becomes a serious brand consistency problem."
+          "suggestedCompletion": "conduct a periodic language audit across all markets — review every piece of live copy against the brand glossary, the multilingual style guide, and the localization briefs. Most problems with translation quality aren't visible in a single piece of copy — they accumulate over time. An audit catches drift before it becomes a serious brand consistency problem."
         }
       ]
     }

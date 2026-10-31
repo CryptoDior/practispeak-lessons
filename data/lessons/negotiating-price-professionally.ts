@@ -295,9 +295,9 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
         "question": "When Riley says 'let's separate the price from the terms,' what is she doing?",
         "options": [
-            "Refusing to discuss price until the contract terms are finalised",
+            "Refusing to discuss price until the contract terms are finalized",
             "Reframing a stuck price negotiation by exploring whether the real issue is cash flow, scope, or structure rather than the total number",
-            "Signalling that she is about to offer a significant price reduction",
+            "Signaling that she is about to offer a significant price reduction",
             "Suggesting that the legal and commercial teams handle negotiations separately"
         ],
         "correctIndex": 1
@@ -379,7 +379,7 @@ export const negotiatingPriceProfessionally: Lesson = {
         },
         {
             "before": "This is a",
-            "after": "on implementation timing that I am prepared to make as part of this deal. The annual total does not change, and renewal is priced on the full 30-user licence at the standard rate from day one — I want to be transparent about that so there are no surprises.",
+            "after": "on implementation timing that I am prepared to make as part of this deal. The annual total does not change, and renewal is priced on the full 30-user license at the standard rate from day one — I want to be transparent about that so there are no surprises.",
             "answer": "concession"
         },
         {
@@ -400,7 +400,7 @@ export const negotiatingPriceProfessionally: Lesson = {
         {
             "speaker": "Salesperson A",
             "speakerColor": "red",
-            "text": "I understand that's a firm number for you. I can go to 12% — that's the most I'm authorised to discount without going back to my manager. If you can accept 12%, I think we can close this today."
+            "text": "I understand that's a firm number for you. I can go to 12% — that's the most I'm authorized to discount without going back to my manager. If you can accept 12%, I think we can close this today."
         },
         {
             "speaker": "Verdict",
@@ -507,7 +507,7 @@ export const negotiatingPriceProfessionally: Lesson = {
                     "Say: 'I hear you — my final offer is X. If you can accept that, we have a deal. If not, I think we are at an impasse.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. A splits the difference — which sounds fair but often means conceding without understanding why the negotiation is stuck. C draws a line that may not be necessary and creates an adversarial dynamic. B recognises that circular price conversations are usually a symptom of something unresolved beneath the surface — a concern about risk, commitment, internal politics, or something else. Getting to that thing is more valuable than splitting the difference."
+                "explanation": "B is correct. A splits the difference — which sounds fair but often means conceding without understanding why the negotiation is stuck. C draws a line that may not be necessary and creates an adversarial dynamic. B recognizes that circular price conversations are usually a symptom of something unresolved beneath the surface — a concern about risk, commitment, internal politics, or something else. Getting to that thing is more valuable than splitting the difference."
             }
         ]
     },

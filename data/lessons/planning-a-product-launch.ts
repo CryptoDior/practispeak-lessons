@@ -509,7 +509,7 @@ export const planningAProductLaunch: Lesson = {
             {
                 "customerLine": "Client: 'We are worried that nobody will come to the launch event. How do we get people to register?'",
                 "salespersonStart": "That is a valid concern — registration is not automatic.",
-                "suggestedCompletion": "We are going to build the audience before the event through the teaser campaign and the countdown. We will also send direct invitations to your warm leads and existing clients — a personalised message from you will convert better than a generic email. We can add a small incentive too, like early access to the platform for everyone who attends live. Would you like me to draft the invitation email as part of the plan?"
+                "suggestedCompletion": "We are going to build the audience before the event through the teaser campaign and the countdown. We will also send direct invitations to your warm leads and existing clients — a personalized message from you will convert better than a generic email. We can add a small incentive too, like early access to the platform for everyone who attends live. Would you like me to draft the invitation email as part of the plan?"
             },
             {
                 "customerLine": "Client: 'What happens after the launch event? We do not want the momentum to die.'",

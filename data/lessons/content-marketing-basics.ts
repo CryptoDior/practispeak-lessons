@@ -379,7 +379,7 @@ export const contentMarketingBasics: Lesson = {
                 "engage"
             ],
             "correctIndex": 1,
-            "explanation": "Distribute means to share content across different channels. Publish means to make one piece of content live. Engage means to interact with content. Distributing is the act of spreading the same piece across multiple channels — it maximises reach."
+            "explanation": "Distribute means to share content across different channels. Publish means to make one piece of content live. Engage means to interact with content. Distributing is the act of spreading the same piece across multiple channels — it maximizes reach."
         },
         {
             "sentence": "We publish two _____ posts per week — one thought leadership piece and one practical how-to guide.",

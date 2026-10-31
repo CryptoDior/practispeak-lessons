@@ -78,7 +78,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
       word: 'WARN',
       partOfSpeech: 'verb',
       definition: "To tell someone about a danger or problem before it happens — to alert them.",
-      example: "Mario warned the team that the other guild had a new strategy, and that they needed to adapt their defence.",
+      example: "Mario warned the team that the other guild had a new strategy, and that they needed to adapt their defense.",
       imageSlug: '/images/roblox-reported-speech-advanced-warn.png',
     },
     {
@@ -109,7 +109,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
       word: 'ADMIT',
       partOfSpeech: 'verb',
       definition: "To say that something bad or wrong is true — even when you did not want to say it.",
-      example: "The manager admitted that the deadline had been unrealistic and apologised to the team.",
+      example: "The manager admitted that the deadline had been unrealistic and apologized to the team.",
       imageSlug: '/images/roblox-reported-speech-advanced-admit-irl.png',
     },
     {
@@ -215,7 +215,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "Mario, the guild meeting was chaos last night. Everyone was saying different things. Can I practise retelling it?",
+      text: "Mario, the guild meeting was chaos last night. Everyone was saying different things. Can I practice retelling it?",
     },
     {
       speaker: 'Mario',
@@ -319,10 +319,10 @@ export const robloxReportedSpeechAdvanced: Lesson = {
         explanation: "SUGGESTED means offered an idea for people to think about — not an order. The new formation is an idea, not a demand, so SUGGESTED is correct. INSISTED would mean he refused to accept any other answer.",
       },
       {
-        sentence: "The tournament organisers _____ that the match would go ahead as scheduled despite the technical problems.",
+        sentence: "The tournament organizers _____ that the match would go ahead as scheduled despite the technical problems.",
         options: ["claimed", "warned", "confirmed"],
         correctIndex: 2,
-        explanation: "CONFIRMED means said something was definitely true — made it certain. The organisers are making it clear and definite, not uncertain (CLAIM) or warning of danger (WARN).",
+        explanation: "CONFIRMED means said something was definitely true — made it certain. The organizers are making it clear and definite, not uncertain (CLAIM) or warning of danger (WARN).",
       },
     ],
   },
@@ -345,8 +345,8 @@ export const robloxReportedSpeechAdvanced: Lesson = {
     { before: "She", answer: 'denied', after: "taking the items, even after three players said they had seen her near the chest." },
     { before: "He", answer: 'insisted', after: "the trade had been fair and refused to discuss it further, even when presented with evidence." },
     { before: "Mario", answer: 'suggested', after: "that the team take a five-minute break before the final round to reset their focus." },
-    { before: "The admin", answer: 'warned', after: "that any further reports of toxic behaviour would result in immediate removal from the server." },
-    { before: "The organisation", answer: 'confirmed', after: "that the tournament would run as planned and that all registrations were final." },
+    { before: "The admin", answer: 'warned', after: "that any further reports of toxic behavior would result in immediate removal from the server." },
+    { before: "The organization", answer: 'confirmed', after: "that the tournament would run as planned and that all registrations were final." },
   ],
 
   multipleChoiceExercise: [

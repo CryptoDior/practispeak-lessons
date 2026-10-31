@@ -78,7 +78,7 @@ export const robloxWordFormation: Lesson = {
       word: 'STRATEGY',
       partOfSpeech: 'noun',
       definition: "A plan to reach a goal. Family: STRATEGY → STRATEGIC → STRATEGICALLY → STRATEGIST.",
-      example: "The guild's strategy is built on strong defence — a strategic approach that has served them well across three seasons.",
+      example: "The guild's strategy is built on strong defense — a strategic approach that has served them well across three seasons.",
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-word-formation-strategy.png',
     },
     {
@@ -169,7 +169,7 @@ export const robloxWordFormation: Lesson = {
     {
       phrase: "STAND OUT",
       definition: "To be clearly better or more noticeable than others.",
-      example: "Mia's designs stand out from every other builder on the server — her style is instantly recognisable.",
+      example: "Mia's designs stand out from every other builder on the server — her style is instantly recognizable.",
       inGame: "To stand out in a competitive server, you need a skill that very few other players have mastered.",
       inRealLife: "Her presentation stood out at the pitch — clear, confident, and ten minutes shorter than everyone else's.",
       imageSlug: '/images/roblox-word-formation-stand-out.png',
@@ -177,7 +177,7 @@ export const robloxWordFormation: Lesson = {
     {
       phrase: "DRAW ON",
       definition: "To use knowledge or experience you already have.",
-      example: "Mario drew on three years of match experience to design the guild's new competitive training programme.",
+      example: "Mario drew on three years of match experience to design the guild's new competitive training program.",
       inGame: "Draw on everything you have learned from past matches — every loss teaches you something you can use.",
       inRealLife: "She drew on her background in psychology to design a more effective user experience for the app.",
       imageSlug: '/images/roblox-word-formation-draw-on.png',
@@ -328,13 +328,13 @@ export const robloxWordFormation: Lesson = {
 
   fillBlankExercise: [
     { before: "Her greatest", answer: 'achievement', after: "this season was breaking into the top fifty for the first time." },
-    { before: "The guild's", answer: 'strategy', after: "is built on disciplined defence — a plan that has worked across three seasons." },
+    { before: "The guild's", answer: 'strategy', after: "is built on disciplined defense — a plan that has worked across three seasons." },
     { before: "Phoenix Force", answer: 'dominated', after: "the tournament from the first round — no other team came close." },
     { before: "Their", answer: 'communication', after: "was the key advantage — every player knew exactly what the others were doing." },
     { before: "Mario's", answer: 'contribution', after: "goes far beyond his match results — he trains every new player personally." },
     { before: "She approached every session", answer: 'competitively', after: "— always looking to improve, always measuring herself against the best." },
     { before: "After mastering combat, she decided to", answer: 'branch out', after: "into design — and discovered she had a real talent for it." },
-    { before: "Her unique style made her designs", answer: 'stand out', after: "immediately — other players recognised her work before seeing her name." },
+    { before: "Her unique style made her designs", answer: 'stand out', after: "immediately — other players recognized her work before seeing her name." },
   ],
 
   multipleChoiceExercise: [
@@ -361,7 +361,7 @@ export const robloxWordFormation: Lesson = {
     {
       question: "What does BRANCH OUT mean?",
       options: [
-        "To return to a previous skill or specialisation.",
+        "To return to a previous skill or specialization.",
         "To expand into a new area or direction beyond what you currently do.",
         "To split a team into two separate groups.",
         "To make a decision based on a map or visual structure.",

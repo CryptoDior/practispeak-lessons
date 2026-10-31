@@ -69,9 +69,9 @@ export const highTicketSalesLanguage: Lesson = {
 
   phrasalVerbs: [
     {
-      phrase: 'THE PRICE REFLECTS THE TOTAL COST OF OWNERSHIP, NOT JUST THE LICENCE FEE',
+      phrase: 'THE PRICE REFLECTS THE TOTAL COST OF OWNERSHIP, NOT JUST THE LICENSE FEE',
       definition: 'Use this to say the price includes every cost over time.',
-      example: 'The price reflects the total cost of ownership, not just the licence fee.',
+      example: 'The price reflects the total cost of ownership, not just the license fee.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-price-reflects-the-total-cost-of-ownership-not-just-the-licence-fee.png',
     },
     {
@@ -143,7 +143,7 @@ export const highTicketSalesLanguage: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "First: onboarding. Our onboarding is three months of dedicated support — theirs is a four-week self-serve model, which requires an estimated $40,000 of your internal team's time. Second: integrations. We build natively into your CRM — theirs requires a middleware connector that costs $18,000 annually on top of the licence. Third: SLA. We offer 99.9% contractual uptime with a dedicated account manager and financial penalties if we fall short — they offer 99.5% with shared support. The [[total cost of ownership:the complete cost across the lifetime of the contract — including indirect costs a headline price obscures]] comparison tells a very different story from the licence fee comparison.",
+      text: "First: onboarding. Our onboarding is three months of dedicated support — theirs is a four-week self-serve model, which requires an estimated $40,000 of your internal team's time. Second: integrations. We build natively into your CRM — theirs requires a middleware connector that costs $18,000 annually on top of the license. Third: SLA. We offer 99.9% contractual uptime with a dedicated account manager and financial penalties if we fall short — they offer 99.5% with shared support. The [[total cost of ownership:the complete cost across the lifetime of the contract — including indirect costs a headline price obscures]] comparison tells a very different story from the license fee comparison.",
     },
     {
       speaker: 'Marcus',
@@ -179,7 +179,7 @@ export const highTicketSalesLanguage: Lesson = {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "This is where the compounding effect becomes significant. Our platform accumulates outcome data, refines the coaching content to your specific sales motions, and builds institutional knowledge into the system. By year three, our platform knows your business as well as your own managers do. The competitor's platform produces no such data advantage — you leave after three years with the same capabilities you arrived with. The cost of switching at that point would far exceed the cumulative licence difference.",
+      text: "This is where the compounding effect becomes significant. Our platform accumulates outcome data, refines the coaching content to your specific sales motions, and builds institutional knowledge into the system. By year three, our platform knows your business as well as your own managers do. The competitor's platform produces no such data advantage — you leave after three years with the same capabilities you arrived with. The cost of switching at that point would far exceed the cumulative license difference.",
     },
     {
       speaker: 'Marcus',
@@ -238,13 +238,13 @@ export const highTicketSalesLanguage: Lesson = {
     },
     {
         "word": "white-glove",
-        "definition": "a personalised, proactive, above-standard level of service that differentiates premium from commoditised offerings"
+        "definition": "a personalized, proactive, above-standard level of service that differentiates premium from commoditised offerings"
     }
 ],
   fillBlankExercise: [
     {
         "before": "The price reflects the total cost of ",
-        "after": " — not just the licence fee. Factor in onboarding, integration, and support differences and the gap narrows significantly.",
+        "after": " — not just the license fee. Factor in onboarding, integration, and support differences and the gap narrows significantly.",
         "answer": "ownership"
     },
     {
@@ -297,7 +297,7 @@ export const highTicketSalesLanguage: Lesson = {
         "options": [
             "It has no dedicated account manager after year one",
             "It produces no data advantage — the buyer leaves with the same capabilities they arrived with",
-            "It increases its annual licence fee significantly after the first contract"
+            "It increases its annual license fee significantly after the first contract"
         ],
         "correctIndex": 1
     },
@@ -444,7 +444,7 @@ export const highTicketSalesLanguage: Lesson = {
             },
             {
                 "speaker": "Riley",
-                "text": "The total cost of ownership comparison reveals a much smaller price different than the licence fee comparison suggests."
+                "text": "The total cost of ownership comparison reveals a much smaller price different than the license fee comparison suggests."
             }
         ],
         "mistakes": [

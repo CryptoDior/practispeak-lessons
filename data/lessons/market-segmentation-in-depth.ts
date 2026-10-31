@@ -5,7 +5,7 @@ export const marketSegmentationInDepth: Lesson = {
   title: 'Market Segmentation in Depth',
   subtitle: 'How to describe your ideal customer precisely — and use that description to make every marketing decision sharper',
   level: 'B1-B2',
-  description: 'Great marketing starts with a clear picture of who you are talking to. In this lesson you will learn the language of customer segmentation — how to describe audiences by behaviour, mindset, and need — and how to write a detailed customer persona that your whole team can use.',
+  description: 'Great marketing starts with a clear picture of who you are talking to. In this lesson you will learn the language of customer segmentation — how to describe audiences by behavior, mindset, and need — and how to write a detailed customer persona that your whole team can use.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/market-segmentation-in-depth-hero.png',
 
   vocabulary: [
@@ -143,7 +143,7 @@ export const marketSegmentationInDepth: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'She searches on LinkedIn, reads two or three reviews, downloads a case study — and if the numbers are strong, she books a call within 48 hours. That [[behavioural:relating to actual behaviour]] pattern tells us exactly where to put the case studies in the campaign.',
+      text: 'She searches on LinkedIn, reads two or three reviews, downloads a case study — and if the numbers are strong, she books a call within 48 hours. That [[behavioural:relating to actual behavior]] pattern tells us exactly where to put the case studies in the campaign.',
     },
     {
       speaker: 'Dana',
@@ -179,7 +179,7 @@ export const marketSegmentationInDepth: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Yes — filter by operations role, 100 to 500 employees, and any [[behavioural:relating to actual behaviour]] signal like content downloads in the last 90 days. That is our warm [[segment:a distinct group that shares specific characteristics and can be reached with the same message]]. Everything we send them should feel like it was written specifically for their situation — because it was.',
+      text: 'Yes — filter by operations role, 100 to 500 employees, and any [[behavioural:relating to actual behavior]] signal like content downloads in the last 90 days. That is our warm [[segment:a distinct group that shares specific characteristics and can be reached with the same message]]. Everything we send them should feel like it was written specifically for their situation — because it was.',
     }
   ],
 
@@ -294,7 +294,7 @@ export const marketSegmentationInDepth: Lesson = {
         "question": "Why is it important to identify behavioural signals when segmenting a campaign database?",
         "options": [
             "Behavioural data is required for GDPR compliance before sending marketing emails.",
-            "Behavioural signals show you who is actually ready to engage — someone who has downloaded a case study, visited the pricing page, or opened three emails is much more likely to convert than someone who has just been imported from a cold list. It helps you prioritise your effort.",
+            "Behavioural signals show you who is actually ready to engage — someone who has downloaded a case study, visited the pricing page, or opened three emails is much more likely to convert than someone who has just been imported from a cold list. It helps you prioritize your effort.",
             "Behavioural data is more accurate than demographic data when filtering a large list.",
             "It helps you exclude people who have already seen your content and avoid duplication."
         ],
@@ -335,7 +335,7 @@ export const marketSegmentationInDepth: Lesson = {
         "options": [
             "Justify the marketing budget to the board by showing research has been done.",
             "Make faster, more consistent decisions — every piece of content, every channel choice, every campaign message gets evaluated against one question: would this specific person find this useful and relevant? A good persona replaces hours of debate with a clear filter.",
-            "Personalise individual emails using the customer's name and company details.",
+            "Personalize individual emails using the customer's name and company details.",
             "Identify which trade shows and events to attend in the next financial year."
         ],
         "correctIndex": 1
@@ -360,7 +360,7 @@ export const marketSegmentationInDepth: Lesson = {
                 "options": [
                     "Say: 'Good start — now let us add a photo and a name to make it feel more real.'",
                     "Say: 'This is a useful starting point for the demographic layer. But to make this persona actually useful in a campaign, we need to go deeper. What does he care about? What is the pressure he is under right now — his need-state? What does he read? How does he make decisions? What does he type into LinkedIn search when he has a problem we solve? The demographic tells us who he is. The psychographic tells us how to talk to him. Can you set up three client interviews this week so we can get that layer from real people?'",
-                    "Say: 'We also need to segment by company size and location before we finalise the persona.'"
+                    "Say: 'We also need to segment by company size and location before we finalize the persona.'"
                 ],
                 "correctIndex": 1,
                 "explanation": "B is correct. It validates the work, explains what is missing and why it matters, and gives a concrete next step. A focuses on a superficial detail. C adds more demographic data rather than addressing the missing psychographic layer — which is the real gap."
@@ -373,7 +373,7 @@ export const marketSegmentationInDepth: Lesson = {
                     "Say: 'Let us try a different sending time — Tuesday mornings usually perform better for B2B.'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It diagnoses the root cause rather than treating the symptom — a segmentation or need-state mismatch is far more likely to explain poor performance than subject line or send time. A and C both optimise around the edges without questioning whether the right people were contacted."
+                "explanation": "B is correct. It diagnoses the root cause rather than treating the symptom — a segmentation or need-state mismatch is far more likely to explain poor performance than subject line or send time. A and C both optimize around the edges without questioning whether the right people were contacted."
             },
             {
                 "customerLine": "Client: 'We have a database of 50,000 contacts. How do we decide who to contact first?'",
@@ -392,7 +392,7 @@ export const marketSegmentationInDepth: Lesson = {
         "profiles": [
             {
                 "name": "SkyBridge Software",
-                "description": "SkyBridge has a database of 30,000 contacts but very low campaign performance — open rates of 10%, conversion under 1%. Analysis shows they have been sending the same email to their entire list regardless of industry, company size, or past behaviour. Everyone gets the same message.",
+                "description": "SkyBridge has a database of 30,000 contacts but very low campaign performance — open rates of 10%, conversion under 1%. Analysis shows they have been sending the same email to their entire list regardless of industry, company size, or past behavior. Everyone gets the same message.",
                 "matchKey": "behavioural"
             },
             {
@@ -410,7 +410,7 @@ export const marketSegmentationInDepth: Lesson = {
             {
                 "key": "behavioural",
                 "label": "Apply behavioural segmentation",
-                "description": "Filter the database or audience by actual behaviour — who has engaged with content, visited the website, or responded to a previous campaign. Use these signals to separate warm prospects from cold ones and prioritise accordingly. Different behavioural segments should receive different messages and different levels of sales attention."
+                "description": "Filter the database or audience by actual behavior — who has engaged with content, visited the website, or responded to a previous campaign. Use these signals to separate warm prospects from cold ones and prioritize accordingly. Different behavioural segments should receive different messages and different levels of sales attention."
             },
             {
                 "key": "needstate",

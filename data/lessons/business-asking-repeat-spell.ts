@@ -222,7 +222,7 @@ export const businessAskingRepeatSpell: Lesson = {
         'To make the call longer',
         'To check it is correct',
         'Because we forgot it',
-        'To practise numbers',
+        'To practice numbers',
       ],
       correctIndex: 1,
     },

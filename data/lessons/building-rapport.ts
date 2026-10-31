@@ -139,7 +139,7 @@ export const buildingRapport: Lesson = {
   registerTraps: [
     "❌ Scripted small talk is worse than no small talk — 'How are you today?' on a cold call reads as a delay tactic, not genuine interest. Ask about something specific you actually found out.",
     "✅ The best rapport comes from research — one specific reference ('I saw you spoke at TechSummit last month') is worth ten generic warm-up questions and signals you took the time to prepare.",
-    "🔁 Know when to stop — a prospect who gives short answers to small talk is signalling they want to get to business. Reciprocate their energy and transition quickly rather than pushing the small talk further.",
+    "🔁 Know when to stop — a prospect who gives short answers to small talk is signaling they want to get to business. Reciprocate their energy and transition quickly rather than pushing the small talk further.",
     "💡 Rapport is built across multiple calls, not just the first one — referencing something specific from a previous conversation at the start of the next call is one of the most powerful things you can do.",
   ],
 
@@ -275,7 +275,7 @@ export const buildingRapport: Lesson = {
     },
     {
         "before": "Being",
-        "after": "in the first five minutes gives you everything you need to personalise the rest of the call.",
+        "after": "in the first five minutes gives you everything you need to personalize the rest of the call.",
         "answer": "attentive"
     },
     {
@@ -418,7 +418,7 @@ export const buildingRapport: Lesson = {
                     "Say: 'I understand. So — shall we talk about how we might be able to help?'"
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It shows genuine empathy and does not immediately try to monetise their pain. A acknowledges the difficulty but pivots to a sales point in the same breath — it's tone-deaf and will break trust. C gives a token acknowledgement before rushing to the pitch, which feels transactional rather than human."
+                "explanation": "B is correct. It shows genuine empathy and does not immediately try to monetize their pain. A acknowledges the difficulty but pivots to a sales point in the same breath — it's tone-deaf and will break trust. C gives a token acknowledgment before rushing to the pitch, which feels transactional rather than human."
             }
         ]
     },

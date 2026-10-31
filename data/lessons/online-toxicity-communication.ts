@@ -3,10 +3,10 @@ import { Lesson } from '@/types/lesson';
 export const onlineToxicityCommunication: Lesson = {
   slug: 'online-toxicity-communication',
   title: 'Online Toxicity & Communication',
-  subtitle: 'How to talk about toxic behaviour and keep games positive',
+  subtitle: 'How to talk about toxic behavior and keep games positive',
   level: 'B1-B2',
   description:
-    'Learn the words and phrases players use to talk about toxic behaviour, calm arguments and give advice.',
+    'Learn the words and phrases players use to talk about toxic behavior, calm arguments and give advice.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/online-toxicity-communication-hero.png',
 
   vocabulary: [
@@ -48,7 +48,7 @@ export const onlineToxicityCommunication: Lesson = {
     {
       word: 'REPORT',
       partOfSpeech: 'verb',
-      definition: 'To tell the game\'s team about someone\'s bad behaviour.',
+      definition: 'To tell the game\'s team about someone\'s bad behavior.',
       example: 'Report the player and move on.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/online-toxicity-communication-report.png',
     },
@@ -132,7 +132,7 @@ export const onlineToxicityCommunication: Lesson = {
       speaker: 'Maya',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/maya-icon.png',
-      text: 'I understand where you\'re coming from, but arguing back won\'t help. Just [[report:tell the game\'s team about bad behaviour]] him.',
+      text: 'I understand where you\'re coming from, but arguing back won\'t help. Just [[report:tell the game\'s team about bad behavior]] him.',
     },
     {
       speaker: 'Jax',
@@ -163,7 +163,7 @@ export const onlineToxicityCommunication: Lesson = {
   matchingExercise: [
     { word: 'TOXIC', definition: 'Rude and harmful online' },
     { word: 'MUTE', definition: 'Stop hearing someone\'s voice' },
-    { word: 'REPORT', definition: 'Tell the game\'s team about bad behaviour' },
+    { word: 'REPORT', definition: 'Tell the game\'s team about bad behavior' },
     { word: 'GRIEF', definition: 'Ruin other players\' game on purpose' },
     { word: 'TILT', definition: 'So upset that you play badly' },
     { word: 'SPORTSMANSHIP', definition: 'Being fair, win or lose' },

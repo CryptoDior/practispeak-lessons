@@ -12,7 +12,7 @@ export const theKit: Lesson = {
     {
       word: 'SHIRT',
       partOfSpeech: 'noun',
-      definition: 'The top that a player wears in a match.',
+      definition: 'The top that a player wears in a match. (US: jersey)',
       example: 'The team wears a blue shirt with white numbers.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/shirt.png',
     },
@@ -26,7 +26,7 @@ export const theKit: Lesson = {
     {
       word: 'BOOTS',
       partOfSpeech: 'noun',
-      definition: 'Special shoes with studs on the bottom, worn to play football.',
+      definition: 'Special shoes with studs on the bottom, worn to play football. (US: cleats)',
       example: 'New boots can help you run faster on the grass.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/boots.png',
     },
@@ -61,7 +61,7 @@ export const theKit: Lesson = {
     {
       word: 'KIT',
       partOfSpeech: 'noun',
-      definition: 'The full set of clothing a player wears — shirt, shorts, socks, and boots.',
+      definition: 'The full set of clothing a player wears — shirt, shorts, socks, and boots. (US: uniform)',
       example: 'The team\'s kit is red and white.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kit.png',
     },
@@ -70,13 +70,13 @@ export const theKit: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'PUT ON YOUR KIT',
-      definition: 'To get dressed in your football clothing.',
+      definition: 'To get dressed in your football clothing. (US: put on your uniform)',
       example: 'Put on your kit — training starts in ten minutes.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/put-on-your-kit.png',
     },
     {
       phrase: 'LACE UP YOUR BOOTS',
-      definition: 'To tie the laces of your football boots.',
+      definition: 'To tie the laces of your football boots. (US: lace up your cleats)',
       example: 'Lace up your boots before the warm-up starts.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/lace-up-your-boots.png',
     },
@@ -88,19 +88,19 @@ export const theKit: Lesson = {
     },
     {
       phrase: 'CHANGE YOUR SHIRT',
-      definition: 'To swap your shirt, often with an opponent after a match.',
+      definition: 'To swap your shirt, often with an opponent after a match. (US: change your jersey)',
       example: 'The two captains changed their shirts after the final whistle.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/change-your-shirt.png',
     },
     {
       phrase: 'HOME KIT',
-      definition: 'The set of clothes a team wears for matches at their own ground.',
+      definition: 'The set of clothes a team wears for matches at their own ground. (US: home uniform)',
       example: 'Today we wear the home kit — red shirts and white shorts.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/home-kit.png',
     },
     {
       phrase: 'AWAY KIT',
-      definition: 'The set of clothes a team wears when playing at another ground.',
+      definition: 'The set of clothes a team wears when playing at another ground. (US: away uniform)',
       example: 'We wear the away kit when our colours clash with the other team.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/away-kit.png',
     },

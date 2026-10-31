@@ -125,7 +125,7 @@ export const brandStorytelling: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "It is not a reach problem — it is a [[narrative:the story that runs through all your marketing]] problem. The case study on your website leads with TechFlow's features. The [[hero:the central character the audience connects with]] of the story is TechFlow. But your audience — operations directors under pressure — does not connect with a platform. They connect with a person in a situation they recognise.",
+      text: "It is not a reach problem — it is a [[narrative:the story that runs through all your marketing]] problem. The case study on your website leads with TechFlow's features. The [[hero:the central character the audience connects with]] of the story is TechFlow. But your audience — operations directors under pressure — does not connect with a platform. They connect with a person in a situation they recognize.",
     },
     {
       speaker: 'Marcus',
@@ -137,7 +137,7 @@ export const brandStorytelling: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "Exactly. The story should start with the [[conflict:the problem or challenge the hero has to overcome]] — Claire, 90 days, 20% cost target, 40 jobs at risk. That is the tension that [[draws:captures the audience's attention]] the reader in. Once they recognise that situation, they will read everything.",
+      text: "Exactly. The story should start with the [[conflict:the problem or challenge the hero has to overcome]] — Claire, 90 days, 20% cost target, 40 jobs at risk. That is the tension that [[draws:captures the audience's attention]] the reader in. Once they recognize that situation, they will read everything.",
     },
     {
       speaker: 'Marcus',
@@ -258,7 +258,7 @@ export const brandStorytelling: Lesson = {
         "question": "A case study opens with: 'TechFlow is an operational efficiency platform designed to help manufacturing companies reduce costs through intelligent workflow automation.' What is the storytelling problem?",
         "options": [
             "It is too short — a case study opening needs more detail about the product and its features.",
-            "It makes TechFlow the subject — the reader is told about a product before they have a reason to care. A strong case study opening leads with the client's conflict, making the reader recognise themselves in the situation before they encounter the solution.",
+            "It makes TechFlow the subject — the reader is told about a product before they have a reason to care. A strong case study opening leads with the client's conflict, making the reader recognize themselves in the situation before they encounter the solution.",
             "It uses too much jargon — 'intelligent workflow automation' is not accessible to all readers.",
             "It does not include a specific result — the opening should always lead with the proof point."
         ],
@@ -268,7 +268,7 @@ export const brandStorytelling: Lesson = {
         "question": "Why should the client — not the brand — be the hero of a B2B case study?",
         "options": [
             "Because legal and compliance teams prefer client-led case studies for liability reasons.",
-            "Because the reader — who is also a potential client — connects with a person in a situation they recognise, not with a product. When the client is the hero, the reader sees themselves in the story and thinks 'if it worked for them, it could work for me'. When the brand is the hero, the reader feels like they are reading an advertisement.",
+            "Because the reader — who is also a potential client — connects with a person in a situation they recognize, not with a product. When the client is the hero, the reader sees themselves in the story and thinks 'if it worked for them, it could work for me'. When the brand is the hero, the reader feels like they are reading an advertisement.",
             "Because clients are more likely to approve a case study that positions them positively.",
             "Because hero-led narratives are more shareable on social media and generate more organic reach."
         ],
@@ -288,7 +288,7 @@ export const brandStorytelling: Lesson = {
         "question": "What makes an 'emotional appeal' effective in B2B marketing content?",
         "options": [
             "Using inspirational language and aspirational imagery that makes the brand feel exciting.",
-            "Describing a situation or challenge so specifically that the reader recognises their own experience in it. The emotional connection in B2B is not sentiment — it is recognition. When an operations director reads 'she had 90 days to save 40 jobs', they feel something because they have been in a similar position or they fear they could be.",
+            "Describing a situation or challenge so specifically that the reader recognizes their own experience in it. The emotional connection in B2B is not sentiment — it is recognition. When an operations director reads 'she had 90 days to save 40 jobs', they feel something because they have been in a similar position or they fear they could be.",
             "Including personal stories about the founder's journey to humanise the brand.",
             "Using positive, optimistic language that makes the reader feel energised about the future."
         ],
@@ -343,7 +343,7 @@ export const brandStorytelling: Lesson = {
                 "customerLine": "Client reviewing the draft case study: 'This is good but I think we should lead with our product features — buyers need to know what TechFlow does before they read about the client.'",
                 "options": [
                     "Say: 'You are right — let us add a product overview section at the beginning.'",
-                    "Say: 'I understand the instinct — but here is the problem with leading with the product. A buyer who does not yet recognise a problem does not care what TechFlow does. The moment they read 'Claire had 90 days to cut costs or face redundancies', every operations director in the same position thinks 'that is me' — and now they will read every word. If we lead with the product, we lose them before they even get to the result. The product appears naturally in the story when Claire makes the decision to use TechFlow. By that point, the reader is invested in her outcome and they want to know what tool she used.'",
+                    "Say: 'I understand the instinct — but here is the problem with leading with the product. A buyer who does not yet recognize a problem does not care what TechFlow does. The moment they read 'Claire had 90 days to cut costs or face redundancies', every operations director in the same position thinks 'that is me' — and now they will read every word. If we lead with the product, we lose them before they even get to the result. The product appears naturally in the story when Claire makes the decision to use TechFlow. By that point, the reader is invested in her outcome and they want to know what tool she used.'",
                     "Say: 'Let us add a short product summary at the bottom as an appendix, so it is there for people who want it but does not interrupt the story.'"
                 ],
                 "correctIndex": 1,
@@ -353,7 +353,7 @@ export const brandStorytelling: Lesson = {
                 "customerLine": "Client: 'The client who gave us the best results does not want to be named in the case study. Can we still use the story?'",
                 "options": [
                     "Say: 'Without a name we cannot publish it — the story will not be credible.'",
-                    "Say: 'Yes — anonymised case studies can still be very effective if they are specific enough. We use language like 'a UK-based manufacturing company with 200 employees' — it gives the reader enough context to recognise the type of company without naming the client. The story and the numbers stay exactly the same. The one thing we lose is the ability to use their logo, which reduces credibility slightly — we can compensate for that with a direct quote from a named contact at a different client who had a similar result. Specificity is what builds trust, not necessarily the name itself.'",
+                    "Say: 'Yes — anonymised case studies can still be very effective if they are specific enough. We use language like 'a UK-based manufacturing company with 200 employees' — it gives the reader enough context to recognize the type of company without naming the client. The story and the numbers stay exactly the same. The one thing we lose is the ability to use their logo, which reduces credibility slightly — we can compensate for that with a direct quote from a named contact at a different client who had a similar result. Specificity is what builds trust, not necessarily the name itself.'",
                     "Say: 'Let us ask the client again — most companies agree to being named once they see the final version.'"
                 ],
                 "correctIndex": 1,
@@ -424,7 +424,7 @@ export const brandStorytelling: Lesson = {
             {
                 "customerLine": "Client: 'How do we turn our client results into a story people will actually want to read?'",
                 "salespersonStart": "It starts with one question: who is the hero of this story — and it is never the brand.",
-                "suggestedCompletion": "The hero is your client — the person who faced a real problem, made a decision under pressure, and achieved something that matters. TechFlow's role in the story is the guide or the tool — the thing that made the outcome possible, but not the character the reader connects with. So the structure of the story is: who is Claire, what pressure was she under, what did she decide, and what happened? The conflict — 90 days, 20% target, 40 jobs at risk — is what draws the reader in, because every operations director reading it recognises that situation. The proof point — 22% in 67 days — is what makes them believe it. And the emotional truth — zero redundancies — is what makes them share it. Put all three of those together and you have a story that works."
+                "suggestedCompletion": "The hero is your client — the person who faced a real problem, made a decision under pressure, and achieved something that matters. TechFlow's role in the story is the guide or the tool — the thing that made the outcome possible, but not the character the reader connects with. So the structure of the story is: who is Claire, what pressure was she under, what did she decide, and what happened? The conflict — 90 days, 20% target, 40 jobs at risk — is what draws the reader in, because every operations director reading it recognizes that situation. The proof point — 22% in 67 days — is what makes them believe it. And the emotional truth — zero redundancies — is what makes them share it. Put all three of those together and you have a story that works."
             },
             {
                 "customerLine": "Client: 'I want our brand story to be more than just a list of things we do. But I do not know where to start.'",
