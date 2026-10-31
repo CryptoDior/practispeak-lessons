@@ -121,6 +121,17 @@ export interface ReadingPassage {
   audioSrc?: string;         // path to audio file, e.g. \'/audio/forum-post.mp3\'
 }
 
+/** A menu / list to read, followed by multiple-choice questions about it. */
+export interface MenuReading {
+  title: string;                 // e.g. "Casa Verde — Wine List"
+  intro?: string;                // short instruction or scene
+  sections: {
+    heading: string;             // e.g. "Red wine"
+    items: { name: string; note?: string; price: string }[];
+  }[];
+  questions: { question: string; options: string[]; correctIndex: number }[];
+}
+
 export interface ProductionPrompt {
   icon: string;    // emoji
   label: string;   // e.g. "A"
@@ -305,6 +316,14 @@ export interface Lesson {
   pictureQuiz?: boolean;
   /** Vocabulary words to leave out of the picture quiz. */
   pictureQuizSkip?: string[];
+  /**
+   * Wrong answers to show for a word in the Picture Quiz, written by hand (they don't have to be
+   * words from the lesson). Give 2 per word, e.g. { 'WINE GLASS': ['Cup', 'Bottle'] }.
+   * Words without an entry use two other words from the lesson.
+   */
+  pictureQuizOptions?: Record<string, string[]>;
+  /** Optional 'Read the Menu' tab after Dialogue: a menu to read, then questions about it. */
+  menuReading?: MenuReading;
   /** Optional 'Name This' tab after Dialogue: vocab pictures that flip to show the word. */
   nameThis?: boolean;
   /** Vocabulary words to leave out of Name This. */

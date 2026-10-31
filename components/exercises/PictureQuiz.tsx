@@ -45,24 +45,30 @@ export default function PictureQuiz({
   vocabulary,
   lessonSlug,
   skip = [],
+  customOptions,
 }: {
   vocabulary: VocabWord[];
   lessonSlug: string;
   /** Words to leave out of the quiz (e.g. adjectives that are hard to show in one picture). */
   skip?: string[];
+  /** Hand-written wrong answers per word (keys are the vocabulary words). */
+  customOptions?: Record<string, string[]>;
 }) {
   const questions = useMemo(() => {
     const skipSet = new Set(skip.map((s) => s.toUpperCase()));
     const words = vocabulary.filter((w) => w.imageSlug && !skipSet.has(w.word.toUpperCase()));
     return words.map((w) => {
       const rand = seeded(`${lessonSlug}-${w.word}`);
+      const custom = customOptions?.[w.word] ?? customOptions?.[w.word.toUpperCase()];
       const pool = words.filter((o) => o.word !== w.word);
       const fair = pool.filter((o) => !tooClose(o.word, w.word));
-      const others = shuffle(fair.length >= 2 ? fair : pool, rand).slice(0, 2).map((o) => o.word);
+      const others = custom && custom.length >= 2
+        ? custom.slice(0, 2)
+        : shuffle(fair.length >= 2 ? fair : pool, rand).slice(0, 2).map((o) => o.word);
       const options = shuffle([w.word, ...others], rand);
       return { src: resolveImageUrl(w.imageSlug) ?? '', answer: w.word, options };
     });
-  }, [vocabulary, lessonSlug, skip]);
+  }, [vocabulary, lessonSlug, skip, customOptions]);
 
   const [picked, setPicked] = useState<Record<number, string>>({});
   const done = Object.keys(picked).length;

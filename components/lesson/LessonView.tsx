@@ -1,6 +1,7 @@
 'use client';
 import PictureQuiz from '@/components/exercises/PictureQuiz';
 import NameThis from '@/components/exercises/NameThis';
+import MenuReading from '@/components/exercises/MenuReading';
 import PracticeTimeSection from '@/components/PracticeTimeSection';
 import { audioSources, playFirstWorking } from '@/lib/audio';
 import { useState, useCallback } from 'react';
@@ -75,8 +76,11 @@ export default function LessonView({
   const rp = lesson.practiceTime ? 1 : 0;
   // 'Name This' goes right after Dialogue (before Role-play)
   const nt = lesson.nameThis ? 1 : 0;
+  // 'Read the Menu' also goes right after Dialogue
+  const mn = lesson.menuReading ? 1 : 0;
   const baseTabs = [
     ...mappedBase.slice(0, -1),
+    ...(mn ? ['Read the Menu'] : []),
     ...(nt ? ['Name This'] : []),
     ...(rp ? ['Role-play'] : []),
     ...mappedBase.slice(-1),
@@ -488,7 +492,7 @@ export default function LessonView({
         {hasPictureQuiz && (
           <section className={activeTab === TABS.indexOf('Picture Quiz') ? 'block' : 'hidden'}>
             <SectionHeader title="Picture Quiz" subtitle="Look at the picture and choose the right word" />
-            <PictureQuiz vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} skip={lesson.pictureQuizSkip} />
+            <PictureQuiz vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} skip={lesson.pictureQuizSkip} customOptions={lesson.pictureQuizOptions} />
           </section>
         )}
 
@@ -642,6 +646,14 @@ export default function LessonView({
           )}
         </section>
 
+        {/* Read the Menu */}
+        {lesson.menuReading && (
+          <section className={activeTab === TABS.indexOf('Read the Menu') ? 'block' : 'hidden'}>
+            <SectionHeader title="Read the Menu" subtitle="Read the menu, then answer the questions" />
+            <MenuReading menu={lesson.menuReading} />
+          </section>
+        )}
+
         {/* Name This */}
         {lesson.nameThis && (
           <section className={activeTab === TABS.indexOf('Name This') ? 'block' : 'hidden'}>
@@ -659,7 +671,7 @@ export default function LessonView({
         )}
 
         {/* Exercises */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp + nt ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp + nt + mn ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (

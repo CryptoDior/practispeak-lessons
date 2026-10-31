@@ -20,6 +20,65 @@ export const foodWineIntroduction: Lesson = {
     'Talk about wine at dinner with friends.',
   ],
 
+  // Picture Quiz: nouns only. The wrong answers are written by hand so the choices are fair
+  // (e.g. a wine glass is never offered next to "glass of wine"), and they don't have to be lesson words.
+  pictureQuiz: true,
+  pictureQuizSkip: ['SWEET', 'DRY', 'FRUITY'],
+  pictureQuizOptions: {
+    'WINE': ['Juice', 'Beer'],
+    'RED WINE': ['White wine', 'Rosé'],
+    'WHITE WINE': ['Red wine', 'Rosé'],
+    'ROSÉ': ['Red wine', 'White wine'],
+    'GRAPES': ['Apples', 'Cherries'],
+    'BOTTLE': ['Can', 'Cup'],
+    'WINE GLASS': ['Cup', 'Bottle'],
+  },
+
+  menuReading: {
+    title: 'Casa Rosa — Wine List',
+    intro: 'Read the wine list. Then choose the right answer.',
+    sections: [
+      {
+        heading: 'Red wine',
+        items: [
+          { name: 'Spanish red', note: 'fruity · glass $6 · bottle $24', price: '' },
+          { name: 'Chilean red', note: 'dry · glass $7 · bottle $28', price: '' },
+        ],
+      },
+      {
+        heading: 'White wine',
+        items: [
+          { name: 'Italian white', note: 'dry · glass $6 · bottle $24', price: '' },
+          { name: 'German white', note: 'sweet · glass $7 · bottle $26', price: '' },
+        ],
+      },
+      {
+        heading: 'Rosé',
+        items: [{ name: 'French rosé', note: 'sweet · glass $6 · bottle $22', price: '' }],
+      },
+    ],
+    questions: [
+      { question: 'How much is a glass of the German white wine?', options: ['$6', '$7', '$26'], correctIndex: 1 },
+      { question: 'Which white wine is sweet?', options: ['Italian white', 'German white', 'Chilean red'], correctIndex: 1 },
+      { question: 'Which red wine is dry?', options: ['Spanish red', 'Chilean red', 'French rosé'], correctIndex: 1 },
+      { question: 'How much is a bottle of rosé?', options: ['$22', '$24', '$6'], correctIndex: 0 },
+      { question: 'Which wine is fruity?', options: ['Spanish red', 'Italian white', 'French rosé'], correctIndex: 0 },
+    ],
+  },
+
+  completeSentenceExercise: {
+    instructions: 'Choose the correct word to complete each sentence.',
+    items: [
+      { sentence: 'Wine is made from _____.', options: ['grapes', 'apples', 'rice'], correctIndex: 0, explanation: 'Wine is made from grapes.' },
+      { sentence: 'I would like a _____ of wine, please.', options: ['glass', 'cup', 'plate'], correctIndex: 0, explanation: 'We say "a glass of wine".' },
+      { sentence: '_____ is a pink wine.', options: ['Red wine', 'White wine', 'Rosé'], correctIndex: 2, explanation: 'Rosé is pink.' },
+      { sentence: 'This wine is not sweet. It is _____.', options: ['dry', 'wet', 'hot'], correctIndex: 0, explanation: '"Dry" means not sweet.' },
+      { sentence: 'Before we drink, we say "_____!"', options: ['Cheers', 'Sorry', 'Goodbye'], correctIndex: 0, explanation: 'We say "Cheers!" before we drink together.' },
+      { sentence: 'The wine _____ good. I love the smell.', options: ['smells', 'hears', 'sees'], correctIndex: 0, explanation: 'We use "smells" for the nose.' },
+      { sentence: 'This wine tastes like cherries. It is _____.', options: ['fruity', 'loud', 'hot'], correctIndex: 0, explanation: '"Fruity" means it tastes like fruit.' },
+    ],
+  },
+
   vocabulary: [
     { word: 'WINE', partOfSpeech: 'noun', definition: 'A drink made from grapes.', example: 'I drink wine at dinner.', imageSlug: img('wine-with-dinner') },
     { word: 'RED WINE', partOfSpeech: 'noun', definition: 'A dark wine made from red or black grapes.', example: 'I think red wine is the best.', imageSlug: img('red-wine-personal-preference') },
