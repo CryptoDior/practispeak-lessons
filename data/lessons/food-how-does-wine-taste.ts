@@ -50,6 +50,18 @@ export const foodHowDoesWineTaste: Lesson = {
     ],
   },
 
+  // Discussion: open-ended questions (taste is personal, so there are no right answers).
+  discussion: {
+    questions: [
+      'What is your favorite drink? How does it taste?',
+      'Do you like light, fresh drinks or strong ones? Why?',
+      'Do you prefer sweet, sour or spicy flavors? Give an example.',
+      'Do you drink wine? Why or why not?',
+      'Which drinks do you like cold? Which do you like at room temperature?',
+      'How would you describe your favorite wine or drink to a friend?',
+    ],
+  },
+
   vocabulary: [
     { word: 'FLAVOR', partOfSpeech: 'noun', definition: 'The taste of food or drink.', example: 'This wine has a strong flavor.', imageSlug: img('intense-wine-flavour') },
     { word: 'SMOOTH', partOfSpeech: 'adjective', definition: 'Easy to drink. It feels soft in your mouth.', example: 'This red wine is very smooth.', imageSlug: img('smooth-red-wine') },

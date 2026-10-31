@@ -63,6 +63,18 @@ export const foodWineTastingConversation: Lesson = {
     ],
   },
 
+  // Discussion: open-ended questions (taste is personal, so there are no right answers).
+  discussion: {
+    questions: [
+      'Have you ever been to a wine tasting, or would you like to go? Why?',
+      'What smells remind you of home, such as fruit, flowers or spices?',
+      'Do you prefer wines with a long finish or a short one? Or do you not notice?',
+      'Why do people smell and taste wine slowly? Do you think it matters?',
+      'What would you say to describe a wine you really liked?',
+      'Is it okay to say you do not like an expensive wine? Why or why not?',
+    ],
+  },
+
   vocabulary: [
     { word: 'AROMA', partOfSpeech: 'noun', definition: 'The smell of the wine.', example: 'The wine has a fruity aroma.', imageSlug: img('fruity-wine-aroma') },
     { word: 'BOUQUET', partOfSpeech: 'noun', definition: 'The full, complex smell of the wine in the glass.', example: 'The bouquet is strong and floral.', imageSlug: img('strong-floral-bouquet') },

@@ -56,6 +56,18 @@ export const foodWineFoodPairing: Lesson = {
     ],
   },
 
+  // Discussion: open-ended questions (taste is personal, so there are no right answers).
+  discussion: {
+    questions: [
+      'What food and drink do you always have together? Why do they go well together?',
+      'Which wine or drink would you choose with steak? With fish? With dessert?',
+      'Do you like creamy food or light food? What would you drink with it?',
+      'Is it important to pair food and drink, or is it just personal taste? What do you think?',
+      'What is a food from your country that goes well with a special drink?',
+      'If you cooked dinner for a friend, what would you serve? What would you pour?',
+    ],
+  },
+
   vocabulary: [
     { word: 'PAIR', partOfSpeech: 'verb', definition: 'To match one thing with another.', example: 'We often pair red wine with steak.', imageSlug: img('red-wine-steak-match') },
     { word: 'PAIRING', partOfSpeech: 'noun', definition: 'A combination of food and wine that goes well together.', example: 'Wine and cheese is a classic pairing.', imageSlug: img('classic-wine-cheese-combination') },
