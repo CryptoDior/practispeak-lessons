@@ -20,6 +20,18 @@ export const conversationC1PerspectiveDailyRoutine: Lesson = {
     'Use advanced adjectives such as intentional, restorative and counterproductive.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Does your routine feel intentional, or has it become monotonous? Explain.',
+      'Which parts of your routine are restorative, and which are counterproductive?',
+      'How rigid or adaptive is your daily structure? Which would you prefer?',
+      'What habit in your routine feels almost automatic? Is it a good thing?',
+      'Is there anything in your current routine that feels unsustainable in the long term?',
+      'How would a close friend describe your daily routine? Would they be right?',
+    ],
+  },
+
   vocabulary: [
     { word: 'INTROSPECTIVE', partOfSpeech: 'adjective', definition: 'Examining your own thoughts and behavior closely.', example: 'My mornings have become more introspective as I assess my goals.', imageSlug: img('morning-self-reflection') },
     { word: 'MONOTONOUS', partOfSpeech: 'adjective', definition: 'Repetitive and lacking variety.', example: 'My routine can feel monotonous when every day looks the same.', imageSlug: img('repeated-days') },

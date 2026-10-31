@@ -46,7 +46,7 @@ export default function PracticeTimeSection({ practice, wordBank }: { practice: 
 
       {words.length > 0 && (
         <div className="sticky z-20 bg-white/95 backdrop-blur rounded-2xl border border-gray-100 shadow-[0_4px_16px_rgba(6,110,245,0.08)] p-4" style={{ top }}>
-          <p className="text-xs font-extrabold tracking-[0.15em] uppercase text-gray-400 mb-3">Word bank</p>
+          <p className="text-xs font-extrabold tracking-[0.15em] uppercase text-gray-400 mb-3"><span aria-hidden="true">💡</span> Clues</p>
           <div className="flex flex-wrap gap-2">
             {words.map((w) => (
               <span key={w} className="px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-[#066EF5] font-bold text-sm">

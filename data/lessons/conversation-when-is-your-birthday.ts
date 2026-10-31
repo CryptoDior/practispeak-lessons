@@ -20,6 +20,18 @@ export const conversationWhenIsYourBirthday: Lesson = {
     'Ask and say your age.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'When is your birthday?',
+      'How do you celebrate your birthday?',
+      'Do you like birthday parties? Why or why not?',
+      'What is a good birthday present for you?',
+      'Who has a birthday soon in your family?',
+      'What month is your favorite month? Why?',
+    ],
+  },
+
   vocabulary: [
     { word: 'BIRTHDAY', partOfSpeech: 'noun', definition: 'The day every year when you were born.', example: 'My birthday is on May 10th.', imageSlug: img('birthday') + '?v=2' },
     { word: 'MONTH', partOfSpeech: 'noun', definition: 'One of the 12 parts of the year, like March or July.', example: 'My birthday is in March.', imageSlug: img('month') + '?v=2' },

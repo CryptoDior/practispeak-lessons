@@ -20,6 +20,18 @@ export const conversationWhatDoYouDo: Lesson = {
     'Ask if someone likes their job and give short answers.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What do you do? Do you work or study?',
+      'Do you like your job or your studies? Why?',
+      'Where do you work or study?',
+      'What job do you want to have? Why?',
+      'Is your job easy or difficult?',
+      'What do your friends and family do?',
+    ],
+  },
+
   vocabulary: [
     { word: 'JOB', partOfSpeech: 'noun', definition: 'The work you do to get money.', example: 'Do you like your job?', imageSlug: img('job') },
     { word: 'WORK', partOfSpeech: 'verb', definition: 'To do a job.', example: 'I work at a hospital.', imageSlug: img('work') },

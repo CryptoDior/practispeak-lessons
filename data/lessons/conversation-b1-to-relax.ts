@@ -20,6 +20,18 @@ export const conversationB1ToRelax: Lesson = {
     'Share and compare relaxation habits.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What do you do to relax?',
+      'Do you prefer to relax alone or with other people? Why?',
+      'Have you ever tried to meditate, or to breathe deeply to calm down? How was it?',
+      'How do you switch off from work or study?',
+      'What helps you recharge when you feel tired?',
+      'Do you think people today find it hard to disconnect? Why?',
+    ],
+  },
+
   vocabulary: [
     { word: 'UNWIND', partOfSpeech: 'verb', definition: 'To slowly calm down after stress. (past: unwound)', example: 'I unwound by listening to music.', imageSlug: img('unwound-music') },
     { word: 'DISCONNECT', partOfSpeech: 'verb', definition: 'To take a break from screens or responsibilities.', example: 'I disconnected from social media last weekend.', imageSlug: img('social-media-break') },

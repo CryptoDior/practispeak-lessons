@@ -39,6 +39,18 @@ export const conversationB1SpendYourMornings: Lesson = {
     ],
   },
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you usually spend your mornings? Describe your routine.',
+      'What do you do first when you wake up?',
+      'How do you get ready? Do you do it quickly or take your time?',
+      'Are you more alert in the morning or at night? Why?',
+      'What do you do as soon as you wake up, before anything else?',
+      'Would you like to change your morning routine? How?',
+    ],
+  },
+
   vocabulary: [
     { word: 'ROUTINE', partOfSpeech: 'noun', definition: 'The things you do regularly, in the same order.', example: 'My morning routine takes about an hour.', imageSlug: img('routine-hour') },
     { word: 'FIRST', partOfSpeech: 'adverb', definition: 'At the beginning of a sequence.', example: 'First, I make coffee.', imageSlug: img('first-coffee') },

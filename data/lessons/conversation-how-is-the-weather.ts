@@ -21,6 +21,18 @@ export const conversationHowIsTheWeather: Lesson = {
   ],
 
   pictureQuiz: true,
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How is the weather today?',
+      'What is your favorite weather? Why?',
+      'Do you like hot weather or cold weather?',
+      'What do you do on a rainy day?',
+      'What do you wear when it is cold?',
+      'How is the weather in your city in summer?',
+    ],
+  },
+
   vocabulary: [
     { word: 'SUNNY', partOfSpeech: 'adjective', definition: 'The sun is out. There are no clouds.', example: "It's sunny today.", imageSlug: img('sunny') },
     { word: 'CLOUDY', partOfSpeech: 'adjective', definition: 'There are many clouds in the sky.', example: "It's cloudy, but it's not raining.", imageSlug: img('cloudy') },

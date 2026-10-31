@@ -38,6 +38,18 @@ export const conversationB1AfterWork: Lesson = {
     ],
   },
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What do you usually do right after work or class?',
+      'Do you prefer to rest after work, or do something active? Why?',
+      'What errands do you have to run this week?',
+      'Do you take care of anyone or anything after work, such as children, a pet or a house?',
+      'What do you do to prepare for the next day?',
+      'Do you think exercise after work is a good idea? Why or why not?',
+    ],
+  },
+
   vocabulary: [
     { word: 'HEAD', partOfSpeech: 'verb', definition: 'To go in a direction (informal).', example: "I'm going to head home after work.", imageSlug: img('head-home') },
     { word: 'ERRANDS', partOfSpeech: 'noun', definition: 'Small jobs outside the home, like shopping or going to the bank.', example: 'I have to run some errands after work.', imageSlug: img('errands') },

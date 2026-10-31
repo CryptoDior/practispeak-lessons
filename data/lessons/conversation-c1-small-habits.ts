@@ -20,6 +20,18 @@ export const conversationC1SmallHabits: Lesson = {
     'Use advanced vocabulary: incremental, sustainable, ripple effect.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What small habit has made a surprisingly big difference in your life?',
+      'Do people underestimate the compound effect of small, incremental changes? Why?',
+      'What makes a habit sustainable over the long term?',
+      'Has a good habit ever had a ripple effect in other areas of your life? Describe it.',
+      'How disciplined do you consider yourself, and what helps you stay that way?',
+      'What habit would you like to build next, and how will you start?',
+    ],
+  },
+
   vocabulary: [
     { word: 'INCREMENTAL', partOfSpeech: 'adjective', definition: 'Happening in small steps over time.', example: 'Incremental progress is easier to maintain than sudden change.', imageSlug: img('small-steady-progress') },
     { word: 'COMPOUND EFFECT', partOfSpeech: 'noun', definition: 'The powerful result of small actions repeated consistently.', example: 'Reading ten pages a day had a compound effect over a year.', imageSlug: img('ten-pages-over-year') },

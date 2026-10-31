@@ -20,6 +20,18 @@ export const conversationB1SpendYourEvenings: Lesson = {
     'Use frequency adverbs: usually, occasionally, mostly.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you usually spend your evenings?',
+      'What helps you unwind after a long day?',
+      'Do you disconnect from your phone in the evening? Why or why not?',
+      'Do you prefer to socialize in the evening or stay at home? Why?',
+      'What do you usually do to wind down before bed?',
+      'How are your evenings different on weekdays and on weekends?',
+    ],
+  },
+
   vocabulary: [
     { word: 'UNWIND', partOfSpeech: 'verb', definition: 'To relax and let go of the day\'s stress.', example: 'I usually unwind with a book after work.', imageSlug: img('unwind-book') },
     { word: 'DISCONNECT', partOfSpeech: 'verb', definition: 'To take a break from screens, work or social media.', example: 'I disconnect from my phone after 8 p.m.', imageSlug: img('phone-after-eight') },

@@ -20,6 +20,18 @@ export const conversationHowAreYouToday: Lesson = {
     'Ask about someone\'s day and answer.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How are you today?',
+      'Do you feel tired in the morning? Why or why not?',
+      'What makes you happy?',
+      'What do you do when you feel sad?',
+      'How do you feel on Monday? How do you feel on Saturday?',
+      'How is your day so far?',
+    ],
+  },
+
   vocabulary: [
     { word: 'FINE', partOfSpeech: 'adjective', definition: 'OK. Not good and not bad.', example: "I'm fine, thank you.", imageSlug: img('fine') + '?v=2' },
     { word: 'GOOD', partOfSpeech: 'adjective', definition: 'Nice. You feel well.', example: "I'm good, thanks!", imageSlug: img('good') + '?v=2' },

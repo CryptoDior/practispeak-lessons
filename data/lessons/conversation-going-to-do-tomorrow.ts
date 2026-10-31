@@ -20,6 +20,18 @@ export const conversationGoingToDoTomorrow: Lesson = {
     'Say the time of day and react to plans.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What are you going to do tomorrow?',
+      'Are you going to work or study tomorrow?',
+      'Are you going to eat out this week? Where?',
+      'What are you going to do in the evening?',
+      'Who are you going to see this weekend?',
+      'What is your plan for your next holiday?',
+    ],
+  },
+
   vocabulary: [
     { word: 'TOMORROW', partOfSpeech: 'adverb', definition: 'The day after today.', example: 'What are you going to do tomorrow?', imageSlug: img('tomorrow') },
     { word: 'PLAN', partOfSpeech: 'noun', definition: 'Something you decide to do in the future.', example: 'Do you have plans for tomorrow?', imageSlug: img('plan') },

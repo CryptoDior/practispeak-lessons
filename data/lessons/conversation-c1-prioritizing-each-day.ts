@@ -20,6 +20,18 @@ export const conversationC1PrioritizingEachDay: Lesson = {
     'Use vocabulary such as bandwidth, allocate, hierarchy and proactive.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you decide what to prioritize each day? Do you have a system?',
+      'How do you assess your bandwidth, and how do you allocate your time accordingly?',
+      'Are you more proactive or reactive in your daily life? Give an example.',
+      'How do you tell the difference between what is urgent and what is truly important?',
+      'What counts as busywork in your life, and how do you deal with it?',
+      'When is your peak performance time, and how do you use it?',
+    ],
+  },
+
   vocabulary: [
     { word: 'BANDWIDTH', partOfSpeech: 'noun', definition: 'Your mental or emotional capacity to handle tasks.', example: "My bandwidth is limited in the mornings.", imageSlug: img('limited-morning-capacity') },
     { word: 'HIERARCHY', partOfSpeech: 'noun', definition: 'An order that ranks things by importance.', example: 'I create a hierarchy of tasks before I start.', imageSlug: img('ranked-tasks') },

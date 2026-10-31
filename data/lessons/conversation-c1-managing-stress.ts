@@ -20,6 +20,18 @@ export const conversationC1ManagingStress: Lesson = {
     'Acknowledge that coping strategies differ between people.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you regulate your emotional response when you are under pressure?',
+      'What do you do to decompress after a stressful day?',
+      'Do you tend to internalize stress, or do you talk about it? Why?',
+      'How do you recognize the early signs of cognitive overload?',
+      'When is stress useful, and when does it become detrimental?',
+      'What do you think makes some people more resilient than others?',
+    ],
+  },
+
   vocabulary: [
     { word: 'OVEREXTENDED', partOfSpeech: 'adjective', definition: 'Trying to do too much; stretched beyond your limits.', example: 'I feel overextended when I say yes to everything.', imageSlug: img('accepting-too-much') },
     { word: 'GROUNDED', partOfSpeech: 'adjective', definition: 'Emotionally stable, calm and sensible.', example: 'Deep breathing helps me stay grounded.', imageSlug: img('breathing-grounded') },

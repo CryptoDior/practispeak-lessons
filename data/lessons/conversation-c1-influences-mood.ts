@@ -20,6 +20,18 @@ export const conversationC1InfluencesMood: Lesson = {
     'Use vocabulary such as overstimulated, irritable and emotionally drained.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What influences your mood the most: your environment, the people around you or something else?',
+      'How do you recognize when you are overstimulated or emotionally drained?',
+      'Is there a specific trigger that tends to make you irritable? How do you manage it?',
+      'To what extent can we control our mindset, and to what extent are we shaped by circumstances?',
+      "How do you protect your mental space from other people's moods?",
+      'Are some people more sensitive to their surroundings than others? What do you think explains this?',
+    ],
+  },
+
   vocabulary: [
     { word: 'OVERSTIMULATED', partOfSpeech: 'adjective', definition: 'Overloaded by too much noise, activity or information.', example: 'I feel overstimulated after hours online.', imageSlug: img('hours-online') },
     { word: 'IRRITABLE', partOfSpeech: 'adjective', definition: 'Easily annoyed or frustrated.', example: 'Lack of sleep makes me irritable.', imageSlug: img('sleep-irritable') },

@@ -20,6 +20,18 @@ export const conversationFreeTime: Lesson = {
     'React with "Me too!" and "That\'s cool!".',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What do you do in your free time?',
+      'Do you have a hobby? What is it?',
+      'Do you like to be alone or with friends in your free time?',
+      'How much free time do you have each day?',
+      'What do you do on Sunday?',
+      'What new hobby do you want to try?',
+    ],
+  },
+
   vocabulary: [
     { word: 'FREE TIME', partOfSpeech: 'noun', definition: 'Time when you are not working or studying.', example: 'What do you do in your free time?', imageSlug: img('free-time') },
     { word: 'HOBBY', partOfSpeech: 'noun', definition: 'Something you like to do in your free time.', example: 'My hobby is cooking.', imageSlug: img('hobby') },

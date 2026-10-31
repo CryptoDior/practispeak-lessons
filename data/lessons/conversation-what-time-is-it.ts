@@ -20,6 +20,18 @@ export const conversationWhatTimeIsIt: Lesson = {
     'Talk about when you wake up and go to bed.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What time do you wake up?',
+      'What time do you go to bed?',
+      'What time do you eat breakfast, lunch and dinner?',
+      'Are you often late or on time? Why?',
+      'Do you like to hurry in the morning? Why or why not?',
+      'What is your favorite time of the day?',
+    ],
+  },
+
   vocabulary: [
     { word: "O'CLOCK", partOfSpeech: 'adverb', definition: 'We use it for full hours, like 3:00.', example: "It's 3 o'clock.", imageSlug: img('oclock') },
     { word: 'HALF PAST', partOfSpeech: 'phrase', definition: '30 minutes after the hour.', example: "It's half past six. (6:30)", imageSlug: img('half-past') },

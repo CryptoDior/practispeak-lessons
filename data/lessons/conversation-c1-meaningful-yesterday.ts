@@ -20,6 +20,18 @@ export const conversationC1MeaningfulYesterday: Lesson = {
     'Use advanced adjectives: resonant, insightful, nostalgic, reassuring.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What small moment recently resonated with you more than you expected?',
+      'In hindsight, has a day ever turned out to be more significant than it felt at the time?',
+      'What are you grateful for at the moment, and why?',
+      'Do you ever feel nostalgic about an ordinary day? What triggers it?',
+      'How do you stay present rather than rushing through your days?',
+      'What subtle things, such as a conversation or a kind gesture, have been reassuring to you lately?',
+    ],
+  },
+
   vocabulary: [
     { word: 'RESONATE', partOfSpeech: 'verb', definition: 'To connect with you emotionally and stay with you.', example: 'A short conversation resonated with me all evening.', imageSlug: img('conversation-lingers') },
     { word: 'INSIGHTFUL', partOfSpeech: 'adjective', definition: 'Showing deep understanding.', example: "Yesterday's chat with my grandmother was surprisingly insightful.", imageSlug: img('grandmother-insight') },

@@ -20,6 +20,18 @@ export const conversationBrothersOrSisters: Lesson = {
     'Use older, younger and only child.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you have brothers or sisters?',
+      'Are you the older or the younger child in your family?',
+      'What do you do with your brother or sister?',
+      'Do you want to have a big family? Why or why not?',
+      'Is it good to be an only child? Why or why not?',
+      'Who is in your family? Tell us about one person.',
+    ],
+  },
+
   vocabulary: [
     { word: 'BROTHER', partOfSpeech: 'noun', definition: 'A boy or man who has the same parents as you.', example: 'I have one brother.', imageSlug: img('brother') },
     { word: 'SISTER', partOfSpeech: 'noun', definition: 'A girl or woman who has the same parents as you.', example: 'I have two sisters.', imageSlug: img('sister') },

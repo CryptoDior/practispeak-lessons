@@ -20,6 +20,18 @@ export const conversationC1UnexpectedProblems: Lesson = {
     'Use advanced phrases like "catastrophise" and "within my control".',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you stay composed when an unexpected problem arises?',
+      'Describe a setback that taught you something valuable.',
+      'Do you tend to catastrophize, or do you stay pragmatic? How do you know?',
+      'When do you ask for another perspective, and when do you prefer to handle it alone?',
+      'How important is adaptability in modern life, in your opinion?',
+      'What would you say to a friend who reacts impulsively when things go wrong?',
+    ],
+  },
+
   vocabulary: [
     { word: 'COMPOSURE', partOfSpeech: 'noun', definition: 'The ability to stay calm and in control under stress.', example: 'Keeping my composure helps me think clearly.', imageSlug: img('calm-clear-thinking') },
     { word: 'IMPULSIVE', partOfSpeech: 'adjective', definition: 'Acting quickly without careful thought.', example: "I try not to make impulsive decisions when I'm stressed.", imageSlug: img('pause-before-decision') },

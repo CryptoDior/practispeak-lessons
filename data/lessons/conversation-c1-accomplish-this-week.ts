@@ -20,6 +20,18 @@ export const conversationC1AccomplishThisWeek: Lesson = {
     'Use vocabulary such as intentionality, alignment and clarity.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What are you hoping to accomplish this week, and why does it matter to you?',
+      'How do you set objectives that are genuinely achievable?',
+      'What role does momentum play in your productivity? How do you build it?',
+      'How do you handle procrastination when it strikes?',
+      'How do you make sure your daily tasks are in alignment with your bigger goals?',
+      'When does clarity about your priorities come easily, and when does it not?',
+    ],
+  },
+
   vocabulary: [
     { word: 'INTENTIONALITY', partOfSpeech: 'noun', definition: 'Doing things with deliberate purpose.', example: "I'm approaching my goals with more intentionality.", imageSlug: img('intentional-goals') },
     { word: 'MOMENTUM', partOfSpeech: 'noun', definition: 'Forward progress that builds over time.', example: 'Small wins help me build momentum.', imageSlug: img('small-wins-momentum') },

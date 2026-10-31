@@ -21,6 +21,18 @@ export const conversationWhereAreYouFrom: Lesson = {
     'React with interest and introduce a friend.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Where are you from?',
+      'What city do you live in? Do you like it?',
+      'Where were you born?',
+      'What is special about your country or city?',
+      'Where is a good place to visit in your country?',
+      'Who is your best friend? Where is he or she from?',
+    ],
+  },
+
   vocabulary: [
     { word: 'COUNTRY', partOfSpeech: 'noun', definition: 'A big place with its own name and flag, like Brazil or Japan.', example: 'What country are you from?', imageSlug: img('country') + '?v=2' },
     { word: 'CITY', partOfSpeech: 'noun', definition: 'A big town with many people.', example: 'I live in the city of Cape Town.', imageSlug: img('city') + '?v=2' },

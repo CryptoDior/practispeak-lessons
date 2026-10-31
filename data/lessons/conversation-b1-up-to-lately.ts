@@ -20,6 +20,18 @@ export const conversationB1UpToLately: Lesson = {
     'Use frequency adverbs like lately, mostly and rarely.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What have you been up to lately?',
+      'Have your last few weeks been eventful or peaceful?',
+      'Is there anything that feels overwhelming right now? What helps?',
+      'What do you do consistently, such as a habit or a routine?',
+      'How often do you see your friends these days? Do you see them often or rarely?',
+      'What do you want to do more of in the next few weeks?',
+    ],
+  },
+
   vocabulary: [
     { word: 'EVENTFUL', partOfSpeech: 'adjective', definition: 'Full of things happening.', example: "It's been an eventful week with lots going on.", imageSlug: img('eventful-week') },
     { word: 'PEACEFUL', partOfSpeech: 'adjective', definition: 'Calm and quiet, without stress.', example: 'My days have been peaceful lately.', imageSlug: img('peaceful-lately') },

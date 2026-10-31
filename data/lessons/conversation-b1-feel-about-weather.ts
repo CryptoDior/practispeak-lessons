@@ -20,6 +20,18 @@ export const conversationB1FeelAboutWeather: Lesson = {
     'Use adverbs of degree: slightly, extremely, mostly.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How does the weather affect your mood?',
+      'Which kind of weather puts you in a good mood? Which kind makes you feel gloomy?',
+      'How do you feel when it is very humid or very hot?',
+      'What do you do when the weather brightens up after a gloomy day?',
+      'Do you check the weather forecast every day? Why or why not?',
+      'Where would you like to live if you could choose any climate?',
+    ],
+  },
+
   vocabulary: [
     { word: 'GLOOMY', partOfSpeech: 'adjective', definition: 'Dark, gray and a bit sad.', example: 'It feels a little gloomy today.', imageSlug: img('gloomy') },
     { word: 'HUMIDITY', partOfSpeech: 'noun', definition: 'Water in the air that makes it feel heavy and sticky.', example: 'The humidity is uncomfortable today.', imageSlug: img('humidity') },

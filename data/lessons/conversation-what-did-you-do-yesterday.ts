@@ -20,6 +20,18 @@ export const conversationWhatDidYouDoYesterday: Lesson = {
     'Say if something was fun or boring.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What did you do yesterday?',
+      'Did you go out yesterday? Where did you go?',
+      'What did you eat yesterday?',
+      'Was yesterday fun or boring? Why?',
+      'Who did you meet yesterday?',
+      'What did you do last weekend?',
+    ],
+  },
+
   vocabulary: [
     { word: 'YESTERDAY', partOfSpeech: 'adverb', definition: 'The day before today.', example: 'What did you do yesterday?', imageSlug: img('yesterday') },
     { word: 'WENT', partOfSpeech: 'verb', definition: 'The past of "go".', example: 'I went to the mall.', imageSlug: img('went') },

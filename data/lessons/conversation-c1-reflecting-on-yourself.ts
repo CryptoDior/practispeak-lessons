@@ -20,6 +20,18 @@ export const conversationC1ReflectingOnYourself: Lesson = {
     'Use psychological vocabulary accurately and naturally.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What recent situation made you reflect on yourself, and what realization came from it?',
+      'How do you build self-awareness? Is it something we can practice?',
+      'Do you think we are mostly driven by subconscious patterns or by conscious choices? Why?',
+      'Has a triggering moment ever exposed a vulnerability of yours? How did you respond?',
+      'What behavioral patterns have you noticed in yourself over time?',
+      'How important is emotional clarity in making good decisions?',
+    ],
+  },
+
   vocabulary: [
     { word: 'INTROSPECTIVE', partOfSpeech: 'adjective', definition: 'Deeply self-reflective; examining your own mind.', example: 'The experience made me more introspective than usual.', imageSlug: img('experience-introspection') },
     { word: 'TRIGGERING', partOfSpeech: 'adjective', definition: 'Causing a strong emotional reaction.', example: 'The conversation was triggering, but it helped me understand my reactions.', imageSlug: img('conversation-emotional-insight') },

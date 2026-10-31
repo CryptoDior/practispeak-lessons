@@ -39,6 +39,18 @@ export const conversationB1LastWeekend: Lesson = {
     ],
   },
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What did you do last weekend? Was it productive or relaxing?',
+      'Did you try anything new or different last weekend?',
+      'Did you meet or go out with anyone? Where did you go?',
+      'Do you prefer to stay home or go out on weekends? Why?',
+      'Did you catch up on sleep or on any chores?',
+      'What are you going to do next weekend?',
+    ],
+  },
+
   vocabulary: [
     { word: 'WENT (GO)', partOfSpeech: 'verb', definition: 'Past of "go": traveled or moved to a place.', example: 'I went to a museum last weekend.', imageSlug: img('museum') },
     { word: 'STAYED (STAY)', partOfSpeech: 'verb', definition: 'Past of "stay": remained in one place.', example: 'I stayed home most of the weekend.', imageSlug: img('stayed-home') },
