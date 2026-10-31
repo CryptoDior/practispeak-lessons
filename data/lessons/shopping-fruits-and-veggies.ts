@@ -19,6 +19,37 @@ export const shoppingFruitsAndVeggies: Lesson = {
     'Ask staff for help choosing fruit and vegetables.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'Green Market — Price Board',
+    intro: 'Read the price board. Then choose the right answer.',
+    sections: [
+      {
+        heading: 'Fruit',
+        items: [
+          { name: 'Strawberries', note: 'in season · sweet and juicy', price: '$4 / box' },
+          { name: 'Avocados', note: 'ripe today', price: '$2 each' },
+          { name: 'Oranges', note: 'citrus fruit', price: '$3 / kg' },
+          { name: 'Mangoes', note: 'tropical fruit', price: '$5 / kg' },
+        ],
+      },
+      {
+        heading: 'Vegetables',
+        items: [
+          { name: 'Carrots', note: 'organic', price: '$2 / kg' },
+          { name: 'Tomatoes', note: 'overripe — half price, good for sauce', price: '$1 / kg' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'Which fruit is in season?', options: ['Strawberries', 'Mangoes', 'Oranges'], correctIndex: 0 },
+      { question: 'Why are the tomatoes cheap?', options: ['They are overripe', 'They are organic', 'They are tropical'], correctIndex: 0 },
+      { question: 'Which fruit is a tropical fruit?', options: ['Oranges', 'Mangoes', 'Strawberries'], correctIndex: 1 },
+      { question: 'Which vegetable is organic?', options: ['Carrots', 'Tomatoes', 'Mangoes'], correctIndex: 0 },
+      { question: 'Which fruit is ripe and ready to eat today?', options: ['Avocados', 'Mangoes', 'Oranges'], correctIndex: 0 },
+    ],
+  },
+
   vocabulary: [
     { word: 'FRESH', partOfSpeech: 'adjective', definition: 'Recently picked; in good condition.', example: 'I always buy fresh vegetables for my salads.', imageSlug: img('fresh-salad-vegetables') },
     { word: 'RIPE', partOfSpeech: 'adjective', definition: 'Ready to eat.', example: 'These mangoes are perfectly ripe.', imageSlug: img('perfectly-ripe-mangoes') },

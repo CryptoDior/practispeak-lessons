@@ -19,6 +19,43 @@ export const diningRestaurantInquiries: Lesson = {
     'Ask to customise a dish and make polite requests.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'The Olive Branch — Today\'s Menu',
+    intro: 'Read the menu. Think about what each customer can eat.',
+    sections: [
+      {
+        heading: 'Daily specials',
+        items: [
+          { name: 'Mushroom risotto', note: 'vegetarian · gluten-free', price: '$14' },
+          { name: 'Grilled salmon with lemon sauce', note: 'gluten-free', price: '$18' },
+          { name: 'Lentil curry', note: 'vegan · gluten-free', price: '$13' },
+        ],
+      },
+      {
+        heading: 'Main dishes',
+        items: [
+          { name: 'Beef burger', note: 'contains gluten', price: '$15' },
+          { name: 'Vegan burger', note: 'vegan · contains gluten', price: '$14' },
+        ],
+      },
+      {
+        heading: 'Sauces',
+        items: [
+          { name: 'Garlic sauce', note: 'contains milk', price: '$1' },
+          { name: 'Chilli sauce', note: 'vegan', price: '$1' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'A friend is vegan. Which special can she eat?', options: ['Mushroom risotto', 'Grilled salmon with lemon sauce', 'Lentil curry'], correctIndex: 2 },
+      { question: 'Which dish is gluten-free but not vegetarian?', options: ['Mushroom risotto', 'Grilled salmon with lemon sauce', 'Vegan burger'], correctIndex: 1 },
+      { question: 'Which sauce has milk in it?', options: ['Garlic sauce', 'Chilli sauce', 'Neither'], correctIndex: 0 },
+      { question: 'Which dish is vegan and contains gluten?', options: ['Vegan burger', 'Lentil curry', 'Beef burger'], correctIndex: 0 },
+      { question: 'How much is the vegan burger?', options: ['$14', '$15', '$13'], correctIndex: 0 },
+    ],
+  },
+
   vocabulary: [
     { word: 'SPECIALS', partOfSpeech: 'noun', definition: 'Dishes offered for a limited time, not on the normal menu.', example: 'What are today\'s specials?', imageSlug: img('asking-todays-specials') },
     { word: 'GLUTEN-FREE', partOfSpeech: 'adjective', definition: 'Without gluten, a protein found in wheat, barley and rye.', example: 'Are these cookies gluten-free?', imageSlug: img('cookies-gluten-question') },

@@ -20,6 +20,35 @@ export const foodHowDoesWineTaste: Lesson = {
     'Say which wine is your favourite.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'Sunny Wine Shop — Taste Notes',
+    intro: 'Read about the four wines. Then choose the right answer.',
+    sections: [
+      {
+        heading: 'White and rosé',
+        items: [
+          { name: 'Blue Label (white)', note: 'light and fresh · serve cold', price: '$8' },
+          { name: 'Pink Label (rosé)', note: 'sweet and fresh · serve cold', price: '$9' },
+        ],
+      },
+      {
+        heading: 'Red',
+        items: [
+          { name: 'Red Label', note: 'strong and smooth · room temperature', price: '$11' },
+          { name: 'Black Label', note: 'spicy and strong · room temperature', price: '$12' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'Which wine is light and fresh?', options: ['Blue Label', 'Red Label', 'Black Label'], correctIndex: 0 },
+      { question: 'Which wines do we serve at room temperature?', options: ['Blue Label and Pink Label', 'Red Label and Black Label', 'Only Pink Label'], correctIndex: 1 },
+      { question: 'Which wine is spicy?', options: ['Red Label', 'Black Label', 'Pink Label'], correctIndex: 1 },
+      { question: 'Which wine is the cheapest?', options: ['Blue Label', 'Pink Label', 'Black Label'], correctIndex: 0 },
+      { question: 'How does Pink Label taste?', options: ['Sweet and fresh', 'Strong and spicy', 'Sour and strong'], correctIndex: 0 },
+    ],
+  },
+
   vocabulary: [
     { word: 'FLAVOUR', partOfSpeech: 'noun', definition: 'The taste of food or drink.', example: 'This wine has a strong flavour.', imageSlug: img('intense-wine-flavour') },
     { word: 'SMOOTH', partOfSpeech: 'adjective', definition: 'Easy to drink. It feels soft in your mouth.', example: 'This red wine is very smooth.', imageSlug: img('smooth-red-wine') },

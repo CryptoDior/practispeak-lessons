@@ -20,6 +20,36 @@ export const foodDescribingTaste: Lesson = {
     'Give opinions about food with natural phrases.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'Spice & Co — Chef\'s Menu',
+    intro: 'Each dish has a taste note. Read the menu, then choose the right dish.',
+    sections: [
+      {
+        heading: 'Starters and light dishes',
+        items: [
+          { name: 'Lemon tart', note: 'zesty and tart', price: '$6' },
+          { name: 'Mushroom soup', note: 'savoury and rich', price: '$7' },
+          { name: 'Blue cheese salad', note: 'pungent cheese and bitter leaves', price: '$9' },
+        ],
+      },
+      {
+        heading: 'Main dishes',
+        items: [
+          { name: 'Pepper steak', note: 'peppery and robust', price: '$18' },
+          { name: 'Mild chicken curry', note: 'mild and subtle', price: '$13' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'Which dish is zesty?', options: ['Lemon tart', 'Mushroom soup', 'Pepper steak'], correctIndex: 0 },
+      { question: 'You do not like strong flavours. Which dish is best?', options: ['Pepper steak', 'Mild chicken curry', 'Blue cheese salad'], correctIndex: 1 },
+      { question: 'Which dish is peppery?', options: ['Pepper steak', 'Lemon tart', 'Mushroom soup'], correctIndex: 0 },
+      { question: 'Which dish is rich and savoury?', options: ['Mushroom soup', 'Lemon tart', 'Mild chicken curry'], correctIndex: 0 },
+      { question: 'Which dish has a pungent smell?', options: ['Blue cheese salad', 'Lemon tart', 'Mild chicken curry'], correctIndex: 0 },
+    ],
+  },
+
   vocabulary: [
     { word: 'SAVOURY', partOfSpeech: 'adjective', definition: 'Tasty and salty or full of flavour, not sweet — like meat, stews or cheese.', example: 'I prefer savoury pancakes to sweet ones.', imageSlug: img('savoury-pancake-preference') },
     { word: 'ZESTY', partOfSpeech: 'adjective', definition: 'Lively and fresh, often with citrus or spice.', example: 'I love the zesty kick of lime in this dish.', imageSlug: img('lime-zest-flavour') },

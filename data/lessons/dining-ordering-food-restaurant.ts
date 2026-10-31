@@ -19,6 +19,50 @@ export const diningOrderingFoodRestaurant: Lesson = {
     'Ask for more time and say when you are finished ordering.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'Green Table Café — Dinner Menu',
+    intro: 'Read the menu. Then choose the right answer.',
+    sections: [
+      {
+        heading: 'Starters',
+        items: [
+          { name: 'Tomato soup', note: 'hot, with bread', price: '$5' },
+          { name: 'Garden salad', note: 'fresh vegetables', price: '$6' },
+        ],
+      },
+      {
+        heading: 'Main courses',
+        items: [
+          { name: 'Chicken and rice', note: '', price: '$12' },
+          { name: 'Cheese pizza', note: 'tomato and cheese', price: '$11' },
+          { name: 'Fish and chips', note: '', price: '$13' },
+        ],
+      },
+      {
+        heading: 'Sides',
+        items: [
+          { name: 'Chips', note: '', price: '$3' },
+          { name: 'Green beans', note: '', price: '$3' },
+        ],
+      },
+      {
+        heading: 'Drinks',
+        items: [
+          { name: 'Orange juice', note: '', price: '$3' },
+          { name: 'Water', note: '', price: 'free' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'How much is the cheese pizza?', options: ['$11', '$12', '$13'], correctIndex: 0 },
+      { question: 'Which dish is a starter?', options: ['Tomato soup', 'Fish and chips', 'Chips'], correctIndex: 0 },
+      { question: 'Which dish is a side?', options: ['Garden salad', 'Chips', 'Tomato soup'], correctIndex: 1 },
+      { question: 'Which main course is the most expensive?', options: ['Cheese pizza', 'Chicken and rice', 'Fish and chips'], correctIndex: 2 },
+      { question: 'You order tomato soup and a side of chips. How much is it?', options: ['$8', '$9', '$10'], correctIndex: 0 },
+    ],
+  },
+
   vocabulary: [
     { word: 'MENU', partOfSpeech: 'noun', definition: 'A list of the food and drinks in a restaurant.', example: "I'm hungry. Let's see what's on the menu.", imageSlug: img('looking-at-restaurant-menu') },
     { word: 'MEAL', partOfSpeech: 'noun', definition: 'The food you eat at one time, like lunch or dinner.', example: 'This meal looks delicious!', imageSlug: img('delicious-complete-meal') },

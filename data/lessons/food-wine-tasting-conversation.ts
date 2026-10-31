@@ -20,6 +20,48 @@ export const foodWineTastingConversation: Lesson = {
     'Give opinions during a wine tasting.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'Tasting Card — Three Wines',
+    intro: 'Read the tasting card. Then answer the questions.',
+    sections: [
+      {
+        heading: 'Wine A — Chardonnay',
+        items: [
+          { name: 'Aroma', note: 'apple and butter', price: '' },
+          { name: 'Notes', note: 'vanilla and oak', price: '' },
+          { name: 'Palate', note: 'full-bodied and smooth', price: '' },
+          { name: 'Finish', note: 'long', price: '' },
+        ],
+      },
+      {
+        heading: 'Wine B — Sauvignon Blanc',
+        items: [
+          { name: 'Aroma', note: 'lemon and fresh grass', price: '' },
+          { name: 'Notes', note: 'citrus', price: '' },
+          { name: 'Palate', note: 'crisp and light', price: '' },
+          { name: 'Finish', note: 'short', price: '' },
+        ],
+      },
+      {
+        heading: 'Wine C — Pinot Noir',
+        items: [
+          { name: 'Aroma', note: 'red cherry', price: '' },
+          { name: 'Notes', note: 'earthy, with mushroom', price: '' },
+          { name: 'Palate', note: 'balanced', price: '' },
+          { name: 'Finish', note: 'medium', price: '' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'Which wine is oaky?', options: ['Wine A', 'Wine B', 'Wine C'], correctIndex: 0 },
+      { question: 'Which wine tastes crisp?', options: ['Wine A', 'Wine B', 'Wine C'], correctIndex: 1 },
+      { question: 'Which wine has earthy notes?', options: ['Wine A', 'Wine B', 'Wine C'], correctIndex: 2 },
+      { question: 'Which wine has the longest finish?', options: ['Wine A', 'Wine B', 'Wine C'], correctIndex: 0 },
+      { question: 'Which wine has a cherry aroma?', options: ['Wine A', 'Wine B', 'Wine C'], correctIndex: 2 },
+    ],
+  },
+
   vocabulary: [
     { word: 'AROMA', partOfSpeech: 'noun', definition: 'The smell of the wine.', example: 'The wine has a fruity aroma.', imageSlug: img('fruity-wine-aroma') },
     { word: 'BOUQUET', partOfSpeech: 'noun', definition: 'The full, complex smell of the wine in the glass.', example: 'The bouquet is strong and floral.', imageSlug: img('strong-floral-bouquet') },

@@ -20,6 +20,41 @@ export const foodWineFoodPairing: Lesson = {
     'Recommend a wine for each course of a meal.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'Bistro Noir — Tonight\'s Menu with Wine Pairings',
+    intro: 'Read the menu. Each dish has a wine that goes well with it.',
+    sections: [
+      {
+        heading: 'Starter',
+        items: [
+          { name: 'Seared scallops', note: 'pair with Chablis — its crisp acidity keeps the dish fresh', price: '$12' },
+        ],
+      },
+      {
+        heading: 'Main courses',
+        items: [
+          { name: 'Grilled steak', note: 'pair with Malbec — the tannins cut through the rich meat', price: '$28' },
+          { name: 'Creamy mushroom pasta', note: 'pair with Chardonnay — the creamy texture complements the sauce', price: '$19' },
+          { name: 'Spicy Thai curry', note: 'pair with off-dry Riesling — a little sweetness balances the spice', price: '$18' },
+        ],
+      },
+      {
+        heading: 'Dessert',
+        items: [
+          { name: 'Dark chocolate cake', note: 'pair with ruby port', price: '$9' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'Which wine pairs with the grilled steak?', options: ['Malbec', 'Chablis', 'Riesling'], correctIndex: 0 },
+      { question: 'What does the Riesling do with the spicy curry?', options: ['It balances the spice', 'It adds more spice', 'It cuts through the cream'], correctIndex: 0 },
+      { question: 'Which dish goes with a wine that has crisp acidity?', options: ['Seared scallops', 'Grilled steak', 'Dark chocolate cake'], correctIndex: 0 },
+      { question: 'Which wine complements the creamy mushroom pasta?', options: ['Riesling', 'Chardonnay', 'Malbec'], correctIndex: 1 },
+      { question: 'Which course is the dark chocolate cake?', options: ['Starter', 'Main course', 'Dessert'], correctIndex: 2 },
+    ],
+  },
+
   vocabulary: [
     { word: 'PAIR', partOfSpeech: 'verb', definition: 'To match one thing with another.', example: 'We often pair red wine with steak.', imageSlug: img('red-wine-steak-match') },
     { word: 'PAIRING', partOfSpeech: 'noun', definition: 'A combination of food and wine that goes well together.', example: 'Wine and cheese is a classic pairing.', imageSlug: img('classic-wine-cheese-combination') },

@@ -20,6 +20,42 @@ export const foodWineMakingOrdering: Lesson = {
     'Order wine and ask for recommendations in a restaurant.',
   ],
 
+  // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
+  menuReading: {
+    title: 'Bodega Alta — Wine List',
+    intro: 'Read the wine list. The vintage is the year the grapes were harvested.',
+    sections: [
+      {
+        heading: 'Red wine (still)',
+        items: [
+          { name: 'Rioja Reserva', note: 'Tempranillo · Spain · vintage 2018', price: '$38' },
+          { name: 'Malbec', note: 'Malbec · Argentina · vintage 2020', price: '$32' },
+        ],
+      },
+      {
+        heading: 'White wine (still)',
+        items: [
+          { name: 'Chablis', note: 'Chardonnay · France · vintage 2021', price: '$42' },
+          { name: 'Sauvignon Blanc', note: 'Sauvignon Blanc · New Zealand · vintage 2022', price: '$30' },
+        ],
+      },
+      {
+        heading: 'Sparkling wine',
+        items: [
+          { name: 'Prosecco', note: 'Glera · Italy', price: '$28' },
+          { name: 'Cava', note: 'Macabeo · Spain', price: '$26' },
+        ],
+      },
+    ],
+    questions: [
+      { question: 'Which wine is sparkling?', options: ['Malbec', 'Prosecco', 'Chablis'], correctIndex: 1 },
+      { question: 'What is the vintage of the Rioja Reserva?', options: ['2018', '2020', '2021'], correctIndex: 0 },
+      { question: 'Which wine comes from Argentina?', options: ['Malbec', 'Cava', 'Rioja Reserva'], correctIndex: 0 },
+      { question: 'What is the grape variety of the Chablis?', options: ['Tempranillo', 'Chardonnay', 'Glera'], correctIndex: 1 },
+      { question: 'Which bottle is the cheapest?', options: ['Cava', 'Prosecco', 'Sauvignon Blanc'], correctIndex: 0 },
+    ],
+  },
+
   vocabulary: [
     { word: 'VINEYARD', partOfSpeech: 'noun', definition: 'A farm where grapes grow.', example: 'The vineyard is big and green.', imageSlug: img('green-vineyard') },
     { word: 'WINERY', partOfSpeech: 'noun', definition: 'A place where wine is made.', example: 'We visited a small winery in France.', imageSlug: img('small-french-winery') },
