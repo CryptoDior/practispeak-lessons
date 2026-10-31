@@ -8,6 +8,18 @@ export const robloxRobuxShopping: Lesson = {
   description: 'Discover the words for money and shopping in Roblox — Robux, the catalog, prices — and see how these same words work when you go shopping in real life.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-hero.png?v=2',
 
+  // Picture Quiz: wrong answers are chosen by hand so no two options look alike.
+  pictureQuiz: true,
+  pictureQuizSkip: ['SPEND', 'EARN'],
+  pictureQuizOptions: {
+    'ROBUX': ['Sale', 'Catalog'],
+    'CATALOG': ['Sale', 'Free'],
+    'PRICE': ['Catalog', 'Free'],
+    'SALE': ['Free', 'Catalog'],
+    'FREE': ['Catalog', 'Robux'],
+    'BUY': ['Catalog', 'Free'],
+  },
+
   vocabulary: [
     {
       word: 'ROBUX',

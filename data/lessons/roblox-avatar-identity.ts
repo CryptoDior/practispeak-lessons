@@ -10,6 +10,17 @@ export const robloxAvatarIdentity: Lesson = {
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-avatar-identity-hero.png?v=2',
 
   // ── In Game Vocab ──────────────────────────────────────────────────────────
+  // Picture Quiz: wrong answers are chosen by hand so no two options look alike.
+  pictureQuiz: true,
+  pictureQuizSkip: ['CHARACTER', 'DISPLAY NAME', 'CUSTOMIZE'],
+  pictureQuizOptions: {
+    'AVATAR': ['Outfit', 'Accessory'],
+    'PROFILE': ['Outfit', 'Accessory'],
+    'OUTFIT': ['Profile', 'Username'],
+    'ACCESSORY': ['Profile', 'Username'],
+    'USERNAME': ['Outfit', 'Accessory'],
+  },
+
   vocabulary: [
     {
       word: 'AVATAR',

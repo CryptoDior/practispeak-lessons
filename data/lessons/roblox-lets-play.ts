@@ -8,6 +8,19 @@ export const robloxLetsPlay: Lesson = {
   description: 'Learn the action verbs you use every time you play Roblox — play, jump, run, build, chat — and discover how these same words work in real life.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-play-hero.png?v=2',
 
+  // Picture Quiz: wrong answers are chosen by hand so no two options look alike.
+  pictureQuiz: true,
+  pictureQuizSkip: ['PLAY'],
+  pictureQuizOptions: {
+    'JUMP': ['Chat', 'Build'],
+    'RUN': ['Click', 'Build'],
+    'BUILD': ['Chat', 'Jump'],
+    'CHAT': ['Run', 'Jump'],
+    'CLICK': ['Chat', 'Run'],
+    'JOIN': ['Jump', 'Build'],
+    'RESPAWN': ['Chat', 'Click'],
+  },
+
   vocabulary: [
     {
       word: 'PLAY',

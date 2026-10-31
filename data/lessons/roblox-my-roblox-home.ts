@@ -8,6 +8,19 @@ export const robloxMyRobloxHome: Lesson = {
   description: 'Learn the words for the Roblox home screen, lobbies, and menus — then discover how the same words work on apps and websites in real life.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-hero.png?v=2',
 
+  // Picture Quiz: wrong answers are chosen by hand so no two options look alike.
+  pictureQuiz: true,
+  pictureQuizOptions: {
+    'HOME PAGE': ['Search bar', 'Notification'],
+    'LOBBY': ['Button', 'Friends list'],
+    'MENU': ['Notification', 'Search bar'],
+    'BUTTON': ['Lobby', 'Friends list'],
+    'NOTIFICATION': ['Button', 'Lobby'],
+    'FRIENDS LIST': ['Button', 'Lobby'],
+    'SEARCH BAR': ['Notification', 'Lobby'],
+    'GAMES TAB': ['Friends list', 'Notification'],
+  },
+
   vocabulary: [
     {
       word: 'HOME PAGE',

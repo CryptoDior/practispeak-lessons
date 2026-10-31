@@ -8,6 +8,18 @@ export const robloxWhatAreYouDoing: Lesson = {
   description: "Learn how to say what you are doing right now using -ING verbs. In Roblox: I am playing, I am building, I am winning! And the same words work in real life too.",
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-what-are-you-doing-hero.png?v=2',
 
+  // Picture Quiz: wrong answers are chosen by hand so no two options look alike.
+  pictureQuiz: true,
+  pictureQuizSkip: ['PLAYING', 'TRYING'],
+  pictureQuizOptions: {
+    'BUILDING': ['Chatting', 'Waiting'],
+    'CHATTING': ['Building', 'Winning'],
+    'EXPLORING': ['Trading', 'Chatting'],
+    'TRADING': ['Building', 'Waiting'],
+    'WAITING': ['Winning', 'Building'],
+    'WINNING': ['Waiting', 'Chatting'],
+  },
+
   vocabulary: [
     {
       word: 'PLAYING',
