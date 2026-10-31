@@ -8,6 +8,20 @@ export const robloxGamesILike: Lesson = {
   description: 'Discover the words for different types of Roblox games — obbies, tycoons, simulators, and more — and learn how the same genre words work when talking about films, books, and activities.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-games-i-like-hero.png?v=2',
 
+  // Picture Quiz: wrong answers are chosen by hand so no two options look alike
+  // (e.g. OBBY is never shown next to ADVENTURE).
+  pictureQuiz: true,
+  pictureQuizOptions: {
+    'OBBY': ['Tycoon', 'Horror'],
+    'TYCOON': ['Racing', 'Horror'],
+    'SIMULATOR': ['Fighting game', 'Horror'],
+    'ROLEPLAY': ['Racing', 'Fighting game'],
+    'FIGHTING GAME': ['Tycoon', 'Racing'],
+    'RACING': ['Horror', 'Tycoon'],
+    'HORROR': ['Racing', 'Simulator'],
+    'ADVENTURE': ['Tycoon', 'Fighting game'],
+  },
+
   vocabulary: [
     {
       word: 'OBBY',
