@@ -326,8 +326,8 @@ export interface Lesson {
   pictureQuizOptions?: Record<string, string[]>;
   /** Optional 'Read the Menu' tab after Dialogue: a menu to read, then questions about it. */
   menuReading?: MenuReading;
-  /** Optional 'Taste Meter' tab after Dialogue: drag a slider between two taste words. */
-  tasteMeter?: TasteMeterData;
+  /** Optional 'Discussion' tab at the end of the lesson: open-ended questions with no right answer. */
+  discussion?: { intro?: string; questions: string[] };
   /** Optional 'Name This' tab after Dialogue: vocab pictures that flip to show the word. */
   nameThis?: boolean;
   /** Vocabulary words to leave out of Name This. */
@@ -370,20 +370,3 @@ export interface PracticeTime {
   lines: PracticeTimeLine[];
 }
 
-/** Taste Meter: each item has a slider between two words; the student drags it to the right zone. */
-export interface TasteMeterData {
-  intro?: string;
-  items: {
-    /** What the student is tasting, e.g. 'A slice of lemon tart' */
-    prompt: string;
-    /** Optional image (full URL or /images path) */
-    imageSlug?: string;
-    /** Words at the left and right ends of the meter, e.g. 'mild' / 'robust' */
-    left: string;
-    right: string;
-    /** Correct zone: 0 = left end, 1 = left-middle, 2 = middle, 3 = right-middle, 4 = right end */
-    answer: 0 | 1 | 2 | 3 | 4;
-    /** Shown after answering */
-    explain: string;
-  }[];
-}

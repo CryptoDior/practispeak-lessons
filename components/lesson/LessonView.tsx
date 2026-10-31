@@ -2,7 +2,6 @@
 import PictureQuiz from '@/components/exercises/PictureQuiz';
 import NameThis from '@/components/exercises/NameThis';
 import MenuReading from '@/components/exercises/MenuReading';
-import TasteMeter from '@/components/exercises/TasteMeter';
 import PracticeTimeSection from '@/components/PracticeTimeSection';
 import { audioSources, playFirstWorking } from '@/lib/audio';
 import { useState, useCallback } from 'react';
@@ -79,12 +78,9 @@ export default function LessonView({
   const nt = lesson.nameThis ? 1 : 0;
   // 'Read the Menu' also goes right after Dialogue
   const mn = lesson.menuReading ? 1 : 0;
-  // 'Taste Meter' also goes right after Dialogue
-  const tm = lesson.tasteMeter ? 1 : 0;
   const baseTabs = [
     ...mappedBase.slice(0, -1),
     ...(mn ? ['Read the Menu'] : []),
-    ...(tm ? ['Taste Meter'] : []),
     ...(nt ? ['Name This'] : []),
     ...(rp ? ['Role-play'] : []),
     ...mappedBase.slice(-1),
@@ -149,7 +145,9 @@ export default function LessonView({
   const otp = hasOnThePitch ? 1 : 0;
 
   const withDealClinic = lesson.dealClinic ? [...withOnThePitch, 'Deal Clinic'] : withOnThePitch;
-  const TABS = lesson.groupActivities ? [...withDealClinic, 'Group Activities'] : withDealClinic;
+  const withGroup = lesson.groupActivities ? [...withDealClinic, 'Group Activities'] : withDealClinic;
+  // 'Discussion' is the last tab of the lesson
+  const TABS = lesson.discussion ? [...withGroup, 'Discussion'] : withGroup;
 
   const [activeTab, setActiveTab] = useState(0);
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
@@ -658,14 +656,6 @@ export default function LessonView({
           </section>
         )}
 
-        {/* Taste Meter */}
-        {lesson.tasteMeter && (
-          <section className={activeTab === TABS.indexOf('Taste Meter') ? 'block' : 'hidden'}>
-            <SectionHeader title="Taste Meter" subtitle="Slide the meter to show how it tastes" />
-            <TasteMeter data={lesson.tasteMeter} />
-          </section>
-        )}
-
         {/* Name This */}
         {lesson.nameThis && (
           <section className={activeTab === TABS.indexOf('Name This') ? 'block' : 'hidden'}>
@@ -683,7 +673,7 @@ export default function LessonView({
         )}
 
         {/* Exercises */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp + nt + mn + tm ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp + nt + mn ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (
@@ -734,6 +724,21 @@ export default function LessonView({
           <section className={activeTab === TABS.indexOf('Group Activities') ? 'block' : 'hidden'}>
             <SectionHeader title="Group Activities" subtitle="Role-play scenarios and discussion questions for group classes" />
             <GroupActivitiesSection activities={lesson.groupActivities} />
+          </section>
+        )}
+
+        {/* Discussion */}
+        {lesson.discussion && (
+          <section className={activeTab === TABS.indexOf('Discussion') ? 'block' : 'hidden'}>
+            <SectionHeader title="Discussion" subtitle={lesson.discussion.intro ?? 'Talk about these questions with your teacher or a partner. There are no wrong answers.'} />
+            <ol className="space-y-4">
+              {lesson.discussion.questions.map((q, i) => (
+                <li key={q} className="flex gap-4 bg-white rounded-[20px] border border-gray-100 shadow-[0_2px_16px_rgba(6,110,245,0.06)] p-5 md:p-6">
+                  <span className="flex-shrink-0 w-9 h-9 rounded-full bg-[#066EF5] text-white font-extrabold flex items-center justify-center">{i + 1}</span>
+                  <p className="font-bold text-gray-900 text-lg leading-snug">{q}</p>
+                </li>
+              ))}
+            </ol>
           </section>
         )}
 
