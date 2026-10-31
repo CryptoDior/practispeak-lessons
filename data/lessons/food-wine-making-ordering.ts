@@ -57,6 +57,16 @@ export const foodWineMakingOrdering: Lesson = {
     ],
   },
 
+  pictureQuiz: true,
+  pictureQuizSkip: ['VINTAGE', 'REGION', 'VARIETY', 'SPARKLING / STILL'],
+  pictureQuizOptions: {
+    'VINEYARD': ['Orchard', 'Garden'],
+    'WINERY': ['Bakery', 'Brewery'],
+    'HARVEST': ['Planting', 'Watering'],
+    'BARREL': ['Box', 'Bucket'],
+    'CELLAR': ['Attic', 'Garage'],
+  },
+
   vocabulary: [
     { word: 'VINEYARD', partOfSpeech: 'noun', definition: 'A farm where grapes grow.', example: 'The vineyard is big and green.', imageSlug: img('green-vineyard') },
     { word: 'WINERY', partOfSpeech: 'noun', definition: 'A place where wine is made.', example: 'We visited a small winery in France.', imageSlug: img('small-french-winery') },

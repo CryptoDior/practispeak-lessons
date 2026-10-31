@@ -188,7 +188,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
       example: "He specializes in stealth-based builds — if you need a player who can infiltrate undetected, he is your person.",
       inGame: "Specialize in one playstyle first and master it before learning a second — spreading too thin is a mistake.",
       inRealLife: "She decided to specialize in employment law after her first year at the firm — it was clearly her strength.",
-      imageSlug: '/images/roblox-adjective-preposition-patterns-specialise-in.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjective-preposition-patterns-phrases-specialise-in.png',
     },
     {
       phrase: "FOCUS ON",

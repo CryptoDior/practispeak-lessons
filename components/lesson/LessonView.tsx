@@ -2,6 +2,7 @@
 import PictureQuiz from '@/components/exercises/PictureQuiz';
 import NameThis from '@/components/exercises/NameThis';
 import MenuReading from '@/components/exercises/MenuReading';
+import TasteMeter from '@/components/exercises/TasteMeter';
 import PracticeTimeSection from '@/components/PracticeTimeSection';
 import { audioSources, playFirstWorking } from '@/lib/audio';
 import { useState, useCallback } from 'react';
@@ -78,9 +79,12 @@ export default function LessonView({
   const nt = lesson.nameThis ? 1 : 0;
   // 'Read the Menu' also goes right after Dialogue
   const mn = lesson.menuReading ? 1 : 0;
+  // 'Taste Meter' also goes right after Dialogue
+  const tm = lesson.tasteMeter ? 1 : 0;
   const baseTabs = [
     ...mappedBase.slice(0, -1),
     ...(mn ? ['Read the Menu'] : []),
+    ...(tm ? ['Taste Meter'] : []),
     ...(nt ? ['Name This'] : []),
     ...(rp ? ['Role-play'] : []),
     ...mappedBase.slice(-1),
@@ -654,6 +658,14 @@ export default function LessonView({
           </section>
         )}
 
+        {/* Taste Meter */}
+        {lesson.tasteMeter && (
+          <section className={activeTab === TABS.indexOf('Taste Meter') ? 'block' : 'hidden'}>
+            <SectionHeader title="Taste Meter" subtitle="Slide the meter to show how it tastes" />
+            <TasteMeter data={lesson.tasteMeter} />
+          </section>
+        )}
+
         {/* Name This */}
         {lesson.nameThis && (
           <section className={activeTab === TABS.indexOf('Name This') ? 'block' : 'hidden'}>
@@ -671,7 +683,7 @@ export default function LessonView({
         )}
 
         {/* Exercises */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp + nt + mn ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp + nt + mn + tm ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (

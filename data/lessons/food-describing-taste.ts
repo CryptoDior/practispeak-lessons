@@ -50,6 +50,19 @@ export const foodDescribingTaste: Lesson = {
     ],
   },
 
+  // Taste Meter: drag the slider between two words, then check.
+  tasteMeter: {
+    intro: 'Drag the meter to show how each food tastes. Then press Check.',
+    items: [
+      { prompt: 'A mild chicken curry for kids', left: 'mild', right: 'robust', answer: 0, explain: 'Mild means gentle, not strong or spicy.' },
+      { prompt: 'A steak with lots of black pepper', left: 'mild', right: 'robust', answer: 4, explain: 'Peppery, strong food is robust.' },
+      { prompt: 'A lemon tart with a fresh lemon taste', left: 'rich', right: 'zesty', answer: 4, explain: 'Zesty means lively and fresh, like lemon or lime.' },
+      { prompt: 'Creamy Alfredo pasta with lots of cheese', left: 'rich', right: 'zesty', answer: 0, explain: 'Rich means full and heavy, with a lot of fat or flavor.' },
+      { prompt: 'Very dark chocolate with no sugar', left: 'sweet', right: 'bitter', answer: 4, explain: 'Strong dark chocolate and black coffee taste bitter.' },
+      { prompt: 'Blue cheese with a very strong smell', left: 'subtle', right: 'pungent', answer: 4, explain: 'Pungent means a very strong taste or smell.' },
+    ],
+  },
+
   vocabulary: [
     { word: 'SAVORY', partOfSpeech: 'adjective', definition: 'Tasty and salty or full of flavor, not sweet — like meat, stews or cheese.', example: 'I prefer savory pancakes to sweet ones.', imageSlug: img('savoury-pancake-preference') },
     { word: 'ZESTY', partOfSpeech: 'adjective', definition: 'Lively and fresh, often with citrus or spice.', example: 'I love the zesty kick of lime in this dish.', imageSlug: img('lime-zest-flavour') },

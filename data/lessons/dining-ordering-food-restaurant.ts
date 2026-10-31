@@ -63,6 +63,15 @@ export const diningOrderingFoodRestaurant: Lesson = {
     ],
   },
 
+  pictureQuiz: true,
+  pictureQuizSkip: ['ORDER', 'DECIDE', 'STARTER', 'MAIN COURSE', 'SIDE', 'RESERVATION'],
+  pictureQuizOptions: {
+    'MENU': ['Receipt', 'Ticket'],
+    'MEAL': ['Snack', 'Drink'],
+    'BOOTH': ['Counter', 'Bench'],
+    'WAITER / WAITRESS': ['Chef', 'Cashier'],
+  },
+
   vocabulary: [
     { word: 'MENU', partOfSpeech: 'noun', definition: 'A list of the food and drinks in a restaurant.', example: "I'm hungry. Let's see what's on the menu.", imageSlug: img('looking-at-restaurant-menu') },
     { word: 'MEAL', partOfSpeech: 'noun', definition: 'The food you eat at one time, like lunch or dinner.', example: 'This meal looks delicious!', imageSlug: img('delicious-complete-meal') },

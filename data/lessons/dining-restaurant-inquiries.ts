@@ -56,6 +56,16 @@ export const diningRestaurantInquiries: Lesson = {
     ],
   },
 
+  pictureQuiz: true,
+  pictureQuizSkip: ['GLUTEN-FREE', 'VEGAN', 'VEGETARIAN', 'ALLERGIC'],
+  pictureQuizOptions: {
+    'SPECIALS': ['Receipt', 'Menu'],
+    'CONDIMENTS': ['Spices', 'Sweets'],
+    'SAUCE': ['Soup', 'Salad'],
+    'DISH': ['Cup', 'Napkin'],
+    'RESTROOM': ['Kitchen', 'Exit'],
+  },
+
   vocabulary: [
     { word: 'SPECIALS', partOfSpeech: 'noun', definition: 'Dishes offered for a limited time, not on the normal menu.', example: 'What are today\'s specials?', imageSlug: img('asking-todays-specials') },
     { word: 'GLUTEN-FREE', partOfSpeech: 'adjective', definition: 'Without gluten, a protein found in wheat, barley and rye.', example: 'Are these cookies gluten-free?', imageSlug: img('cookies-gluten-question') },
