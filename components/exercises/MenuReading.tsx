@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { MenuReading as MenuReadingData } from '@/types/lesson';
 
 /**
@@ -8,6 +8,19 @@ import { MenuReading as MenuReadingData } from '@/types/lesson';
  */
 export default function MenuReading({ menu }: { menu: MenuReadingData }) {
   const [picked, setPicked] = useState<Record<number, number>>({});
+  // Keep the menu on screen while the student scrolls through the questions:
+  // stick it just below the site header + lesson tabs.
+  const [top, setTop] = useState(124);
+  useEffect(() => {
+    const measure = () => {
+      const header = document.querySelector('header')?.getBoundingClientRect().height ?? 64;
+      const tabs = document.getElementById('lesson-tabs')?.getBoundingClientRect().height ?? 56;
+      setTop(Math.round(header + tabs + 8));
+    };
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, []);
   const done = Object.keys(picked).length;
   const score = menu.questions.filter((q, i) => picked[i] === q.correctIndex).length;
 
@@ -15,8 +28,13 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
     <div className="space-y-6">
       {menu.intro && <p className="text-gray-600 font-semibold">{menu.intro}</p>}
 
+      {/* Menu on the left, questions on the right (stacked on small screens) */}
+      <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
       {/* The menu card */}
-      <div className="max-w-xl mx-auto bg-[#FFFDF8] rounded-[20px] border border-amber-100 shadow-[0_2px_16px_rgba(120,80,20,0.08)] p-6 md:p-8">
+      <div
+        className="lg:sticky bg-[#FFFDF8] rounded-[20px] border border-amber-100 shadow-[0_2px_16px_rgba(120,80,20,0.08)] p-6 md:p-8 lg:max-h-[calc(100vh-9rem)] lg:overflow-y-auto"
+        style={{ top }}
+      >
         <h3 className="font-playfair text-2xl md:text-3xl font-semibold text-center text-slate-900 mb-6">{menu.title}</h3>
         <div className="space-y-6">
           {menu.sections.map((s) => (
@@ -48,7 +66,7 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
                 <span className="text-[#066EF5] mr-2">{i + 1}.</span>
                 {q.question}
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3 gap-3">
                 {q.options.map((opt, o) => {
                   const isPicked = choice === o;
                   const isRight = o === q.correctIndex;
@@ -77,6 +95,8 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
             </div>
           );
         })}
+      </div>
+
       </div>
 
       {done === menu.questions.length && (
