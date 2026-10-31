@@ -15,6 +15,18 @@ export const businessAnsweringPhonePolitely: Lesson = {
     'Offer help, ask the caller to wait, and transfer a call.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you like talking on the phone at work? Why or why not?',
+      'What is difficult about phone calls in English?',
+      'What is the hardest phone call you have had to answer at work?',
+      'Do you prefer calls, emails or messages? Why?',
+      'What do you do when the caller speaks too fast?',
+      'Who calls you the most at work?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'CALL',

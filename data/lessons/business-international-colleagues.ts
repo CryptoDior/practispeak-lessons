@@ -21,6 +21,18 @@ export const businessInternationalColleagues: Lesson = {
     'Rephrase ideas when people don\'t understand.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What is the hardest part of working with international colleagues?',
+      'How do you adjust your English when speaking with non-native speakers?',
+      'Have you ever had a misunderstanding because of an accent? What happened?',
+      'What is a good way to simplify complex ideas?',
+      'What do you enjoy about working in an international team?',
+      'What advice would you give a new colleague from another country?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CLARIFY', partOfSpeech: 'verb', definition: 'To make something easier to understand.', example: 'Could you clarify what you meant by "urgent"?', imageSlug: img('clarify') },
     { word: 'COLLEAGUE', partOfSpeech: 'noun', definition: 'A person you work with.', example: 'I have colleagues from many different countries.', imageSlug: img('colleague') },

@@ -15,6 +15,18 @@ export const businessTalkingAboutYourRoleDepartment: Lesson = {
     'Ask others about their role and department.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What is your role at work? What are you responsible for?',
+      'Who is your manager? Describe him or her.',
+      'How many people are in your team?',
+      'Which department in your company is the busiest?',
+      'Which part of your job do you like best?',
+      'What do you want to learn in your role?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'ROLE',

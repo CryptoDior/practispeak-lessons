@@ -21,6 +21,18 @@ export const businessStartingLeadingMeetings: Lesson = {
     'Invite participation and steer the group towards a decision.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What makes a meeting well run?',
+      'How do you keep a meeting on schedule?',
+      'What do you do when participants arrive late or do not follow the agenda?',
+      'Which is better: short daily meetings or one long weekly meeting? Why?',
+      'What are the signs of a useless meeting?',
+      'What advice would you give someone who is chairing a meeting for the first time?',
+    ],
+  },
+
   vocabulary: [
     { word: 'AGENDA', partOfSpeech: 'noun', definition: 'A list of topics to discuss in a meeting, in order.', example: 'We have three items on the agenda today.', imageSlug: img('agenda') },
     { word: 'PURPOSE', partOfSpeech: 'noun', definition: 'The reason why you are doing something.', example: 'The purpose of this meeting is to share the Q3 results.', imageSlug: img('purpose') },

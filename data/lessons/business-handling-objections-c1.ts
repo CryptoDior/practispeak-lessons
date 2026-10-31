@@ -20,6 +20,18 @@ export const businessHandlingObjectionsC1: Lesson = {
     'Concede partially while protecting your position.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      "What do objections really tell you about the other person's concerns?",
+      'How do you validate a concern without agreeing with it?',
+      'What is the most persuasive way to reframe an objection?',
+      'When should you concede a point, and when should you hold your position?',
+      'Describe a time when an objection helped improve your idea.',
+      'How do you reassure a client who is anxious about risk?',
+    ],
+  },
+
   vocabulary: [
     { word: 'OBJECTION', partOfSpeech: 'noun', definition: 'A reason for disagreeing or not accepting an idea.', example: 'Tim handled each objection with calm confidence.', imageSlug: img('objection') },
     { word: 'REASSURE', partOfSpeech: 'verb', definition: 'To make someone feel less worried.', example: "The manager's tone reassured everyone.", imageSlug: img('reassure') },

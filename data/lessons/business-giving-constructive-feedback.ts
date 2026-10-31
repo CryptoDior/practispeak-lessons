@@ -20,6 +20,18 @@ export const businessGivingConstructiveFeedback: Lesson = {
     'Invite dialogue and agree on improvements.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Why is giving feedback often harder than receiving it?',
+      'How do you deliver criticism without damaging motivation?',
+      'What is the impact of vague feedback on a team?',
+      'How do you adapt feedback for someone who is very sensitive?',
+      'What is the best feedback you have ever received, and why did it help?',
+      'Should feedback always be private, or can public feedback be useful?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CONSTRUCTIVE', partOfSpeech: 'adjective', definition: 'Helpful and focused on improvement.', example: 'She gave constructive feedback on my report.', imageSlug: img('constructive') },
     { word: 'DIPLOMATIC', partOfSpeech: 'adjective', definition: 'Communicating carefully to avoid upsetting people.', example: 'He was diplomatic but honest.', imageSlug: img('diplomatic') },

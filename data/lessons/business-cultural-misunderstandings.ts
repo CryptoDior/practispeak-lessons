@@ -20,6 +20,18 @@ export const businessCulturalMisunderstandings: Lesson = {
     'Show curiosity and find a solution that works for everyone.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Which gestures or habits in your country might surprise visitors?',
+      'Have you ever offended someone by accident? What happened?',
+      'How do you learn about customs in other countries before a business trip?',
+      "What do you do when you do not understand someone's behavior?",
+      'How polite is too polite? Is there a balance?',
+      'Why is cultural sensitivity important in modern business?',
+    ],
+  },
+
   vocabulary: [
     { word: 'GESTURE', partOfSpeech: 'noun', definition: 'A movement of your hand or body that shows an idea or feeling.', example: 'A thumbs-up is a positive gesture in many countries.', imageSlug: img('gesture') },
     { word: 'CUSTOM', partOfSpeech: 'noun', definition: 'A traditional way of doing something in a culture.', example: 'Shaking hands is a common custom in many countries.', imageSlug: img('custom') },

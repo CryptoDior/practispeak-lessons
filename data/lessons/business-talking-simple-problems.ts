@@ -15,6 +15,18 @@ export const businessTalkingSimpleProblems: Lesson = {
     'Say when the problem is fixed.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What problem do you have with technology at work?',
+      'Do you fix small problems yourself, or do you ask for help?',
+      'What do you do when the printer or the computer stops working?',
+      'Who fixes problems in your office?',
+      'What is a big problem for you at work? What is a small one?',
+      'Is it difficult to explain a technical problem in English? Why?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'PRINTER',

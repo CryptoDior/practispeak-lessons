@@ -21,6 +21,18 @@ export const businessAskingForOpinions: Lesson = {
     'Encourage people to explain and expand on their ideas.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you often ask your colleagues for their opinions? Why or why not?',
+      'Is it easy for you to share a new idea in a meeting? What helps you feel confident?',
+      'Describe an initiative at your workplace that you thought was worth the effort.',
+      'What are the advantages and disadvantages of an approval process with many steps?',
+      'How do you react when your idea is not accepted?',
+      'Do you think it is important to launch ideas quickly, or to consider them carefully first? Why?',
+    ],
+  },
+
   vocabulary: [
     { word: 'PROPOSE', partOfSpeech: 'verb', definition: 'To present an idea or plan for others to consider.', example: 'I propose we try a new way to finish the project faster.', imageSlug: img('propose') },
     { word: 'EXTEND', partOfSpeech: 'verb', definition: 'To make something longer in time or size.', example: 'Can we extend the deadline by one week?', imageSlug: img('extend') },

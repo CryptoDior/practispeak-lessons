@@ -20,6 +20,18 @@ export const businessPersuasionTechniques: Lesson = {
     'Acknowledge and respond to counterarguments.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What is the difference between persuasion and manipulation?',
+      'Which is more convincing: data or a story? Why?',
+      'How do you prepare for a counterargument?',
+      'Describe a time you were persuaded to change your mind.',
+      'How does credibility affect your ability to persuade others?',
+      'Are persuasion techniques different across cultures? Give an example.',
+    ],
+  },
+
   vocabulary: [
     { word: 'PERSUADE', partOfSpeech: 'verb', definition: 'To make someone agree or act through reasoning or emotion.', example: 'He persuaded the board by showing real results.', imageSlug: img('persuade') },
     { word: 'CONVINCE', partOfSpeech: 'verb', definition: 'To make someone believe something is true or worth doing.', example: 'She convinced the team that change was necessary.', imageSlug: img('convince') },

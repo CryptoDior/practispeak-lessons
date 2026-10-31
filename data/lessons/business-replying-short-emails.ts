@@ -15,6 +15,18 @@ export const businessReplyingShortEmails: Lesson = {
     'Confirm information and promise to answer later.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How many emails do you reply to every day?',
+      'What kind of email do you leave for later? Why?',
+      'When do you write "Noted, thank you" in an email?',
+      'Do you read your emails again before you send them? Why?',
+      'Are short emails or long emails better, in your opinion?',
+      'How do you feel when you get too many emails?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'REPLY',

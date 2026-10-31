@@ -20,6 +20,18 @@ export const businessPerformanceReviews: Lesson = {
     'Invite self-assessment and agree on future objectives.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What makes a performance review truly useful rather than a formality?',
+      'How honest should a self-assessment be?',
+      'How do you respond to feedback that you think is unfair?',
+      'What objectives motivate you most?',
+      'Should reviews be linked to pay? Why or why not?',
+      'How could companies improve the way they evaluate performance?',
+    ],
+  },
+
   vocabulary: [
     { word: 'EVALUATION', partOfSpeech: 'noun', definition: 'The process of assessing performance or quality.', example: 'The annual evaluation takes place in December.', imageSlug: img('evaluation') },
     { word: 'OBJECTIVES', partOfSpeech: 'noun', definition: 'Specific goals or results to achieve.', example: 'You exceeded three of your four objectives.', imageSlug: img('objectives') },

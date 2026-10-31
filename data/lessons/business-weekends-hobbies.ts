@@ -15,6 +15,18 @@ export const businessWeekendsHobbies: Lesson = {
     'Ask and answer questions about hobbies.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What do you usually do on weekends?',
+      'Do you like to stay in or go out on your days off?',
+      'What hobby do you want to try?',
+      'Do you talk about your weekend with colleagues? Why or why not?',
+      'Who do you spend your free time with?',
+      'What is a good weekend activity in your city?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'WEEKEND',

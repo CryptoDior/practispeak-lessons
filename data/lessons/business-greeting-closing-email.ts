@@ -15,6 +15,18 @@ export const businessGreetingClosingEmail: Lesson = {
     'Choose a formal or informal tone for different people.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you write emails in English at work? How often?',
+      'Is your email style formal or informal? Why?',
+      'How do you start an email to a new client?',
+      'How do you end an email to a good colleague?',
+      'Do you check your email signature before sending? What is in it?',
+      'Which is harder for you to write: emails or phone calls?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'GREETING',

@@ -20,6 +20,18 @@ export const businessEndingConversationsPolitely: Lesson = {
     'Agree on a follow-up and say goodbye warmly.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you end a conversation when you need to leave but the other person keeps talking?',
+      'Do you keep in touch with former colleagues? How?',
+      'Is small talk at the end of a meeting useful or a waste of time?',
+      'How do you follow up after meeting someone new?',
+      'What is the most polite way to say "I have to go" in your culture?',
+      'Why is the way you end a conversation important for relationships?',
+    ],
+  },
+
   vocabulary: [
     { word: 'EXCUSE', partOfSpeech: 'verb', definition: 'To politely ask to leave or stop a conversation (excuse me / excuse myself).', example: 'Please excuse me, I have another meeting.', imageSlug: img('excuse') },
     { word: 'APPRECIATE', partOfSpeech: 'verb', definition: "To feel thankful for something or someone's effort.", example: 'I appreciate you taking the time to meet.', imageSlug: img('appreciate') },

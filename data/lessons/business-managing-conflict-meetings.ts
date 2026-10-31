@@ -21,6 +21,18 @@ export const businessManagingConflictMeetings: Lesson = {
     'Refocus the group on facts and solutions.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What are the early warning signs that a meeting is about to become heated?',
+      'How do you de-escalate tension without ignoring the problem?',
+      'When should a conflict be resolved in the meeting and when afterward?',
+      'How do you step in when two senior colleagues clash?',
+      'Is conflict always negative, or can it be useful? Explain.',
+      "How does your culture's attitude toward conflict affect the way meetings are run?",
+    ],
+  },
+
   vocabulary: [
     { word: 'CONFLICT', partOfSpeech: 'noun', definition: 'A serious disagreement between people or groups.', example: 'She handled the conflict calmly.', imageSlug: img('conflict') },
     { word: 'DE-ESCALATE', partOfSpeech: 'verb', definition: 'To make a situation less intense.', example: 'He de-escalated the tension by changing his tone.', imageSlug: img('de-escalate') },

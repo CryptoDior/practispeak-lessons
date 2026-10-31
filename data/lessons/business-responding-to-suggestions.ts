@@ -20,6 +20,18 @@ export const businessRespondingToSuggestions: Lesson = {
     'Reject an idea politely and point out a problem.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      "How do you respond when you do not like a colleague's idea?",
+      "Have you ever changed your mind after thinking about someone's suggestion? Describe it.",
+      'Is it better to say yes quickly or think it over first? Why?',
+      'How do you reject a suggestion without upsetting people?',
+      'How do you feel when your suggestions are rejected?',
+      'What makes someone good at listening to ideas?',
+    ],
+  },
+
   vocabulary: [
     { word: 'ACCEPT', partOfSpeech: 'verb', definition: 'To say yes to an idea, offer or suggestion.', example: "Kira accepted Tim's suggestion.", imageSlug: img('accept') },
     { word: 'AGREE', partOfSpeech: 'verb', definition: 'To have the same opinion as someone.', example: 'I agree with that idea.', imageSlug: img('agree') },

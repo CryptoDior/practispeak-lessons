@@ -20,6 +20,18 @@ export const businessNegotiatingContracts: Lesson = {
     'Confirm final terms and next steps.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What is the most important clause in a contract, in your opinion?',
+      'How do you decide which concessions are acceptable?',
+      'Why is mutual benefit important in a binding agreement?',
+      'How do you amend an agreement when circumstances change?',
+      'What risks come from rushing a negotiation?',
+      'How do cultural differences affect contract negotiations?',
+    ],
+  },
+
   vocabulary: [
     { word: 'NEGOTIATION', partOfSpeech: 'noun', definition: 'A formal discussion to reach an agreement.', example: 'The negotiation ended with a fair deal.', imageSlug: img('negotiation') },
     { word: 'CLAUSE', partOfSpeech: 'noun', definition: 'A specific rule or condition in a contract.', example: 'The penalty clause is too strict.', imageSlug: img('clause') },

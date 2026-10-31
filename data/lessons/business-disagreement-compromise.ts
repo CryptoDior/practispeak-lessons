@@ -20,6 +20,18 @@ export const businessDisagreementCompromise: Lesson = {
     'Accept a fair solution and close the discussion.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you find it easy to disagree with colleagues? Why or why not?',
+      'Describe a compromise you made at work. Were you happy with it?',
+      'What is a fair way to resolve a difference of opinion?',
+      'When is it better to stand your ground than to compromise?',
+      'How can you disagree without upsetting the other person?',
+      'What concerns do you have when a team cannot reach a compromise?',
+    ],
+  },
+
   vocabulary: [
     { word: 'DISAGREE', partOfSpeech: 'verb', definition: 'To have a different opinion from someone.', example: 'I disagree with that idea.', imageSlug: img('disagree') },
     { word: 'COMPROMISE', partOfSpeech: 'noun', definition: 'An agreement where each side gives up something.', example: 'A good leader looks for a compromise.', imageSlug: img('compromise') },

@@ -20,6 +20,18 @@ export const businessCommunicatingVisionStrategy: Lesson = {
     'Create alignment and a sense of ownership.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What makes a vision statement inspiring rather than empty?',
+      "How do you make sure that every team member feels connected to the company's strategy?",
+      'Why do so many strategic initiatives fail in the roll-out phase?',
+      'How can a leader communicate a roadmap without overwhelming people?',
+      'Which milestones are the most meaningful to celebrate, and why?',
+      'How would you explain a complex strategy to someone who is new to the company?',
+    ],
+  },
+
   vocabulary: [
     { word: 'VISION', partOfSpeech: 'noun', definition: 'A clear idea of what an organization wants to become.', example: 'Our vision is to be the most trusted brand in Europe.', imageSlug: img('vision') },
     { word: 'STRATEGY', partOfSpeech: 'noun', definition: 'A detailed plan to achieve long-term goals.', example: 'The new strategy focuses on digital growth.', imageSlug: img('strategy') },

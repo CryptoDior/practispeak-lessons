@@ -21,6 +21,18 @@ export const businessHandlingInterruptions: Lesson = {
     'Return to the topic after an interruption.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you feel when someone interrupts you in a meeting?',
+      'Is it ever acceptable to interrupt someone? When?',
+      'How do you politely stop a colleague who talks too much?',
+      'Does interrupting depend on the culture? What do you think?',
+      'What do you do when you have a question during a presentation?',
+      'How do you get back on track after an interruption?',
+    ],
+  },
+
   vocabulary: [
     { word: 'INTERRUPT', partOfSpeech: 'verb', definition: 'To stop someone while they are speaking.', example: "Please don't interrupt while I'm talking.", imageSlug: img('interrupt') },
     { word: 'APOLOGIZE', partOfSpeech: 'verb', definition: 'To say sorry for something.', example: 'He apologized for interrupting.', imageSlug: img('apologize') },

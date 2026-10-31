@@ -20,6 +20,18 @@ export const businessStorytellingInBusiness: Lesson = {
     'Make stories relatable, authentic and memorable.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Why do stories stay in our memory better than statistics?',
+      'What makes a business story feel authentic?',
+      'What is the best story you have heard in a business context?',
+      'How do you find a personal story that fits your message?',
+      'When is storytelling inappropriate in a business setting?',
+      'How can leaders use stories to shape company culture?',
+    ],
+  },
+
   vocabulary: [
     { word: 'STORYTELLING', partOfSpeech: 'noun', definition: 'Sharing stories to communicate ideas or values.', example: 'Storytelling makes presentations more engaging.', imageSlug: img('storytelling') },
     { word: 'NARRATIVE', partOfSpeech: 'noun', definition: 'The sequence of events that makes up a story.', example: 'Every strong pitch has a clear narrative.', imageSlug: img('narrative') },

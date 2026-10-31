@@ -15,6 +15,18 @@ export const businessOrderingCoffeeLunch: Lesson = {
     'Invite colleagues for lunch and talk about paying.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Where do you usually have lunch at work?',
+      'Do you eat out with colleagues? How often?',
+      'What do you usually order for lunch?',
+      'Who pays the bill in your group: one person or everyone?',
+      'Do you like to take coffee breaks at work? Why?',
+      'What is a good place to have lunch near your office?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'MENU',

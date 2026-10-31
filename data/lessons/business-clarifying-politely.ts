@@ -20,6 +20,18 @@ export const businessClarifyingPolitely: Lesson = {
     'Rephrase and double-check information.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you feel when you do not understand someone at work?',
+      'Is it easy or difficult for you to ask someone to explain again? Why?',
+      'What do you do when instructions are confusing?',
+      'What is the best way to rephrase a difficult idea so that people understand?',
+      'Tell us about a time when a misunderstanding caused a problem at work.',
+      'How can people avoid misunderstandings in emails?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CLARIFY', partOfSpeech: 'verb', definition: 'To make something easier to understand.', example: 'The manager sent an email to clarify the schedule.', imageSlug: img('clarify') },
     { word: 'CONFIRM', partOfSpeech: 'verb', definition: 'To check or make sure that something is correct.', example: 'The assistant confirmed the booking by phone.', imageSlug: img('confirm') },

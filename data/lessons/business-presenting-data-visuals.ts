@@ -20,6 +20,18 @@ export const businessPresentingDataVisuals: Lesson = {
     'Interpret data and highlight what matters.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What makes a chart easy to understand?',
+      'How can data be used to mislead an audience, even unintentionally?',
+      'How do you decide which figures to highlight?',
+      'What do you do when your data tells an unexpected story?',
+      'How much detail should a presentation include for senior executives?',
+      'Which is more important: accuracy or clarity? Why?',
+    ],
+  },
+
   vocabulary: [
     { word: 'TREND', partOfSpeech: 'noun', definition: 'The general direction of change over time.', example: 'The chart illustrates a positive trend in sales.', imageSlug: img('trend') },
     { word: 'FIGURE', partOfSpeech: 'noun', definition: 'A number showing an amount or result.', example: 'The latest sales figures are impressive.', imageSlug: img('figure') },

@@ -20,6 +20,18 @@ export const businessRelationshipsAcrossCultures: Lesson = {
     'Strengthen long-term professional relationships.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do hierarchy and formality differ in business across cultures that you know?',
+      'How do you build rapport with someone from a very different background?',
+      'What etiquette mistakes can damage a relationship?',
+      "Is it better to adapt to your partner's culture or to be yourself? Why?",
+      'How can high-context communication be difficult for people from low-context cultures?',
+      'What have you learned about yourself from working with people from other cultures?',
+    ],
+  },
+
   vocabulary: [
     { word: 'RAPPORT', partOfSpeech: 'noun', definition: 'A positive, trusting relationship.', example: 'Building rapport takes time in some cultures.', imageSlug: img('rapport') },
     { word: 'HIERARCHY', partOfSpeech: 'noun', definition: 'A system where people are ranked by status or authority.', example: 'In some companies, hierarchy strongly affects communication.', imageSlug: img('hierarchy') },

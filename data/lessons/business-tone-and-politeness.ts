@@ -29,6 +29,18 @@ export const businessToneAndPoliteness: Lesson = {
     { context: 'Being late with work', register: 'Polite', example: "I'm sorry for the delay." },
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How can the tone of an email change its meaning?',
+      'Are there words or phrases in English that sound rude to you?',
+      'Is it better to be very direct or very polite at work? Why?',
+      "Describe a time someone's tone made you feel uncomfortable.",
+      'How do you show respect without sounding too formal?',
+      'How can you be diplomatic when you need to say no?',
+    ],
+  },
+
   vocabulary: [
     { word: 'TONE', partOfSpeech: 'noun', definition: 'The way your voice or words sound to others.', example: 'Her tone sounded calm and professional.', imageSlug: img('tone') },
     { word: 'POLITE', partOfSpeech: 'adjective', definition: 'Showing good manners and respect.', example: 'It\'s polite to say "please" and "thank you".', imageSlug: img('polite') },

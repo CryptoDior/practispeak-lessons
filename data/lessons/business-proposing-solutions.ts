@@ -21,6 +21,18 @@ export const businessProposingSolutions: Lesson = {
     'Explain the benefits and next steps of a plan.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you come up with solutions when you face a problem?',
+      'Describe a time when you solved a problem for your team.',
+      'What makes a solution effective?',
+      'Is it better to give one solution or a few options? Why?',
+      'How do you follow through after a plan is approved?',
+      'What do you do when your solution does not work?',
+    ],
+  },
+
   vocabulary: [
     { word: 'SOLUTION', partOfSpeech: 'noun', definition: 'A way to fix a problem or make something better.', example: 'The team discussed three possible solutions.', imageSlug: img('solution') },
     { word: 'OPTION', partOfSpeech: 'noun', definition: 'One of the possible choices or plans.', example: 'We have several options to consider.', imageSlug: img('option') },

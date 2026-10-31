@@ -15,6 +15,18 @@ export const businessAskingWhosCalling: Lesson = {
     'Ask the reason for the call and tell a colleague.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you feel when someone calls you from an unknown number?',
+      "Why is it important to ask for a caller's name?",
+      'What information do you write down when someone calls?',
+      'How many calls do you get every day at work?',
+      'What do you say if the caller has a long, difficult name?',
+      'Do you give out your phone number easily? Why or why not?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'CALLER',

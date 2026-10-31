@@ -21,6 +21,18 @@ export const businessSharingOpinionsClearly: Lesson = {
     'Disagree politely and professionally.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you share your opinion openly in meetings? Why or why not?',
+      'How can you disagree with someone respectfully?',
+      'What makes an opinion convincing?',
+      'Is it more important to be honest or polite when giving an opinion? Why?',
+      'Has your opinion on something at work changed? What changed it?',
+      'How do you handle a meeting where everyone has strong opinions?',
+    ],
+  },
+
   vocabulary: [
     { word: 'OPINION', partOfSpeech: 'noun', definition: 'What you think or believe about something.', example: 'She shared her opinion in the meeting.', imageSlug: img('opinion') },
     { word: 'AGREE', partOfSpeech: 'verb', definition: 'To have the same opinion as someone.', example: 'We all agreed to move forward.', imageSlug: img('agree') },

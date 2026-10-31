@@ -20,6 +20,18 @@ export const businessExplainingProblemsClearly: Lesson = {
     'Reassure people that action is being taken.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you tell your manager about a problem at work?',
+      'What is the best way to explain the cause of a delay?',
+      'Tell us about a time you had to deal with a serious issue.',
+      'Do you prefer to bring a solution with every problem? Why?',
+      'How can people explain problems clearly in writing?',
+      'What problems do teams often ignore for too long?',
+    ],
+  },
+
   vocabulary: [
     { word: 'ISSUE', partOfSpeech: 'noun', definition: 'A problem or situation that needs attention.', example: 'Kira reported the issue to the manager.', imageSlug: img('issue') },
     { word: 'DELAY', partOfSpeech: 'noun / verb', definition: 'When something happens later than planned.', example: 'Kira explained the reason for the delay.', imageSlug: img('delay') },

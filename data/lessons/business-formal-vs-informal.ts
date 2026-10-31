@@ -29,6 +29,18 @@ export const businessFormalVsInformal: Lesson = {
     { context: 'Ending a chat message to a friend at work', register: 'Informal', example: 'Talk to you soon!' },
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'When do you use formal English at work and when informal?',
+      'What is the tone of emails in your company: formal or informal?',
+      'How do you speak to a client you know well compared to a new client?',
+      'Do you think workplaces are getting more informal? Is this good?',
+      'What mistakes can happen if you are too casual with a manager?',
+      'Is it easy to switch between formal and informal styles in English? Why?',
+    ],
+  },
+
   vocabulary: [
     { word: 'FORMAL', partOfSpeech: 'adjective', definition: 'Polite and professional; used in business or official situations.', example: 'Use formal language with new clients.', imageSlug: img('formal') },
     { word: 'INFORMAL', partOfSpeech: 'adjective', definition: 'Friendly and relaxed; used with people you know well.', example: 'Informal speech uses short forms like "Hi" or "Thanks!".', imageSlug: img('informal') },

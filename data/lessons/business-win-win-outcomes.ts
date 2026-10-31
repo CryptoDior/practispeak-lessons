@@ -20,6 +20,18 @@ export const businessWinWinOutcomes: Lesson = {
     'Build reciprocal trust for a long-term partnership.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Is a win-win outcome always possible? Explain.',
+      "How can understanding the other party's interests change a negotiation?",
+      'Describe a situation where both sides benefited from a creative solution.',
+      'How do you avoid giving up too much while still being fair?',
+      'What role does trust play in reciprocal relationships?',
+      'How can a team create synergy rather than competition?',
+    ],
+  },
+
   vocabulary: [
     { word: 'WIN-WIN', partOfSpeech: 'adjective', definition: 'Benefiting all sides.', example: 'Our goal is a win-win agreement.', imageSlug: img('win-win') },
     { word: 'MUTUAL BENEFIT', partOfSpeech: 'noun', definition: 'An advantage for both sides.', example: 'The partnership works because of mutual benefit.', imageSlug: img('mutual-benefit') },

@@ -15,6 +15,18 @@ export const businessAskingRepetitionClarification: Lesson = {
     'Respond clearly when others ask for repetition or clarification.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      "Do you ask questions when you don't understand? Why or why not?",
+      'What do you say when a colleague speaks too fast?',
+      'Is it polite to say "What do you mean?" in your country?',
+      "Do you feel nervous when you don't understand a meeting? Why?",
+      'What helps you understand English better at work?',
+      'How do you explain something again to a colleague who missed it?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'REPEAT',

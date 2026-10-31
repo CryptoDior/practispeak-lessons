@@ -15,6 +15,18 @@ export const businessLeavingTakingMessages: Lesson = {
     'Leave a message for someone and promise to pass it on.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you take messages for your colleagues? How do you write them?',
+      'What details are important in a phone message?',
+      'Do you prefer voice messages or text messages? Why?',
+      'What do you do if the person is not available?',
+      'Has someone ever forgotten to give you a message? What happened?',
+      'How can you make sure a message is correct?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'MESSAGE',

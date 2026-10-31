@@ -15,6 +15,18 @@ export const businessExpressingSimpleOpinions: Lesson = {
     "Respond to others' opinions using short, natural phrases.",
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you give your opinion easily at work? Why or why not?',
+      'What is your opinion about working from home?',
+      'Do you prefer to work in the morning or in the afternoon? Why?',
+      'What is the best thing about your job, in your opinion?',
+      'Do you believe email is better than phone calls? Why?',
+      'Is it okay to say "I do not agree" to your boss? Why or why not?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'OPINION',

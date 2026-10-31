@@ -15,6 +15,18 @@ export const businessAskingRepeatSpell: Lesson = {
     'Repeat information to confirm it is correct.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Is your name easy to spell in English? Spell it for us.',
+      "What do you do when you don't understand something on the phone?",
+      'Do people speak too fast in your workplace? What do you do?',
+      'Which English words are hard for you to spell?',
+      'Is it okay to ask people to repeat things many times? Why or why not?',
+      'Do you write down important information when you speak on the phone? Why?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'REPEAT',

@@ -20,6 +20,18 @@ export const businessInterviewGettingStarted: Lesson = {
     'Use key vocabulary to describe your skills and experience.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you prepare for a job interview?',
+      'What do you think is the most important quality in a candidate?',
+      'Do you think an internship is a good way to start a career? Why?',
+      'Which is more important at work: teamwork or individual skills?',
+      'How do you stay calm before an important interview?',
+      'What would you ask the interviewer at the end?',
+    ],
+  },
+
   vocabulary: [
     { word: 'SKILLS', partOfSpeech: 'noun', definition: 'Abilities that help you do a task well.', example: 'He has strong computer skills.', imageSlug: img('skills') },
     { word: 'PUNCTUAL', partOfSpeech: 'adjective', definition: 'Always on time.', example: 'She is always punctual for work.', imageSlug: img('punctual') },

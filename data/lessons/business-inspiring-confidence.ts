@@ -20,6 +20,18 @@ export const businessInspiringConfidence: Lesson = {
     'Close with an inspiring, memorable message.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What makes a speaker credible to an audience?',
+      'How important is authenticity compared to technical expertise?',
+      'How do you project conviction when you are actually unsure?',
+      'What role does empathy play in inspiring confidence?',
+      'Describe a leader who inspired you. What did they do differently?',
+      'How can body language and voice strengthen or weaken your message?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CONVICTION', partOfSpeech: 'noun', definition: 'A strong belief in something.', example: 'She spoke with real conviction.', imageSlug: img('conviction') },
     { word: 'CREDIBILITY', partOfSpeech: 'noun', definition: 'The quality of being trusted.', example: 'Credibility and confidence go hand in hand.', imageSlug: img('credibility') },

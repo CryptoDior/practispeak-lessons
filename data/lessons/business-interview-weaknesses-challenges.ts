@@ -20,6 +20,18 @@ export const businessInterviewWeaknessesChallenges: Lesson = {
     'Talk about a difficult situation and how you handled it.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Is it a good idea to be honest about your weaknesses in an interview? Why or why not?',
+      'What challenge at work taught you the most?',
+      'How do you handle criticism or feedback?',
+      'How can a weakness become a strength?',
+      'What do you do to improve a skill you struggle with?',
+      'Why do interviewers ask about weaknesses, in your opinion?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CHALLENGE', partOfSpeech: 'noun', definition: 'Something that is hard to do.', example: 'Starting a job in a new city was a big challenge for me.', imageSlug: img('challenge') },
     { word: 'FACE', partOfSpeech: 'verb', definition: 'To deal with something difficult.', example: 'I had to face many problems on my own.', imageSlug: img('face') },

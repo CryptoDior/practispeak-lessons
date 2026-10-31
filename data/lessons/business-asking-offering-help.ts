@@ -15,6 +15,18 @@ export const businessAskingOfferingHelp: Lesson = {
     'Use polite expressions at work.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Who helps you the most at work?',
+      'Is it easy for you to ask for help? Why or why not?',
+      'What problem did you have at work this week?',
+      'When do you offer help to a colleague?',
+      'What can you teach other people at work?',
+      'Do you prefer to work alone or ask for help? Why?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'HELP',

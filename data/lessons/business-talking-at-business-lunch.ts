@@ -20,6 +20,18 @@ export const businessTalkingAtBusinessLunch: Lesson = {
     'Move from social talk to business and offer to pay.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you enjoy business lunches, or do you find them awkward? Why?',
+      'What topics are good for small talk at lunch? Which are better to avoid?',
+      'Who should pick up the bill at a business lunch in your culture?',
+      'How do you choose a restaurant for a client?',
+      'Is it okay to talk about work during a meal? Why or why not?',
+      'What would you do if you did not like the food at a client lunch?',
+    ],
+  },
+
   vocabulary: [
     { word: 'RESERVATION', partOfSpeech: 'noun', definition: 'An arrangement to keep a table for you.', example: 'I made a reservation for 12:30.', imageSlug: img('reservation') },
     { word: 'WAITER / WAITRESS', partOfSpeech: 'noun', definition: 'A person who serves food and drinks in a restaurant.', example: 'The waiter brought the menus.', imageSlug: img('waiter-waitress') },

@@ -20,6 +20,18 @@ export const businessDelegatingTasks: Lesson = {
     'Agree on timelines and check-ins without micromanaging.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What stops managers from delegating more than they do?',
+      'Where is the line between giving autonomy and losing control?',
+      'How do you build accountability without micromanaging?',
+      'What kinds of tasks should leaders never delegate?',
+      'Describe a situation in which poor delegation caused problems.',
+      'How do you decide who is ready for greater responsibility?',
+    ],
+  },
+
   vocabulary: [
     { word: 'DELEGATE', partOfSpeech: 'verb', definition: 'To assign work or responsibility to someone else.', example: 'Effective leaders delegate routine tasks.', imageSlug: img('delegate') },
     { word: 'AUTHORITY', partOfSpeech: 'noun', definition: 'The power or right to make decisions.', example: "You'll have full authority over the budget.", imageSlug: img('authority') },

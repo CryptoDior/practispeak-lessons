@@ -15,6 +15,18 @@ export const businessAskingDirectionsOffice: Lesson = {
     'Understand short instructions in the office.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Is your office big or small? Describe it.',
+      'What is next to your desk?',
+      'Do you take the stairs or the lift? Why?',
+      'Where do you eat lunch at work?',
+      'Is it easy to find a place in your office building? Why or why not?',
+      'How do you help a new colleague on their first day?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'OFFICE',

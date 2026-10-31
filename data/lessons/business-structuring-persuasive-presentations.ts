@@ -20,6 +20,18 @@ export const businessStructuringPersuasivePresentations: Lesson = {
     'Close with a summary and a strong call to action.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What is a strong hook, and why does it matter?',
+      'How does signposting help your audience follow a long presentation?',
+      'How do you decide how much information is enough?',
+      'What makes a call to action effective?',
+      'Which presentation structure works best for you, and why?',
+      'How do you adapt a presentation if your audience loses interest?',
+    ],
+  },
+
   vocabulary: [
     { word: 'PERSUASIVE', partOfSpeech: 'adjective', definition: 'Able to make people believe or do something through reasoning or emotion.', example: 'Her persuasive pitch convinced the investors.', imageSlug: img('persuasive') },
     { word: 'STRUCTURE', partOfSpeech: 'noun / verb', definition: 'The way the parts of something are organized.', example: 'The talk had a simple three-part structure.', imageSlug: img('structure') },

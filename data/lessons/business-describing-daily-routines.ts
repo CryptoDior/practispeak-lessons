@@ -15,6 +15,18 @@ export const businessDescribingDailyRoutines: Lesson = {
     'Ask colleagues about their daily routines.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What time do you start work? Do you like it?',
+      'What do you usually do first at work?',
+      'Do you check your emails often? How often?',
+      'What do you do on your lunch break?',
+      'Is your day busy or quiet? Why?',
+      'How would you like to change your daily work routine?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'START',

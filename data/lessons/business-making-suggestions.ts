@@ -20,6 +20,18 @@ export const businessMakingSuggestions: Lesson = {
     'Discuss options and plans in a meeting.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Are you comfortable making suggestions in meetings? Why or why not?',
+      'Describe a suggestion of yours that was accepted. What happened?',
+      'How should a manager react when an employee suggests a change?',
+      'What suggestions would improve your workplace?',
+      'What is a polite way to make a suggestion to your boss?',
+      'How do you decide which idea to try first?',
+    ],
+  },
+
   vocabulary: [
     { word: 'SUGGESTION', partOfSpeech: 'noun', definition: 'An idea or plan you give for others to consider.', example: 'Kira made a good suggestion about the project.', imageSlug: img('suggestion') },
     { word: 'IDEA', partOfSpeech: 'noun', definition: 'A thought or plan about what to do.', example: "That's a great idea, Tim.", imageSlug: img('idea') },

@@ -15,6 +15,18 @@ export const businessBasicMeetingPhrases: Lesson = {
     'Participate in short meeting conversations politely.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you have many meetings at work? Are they useful?',
+      'Who usually runs the meetings in your company?',
+      'What is a good agenda for a short meeting?',
+      'Do you like meetings in person or online? Why?',
+      'What do you do in a meeting when you have a question?',
+      'How long is a good meeting, in your opinion?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'MEETING',

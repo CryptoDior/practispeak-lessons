@@ -21,6 +21,18 @@ export const businessReachingAgreements: Lesson = {
     'Close a discussion in a positive way.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you know when a team has reached an agreement?',
+      'What do you do if one person cannot agree?',
+      'Why is it important to confirm an agreement in writing?',
+      'Describe the best agreement you have reached at work.',
+      'How do you feel when you have to accept a decision you do not like?',
+      'How can a leader help a team make decisions faster?',
+    ],
+  },
+
   vocabulary: [
     { word: 'AGREE', partOfSpeech: 'verb', definition: 'To have the same opinion or accept a decision.', example: 'The managers finally agreed after a long discussion.', imageSlug: img('agree') },
     { word: 'DECISION', partOfSpeech: 'noun', definition: 'A choice made after talking or thinking.', example: 'We need to make a final decision today.', imageSlug: img('decision') },

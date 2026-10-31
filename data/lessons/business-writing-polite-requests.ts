@@ -15,6 +15,18 @@ export const businessWritingPoliteRequests: Lesson = {
     'Answer a request with a short, friendly reply.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you write many requests at work? To whom?',
+      'What words make a request more polite?',
+      'Is it easy for you to ask someone for help in writing? Why or why not?',
+      'Which is better for requests: email or message? Why?',
+      'Tell us about a request that you wrote this week.',
+      'How do you feel when someone gives you a polite answer?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'REQUEST',

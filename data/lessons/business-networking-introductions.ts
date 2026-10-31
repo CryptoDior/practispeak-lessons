@@ -21,6 +21,18 @@ export const businessNetworkingIntroductions: Lesson = {
     'Exchange contact details and arrange to follow up.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do you enjoy networking events? Why or why not?',
+      'How do you start a conversation with someone you do not know?',
+      'What do you do after you meet an interesting person at an event?',
+      'How important is a business card today?',
+      'How do you break the ice at a networking event?',
+      'Do you think online networking is as good as meeting in person? Why or why not?',
+    ],
+  },
+
   vocabulary: [
     { word: 'NETWORKING', partOfSpeech: 'noun', definition: 'Meeting people to share ideas and make business connections.', example: 'Networking events help professionals meet new clients.', imageSlug: img('networking') },
     { word: 'INTRODUCE', partOfSpeech: 'verb', definition: 'To present yourself or someone else to another person.', example: 'Let me introduce you to our marketing manager.', imageSlug: img('introduce') },

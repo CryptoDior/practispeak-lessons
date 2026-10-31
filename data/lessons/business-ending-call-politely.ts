@@ -15,6 +15,18 @@ export const businessEndingCallPolitely: Lesson = {
     'Say goodbye in a friendly, professional way.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you end a phone call with a client?',
+      'Do you say "Have a great day" at the end of calls? Why or why not?',
+      'Are your calls long or short? Why?',
+      'What is a polite way to end a long phone call?',
+      'Do you prefer to call back later or to finish the call now? Why?',
+      'How do you feel after a good phone call at work?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'FINISH',

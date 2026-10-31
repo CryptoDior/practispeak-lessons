@@ -21,6 +21,18 @@ export const businessWrappingUpAssigningTasks: Lesson = {
     'Set deadlines and close the meeting politely.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What do you do at the end of a meeting to make sure people know their tasks?',
+      'How do you handle a deadline you think is too short?',
+      'Who should assign tasks in a team: the manager or the team members? Why?',
+      'How do you keep track of action points after a meeting?',
+      'What happens if people do not complete their tasks on time?',
+      'How do you feel when you get a task you did not expect?',
+    ],
+  },
+
   vocabulary: [
     { word: 'WRAP UP', partOfSpeech: 'phrasal verb', definition: 'To finish or end something.', example: "Let's wrap up the meeting in five minutes.", imageSlug: img('wrap-up') },
     { word: 'SUMMARY', partOfSpeech: 'noun', definition: 'A short statement of the main ideas.', example: "I'll send a summary of the meeting by email.", imageSlug: img('summary') },

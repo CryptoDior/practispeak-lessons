@@ -21,6 +21,18 @@ export const businessLeadingComplexDiscussions: Lesson = {
     'Summarize progress and move the group to a decision.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you facilitate a discussion when people hold strongly divergent views?',
+      'When should a leader mediate, and when should they step back?',
+      'How do you cut off a dominant speaker without damaging the atmosphere?',
+      'What techniques help a group stay on track?',
+      'Is it better to summarize frequently or to let ideas flow freely? Why?',
+      'What is the biggest mistake you have seen in a leadership meeting?',
+    ],
+  },
+
   vocabulary: [
     { word: 'FACILITATE', partOfSpeech: 'verb', definition: 'To make a discussion or process easier and smoother.', example: 'Kira facilitated the meeting to keep it productive.', imageSlug: img('facilitate') },
     { word: 'CONSENSUS', partOfSpeech: 'noun', definition: 'A general agreement reached by a group.', example: 'We reached a consensus after a long debate.', imageSlug: img('consensus') },

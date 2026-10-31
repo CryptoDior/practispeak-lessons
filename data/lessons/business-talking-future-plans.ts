@@ -15,6 +15,18 @@ export const businessTalkingFuturePlans: Lesson = {
     'Make simple plans with a colleague.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What are your plans for next week at work?',
+      'Do you have a business trip soon? Where?',
+      'What are you looking forward to this month?',
+      'Do you like to plan your work or decide each day? Why?',
+      'What is your plan for your career in the next two years?',
+      'Where do you want to travel for work or for fun?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'TOMORROW',

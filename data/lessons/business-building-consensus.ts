@@ -21,6 +21,18 @@ export const businessBuildingConsensus: Lesson = {
     'Guide a group to a decision everyone supports.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'To what extent is a unanimous decision realistic in a large organization?',
+      'When might seeking consensus slow a team down more than it helps?',
+      'How can a leader find common ground between people with very different priorities?',
+      'Describe a compromise that left both sides better off.',
+      'What is the risk of agreeing too quickly in a group?',
+      'How does culture influence the way groups reach consensus?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CONSENSUS', partOfSpeech: 'noun', definition: 'A general agreement reached by a group.', example: 'True consensus requires active listening.', imageSlug: img('consensus') },
     { word: 'ALIGNMENT', partOfSpeech: 'noun', definition: 'Agreement and coordination between people or ideas.', example: 'Let\'s check for alignment before moving forward.', imageSlug: img('alignment') },

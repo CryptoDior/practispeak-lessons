@@ -15,6 +15,18 @@ export const businessIntroducingYourselfColleagues: Lesson = {
     'Ask for and give basic personal and professional information.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you feel when you meet a new colleague?',
+      'How do you introduce yourself to a new client?',
+      'What is your job title? Do you like it?',
+      'Who is your favorite colleague? Why?',
+      'What do you say to introduce two colleagues?',
+      'What do you want to know when you meet a new colleague?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'JOB',

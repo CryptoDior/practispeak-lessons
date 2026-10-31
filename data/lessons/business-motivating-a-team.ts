@@ -20,6 +20,18 @@ export const businessMotivatingATeam: Lesson = {
     'Build shared accountability and collaboration.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'What actually motivates people more: recognition, money or purpose? Why?',
+      'How can leaders empower a team without losing accountability?',
+      'What are the signs that team morale is low?',
+      'Which incentives work best in your experience?',
+      'How do you keep a team engaged during a long, difficult project?',
+      'Describe the best manager you have had and what made them motivating.',
+    ],
+  },
+
   vocabulary: [
     { word: 'EMPOWER', partOfSpeech: 'verb', definition: 'To give someone the authority and confidence to act.', example: 'Good managers empower their teams to make decisions.', imageSlug: img('empower') },
     { word: 'ENGAGEMENT', partOfSpeech: 'noun', definition: 'The level of interest, commitment and energy people feel at work.', example: 'Employee engagement rose after the new program.', imageSlug: img('engagement') },

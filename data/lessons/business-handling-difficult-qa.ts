@@ -20,6 +20,18 @@ export const businessHandlingDifficultQa: Lesson = {
     'Deflect or park off-topic questions diplomatically.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you stay calm when a question is hostile?',
+      'When is it acceptable to deflect a question, and when is it better to answer directly?',
+      'How do you handle a question you cannot answer?',
+      'What preparation helps you manage a difficult Q&A session?',
+      'How can a presenter turn a challenge into an opportunity?',
+      'What do you notice about leaders who handle tough questions well?',
+    ],
+  },
+
   vocabulary: [
     { word: 'ACKNOWLEDGE', partOfSpeech: 'verb', definition: 'To show you have heard and understood something.', example: "I'd like to acknowledge your concern about the budget.", imageSlug: img('acknowledge') },
     { word: 'DEFLECT', partOfSpeech: 'verb', definition: 'To avoid answering directly by politely changing the focus.', example: 'She deflected the question with a light joke.', imageSlug: img('deflect') },

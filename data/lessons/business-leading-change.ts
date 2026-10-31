@@ -20,6 +20,18 @@ export const businessLeadingChange: Lesson = {
     'Respond to resistance and build unity.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Why do people resist change, even when it is clearly beneficial?',
+      'How do you balance transparency with the need to avoid panic during uncertain times?',
+      'What is the most difficult change you have been through at work?',
+      'How can leaders build adaptability in a team?',
+      'How do you respond when people push back on a decision?',
+      'What makes some organizations better at handling transition than others?',
+    ],
+  },
+
   vocabulary: [
     { word: 'TRANSITION', partOfSpeech: 'noun', definition: 'The process of moving from one state to another.', example: 'The transition to the new system will take six months.', imageSlug: img('transition') },
     { word: 'ADAPTABILITY', partOfSpeech: 'noun', definition: 'The ability to adjust quickly to new conditions.', example: 'Adaptability is essential in a changing market.', imageSlug: img('adaptability') },

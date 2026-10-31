@@ -15,6 +15,18 @@ export const businessTalkingSchedulesTime: Lesson = {
     'Use words like early, late and on time.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Are you usually early, on time or late for work?',
+      'How do you plan your week? Do you use a calendar or an app?',
+      'What is your busiest day of the week? Why?',
+      'Do you take breaks at work? How long are they?',
+      'How do you feel when you are in a rush?',
+      'What time do you like to finish work?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'SCHEDULE',

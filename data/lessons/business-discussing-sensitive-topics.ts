@@ -20,6 +20,18 @@ export const businessDiscussingSensitiveTopics: Lesson = {
     'Keep the tone constructive and respectful throughout.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you prepare for a conversation that might upset someone?',
+      'Where is the line between honesty and tact?',
+      'Why is perception sometimes more powerful than facts in sensitive discussions?',
+      'Should transparency always be the priority, even when the news is bad? Why or why not?',
+      'How do different cultures approach uncomfortable subjects at work?',
+      'What helps someone stay diplomatic under emotional pressure?',
+    ],
+  },
+
   vocabulary: [
     { word: 'TACT', partOfSpeech: 'noun', definition: 'The ability to say difficult things without upsetting people.', example: 'She handled the situation with great tact.', imageSlug: img('tact') },
     { word: 'DIPLOMACY', partOfSpeech: 'noun', definition: 'The skill of dealing with people sensitively and effectively.', example: 'Diplomacy is essential when cultures clash.', imageSlug: img('diplomacy') },

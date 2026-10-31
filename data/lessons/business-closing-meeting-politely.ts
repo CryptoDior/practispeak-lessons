@@ -15,6 +15,18 @@ export const businessClosingMeetingPolitely: Lesson = {
     'Thank participants and confirm next steps.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Do your meetings end on time? Why or why not?',
+      'Who writes the summary after a meeting in your company?',
+      'Why is it important to say thank you at the end of a meeting?',
+      'What action do you usually have to do after a meeting?',
+      'How do you remember the decisions from a meeting?',
+      'Do you prefer a short follow-up message or a long report? Why?',
+    ],
+  },
+
   vocabulary: [
     {
       word: 'SUMMARIZE',

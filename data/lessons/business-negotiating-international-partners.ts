@@ -20,6 +20,18 @@ export const businessNegotiatingInternationalPartners: Lesson = {
     'Break a stalemate and secure agreement on key points.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How can a lack of cultural awareness damage a negotiation?',
+      'What do you do when negotiations reach a stalemate?',
+      'When is it wise to use leverage, and when is it counterproductive?',
+      'How do you make concessions without appearing weak?',
+      'Is the aim of negotiation to win, or to build a relationship? Explain.',
+      'What are the challenges of negotiating through interpreters or in a second language?',
+    ],
+  },
+
   vocabulary: [
     { word: 'BARGAINING', partOfSpeech: 'noun', definition: 'Discussing terms to reach an agreement, often about price.', example: 'Bargaining is expected in some markets.', imageSlug: img('bargaining') },
     { word: 'CONCESSION', partOfSpeech: 'noun', definition: 'Something you give up to reach a deal.', example: 'Both sides made concessions.', imageSlug: img('concession') },

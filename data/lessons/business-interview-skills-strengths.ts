@@ -20,6 +20,18 @@ export const businessInterviewSkillsStrengths: Lesson = {
     'Match your skills to the job you are applying for.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Is it difficult for you to talk about your strengths? Why?',
+      "Which skills do you think are most valuable in today's workplace?",
+      'How can you prove a skill without sounding arrogant?',
+      'What is the difference between being confident and being boastful?',
+      'Which skills would you like to improve in the next year?',
+      'How do you stay organized when you have too much work?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CONFIDENT', partOfSpeech: 'adjective', definition: 'Sure that you can do things well.', example: 'You need to be confident when talking to customers.', imageSlug: img('confident') },
     { word: 'COMMUNICATION SKILLS', partOfSpeech: 'noun', definition: 'How well you speak, write and listen to people.', example: 'Most companies look for good communication skills.', imageSlug: img('communication-skills') },

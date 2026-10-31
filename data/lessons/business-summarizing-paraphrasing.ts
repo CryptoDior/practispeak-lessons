@@ -21,6 +21,18 @@ export const businessSummarizingParaphrasing: Lesson = {
     'Ask for clarification and confirm agreement.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Why is it helpful to summarize at the end of a meeting?',
+      "Is it easy for you to put someone else's idea in your own words?",
+      'How do you check that you understood a colleague correctly?',
+      'What is the difference between a good summary and a bad one?',
+      'How do you decide which key points are important?',
+      'Tell us about a time when a good summary saved time.',
+    ],
+  },
+
   vocabulary: [
     { word: 'SUMMARIZE', partOfSpeech: 'verb', definition: 'To say the main points in a short way.', example: 'Let me summarize what we decided today.', imageSlug: img('summarize') },
     { word: 'PARAPHRASE', partOfSpeech: 'verb', definition: 'To repeat what someone said using different words.', example: 'Let me paraphrase your idea to check I understood.', imageSlug: img('paraphrase') },

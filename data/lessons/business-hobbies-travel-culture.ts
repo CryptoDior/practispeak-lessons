@@ -20,6 +20,18 @@ export const businessHobbiesTravelCulture: Lesson = {
     'Respond warmly and show interest in other people\'s stories.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Where was the best place you have traveled to? What made it special?',
+      'How can hobbies help your work life?',
+      'What festival or tradition from your country would you recommend to a visitor?',
+      'Do you like to ask colleagues about their hobbies? Why or why not?',
+      'What can people learn from traveling to other cultures?',
+      'If you could take a break anywhere in the world, where would you go?',
+    ],
+  },
+
   vocabulary: [
     { word: 'HOBBY', partOfSpeech: 'noun', definition: 'An activity you do for pleasure in your free time.', example: 'My main hobby is photography.', imageSlug: img('hobby') },
     { word: 'CULTURE', partOfSpeech: 'noun', definition: 'The ideas, customs and behavior of a group of people.', example: 'I love learning about different cultures.', imageSlug: img('culture') },

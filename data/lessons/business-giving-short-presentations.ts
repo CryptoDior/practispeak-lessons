@@ -20,6 +20,18 @@ export const businessGivingShortPresentations: Lesson = {
     'Conclude clearly and invite questions.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'How do you feel before giving a presentation?',
+      'What makes a presentation interesting for the audience?',
+      'How many slides are ideal for a short talk? Why?',
+      'What do you do when you forget what to say?',
+      'Describe the best presentation you have ever seen.',
+      'What tips would you give someone who is nervous about presenting?',
+    ],
+  },
+
   vocabulary: [
     { word: 'PRESENTATION', partOfSpeech: 'noun', definition: 'A talk where you give information to a group.', example: 'The presentation was clear and interesting.', imageSlug: img('presentation') },
     { word: 'INTRODUCE', partOfSpeech: 'verb', definition: 'To present the topic or yourself at the start.', example: "I'll introduce myself before we begin.", imageSlug: img('introduce') },

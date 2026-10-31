@@ -21,6 +21,18 @@ export const businessCheckingConsensus: Lesson = {
     'Encourage full participation from quiet team members.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Why is it important to hear every voice in a meeting before making a decision?',
+      'Is it better to reach consensus or to let the manager decide quickly? Why?',
+      'Describe a meeting where one person talked too much. What happened?',
+      'How can you encourage quiet people to share their perspective?',
+      'When is it a good idea to postpone a decision?',
+      'What would you do if the group could not agree on an alternative?',
+    ],
+  },
+
   vocabulary: [
     { word: 'CONSENSUS', partOfSpeech: 'noun', definition: 'A general agreement among a group.', example: "Let's reach a consensus before we move forward.", imageSlug: img('consensus') },
     { word: 'POSTPONE', partOfSpeech: 'verb', definition: 'To move something to a later time.', example: "We'll postpone the meeting until next week.", imageSlug: img('postpone') },

@@ -15,6 +15,18 @@ export const businessAgreeingDisagreeingPolitely: Lesson = {
     'Use common meeting expressions naturally.',
   ],
 
+  // Discussion: open-ended questions with no right answer.
+  discussion: {
+    questions: [
+      'Is it easy or difficult for you to say "I disagree" at work? Why?',
+      'Who in your team gives the best opinions? Why?',
+      'What is a polite way to say no to a colleague?',
+      'Do you agree with your boss most of the time? Why or why not?',
+      'How do people disagree in your country? Is it polite or direct?',
+      "Tell us about a time you changed your mind after hearing someone's point.",
+    ],
+  },
+
   vocabulary: [
     {
       word: 'AGREE',
