@@ -50,7 +50,7 @@ export const robloxAdjectiveNuance: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Extremely good — so good that it stands out clearly above everything else.",
       example: "Her performance in the final match was outstanding — she made no errors and led the team to victory.",
-      imageSlug: '/images/roblox-adjective-nuance-outstanding.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjective-nuance-in-game-outstanding.png',
     },
     {
       word: 'ASTONISHING',
@@ -78,7 +78,7 @@ export const robloxAdjectiveNuance: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Very bad indeed — much stronger than just bad. Can also mean something that causes fear.",
       example: "The team's coordination in the first round was dreadful — they couldn't agree on anything.",
-      imageSlug: '/images/roblox-adjective-nuance-dreadful.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjective-nuance-in-game-dreadful.png',
     },
     {
       word: 'OVERJOYED',
@@ -109,7 +109,7 @@ export const robloxAdjectiveNuance: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Extremely good — so good that it stands out clearly above everything else.",
       example: "The results from Q4 were outstanding — they exceeded every target the team had set themselves.",
-      imageSlug: '/images/roblox-adjective-nuance-outstanding-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjective-nuance-irl-outstanding.png',
     },
     {
       word: 'ASTONISHING',
@@ -137,7 +137,7 @@ export const robloxAdjectiveNuance: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Very bad indeed — much stronger than just bad.",
       example: "The presentation was dreadful — the slides were unclear, the data was out of date, and nobody had rehearsed.",
-      imageSlug: '/images/roblox-adjective-nuance-dreadful-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjective-nuance-irl-dreadful.png',
     },
     {
       word: 'OVERJOYED',

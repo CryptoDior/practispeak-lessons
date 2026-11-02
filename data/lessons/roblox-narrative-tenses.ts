@@ -36,7 +36,7 @@ export const robloxNarrativeTenses: Lesson = {
       partOfSpeech: 'noun',
       definition: "The order in which things happen — what comes first, second, and third.",
       example: "The sequence of events was clear: the enemy team had made their move, and we were already responding when the signal came.",
-      imageSlug: '/images/roblox-narrative-tenses-sequence.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-narrative-tenses-in-game-sequence.png',
     },
     {
       word: 'BACKGROUND',
@@ -50,7 +50,7 @@ export const robloxNarrativeTenses: Lesson = {
       partOfSpeech: 'verb',
       definition: "To stop something that was already happening — to break in the middle of an ongoing action.",
       example: "We were building our defense when a sudden attack interrupted everything we had planned.",
-      imageSlug: '/images/roblox-narrative-tenses-interrupt.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-narrative-tenses-in-game-interrupt.png',
     },
     {
       word: 'PRIOR',
@@ -95,7 +95,7 @@ export const robloxNarrativeTenses: Lesson = {
       partOfSpeech: 'noun',
       definition: "The order in which things happen — what comes first, second, and third.",
       example: "The manager walked us through the sequence of events that had led to the system failure.",
-      imageSlug: '/images/roblox-narrative-tenses-sequence-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-narrative-tenses-irl-sequence.png',
     },
     {
       word: 'BACKGROUND',
@@ -109,7 +109,7 @@ export const robloxNarrativeTenses: Lesson = {
       partOfSpeech: 'verb',
       definition: "To stop something that was already happening — to break in the middle of an ongoing action.",
       example: "She was presenting the final results when a power outage interrupted the entire conference call.",
-      imageSlug: '/images/roblox-narrative-tenses-interrupt-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-narrative-tenses-irl-interrupt.png',
     },
     {
       word: 'PRIOR',

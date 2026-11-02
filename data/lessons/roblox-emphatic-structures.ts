@@ -43,7 +43,7 @@ export const robloxEmphaticStructures: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "A clear difference between two things — or to show that difference.",
       example: "The contrast between their first match and their last was huge — they had improved in every area.",
-      imageSlug: '/images/roblox-emphatic-structures-contrast.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-emphatic-structures-in-game-contrast.png',
     },
     {
       word: 'HIGHLIGHT',
@@ -57,7 +57,7 @@ export const robloxEmphaticStructures: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Clear and exact — about one particular thing, not general.",
       example: "He was specific about which part of the strategy had failed — it was not the whole plan, just the defense.",
-      imageSlug: '/images/roblox-emphatic-structures-specific.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-emphatic-structures-in-game-specific.png',
     },
     {
       word: 'CLARIFY',
@@ -102,7 +102,7 @@ export const robloxEmphaticStructures: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "A clear difference between two things — or to show that difference.",
       example: "She contrasted last year's results with this year's to show exactly how much the strategy had improved.",
-      imageSlug: '/images/roblox-emphatic-structures-contrast-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-emphatic-structures-irl-contrast.png',
     },
     {
       word: 'HIGHLIGHT',
@@ -116,7 +116,7 @@ export const robloxEmphaticStructures: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Clear and exact — about one particular thing, not general.",
       example: "Can you be more specific about which part of the proposal you'd like us to revise?",
-      imageSlug: '/images/roblox-emphatic-structures-specific-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-emphatic-structures-irl-specific.png',
     },
     {
       word: 'CLARIFY',
