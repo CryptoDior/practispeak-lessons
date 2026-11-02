@@ -20,9 +20,13 @@ import https from 'https';
 import { execSync } from 'child_process';
 import crypto from 'crypto';
 
-const ELEVENLABS_KEY = process.env.ELEVENLABS_API_KEY;
+// Account 2: set  $env:ELEVEN_ACCOUNT=2  (PowerShell) and the key is read from
+// ELEVENLABS_API_KEY_2 in the same .env.local. Anything else uses account 1.
+const ACCOUNT = process.env.ELEVEN_ACCOUNT === '2' ? '2' : '1';
+const ELEVENLABS_KEY = ACCOUNT === '2' ? process.env.ELEVENLABS_API_KEY_2 : process.env.ELEVENLABS_API_KEY;
+console.log(`ElevenLabs account ${ACCOUNT}`);
 if (!ELEVENLABS_KEY) {
-  console.error('Missing ELEVENLABS_API_KEY. Run with: node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs');
+  console.error(`Missing ${ACCOUNT === '2' ? 'ELEVENLABS_API_KEY_2' : 'ELEVENLABS_API_KEY'}. Run with: node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs`);
   process.exit(1);
 }
 
@@ -32,8 +36,15 @@ const VOICES = {
   AMELIA: 'IKne3meq5aSn9XLyUdCD',  // updated voice (narration)
 };
 
-const PRIMARY_MODEL = 'eleven_v3';
-const FALLBACK_MODEL = 'eleven_turbo_v2_5';
+// Eleven v4 (Sep 2026): follows audio tags more reliably, 90+ languages.
+// Settings: Stability + Similarity only (no Style / Speaker Boost), and NO SSML <break>.
+// Override for a one-off test:  TTS_MODEL=eleven_v3 node --env-file=... 
+const PRIMARY_MODEL = process.env.TTS_MODEL || 'eleven_v4';
+// Fallback keeps audio tags (v3 understands them), so tags are NOT stripped for it.
+const FALLBACK_MODEL = 'eleven_v3';
+// A clip already recorded on any of these is kept (never re-billed) when only the
+// model default changes. Re-record a clip by editing its text or deleting it.
+const KEEP_MODELS = new Set(['eleven_v3', 'eleven_v4', PRIMARY_MODEL]);
 
 // Embedded silent MP3 clips (base64) so natural pauses work even when the
 // user's machine doesn't have ffmpeg installed — no external dependency needed.
@@ -43,9 +54,10 @@ const SILENCE_LONG_B64 = 'SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAA
 function voiceSettingsFor(modelId) {
   // Per ElevenLabs' own recommended defaults for eleven_v3 (style + speaker boost
   // included); fallback model just uses the classic two settings.
-  return modelId === PRIMARY_MODEL
-    ? { stability: 0.5, similarity_boost: 0.75, style: 0.0, use_speaker_boost: true }
-    : { stability: 0.5, similarity_boost: 0.75 };
+  if (modelId === 'eleven_v3')
+    return { stability: 0.5, similarity_boost: 0.75, style: 0.0, use_speaker_boost: true };
+  // v4 / v4 Turbo expose only Stability and Similarity.
+  return { stability: 0.5, similarity_boost: 0.75 };
 }
 
 const ROOT = path.resolve('.');
@@ -4302,11 +4314,11 @@ const EPISODES = [
   segs: [
     { s: 'AMELIA',   t: `Episode two. Trigonometric equations, and the general solution.`, pause: 1.2 },
     { s: 'MICHAEL',  t: `Last episode we found the value. Today we find the angle.` },
-    { s: 'TYLA',     t: `That sounds like the same thing backwards.` },
+    { s: 'TYLA',     t: `[curious] That sounds like the same thing backwards.` },
     { s: 'MICHAEL',  t: `It is exactly the same thing backwards, and that is why it is harder.` },
     { s: 'MICHAEL',  t: `Give me an angle and there is one answer. Sine of thirty degrees is one number, and only one.` },
     { s: 'MICHAEL',  t: `Give me the number and ask for the angle, and there are infinitely many.` },
-    { s: 'TYLA',     t: `Infinitely many?` },
+    { s: 'TYLA',     t: `[surprised] Infinitely many?` },
     { s: 'MICHAEL',  t: `Infinitely many. And the exam wants all of them, written on one line.` },
     { s: 'MICHAEL',  t: `Here is why, and the graph is the whole argument.` },
     { s: 'MICHAEL',  t: `That is sine, drawn across two full revolutions.` },
@@ -4327,7 +4339,7 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `One hundred and fifty. Two answers inside one revolution.` },
     { s: 'MICHAEL',  t: `Now the habit that removes most of the mistakes in this topic, and I want you to build it today.` },
     { s: 'MICHAEL',  t: `Whatever the sign of the value, put the positive number into the calculator.` },
-    { s: 'TYLA',     t: `Even when the value is negative?` },
+    { s: 'TYLA',     t: `[curious] Even when the value is negative?` },
     { s: 'MICHAEL',  t: `Especially when the value is negative. The positive number gives you the reference angle.` },
     { s: 'MICHAEL',  t: `Then you use the sign to decide which two quadrants to place it in. Never put a negative into the calculator and hope.` },
     { s: 'TYLA',     t: `Because a negative gives me an angle that is not in the interval.` },
@@ -4336,14 +4348,14 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `f of x is the square root of, six sine squared x, minus eleven cosine of ninety plus x, plus seven.` },
     { s: 'MICHAEL',  t: `Solve for x between zero and three hundred and sixty degrees, if f of x is two.` },
     { s: 'MICHAEL',  t: `Pause it here and try it yourself. You have everything you need.`, pause: 3.0 },
-    { s: 'TYLA',     t: `There is a square root across the whole thing.` },
+    { s: 'TYLA',     t: `[thoughtful] There is a square root across the whole thing.` },
     { s: 'MICHAEL',  t: `So square both sides and it is gone. Two squared is four.` },
     { s: 'MICHAEL',  t: `Six sine squared x, minus eleven cosine of ninety plus x, plus seven, equals four.` },
     { s: 'MICHAEL',  t: `Now a reduction formula from last episode. Cosine of ninety plus x.` },
     { s: 'TYLA',     t: `That is the y axis family, so it swaps to sine. And ninety plus something lands in quadrant two, where cosine is negative.` },
     { s: 'MICHAEL',  t: `Negative sine x. And there is a minus eleven sitting in front of it.` },
     { s: 'TYLA',     t: `Minus eleven times negative sine x is plus eleven sine x.` },
-    { s: 'MICHAEL',  t: `Watch that sign. It is the single most common slip in this question.` },
+    { s: 'MICHAEL',  t: `[serious] Watch that sign. It is the single most common slip in this question.` },
     { s: 'MICHAEL',  t: `So six sine squared x, plus eleven sine x, plus seven, equals four.` },
     { s: 'MICHAEL',  t: `Take the four across. Six sine squared x, plus eleven sine x, plus three, equals zero.` },
     { s: 'TYLA',     t: `That is a quadratic.` },
@@ -4351,7 +4363,7 @@ const EPISODES = [
     { s: 'TYLA',     t: `Three sine x plus one, times two sine x plus three.` },
     { s: 'MICHAEL',  t: `So sine x is negative one third, or sine x is negative three halves.` },
     { s: 'MICHAEL',  t: `Look hard at the second one before you touch your calculator.` },
-    { s: 'TYLA',     t: `Sine can never go below negative one. So there is nothing there.` },
+    { s: 'TYLA',     t: `[thoughtful] Sine can never go below negative one. So there is nothing there.` },
     { s: 'MICHAEL',  t: `No solution. And write that down, because the guideline gives you a mark for saying it.` },
     { s: 'MICHAEL',  t: `Now the one that works. Sine x is negative one third.` },
     { s: 'MICHAEL',  t: `Positive one third into the calculator. Shift, sine, one third.` },
@@ -4375,9 +4387,9 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `November two thousand and nineteen, paper two, question five point four point one. Six marks.` },
     { s: 'MICHAEL',  t: `And I owe you an honest warning about the first line of this one.` },
     { s: 'MICHAEL',  t: `f of x is sine of x plus twenty five, times cosine fifteen, minus cosine of x plus twenty five, times sine fifteen.` },
-    { s: 'TYLA',     t: `That is a lot of brackets.` },
+    { s: 'TYLA',     t: `[soft chuckle] That is a lot of brackets.` },
     { s: 'MICHAEL',  t: `That shape is a compound angle. It is grade twelve, and it belongs to the trigonometry series that starts next episode.` },
-    { s: 'TYLA',     t: `So we skip it?` },
+    { s: 'TYLA',     t: `[curious] So we skip it?` },
     { s: 'MICHAEL',  t: `We borrow the result and we say out loud that we borrowed it. It collapses to sine of, x plus twenty five minus fifteen.` },
     { s: 'MICHAEL',  t: `Which is sine of x plus ten. And from that line downwards, every step is grade eleven, and that is what we are revising.` },
     { s: 'MICHAEL',  t: `So the equation is sine of, x plus ten, equals tangent of one hundred and sixty five degrees.` },
@@ -4391,7 +4403,7 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `One hundred and eighty plus fifteen comma five four is one hundred and ninety five comma five four.` },
     { s: 'MICHAEL',  t: `Three hundred and sixty minus fifteen comma five four is three hundred and forty four comma four six.` },
     { s: 'MICHAEL',  t: `Add k times three hundred and sixty to each. And now stop, because there is a trap here and it costs two marks.` },
-    { s: 'TYLA',     t: `What trap?` },
+    { s: 'TYLA',     t: `[curious] What trap?` },
     { s: 'MICHAEL',  t: `Look at what those numbers are equal to. They are values of x plus ten. Not x.` },
     { s: 'TYLA',     t: `So I have to take the ten off.` },
     { s: 'MICHAEL',  t: `Take the ten off, at the very end, from both families.` },
@@ -4406,21 +4418,21 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `Sine of anything is at its minimum when that anything is two hundred and seventy.` },
     { s: 'TYLA',     t: `So x plus ten is two hundred and seventy.` },
     { s: 'MICHAEL',  t: `And x is two hundred and sixty. Three marks, and the guideline says answers only, full marks.` },
-    { s: 'TYLA',     t: `No working needed?` },
+    { s: 'TYLA',     t: `[surprised] No working needed?` },
     { s: 'MICHAEL',  t: `No working needed. Which tells you the examiner is testing whether you know the shape of the curve. Nothing else.` },
-    { s: 'MICHAEL',  t: `Now the one that catches almost everybody.` },
+    { s: 'MICHAEL',  t: `[serious] Now the one that catches almost everybody.` },
     { s: 'MICHAEL',  t: `Every answer so far has had k times three hundred and sixty on the end. Tangent does not.` },
     { s: 'MICHAEL',  t: `Look at the tangent graph. It runs through its whole shape and starts again after one hundred and eighty degrees.` },
     { s: 'TYLA',     t: `So it repeats twice as often as sine.` },
     { s: 'MICHAEL',  t: `Twice as often. So a tangent equation carries plus k times one hundred and eighty.` },
     { s: 'MICHAEL',  t: `And there is a second gift hiding in that. Because it repeats every one hundred and eighty, you only get one family, not two.` },
-    { s: 'TYLA',     t: `One line instead of two?` },
+    { s: 'TYLA',     t: `[surprised] One line instead of two?` },
     { s: 'MICHAEL',  t: `One line instead of two. Tangent is the easy one, as long as you do not write three hundred and sixty out of habit.` },
     { s: 'MICHAEL',  t: `Last question, and it is the best one in the three papers I read for this episode.` },
     { s: 'MICHAEL',  t: `November two thousand and twenty five, paper two, question six point two. Seven marks.` },
     { s: 'MICHAEL',  t: `Sine squared x, cosine squared x, and a half sine two x, are the first three terms of an arithmetic sequence.` },
     { s: 'MICHAEL',  t: `The constant difference is not zero. Determine the general solution for x.` },
-    { s: 'TYLA',     t: `That is a sequences question.` },
+    { s: 'TYLA',     t: `[curious] That is a sequences question.` },
     { s: 'MICHAEL',  t: `One line of it is. Arithmetic means the gap between consecutive terms is always the same.` },
     { s: 'MICHAEL',  t: `So the second term minus the first equals the third term minus the second.` },
     { s: 'MICHAEL',  t: `Cosine squared x minus sine squared x, equals a half sine two x, minus cosine squared x.` },
@@ -4428,7 +4440,7 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `Put it in, and the half cancels the two.` },
     { s: 'MICHAEL',  t: `Cosine squared x minus sine squared x, equals sine x cosine x, minus cosine squared x.` },
     { s: 'MICHAEL',  t: `Bring it all to one side. Two cosine squared x, minus sine x cosine x, minus sine squared x, equals zero.` },
-    { s: 'TYLA',     t: `Every term is degree two. Can I factorise that?` },
+    { s: 'TYLA',     t: `[thoughtful] Every term is degree two. Can I factorise that?` },
     { s: 'MICHAEL',  t: `You can, and it factorises exactly like a quadratic.` },
     { s: 'MICHAEL',  t: `Two cosine x plus sine x, times cosine x minus sine x, equals zero.` },
     { s: 'MICHAEL',  t: `So either two cosine x equals negative sine x, or cosine x equals sine x.` },
@@ -4442,10 +4454,10 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `And plus k times one hundred and eighty. Not three hundred and sixty.` },
     { s: 'MICHAEL',  t: `Now the second one. Tangent x equals one gives forty five degrees, plus k times one hundred and eighty.` },
     { s: 'TYLA',     t: `So that is the second answer.` },
-    { s: 'MICHAEL',  t: `Read the question again.` },
+    { s: 'MICHAEL',  t: `[quietly] Read the question again.` },
     { s: 'TYLA',     t: `The constant difference is not zero.` },
     { s: 'MICHAEL',  t: `If tangent x is one, then sine x equals cosine x. So sine squared x equals cosine squared x.` },
-    { s: 'TYLA',     t: `Then the first two terms are the same, and the difference is zero.` },
+    { s: 'TYLA',     t: `[thoughtful] Then the first two terms are the same, and the difference is zero.` },
     { s: 'MICHAEL',  t: `Which the question forbids. So forty five plus k times one hundred and eighty has to be thrown out.` },
     { s: 'MICHAEL',  t: `The guideline writes it with a not equals sign. x is not equal to forty five degrees plus k times one hundred and eighty.` },
     { s: 'MICHAEL',  t: `And notice what kind of rejection that is. It is not a root out of range, and it is not a value sine cannot reach.` },
@@ -4465,8 +4477,8 @@ const EPISODES = [
     { s: 'MICHAEL',  t: `Number three. Tangent gives one family. Plus k times one hundred and eighty.` },
     { s: 'MICHAEL',  t: `Number four. Read the sentence. A question that tells you the difference is not zero is telling you to throw an answer away.` },
     { s: 'MICHAEL',  t: `And next time we leave grade eleven behind for good. Trigonometry, episode one. Compound angles.` },
-    { s: 'TYLA',     t: `Finally.` },
-    { s: 'MICHAEL',  t: `Finally. And you are ready for it now.` },
+    { s: 'TYLA',     t: `[relieved] Finally.` },
+    { s: 'MICHAEL',  t: `[warmly] Finally. And you are ready for it now.` },
   ],
   slides: [
     { n:  1, afterSeg:   0, title: `REVISION PART 2 • EPISODE 2 • TRIG EQUATIONS AND THE GENERAL SOLUTION`, onScreen: `EPISODE 2 — TRIG EQUATIONS AND THE GENERAL SOLUTION` },
@@ -4663,7 +4675,7 @@ async function generateAudio(text, voiceId, outputPath) {
     return 'v3';
   } catch (e) {
     console.warn(`  ! ${PRIMARY_MODEL} failed (${e.message.slice(0, 300)}) — retrying with ${FALLBACK_MODEL}`);
-    const buf = await requestTTS(stripTags(text), voiceId, FALLBACK_MODEL);
+    const buf = await requestTTS(text, voiceId, FALLBACK_MODEL);
     fs.writeFileSync(outputPath, buf);
     return 'fallback';
   }
@@ -4836,17 +4848,17 @@ async function generateEpisode(ep, ffmpegAvailable, silenceShort, silenceLong) {
       try { meta = JSON.parse(fs.readFileSync(sidecar, 'utf8')); } catch {}
       if (!meta) {
         // Clip predates hashing — adopt it so existing episodes are not re-recorded.
-        fs.writeFileSync(sidecar, JSON.stringify({ hash: want, model: PRIMARY_MODEL }));
+        fs.writeFileSync(sidecar, JSON.stringify({ hash: want, model: 'eleven_v3' }));
         console.log(`  [${pad(i)}] ${seg.s} — cached (adopted), skipping`);
         continue;
       }
-      if (meta.hash === want && meta.model === PRIMARY_MODEL) {
+      if (meta.hash === want && KEEP_MODELS.has(meta.model) && !meta.fallback) {
         console.log(`  [${pad(i)}] ${seg.s} — cached, skipping`);
         continue;
       }
       const why = meta.hash !== want
         ? 'TEXT CHANGED'
-        : `was ${meta.model}, retrying ${PRIMARY_MODEL}`;
+        : `was ${meta.model}${meta.fallback ? ' (fallback)' : ''}, retrying ${PRIMARY_MODEL}`;
       console.log(`  [${pad(i)}] ${seg.s} — ${why} → re-recording`);
     }
 
@@ -4861,6 +4873,7 @@ async function generateEpisode(ep, ffmpegAvailable, silenceShort, silenceLong) {
       fs.writeFileSync(sidecar, JSON.stringify({
         hash: want,
         model: mode === 'fallback' ? FALLBACK_MODEL : PRIMARY_MODEL,
+        fallback: mode === 'fallback',
       }));
       if (mode === 'fallback') usedFallback++;
     } catch (e) {
