@@ -111,7 +111,7 @@ export default function LessonView({
     : [...withGrammarFocus];
 
   // Business and Everyday English lessons also skip the phrase In Action / Register tabs.
-  const EVERYDAY = ['beauty-', 'shopping-', 'transport-', 'clothes-', 'home-', 'travel-', 'everyday-', 'food-', 'dining-'];
+  const EVERYDAY = ['beauty-', 'shopping-', 'transport-', 'clothes-', 'home-', 'travel-', 'everyday-', 'food-', 'dining-', 'health-at-the-doctor'];
   const hidePhrasalTabs =
     hideExtras || lesson.slug.startsWith('business-') || EVERYDAY.some((p) => lesson.slug.startsWith(p));
   const hasPhrasalDetails = !hidePhrasalTabs && lesson.phrasalVerbs.some(
