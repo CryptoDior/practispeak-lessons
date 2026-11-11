@@ -220,7 +220,7 @@ export default function WordEntryCard({
   const hasSplitExamples = !!(inGame || inRealLife);
 
   return (
-    <div className="font-poppins flex flex-col lg:flex-row gap-5 items-start">
+    <div className="font-poppins flex flex-col lg:flex-row gap-5 items-stretch lg:items-start">
       {/* ---------- Card: vertical text stack ---------- */}
       <div className="flex-1 min-w-0 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-5 sm:p-6 flex flex-col justify-center">
         {/* Word + listen */}
