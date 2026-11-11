@@ -98,10 +98,10 @@ export default function PitchCornerSection({ pitchCorner, onComplete }: Props) {
       </div>
 
       {/* ── Word Bank ── */}
-      <div className="mb-5 bg-[#F8FAFF] rounded-2xl border border-blue-50 p-4">
+      <div className="mb-5 bg-gradient-to-br from-emerald-100 via-[#F6FBE8] to-amber-100 rounded-2xl border border-emerald-200 p-4 shadow-[0_8px_30px_rgba(126,217,87,0.28)]">
         <div className="flex items-center gap-2 mb-3">
           <GridIcon />
-          <span className="text-[10px] font-extrabold tracking-[0.16em] text-gray-400 uppercase">
+          <span className="text-[10px] font-extrabold tracking-[0.16em] text-emerald-700 uppercase">
             Word Bank
           </span>
         </div>

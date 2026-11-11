@@ -494,8 +494,8 @@ export default function LessonView({
       <main id="lesson-content" className="max-w-5xl mx-auto px-4 py-8">
         {/* Welcome back: exercises finished on an earlier visit */}
         {savedEarlier && !welcomeDismissed && activeTab !== exercisesTab && (
-          <div className="mb-6 flex flex-col sm:flex-row sm:items-center gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4">
-            <p className="flex-1 text-[15px] text-amber-900">
+          <div className="mb-6 flex flex-col sm:flex-row sm:items-center gap-3 rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-100 via-[#F6FBE8] to-amber-100 px-5 py-4 shadow-[0_8px_30px_rgba(126,217,87,0.28)]">
+            <p className="flex-1 text-[15px] text-emerald-900">
               <strong>Welcome back!</strong> You&rsquo;ve finished {Object.keys(savedEarlier).length} of {requiredExercises}{' '}
               exercises in this lesson.
             </p>
@@ -513,7 +513,7 @@ export default function LessonView({
                 type="button"
                 onClick={() => setWelcomeDismissed(true)}
                 aria-label="Dismiss"
-                className="rounded-lg p-2 text-amber-700 hover:bg-amber-100"
+                className="rounded-lg p-2 text-emerald-700 hover:bg-white/60"
               >
                 ✕
               </button>

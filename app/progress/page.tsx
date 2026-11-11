@@ -156,7 +156,7 @@ export default async function ProgressPage() {
 
         {/* ---------- Streak + weekly goal ---------- */}
         <section className="mb-8 grid gap-4 md:grid-cols-2">
-          <div className="rounded-2xl border border-[#F9C9BD] bg-gradient-to-br from-[#FFD8CC] via-[#F6E4F0] to-[#D6E4FF] p-5 sm:p-6 shadow-[0_8px_30px_rgba(250,128,114,0.25)]">
+          <div className="rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-100 via-[#F6FBE8] to-amber-100 p-5 sm:p-6 shadow-[0_8px_30px_rgba(126,217,87,0.28)]">
             <p className="font-playfair text-4xl font-semibold text-slate-900">
               <span aria-hidden="true">🔥 </span>
               {streak} {streak === 1 ? 'day' : 'days'}
@@ -174,11 +174,11 @@ export default async function ProgressPage() {
                   <span
                     className={`w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center text-sm font-bold ${
                       d.studied
-                        ? 'bg-gradient-to-br from-[#FA8072] to-blue-500 text-white shadow-[0_0_12px_rgba(250,128,114,0.6)]'
+                        ? 'bg-gradient-to-br from-emerald-400 to-emerald-600 text-white shadow-[0_0_12px_rgba(126,217,87,0.7)]'
                         : d.future
                         ? 'bg-white/60 text-slate-300 border border-white'
-                        : 'bg-white text-slate-400 border border-[#F9C9BD]'
-                    } ${d.isToday ? 'ring-2 ring-[#FA8072] ring-offset-2 ring-offset-[#F6E4F0]' : ''}`}
+                        : 'bg-white text-slate-400 border border-emerald-200'
+                    } ${d.isToday ? 'ring-2 ring-amber-400 ring-offset-2 ring-offset-[#F6FBE8]' : ''}`}
                     title={d.day}
                   >
                     {d.studied ? '✓' : ''}
@@ -189,7 +189,7 @@ export default async function ProgressPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-[0_2px_10px_rgba(15,23,42,0.05)]">
+          <div className="rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-100 via-[#F6FBE8] to-amber-100 p-5 sm:p-6 shadow-[0_8px_30px_rgba(126,217,87,0.28)]">
             <div className="flex flex-wrap items-start justify-between gap-2">
               <div>
                 <p className="font-playfair text-4xl font-semibold text-slate-900">
@@ -201,9 +201,9 @@ export default async function ProgressPage() {
               </div>
               <WeeklyGoalPicker goal={goal} />
             </div>
-            <div className="mt-5 h-3 rounded-full bg-slate-100 overflow-hidden">
+            <div className="mt-5 h-3 rounded-full bg-white/80 overflow-hidden">
               <div
-                className={`h-full rounded-full transition-all ${goalMet ? 'bg-emerald-500' : 'bg-blue-600'}`}
+                className={`h-full rounded-full transition-all ${goalMet ? 'bg-gradient-to-r from-emerald-500 to-amber-400' : 'bg-gradient-to-r from-emerald-400 to-emerald-600'}`}
                 style={{ width: `${Math.min(100, (lessonsThisWeek / goal) * 100)}%` }}
               />
             </div>
@@ -231,7 +231,7 @@ export default async function ProgressPage() {
             {words > 0 && (
               <Link
                 href={due > 0 ? '/dictionary/review' : '/dictionary'}
-                className="flex items-center justify-between gap-3 rounded-2xl border border-blue-200 bg-blue-50/60 px-5 py-4 hover:border-blue-300 hover:shadow-sm transition"
+                className="flex items-center justify-between gap-3 rounded-2xl border border-blue-200 bg-gradient-to-r from-blue-50 to-emerald-50 px-5 py-4 shadow-[0_6px_20px_rgba(6,110,245,0.10)] hover:border-blue-300 hover:shadow-sm transition"
               >
                 <span>
                   <span className="block font-semibold text-slate-900">🧠 Review my words</span>
@@ -247,14 +247,14 @@ export default async function ProgressPage() {
 
         {/* ---------- Continue where you left off ---------- */}
         {continueLessons.length > 0 && (
-          <section className="mb-8 rounded-2xl border border-amber-200 bg-amber-50/60 p-5 sm:p-6">
+          <section className="mb-8 rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-100 via-[#F6FBE8] to-amber-100 p-5 sm:p-6 shadow-[0_8px_30px_rgba(126,217,87,0.28)]">
             <h2 className="font-playfair text-2xl font-semibold text-slate-900 mb-4">Continue where you left off</h2>
             <ul className="grid gap-3 sm:grid-cols-2">
               {continueLessons.map((c) => (
                 <li key={c.slug}>
                   <Link
                     href={c.href}
-                    className="flex items-center justify-between gap-3 rounded-xl border border-amber-200 bg-white px-4 py-3 hover:border-blue-300 hover:shadow-sm transition"
+                    className="flex items-center justify-between gap-3 rounded-xl border border-emerald-200 bg-white/90 px-4 py-3 hover:border-blue-300 hover:shadow-sm transition"
                   >
                     <span className="min-w-0">
                       <span className="block font-medium text-slate-900 truncate">{c.title}</span>

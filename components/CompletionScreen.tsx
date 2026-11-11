@@ -33,7 +33,7 @@ export default function CompletionScreen({ lessonTitle, scores, lessonSlug }: Pr
   }, [lessonSlug, totalScore, totalPossible]);
 
   const getMessage = () => {
-    if (percentage >= 90) return { text: 'Outstanding!', emoji: '🏆', color: 'text-yellow-500' };
+    if (percentage >= 90) return { text: 'Outstanding!', emoji: '🏆', color: 'text-amber-500' };
     if (percentage >= 70) return { text: 'Great Work!', emoji: '🎯', color: 'text-emerald-600' };
     if (percentage >= 50) return { text: 'Good Effort!', emoji: '💪', color: 'text-[#066EF5]' };
     return { text: 'Keep Practicing!', emoji: '📚', color: 'text-orange-500' };
