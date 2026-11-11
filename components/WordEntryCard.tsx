@@ -59,7 +59,30 @@ export function audioSlugOf(text: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-function AudioButton({
+/**
+ * Recorded audio for a word, in the order to try: R2 lesson-specific ({lesson}-{word}),
+ * then the shared names, then the old local /audio files. Words that now use US spelling
+ * may have been recorded under the UK spelling, so both are tried.
+ * suffix '' = the word, '-example' = its example sentence.
+ */
+export function wordAudioSrcs(title: string, audioSlugs: string[], lessonSlug?: string, suffix = ''): string[] {
+  const wordSlug = audioSlugOf(title);
+  const ukWordSlug = ukSlugVariant(wordSlug);
+  const slugsWithUk = audioSlugs.flatMap((s) => {
+    const uk = ukSlugVariant(s);
+    return uk ? [s, uk] : [s];
+  });
+  const r2Bases = [
+    ...(lessonSlug ? [`${lessonSlug}-${wordSlug}`, ...(ukWordSlug ? [`${lessonSlug}-${ukWordSlug}`] : [])] : []),
+    ...slugsWithUk,
+  ];
+  return [
+    ...r2Bases.map((s) => r2Audio(`${s}${suffix}.mp3`)),
+    ...slugsWithUk.map((s) => `/audio/${s}${suffix}.mp3`),
+  ];
+}
+
+export function AudioButton({
   srcs,
   label,
   showLabel = false,
@@ -179,24 +202,8 @@ export default function WordEntryCard({
   lessonSlug,
   source,
 }: WordEntryProps) {
-  // Try R2 first (lesson-specific, then shared names), then the old local /audio files.
-  // Words that now use US spelling may have been recorded under the UK spelling, so try both.
-  const wordSlug = audioSlugOf(title);
-  const ukWordSlug = ukSlugVariant(wordSlug);
-  const slugsWithUk = audioSlugs.flatMap((s) => {
-    const uk = ukSlugVariant(s);
-    return uk ? [s, uk] : [s];
-  });
-  const r2Bases = [
-    ...(lessonSlug ? [`${lessonSlug}-${wordSlug}`, ...(ukWordSlug ? [`${lessonSlug}-${ukWordSlug}`] : [])] : []),
-    ...slugsWithUk,
-  ];
-  const srcsFor = (suffix: string) => [
-    ...r2Bases.map((s) => r2Audio(`${s}${suffix}.mp3`)),
-    ...slugsWithUk.map((s) => `/audio/${s}${suffix}.mp3`),
-  ];
-  const wordSrcs = srcsFor('');
-  const exampleSrcs = srcsFor('-example');
+  const wordSrcs = wordAudioSrcs(title, audioSlugs, lessonSlug);
+  const exampleSrcs = wordAudioSrcs(title, audioSlugs, lessonSlug, '-example');
   const resolvedSrc = resolveImageUrl(imageSlug);
   const [imgSrc, setImgSrc] = useState(resolvedSrc ?? '');
   const [imgFailed, setImgFailed] = useState(!resolvedSrc);

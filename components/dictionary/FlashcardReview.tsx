@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { markStudyDay } from '@/lib/progress';
+import { AudioButton, wordAudioSrcs } from '@/components/WordEntryCard';
 
 export interface ReviewCard {
   id: string;
@@ -12,15 +13,9 @@ export interface ReviewCard {
   example: string | null;
   image: string | null;
   isNew: boolean;
-}
-
-function speak(text: string) {
-  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'en-GB';
-  u.rate = 0.9;
-  window.speechSynthesis.speak(u);
+  /** Recorded-audio names saved with the word (same as in the lesson) */
+  audioSlugs: string[];
+  lessonSlug?: string;
 }
 
 function whenText(iso: string) {
@@ -132,17 +127,13 @@ export default function FlashcardReview({ cards, nextDue }: { cards: ReviewCard[
           )}
           <div className="flex items-center justify-center gap-3">
             <h2 className="font-playfair text-4xl sm:text-5xl font-semibold text-slate-900 break-words">{card.word}</h2>
-            <button
-              type="button"
-              onClick={() => speak(card.word)}
-              aria-label={`Listen to ${card.word}`}
-              className="w-10 h-10 rounded-full border border-slate-200 text-blue-600 hover:bg-blue-50 flex items-center justify-center flex-shrink-0"
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5" aria-hidden="true">
-                <path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4z" strokeLinejoin="round" />
-                <path d="M15.5 9.2a4 4 0 010 5.6M18 6.8a7.5 7.5 0 010 10.4" strokeLinecap="round" />
-              </svg>
-            </button>
+            <span className="w-10 h-10 rounded-full border border-slate-200 hover:bg-blue-50 flex items-center justify-center flex-shrink-0">
+              <AudioButton
+                key={card.id}
+                srcs={wordAudioSrcs(card.word, card.audioSlugs, card.lessonSlug)}
+                label={`Listen to ${card.word}`}
+              />
+            </span>
           </div>
           {card.partOfSpeech && <p className="mt-1 text-sm italic text-slate-500">{card.partOfSpeech}</p>}
         </div>
@@ -160,7 +151,16 @@ export default function FlashcardReview({ cards, nextDue }: { cards: ReviewCard[
               />
             )}
             <p className="text-[17px] text-slate-900 leading-relaxed text-center">{card.definition}</p>
-            {card.example && <p className="mt-3 text-[15px] italic text-slate-600 text-center">&ldquo;{card.example}&rdquo;</p>}
+            {card.example && (
+              <p className="mt-3 flex items-center justify-center gap-3 text-[15px] italic text-slate-600 text-center">
+                <span>&ldquo;{card.example}&rdquo;</span>
+                <AudioButton
+                  key={card.id + '-example'}
+                  srcs={wordAudioSrcs(card.word, card.audioSlugs, card.lessonSlug, '-example')}
+                  label="Listen to example"
+                />
+              </p>
+            )}
           </div>
         ) : (
           <div className="border-t border-slate-100 px-6 py-6 text-center">

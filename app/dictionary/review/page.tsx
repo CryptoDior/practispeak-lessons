@@ -20,7 +20,7 @@ export default async function ReviewPage() {
   // Row Level Security returns only this student's words.
   const { data } = await supabase
     .from('dictionary_entries')
-    .select('id, word, part_of_speech, definition, example, image_slug, review_box')
+    .select('id, word, part_of_speech, definition, example, image_slug, review_box, audio_slugs, lesson_slug')
     .lte('next_review_at', new Date().toISOString())
     .order('next_review_at', { ascending: true })
     .limit(PER_SESSION);
@@ -33,6 +33,8 @@ export default async function ReviewPage() {
     example: r.example,
     image: r.image_slug ? resolveImageUrl(r.image_slug) : null,
     isNew: r.review_box === 0,
+    audioSlugs: r.audio_slugs ?? [],
+    lessonSlug: r.lesson_slug ?? undefined,
   }));
 
   // When the next word is due (shown when nothing is due now)
