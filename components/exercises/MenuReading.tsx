@@ -6,7 +6,14 @@ import { MenuReading as MenuReadingData } from '@/types/lesson';
  * Read the Menu — a menu (or price list) to read, then multiple-choice questions about it.
  * Turn it on for a lesson with  menuReading: { title, sections, questions }
  */
-export default function MenuReading({ menu }: { menu: MenuReadingData }) {
+export default function MenuReading({
+  menu,
+  onMistakes,
+}: {
+  menu: MenuReadingData;
+  /** Question numbers answered wrongly / right (for "Fix your mistakes") */
+  onMistakes?: (wrong: string[], right: string[]) => void;
+}) {
   const [picked, setPicked] = useState<Record<number, number>>({});
   // Keep the menu on screen while the student scrolls through the questions:
   // stick it just below the site header + lesson tabs.
@@ -124,7 +131,11 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
                       key={opt}
                       type="button"
                       disabled={choice !== undefined}
-                      onClick={() => setPicked((p) => ({ ...p, [i]: o }))}
+                      onClick={() => {
+                        setPicked((p) => ({ ...p, [i]: o }));
+                        const key = String(i);
+                        onMistakes?.(o === q.correctIndex ? [] : [key], o === q.correctIndex ? [key] : []);
+                      }}
                       className={`px-4 py-3 rounded-full border-2 text-base font-bold transition-all ${style}`}
                     >
                       {opt}

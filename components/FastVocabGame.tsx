@@ -151,7 +151,14 @@ export default function FastVocabGame({ lessonSets = [] }: { lessonSets?: FastVo
             move on to the next set.
           </p>
         </div>
-        <TopicPicker lessonSets={lessonSets} sets={FASTVOCAB_SETS} onOpen={openSet} round emojiBg="bg-slate-100" />
+        <TopicPicker
+          lessonSets={lessonSets}
+          sets={FASTVOCAB_SETS}
+          onOpen={openSet}
+          round
+          emojiBg="bg-slate-100"
+          myWords={{ pattern: /^[a-z]+(?:[ -][a-z]+)?$/, needsImage: true }}
+        />
       </Shell>
     );
   }

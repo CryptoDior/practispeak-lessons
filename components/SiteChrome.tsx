@@ -4,6 +4,13 @@ import MobileNav from '@/components/MobileNav';
 
 /* ---------- shared inline icons (1.5-1.8px stroke) ---------- */
 
+/** The official Practispeak logo (public/logo.png, transparent background). Set the height; width follows. */
+export function BrandLogo({ className = 'h-12 w-auto' }: { className?: string }) {
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src="/logo.png" alt="Practispeak" width={677} height={499} className={className} />;
+}
+
+/** Small speech-bubble mark (used on coloured buttons, where the full logo would not show up). */
 export function LogoIcon({ className = 'w-9 h-9' }: { className?: string }) {
   return (
     <svg viewBox="0 0 40 40" fill="none" className={className} aria-hidden="true">
@@ -85,7 +92,7 @@ export function SiteHeader({ active = 'Home' }: { active?: string }) {
           href="/"
           className="flex items-center gap-2.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 rounded-lg"
         >
-          <LogoIcon className="w-9 h-9" />
+          <BrandLogo className="h-14 w-auto" />
           <span className="text-xl font-bold text-blue-600 tracking-tight">Practispeak</span>
         </Link>
 

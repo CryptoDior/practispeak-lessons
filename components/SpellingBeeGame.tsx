@@ -138,7 +138,12 @@ export default function SpellingBeeGame({ lessonSets = [] }: { lessonSets?: Spel
             Look at the picture, then spell the word. Type on your keyboard or tap the letters below.
           </p>
         </div>
-        <TopicPicker lessonSets={lessonSets} sets={SPELL_SETS} onOpen={openSet} />
+        <TopicPicker
+          lessonSets={lessonSets}
+          sets={SPELL_SETS}
+          onOpen={openSet}
+          myWords={{ pattern: /^[a-z]+$/, needsImage: true }}
+        />
       </Shell>
     );
   }

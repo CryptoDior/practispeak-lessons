@@ -50,12 +50,15 @@ export default async function DictionaryPage() {
     .order('created_at', { ascending: false });
 
   const entries: DictionaryItem[] = (data ?? []).map((row) => ({ ...row, source: sourceFor(row.lesson_slug) }));
+  // Flashcards due now (next_review_at comes from supabase/007_study_tools.sql)
+  const now = Date.now();
+  const dueCount = (data ?? []).filter((r) => r.next_review_at && new Date(r.next_review_at).getTime() <= now).length;
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F6F8FB]">
       <SiteHeader active="" />
       <main className="flex-1">
-        <DictionaryView entries={entries} />
+        <DictionaryView entries={entries} dueCount={dueCount} />
       </main>
       <SiteFooter />
     </div>

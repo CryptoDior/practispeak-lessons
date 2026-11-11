@@ -1,5 +1,8 @@
 'use client';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useEffect, useRef, useState } from 'react';
+import { recordLessonCompletion } from '@/lib/progress';
 
 interface Score {
   label: string;
@@ -10,12 +13,24 @@ interface Score {
 interface Props {
   lessonTitle: string;
   scores: Score[];
+  /** Saves the result to the user's progress when set */
+  lessonSlug?: string;
 }
 
-export default function CompletionScreen({ lessonTitle, scores }: Props) {
+export default function CompletionScreen({ lessonTitle, scores, lessonSlug }: Props) {
   const totalScore = scores.reduce((sum, s) => sum + s.score, 0);
   const totalPossible = scores.reduce((sum, s) => sum + s.total, 0);
   const percentage = Math.round((totalScore / totalPossible) * 100);
+  const pathname = usePathname();
+
+  // Save once when the score screen appears.
+  const [saveState, setSaveState] = useState<'saving' | 'saved' | 'anon' | 'error' | null>(lessonSlug ? 'saving' : null);
+  const saved = useRef(false);
+  useEffect(() => {
+    if (!lessonSlug || saved.current || totalPossible < 1) return;
+    saved.current = true;
+    recordLessonCompletion(lessonSlug, totalScore, totalPossible).then(setSaveState);
+  }, [lessonSlug, totalScore, totalPossible]);
 
   const getMessage = () => {
     if (percentage >= 90) return { text: 'Outstanding!', emoji: '🏆', color: 'text-yellow-500' };
@@ -43,6 +58,30 @@ export default function CompletionScreen({ lessonTitle, scores }: Props) {
             Total: {totalScore} / {totalPossible} correct
           </p>
         </div>
+
+        {/* Progress saving */}
+        {saveState === 'saved' && (
+          <p className="-mt-2 mb-6 text-sm font-semibold text-emerald-600">
+            ✓ Saved to{' '}
+            <Link href="/progress" className="underline underline-offset-2 hover:text-emerald-700">
+              My Progress
+            </Link>
+          </p>
+        )}
+        {saveState === 'anon' && (
+          <p className="-mt-2 mb-6 text-sm text-gray-500">
+            <Link
+              href={`/login?next=${encodeURIComponent(pathname ?? '/')}`}
+              className="font-bold text-[#066EF5] hover:text-blue-700"
+            >
+              Log in
+            </Link>{' '}
+            to save your progress.
+          </p>
+        )}
+        {saveState === 'error' && (
+          <p className="-mt-2 mb-6 text-sm text-red-500">Couldn’t save your progress this time.</p>
+        )}
 
         {/* Per-exercise breakdown */}
         <div className="space-y-3 mb-8 text-left">

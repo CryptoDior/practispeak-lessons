@@ -7,9 +7,11 @@ const OPTION_LABELS = ['A', 'B', 'C'];
 interface Props {
   exercise: CompleteSentenceExercise;
   onComplete?: (score: number, total: number) => void;
+  /** Question numbers answered wrongly / right (for "Fix your mistakes") */
+  onMistakes?: (wrong: string[], right: string[]) => void;
 }
 
-export default function CompleteSentenceSection({ exercise, onComplete }: Props) {
+export default function CompleteSentenceSection({ exercise, onComplete, onMistakes }: Props) {
   const [answers, setAnswers] = useState<(number | null)[]>(
     () => exercise.items.map(() => null)
   );
@@ -26,7 +28,12 @@ export default function CompleteSentenceSection({ exercise, onComplete }: Props)
   const handleSubmit = useCallback(() => {
     setSubmitted(true);
     onComplete?.(score, exercise.items.length);
-  }, [score, exercise.items.length, onComplete]);
+    const keys = exercise.items.map((_, i) => String(i));
+    onMistakes?.(
+      keys.filter((_, i) => answers[i] !== exercise.items[i].correctIndex),
+      keys.filter((_, i) => answers[i] === exercise.items[i].correctIndex)
+    );
+  }, [score, exercise.items, answers, onComplete, onMistakes]);
 
   const handleReset = () => {
     setAnswers(exercise.items.map(() => null));

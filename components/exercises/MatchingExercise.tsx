@@ -14,11 +14,13 @@ function shuffle<T>(arr: T[]): T[] {
 interface Props {
   pairs: MatchPair[];
   onComplete: (score: number, total: number) => void;
+  /** Question keys answered wrongly / right first time (for "Fix your mistakes") */
+  onMistakes?: (wrong: string[], right: string[]) => void;
 }
 
 type FlashState = { word: string; def: string; correct: boolean } | null;
 
-export default function MatchingExercise({ pairs, onComplete }: Props) {
+export default function MatchingExercise({ pairs, onComplete, onMistakes }: Props) {
   const [shuffledDefs, setShuffledDefs] = useState<string[]>(pairs.map((p) => p.definition));
   useEffect(() => {
     setShuffledDefs(shuffle(pairs.map((p) => p.definition)));
@@ -30,14 +32,21 @@ export default function MatchingExercise({ pairs, onComplete }: Props) {
   const [flash, setFlash] = useState<FlashState>(null);
   const [done, setDone] = useState(false);
   const calledRef = useRef(false);
+  // Words matched wrongly at least once
+  const missedRef = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     if (matched.size === pairs.length && pairs.length > 0 && !calledRef.current) {
       calledRef.current = true;
       setDone(true);
       onComplete(matched.size, pairs.length);
+      const words = pairs.map((p) => p.word);
+      onMistakes?.(
+        words.filter((w) => missedRef.current.has(w)),
+        words.filter((w) => !missedRef.current.has(w))
+      );
     }
-  }, [matched.size, pairs.length, onComplete]);
+  }, [matched.size, pairs, onComplete, onMistakes]);
 
   const handleWordClick = (word: string) => {
     if (done || matched.has(word) || flash) return;
@@ -51,6 +60,7 @@ export default function MatchingExercise({ pairs, onComplete }: Props) {
 
     const correct = pairs.find((p) => p.word === selectedWord)?.definition === def;
     setFlash({ word: selectedWord, def, correct });
+    if (!correct) missedRef.current.add(selectedWord);
 
     setTimeout(() => {
       if (correct) {

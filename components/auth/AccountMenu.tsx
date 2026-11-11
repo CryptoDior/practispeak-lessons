@@ -209,6 +209,16 @@ export default function AccountMenu() {
             </div>
             <div className="my-1 h-px bg-slate-100" />
             <Link
+              href="/progress"
+              onClick={() => setOpen(false)}
+              className={`flex items-center gap-2 rounded-xl px-3 py-2.5 text-sm font-medium text-slate-800 hover:bg-slate-50 transition-colors ${ring}`}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-4 h-4 text-blue-600" aria-hidden="true">
+                <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              My Progress
+            </Link>
+            <Link
               href="/dictionary"
               onClick={() => setOpen(false)}
               className={`flex items-center justify-between gap-3 rounded-xl px-3 py-2.5 text-sm font-medium hover:bg-slate-50 transition-colors ${ring} ${

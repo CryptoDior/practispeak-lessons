@@ -16,6 +16,7 @@ import {
 import LevelRangeSlider from '@/components/LevelRangeSlider';
 import FallbackImage from '@/components/FallbackImage';
 import { usePlan } from '@/lib/supabase/usePlan';
+import { useLessonProgress, percentOf, type LessonResult, type InProgress } from '@/lib/progress';
 import {
   SiteHeader,
   SiteFooter,
@@ -199,10 +200,16 @@ function LessonCard({
   lesson,
   fallbacks,
   isStudent,
+  result,
+  started,
 }: {
   lesson: CategoryLesson;
   fallbacks: string[];
   isStudent: boolean;
+  /** This user's best result, if they've completed the lesson */
+  result?: LessonResult;
+  /** Exercises finished so far, if they've started but not completed it */
+  started?: InProgress;
 }) {
   const band = bandForLevel(lesson.level);
   const srcs = [lesson.heroImage, ...fallbacks].filter(Boolean) as string[];
@@ -230,6 +237,33 @@ function LessonCard({
           <span className="absolute top-2.5 left-2.5 inline-flex items-center gap-1 rounded-lg bg-white/95 border border-slate-200 px-2 py-1 text-[11px] font-semibold text-slate-600 shadow-sm">
             <LockIcon className="w-3.5 h-3.5" />
             Students only
+          </span>
+        )}
+        {result && (
+          <span
+            role="img"
+            aria-label={`Completed, best score ${percentOf(result)}%`}
+            title={`Completed · best score ${percentOf(result)}%`}
+            className="absolute top-2.5 right-2.5 inline-flex items-center gap-1 rounded-full bg-emerald-500 pl-1.5 pr-2 py-1 text-[11px] font-bold text-white shadow-sm"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" className="w-3.5 h-3.5" aria-hidden="true">
+              <path d="M5 12.5l4.5 4.5L19 7.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            {percentOf(result)}%
+          </span>
+        )}
+        {!result && started && (
+          <span
+            role="img"
+            aria-label={`In progress: ${started.done} of ${started.required} exercises done`}
+            title={`In progress · ${started.done} of ${started.required} exercises done`}
+            className="absolute top-2.5 right-2.5 inline-flex items-center gap-1 rounded-full bg-amber-400 pl-1.5 pr-2 py-1 text-[11px] font-bold text-amber-950 shadow-sm"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-3.5 h-3.5" aria-hidden="true">
+              <circle cx="12" cy="12" r="8" />
+              <path d="M12 8v4l2.5 2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            {started.done}/{started.required}
           </span>
         )}
         {!!lesson.missingImages && (
@@ -268,6 +302,8 @@ function CourseSection({
   lessons,
   fallbacks,
   isStudent,
+  completed,
+  inProgress,
   forceExpanded = false,
 }: {
   title: string;
@@ -275,6 +311,8 @@ function CourseSection({
   lessons: CategoryLesson[];
   fallbacks: string[];
   isStudent: boolean;
+  completed: Map<string, LessonResult> | null;
+  inProgress: Map<string, InProgress> | null;
   forceExpanded?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
@@ -292,7 +330,7 @@ function CourseSection({
 
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {shown.map((l) => (
-          <LessonCard key={l.slug} lesson={l} fallbacks={fallbacks} isStudent={isStudent} />
+          <LessonCard key={l.slug} lesson={l} fallbacks={fallbacks} isStudent={isStudent} result={completed?.get(l.slug)} started={inProgress?.get(l.slug)} />
         ))}
       </div>
 
@@ -322,6 +360,13 @@ export default function CategoryView({
 }) {
   // Students can open every lesson, so they don't need the "Students only" tags.
   const isStudent = usePlan() === 'pro';
+  // Logged-in users' completed lessons (null when logged out)
+  const progress = useLessonProgress();
+  const completed = progress?.completed ?? null;
+  const inProgress = progress?.inProgress ?? null;
+  const doneHere = completed ? category.lessons.filter((l) => completed.has(l.slug)).length : 0;
+  const startedHere =
+    completed && inProgress ? category.lessons.filter((l) => !completed.has(l.slug) && inProgress.has(l.slug)).length : 0;
   const [search, setSearch] = useState('');
   const [levelRange, setLevelRange] = useState<[number, number]>([LEVEL_MIN, LEVEL_MAX]);
 
@@ -470,6 +515,28 @@ export default function CategoryView({
           </div>
         )}
 
+        {/* ---------- Your progress in this category ---------- */}
+        {completed && (
+          <div className="mb-8 rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-[0_2px_10px_rgba(15,23,42,0.05)]">
+            <div className="flex items-center justify-between gap-3 text-sm">
+              <span className="font-semibold text-slate-800">Your progress</span>
+              <span className="text-slate-600">
+                <strong className="text-slate-900">{doneHere}</strong> of {category.lessons.length} lessons completed
+                {startedHere > 0 && <span className="text-amber-700"> · {startedHere} in progress</span>}
+                <Link href="/progress" className="ml-3 font-semibold text-blue-600 hover:text-blue-700">
+                  My Progress →
+                </Link>
+              </span>
+            </div>
+            <div className="mt-2.5 h-2 rounded-full bg-slate-100 overflow-hidden">
+              <div
+                className="h-full rounded-full bg-emerald-500 transition-all duration-500"
+                style={{ width: `${category.lessons.length ? (doneHere / category.lessons.length) * 100 : 0}%` }}
+              />
+            </div>
+          </div>
+        )}
+
         {/* ---------- Course sections ---------- */}
         {sections.map(({ band, lessons: ls }) => (
           <CourseSection
@@ -479,6 +546,8 @@ export default function CategoryView({
             lessons={ls}
             fallbacks={[category.image, category.stockImage]}
             isStudent={isStudent}
+            completed={completed}
+            inProgress={inProgress}
             forceExpanded={filtersActive || (returnSlug != null && ls.some((l) => l.slug === returnSlug))}
           />
         ))}

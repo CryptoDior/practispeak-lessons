@@ -5,11 +5,13 @@ import { MultipleChoiceItem } from '@/types/lesson';
 interface Props {
   items: MultipleChoiceItem[];
   onComplete: (score: number, total: number) => void;
+  /** Question keys answered wrongly / right first time (for "Fix your mistakes") */
+  onMistakes?: (wrong: string[], right: string[]) => void;
 }
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
-export default function MultipleChoiceExercise({ items, onComplete }: Props) {
+export default function MultipleChoiceExercise({ items, onComplete, onMistakes }: Props) {
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [submitted, setSubmitted] = useState(false);
 
@@ -22,6 +24,11 @@ export default function MultipleChoiceExercise({ items, onComplete }: Props) {
     const score = items.filter((item, i) => answers[i] === item.correctIndex).length;
     setSubmitted(true);
     onComplete(score, items.length);
+    const keys = items.map((_, i) => String(i));
+    onMistakes?.(
+      keys.filter((_, i) => answers[i] !== items[i].correctIndex),
+      keys.filter((_, i) => answers[i] === items[i].correctIndex)
+    );
   };
 
   const allAnswered = items.every((_, i) => answers[i] !== undefined);

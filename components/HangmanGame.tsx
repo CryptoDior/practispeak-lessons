@@ -169,7 +169,13 @@ export default function HangmanGame({ lessonSets = [] }: { lessonSets?: HangmanS
             over. Type on your keyboard or tap the letters.
           </p>
         </div>
-        <TopicPicker lessonSets={lessonSets} sets={HANGMAN_SETS} onOpen={openSet} emojiBg="bg-slate-100" />
+        <TopicPicker
+          lessonSets={lessonSets}
+          sets={HANGMAN_SETS}
+          onOpen={openSet}
+          emojiBg="bg-slate-100"
+          myWords={{ pattern: /^[a-z]+$/, needsImage: false }}
+        />
       </Shell>
     );
   }

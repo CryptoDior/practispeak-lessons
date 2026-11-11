@@ -22,7 +22,7 @@ export interface DictionaryItem {
 }
 
 /** The student's saved words: search, filter by category, listen, open the lesson, remove. */
-export default function DictionaryView({ entries }: { entries: DictionaryItem[] }) {
+export default function DictionaryView({ entries, dueCount = 0 }: { entries: DictionaryItem[]; dueCount?: number }) {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState<string>('all');
 
@@ -50,6 +50,42 @@ export default function DictionaryView({ entries }: { entries: DictionaryItem[] 
               : `${entries.length} saved ${entries.length === 1 ? 'word' : 'words'} — with meanings, examples and audio.`}
           </p>
         </header>
+
+        {entries.length > 0 && (
+          <div className="mb-6 flex flex-col sm:flex-row sm:items-center gap-3 rounded-2xl border border-blue-200 bg-blue-50 px-5 py-4">
+            <p className="flex-1 text-[15px] text-blue-950">
+              <span aria-hidden="true">🧠 </span>
+              {dueCount > 0 ? (
+                <>
+                  <strong>
+                    {dueCount} {dueCount === 1 ? 'word' : 'words'} to review
+                  </strong>{' '}
+                  today with flashcards.
+                </>
+              ) : (
+                <>
+                  <strong>All caught up!</strong> No words to review right now.
+                </>
+              )}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {dueCount > 0 && (
+                <Link
+                  href="/dictionary/review"
+                  className="rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"
+                >
+                  Review now →
+                </Link>
+              )}
+              <Link
+                href="/games"
+                className="rounded-xl border border-blue-200 bg-white px-4 py-2 text-sm font-semibold text-blue-700 hover:border-blue-400"
+              >
+                Play games with my words
+              </Link>
+            </div>
+          </div>
+        )}
 
         {entries.length === 0 ? (
           <div className="rounded-2xl border border-dashed border-slate-300 bg-white px-6 py-12 text-center">

@@ -39,9 +39,11 @@ function CheckIcon() {
 interface Props {
   items: FillBlankItem[];
   onComplete: (score: number, total: number) => void;
+  /** Question keys answered wrongly / right first time (for "Fix your mistakes") */
+  onMistakes?: (wrong: string[], right: string[]) => void;
 }
 
-export default function FillBlankExercise({ items, onComplete }: Props) {
+export default function FillBlankExercise({ items, onComplete, onMistakes }: Props) {
   // Hydration-safe shuffle
   const [wordBank, setWordBank] = useState<string[]>(items.map((i) => i.answer));
   useEffect(() => {
@@ -61,6 +63,8 @@ export default function FillBlankExercise({ items, onComplete }: Props) {
   const [shakingWord, setShakingWord] = useState<{ index: number; word: string } | null>(null);
 
   const calledRef = useRef(false);
+  // Sentences where a wrong word was tried at least once
+  const missedRef = useRef<Set<number>>(new Set());
   const usedWords = new Set(Object.values(placements));
   const completedCount = Object.keys(placements).length;
 
@@ -72,6 +76,7 @@ export default function FillBlankExercise({ items, onComplete }: Props) {
     if (isCorrect) {
       setPlacements((prev) => ({ ...prev, [index]: word }));
     } else {
+      missedRef.current.add(index);
       setShakingWord({ index, word });
       setTimeout(() => setShakingWord(null), 600);
     }
@@ -84,8 +89,13 @@ export default function FillBlankExercise({ items, onComplete }: Props) {
     if (completedCount === items.length && items.length > 0 && !calledRef.current) {
       calledRef.current = true;
       onComplete(items.length, items.length);
+      const keys = items.map((_, i) => String(i));
+      onMistakes?.(
+        keys.filter((_, i) => missedRef.current.has(i)),
+        keys.filter((_, i) => !missedRef.current.has(i))
+      );
     }
-  }, [completedCount, items.length, onComplete]);
+  }, [completedCount, items, onComplete, onMistakes]);
 
   const handleReset = () => {
     setPlacements({});
@@ -94,6 +104,7 @@ export default function FillBlankExercise({ items, onComplete }: Props) {
     setDragWord(null);
     setDragOver(null);
     calledRef.current = false;
+    missedRef.current = new Set();
   };
 
   const isActive = selectedWord !== null || dragWord !== null;

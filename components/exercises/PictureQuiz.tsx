@@ -46,6 +46,7 @@ export default function PictureQuiz({
   lessonSlug,
   skip = [],
   customOptions,
+  onMistakes,
 }: {
   vocabulary: VocabWord[];
   lessonSlug: string;
@@ -53,6 +54,8 @@ export default function PictureQuiz({
   skip?: string[];
   /** Hand-written wrong answers per word (keys are the vocabulary words). */
   customOptions?: Record<string, string[]>;
+  /** Words answered wrongly / right (for "Fix your mistakes") */
+  onMistakes?: (wrong: string[], right: string[]) => void;
 }) {
   const questions = useMemo(() => {
     const skipSet = new Set(skip.map((s) => s.toUpperCase()));
@@ -107,7 +110,10 @@ export default function PictureQuiz({
                         key={opt}
                         type="button"
                         disabled={!!choice}
-                        onClick={() => setPicked((p) => ({ ...p, [i]: opt }))}
+                        onClick={() => {
+                          setPicked((p) => ({ ...p, [i]: opt }));
+                          onMistakes?.(isRight ? [] : [q.answer], isRight ? [q.answer] : []);
+                        }}
                         className={`flex items-center gap-2 px-4 py-3 rounded-full border-2 text-base font-bold transition-all ${style}`}
                       >
                         <span className="text-gray-400 font-extrabold">{LETTERS[o]})</span>

@@ -4,7 +4,14 @@ import NameThis from '@/components/exercises/NameThis';
 import MenuReading from '@/components/exercises/MenuReading';
 import PracticeTimeSection from '@/components/PracticeTimeSection';
 import { audioSources, playFirstWorking } from '@/lib/audio';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
+import {
+  saveExerciseProgress,
+  loadSavedExercises,
+  recordMistakes,
+  type ExerciseKey,
+  type SavedExercises,
+} from '@/lib/progress';
 import Link from 'next/link';
 import { Lesson, LessonVideo } from '@/types/lesson';
 import { bandForLevel } from '@/lib/levels';
@@ -158,6 +165,74 @@ export default function LessonView({
   const [completeSentenceDone, setCompleteSentenceDone] = useState(false);
   const [showCompletion, setShowCompletion] = useState(false);
 
+  /* ---------- Progress: save each exercise, and resume where the student left off ---------- */
+  const requiredExercises = 3 + (hasPitchCorner ? 1 : 0) + (hasCompleteSentence ? 1 : 0);
+  const [savedEarlier, setSavedEarlier] = useState<SavedExercises | null>(null);
+  const [redone, setRedone] = useState<Set<ExerciseKey>>(new Set());
+  const [welcomeDismissed, setWelcomeDismissed] = useState(false);
+  const exercisesTab = TABS.findIndex((t) => t === 'Exercises');
+
+  useEffect(() => {
+    let cancelled = false;
+    loadSavedExercises(lesson.slug).then((ex) => {
+      if (cancelled || !ex) return;
+      setSavedEarlier(ex);
+      // Count earlier results, so finishing the remaining exercises leads to the final score.
+      setScores((prev) => ({ ...ex, ...prev }));
+      if (ex.pitchCorner) setPitchCornerDone(true);
+      if (ex.completeSentence) setCompleteSentenceDone(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [lesson.slug]);
+
+  const exerciseDone = useCallback(
+    (key: ExerciseKey, score: number, total: number) => {
+      setRedone((prev) => new Set(prev).add(key));
+      saveExerciseProgress(lesson.slug, key, score, total, requiredExercises);
+    },
+    [lesson.slug, requiredExercises]
+  );
+
+  // Wrong answers go to "Fix your mistakes" (My Progress); right answers clear old mistakes.
+  const matchingMistakes = useCallback(
+    (wrong: string[], right: string[]) => recordMistakes(lesson.slug, 'matching', wrong, right),
+    [lesson.slug]
+  );
+  const fillBlankMistakes = useCallback(
+    (wrong: string[], right: string[]) => recordMistakes(lesson.slug, 'fillBlank', wrong, right),
+    [lesson.slug]
+  );
+  const multipleChoiceMistakes = useCallback(
+    (wrong: string[], right: string[]) => recordMistakes(lesson.slug, 'multipleChoice', wrong, right),
+    [lesson.slug]
+  );
+
+  const pictureQuizMistakes = useCallback(
+    (wrong: string[], right: string[]) => recordMistakes(lesson.slug, 'pictureQuiz', wrong, right),
+    [lesson.slug]
+  );
+  const completeSentenceMistakes = useCallback(
+    (wrong: string[], right: string[]) => recordMistakes(lesson.slug, 'completeSentence', wrong, right),
+    [lesson.slug]
+  );
+  const menuReadingMistakes = useCallback(
+    (wrong: string[], right: string[]) => recordMistakes(lesson.slug, 'menuReading', wrong, right),
+    [lesson.slug]
+  );
+
+  /** "Done earlier" note above an exercise finished on a previous visit. */
+  const doneEarlier = (key: ExerciseKey) => {
+    const r = savedEarlier?.[key];
+    if (!r || redone.has(key)) return null;
+    return (
+      <p className="mb-3 inline-flex items-center gap-1.5 rounded-lg bg-emerald-50 border border-emerald-200 px-3 py-1.5 text-sm font-semibold text-emerald-700">
+        ✓ Done earlier: {r.score}/{r.total} — do it again to improve, or move on
+      </p>
+    );
+  };
+
   const goToTab = (i: number) => {
     if (i < 0 || i >= TABS.length) return;
     setActiveTab(i);
@@ -177,24 +252,29 @@ export default function LessonView({
   const handlePitchCornerComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, pitchCorner: { score, total } }));
     setPitchCornerDone(true);
-  }, []);
+    exerciseDone('pitchCorner', score, total);
+  }, [exerciseDone]);
 
   const handleCompleteSentenceComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, completeSentence: { score, total } }));
     setCompleteSentenceDone(true);
-  }, []);
+    exerciseDone('completeSentence', score, total);
+  }, [exerciseDone]);
 
   const handleMatchingComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, matching: { score, total } }));
-  }, []);
+    exerciseDone('matching', score, total);
+  }, [exerciseDone]);
 
   const handleFillBlankComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, fillBlank: { score, total } }));
-  }, []);
+    exerciseDone('fillBlank', score, total);
+  }, [exerciseDone]);
 
   const handleMultipleChoiceComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, multipleChoice: { score, total } }));
-  }, []);
+    exerciseDone('multipleChoice', score, total);
+  }, [exerciseDone]);
 
   const allDone = !!(scores.matching && scores.fillBlank && scores.multipleChoice) &&
     (!hasPitchCorner || !!scores.pitchCorner) &&
@@ -209,6 +289,7 @@ export default function LessonView({
         <SiteHeader active="Categories" />
         <CompletionScreen
           lessonTitle={lesson.title}
+          lessonSlug={lesson.slug}
           scores={[
             ...(scores.pitchCorner ? [{ label: 'Pitch Corner', score: scores.pitchCorner.score, total: scores.pitchCorner.total }] : []),
             ...(scores.completeSentence ? [{ label: 'Complete the Sentence', score: scores.completeSentence.score, total: scores.completeSentence.total }] : []),
@@ -411,6 +492,34 @@ export default function LessonView({
       </div>
 
       <main id="lesson-content" className="max-w-5xl mx-auto px-4 py-8">
+        {/* Welcome back: exercises finished on an earlier visit */}
+        {savedEarlier && !welcomeDismissed && activeTab !== exercisesTab && (
+          <div className="mb-6 flex flex-col sm:flex-row sm:items-center gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4">
+            <p className="flex-1 text-[15px] text-amber-900">
+              <strong>Welcome back!</strong> You&rsquo;ve finished {Object.keys(savedEarlier).length} of {requiredExercises}{' '}
+              exercises in this lesson.
+            </p>
+            <div className="flex items-center gap-2">
+              {exercisesTab >= 0 && (
+                <button
+                  type="button"
+                  onClick={() => goToTab(exercisesTab)}
+                  className="rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"
+                >
+                  Continue exercises →
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={() => setWelcomeDismissed(true)}
+                aria-label="Dismiss"
+                className="rounded-lg p-2 text-amber-700 hover:bg-amber-100"
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Warm Up */}
         {lesson.warmUp && (
@@ -494,7 +603,7 @@ export default function LessonView({
         {hasPictureQuiz && (
           <section className={activeTab === TABS.indexOf('Picture Quiz') ? 'block' : 'hidden'}>
             <SectionHeader title="Picture Quiz" subtitle="Look at the picture and choose the right word" />
-            <PictureQuiz vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} skip={lesson.pictureQuizSkip} customOptions={lesson.pictureQuizOptions} />
+            <PictureQuiz vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} skip={lesson.pictureQuizSkip} customOptions={lesson.pictureQuizOptions} onMistakes={pictureQuizMistakes} />
           </section>
         )}
 
@@ -652,7 +761,7 @@ export default function LessonView({
         {lesson.menuReading && (
           <section className={activeTab === TABS.indexOf('Read the Menu') ? 'block' : 'hidden'}>
             <SectionHeader title="Read the Menu" subtitle="Read the menu, then answer the questions" />
-            <MenuReading menu={lesson.menuReading} />
+            <MenuReading menu={lesson.menuReading} onMistakes={menuReadingMistakes} />
           </section>
         )}
 
@@ -678,22 +787,27 @@ export default function LessonView({
           <div className="space-y-6">
             {lesson.pitchCorner && (
               <ExerciseCard number={1} title="Pitch Corner" description="Read the pitch — click or drag words from the bank to fill the gaps.">
+                {doneEarlier('pitchCorner')}
                 <PitchCornerSection pitchCorner={lesson.pitchCorner} onComplete={handlePitchCornerComplete} />
               </ExerciseCard>
             )}
             {lesson.completeSentenceExercise && (
               <ExerciseCard number={1} title="Complete the Sentence" description="Choose the correct answer to complete each sentence.">
-                <CompleteSentenceSection exercise={lesson.completeSentenceExercise} onComplete={handleCompleteSentenceComplete} />
+                {doneEarlier('completeSentence')}
+                <CompleteSentenceSection exercise={lesson.completeSentenceExercise} onComplete={handleCompleteSentenceComplete} onMistakes={completeSentenceMistakes} />
               </ExerciseCard>
             )}
             <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
-              <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} />
+              {doneEarlier('matching')}
+              <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} onMistakes={matchingMistakes} />
             </ExerciseCard>
             <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 3 : 2} title="Fill in the Blank" description="Drag the correct words from the word bank to complete each sentence.">
-              <FillBlankExercise items={lesson.fillBlankExercise} onComplete={handleFillBlankComplete} />
+              {doneEarlier('fillBlank')}
+              <FillBlankExercise items={lesson.fillBlankExercise} onComplete={handleFillBlankComplete} onMistakes={fillBlankMistakes} />
             </ExerciseCard>
             <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 4 : 3} title="Multiple Choice" description="Choose the best answer for each question about the dialogue.">
-              <MultipleChoiceExercise items={lesson.multipleChoiceExercise} onComplete={handleMultipleChoiceComplete} />
+              {doneEarlier('multipleChoice')}
+              <MultipleChoiceExercise items={lesson.multipleChoiceExercise} onComplete={handleMultipleChoiceComplete} onMistakes={multipleChoiceMistakes} />
             </ExerciseCard>
             {allDone && (
               <div className="text-center py-4">

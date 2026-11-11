@@ -1,6 +1,64 @@
 'use client';
 import { useEffect, useState } from 'react';
 import type { GameSet } from '@/data/gameTypes';
+import { createClient } from '@/lib/supabase/client';
+import { resolveImageUrl } from '@/lib/images';
+
+/** Which saved words a game can use: `pattern` (e.g. single words only) and whether it needs pictures. */
+export interface MyWordsOptions {
+  pattern: RegExp;
+  needsImage: boolean;
+}
+
+const MY_WORDS_MIN = 4;
+const MY_WORDS_MAX = 15;
+
+/**
+ * A topic made from the student's own My Dictionary words (logged-in students only).
+ * null while loading, when logged out, or with fewer than 4 usable words.
+ */
+function useMyWordsSet(opts: MyWordsOptions | undefined): GameSet | null {
+  const [set, setSet] = useState<GameSet | null>(null);
+  const pattern = opts?.pattern.source;
+  const needsImage = opts?.needsImage;
+  useEffect(() => {
+    if (!pattern || !process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) return;
+    const re = new RegExp(pattern);
+    let cancelled = false;
+    (async () => {
+      const supabase = createClient();
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+      if (!user || cancelled) return;
+      // Row Level Security returns only this student's words.
+      const { data } = await supabase.from('dictionary_entries').select('word, image_slug');
+      if (cancelled || !data) return;
+      const seen = new Set<string>();
+      const items = data
+        .map((r) => ({ word: (r.word as string).trim().toLowerCase(), image: r.image_slug ? resolveImageUrl(r.image_slug) : null }))
+        .filter((r) => re.test(r.word) && (!needsImage || r.image) && !seen.has(r.word) && seen.add(r.word))
+        .map((r) => ({ word: r.word, image: r.image ?? '', scene: '⭐', fit: 'contain' as const }));
+      if (items.length < MY_WORDS_MIN) return;
+      // A different mix of up to 15 words each time
+      for (let i = items.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [items[i], items[j]] = [items[j], items[i]];
+      }
+      setSet({
+        id: 'my-dictionary',
+        label: 'My Dictionary',
+        blurb: 'Words you saved from lessons.',
+        items: items.slice(0, MY_WORDS_MAX),
+        group: 'My Dictionary',
+      });
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [pattern, needsImage]);
+  return set;
+}
 
 /**
  * Game picture with an emoji fallback. fit="contain" (lesson pictures) shows the whole image,
@@ -90,6 +148,7 @@ export function TopicPicker<T extends GameSet>({
   onOpen,
   round = false,
   emojiBg = 'bg-amber-50',
+  myWords,
 }: {
   lessonSets: T[];
   sets: T[];
@@ -98,11 +157,23 @@ export function TopicPicker<T extends GameSet>({
   round?: boolean;
   /** background behind the emoji icons */
   emojiBg?: string;
+  /** Also offer a topic made from the student's saved words */
+  myWords?: MyWordsOptions;
 }) {
   const open = onOpen as (s: GameSet) => void;
+  const mySet = useMyWordsSet(myWords);
   const groups = Array.from(new Set(lessonSets.map((s) => s.group ?? 'Lesson words')));
   return (
     <>
+      {mySet && (
+        <section className="mb-10">
+          <p className="text-center text-sm font-semibold text-slate-500 mb-1">Your words</p>
+          <h2 className="text-center font-playfair text-2xl font-semibold text-slate-900 mb-4">My Dictionary</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <TopicCard s={mySet} onOpen={open} round={round} emojiBg={emojiBg} />
+          </div>
+        </section>
+      )}
       {groups.map((group) => (
         <section key={group} className="mb-10">
           <p className="text-center text-sm font-semibold text-slate-500 mb-1">From your lessons</p>
